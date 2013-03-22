@@ -1,0 +1,646 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Ivica Kolić<ikoli@yahoo.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: PisiLinux\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-01-14 15:16+0200\n"
+"PO-Revision-Date: 2013-01-04 21:45+0000\n"
+"Last-Translator: circass <erdincgultekin@gmail.com>\n"
+"Language-Team: Croatian (https://www.transifex.com/projects/p/PiSiLinux/language/hr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: .tmp/ui_kaptan.py:357 .tmp/kaptan.desktop.in.h:1
+msgid "Kaptan"
+msgstr "Kaptan"
+
+#: .tmp/ui_kaptan.py:358
+msgid "Welcome to Pisi Linux"
+msgstr "Dobrodošli u Pisi Linux"
+
+#: .tmp/ui_kaptan.py:359
+msgid "Cancel"
+msgstr "Odgodi"
+
+#: .tmp/ui_kaptan.py:360
+msgid "Back"
+msgstr "Nazad"
+
+#: .tmp/ui_kaptan.py:361
+msgid "Next"
+msgstr "Slijedeće"
+
+#: .tmp/ui_kaptan.py:362
+msgid "Finish"
+msgstr "Završi"
+
+#: .tmp/ui_kaptan.py:363
+msgid "Apply Settings"
+msgstr "Primjeni postavke"
+
+#: .tmp/scrSmolt.py:31 .tmp/ui_scrSmolt.py:154
+msgid "Smolt"
+msgstr "Smolt"
+
+#: .tmp/scrSmolt.py:32
+msgid "Help Pisi Linux Improve!"
+msgstr "Pomozi da  se Pisi Linux poboljša!"
+
+#: .tmp/scrSmolt.py:68
+msgid "Label"
+msgstr "Natpis"
+
+#: .tmp/scrSmolt.py:69
+msgid "Data"
+msgstr "Podaci"
+
+#: .tmp/scrSmolt.py:108
+msgid "&Host Information"
+msgstr "& Informacije o računalu"
+
+#: .tmp/scrSmolt.py:111 .tmp/ui_scrSmolt.py:158
+msgid "&Privacy policy"
+msgstr "&Pravila privatnosti"
+
+#: .tmp/scrSmolt.py:114
+msgid "UUID"
+msgstr "UUID"
+
+#: .tmp/scrSmolt.py:115
+msgid "OS"
+msgstr "OS"
+
+#: .tmp/scrSmolt.py:116
+msgid "Default Run Level"
+msgstr "Zadana razina pokretanja"
+
+#: .tmp/scrSmolt.py:117
+msgid "Language"
+msgstr "Jezik"
+
+#: .tmp/scrSmolt.py:118
+msgid "Platform"
+msgstr "Platforma"
+
+#: .tmp/scrSmolt.py:119
+msgid "BogoMIPS"
+msgstr "BogoMIPS"
+
+#: .tmp/scrSmolt.py:120
+msgid "CPU Vendor"
+msgstr "CPU isporučitelj"
+
+#: .tmp/scrSmolt.py:121
+msgid "CPU Model"
+msgstr "Model procesora"
+
+#: .tmp/scrSmolt.py:122
+msgid "CPU Stepping"
+msgstr ""
+
+#: .tmp/scrSmolt.py:123
+msgid "CPU Family"
+msgstr "Obitelj procesora"
+
+#: .tmp/scrSmolt.py:124
+msgid "CPU Model Num"
+msgstr "Broj modela procesora"
+
+#: .tmp/scrSmolt.py:125
+msgid "Number of CPUs"
+msgstr "Broj procesora"
+
+#: .tmp/scrSmolt.py:126
+msgid "CPU Speed"
+msgstr "Brzina procesora"
+
+#: .tmp/scrSmolt.py:127
+msgid "System Memory"
+msgstr "Memorija sustava"
+
+#: .tmp/scrSmolt.py:128
+msgid "System Swap"
+msgstr "Swap sustava"
+
+#: .tmp/scrSmolt.py:129
+msgid "Vendor"
+msgstr "Isporučitelj"
+
+#: .tmp/scrSmolt.py:130
+msgid "System"
+msgstr "Sustav"
+
+#: .tmp/scrSmolt.py:131
+msgid "Form Factor"
+msgstr ""
+
+#: .tmp/scrSmolt.py:132
+msgid "Kernel"
+msgstr "Kernel"
+
+#: .tmp/scrSmolt.py:133
+msgid "SELinux Enabled"
+msgstr "SELinux omogućen"
+
+#: .tmp/scrSmolt.py:134
+msgid "SELinux Policy"
+msgstr "SELinux pravila"
+
+#: .tmp/scrSmolt.py:135
+msgid "SELinux Enforce"
+msgstr ""
+
+#: .tmp/scrSmolt.py:148
+msgid "Yes"
+msgstr "Da"
+
+#: .tmp/scrSmolt.py:150
+msgid "No"
+msgstr "Ne"
+
+#: .tmp/ui_scrStyle.py:236 .tmp/scrStyle.py:37
+msgid "Themes"
+msgstr "Teme"
+
+#: .tmp/ui_scrStyle.py:237
+msgid ""
+"Choose your favorite theme and desktop type. Customize Pisi Linux with colorful "
+"styles and themes."
+msgstr "Odaberite vašu omiljenu temu i vrstu radne površine.Prolagodite Pisi Linux razovrsnim stilovima i temama."
+
+#: .tmp/ui_scrStyle.py:238
+msgid "KDE Themes"
+msgstr "KDE teme"
+
+#: .tmp/ui_scrStyle.py:239
+msgid "Icons"
+msgstr "Ikone"
+
+#: .tmp/ui_scrStyle.py:242
+msgid "Oxygen - The official icon set of KDE"
+msgstr "Oxygen - službeni skup KDE ikona "
+
+#: .tmp/ui_scrStyle.py:243
+msgid "Milky - The official icon set of Pisi Linux"
+msgstr "Milky - službeni skup ikona za Pisi Linux"
+
+#: .tmp/ui_scrStyle.py:245
+msgid "Desktop Type"
+msgstr "Tip radne površine"
+
+#: .tmp/ui_scrStyle.py:246
+msgid "Desktop view (KDE4 Style)"
+msgstr "Pogled radne površine (KDE4 stil)"
+
+#: .tmp/ui_scrStyle.py:247
+msgid "Folder view (KDE3 Style)"
+msgstr "Pogled mape (KDE3 stil)"
+
+#: .tmp/ui_scrStyle.py:248
+msgid "Number of Desktops"
+msgstr "Broj radnih površina"
+
+#: .tmp/scrPackage.py:28 .tmp/ui_scrPackage.py:132
+msgid "Packages"
+msgstr "Paketi"
+
+#: .tmp/scrPackage.py:29
+msgid "Install / Remove Programs"
+msgstr "Instaliraj/ukloni programe"
+
+#: .tmp/ui_scrSummary.py:85 .tmp/scrSummary.py:35
+msgid "Summary"
+msgstr "Sažetak"
+
+#: .tmp/ui_scrSummary.py:86
+msgid ""
+"You have successfully finished all steps. Here's a summary of the settings "
+"you want to apply. Click <b>Apply Settings</b> to save them now. You are now"
+" ready to enjoy Pisi Linux!"
+msgstr "Uspješno ste završili sve korake.Ovo je sažetak postavki koje želite primjeniti.Kliknite <b>Primjeni postavke</b> da biste ih spremili.Sada ste spremni ste uživati u Pisi Linuxu!"
+
+#: .tmp/ui_scrSummary.py:87
+msgid "The following settings will be applied"
+msgstr "Slijedeće postavke će biti primjenjene"
+
+#: .tmp/scrMouse.py:29 .tmp/ui_scrMouse.py:202
+msgid "Mouse"
+msgstr "Miš"
+
+#: .tmp/scrMouse.py:30
+msgid "Setup Mouse Behavior"
+msgstr "Postavi ponašanje miša"
+
+#: .tmp/scrMouse.py:140
+msgid "Left Handed"
+msgstr "Ljevoruki"
+
+#: .tmp/scrMouse.py:140
+msgid "Right Handed"
+msgstr "Desnoruki"
+
+#: .tmp/scrMouse.py:141
+msgid "Single Click "
+msgstr "Jedan klik"
+
+#: .tmp/scrMouse.py:141
+msgid "Double Click"
+msgstr "Dvostruki klik"
+
+#: .tmp/ui_scrAvatar.py:247 .tmp/ui_wallpaperItem.py:72
+#: .tmp/ui_scrStyleItem.py:69
+msgid "Form"
+msgstr "Forma"
+
+#: .tmp/ui_scrAvatar.py:248
+msgid ""
+"This screen helps you set your <b>user picture</b>. You can either choose an"
+" image from a file or you can capture an image from your camera. Select an "
+"option from the <b>options</b> menu."
+msgstr "Ovaj zaslon pomaže vam postaviti vašu <b>korisničku sliku.</b> Možete izabrati sliku iz datoteke ili možete snimiti sliku  kamerom. Odaberite opciju iz izbornika<b>opcije.</b>"
+
+#: .tmp/ui_scrAvatar.py:249
+msgid "Options"
+msgstr "Opcije"
+
+#: .tmp/ui_scrAvatar.py:250
+msgid "Choose an image"
+msgstr "Izaberite sliku"
+
+#: .tmp/ui_scrAvatar.py:251
+msgid "Capture"
+msgstr "Uhvati"
+
+#: .tmp/ui_scrAvatar.py:252
+msgid "Recapture"
+msgstr "Uhvati ponovno"
+
+#: .tmp/scrMenu.py:26 .tmp/ui_scrMenu.py:123
+msgid "Menu"
+msgstr "Izbornik"
+
+#: .tmp/scrMenu.py:27
+msgid "Choose a Menu Style"
+msgstr "Izaberite stil izbornika"
+
+#: .tmp/scrMenu.py:41 .tmp/ui_scrMenu.py:125
+msgid "Kick-off Menu"
+msgstr "Kick-off izbornik"
+
+#: .tmp/scrMenu.py:43
+msgid ""
+"Kick-off menu is the default menu of Pisi Linux.<br><br>The program shortcuts "
+"are easy to access and well organized."
+msgstr "Kick-off izbornik je zadani izbornik Pisi Linuxa.<br>br>Prečaci programa su lako dostupni i dobro organizirani."
+
+#: .tmp/scrMenu.py:47 .tmp/ui_scrMenu.py:126
+msgid "Simple Menu"
+msgstr "Jednostavni izbornik"
+
+#: .tmp/scrMenu.py:49
+msgid ""
+"Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight"
+" menu thus it is recommended for slower PC's."
+msgstr "Jednostavni izbornik je izbornik staroga stila iz KDE3.<br><br>To je vrlo lagan izbornik i preporučuje se za sporije PC-e."
+
+#: .tmp/scrMenu.py:53 .tmp/ui_scrMenu.py:127
+msgid "Lancelot Menu"
+msgstr "Lancelot izbornik"
+
+#: .tmp/scrMenu.py:55
+msgid ""
+"Lancelot is an advanced and highly customizable menu for Pisi Linux.<br><br>The "
+"program shortcuts are easy to access and well organized."
+msgstr "Lancelot je napredni i vrlo prilagodljiv izbornik za Pisi Linux.<br><br>Prečaci programa su lako dostupni i dobro organizirani."
+
+#: .tmp/scrAvatar.py:36
+msgid "User Picture"
+msgstr "Korisnička fotografija"
+
+#: .tmp/scrAvatar.py:48
+msgid "Create Your User Picture"
+msgstr "Napravite vašu korisničku fotografiju"
+
+#: .tmp/ui_scrSmolt.py:155
+msgid ""
+"<b>Smolt</b> is a tool that collects the information in the following table "
+"and sends it to us for which lets us improve Pisi Linux according to the user "
+"profile statistics."
+msgstr "b>Smolt</b> je alat koji prikuplja informacije u slijedeću tablicu i šalje ih nama što nam omogućuje poboljšati Pisi Linux prema statistikama korisičkog profila."
+
+#: .tmp/ui_scrSmolt.py:156 .tmp/ui_scrGoodbye.py:327 .tmp/ui_scrGoodbye.py:328
+msgid "My Smolt Page"
+msgstr "Moja Smolt stranica"
+
+#: .tmp/ui_scrSmolt.py:157
+msgid "&Send my profile"
+msgstr "&Pošalji moj profil"
+
+#: .tmp/ui_scrSmolt.py:159
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Smolt will only send hardware and basic operating system information to the Pisi Linux smolt server (smoon).  The only tie from the database to a submitters machine is the UUID.  As long as the submitter does not give out this UUID the submission is anonymous.  If at any point in time a user wants to delete their profile from the database they need only run</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">    <span style=\" font-style:italic;\">smoltDeleteProfile</span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   The information sent to the smolt database server should be considered public in that anyone can view the statistics, data and share machine profiles.  In  many ways smolt is designed to get hardware vendors and other 3rd parties attention.  As such, not only will this information be shared with 3rd parties, we will be using smolt as leverage to gain better support for open source drivers and better support in general.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-decoration: underline;\">IP Logging:</span>  In Pisi Linux's smolt install all web traffic goes through a proxy server first.  This is the only place IP addresses are being logged and they are kept on that server for a period of 4 weeks at which time log rotation removes these logs.  The Pisi Linux Project does not aggregate ip addresses in the smolt database.  These logs are private and will not be available to the general public.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Users unhappy with this policy should simply not use smolt.  Users with questions about this policy should contact the Pisi Linux Infrastructure Team at admin [at] pisilinux.org  Also remember that users can delete their profiles at any time using &quot;<span style=\" font-style:italic;\">smoltDeleteProfile</span>&quot;</p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> Smolt će slati samo informacije o hardware-u te osnovne informacije o operativnom sutavu  Pisi Linux smolt poslužitelju (smoon). Jedina spojnica od baze podataka do računala podnositelja je UUID. Dokle god podnositelj ne oda svoj UUID podnesak je anoniman. Ako u bilo kojem trenutku korisnik želi izbrisati svoj profil iz baze podataka samo treba pokrenuti</p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> <span style=\" font-style:italic;\">smoltIzbrišiprofil</span></p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> Informacija poslana u smolt bazu podataka smatrati će se javnomu tome da svatko može vidjeti statistiku,podatke i dijeliti profile računala. Na mnogo načina smolt je oblikovan da privuče pažnju prodavača hardware-a i proizvođača treće strane.Kao takva,ova informacija neće samo biti podijeljena sa proizvođačima treće strane,koristiti ćemo informaciju da bismo dobili bolju podršku za upravljačke programe otvorenoga koda i dobivanj bolje podrške općenitol.</p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-decoration: underline;\">IP Logging:</span> U Pisi Linuxovom smoltu sav internetski promet ide najprije preko proxy poslužitelja. Ovo je jedino mjesto gdje se IP adrese zapisuju i zadržavaju na poslužitelju 4 tjedna,nakon čega se brišu. Pisi Linux projekt ne prikuplja ip adrese u smolt bazi podataka. Ovi zapisi su privatni i neće biti dostupni javnosti.</p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> Korisnici koji su nezadovoljni ovom politikom mogu jednostavno ne koristiti smolt. Korisnici koji imaju pitanja u svezi ovepolitike mogu kontaktirati Pisi Linux Infrastructure Team na admin [at] pisilinux.org Također zapamtite da korisnik može bilo kada izbrisati svoj profil koristeći &quot;<span style=\" font-style:italic;\">smoltIzbrišiprofil</span>&quot;</p></body></html>"
+
+#: .tmp/kaptan.desktop.in.h:2
+msgid "Welcome Wizard"
+msgstr "Čarobnjak dobrodošlice"
+
+#: .tmp/ui_wallpaperItem.py:73
+msgid "wallPaperName"
+msgstr "Ime pozadine"
+
+#: .tmp/ui_wallpaperItem.py:74
+msgid "wallpaperDesc"
+msgstr ""
+
+#: .tmp/scrSummary.py:36
+msgid "Save Your Settings"
+msgstr "Spremite svoje postavke"
+
+#: .tmp/scrSummary.py:59
+msgid "Mouse Settings"
+msgstr "Postavke miša"
+
+#: .tmp/scrSummary.py:61
+#, python-format
+msgid "Selected Mouse configuration: <b>%s</b>"
+msgstr "Odabrana konfiguracija miša: <b>%s</b>"
+
+#: .tmp/scrSummary.py:62
+#, python-format
+msgid "Selected clicking behaviour: <b>%s</b>"
+msgstr "Odabrano ponašanje klika: <b>%s</b>"
+
+#: .tmp/scrSummary.py:66
+msgid "Menu Settings"
+msgstr "Postavke izbornika"
+
+#: .tmp/scrSummary.py:67
+#, python-format
+msgid "Selected Menu: <b>%s</b>"
+msgstr "Odabrani izbornik: <b>%s</b>"
+
+#: .tmp/scrSummary.py:71
+msgid "Wallpaper Settings"
+msgstr "Postavke pozadine"
+
+#: .tmp/scrSummary.py:73
+msgid "You haven't selected any wallpaper."
+msgstr "Niste odabrali nijednu pozadinu."
+
+#: .tmp/scrSummary.py:75
+#, python-format
+msgid "Selected Wallpaper: <b>%s</b>"
+msgstr "Odabrana pozadina:<b>%s</b>"
+
+#: .tmp/scrSummary.py:79
+msgid "Style Settings"
+msgstr "Postavke stila"
+
+#: .tmp/scrSummary.py:82
+msgid "You haven't selected any style."
+msgstr "Niste odabrali nijedan stil."
+
+#: .tmp/scrSummary.py:84
+#, python-format
+msgid "Selected Style: <b>%s</b>"
+msgstr "Odabrani stil:<b>%s</b>"
+
+#: .tmp/scrSummary.py:91
+msgid "Smolt Settings"
+msgstr "Smolt postavke"
+
+#: .tmp/scrSummary.py:92
+#, python-format
+msgid "Send my profile: <b>%s</b>"
+msgstr "Pošalji moj profil: <b>%s</b>"
+
+#: .tmp/scrSummary.py:117
+msgid "Error"
+msgstr "Greška"
+
+#: .tmp/scrSummary.py:117
+msgid "Cannot restart plasma-desktop. Kaptan will now shutdown."
+msgstr "Ne mogu ponovno pokrenuti plazma-radnu površinu.Kaptan će se sada isključiti."
+
+#: .tmp/ui_scrWelcome.py:77 .tmp/scrWelcome.py:27
+msgid "Welcome"
+msgstr "Dobrodošli"
+
+#: .tmp/ui_scrWelcome.py:78
+msgid "What is Pisi Linux?"
+msgstr "Što je Pisi Linux?"
+
+#: .tmp/ui_scrWelcome.py:79
+msgid ""
+"<b>Pisi Linux</b> is a reliable, secure, fast and user friendly operating "
+"system. <br /><br />With Pisi Linux, you can connect to the internet, read your "
+"e-mails, work with your office documents, watch movies, play music, develop "
+"applications, play games and much more! <br /><br /><b>Kaptan</b> will help "
+"you personalize your Pisi Linux workspace easily and quickly. Please click "
+"<b>next</b> in order to begin."
+msgstr "<b>Pisi Linux</b> je pouzdan,siguran,brz i lagan za rukovanje operativni sustav. <br /><br />Sa Pisi Linuxom možete se spojiti na internet,čitati vašeu elektroničku poštu,raditi sa vašim uredskim dokumentima,gledati filmove,slušati glazbu,razvijati progrme,igrati igre i puno više! <br /><br /><b>Kaptan</b> će vam pomoći da personalizirate vaš Pisi Linux radni prostor lako i brzo. Molim kliknite <b>slijedeće</b> da biste započeli."
+
+#: .tmp/ui_scrPackage.py:133
+msgid "Show updates in the system tray"
+msgstr "Pokaži dopune u traci sustava"
+
+#: .tmp/ui_scrPackage.py:134
+msgid "Check updates automatically every"
+msgstr "Provjeri dopune automatski svakih"
+
+#: .tmp/ui_scrPackage.py:135
+msgid " hours"
+msgstr "sati"
+
+#: .tmp/ui_scrPackage.py:136
+msgid ""
+"To install and remove programs to Pisi Linux, use Package-Manager. Package-"
+"Manager also can automatically install the latest updates available. You can"
+" set the period for checking new updates."
+msgstr "Za instalaciju i uklanjanje programa u Pisi Linux, koristite Upravitelj-paketa. Upravitelj-paketa također može automatski instalirati najnovije dostupne dopune. Možete postaviti rok za provjeru novih dopuna."
+
+#: .tmp/ui_scrPackage.py:137
+msgid "Updates"
+msgstr "Dopune"
+
+#: .tmp/ui_scrMenu.py:124
+msgid ""
+"You can also customize your <b>KDE menu</b> as you like. Please choose one "
+"from the following styles."
+msgstr "Također možete prilagoditi svoj <b>​​KDE izbornik</b> kako vi to želite. Molimo odaberite jedan od sljedećih stilova."
+
+#: .tmp/ui_scrMenu.py:128
+msgid "Sample"
+msgstr "Uzorak"
+
+#: .tmp/ui_scrStyleItem.py:70
+msgid "styleName"
+msgstr "ime stila"
+
+#: .tmp/ui_scrStyleItem.py:71
+msgid "styleDesc"
+msgstr ""
+
+#: .tmp/scrGoodbye.py:24 .tmp/ui_scrGoodbye.py:325
+msgid "More"
+msgstr "Više"
+
+#: .tmp/scrGoodbye.py:25
+msgid "Congratulations!"
+msgstr "Čestitamo!"
+
+#: .tmp/ui_scrSearch.py:100
+msgid "Search"
+msgstr "Traži"
+
+#: .tmp/ui_scrSearch.py:101
+msgid ""
+"Strigi Desktop Search indexes your frequently used files. This gives you "
+"very fast file search results. Strigi also can search for files based on "
+"their contents."
+msgstr "Strigi pretraživanje radne površine indeksira Vaše često korištene datoteke. To Vam daje vrlo brze rezultate pretraživanja datoteka. Strigi također može tražiti datoteke na temelju njihovog sadržaja."
+
+#: .tmp/ui_scrSearch.py:102
+msgid "Allow Strigi to index my files"
+msgstr "Dopusti da Strigi indeksira moje datoteke"
+
+#: .tmp/ui_scrSearch.py:103
+msgid "Search Options"
+msgstr "Opcije traženja"
+
+#: .tmp/scrWelcome.py:28
+#, python-format
+msgid "Welcome to %s"
+msgstr "Dobrošli u %s"
+
+#: .tmp/scrWallpaper.py:34 .tmp/ui_scrWallpaper.py:131
+msgid "Wallpaper"
+msgstr "Pozadina"
+
+#: .tmp/scrWallpaper.py:35
+msgid "Choose a Wallpaper"
+msgstr "Izaberite pozadinu"
+
+#: .tmp/ui_scrGoodbye.py:326
+msgid ""
+"<b>Your settings have been applied.</b> Now you can start enjoying Pisi Linux or"
+" you can checkout the following links and applications for more settings or "
+"for help and support. Don't forget to <b>join our community!</b>"
+msgstr "<b>Veše postavke su primjenjene..</b>Sada možete početi uživati u Pisi Linux-u ili možete provjeriti slijedeće poveznice i programe za više postavki ili za pomoć i podršku.Ne zaboravite  <b>pridružiti se našoj zajednici!</b>"
+
+#: .tmp/ui_scrGoodbye.py:329
+msgid "Go to your Smolt page and rate your hardware components."
+msgstr "Idi na svoj Smolt stranicu i ocijenute vaše komponente hardware-a."
+
+#: .tmp/ui_scrGoodbye.py:330 .tmp/ui_scrGoodbye.py:332
+msgid "System Settings"
+msgstr "Postavke sustava"
+
+#: .tmp/ui_scrGoodbye.py:331
+msgid ""
+"Configuration tools for Pisi Linux such as the display, firewall, keyboard, user"
+" manager..."
+msgstr "Konfiguracijski alati za Pisi Linux, kao što su zaslon, vatrozid, tipkovnica, upravitelj korisnika ..."
+
+#: .tmp/ui_scrGoodbye.py:333 .tmp/ui_scrGoodbye.py:335
+msgid "Help and Support"
+msgstr "Pomoć i podršaka"
+
+#: .tmp/ui_scrGoodbye.py:334
+msgid ""
+"Pisi Linux community, mailing lists, chat rooms, Wiki documents, help and "
+"support pages..."
+msgstr "Pisi Linux zajednica, mailing liste, chat sobe, Wiki dokumenati, stranice pomoći i podrške ..."
+
+#: .tmp/ui_scrMouse.py:203
+msgid ""
+"The <b>clicking behavior</b> defines how many times you want to click when "
+"you are opening a file. If you are <b>left handed</b>, you may prefer to "
+"swap the left and right buttons of your pointing device."
+msgstr "<b>Ponašanje klika</b> definira koliko puta želite kliknuti pri otvaranju datoteke. Ako ste <b>ljevoruki,</b> možda ćete htjeti zamijeniti lijeve i desne tipke vašeg pokazivačkog uređaja."
+
+#: .tmp/ui_scrMouse.py:204
+msgid "Clicking Behaviour"
+msgstr "Ponašanje klikanja"
+
+#: .tmp/ui_scrMouse.py:205
+msgid "Single-click to open files and folders"
+msgstr "Jedan klik za otvaranje datoteka i mapa"
+
+#: .tmp/ui_scrMouse.py:206
+msgid "Dou&ble-click to open files and folders"
+msgstr "Dvostruki klik za otvaranje datoteka i mapa"
+
+#: .tmp/ui_scrMouse.py:207
+msgid "Button Order"
+msgstr "Redoslijed dugmadi"
+
+#: .tmp/ui_scrMouse.py:208
+msgid "Right Hand"
+msgstr "Desna ruka"
+
+#: .tmp/ui_scrMouse.py:209
+msgid "Left Hand"
+msgstr "Lijeva ruka"
+
+#: .tmp/ui_scrMouse.py:210
+msgid "Reverse scrolling"
+msgstr "Obrnuto pomicanje"
+
+#: .tmp/scrStyle.py:38
+msgid "Customize Your Desktop"
+msgstr "Prilagodite vašu radnu površinu"
+
+#: .tmp/scrKeyboard.py:31 .tmp/ui_scrKeyboard.py:93
+msgid "Keyboard"
+msgstr "Tipkovnica"
+
+#: .tmp/scrKeyboard.py:32
+msgid "Keyboard Layout Language"
+msgstr "Jezik rasporeda tipkovnice"
+
+#: .tmp/ui_scrWallpaper.py:132
+msgid ""
+"Choose your favorite wallpaper for Pisi Linux. Don't forget to check out "
+"<b>Desktop Settings</b> for downloading new and cool wallpapers."
+msgstr "Izaberite svoju omiljenu pozadinu za Pisi Linux. Ne zaboravite provjeriti<b>Postavke radne površine</b> za preuzimanje novih i cool pozadina."
+
+#: .tmp/ui_scrWallpaper.py:133
+msgid "Wallpapers"
+msgstr "Pozadine"
+
+#: .tmp/ui_scrWallpaper.py:135
+msgid "Choose wallpaper from file"
+msgstr "Izaberite pozadinu iz datoteke"
+
+#: .tmp/ui_scrWallpaper.py:136
+msgid "Don't change wallpaper"
+msgstr "Ne mjenjaj pozadinu"
+
+#: .tmp/ui_scrKeyboard.py:94
+msgid ""
+"Kaptan automatically selects the best keyboard layout according to your "
+"system language. If you want to use another layout other than the default "
+"keyboard layout, you can make your selection and test it instantly."
+msgstr "Kaptan automatski bira najbolji raspored tipkovnice prema vašem jeziku sustava.Ako želite koristiti drugi raspored osim zadanog,možete napraviti odabir i odmah ga testirati."
+
+#: .tmp/ui_scrKeyboard.py:95
+msgid "Test Layout"
+msgstr "Provjera rasporeda"

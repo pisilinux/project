@@ -1,0 +1,637 @@
+# translation of tr.po to Turkish
+# Kaptan
+# Copyright (C) 2009
+# This file is distributed under the same license as the Kaptan package.
+#
+# Pınar Yanardağ <pinar@pardus.org.tr>, 2009.
+# Necmettin Begiter <necmettin.begiter@gmail.com>, 2009.
+# Renan Çakırerk <renan@pardus.org.tr>, 2009, 2010, 2011.
+# Ayhan YALÇINSOY <ayhanyalcinsoy@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: tr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-01-14 15:16+0200\n"
+"PO-Revision-Date: 2010-12-07 22:13+0200\n"
+"Last-Translator: Renan Çakırerk <renan@pardus.org.tr>\n"
+"Language-Team: Turkish <turkce@pardus.org.tr>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1;plural=0;\n"
+"X-Generator: Lokalize 1.1\n"
+
+#: .tmp/kaptan.desktop.in.h:1 .tmp/ui_kaptan.py:357
+msgid "Kaptan"
+msgstr "Kaptan"
+
+#: .tmp/kaptan.desktop.in.h:2
+msgid "Welcome Wizard"
+msgstr "Sihirbaza hoşgeldiniz"
+
+#: .tmp/scrAvatar.py:36
+msgid "User Picture"
+msgstr "Kullanıcı Resmi"
+
+#: .tmp/scrAvatar.py:48
+msgid "Create Your User Picture"
+msgstr "Kullanıcı Resminizi Yaratın"
+
+#: .tmp/scrGoodbye.py:24 .tmp/ui_scrGoodbye.py:325
+msgid "More"
+msgstr "Diğer"
+
+#: .tmp/scrGoodbye.py:25
+msgid "Congratulations!"
+msgstr "Tebrikler!"
+
+#: .tmp/scrKeyboard.py:31 .tmp/ui_scrKeyboard.py:93
+msgid "Keyboard"
+msgstr "Klavye"
+
+#: .tmp/scrKeyboard.py:32
+msgid "Keyboard Layout Language"
+msgstr "Klavye Dili"
+
+#: .tmp/scrMenu.py:26 .tmp/ui_scrMenu.py:123
+msgid "Menu"
+msgstr "Menü"
+
+#: .tmp/scrMenu.py:27
+msgid "Choose a Menu Style"
+msgstr "Bir Menü Stili Seçin"
+
+#: .tmp/scrMenu.py:41 .tmp/ui_scrMenu.py:125
+msgid "Kick-off Menu"
+msgstr "Kick-off Menü"
+
+#: .tmp/scrMenu.py:43
+msgid "Kick-off menu is the default menu of Pisi Linux.<br><br>The program shortcuts are easy to access and well organized."
+msgstr "Kick-off menü, Pisi Linux'un öntanımlı menüsüdür.<br><br>Uygulama kısayolları hızlı ve kolay erişilebilecek şekilde düzenlenmiştir."
+
+#: .tmp/scrMenu.py:47 .tmp/ui_scrMenu.py:126
+msgid "Simple Menu"
+msgstr "Basit Menü"
+
+#: .tmp/scrMenu.py:49
+msgid "Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight menu thus it is recommended for slower PC's."
+msgstr "Basit menü KDE 3'ten kalma eski bir menü stilidir.<br><br>Oldukça hafif yapısı yüzünden yavaş bilgisayarlar için önerilir."
+
+#: .tmp/scrMenu.py:53 .tmp/ui_scrMenu.py:127
+msgid "Lancelot Menu"
+msgstr "Lancelot Menü"
+
+#: .tmp/scrMenu.py:55
+msgid "Lancelot is an advanced and highly customizable menu for Pisi Linux.<br><br>The program shortcuts are easy to access and well organized."
+msgstr "Lancelot menü, gelişmiş ve oldukça kişiselleştirilebilir bir menüdür.<br><br>Uygulama kısayolları hızlı ve kolay erişilebilecek şekilde düzenlenmiştir."
+
+#: .tmp/scrMouse.py:29 .tmp/ui_scrMouse.py:202
+msgid "Mouse"
+msgstr "Fare"
+
+#: .tmp/scrMouse.py:30
+msgid "Setup Mouse Behavior"
+msgstr "Fare Tıklama Davranışını Belirleyin"
+
+#: .tmp/scrMouse.py:140
+msgid "Left Handed"
+msgstr "Sol El"
+
+#: .tmp/scrMouse.py:140
+msgid "Right Handed"
+msgstr "Sağ El"
+
+#: .tmp/scrMouse.py:141
+msgid "Double Click"
+msgstr "Çift Tık"
+
+#: .tmp/scrMouse.py:141
+msgid "Single Click "
+msgstr "Tek Tık"
+
+#: .tmp/scrPackage.py:28 .tmp/ui_scrPackage.py:132
+msgid "Packages"
+msgstr "Paketler"
+
+#: .tmp/scrPackage.py:29
+msgid "Install / Remove Programs"
+msgstr "Uygulama Ekle / Kaldır"
+
+#: .tmp/scrSmolt.py:31 .tmp/ui_scrSmolt.py:154
+msgid "Smolt"
+msgstr "Smolt"
+
+#: .tmp/scrSmolt.py:32
+msgid "Help Pisi Linux Improve!"
+msgstr "Pisi Linux'un Gelişimine Katkı Sağlayın!"
+
+#: .tmp/scrSmolt.py:68
+msgid "Label"
+msgstr "Etiket"
+
+#: .tmp/scrSmolt.py:69
+msgid "Data"
+msgstr "Veri"
+
+#: .tmp/scrSmolt.py:108
+msgid "&Host Information"
+msgstr "Sistem Bilgisi"
+
+#: .tmp/scrSmolt.py:111 .tmp/ui_scrSmolt.py:158
+msgid "&Privacy policy"
+msgstr "Gizlilik &Politikası"
+
+#: .tmp/scrSmolt.py:114
+msgid "UUID"
+msgstr "UUID"
+
+#: .tmp/scrSmolt.py:115
+msgid "OS"
+msgstr "İşletim Sistemi"
+
+#: .tmp/scrSmolt.py:116
+msgid "Default Run Level"
+msgstr "Öntanımlı Çalışma Seviyesi"
+
+#: .tmp/scrSmolt.py:117
+msgid "Language"
+msgstr "Dil"
+
+#: .tmp/scrSmolt.py:118
+msgid "Platform"
+msgstr "Platform"
+
+#: .tmp/scrSmolt.py:119
+msgid "BogoMIPS"
+msgstr "BogoMIPS"
+
+#: .tmp/scrSmolt.py:120
+msgid "CPU Vendor"
+msgstr "İşlemci Sağlayıcısı"
+
+#: .tmp/scrSmolt.py:121
+msgid "CPU Model"
+msgstr "İşlemci Modeli"
+
+#: .tmp/scrSmolt.py:122
+msgid "CPU Stepping"
+msgstr "İşlemci Basamağı"
+
+#: .tmp/scrSmolt.py:123
+msgid "CPU Family"
+msgstr "İşlemci Ailesi"
+
+#: .tmp/scrSmolt.py:124
+msgid "CPU Model Num"
+msgstr "İşlemci Model Numarası"
+
+#: .tmp/scrSmolt.py:125
+msgid "Number of CPUs"
+msgstr "İşlemci Sayısı"
+
+#: .tmp/scrSmolt.py:126
+msgid "CPU Speed"
+msgstr "İşlemci Hızı"
+
+#: .tmp/scrSmolt.py:127
+msgid "System Memory"
+msgstr "Sistem Belleği"
+
+#: .tmp/scrSmolt.py:128
+msgid "System Swap"
+msgstr "Sistem Takası"
+
+#: .tmp/scrSmolt.py:129
+msgid "Vendor"
+msgstr "Sağlayıcı"
+
+#: .tmp/scrSmolt.py:130
+msgid "System"
+msgstr "Sistem"
+
+#: .tmp/scrSmolt.py:131
+msgid "Form Factor"
+msgstr "Form Faktörü"
+
+#: .tmp/scrSmolt.py:132
+msgid "Kernel"
+msgstr "Çekirdek"
+
+#: .tmp/scrSmolt.py:133
+msgid "SELinux Enabled"
+msgstr "SELinux Etkin"
+
+#: .tmp/scrSmolt.py:134
+msgid "SELinux Policy"
+msgstr "SELinux politikası"
+
+#: .tmp/scrSmolt.py:135
+msgid "SELinux Enforce"
+msgstr "SELinux Mecbur"
+
+#: .tmp/scrSmolt.py:148
+msgid "Yes"
+msgstr "Evet"
+
+#: .tmp/scrSmolt.py:150
+msgid "No"
+msgstr "Hayır"
+
+#: .tmp/scrStyle.py:37 .tmp/ui_scrStyle.py:236
+msgid "Themes"
+msgstr "Temalar"
+
+#: .tmp/scrStyle.py:38
+msgid "Customize Your Desktop"
+msgstr "Masaüstünüzü Kişiselleştirin"
+
+#: .tmp/scrSummary.py:35 .tmp/ui_scrSummary.py:85
+msgid "Summary"
+msgstr "Özet"
+
+#: .tmp/scrSummary.py:36
+msgid "Save Your Settings"
+msgstr "Ayarlarınızı Kaydedin"
+
+#: .tmp/scrSummary.py:59
+msgid "Mouse Settings"
+msgstr "Fare Ayarları"
+
+#: .tmp/scrSummary.py:61
+#, python-format
+msgid "Selected Mouse configuration: <b>%s</b>"
+msgstr "Fare seçimi: <b>%s</b>"
+
+#: .tmp/scrSummary.py:62
+#, python-format
+msgid "Selected clicking behaviour: <b>%s</b>"
+msgstr "Tıklama davranışı seçimi: <b>%s</b>"
+
+#: .tmp/scrSummary.py:66
+msgid "Menu Settings"
+msgstr "Menü Ayarları"
+
+#: .tmp/scrSummary.py:67
+#, python-format
+msgid "Selected Menu: <b>%s</b>"
+msgstr "Menü seçimi: <b>%s</b>"
+
+#: .tmp/scrSummary.py:71
+msgid "Wallpaper Settings"
+msgstr "Duvar Kağıdı Ayarları"
+
+#: .tmp/scrSummary.py:73
+msgid "You haven't selected any wallpaper."
+msgstr "Duvar kağıdı seçimi yapmadınız."
+
+#: .tmp/scrSummary.py:75
+#, python-format
+msgid "Selected Wallpaper: <b>%s</b>"
+msgstr "Duvar kağıdı seçimi: <b>%s</b>"
+
+#: .tmp/scrSummary.py:79
+msgid "Style Settings"
+msgstr "Stil Ayarları"
+
+#: .tmp/scrSummary.py:82
+msgid "You haven't selected any style."
+msgstr "Stil seçimi yapmadınız."
+
+#: .tmp/scrSummary.py:84
+#, python-format
+msgid "Selected Style: <b>%s</b>"
+msgstr "Stil seçimi: <b>%s</b>"
+
+#: .tmp/scrSummary.py:91
+msgid "Smolt Settings"
+msgstr "Smolt Ayarları"
+
+#: .tmp/scrSummary.py:92
+#, python-format
+msgid "Send my profile: <b>%s</b>"
+msgstr "Donanım bilgisini gönder: <b>%s</b>"
+
+#: .tmp/scrSummary.py:117
+msgid "Cannot restart plasma-desktop. Kaptan will now shutdown."
+msgstr "plasma-desktop yeniden başlatılamıyor. Kaptan sonlandırılıyor."
+
+#: .tmp/scrSummary.py:117
+msgid "Error"
+msgstr "Hata"
+
+#: .tmp/scrWallpaper.py:34 .tmp/ui_scrWallpaper.py:131
+msgid "Wallpaper"
+msgstr "Duvar Kağıdı"
+
+#: .tmp/scrWallpaper.py:35
+msgid "Choose a Wallpaper"
+msgstr "Duvar Kağıdı Seçin"
+
+#: .tmp/scrWelcome.py:27 .tmp/ui_scrWelcome.py:77
+msgid "Welcome"
+msgstr "Hoş Geldiniz"
+
+#: .tmp/scrWelcome.py:28
+#, python-format
+msgid "Welcome to %s"
+msgstr "%s'e Hoş Geldiniz"
+
+#: .tmp/ui_kaptan.py:358
+msgid "Welcome to Pisi Linux"
+msgstr "Pisi Linux'a Hoş Geldiniz"
+
+#: .tmp/ui_kaptan.py:359
+msgid "Cancel"
+msgstr "İptal"
+
+#: .tmp/ui_kaptan.py:360
+msgid "Back"
+msgstr "Geri"
+
+#: .tmp/ui_kaptan.py:361
+msgid "Next"
+msgstr "İleri"
+
+#: .tmp/ui_kaptan.py:362
+msgid "Finish"
+msgstr "Bitir"
+
+#: .tmp/ui_kaptan.py:363
+msgid "Apply Settings"
+msgstr "Ayarları Uygula"
+
+#: .tmp/ui_scrAvatar.py:247 .tmp/ui_scrStyleItem.py:69
+#: .tmp/ui_wallpaperItem.py:72
+msgid "Form"
+msgstr "Form"
+
+#: .tmp/ui_scrAvatar.py:248
+msgid "This screen helps you set your <b>user picture</b>. You can either choose an image from a file or you can capture an image from your camera. Select an option from the <b>options</b> menu."
+msgstr "Bu ekran <b>kullanıcı resminizi</b> seçmenize yardımcı olur. Dosyalarınız arasından bir resim seçebilir ya da kameradan aldığınız görüntüyü kullanabilirsiniz. <b>Seçenekler</b> menüsünden tercihinizi yapabilirsiniz."
+
+#: .tmp/ui_scrAvatar.py:249
+msgid "Options"
+msgstr "Seçenekler"
+
+#: .tmp/ui_scrAvatar.py:250
+msgid "Choose an image"
+msgstr "Resim seç"
+
+#: .tmp/ui_scrAvatar.py:251
+msgid "Capture"
+msgstr "Çek"
+
+#: .tmp/ui_scrAvatar.py:252
+msgid "Recapture"
+msgstr "Yeniden Çek"
+
+#: .tmp/ui_scrGoodbye.py:326
+msgid "<b>Your settings have been applied.</b> Now you can start enjoying Pisi Linux or you can checkout the following links and applications for more settings or for help and support. Don't forget to <b>join our community!</b>"
+msgstr "<b>Ayarlarınız kaydedildi.</b> Artık Pisi Linux'un tadını çıkarmaya başlayabilirsiniz. Daha detaylı ayarlar veya yardım ve destek için aşağıdaki program ve linkleri inceleyebilirsiniz. <b>Topluluğumuza üye olmayı unutmayın!</b>"
+
+#: .tmp/ui_scrGoodbye.py:327 .tmp/ui_scrGoodbye.py:328 .tmp/ui_scrSmolt.py:156
+msgid "My Smolt Page"
+msgstr "Smolt Sayfam"
+
+#: .tmp/ui_scrGoodbye.py:329
+msgid "Go to your Smolt page and rate your hardware components."
+msgstr "Smolt sayfanızı ziyaret edin ve donanım bileşenlerinizi oylayın."
+
+#: .tmp/ui_scrGoodbye.py:330 .tmp/ui_scrGoodbye.py:332
+msgid "System Settings"
+msgstr "Sistem Ayarları"
+
+#: .tmp/ui_scrGoodbye.py:331
+msgid "Configuration tools for Pisi Linux such as the display, firewall, keyboard, user manager..."
+msgstr "Ekran, güvenlik duvarı, klavye ve kullanıcı hesapları gibi Pisi Linux ayarlarını içerir..."
+
+#: .tmp/ui_scrGoodbye.py:333 .tmp/ui_scrGoodbye.py:335
+msgid "Help and Support"
+msgstr "Yardım ve Destek"
+
+#: .tmp/ui_scrGoodbye.py:334
+msgid "Pisi Linux community, mailing lists, chat rooms, Wiki documents, help and support pages..."
+msgstr "Pisi Linux topluluğu, e-posta listeleri, sohbet odaları, Wiki belgeleri, yardım ve destek sayfaları..."
+
+#: .tmp/ui_scrKeyboard.py:94
+msgid "Kaptan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
+msgstr "Kaptan, sistem dilinize en uygun olan klavye düzenini otomatik seçer. Eğer varsayılan düzenden başka bir düzen seçmek istiyorsanız aşağıda bulunan listeden uygun olan düzeni seçip hemen test edebilirsiniz."
+
+#: .tmp/ui_scrKeyboard.py:95
+msgid "Test Layout"
+msgstr "Test et"
+
+#: .tmp/ui_scrMenu.py:124
+msgid "You can also customize your <b>KDE menu</b> as you like. Please choose one from the following styles."
+msgstr "KDE menüsünü istediğiniz stili seçerek kişiselleştirebilirsiniz."
+
+#: .tmp/ui_scrMenu.py:128
+msgid "Sample"
+msgstr "Örnek"
+
+#: .tmp/ui_scrMouse.py:203
+msgid "The <b>clicking behavior</b> defines how many times you want to click when you are opening a file. If you are <b>left handed</b>, you may prefer to swap the left and right buttons of your pointing device."
+msgstr "<b>Tıklama Biçimi</b> dosya açarken simgelere kaç kere tıklamanız gerektiğini belirlemenize yardımcı olur. Eğer <b>sol elinizi</b> kullanıyorsanız, fare butonlarının yerini değiştirerek farenizi daha rahat kullanabilirsiniz."
+
+#: .tmp/ui_scrMouse.py:204
+msgid "Clicking Behaviour"
+msgstr "Tıklama Biçimi"
+
+#: .tmp/ui_scrMouse.py:205
+msgid "Single-click to open files and folders"
+msgstr "Dosya ve dizinleri açmak için tek tıkla"
+
+#: .tmp/ui_scrMouse.py:206
+msgid "Dou&ble-click to open files and folders"
+msgstr "Dosya ve dizinleri açmak için &çift tıkla"
+
+#: .tmp/ui_scrMouse.py:207
+msgid "Button Order"
+msgstr "Düğme Sırası"
+
+#: .tmp/ui_scrMouse.py:208
+msgid "Right Hand"
+msgstr "Sağ El"
+
+#: .tmp/ui_scrMouse.py:209
+msgid "Left Hand"
+msgstr "Sol El"
+
+#: .tmp/ui_scrMouse.py:210
+msgid "Reverse scrolling"
+msgstr "Tekerlek ters kaydırsın"
+
+#: .tmp/ui_scrPackage.py:133
+msgid "Show updates in the system tray"
+msgstr "Güncellemeleri sistem tepsisinde göster"
+
+#: .tmp/ui_scrPackage.py:134
+msgid "Check updates automatically every"
+msgstr "Güncellemeleri kontrol etme sıklığı"
+
+#: .tmp/ui_scrPackage.py:135
+msgid " minute(s)"
+msgstr " dakika"
+
+#: .tmp/ui_scrPackage.py:136
+msgid "To install and remove programs to Pisi Linux, use Package-Manager. Package-Manager also can automatically install the latest updates available. You can set the period for checking new updates."
+msgstr "Pisi Linux'ta program yükleyip silme işlemleri <b>Paket Yöneticisi</b> tarafından yapılır. Paket Yöneticisi aynı zamanda sisteminizi otomatik olarak güncelleyebilir. Paket Yöneticisi'nin güncellemeleri kontrol etme sıklığını belirleyebilirsiniz."
+
+#: .tmp/ui_scrPackage.py:137
+msgid "Updates"
+msgstr "Güncellemeler"
+
+#: .tmp/ui_scrSearch.py:100
+msgid "Search"
+msgstr "Arama"
+
+#: .tmp/ui_scrSearch.py:101
+msgid "Strigi Desktop Search indexes your frequently used files. This gives you very fast file search results. Strigi also can search for files based on their contents."
+msgstr "Strigi Masaüstü Arama yardımcısı sık kullandığınız dosyaları hafızasına alarak arama yaptığınızda hızlıca bulunmalarını sağlar. Strigi ayrıca dosyaların yalnızca ismine değil, içeriğine bakarak da arama yapmanıza olanak sağlar."
+
+#: .tmp/ui_scrSearch.py:102
+msgid "Allow Strigi to index my files"
+msgstr "Strigi, aramalarımda yardımcı olsun"
+
+#: .tmp/ui_scrSearch.py:103
+msgid "Search Options"
+msgstr "Arama Ayarları"
+
+#: .tmp/ui_scrSmolt.py:155
+msgid "<b>Smolt</b> is a tool that collects the information in the following table and sends it to us for which lets us improve Pisi Linux according to the user profile statistics."
+msgstr "<b>Smolt,</b> aşağıdaki tabloda gösterilen sistem bilgilerinizi bizlere göndererek  istatistikler doğrultusunda Pisi Linux'u geliştirmemize katkıda bulunur."
+
+#: .tmp/ui_scrSmolt.py:157
+msgid "&Send my profile"
+msgstr "Donanım Bilgisini &Gönder"
+
+#: .tmp/ui_scrSmolt.py:159
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Smolt will only send hardware and basic operating system information to the Pisi Linux smolt server (smoon).  The only tie from the database to a submitters machine is the UUID.  As long as the submitter does not give out this UUID the submission is anonymous.  If at any point in time a user wants to delete their profile from the database they need only run</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">    <span style=\" font-style:italic;\">smoltDeleteProfile</span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   The information sent to the smolt database server should be considered public in that anyone can view the statistics, data and share machine profiles.  In  many ways smolt is designed to get hardware vendors and other 3rd parties attention.  As such, not only will this information be shared with 3rd parties, we will be using smolt as leverage to gain better support for open source drivers and better support in general.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-decoration: underline;\">IP Logging:</span>  In Pisi Linux's smolt install all web traffic goes through a proxy server first.  This is the only place IP addresses are being logged and they are kept on that server for a period of 4 weeks at which time log rotation removes these logs.  The Pisi Linux Project does not aggregate ip addresses in the smolt database.  These logs are private and will not be available to the general public.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Users unhappy with this policy should simply not use smolt.  Users with questions about this policy should contact the Pisi Linux Infrastructure Team at admin [at] pisilinux.org  Also remember that users can delete their profiles at any time using &quot;<span style=\" font-style:italic;\">smoltDeleteProfile</span>&quot;</p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Smolt, Pisi Linux smolt sunucusuna sadece donanım ve temel işletim sistemi bilgilerini gönderir. Gönderenin bilgisayarıyla veritabanı arasındaki tek bağlantı UUID'dir. Gönderenler bu UUID'yi gizli tuttuğu sürece gönderim gizli kalır. Eğer kullanıcı veritabanından kendine ait verileri silmek isterse</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">    <span style=\" font-style:italic;\">smoltDeleteProfile</span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">komutunu çalıştırmaları yeterlidir. Herkes istatistik ve verilere bakabildiği ve bilgisayar profillerini paylaşabildiği için smolt veritabanı sunucusuna gönderilen veri halka açık kabul edilmelidir. Pek çok yönden biz smolt'u açık kaynak sürücüler ve genel olarak daha iyi destek için kullanacağımız için smolt donanım üreticilerinin ve diğer üçüncü kişilerin faydasına sunulur, yani bu bilgiler üçüncü kişilerle paylaşılır.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-decoration: underline;\">IP Günlükleme:</span>  Pisi Linux'un smolt kurulumunda tüm Internet trafiği önce bir vekil sunucudan geçer. Bu vekil sunucu IP adreslerini günlüğüne kaydeder ve arşivler. Pisi Linux Projesi IP adreslerini smolt veritabanında tutmaz. Bu günlükler gizlidir ve halka açık değildir.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Bu politikadan hoşnut olmayan kullanıcıların smolt'u kullanmaması yeterli olacaktır. Bu politika hakkında soruları olan kullanıcılar ise Pisi Linux Yönetim Ekibi'yle admin [at] pisilinux.org'dan iletişim kurabilirler. Ayrıca kullanıcılar\"<span style=\" font-style:italic;\">smoltDeleteProfile</span>\" vasıtasıyla profillerini istedikleri zaman silebilirler.</p></body></html>"
+
+#: .tmp/ui_scrStyle.py:237
+msgid "Choose your favorite theme and desktop type. Customize Pisi Linux with colorful styles and themes."
+msgstr "Favori temanızı ve masaüstü tipini seçip, Pisi Linux'u renkli stil ve temalarla kişiselleştirebilirsiniz."
+
+#: .tmp/ui_scrStyle.py:238
+msgid "KDE Themes"
+msgstr "KDE Temaları"
+
+#: .tmp/ui_scrStyle.py:239
+msgid "Icons"
+msgstr "Simgeler"
+
+#: .tmp/ui_scrStyle.py:242
+msgid "Oxygen - The official icon set of KDE"
+msgstr "Oxygen - KDE'nin resmi simge seti"
+
+#: .tmp/ui_scrStyle.py:243
+msgid "Milky - The official icon set of Pisi Linux"
+msgstr "Milky - Pisi Linux'un resmi simge seti"
+
+#: .tmp/ui_scrStyle.py:245
+msgid "Desktop Type"
+msgstr "Masaüstü Tipi"
+
+#: .tmp/ui_scrStyle.py:246
+msgid "Desktop view (KDE4 Style)"
+msgstr "Masaüstü görünümü (KDE4 Stili)"
+
+#: .tmp/ui_scrStyle.py:247
+msgid "Folder view (KDE3 Style)"
+msgstr "Klasör görünümü (KDE3 Stili)"
+
+#: .tmp/ui_scrStyle.py:248
+msgid "Number of Desktops"
+msgstr "Masaüstü Sayısı"
+
+#: .tmp/ui_scrStyleItem.py:70
+msgid "styleName"
+msgstr "biçemİsmi"
+
+#: .tmp/ui_scrStyleItem.py:71
+msgid "styleDesc"
+msgstr "biçemAçıklaması"
+
+#: .tmp/ui_scrSummary.py:86
+msgid "You have successfully finished all steps. Here's a summary of the settings you want to apply. Click <b>Apply Settings</b> to save them now. You are now ready to enjoy Pisi Linux!"
+msgstr "Bütün adımları başarıyla tamamladınız. Aşağıda uygulanmasını istediğiniz ayarların listesini görebilirsiniz. <b>Ayarları Uygula</b> tuşuna bastığınızda ayarlarınız kaydedilecektir. Artık Pisi Linux'un tadını çıkarmaya hazırsınız!"
+
+#: .tmp/ui_scrSummary.py:87
+msgid "The following settings will be applied"
+msgstr "Aşağıdaki ayarlar uygulanacaktır"
+
+#: .tmp/ui_scrWallpaper.py:132
+msgid "Choose your favorite wallpaper for Pisi Linux. Don't forget to check out <b>Desktop Settings</b> for downloading new and cool wallpapers."
+msgstr "Masaüstünüz için en beğendiğiniz duvar kağıdını seçin. <b>Masaüstü Ayarları</b>'na girerek yeni ve havalı duvar kağıtları indirebileceğinizi unutmayın."
+
+#: .tmp/ui_scrWallpaper.py:133
+msgid "Wallpapers"
+msgstr "Duvar Kağıtları"
+
+#: .tmp/ui_scrWallpaper.py:135
+msgid "Choose wallpaper from file"
+msgstr "Duvar Kağıdını Dosyadan Seç"
+
+#: .tmp/ui_scrWallpaper.py:136
+msgid "Don't change wallpaper"
+msgstr "Duvar Kağıdını değiştirme"
+
+#: .tmp/ui_scrWelcome.py:78
+msgid "What is Pisi Linux?"
+msgstr "Pisi Linux nedir?"
+
+#: .tmp/ui_scrWelcome.py:79
+msgid "<b>Pisi Linux</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Pisi Linux, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kaptan</b> will help you personalize your Pisi Linux workspace easily and quickly. Please click <b>next</b> in order to begin."
+msgstr "<b>Pisi Linux</b> güvenilir, hızlı ve kullanıcı dostu bir işletim sistemidir. <br /><br />Pisi Linux ile Internet'e bağlanabilir, e-postalarınızı okuyabilir, ofis dökümanlarıyla çalışabilir, film izleyebilir, müzik  dinleyebilir, uygulama geliştirebilir, oyunlar oynayabilir ve çok daha fazlasını yapabilirsiniz!<br /><br /><b>Kaptan</b>, Pisi Linux çalışma ortamınızı hızlı ve kolayca kişiselleştirmenize yardımcı olan bir uygulamadır. Lütfen başlamak için <b>İleri</b>'ye tıklayın."
+
+#: .tmp/ui_wallpaperItem.py:73
+msgid "wallPaperName"
+msgstr "duvarkağıdıİsmi"
+
+#: .tmp/ui_wallpaperItem.py:74
+msgid "wallpaperDesc"
+msgstr "duvarkağıdıAçıklaması"
+
+#~ msgid "Network Manager (Press Apply to save your settings)"
+#~ msgstr "Ağ Yöneticisi (Ayarları kaydetmek için Uygula tuşuna basınız)"
+
+#~ msgid "To create a new connection click on <b>Create Profile</b> and select your adapter from the list. If your connection is wireless then choose and access point. After saving your profile click the checkbox to establish the connection."
+#~ msgstr "Yeni bir bağlantı oluşturmak için <b>Profil Oluştur</b>'a tıklayın ve listeden uygun cihazı seçtikten sonra oluşturulan bağlantının yanındaki kutucuğu işaretleyip Internet'e bağlanabilirsiniz. Eğer bağlantınız kablosuz ise erişim noktasını seçip şifrenizi girmeyi unutmayın."
+
+#~ msgid "Network"
+#~ msgstr "Ağ"
+
+#~ msgid "A wizard to transfer files and settings from existing operating systems (e.g. Windows) to Pisi Linux."
+#~ msgstr "Kurulu diğer işletim sistemlerinden (örn. Windows) Pisi Linux'a dosyalarınızı ve ayarlarınızı aktarmak için kullanabileceğiniz bir sihirbaz."
+
+#~ msgid "Migration Wizard"
+#~ msgstr "Göç Sihirbazı"
+
+#~ msgid "Repositories"
+#~ msgstr "Depolar"
+
+#~ msgid "Add contrib repository"
+#~ msgstr "Katkı deposunu ekle"
+
+#~ msgid "Contrib repository includes extra and handy programs."
+#~ msgstr "Katkı deposu kullanışlı ek programlar içerir."

@@ -1,0 +1,1031 @@
+# translation of it.po to Italian
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Siciliano Davide <edivad95@gmail.com>, 2009.
+# Davide Siciliano <edivad95@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: it\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-01-14 15:16+0200\n"
+"PO-Revision-Date: 2010-05-15 13:27+0200\n"
+"Last-Translator: Davide Siciliano <edivad95@gmail.com>\n"
+"Language-Team: Italian <>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.0\n"
+
+#: .tmp/kaptan.desktop.in.h:1 .tmp/ui_kaptan.py:357
+msgid "Kaptan"
+msgstr "Kaptan"
+
+#: .tmp/kaptan.desktop.in.h:2
+msgid "Welcome Wizard"
+msgstr "Benvenuto nel Wizard di Kaptan :)"
+
+#: .tmp/scrAvatar.py:36
+msgid "User Picture"
+msgstr "Immagine dell'utente"
+
+#: .tmp/scrAvatar.py:48
+msgid "Create Your User Picture"
+msgstr "Crea la tua immagine dell'utente"
+
+#: .tmp/scrGoodbye.py:24 .tmp/ui_scrGoodbye.py:325
+msgid "More"
+msgstr "Altro"
+
+#: .tmp/scrGoodbye.py:25
+msgid "Congratulations!"
+msgstr "Congratulazioni!"
+
+#: .tmp/scrKeyboard.py:31 .tmp/ui_scrKeyboard.py:93
+msgid "Keyboard"
+msgstr "Tastiera"
+
+#: .tmp/scrKeyboard.py:32
+msgid "Keyboard Layout Language"
+msgstr "Tipo di tastiera"
+
+#: .tmp/scrMenu.py:26 .tmp/ui_scrMenu.py:123
+msgid "Menu"
+msgstr "Menu"
+
+#: .tmp/scrMenu.py:27
+msgid "Choose a Menu Style"
+msgstr "Scegli un tipo di menù"
+
+#: .tmp/scrMenu.py:41 .tmp/ui_scrMenu.py:125
+msgid "Kick-off Menu"
+msgstr "Menù Kick-off"
+
+#: .tmp/scrMenu.py:43
+msgid "Kick-off menu is the default menu of Pisi Linux.<br><br>The program shortcuts are easy to access and well organized."
+msgstr "Il menu Kick-off è il menù predefinito di Pisi Linux.<br><br>I collegamenti dei programmi sono ben organizzati."
+
+#: .tmp/scrMenu.py:47 .tmp/ui_scrMenu.py:126
+msgid "Simple Menu"
+msgstr "Menù Semplice"
+
+#: .tmp/scrMenu.py:49
+msgid "Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight menu thus it is recommended for slower PC's."
+msgstr "Il menù semplice è il vecchio menù di KDE 3.<br><br>È molto leggero, quindi il menù ideale per i computer più lenti."
+
+#: .tmp/scrMenu.py:53 .tmp/ui_scrMenu.py:127
+msgid "Lancelot Menu"
+msgstr "Menù Lancelot"
+
+#: .tmp/scrMenu.py:55
+msgid "Lancelot is an advanced and highly customizable menu for Pisi Linux.<br><br>The program shortcuts are easy to access and well organized."
+msgstr "Lancelot è un menù avanzato ed altamente personalizzabile per Pisi Linux. <br><br>I collegamenti dei programmi sono ben organizzati e facilmente accessibili."
+
+#: .tmp/scrMouse.py:29 .tmp/ui_scrMouse.py:202
+msgid "Mouse"
+msgstr "Mouse"
+
+#: .tmp/scrMouse.py:30
+msgid "Setup Mouse Behavior"
+msgstr "Modifica Impostazioni Mouse"
+
+#: .tmp/scrMouse.py:140
+msgid "Left Handed"
+msgstr "Mancino"
+
+#: .tmp/scrMouse.py:140
+msgid "Right Handed"
+msgstr "Destorso"
+
+#: .tmp/scrMouse.py:141
+msgid "Double Click"
+msgstr "Doppio click"
+
+#: .tmp/scrMouse.py:141
+msgid "Single Click "
+msgstr "Click singolo"
+
+#: .tmp/scrPackage.py:28 .tmp/ui_scrPackage.py:132
+msgid "Packages"
+msgstr "Pacchetti"
+
+#: .tmp/scrPackage.py:29
+msgid "Install / Remove Programs"
+msgstr "Aggiungi e rimuovi programmi"
+
+#: .tmp/scrSmolt.py:31 .tmp/ui_scrSmolt.py:154
+msgid "Smolt"
+msgstr "Smolt"
+
+#: .tmp/scrSmolt.py:32
+msgid "Help Pisi Linux Improve!"
+msgstr "Aiuta Pisi Linux a crescere!"
+
+#: .tmp/scrSmolt.py:68
+msgid "Label"
+msgstr "Etichetta"
+
+#: .tmp/scrSmolt.py:69
+msgid "Data"
+msgstr "Dati"
+
+#: .tmp/scrSmolt.py:108
+msgid "&Host Information"
+msgstr ""
+
+#: .tmp/scrSmolt.py:111 .tmp/ui_scrSmolt.py:158
+msgid "&Privacy policy"
+msgstr "Informazioni sulla &privacy"
+
+#: .tmp/scrSmolt.py:114
+msgid "UUID"
+msgstr "UUID"
+
+#: .tmp/scrSmolt.py:115
+msgid "OS"
+msgstr "SO"
+
+#: .tmp/scrSmolt.py:116
+msgid "Default Run Level"
+msgstr "RunLevel di default"
+
+#: .tmp/scrSmolt.py:117
+msgid "Language"
+msgstr "Lingua"
+
+#: .tmp/scrSmolt.py:118
+msgid "Platform"
+msgstr "Piattaforma"
+
+#: .tmp/scrSmolt.py:119
+msgid "BogoMIPS"
+msgstr "BogoMIPS"
+
+#: .tmp/scrSmolt.py:120
+msgid "CPU Vendor"
+msgstr "Produttore CPU"
+
+#: .tmp/scrSmolt.py:121
+msgid "CPU Model"
+msgstr "Modello CPU"
+
+#: .tmp/scrSmolt.py:122
+msgid "CPU Stepping"
+msgstr "Revisione del processore"
+
+#: .tmp/scrSmolt.py:123
+msgid "CPU Family"
+msgstr "Famiglia CPU"
+
+#: .tmp/scrSmolt.py:124
+msgid "CPU Model Num"
+msgstr "Numero del Modello CPU"
+
+#: .tmp/scrSmolt.py:125
+msgid "Number of CPUs"
+msgstr "Numero di CPU"
+
+#: .tmp/scrSmolt.py:126
+msgid "CPU Speed"
+msgstr "Velocità CPU"
+
+#: .tmp/scrSmolt.py:127
+msgid "System Memory"
+msgstr "Memoria di sistema RAM"
+
+#: .tmp/scrSmolt.py:128
+msgid "System Swap"
+msgstr "Swap"
+
+#: .tmp/scrSmolt.py:129
+msgid "Vendor"
+msgstr "Produttore"
+
+#: .tmp/scrSmolt.py:130
+msgid "System"
+msgstr "Sistema"
+
+#: .tmp/scrSmolt.py:131
+msgid "Form Factor"
+msgstr "Form Factor"
+
+#: .tmp/scrSmolt.py:132
+msgid "Kernel"
+msgstr "Kernel"
+
+#: .tmp/scrSmolt.py:133
+msgid "SELinux Enabled"
+msgstr "SELinux Abilitato"
+
+#: .tmp/scrSmolt.py:134
+msgid "SELinux Policy"
+msgstr "Politiche SELinux"
+
+#: .tmp/scrSmolt.py:135
+msgid "SELinux Enforce"
+msgstr "SELinux Obbligatorio"
+
+#: .tmp/scrSmolt.py:148
+msgid "Yes"
+msgstr "Si"
+
+#: .tmp/scrSmolt.py:150
+msgid "No"
+msgstr "No"
+
+#: .tmp/scrStyle.py:37 .tmp/ui_scrStyle.py:236
+msgid "Themes"
+msgstr "Temi"
+
+#: .tmp/scrStyle.py:38
+msgid "Customize Your Desktop"
+msgstr "Personalizza il tuo Desktop"
+
+#: .tmp/scrSummary.py:35 .tmp/ui_scrSummary.py:85
+msgid "Summary"
+msgstr "Riepilogo"
+
+#: .tmp/scrSummary.py:36
+msgid "Save Your Settings"
+msgstr "Salva personalizzazioni"
+
+#: .tmp/scrSummary.py:59
+msgid "Mouse Settings"
+msgstr "Impostazioni Mouse"
+
+#: .tmp/scrSummary.py:61
+#, python-format
+msgid "Selected Mouse configuration: <b>%s</b>"
+msgstr "Configurazione mouse selezionata: <b>%s</b>"
+
+#: .tmp/scrSummary.py:62
+#, python-format
+msgid "Selected clicking behaviour: <b>%s</b>"
+msgstr "Comportamento del mouse selezionato: <b>%s</b>"
+
+#: .tmp/scrSummary.py:66
+msgid "Menu Settings"
+msgstr "Impostazioni Menu"
+
+#: .tmp/scrSummary.py:67
+#, python-format
+msgid "Selected Menu: <b>%s</b>"
+msgstr "Menu selezionato: <b>%s</b>"
+
+#: .tmp/scrSummary.py:71
+msgid "Wallpaper Settings"
+msgstr "Impostazioni sfondo"
+
+#: .tmp/scrSummary.py:73
+msgid "You haven't selected any wallpaper."
+msgstr "Non hai selezionato nessuno sfondo."
+
+#: .tmp/scrSummary.py:75
+#, python-format
+msgid "Selected Wallpaper: <b>%s</b>"
+msgstr "Sfondo selezionato: <b>%s</b>"
+
+#: .tmp/scrSummary.py:79
+msgid "Style Settings"
+msgstr "Impostazioni stile"
+
+#: .tmp/scrSummary.py:82
+msgid "You haven't selected any style."
+msgstr "Non hai selezionato nessuno stile."
+
+#: .tmp/scrSummary.py:84
+#, python-format
+msgid "Selected Style: <b>%s</b>"
+msgstr "Stile selezionato: <b>%s</b>"
+
+#: .tmp/scrSummary.py:91
+msgid "Smolt Settings"
+msgstr "Impostazioni smolt"
+
+#: .tmp/scrSummary.py:92
+#, python-format
+msgid "Send my profile: <b>%s</b>"
+msgstr "Invia il mio profilo: <b>%s</b>"
+
+#: .tmp/scrSummary.py:117
+msgid "Cannot restart plasma-desktop. Kaptan will now shutdown."
+msgstr ""
+
+#: .tmp/scrSummary.py:117
+msgid "Error"
+msgstr "Errore"
+
+#: .tmp/scrWallpaper.py:34 .tmp/ui_scrWallpaper.py:131
+msgid "Wallpaper"
+msgstr "Sfondo"
+
+#: .tmp/scrWallpaper.py:35
+msgid "Choose a Wallpaper"
+msgstr "Scegli uno sfondo"
+
+#: .tmp/scrWelcome.py:27 .tmp/ui_scrWelcome.py:77
+msgid "Welcome"
+msgstr "Benvenuto"
+
+#: .tmp/scrWelcome.py:28
+#, python-format
+msgid "Welcome to %s"
+msgstr "Benvenuto a %s"
+
+#: .tmp/ui_kaptan.py:358
+msgid "Welcome to Pisi Linux"
+msgstr "Benvenuto a Pisi Linux"
+
+#: .tmp/ui_kaptan.py:359
+msgid "Cancel"
+msgstr "Annulla"
+
+#: .tmp/ui_kaptan.py:360
+msgid "Back"
+msgstr "Indietro"
+
+#: .tmp/ui_kaptan.py:361
+msgid "Next"
+msgstr "Avanti"
+
+#: .tmp/ui_kaptan.py:362
+msgid "Finish"
+msgstr "Fine"
+
+#: .tmp/ui_kaptan.py:363
+msgid "Apply Settings"
+msgstr "Applica Impostazioni"
+
+#: .tmp/ui_scrAvatar.py:247 .tmp/ui_scrStyleItem.py:69
+#: .tmp/ui_wallpaperItem.py:72
+msgid "Form"
+msgstr "Form"
+
+#: .tmp/ui_scrAvatar.py:248
+msgid "This screen helps you set your <b>user picture</b>. You can either choose an image from a file or you can capture an image from your camera. Select an option from the <b>options</b> menu."
+msgstr ""
+
+#: .tmp/ui_scrAvatar.py:249
+msgid "Options"
+msgstr "Opzioni"
+
+#: .tmp/ui_scrAvatar.py:250
+msgid "Choose an image"
+msgstr "Scegli un immagine"
+
+#: .tmp/ui_scrAvatar.py:251
+msgid "Capture"
+msgstr "Cattura"
+
+#: .tmp/ui_scrAvatar.py:252
+msgid "Recapture"
+msgstr "Ricattura"
+
+#: .tmp/ui_scrGoodbye.py:326
+msgid "<b>Your settings have been applied.</b> Now you can start enjoying Pisi Linux or you can checkout the following links and applications for more settings or for help and support. Don't forget to <b>join our community!</b>"
+msgstr "<b>Le tue preferenze sono state applicate.</b> Adesso puoi divertirti con Pisi Linux o visitare questi link e questi programmi per ulteriori personalizzazioni e supporto. Non dimenticare di <b>unirti alla nostra community!</b>"
+
+#: .tmp/ui_scrGoodbye.py:327 .tmp/ui_scrGoodbye.py:328 .tmp/ui_scrSmolt.py:156
+msgid "My Smolt Page"
+msgstr "La mia pagina Smolt"
+
+#: .tmp/ui_scrGoodbye.py:329
+msgid "Go to your Smolt page and rate your hardware components."
+msgstr "Visita la tua pagina Smolt"
+
+#: .tmp/ui_scrGoodbye.py:330 .tmp/ui_scrGoodbye.py:332
+msgid "System Settings"
+msgstr "Impostazioni di Sistema"
+
+#: .tmp/ui_scrGoodbye.py:331
+msgid "Configuration tools for Pisi Linux such as the display, firewall, keyboard, user manager..."
+msgstr "Strumenti di configurazione per Pisi Linux per il monitor, firewall, tastiera, gestione utenti e molto altro..."
+
+#: .tmp/ui_scrGoodbye.py:333 .tmp/ui_scrGoodbye.py:335
+msgid "Help and Support"
+msgstr "Aiuto e Supporto"
+
+#: .tmp/ui_scrGoodbye.py:334
+msgid "Pisi Linux community, mailing lists, chat rooms, Wiki documents, help and support pages..."
+msgstr "La comunità di Pisi Linux, mailing list, canali IRC, documenti wiki e le pagine di supporto..."
+
+#: .tmp/ui_scrKeyboard.py:94
+msgid "Kaptan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
+msgstr "Kaptan seleziona automaticamente la tastiera in base alla lingua. Se vuoi usare un'altro tipo di tastiera, selezionane uno qui e provalo."
+
+#: .tmp/ui_scrKeyboard.py:95
+msgid "Test Layout"
+msgstr "Prova il tipo di tastiera"
+
+#: .tmp/ui_scrMenu.py:124
+msgid "You can also customize your <b>KDE menu</b> as you like. Please choose one from the following styles."
+msgstr "Puoi anche personalizzare il menù di KDE come preferisci. Per favore, scegli uno stile qui."
+
+#: .tmp/ui_scrMenu.py:128
+msgid "Sample"
+msgstr "Esempio"
+
+#: .tmp/ui_scrMouse.py:203
+msgid "The <b>clicking behavior</b> defines how many times you want to click when you are opening a file. If you are <b>left handed</b>, you may prefer to swap the left and right buttons of your pointing device."
+msgstr "Il <b>comportamento</b> del mouse definisce quante volte dovrai cliccare per aprire un file. Se sei <b>mancino</b>, potresti preferire invertire i pulsanti del tuo mouse."
+
+#: .tmp/ui_scrMouse.py:204
+msgid "Clicking Behaviour"
+msgstr "Comportamento mouse"
+
+#: .tmp/ui_scrMouse.py:205
+msgid "Single-click to open files and folders"
+msgstr "Click singolo per aprire file e cartelle"
+
+#: .tmp/ui_scrMouse.py:206
+msgid "Dou&ble-click to open files and folders"
+msgstr "Do&ppio click per aprire files e cartelle"
+
+#: .tmp/ui_scrMouse.py:207
+msgid "Button Order"
+msgstr "Ordine pulsanti"
+
+#: .tmp/ui_scrMouse.py:208
+msgid "Right Hand"
+msgstr "Mano destra"
+
+#: .tmp/ui_scrMouse.py:209
+msgid "Left Hand"
+msgstr "Mano sinistra"
+
+#: .tmp/ui_scrMouse.py:210
+msgid "Reverse scrolling"
+msgstr "Scrolling inverso"
+
+#: .tmp/ui_scrPackage.py:133
+msgid "Show updates in the system tray"
+msgstr "Mostra nel vassoio di sistema"
+
+#: .tmp/ui_scrPackage.py:134
+msgid "Check updates automatically every"
+msgstr "Controlla nuovi aggiornamenti ogni:"
+
+#: .tmp/ui_scrPackage.py:135
+msgid " hours"
+msgstr "ore"
+
+#: .tmp/ui_scrPackage.py:136
+msgid "To install and remove programs to Pisi Linux, use Package-Manager. Package-Manager also can automatically install the latest updates available. You can set the period for checking new updates."
+msgstr "Per installare e rimuovere programmi, usa il Gestore Pacchetti. Esso può inoltre installare gli ultimi aggiornamenti disponibili. Qui puoi impostare ogni quanto tempo il Gestore Pacchetti controllerà gli aggiornamenti."
+
+#: .tmp/ui_scrPackage.py:137
+msgid "Updates"
+msgstr "Aggiornamenti"
+
+#: .tmp/ui_scrSearch.py:100
+msgid "Search"
+msgstr "Ricerca"
+
+#: .tmp/ui_scrSearch.py:101
+msgid "Strigi Desktop Search indexes your frequently used files. This gives you very fast file search results. Strigi also can search for files based on their contents."
+msgstr "Strigi indicizza i file che usi spesso. Questo renderà molto veloci le ricerche dei file. Strigi è inoltre in grado di cercare file in grado di cercare dei file in base al loro tipo."
+
+#: .tmp/ui_scrSearch.py:102
+msgid "Allow Strigi to index my files"
+msgstr "Permetti a Strigi di indicizzare i miei files."
+
+#: .tmp/ui_scrSearch.py:103
+msgid "Search Options"
+msgstr "Opzioni di ricerca"
+
+#: .tmp/ui_scrSmolt.py:155
+msgid "<b>Smolt</b> is a tool that collects the information in the following table and sends it to us for which lets us improve Pisi Linux according to the user profile statistics."
+msgstr "<b>Smolt</b> è uno strumento che raccoglie le informazioni contenute nella seguente tabella e le invia agli sviluppatori di Pisi Linux, per migliorarlo in basa alle statistiche."
+
+#: .tmp/ui_scrSmolt.py:157
+msgid "&Send my profile"
+msgstr "I&nvia il mio profilo"
+
+#: .tmp/ui_scrSmolt.py:159
+#, fuzzy
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Smolt will only send hardware and basic operating system information to the Pisi Linux smolt server (smoon).  The only tie from the database to a submitters machine is the UUID.  As long as the submitter does not give out this UUID the submission is anonymous.  If at any point in time a user wants to delete their profile from the database they need only run</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">    <span style=\" font-style:italic;\">smoltDeleteProfile</span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   The information sent to the smolt database server should be considered public in that anyone can view the statistics, data and share machine profiles.  In  many ways smolt is designed to get hardware vendors and other 3rd parties attention.  As such, not only will this information be shared with 3rd parties, we will be using smolt as leverage to gain better support for open source drivers and better support in general.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-decoration: underline;\">IP Logging:</span>  In Pisi Linux's smolt install all web traffic goes through a proxy server first.  This is the only place IP addresses are being logged and they are kept on that server for a period of 4 weeks at which time log rotation removes these logs.  The Pisi Linux Project does not aggregate ip addresses in the smolt database.  These logs are private and will not be available to the general public.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Users unhappy with this policy should simply not use smolt.  Users with questions about this policy should contact the Pisi Linux Infrastructure Team at admin [at] pisilinux.org  Also remember that users can delete their profiles at any time using &quot;<span style=\" font-style:italic;\">smoltDeleteProfile</span>&quot;</p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:9pt;\">   Smolt will only send hardware and basic operating system information to the Pisi Linux smolt server (smoon).  The only tie from the database to a submitters machine is the UUID.  As long as the submitter does not give out this UUID the submission is anonymous.  If at any point in time a user wants to delete their profile from the database they need only run</span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:9pt;\">    </span><span style=\" font-size:9pt; font-style:italic;\">smoltDeleteProfile</span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:9pt;\">   The information sent to the smolt database server should be considered public in that anyone can view the statistics, data and share machine profiles.  In  many ways smolt is designed to get hardware vendors and other 3rd parties attention.  As such, not only will this information be shared with 3rd parties, we will be using smolt as leverage to gain better support for open source drivers and better support in general.</span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:9pt; text-decoration: underline;\">IP Logging:</span><span style=\" font-size:9pt;\">  In Pisi Linux's smolt install all web traffic goes through a proxy server first.  This is the only place IP addresses are being logged and they are kept on that server for a period of 4 weeks at which time log rotation removes these logs.  The Pisi Linux Project does not aggregate ip addresses in the smolt database.  These logs are private and will not be available to the general public.</span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:9pt;\">   Users unhappy with this policy should simply not use smolt.  Users with questions about this policy should contact the Pisi Linux Infrastructure Team at admin [at] pisilinux.org  Also remember that users can delete their profiles at any time using \"</span><span style=\" font-size:9pt; font-style:italic;\">smoltDeleteProfile</span><span style=\" font-size:9pt;\">\"</span></p></body></html>"
+
+#: .tmp/ui_scrStyle.py:237
+msgid "Choose your favorite theme and desktop type. Customize Pisi Linux with colorful styles and themes."
+msgstr "Sceglio il tipo di Desktop e il tema che preferito. Personalizza Pisi Linux con stili e temi colorati!"
+
+#: .tmp/ui_scrStyle.py:238
+msgid "KDE Themes"
+msgstr "Temi KDE"
+
+#: .tmp/ui_scrStyle.py:239
+msgid "Icons"
+msgstr "Icone"
+
+#: .tmp/ui_scrStyle.py:242
+msgid "Oxygen - The official icon set of KDE"
+msgstr "Oxygen - Set di icone ufficiale di KDE"
+
+#: .tmp/ui_scrStyle.py:243
+msgid "Milky - The official icon set of Pisi Linux"
+msgstr "Milky - Set di icone ufficiale di Pisi Linux"
+
+#: .tmp/ui_scrStyle.py:245
+msgid "Desktop Type"
+msgstr "Tipo di desktop"
+
+#: .tmp/ui_scrStyle.py:246
+msgid "Desktop view (KDE4 Style)"
+msgstr "Vista Scrivania (Stile KDE4)"
+
+#: .tmp/ui_scrStyle.py:247
+msgid "Folder view (KDE3 Style)"
+msgstr "Vista cartelle (Stile KDE3)"
+
+#: .tmp/ui_scrStyle.py:248
+msgid "Number of Desktops"
+msgstr "Numero di Desktop:"
+
+#: .tmp/ui_scrStyleItem.py:70
+msgid "styleName"
+msgstr "Nome dello Stile"
+
+#: .tmp/ui_scrStyleItem.py:71
+msgid "styleDesc"
+msgstr "Descrizione dello Stile"
+
+#: .tmp/ui_scrSummary.py:86
+msgid "You have successfully finished all steps. Here's a summary of the settings you want to apply. Click <b>Apply Settings</b> to save them now. You are now ready to enjoy Pisi Linux!"
+msgstr "Hai completato tutti i passi. Ecco un riassunto dei cambiamenti. Clicca su <b>Applica Impostazioni</b> per salvarli. Divertiti con Pisi Linux!"
+
+#: .tmp/ui_scrSummary.py:87
+msgid "The following settings will be applied"
+msgstr "Le impostazioni seguenti verranno eseguiti"
+
+#: .tmp/ui_scrWallpaper.py:132
+msgid "Choose your favorite wallpaper for Pisi Linux. Don't forget to check out <b>Desktop Settings</b> for downloading new and cool wallpapers."
+msgstr "Scegli lo sfondo che preferisci. Non dimenticare di controllare <b>Impostazioni Desktop</b> per scaricare nuovi sfondi."
+
+#: .tmp/ui_scrWallpaper.py:133
+msgid "Wallpapers"
+msgstr "Sfondi"
+
+#: .tmp/ui_scrWallpaper.py:135
+msgid "Choose wallpaper from file"
+msgstr "Scegli sfondo da un file"
+
+#: .tmp/ui_scrWallpaper.py:136
+msgid "Don't change wallpaper"
+msgstr "Non cambiare lo sfondo"
+
+#: .tmp/ui_scrWelcome.py:78
+msgid "What is Pisi Linux?"
+msgstr "Che cosa è Pisi Linux?"
+
+#: .tmp/ui_scrWelcome.py:79
+msgid "<b>Pisi Linux</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Pisi Linux, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kaptan</b> will help you personalize your Pisi Linux workspace easily and quickly. Please click <b>next</b> in order to begin."
+msgstr "Pisi Linux è un sistema operativo sicuro, veloce e user friendly. <br /><br /> Con Pisi Linux puoi connetterti a Internet, leggere e-mail, lavorare, fruire di contenuti multimediali, sviluppare apllicazioni, giocare e molto altro! <br /> <br /><br /><b>Kaptan</b> ti aiuterà a personalizzare Pisi Linux semplicemente e con velocità. Fai click su Avanti per cominciare."
+
+#: .tmp/ui_wallpaperItem.py:73
+msgid "wallPaperName"
+msgstr "Nome dello sfondo"
+
+#: .tmp/ui_wallpaperItem.py:74
+msgid "wallpaperDesc"
+msgstr "Descrizione dello sfondo"
+
+#~ msgid "Contrib repository includes extra and handy programs."
+#~ msgstr "Il repository contrib include pacchetti extra."
+
+#~ msgid "Add contrib repository"
+#~ msgstr "Aggiungi repository contrib"
+
+#~ msgid "Repositories"
+#~ msgstr "Repository"
+
+#~ msgid "Welcome to Pisi Linux 2011 Alpha 1"
+#~ msgstr "Benvenuto in Pisi Linux 2009.2"
+
+#~ msgid "Connect to the Internet"
+#~ msgstr "Connessione Internet"
+
+#~ msgid "color: #642437;"
+#~ msgstr "color: #642437;"
+
+#~ msgid "Desktop search: <b>%s</b>"
+#~ msgstr "Ricerca files: <b>%s</b>"
+
+#~ msgid "color: rgb(95, 34, 52);"
+#~ msgstr "color: rgb(95, 34, 52);"
+
+#~ msgid "color: rgb(234, 225, 228);"
+#~ msgstr "colore: rgb(234, 225, 228);"
+
+#~ msgid "color:rgb(95, 34, 52)"
+#~ msgstr "color:rgb(95, 34, 52)"
+
+#~ msgid "&Back"
+#~ msgstr "&Indietro"
+
+#~ msgid "Easy Desktop Search"
+#~ msgstr "Ricerca file semplice"
+
+#~ msgid "On"
+#~ msgstr "On"
+
+#~ msgid "Off"
+#~ msgstr "Off"
+
+#~ msgid "color: rgb(100, 36, 55);"
+#~ msgstr "color: rgb(100, 36, 55);"
+
+#~ msgid "Authentication Error!"
+#~ msgstr "Errore di Autenticazione!"
+
+#~ msgid "You are not authorized for this operation."
+#~ msgstr "Non sei autorizzato a eseguire questa operazione."
+
+#~ msgid "Info about Pisi"
+#~ msgstr "Informazioni su Pisi"
+
+#~ msgid "Enable Nepomuk Semantic Desktop"
+#~ msgstr "Abilita Desktop Semantico Nepomuk"
+
+#~ msgid "Nepomuk  Semantic Desktop enables tagging and rating of files integrated with the Desktop Search."
+#~ msgstr "Il desktop semantico Nepomuk abilita il tagging e le valutazioni dei files integrata con la ricerca files."
+
+#~ msgid "Folderview"
+#~ msgstr "Vista cartelle"
+
+#~ msgid "Desktop"
+#~ msgstr "Desktop"
+
+#~ msgid "No name"
+#~ msgstr "Nessun nome"
+
+#~ msgid "An experimental menu for KDE4"
+#~ msgstr "Un menù sperimentale per KDE4"
+
+#~ msgid "Lancelot"
+#~ msgstr "Menù Lancelot"
+
+#~ msgid "Kick-off "
+#~ msgstr "Menù Kick-off"
+
+#~ msgid ""
+#~ "This application, called Kaptan Desktop, will help you with your basic but sufficient setup for your Pisi Linux desktop in a quick manner. Please click Next to personalize your desktop. \n"
+#~ "\n"
+#~ "Pisi Linux is a GNU/Linux distribution, targeting at computer literate users' basic desktop needs; helps you connect to internet, read e-mails, work with office documents and more!"
+#~ msgstr ""
+#~ "Questa applicazione, chiamata Kaptan Desktop, ti aiuterà a configurare Pisi Linux in maniera basica(ma comunque sufficiente). Clicca su Avanti per personalizzare il tuo desktop. \n"
+#~ "\n"
+#~ "Pisi Linux è una distribuzione GNU/Linux, ideata per un uso di base del computer; con Pisi Linux puoi connetterti a Internet, leggere le tue e-mail, lavorare sui tuoi documenti, e molto, molto altro!"
+
+#~ msgid "An advanced menu for KDE4."
+#~ msgstr "Un menù moderno per KDE"
+
+#~ msgid "An old style menu from KDE 3."
+#~ msgstr "Un menù vecchio stile da KDE3"
+
+#~ msgid "Goodbye from Kaptan Wizard :)"
+#~ msgstr "Arrivederci da Kaptan Wizard :)"
+
+#~ msgid "Repo"
+#~ msgstr "Repository"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Package-manager is the graphical front-end of PiSi. You can easily install new programs and upgrade your system and also can see new upgrades of the programs periodically from the system tray with package manager.</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Seleziona uno stile di menù:</span></p></body></html>"
+
+#~ msgid "<p align=\"left\">If you are left-handed, you may prefer to swap the functions on the left and right buttons on your pointing device by choosing the \"Left handed\"option below. You can also select default click behaviour.</p>"
+#~ msgstr "<p align=\"left\">Se sei mancino/a, potresti preferire cambiare le impostazioni delle tue periferiche di puntamento scegliendo l'opzione \"Mancino\" qui sotto. Puoi anche scegliere il comportamento del click che preferisci.</p>"
+
+#~ msgid "Lancelot (Experimental Menu)"
+#~ msgstr "Lancelot (Menu sperimentale)"
+
+#~ msgid "Classic (Simple Menu)"
+#~ msgstr "Menu classico (semplice)"
+
+#~ msgid "Kick-off (Advanced Menu)"
+#~ msgstr "Kick-off (Menu Avanzato)"
+
+#~ msgid "User Groups and Help Pages"
+#~ msgstr "Gruppi di utenti e pagine di aiuto"
+
+#~ msgid "System Settings is a configuration tool for Pisi Linux."
+#~ msgstr "Strumento di configurazione per Pisi Linux."
+
+#~ msgid "Start"
+#~ msgstr "Avvia"
+
+#~ msgid "Goodbye"
+#~ msgstr "Arrivederci"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:20pt; font-weight:600; color:#5f2234;\">Welcome to Pisi Linux 2009.1 </span><span style=\" font-size:20pt; font-weight:600; color:#5f2234; vertical-align:super;\">beta</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Seleziona uno stile di menù:</span></p></body></html>"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#5f2234;\">Choose your favorite wallpaper for Pisi Linux. Don't forget to check out </span><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">Desktop Settings</span><span style=\" font-size:10pt; color:#5f2234;\"> for downloading new and cool wallpapers.</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600;\">Le tue impostazioni verranno applicate nella prossima schermata...</span></p></body></html>"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#5f2234;\">You have finished all steps successfully. Here's a summary of the settings you want to apply. Click </span><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">Apply Settings</span><span style=\" font-size:10pt; color:#5f2234;\"> to save them now. You are now ready to enjoy Pisi Linux!</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600;\">Le tue impostazioni verranno applicate nella prossima schermata...</span></p></body></html>"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">Number of Desktops</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Seleziona uno stile di menù:</span></p></body></html>"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; font-weight:600;\">Desktop Type</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Seleziona uno stile di menù:</span></p></body></html>"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#5f2234;\">Choose your favorite theme and desktop type. Customize Pisi Linux with colorful styles and themes.</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Seleziona uno stile di menù:</span></p></body></html>"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">Smolt</span><span style=\" font-size:10pt; color:#5f2234;\"> is a tool that collects the information in the following table and sends it to us for which lets us improve Pisi Linux according to the user profile statistics.</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600;\">Le tue impostazioni verranno applicate nella prossima schermata...</span></p></body></html>"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#5f2234;\">Strigi Desktop Search indexes your frequently used files. This gives you very fast search results. Strigi also can search for files based on their contents.</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600;\">Le tue impostazioni verranno applicate nella prossima schermata...</span></p></body></html>"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\"font-size:10pt; color:#5f2234;\">To install and remove programs to Pisi Linux, use Package-Manager. Package-Manager also can automatically install the latest updates available. You can set the period for checking new updates.</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600;\">Le tue impostazioni verranno applicate nella prossima schermata...</span></p></body></html>"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#5f2234;\">To create a new connection click on </span><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">Create Profile</span><span style=\" font-size:10pt; color:#5f2234;\"> and select your adapter from the list. If your connection is wireless then choose and access point. After saving your profile click the checkbox to establish the connection.</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600;\">Le tue impostazioni verranno applicate nella prossima schermata...</span></p></body></html>"
+
+#~ msgid "mouse icon"
+#~ msgstr "Icona del mouse"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#5f2234;\">The </span><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">clicking behavior</span><span style=\" font-size:10pt; color:#5f2234;\"> defines how many times you want to click when you are opening a file.</span></p>\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt; color:#5f2234;\"></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#5f2234;\">If you are </span><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">left handed</span><span style=\" font-size:10pt; color:#5f2234;\">, you may prefer to swap the left and right buttons of your pointing device.</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:9pt; font-weight:600;\">Congratulazioni! Hai completato tutte le fasi! Ora puoi iniziare a usare Pisi Linux oppure provare questi programmi:</span></p></body></html>"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans'; font-weight:600; color:#5f2234;\"> Menu Styles</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Seleziona uno stile di menù:</span></p></body></html>"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#5f2234;\">You can also customize your </span><span style=\" font-weight:600; color:#5f2234;\">KDE menu</span><span style=\" color:#5f2234;\"> as you like. Please choose one from the following styles.</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Seleziona uno stile di menù:</span></p></body></html>"
+
+#~ msgid "Configure your keyboard layout."
+#~ msgstr "Configura il tuo muose"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">Your settings have been applied.</span><span style=\" font-size:10pt; color:#5f2234;\"> Now you can start enjoying Pisi Linux or you can checkout the following links and applications for more settings or for help and support. Don't forget to </span><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">join our community!</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600;\">Le tue impostazioni verranno applicate nella prossima schermata...</span></p></body></html>"
+
+#~ msgid ""
+#~ "#listWallpaper{background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
+#~ "\n"
+#~ "border: 1px solid rgb(236, 236, 236, 80);}"
+#~ msgstr ""
+#~ "#listWallpaper{background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
+#~ "\n"
+#~ "border: 1px solid rgb(236, 236, 236, 80);}"
+
+#~ msgid ""
+#~ "#textSummary{background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
+#~ "\n"
+#~ "border: 1px solid rgb(236, 236, 236, 80);\n"
+#~ "padding: 20px}\n"
+#~ msgstr ""
+#~ "#textSummary{background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
+#~ "\n"
+#~ "border: 1px solid rgb(236, 236, 236, 80);\n"
+#~ "padding: 20px}\n"
+
+#~ msgid ""
+#~ "#listStyles{\n"
+#~ "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
+#~ "\n"
+#~ "border: 1px solid rgb(236, 236, 236, 80);\n"
+#~ "\n"
+#~ "color: rgb(234, 225, 228);\n"
+#~ "}"
+#~ msgstr ""
+#~ "#listStyles{\n"
+#~ "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
+#~ "\n"
+#~ "border: 1px solid rgb(236, 236, 236, 80);\n"
+#~ "\n"
+#~ "color: rgb(234, 225, 228);\n"
+#~ "}"
+
+#~ msgid "border: 1px solid rgb(236, 236, 236, 100);"
+#~ msgstr "border: 1px solid rgb(236, 236, 236, 100);"
+
+#~ msgid "Menu Styles"
+#~ msgstr "Stili di Menù"
+
+#~ msgid ""
+#~ "#pictureMenuStyles{\n"
+#~ "border: 1px solid rgb(255, 255, 255);\n"
+#~ "}"
+#~ msgstr ""
+#~ "#pictureMenuStyles{\n"
+#~ "border: 1px solid rgb(255, 255, 255);\n"
+#~ "}"
+
+#~ msgid "Wonderful, awesome, superb wallpapers! \\m/"
+#~ msgstr "Sfondi meravigliosi, impressionanti, superbi! \\m/"
+
+#~ msgid "Smolt Description"
+#~ msgstr "Descrizione Smolt"
+
+#~ msgid "Configure package manager settings"
+#~ msgstr "Configurazione Gestore di Pacchetti"
+
+#~ msgid "Package Manager"
+#~ msgstr "Gestore di Pacchetti"
+
+#~ msgid "Network Manager"
+#~ msgstr "Manager di Rete"
+
+#~ msgid "Configure your mouse"
+#~ msgstr "Configura il tuo muose"
+
+#~ msgid "Select your keyboard layout"
+#~ msgstr "Seleziona il tuo tipo di tastiera"
+
+#~ msgid "Welcome to Kaptan 2009.2"
+#~ msgstr "Benvenuto in Kaptan!"
+
+#~ msgid "Kaptan Desktop"
+#~ msgstr "Kaptan Desktop"
+
+#~ msgid "Network Manager (Press Apply to save your settings)"
+#~ msgstr "Gestore di Rete (Premi applica per salvare le modifiche)"
+
+#~ msgid "To create a new connection click on <b>Create Profile</b> and select your adapter from the list. If your connection is wireless then choose and access point. After saving your profile click the checkbox to establish the connection."
+#~ msgstr "Per creare una nuova connessione clicca su <b>Crea profilo</b> e seleziona la tua scheda dalla lista. Se la connessione è wireless, scegli un access point. Dopo aver salvato il tuo profilo metti la spunta per stabilire la connessione."
+
+#~ msgid "Network"
+#~ msgstr "Rete"
+
+#~ msgid "A wizard to transfer files and settings from existing operating systems (e.g. Windows) to Pisi Linux."
+#~ msgstr "Un wizard per trasferire file ed impostazioni da sistemi operativi esistenti (ad esempio Windows) a Pisi Linux."
+
+#~ msgid "Migration Wizard"
+#~ msgstr "Wizard Migrazione"
