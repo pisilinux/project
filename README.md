@@ -1,4 +1,4 @@
-proje
+project
 =====
 
-proje
+PiSi GNU/Linux project repository
