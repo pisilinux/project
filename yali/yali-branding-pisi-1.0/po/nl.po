@@ -6,14 +6,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-05-16 15:46+0300\n"
-"PO-Revision-Date: 2013-01-18 19:02+0200\n"
+"POT-Creation-Date: 2011-05-25 19:01+0000\n"
+"PO-Revision-Date: 2011-05-25 21:32+0200\n"
 "Last-Translator: Antoon Tolboom <atolboo@gmail.com>\n"
 "Language-Team: Dutch <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"Language: \n"
+"X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../release.xml.in.h:1
@@ -129,9 +130,9 @@ msgstr ""
 msgid ""
 "Do you have a habit of customization? Kaptan is there for you. Kaptan is an "
 "end-user configuration assistant which helps you to customize your system "
-"upon your preferences. Dou you prefer using your mouse with single click? "
-"Are you left-handed? Do you want to change the color-scheme of the desktop? "
-"A number of personalization options are offered in Kaptan. Kaptan will be "
+"upon your preferences. Do you prefer using your mouse with single click? Are "
+"you left-handed? Do you want to change the color-scheme of the desktop? A "
+"number of personalization options are offered in Kaptan. Kaptan will be "
 "automatically run when you first login. &lt;br&gt;&lt;br&gt;If you want to "
 "use Kaptan all over again sometime, you can call it from the application "
 "launcher by its name kaptan. &lt;br&gt;Hint: Application launcher can be "
@@ -416,11 +417,11 @@ msgstr "Schijf handmatig partitioneren"
 
 #: ../release.xml.in.h:34
 msgid "Rescue System"
-msgstr ""
+msgstr "Reddingsysteem"
 
 #: ../release.xml.in.h:35
 msgid "Reset forgotten password"
-msgstr ""
+msgstr "Vergeten wachtwoord opnieuw instellen"
 
 #: ../release.xml.in.h:36
 msgid "Select a collection"
@@ -486,8 +487,8 @@ msgstr ""
 "een methode van bestandverificatie. Een mislukte validatie komt meestal door "
 "een fout op het installatiemedium (CD, DVD of USB-opslag).&lt;br&gt;&lt;"
 "br&gt;Bij het maken van een optisch installatiemedium (CD/DVD), probeer DAO "
-"(Disc-at-once) modus te gebruiken en op een lagere snelheid (4x voor DVD, "
-"8-12x voor CD)."
+"(Disc-at-once) modus te gebruiken en op een lagere snelheid (4x voor DVD, 8-"
+"12x voor CD)."
 
 #: ../release.xml.in.h:44
 msgid "Welcome back..."
@@ -558,11 +559,13 @@ msgstr ""
 
 #: ../release.xml.in.h:48
 msgid "You can recover your password."
-msgstr ""
+msgstr "U kunt uw wachtwoord herstellen."
 
 #: ../release.xml.in.h:49
 msgid "You can reinstall your boot loader or you recover any user password."
 msgstr ""
+"U kunt de boootloader opnieuw installeren of het gebruikerwachtwoord "
+"herstellen."
 
 #: ../release.xml.in.h:50
 msgid ""
@@ -591,16 +594,14 @@ msgstr ""
 "apparaat, werp de DVD uit of ontkoppel het image in de virtuele machine)."
 
 #: ../release.xml.in.h:52
-#, fuzzy
 msgid ""
 "You have successfully rescue your system. Please be sure that you unmount "
-"the installation medium (remove the usb disk, eject the dvd or release the "
+"the installation media (remove the usb disk, eject the dvd or release the "
 "image in virtual machies)."
 msgstr ""
-"Pardus is met succes op de computer geïnstalleerd. Na een herstart van de "
-"computer kunt u nieuwe gebruikeraccounts toevoegen en Pardus gaan gebruiken. "
-"Wees er zeker van dat u het installatiemedium ontkoppelt (verwijder het USB-"
-"apparaat, werp de DVD uit of ontkoppel het image in de virtuele machine)."
+"Het systeem is met succes hersteld. Wees er zeker van dat het "
+"installatiemedium ontkoppelt is (verwijder het USB-apparaat, werp de DVD uit "
+"of ontkoppel het image in de virtuele machine)."
 
 #: ../release.xml.in.h:53
 msgid ""
@@ -647,7 +648,7 @@ msgstr ""
 "de Wiki (http://pardus-wiki.org/) is meer informatie te vinden. &lt;br&gt;"
 "Indien u vragen heeft, is het forum de plaats waar u deze kan stellen. Voor "
 "de gebruiker die de Turkse taal beheersen is er voor ondersteuning ook nog "
-"www.ozgurlukicin.org"
+"www.ozgurlukicin.com"
 
 #: ../release.xml.in.h:55
 msgid ""

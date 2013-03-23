@@ -1,4 +1,4 @@
-﻿# SOME DESCRIPTIVE TITLE.
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -428,7 +428,7 @@ msgid ""
 "and experience. You can also find guides, introductionary articles about "
 "applications and games. &lt;br&gt;If you happen to have any questions, the "
 "forum is waiting for you. If you need support, or if you want to support, "
-"your first stop should be www.ozgurlukicin.org"
+"your first stop should be www.ozgurlukicin.com"
 msgstr ""
 
 #: ../release.xml.in.h:55

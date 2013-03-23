@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 #
-# Copyright (C) 2010 TUBITAK/UEKAE
-#
 # This program is free software; you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free
 # Software Foundation; either version 2 of the License, or (at your option)
@@ -14,7 +12,7 @@ from distutils.core import setup
 from distutils.command.build import build
 from distutils.command.install import install
 
-THEME_DIR = "usr/share/yali/theme/pardus"
+THEME_DIR = "usr/share/yali/theme/pisilinux"
 
 class Build(build):
     def run(self):
@@ -31,13 +29,13 @@ class Install(install):
         self.copy_file("build/data.rcc", os.path.join(self.root or "/", THEME_DIR))
 
 
-setup(name="yali-theme-pardus",
+setup(name="yali-theme-pisilinux",
       version= "2011.0.8",
-      description="Pardus theme for YALI (Yet Another Linux Installer)",
+      description="Pisi Linux theme for YALI (Yet Another Linux Installer)",
       license="GNU GPL2",
-      author="Pardus Developers",
-      author_email="yali@pardus.org.tr",
-      url="http://www.pardus.org.tr/eng/yali/",
+      author="Pisi Linux Developers",
+      author_email="admin@pisilinux.org",
+      url="http://www.pisilinux.org",
       data_files=[("/%s" % THEME_DIR, ["style.qss"])],
       cmdclass = {'build': Build,
                   'install': Install})

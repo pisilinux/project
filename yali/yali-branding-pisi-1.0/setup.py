@@ -16,7 +16,7 @@ from distutils.cmd import Command
 from distutils.command.build import build
 from distutils.command.install import install
 
-BRANDING_DIR = "usr/share/yali/branding/pardus"
+BRANDING_DIR = "usr/share/yali/branding/pisilinux"
 IN_FILES = ("release.xml.in",)
 
 class Build(build):
@@ -49,20 +49,20 @@ class UpdatePO(Command):
 
     def run(self):
         os.chdir("po")
-        self.spawn(["intltool-update", "--gettext-package=yali-branding-pardus", "-p"])
+        self.spawn(["intltool-update", "--gettext-package=yali-branding-pisilinux", "-p"])
         for po_file in glob.glob("*.po"):
             lang, ext = os.path.splitext(po_file)
-            self.spawn(["intltool-update", "--gettext-package=yali-branding-pardus", "--dist", "-o", po_file, lang])
+            self.spawn(["intltool-update", "--gettext-package=yali-branding-pisilinux", "--dist", "-o", po_file, lang])
 
         os.chdir("..")
 
-setup(name="yali-branding-pardus",
+setup(name="yali-branding-pisilinux",
       version= "2011.0.11",
-      description="Pardus branding files for YALI (Yet Another Linux Installer)",
+      description="Pisi Linux branding files for YALI (Yet Another Linux Installer)",
       license="GNU GPL2",
-      author="Pardus Developers",
-      author_email="yali@pardus.org.tr",
-      url="http://www.pardus.org.tr/eng/yali/",
+      author="Pisi Linux Developers",
+      author_email="admin@pisilinux.org",
+      url="http://www.pisilinux.org",
       data_files=[("/%s/slideshow" % BRANDING_DIR, glob.glob("slideshow/*.png"))],
       cmdclass = {'build': Build,
                   'install': Install,
