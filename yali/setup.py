@@ -116,10 +116,10 @@ class I18nInstall(install):
             shutil.copy("po/%s.mo" % lang, os.path.join(destpath, "%s.mo" % I18N_DOMAIN))
 
 setup(name="yali",
-      version= "2.5.0",
+      version= "3.0.0",
       description="YALI (Yet Another Linux Installer)",
       long_description="Pisi Linux System Installer.",
-      license="GNU GPL2",
+      license="Latest GNU GPL version",
       author="Pisi Linux Developers",
       author_email="admins@pisilinux.org",
       url="http://github.com/pisilinux",
