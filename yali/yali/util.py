@@ -52,7 +52,7 @@ def chgrp(path, group):
 def product_name(path=None):
     if not path:
         path = ctx.consts.root_dir
-    filename = os.path.join(path, ctx.consts.pardus_release_file)
+    filename = os.path.join(path, ctx.consts.pisilinux_release_file)
     release_str = ""
     if os.access(filename, os.R_OK):
         with open(filename) as release_file:

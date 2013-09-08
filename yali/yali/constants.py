@@ -58,7 +58,7 @@ class Constants:
         self.__c.conf_dir = "etc/yali"
         self.__c.conf_file = os.path.join(self.__c.root_dir, self.__c.conf_dir, "yali.conf")
         self.__c.oem_file = os.path.join(self.__c.root_dir, self.__c.conf_dir,"oem.xml")
-        self.__c.pardus_release_file = "etc/pisilinux-release"
+        self.__c.pisilinux_release_file = "etc/pisilinux-release"
         self.__c.data_dir = "/usr/share/yali"
         self.__c.theme_dir = os.path.join(self.__c.data_dir, "theme")
         self.__c.branding_dir = os.path.join(self.__c.data_dir, "branding")
