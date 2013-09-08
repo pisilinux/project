@@ -59,9 +59,9 @@ def setMouse(key="left"):
 
 def liveMediaSystem(path=None):
     if not path:
-        path  = "/var/run/pardus/livemedia"
+        path  = "/run/pisilinux/livemedia"
     if os.path.exists(path):
-        return file("/var/run/pardus/livemedia", 'r').read().split('\n')[0]
+        return file("/run/pisilinux/livemedia", 'r').read().split('\n')[0]
     else:
         return None
 

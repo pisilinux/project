@@ -26,7 +26,7 @@ class Flags:
 
        options = get_kernel_option("yali")
        self.__dict__['flags']['live'] = options.has_key("live") or \
-                                        os.path.exists("/var/run/pardus/livemedia")
+                                        os.path.exists("/run/pisilinux/livemedia")
        if options.has_key("system"):
            self.__dict__['flags']['install_type'] = ctx.STEP_BASE
        elif options.has_key("firstboot"):
