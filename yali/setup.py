@@ -90,6 +90,10 @@ class YaliUninstall(Command):
         if os.path.exists(conf_dir):
             print "removing: ", conf_dir
             shutil.rmtree(conf_dir)
+        
+        if os.path.exists("/usr/share/applications/yali.desktop"):
+            print "removing: rest of installation",
+            os.unlink("/usr/share/applications/yali.desktop")
         os.unlink("/usr/bin/yali-bin")
         os.unlink("/usr/bin/start-yali")
         os.unlink("/usr/bin/bindYali")
@@ -122,7 +126,8 @@ setup(name="yali",
       packages = ['yali', 'yali.gui', 'yali.gui.Ui', 'yali.storage',\
                   'yali.storage.devices', 'yali.storage.formats', 'yali.storage.library'],
       data_files = [('/etc/yali', glob.glob("conf/*")),
-                    ('/lib/udev/rules.d', ["70-yali.rules"])],
+                    ('/lib/udev/rules.d', ["70-yali.rules"]),
+                    ('/usr/share/applications', ["yali.desktop"])],
       scripts = ['yali-bin', 'start-yali', 'bindYali'],
       ext_modules = [Extension('yali._sysutils',
                                sources = ['yali/_sysutils.c'],
