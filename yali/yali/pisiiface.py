@@ -164,8 +164,6 @@ def getNotNeededLanguagePackages():
 def getBasePackages():
     systemBase = getPackages("PartOf", "system.base")
     systemBase.extend(getPackages("Name", "kernel"))
-    systemBase.extend(getPackages("Name", "gfxtheme-pardus-boot"))
-    systemBase.extend(getPackages("Name", "gfxtheme-base"))
     systemBase.extend(getPackages("Name", "device-mapper"))
     systemBase.extend(getPackages("Name", "lvm2"))
     systemBase.extend(getPackages("Name", "lvm2-static"))
@@ -174,8 +172,8 @@ def getBasePackages():
     if ctx.flags.install_type == ctx.STEP_BASE:
         systemBase.extend(getPackages("Name", "xdm"))
         systemBase.extend(getPackages("Name", "yali"))
-        systemBase.extend(getPackages("Name", "yali-branding"))
-        systemBase.extend(getPackages("Name", "yali-theme"))
+        systemBase.extend(getPackages("Name", "yali-branding-pisilinux"))
+        systemBase.extend(getPackages("Name", "yali-theme-pisilinux"))
 
     return mergePackagesWithRepoPath(systemBase)
 
