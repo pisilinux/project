@@ -166,7 +166,7 @@ def setKeymapLayout():
     yali.util.writeKeymap(consolekeymap)
 
 def setupRepoIndex():
-    target = os.path.join(ctx.consts.target_dir, "var/lib/pisi/index/%s" % ctx.consts.pardus_repo_name)
+    target = os.path.join(ctx.consts.target_dir, "var/lib/pisi/index/%s" % ctx.consts.pisilinux_repo_name)
 
     if os.path.exists(ctx.consts.pisi_index_file):
         # Copy package index
