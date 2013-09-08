@@ -122,7 +122,7 @@ setup(name="yali",
       license="Latest GNU GPL version",
       author="Pisi Linux Developers",
       author_email="admins@pisilinux.org",
-      url="http://github.com/pisilinux",
+      url="https://github.com/pisilinux/project",
       packages = ['yali', 'yali.gui', 'yali.gui.Ui', 'yali.storage',\
                   'yali.storage.devices', 'yali.storage.formats', 'yali.storage.library'],
       data_files = [('/etc/yali', glob.glob("conf/*")),
