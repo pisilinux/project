@@ -62,8 +62,8 @@ def initbaselayout():
     # create empty log file
     yali.util.touch("var/log/lastlog")
 
-    yali.util.touch("var/run/utmp", 0664)
-    yali.util.chgrp("var/run/utmp", "utmp")
+    yali.util.touch("run/utmp", 0664)
+    yali.util.chgrp("run/utmp", "utmp")
 
     yali.util.touch("var/log/wtmp", 0664)
     yali.util.chgrp("var/log/wtmp", "utmp")

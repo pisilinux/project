@@ -40,7 +40,7 @@ def initialize(ui, with_comar = False, nodestDir = False):
             break
         except dbus.DBusException:
             time.sleep(1)
-    pisi.api.set_dbus_sockname("%s/var/run/dbus/system_bus_socket" % options.destdir)
+    pisi.api.set_dbus_sockname("%s/run/dbus/system_bus_socket" % options.destdir)
 
     try:
         pisi.api.set_dbus_timeout(1200)
