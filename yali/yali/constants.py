@@ -80,7 +80,7 @@ class Constants:
         self.__c.collection_repo_name = "pisilinux-collection"
         self.__c.cd_repo_uri = os.path.join(self.__c.source_dir, "repo/pisi-index.xml.bz2")
         self.__c.pisilinux_repo_name = "@REPO_NAME@"
-        self.__c.pardus_repo_uri = "@REPO_URI@"
+        self.__c.pisilinux_repo_uri = "@REPO_URI@"
         self.__c.pisi_index_file = os.path.join(self.__c.data_dir,"data/pisi-index.xml.bz2")
         self.__c.pisi_index_file_sum = os.path.join(self.__c.data_dir,"data/pisi-index.xml.bz2.sha1sum")
         self.__c.lang = locale.getdefaultlocale()[0][:2]

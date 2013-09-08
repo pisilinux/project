@@ -73,7 +73,7 @@ def addRemoteRepo(name, uri):
 
 def switchToPardusRepo(repo):
     removeRepo(repo)
-    addRepo(ctx.consts.pisilinux_repo_name, ctx.consts.pardus_repo_uri)
+    addRepo(ctx.consts.pisilinux_repo_name, ctx.consts.pisilinux_repo_uri)
 
 def updateRepo(name=ctx.consts.cd_repo_name):
     pisi.api.update_repo(name)
