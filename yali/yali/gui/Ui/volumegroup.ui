@@ -129,7 +129,7 @@
          <string>Add</string>
         </property>
         <property name="icon">
-         <iconset resource="/usr/share/yali/theme/pisilinux/data.qrc">
+         <iconset resource="../../../../yali-theme-pisi-1.0/data.qrc">
           <normaloff>:/gui/pics/list-add.png</normaloff>:/gui/pics/list-add.png</iconset>
         </property>
        </widget>
@@ -140,7 +140,7 @@
          <string>Edit</string>
         </property>
         <property name="icon">
-         <iconset resource="/usr/share/yali/theme/pisilinux/data.qrc">
+         <iconset resource="../../../../yali-theme-pisi-1.0/data.qrc">
           <normaloff>:/gui/pics/document-edit.png</normaloff>:/gui/pics/document-edit.png</iconset>
         </property>
        </widget>
@@ -151,7 +151,7 @@
          <string>Delete</string>
         </property>
         <property name="icon">
-         <iconset resource="/usr/share/yali/theme/pisilinux/data.qrc">
+         <iconset resource="../../../../yali-theme-pisi-1.0/data.qrc">
           <normaloff>:/gui/pics/draw-eraser.png</normaloff>:/gui/pics/draw-eraser.png</iconset>
         </property>
        </widget>
@@ -197,7 +197,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="/usr/share/yali/theme/pisilinux/data.qrc"/>
+  <include location="../../../../yali-theme-pisi-1.0/data.qrc"/>
  </resources>
  <connections/>
 </ui>
