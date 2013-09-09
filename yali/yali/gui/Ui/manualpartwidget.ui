@@ -277,7 +277,7 @@ QListView::item:selected {
                <string>Create</string>
               </property>
               <property name="icon">
-               <iconset resource="../../../../yali-theme-pisi-1.0/data.qrc">
+               <iconset resource="/usr/share/yali/theme/pisilinux/data.qrc">
                 <normaloff>:/gui/pics/expand.png</normaloff>:/gui/pics/expand.png</iconset>
               </property>
               <property name="popupMode">
@@ -300,7 +300,7 @@ QListView::item:selected {
                <string>Edit</string>
               </property>
               <property name="icon">
-               <iconset resource="../../../../yali-theme-pisi-1.0/data.qrc">
+               <iconset resource="/usr/share/yali/theme/pisilinux/data.qrc">
                 <normaloff>:/gui/pics/document-edit.png</normaloff>:/gui/pics/document-edit.png</iconset>
               </property>
               <property name="flat">
@@ -314,7 +314,7 @@ QListView::item:selected {
                <string>Delete</string>
               </property>
               <property name="icon">
-               <iconset resource="../../../../yali-theme-pisi-1.0/data.qrc">
+               <iconset resource="/usr/share/yali/theme/pisilinux/data.qrc">
                 <normaloff>:/gui/pics/draw-eraser.png</normaloff>:/gui/pics/draw-eraser.png</iconset>
               </property>
               <property name="flat">
@@ -328,7 +328,7 @@ QListView::item:selected {
                <string>Reset</string>
               </property>
               <property name="icon">
-               <iconset resource="../../../../yali-theme-pisi-1.0/data.qrc">
+               <iconset resource="/usr/share/yali/theme/pisilinux/data.qrc">
                 <normaloff>:/gui/pics/view-refresh.png</normaloff>:/gui/pics/view-refresh.png</iconset>
               </property>
               <property name="flat">
@@ -361,7 +361,7 @@ QListView::item:selected {
   </layout>
  </widget>
  <resources>
-  <include location="../../../../yali-theme-pisi-1.0/data.qrc"/>
+  <include location="/usr/share/yali/theme/pisilinux/data.qrc"/>
  </resources>
  <connections/>
 </ui>

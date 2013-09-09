@@ -140,7 +140,7 @@ color:white;
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap resource="../../../../yali-theme-pisi-1.0/data.qrc">:/gui/pics/postinstall.png</pixmap>
+           <pixmap resource="/usr/share/yali/theme/pisilinux/data.qrc">:/gui/pics/postinstall.png</pixmap>
           </property>
           <property name="alignment">
            <set>Qt::AlignCenter</set>
@@ -165,7 +165,7 @@ color:white;
   </layout>
  </widget>
  <resources>
-  <include location="../../../../yali-theme-pisi-1.0/data.qrc"/>
+  <include location="/usr/share/yali/theme/pisilinux/data.qrc"/>
  </resources>
  <connections/>
 </ui>

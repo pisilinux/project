@@ -136,7 +136,7 @@
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="../../../../yali-theme-pisi-1.0/data.qrc">
+            <iconset resource="/usr/share/yali/theme/pisilinux/data.qrc">
              <normaloff>:/images/system-shutdown.png</normaloff>:/images/system-shutdown.png</iconset>
            </property>
            <property name="popupMode">
@@ -196,7 +196,7 @@
             <string>Back</string>
            </property>
            <property name="icon">
-            <iconset resource="../../../../yali-theme-pisi-1.0/data.qrc">
+            <iconset resource="/usr/share/yali/theme/pisilinux/data.qrc">
              <normaloff>:/gui/pics/arrow-left.png</normaloff>:/gui/pics/arrow-left.png</iconset>
            </property>
            <property name="checkable">
@@ -231,7 +231,7 @@
             <string>Next</string>
            </property>
            <property name="icon">
-            <iconset resource="../../../../yali-theme-pisi-1.0/data.qrc">
+            <iconset resource="/usr/share/yali/theme/pisilinux/data.qrc">
              <normaloff>:/gui/pics/arrow-right.png</normaloff>:/gui/pics/arrow-right.png</iconset>
            </property>
            <property name="flat">
@@ -293,7 +293,7 @@
             <string/>
            </property>
            <property name="pixmap">
-            <pixmap resource="../../../../yali-theme-pisi-1.0/data.qrc">:/gui/pics/media-optical-small.png</pixmap>
+            <pixmap resource="/usr/share/yali/theme/pisilinux/data.qrc">:/gui/pics/media-optical-small.png</pixmap>
            </property>
            <property name="scaledContents">
             <bool>true</bool>
@@ -324,7 +324,7 @@
             </size>
            </property>
            <property name="pixmap">
-            <pixmap resource="../../../../yali-theme-pisi-1.0/data.qrc">:/gui/pics/logo-on-black.png</pixmap>
+            <pixmap resource="/usr/share/yali/theme/pisilinux/data.qrc">:/gui/pics/logo-on-black.png</pixmap>
            </property>
            <property name="scaledContents">
             <bool>false</bool>
@@ -392,7 +392,7 @@
                 <string/>
                </property>
                <property name="icon">
-                <iconset resource="../../../../yali-theme-pisi-1.0/data.qrc">
+                <iconset resource="/usr/share/yali/theme/pisilinux/data.qrc">
                  <normaloff>:/gui/pics/system-help.png</normaloff>:/gui/pics/system-help.png</iconset>
                </property>
                <property name="checkable">
@@ -502,7 +502,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="../../../../yali-theme-pisi-1.0/data.qrc"/>
+  <include location="/usr/share/yali/theme/pisilinux/data.qrc"/>
  </resources>
  <connections/>
 </ui>
