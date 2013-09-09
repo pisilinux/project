@@ -36,6 +36,6 @@ setup(name="yali-theme-pisilinux",
       author="Pisi Linux Developers",
       author_email="admin@pisilinux.org",
       url="https://github.com/pisilinux/project/tree/master/yali-theme-pisilinux",
-      data_files=[("/%s" % THEME_DIR, ["style.qss"])],
+      data_files=[("/%s" % THEME_DIR, ["style.qss", "data.qrc"])],
       cmdclass = {'build': Build,
                   'install': Install})
