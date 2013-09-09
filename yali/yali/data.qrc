@@ -1,24 +1,40 @@
 <RCC>
   <qresource prefix="/">
+    <file>gui/pics/view-refresh.png</file>
+    <file>gui/pics/user-group-delete.png</file>
+    <file>gui/pics/user-group-new.png</file>
+    <file>gui/pics/user-group-properties.png</file>
+    <file>gui/pics/bootloader.png</file>
+    <file>gui/pics/bootloader-big.png</file>
+    <file>gui/pics/summary.png</file>
+    <file>gui/pics/summary-big.png</file>
+    <file>gui/pics/partitionmanager.png</file>
+    <file>gui/pics/partitionmanager-big.png</file>
     <file>gui/pics/caps.png</file>
+    <file>gui/pics/minimal-collection-icon.png</file>
+    <file>gui/pics/kde-desktop-collection-icon.png</file>
+    <file>gui/pics/gnome-desktop-collection-icon.png</file>
+    <file>gui/pics/xfce-desktop-collection-icon.png</file>
+    <file>gui/pics/fluxbox-desktop-collection-icon.png</file>
+    <file>gui/pics/lxde-desktop-collection-icon.png</file>
+    <file>gui/pics/enlightenment-desktop-collection-icon.png</file>
+    <file>gui/pics/server-collection-icon.png</file>
+    <file>gui/pics/systemsettings.png</file>
     <file>gui/pics/lock.png</file>
     <file>gui/pics/computer.png</file>
-    <file>gui/pics/computer.png</file>
-    <file>gui/pics/dialog-warning.png</file>
     <file>gui/pics/dialog-warning.png</file>
     <file>gui/pics/dialog-cancel.png</file>
     <file>gui/pics/document-edit.png</file>
     <file>gui/pics/draw-eraser.png</file>
     <file>gui/pics/list-add.png</file>
-    <file>gui/pics/meeting-participant.png</file>
     <file>gui/pics/meeting-participant-big.png</file>
     <file>gui/pics/drive-removable-media-usb-big.png</file>
     <file>gui/pics/media-flash-sd-mmc-big.png</file>
     <file>gui/pics/disk-prototype.png</file>
     <file>gui/pics/drive-harddisk-big.png</file>
+    <file>gui/pics/drive-harddisk.png</file>
     <file>gui/pics/expand.png</file>
     <file>gui/pics/collapse.png</file>
-    <file>gui/pics/applications-other.png</file>
     <file>gui/pics/input-keyboard.png</file>
     <file>gui/pics/input-keyboard-big.png</file>
     <file>gui/pics/preferences-system-time-big.png</file>
@@ -28,15 +44,12 @@
     <file>gui/pics/dialog-error.png</file>
     <file>gui/pics/task-accepted.png</file>
     <file>gui/pics/task-complete.png</file>
-    <file>gui/pics/input-keyboard.png</file>
     <file>gui/pics/preferences-system-time.png</file>
     <file>gui/pics/system-users.png</file>
     <file>gui/pics/applications-other.png</file>
     <file>gui/pics/system-help.png</file>
-    <file>gui/pics/preferences-system-time.png</file>
     <file>gui/pics/arrow-left.png</file>
     <file>gui/pics/arrow-right.png</file>
-    <file>gui/pics/media-optical.png</file>
     <file>gui/pics/tick.png</file>
     <file>gui/pics/bg.png</file>
     <file>gui/pics/partscheme-all.png</file>
@@ -51,7 +64,7 @@
     <file>gui/pics/net_tools.png</file>
     <file>gui/pics/help-about.png</file>
     <file>gui/pics/admin.png</file>
-    <file>gui/pics/backardus.png</file>
+    <file>gui/pics/backpisi.png</file>
     <file>gui/pics/goodbye.png</file>
     <file>gui/pics/iconAdmin.png</file>
     <file>gui/pics/iconBootloader.png</file>
@@ -65,11 +78,12 @@
     <file>gui/pics/keyboards.png</file>
     <file>gui/pics/linux.png</file>
     <file>gui/pics/logo.png</file>
+    <file>gui/pics/logo-on-black.png</file>
     <file>gui/pics/core.png</file>
     <file>gui/pics/other.png</file>
-    <file>gui/pics/pardus.png</file>
+    <file>gui/pics/pisi.png</file>
     <file>gui/pics/postinstall.png</file>
-    <file>gui/pics/parduspart.png</file>
+    <file>gui/pics/pisipart.png</file>
     <file>gui/pics/trans.png</file>
     <file>gui/pics/transBlack.png</file>
     <file>gui/pics/user_normal.png</file>
@@ -89,6 +103,7 @@
     <file>images/info.png</file>
     <file>images/question.png</file>
     <file>images/error.png</file>
+    <file>images/warning.png</file>
     <file>images/working.mng</file>
     <file>images/radiobutton_checked.png</file>
     <file>images/radiobutton_checked_hover.png</file>
