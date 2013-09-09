@@ -71,7 +71,7 @@ border-bottom: 1px solid rgba(255, 255, 255, 75);/*white*/
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap resource="../../../../yali-theme-pisi-1.0/data.qrc">:/gui/pics/welcome.png</pixmap>
+           <pixmap resource="../../data.qrc">:/gui/pics/welcome.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -230,8 +230,8 @@ border-bottom: 1px solid rgba(255, 255, 255, 75);/*white*/
  <pixmapfunction>qPixmapFromMimeSource</pixmapfunction>
  <resources>
   <include location="../../data.qrc"/>
-  <include location="../../../../yali-theme-pisi-1.0/data.qrc"/>
-  <include location="../../../../yali-theme-pisi-1.0/data.qrc"/>
+  <include location="../../data.qrc"/>
+  <include location="../../data.qrc"/>
  </resources>
  <connections/>
 </ui>

@@ -91,7 +91,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="../../../../yali-theme-pisi-1.0/data.qrc"/>
+  <include location="../../data.qrc"/>
  </resources>
  <connections/>
 </ui>
