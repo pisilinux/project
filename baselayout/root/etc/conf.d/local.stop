@@ -1,0 +1,4 @@
+# /etc/conf.d/local.stop
+
+# This is a good place to unload any misc.
+# programs you started above.

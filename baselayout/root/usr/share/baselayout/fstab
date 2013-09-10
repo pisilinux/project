@@ -1,0 +1,13 @@
+# /etc/fstab: static file system information.
+#
+# <fs>      <mountpoint> <type> <opts>      <dump/pass>
+
+# /dev/ROOT   /            ext3    noatime        0 1
+# /dev/SWAP   none         swap    sw             0 0
+# /dev/fd0    /mnt/floppy  auto    noauto         0 0
+
+tmpfs       /            tmpfs   defaults       0 0
+
+none        /proc        proc    nosuid,noexec  0 0
+none        /dev/shm     tmpfs   defaults       0 0
+

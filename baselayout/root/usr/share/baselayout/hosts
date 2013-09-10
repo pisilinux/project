@@ -1,0 +1,20 @@
+# /etc/hosts
+#
+# This file describes a number of hostname-to-address
+# mappings for the TCP/IP subsystem.  It is mostly
+# used at boot time, when no name servers are running.
+# On small systems, this file can be used instead of a
+# "named" name server.  Just add the names, addresses
+# and any aliases to this file...
+#
+
+127.0.0.1   localhost   pisilinux
+
+# IPV6 versions of localhost and co
+::1     localhost ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+
