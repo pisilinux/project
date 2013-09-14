@@ -378,7 +378,7 @@ border-bottom-right-radius: 4px;
           </item>
           <item>
            <property name="text">
-            <string>kfaenza - KDE4 icon set of Pardus Anka</string>
+            <string>kfaenza - KDE4 icon set of Pisi Linux</string>
            </property>
            <property name="toolTip">
             <string>kfaenza</string>

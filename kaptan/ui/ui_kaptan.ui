@@ -257,7 +257,7 @@ border-bottom: 1px solid rgba(0,0,0,10)</string>
              <number>0</number>
             </property>
             <property name="text">
-             <string>Welcome to Pisi Lİnux</string>
+             <string>Welcome to Pisi Linux</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>

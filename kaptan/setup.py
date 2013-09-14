@@ -55,6 +55,7 @@ def update_messages():
                         --keyword=_ \
                         --keyword=N_ \
                         --keyword=i18n \
+                        --keyword=_fromUtf8 \
                         --keyword=ki18n \
                         -o po/%s.pot" % (about.catalog, about.catalog))
 

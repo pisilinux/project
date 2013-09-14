@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nl\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-14 15:16+0200\n"
+"POT-Creation-Date: 2013-04-21 07:16+0300\n"
 "PO-Revision-Date: 2010-10-20 15:46+0300\n"
 "Last-Translator: Yasirov Vasia zaG <zag@vspu.ru>\n"
 "Language-Team: Russian <LL@li.org>\n"
@@ -18,71 +18,144 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 1.0\n"
 
-#: .tmp/kaptan.desktop.in.h:1 .tmp/ui_kaptan.py:357
-msgid "Kaptan"
-msgstr "Kaptan"
+#: .tmp/scrStyle.py:37 .tmp/ui_scrStyle.py:252
+msgid "Themes"
+msgstr "Темы"
 
-#: .tmp/kaptan.desktop.in.h:2
-msgid "Welcome Wizard"
-msgstr "Мастер приветствия"
+#: .tmp/scrStyle.py:38
+msgid "Customize Your Desktop"
+msgstr "Настроить ваш рабочий стол"
 
-#: .tmp/scrAvatar.py:36
-msgid "User Picture"
-msgstr "Иконка пользователя"
+#: .tmp/ui_scrWallpaper.py:168 .tmp/scrWallpaper.py:34
+msgid "Wallpaper"
+msgstr "Обои"
 
-#: .tmp/scrAvatar.py:48
-msgid "Create Your User Picture"
-msgstr "Создать свою иконку пользователя"
+#: .tmp/ui_scrWallpaper.py:169
+msgid ""
+"Choose your favorite wallpaper for Pisi Linux. Don't forget to check out "
+"<b>Desktop Settings</b> for downloading new and cool wallpapers."
+msgstr ""
+"Выбери свои любимые обои для рабочего стола Pisi Linux. Не забудьте "
+"проверить <b>Настройки рабочего стола</b> для загрузки новых и отличных "
+"обоев для рабочего стола."
 
-#: .tmp/scrGoodbye.py:24 .tmp/ui_scrGoodbye.py:325
-msgid "More"
-msgstr "Дополнительно"
+#: .tmp/ui_scrWallpaper.py:170
+msgid "Wallpapers"
+msgstr "Обои рабочего стола"
 
-#: .tmp/scrGoodbye.py:25
-msgid "Congratulations!"
-msgstr "Поздравляем!"
+#: .tmp/ui_scrWallpaper.py:172
+msgid "Choose wallpaper from file"
+msgstr "Выбрать обои из файла"
 
-#: .tmp/scrKeyboard.py:31 .tmp/ui_scrKeyboard.py:93
+#: .tmp/ui_scrWallpaper.py:173
+msgid "Don't change wallpaper"
+msgstr "Не менять обои рабочего стола"
+
+#: .tmp/ui_scrKeyboard.py:102 .tmp/scrKeyboard.py:31
 msgid "Keyboard"
 msgstr "Клавиатура"
+
+#: .tmp/ui_scrKeyboard.py:103
+msgid ""
+"Kaptan automatically selects the best keyboard layout according to your "
+"system language. If you want to use another layout other than the default "
+"keyboard layout, you can make your selection and test it instantly."
+msgstr ""
+"Kaptan автоматически выбирает лучшую раскладки клавиатуры в зависимости от "
+"языка вашей системы. Если вы хотите использовать другую раскладку, кроме "
+"раскладки клавиатуры по-умолчанию, вы можете сделать свой выбор и "
+"протестировать его мгновенно."
+
+#: .tmp/ui_scrKeyboard.py:104
+msgid "Test Layout"
+msgstr "Тест раскладки"
 
 #: .tmp/scrKeyboard.py:32
 msgid "Keyboard Layout Language"
 msgstr "Язык расладки клавиатуры"
 
-#: .tmp/scrMenu.py:26 .tmp/ui_scrMenu.py:123
-msgid "Menu"
-msgstr "Меню"
+#: .tmp/ui_scrAvatar.py:27 .tmp/ui_scrAvatar.py:259 .tmp/ui_scrStyleItem.py:78
+#: .tmp/ui_wallpaperItem.py:81
+msgid "Form"
+msgstr "Форма"
 
-#: .tmp/scrMenu.py:27
-msgid "Choose a Menu Style"
-msgstr "Выберите стиль меню"
+#: .tmp/ui_scrAvatar.py:260
+msgid ""
+"This screen helps you set your <b>user picture</b>. You can either choose an "
+"image from a file or you can capture an image from your camera. Select an "
+"option from the <b>options</b> menu."
+msgstr ""
+"Это окно поможет установить вашу <b>изображение пользователя</b>. Вы можете "
+"выбрать изображение из файла или вы можете захватить изображение с камеры. "
+"Выберите один из вариантов из меню <b>Опции</b>."
 
-#: .tmp/scrMenu.py:41 .tmp/ui_scrMenu.py:125
-msgid "Kick-off Menu"
-msgstr "Меню Kick-off"
+#: .tmp/ui_scrAvatar.py:261
+msgid "Options"
+msgstr "Опции"
 
-#: .tmp/scrMenu.py:43
-msgid "Kick-off menu is the default menu of Pisi Linux.<br><br>The program shortcuts are easy to access and well organized."
-msgstr "Kick-off меню - это меню по умолчанию в Pisi Linux.<br><br>Ссылки на программы легко доступны и хорошо организованы."
+#: .tmp/ui_scrAvatar.py:262
+msgid "Choose an image"
+msgstr "Выберите изображение"
 
-#: .tmp/scrMenu.py:47 .tmp/ui_scrMenu.py:126
-msgid "Simple Menu"
-msgstr "Упрощенное меню"
+#: .tmp/ui_scrAvatar.py:263
+msgid "Capture"
+msgstr "Захватить"
 
-#: .tmp/scrMenu.py:49
-msgid "Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight menu thus it is recommended for slower PC's."
-msgstr "Упрощенное меню - это меню в стиле KDE 3.<br><br>Это легковесное меню рекомендуется для более старых компьютеров."
+#: .tmp/ui_scrAvatar.py:264
+msgid "Recapture"
+msgstr "Захватить снова"
 
-#: .tmp/scrMenu.py:53 .tmp/ui_scrMenu.py:127
-msgid "Lancelot Menu"
-msgstr "Меню Lancelot"
+#: .tmp/ui_scrGoodbye.py:366 .tmp/scrGoodbye.py:24
+msgid "More"
+msgstr "Дополнительно"
 
-#: .tmp/scrMenu.py:55
-msgid "Lancelot is an advanced and highly customizable menu for Pisi Linux.<br><br>The program shortcuts are easy to access and well organized."
-msgstr "Lancelot это сложное меню с большим количеством настроек для Pisi Linux<br><br>Ссылки на программы легко доступны и хорошо организованы."
+#: .tmp/ui_scrGoodbye.py:367
+#, fuzzy
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:600;\">Your settings have "
+"been applied.</span> Now you can start enjoying Pisi Linux or you can "
+"checkout the following links and applications for more settings or for help "
+"and support. Don't forget to <span style=\" font-weight:600;\">join our "
+"community!</span></p></body></html>"
+msgstr ""
+"<b>Ваши настройки были применены.</b> Теперь вы можете начать пользоваться "
+"Pisi Linux или вы можете проследовать по следующим ссылкам и приложениям для "
+"настройки, либо за помощью и поддержки. Не забудьте <b>вступить в наше "
+"сообщество!</b>"
 
-#: .tmp/scrMouse.py:29 .tmp/ui_scrMouse.py:202
+#: .tmp/ui_scrGoodbye.py:368 .tmp/ui_scrGoodbye.py:369 .tmp/ui_scrSmolt.py:194
+msgid "My Smolt Page"
+msgstr "Моя страница Smolt"
+
+#: .tmp/ui_scrGoodbye.py:370
+msgid "Go to your Smolt page and rate your hardware components."
+msgstr "Перейти на страницу Smolt и оценить ваши аппаратных компоненты."
+
+#: .tmp/ui_scrGoodbye.py:371 .tmp/ui_scrGoodbye.py:373
+msgid "System Settings"
+msgstr "Параметры системы"
+
+#: .tmp/ui_scrGoodbye.py:372
+msgid ""
+"Configuration tools for Pisi Linux such as the display, firewall, keyboard, "
+"user manager..."
+msgstr ""
+"Инструмент конфигурации различных компонентов для Pisi Linux, таких как "
+"дисплей, брандмауэр, клавиатуры, пользователь менеджер ..."
+
+#: .tmp/ui_scrGoodbye.py:374 .tmp/ui_scrGoodbye.py:376
+msgid "Help and Support"
+msgstr "Помощь и поддержка"
+
+#: .tmp/ui_scrGoodbye.py:375
+msgid ""
+"Pisi Linux community, mailing lists, chat rooms, Wiki documents, help and "
+"support pages..."
+msgstr ""
+"Сообщество Pisi Linux, списки рассылки, чаты, Wiki-документы, справки и "
+"страницы поддержки..."
+
+#: .tmp/scrMouse.py:29 .tmp/ui_scrMouse.py:220
 msgid "Mouse"
 msgstr "Мышка"
 
@@ -99,24 +172,357 @@ msgid "Right Handed"
 msgstr "Правша"
 
 #: .tmp/scrMouse.py:141
-msgid "Double Click"
-msgstr "Двойной клик"
-
-#: .tmp/scrMouse.py:141
 msgid "Single Click "
 msgstr "Одиночный клик"
 
-#: .tmp/scrPackage.py:28 .tmp/ui_scrPackage.py:132
+#: .tmp/scrMouse.py:141
+msgid "Double Click"
+msgstr "Двойной клик"
+
+#: .tmp/scrSummary.py:35 .tmp/ui_scrSummary.py:94
+msgid "Summary"
+msgstr "Суммарно"
+
+#: .tmp/scrSummary.py:36
+msgid "Save Your Settings"
+msgstr "Сохранить установки"
+
+#: .tmp/scrSummary.py:59
+msgid "Mouse Settings"
+msgstr "Установки мышки"
+
+#: .tmp/scrSummary.py:61
+#, python-format
+msgid "Selected Mouse configuration: <b>%s</b>"
+msgstr "Выбранная конфигурация для мышки: <b>%s</b>"
+
+#: .tmp/scrSummary.py:62
+#, python-format
+msgid "Selected clicking behaviour: <b>%s</b>"
+msgstr "Выбранное поведение кнопок мышки: <b>%s</b>"
+
+#: .tmp/scrSummary.py:66
+msgid "Menu Settings"
+msgstr "Установки Меню"
+
+#: .tmp/scrSummary.py:67
+#, python-format
+msgid "Selected Menu: <b>%s</b>"
+msgstr "Выбранное Меню: <b>%s</b>"
+
+#: .tmp/scrSummary.py:71
+msgid "Wallpaper Settings"
+msgstr "Установки обоев рабочего стола"
+
+#: .tmp/scrSummary.py:73
+msgid "You haven't selected any wallpaper."
+msgstr "Вы не  выбрали обоев для рабочего стола"
+
+#: .tmp/scrSummary.py:75
+#, python-format
+msgid "Selected Wallpaper: <b>%s</b>"
+msgstr "Выбранные обои для рабочего стола: <b>%s</b>"
+
+#: .tmp/scrSummary.py:79
+msgid "Style Settings"
+msgstr "Установки Стиля"
+
+#: .tmp/scrSummary.py:82
+msgid "You haven't selected any style."
+msgstr "Вы не выбрали никакой стиль."
+
+#: .tmp/scrSummary.py:84
+#, python-format
+msgid "Selected Style: <b>%s</b>"
+msgstr "Выбранный Стиль: <b>%s</b>"
+
+#: .tmp/scrSummary.py:91
+msgid "Smolt Settings"
+msgstr "Параметры Smolt"
+
+#: .tmp/scrSummary.py:92
+#, python-format
+msgid "Send my profile: <b>%s</b>"
+msgstr "Отправить мой профиль: <b>%s</b>"
+
+#: .tmp/scrSummary.py:117
+msgid "Error"
+msgstr "Ошибка"
+
+#: .tmp/scrSummary.py:117
+msgid "Cannot restart plasma-desktop. Kaptan will now shutdown."
+msgstr "Невозможно рестартовать plasma. Kaptan сейчас закончит свою работу."
+
+#: .tmp/ui_scrMenu.py:175 .tmp/scrMenu.py:26
+msgid "Menu"
+msgstr "Меню"
+
+#: .tmp/ui_scrMenu.py:176
+msgid ""
+"You can also customize your <b>KDE menu</b> as you like. Please choose one "
+"from the following styles."
+msgstr ""
+"Вы так же можете настроить ваше <b>меню KDE</b> как вам нравится. Пожалуйста "
+"выберите один из предлагаемых стилей."
+
+#: .tmp/ui_scrMenu.py:177 .tmp/scrMenu.py:41
+msgid "Kick-off Menu"
+msgstr "Меню Kick-off"
+
+#: .tmp/ui_scrMenu.py:178 .tmp/scrMenu.py:47
+msgid "Simple Menu"
+msgstr "Упрощенное меню"
+
+#: .tmp/ui_scrMenu.py:179 .tmp/scrMenu.py:53
+msgid "Lancelot Menu"
+msgstr "Меню Lancelot"
+
+#: .tmp/ui_scrMenu.py:180
+msgid "Sample"
+msgstr "Пример"
+
+#: .tmp/ui_scrPackage.py:143 .tmp/scrPackage.py:28
 msgid "Packages"
 msgstr "Пакеты"
 
-#: .tmp/scrPackage.py:29
-msgid "Install / Remove Programs"
-msgstr "Установить / Удалить Программы"
+#: .tmp/ui_scrPackage.py:144
+msgid "Show updates in the system tray"
+msgstr "Показать обновления в системном трее"
 
-#: .tmp/scrSmolt.py:31 .tmp/ui_scrSmolt.py:154
+#: .tmp/ui_scrPackage.py:145
+msgid "Check updates automatically every"
+msgstr "Проверять обновления автоматически каждые"
+
+#: .tmp/ui_scrPackage.py:146
+msgid " hours"
+msgstr " часов"
+
+#: .tmp/ui_scrPackage.py:147
+msgid ""
+"To install and remove programs to Pisi Linux, use Package-Manager. Package-"
+"Manager also can automatically install the latest updates available. You can "
+"set the period for checking new updates."
+msgstr ""
+"Для установки и удаления программ в Pisi Linux, используйте Менеджер "
+"Пакетов. Менеджер Пакетов также может автоматически устанавливать последние "
+"обновления. Вы можете установить период для проверки обновлений."
+
+#: .tmp/ui_scrPackage.py:148
+msgid "Updates"
+msgstr "Обновления"
+
+#: .tmp/ui_scrSmolt.py:192 .tmp/scrSmolt.py:31
 msgid "Smolt"
 msgstr "Smolt"
+
+#: .tmp/ui_scrSmolt.py:193
+#, fuzzy
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:600;\">Smolt</span> is a "
+"tool that collects the information in the following table and sends it to us "
+"for which lets us improve Pisi Linux according to the user profile "
+"statistics.</p></body></html>"
+msgstr ""
+"<b>Smolt</b> является инструментом, который собирает информацию в следующей "
+"таблице и направляет ее к нам, что позволяет нам улучшать Pisi Linux, "
+"согласно статистике профиля пользователя."
+
+#: .tmp/ui_scrSmolt.py:195
+msgid "&Send my profile"
+msgstr "&Отправить мой профиль"
+
+#: .tmp/ui_scrSmolt.py:196 .tmp/scrSmolt.py:111
+msgid "&Privacy policy"
+msgstr "&Политика конфиденциальности"
+
+#: .tmp/ui_scrSmolt.py:197
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">   Smolt will only send "
+"hardware and basic operating system information to the Pisi Linux smolt "
+"server (smoon).  The only tie from the database to a submitters machine is "
+"the UUID.  As long as the submitter does not give out this UUID the "
+"submission is anonymous.  If at any point in time a user wants to delete "
+"their profile from the database they need only run</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">    <span style=\" font-"
+"style:italic;\">smoltDeleteProfile</span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">   The information sent to "
+"the smolt database server should be considered public in that anyone can "
+"view the statistics, data and share machine profiles.  In  many ways smolt "
+"is designed to get hardware vendors and other 3rd parties attention.  As "
+"such, not only will this information be shared with 3rd parties, we will be "
+"using smolt as leverage to gain better support for open source drivers and "
+"better support in general.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-"
+"decoration: underline;\">IP Logging:</span>  In Pisi Linux's smolt install "
+"all web traffic goes through a proxy server first.  This is the only place "
+"IP addresses are being logged and they are kept on that server for a period "
+"of 4 weeks at which time log rotation removes these logs.  The Pisi Linux "
+"Project does not aggregate ip addresses in the smolt database.  These logs "
+"are private and will not be available to the general public.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">   Users unhappy with this "
+"policy should simply not use smolt.  Users with questions about this policy "
+"should contact the Pisi Linux Infrastructure Team at admin [at] pisilinux."
+"org  Also remember that users can delete their profiles at any time using "
+"&quot;<span style=\" font-style:italic;\">smoltDeleteProfile</span>&quot;</"
+"p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">   Smolt только передаст "
+"информацию о программном и аппаратном обеспечении на сервер Pisi Linux smolt "
+"(smoon).  Единственный идентификатор из базы данных - это UUID.  Если "
+"подписчик не передает UUID, подписка будет анонимной.  Если подписчик "
+"захочит удалить подписку, ему достаточно запустить</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">    <span style=\" font-"
+"style:italic;\">smoltDeleteProfile</span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">   Информация, посланная в "
+"базу данных smolt считается публичной, для того, чтобы каждый мог "
+"просмотреть статистику и профили. Часто smolt получает информацию от "
+"сторонних производителей. В этом случае информация будет не только доступна "
+"сторонним лицам, но и может быть использована для лучшей поддержки открытых "
+"драйверов и вообще программного обеспечения.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-"
+"decoration: underline;\">IP Logging:</span>  При установке сервера smolt в "
+"Pisi Linux весь web-трафик будет идти через прокси-сервер. Это единственное "
+"место, где IP адреса будут сохраняться в течении 4 недель, после чего записи "
+"будут удаляться.  Проект The Pisi Linux  не собирает IP адреса в базе данных "
+"smolt. Они являются частными и не будут доступны для публики.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">   Пользователи, которые "
+"недовольны этой политикой, могут просто не использовать smolt.  "
+"Пользователи, которые хотят задать вопросы, могут связаться с Pisi Linux "
+"Infrastructure Team по адресу admin [at] pisilinux.org  Так же помните, что "
+"в любой момент можно удалить свой профиль, используя &quot;<span style=\" "
+"font-style:italic;\">smoltDeleteProfile</span>&quot;</p></body></html>"
+
+#: .tmp/_scrSearch.py:29 .tmp/ui_scrSearch.py:110
+msgid "Search"
+msgstr "Поиск"
+
+#: .tmp/_scrSearch.py:30
+msgid "Enable / Disable Strigi Desktop Search"
+msgstr ""
+
+#: .tmp/ui_kaptan.py:27
+#, fuzzy
+msgid "kaptan"
+msgstr "Kaptan"
+
+#: .tmp/ui_kaptan.py:415 .tmp/kaptan.desktop.in.h:1
+msgid "Kaptan"
+msgstr "Kaptan"
+
+#: .tmp/ui_kaptan.py:416
+#, fuzzy
+msgid "Welcome to Pisi Linux"
+msgstr "Добро пожаловать в Pisi Linux"
+
+#: .tmp/ui_kaptan.py:417
+msgid "Cancel"
+msgstr "Отмена"
+
+#: .tmp/ui_kaptan.py:418
+msgid "Back"
+msgstr "Назад"
+
+#: .tmp/ui_kaptan.py:419
+msgid "Next"
+msgstr "Вперед"
+
+#: .tmp/ui_kaptan.py:420
+msgid "Finish"
+msgstr "Закончить"
+
+#: .tmp/ui_kaptan.py:421
+msgid "Apply Settings"
+msgstr "Применить настройки"
+
+#: .tmp/ui_scrSummary.py:95
+#, fuzzy
+msgid ""
+"<html><head/><body><p>You have successfully finished all steps. Here's a "
+"summary of the settings you want to apply. Click <span style=\" font-"
+"weight:600;\">Apply Settings</span> to save them now. You are now ready to "
+"enjoy Pisi Linux!</p></body></html>"
+msgstr ""
+"Вы успешно закончили все этапы настройки. Вот суммарный список настроек, "
+"которые вы хотите применить. Нажмите <b>Применить настройки</b> чтобы "
+"сохранить их сейчас. Теперь вы готовы использовать ваш новый Pisi Linux!"
+
+#: .tmp/ui_scrSummary.py:96
+msgid "The following settings will be applied"
+msgstr "Следующие параметры будут применены"
+
+#: .tmp/scrMenu.py:27
+msgid "Choose a Menu Style"
+msgstr "Выберите стиль меню"
+
+#: .tmp/scrMenu.py:43
+msgid ""
+"Kick-off menu is the default menu of Pisi Linux.<br><br>The program "
+"shortcuts are easy to access and well organized."
+msgstr ""
+"Kick-off меню - это меню по умолчанию в Pisi Linux.<br><br>Ссылки на "
+"программы легко доступны и хорошо организованы."
+
+#: .tmp/scrMenu.py:49
+msgid ""
+"Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight "
+"menu thus it is recommended for slower PC's."
+msgstr ""
+"Упрощенное меню - это меню в стиле KDE 3.<br><br>Это легковесное меню "
+"рекомендуется для более старых компьютеров."
+
+#: .tmp/scrMenu.py:55
+msgid ""
+"Lancelot is an advanced and highly customizable menu for Pisi Linux."
+"<br><br>The program shortcuts are easy to access and well organized."
+msgstr ""
+"Lancelot это сложное меню с большим количеством настроек для Pisi "
+"Linux<br><br>Ссылки на программы легко доступны и хорошо организованы."
+
+#: .tmp/kaptan.desktop.in.h:2
+msgid "Welcome Wizard"
+msgstr "Мастер приветствия"
+
+#: .tmp/ui_scrSearch.py:111
+msgid ""
+"Strigi Desktop Search indexes your frequently used files. This gives you "
+"very fast file search results. Strigi also can search for files based on "
+"their contents."
+msgstr ""
+"Strigi Desktop Search индексирует часто используемых файлов. Это позволяет "
+"вам очень быстро получить результаты поиска по файлам. Strigi также можете "
+"искать файлы на основе их содержимого."
+
+#: .tmp/ui_scrSearch.py:112
+msgid "Allow Strigi to index my files"
+msgstr "Позволить Strigi индексировать мои файлы"
+
+#: .tmp/ui_scrSearch.py:113
+msgid "Search Options"
+msgstr "Параметры поиска"
 
 #: .tmp/scrSmolt.py:32
 msgid "Help Pisi Linux Improve!"
@@ -133,10 +539,6 @@ msgstr "Данные"
 #: .tmp/scrSmolt.py:108
 msgid "&Host Information"
 msgstr "&Информация о хосте"
-
-#: .tmp/scrSmolt.py:111 .tmp/ui_scrSmolt.py:158
-msgid "&Privacy policy"
-msgstr "&Политика конфиденциальности"
 
 #: .tmp/scrSmolt.py:114
 msgid "UUID"
@@ -234,97 +636,63 @@ msgstr "Да"
 msgid "No"
 msgstr "Нет"
 
-#: .tmp/scrStyle.py:37 .tmp/ui_scrStyle.py:236
-msgid "Themes"
-msgstr "Темы"
+#: .tmp/ui_scrMouse.py:115
+#, fuzzy
+msgid "singleClick"
+msgstr "Одиночный клик"
 
-#: .tmp/scrStyle.py:38
-msgid "Customize Your Desktop"
-msgstr "Настроить ваш рабочий стол"
+#: .tmp/ui_scrMouse.py:133
+#, fuzzy
+msgid "DoubleClick"
+msgstr "Двойной клик"
 
-#: .tmp/scrSummary.py:35 .tmp/ui_scrSummary.py:85
-msgid "Summary"
-msgstr "Суммарно"
+#: .tmp/ui_scrMouse.py:221
+msgid ""
+"The <b>clicking behavior</b> defines how many times you want to click when "
+"you are opening a file. If you are <b>left handed</b>, you may prefer to "
+"swap the left and right buttons of your pointing device."
+msgstr ""
+"<b>Поведение нажатия</b> определяет, сколько раз вы хотите кликнуть по "
+"файлу, чтобы его открыть. Если вы <b>левша</b>, то возможно вы захотите "
+"поменять левую и правую кнопки мыши."
 
-#: .tmp/scrSummary.py:36
-msgid "Save Your Settings"
-msgstr "Сохранить установки"
+#: .tmp/ui_scrMouse.py:222
+msgid "Clicking Behaviour"
+msgstr "Поведение нажатия"
 
-#: .tmp/scrSummary.py:59
-msgid "Mouse Settings"
-msgstr "Установки мышки"
+#: .tmp/ui_scrMouse.py:223
+msgid "Single-click to open files and folders"
+msgstr "Один клик для открытия файлов и папок"
 
-#: .tmp/scrSummary.py:61
-#, python-format
-msgid "Selected Mouse configuration: <b>%s</b>"
-msgstr "Выбранная конфигурация для мышки: <b>%s</b>"
+#: .tmp/ui_scrMouse.py:224
+msgid "Dou&ble-click to open files and folders"
+msgstr "&Двойной клик для открытия файлов и папок"
 
-#: .tmp/scrSummary.py:62
-#, python-format
-msgid "Selected clicking behaviour: <b>%s</b>"
-msgstr "Выбранное поведение кнопок мышки: <b>%s</b>"
+#: .tmp/ui_scrMouse.py:225
+msgid "Button Order"
+msgstr "Расположение кнопок"
 
-#: .tmp/scrSummary.py:66
-msgid "Menu Settings"
-msgstr "Установки Меню"
+#: .tmp/ui_scrMouse.py:226
+msgid "Right Hand"
+msgstr "Правша"
 
-#: .tmp/scrSummary.py:67
-#, python-format
-msgid "Selected Menu: <b>%s</b>"
-msgstr "Выбранное Меню: <b>%s</b>"
+#: .tmp/ui_scrMouse.py:227
+msgid "Left Hand"
+msgstr "Левша"
 
-#: .tmp/scrSummary.py:71
-msgid "Wallpaper Settings"
-msgstr "Установки обоев рабочего стола"
+#: .tmp/ui_scrMouse.py:228
+msgid "Reverse scrolling"
+msgstr "Обратная прокрутка"
 
-#: .tmp/scrSummary.py:73
-msgid "You haven't selected any wallpaper."
-msgstr "Вы не  выбрали обоев для рабочего стола"
+#: .tmp/scrPackage.py:29
+msgid "Install / Remove Programs"
+msgstr "Установить / Удалить Программы"
 
-#: .tmp/scrSummary.py:75
-#, python-format
-msgid "Selected Wallpaper: <b>%s</b>"
-msgstr "Выбранные обои для рабочего стола: <b>%s</b>"
+#: .tmp/scrGoodbye.py:25
+msgid "Congratulations!"
+msgstr "Поздравляем!"
 
-#: .tmp/scrSummary.py:79
-msgid "Style Settings"
-msgstr "Установки Стиля"
-
-#: .tmp/scrSummary.py:82
-msgid "You haven't selected any style."
-msgstr "Вы не выбрали никакой стиль."
-
-#: .tmp/scrSummary.py:84
-#, python-format
-msgid "Selected Style: <b>%s</b>"
-msgstr "Выбранный Стиль: <b>%s</b>"
-
-#: .tmp/scrSummary.py:91
-msgid "Smolt Settings"
-msgstr "Параметры Smolt"
-
-#: .tmp/scrSummary.py:92
-#, python-format
-msgid "Send my profile: <b>%s</b>"
-msgstr "Отправить мой профиль: <b>%s</b>"
-
-#: .tmp/scrSummary.py:117
-msgid "Cannot restart plasma-desktop. Kaptan will now shutdown."
-msgstr "Невозможно рестартовать plasma. Kaptan сейчас закончит свою работу."
-
-#: .tmp/scrSummary.py:117
-msgid "Error"
-msgstr "Ошибка"
-
-#: .tmp/scrWallpaper.py:34 .tmp/ui_scrWallpaper.py:131
-msgid "Wallpaper"
-msgstr "Обои"
-
-#: .tmp/scrWallpaper.py:35
-msgid "Choose a Wallpaper"
-msgstr "Выбрать обои рабочего стола"
-
-#: .tmp/scrWelcome.py:27 .tmp/ui_scrWelcome.py:77
+#: .tmp/scrWelcome.py:27 .tmp/ui_scrWelcome.py:87
 msgid "Welcome"
 msgstr "Добро пожаловать"
 
@@ -333,286 +701,86 @@ msgstr "Добро пожаловать"
 msgid "Welcome to %s"
 msgstr "Добро пожаловать в %s"
 
-#: .tmp/ui_kaptan.py:358
-msgid "Welcome to Pisi Linux"
-msgstr "Добро пожаловать в Pisi Linux"
-
-#: .tmp/ui_kaptan.py:359
-msgid "Cancel"
-msgstr "Отмена"
-
-#: .tmp/ui_kaptan.py:360
-msgid "Back"
-msgstr "Назад"
-
-#: .tmp/ui_kaptan.py:361
-msgid "Next"
-msgstr "Вперед"
-
-#: .tmp/ui_kaptan.py:362
-msgid "Finish"
-msgstr "Закончить"
-
-#: .tmp/ui_kaptan.py:363
-msgid "Apply Settings"
-msgstr "Применить настройки"
-
-#: .tmp/ui_scrAvatar.py:247 .tmp/ui_scrStyleItem.py:69
-#: .tmp/ui_wallpaperItem.py:72
-msgid "Form"
-msgstr "Форма"
-
-#: .tmp/ui_scrAvatar.py:248
-msgid "This screen helps you set your <b>user picture</b>. You can either choose an image from a file or you can capture an image from your camera. Select an option from the <b>options</b> menu."
-msgstr "Это окно поможет установить вашу <b>изображение пользователя</b>. Вы можете выбрать изображение из файла или вы можете захватить изображение с камеры. Выберите один из вариантов из меню <b>Опции</b>."
-
-#: .tmp/ui_scrAvatar.py:249
-msgid "Options"
-msgstr "Опции"
-
-#: .tmp/ui_scrAvatar.py:250
-msgid "Choose an image"
-msgstr "Выберите изображение"
-
-#: .tmp/ui_scrAvatar.py:251
-msgid "Capture"
-msgstr "Захватить"
-
-#: .tmp/ui_scrAvatar.py:252
-msgid "Recapture"
-msgstr "Захватить снова"
-
-#: .tmp/ui_scrGoodbye.py:326
-msgid "<b>Your settings have been applied.</b> Now you can start enjoying Pisi Linux or you can checkout the following links and applications for more settings or for help and support. Don't forget to <b>join our community!</b>"
-msgstr "<b>Ваши настройки были применены.</b> Теперь вы можете начать пользоваться Pisi Linux или вы можете проследовать по следующим ссылкам и приложениям для настройки, либо за помощью и поддержки. Не забудьте <b>вступить в наше сообщество!</b>"
-
-#: .tmp/ui_scrGoodbye.py:327 .tmp/ui_scrGoodbye.py:328 .tmp/ui_scrSmolt.py:156
-msgid "My Smolt Page"
-msgstr "Моя страница Smolt"
-
-#: .tmp/ui_scrGoodbye.py:329
-msgid "Go to your Smolt page and rate your hardware components."
-msgstr "Перейти на страницу Smolt и оценить ваши аппаратных компоненты."
-
-#: .tmp/ui_scrGoodbye.py:330 .tmp/ui_scrGoodbye.py:332
-msgid "System Settings"
-msgstr "Параметры системы"
-
-#: .tmp/ui_scrGoodbye.py:331
-msgid "Configuration tools for Pisi Linux such as the display, firewall, keyboard, user manager..."
-msgstr "Инструмент конфигурации различных компонентов для Pisi Linux, таких как дисплей, брандмауэр, клавиатуры, пользователь менеджер ..."
-
-#: .tmp/ui_scrGoodbye.py:333 .tmp/ui_scrGoodbye.py:335
-msgid "Help and Support"
-msgstr "Помощь и поддержка"
-
-#: .tmp/ui_scrGoodbye.py:334
-msgid "Pisi Linux community, mailing lists, chat rooms, Wiki documents, help and support pages..."
-msgstr "Сообщество Pisi Linux, списки рассылки, чаты, Wiki-документы, справки и страницы поддержки..."
-
-#: .tmp/ui_scrKeyboard.py:94
-msgid "Kaptan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
-msgstr "Kaptan автоматически выбирает лучшую раскладки клавиатуры в зависимости от языка вашей системы. Если вы хотите использовать другую раскладку, кроме раскладки клавиатуры по-умолчанию, вы можете сделать свой выбор и протестировать его мгновенно."
-
-#: .tmp/ui_scrKeyboard.py:95
-msgid "Test Layout"
-msgstr "Тест раскладки"
-
-#: .tmp/ui_scrMenu.py:124
-msgid "You can also customize your <b>KDE menu</b> as you like. Please choose one from the following styles."
-msgstr "Вы так же можете настроить ваше <b>меню KDE</b> как вам нравится. Пожалуйста выберите один из предлагаемых стилей."
-
-#: .tmp/ui_scrMenu.py:128
-msgid "Sample"
-msgstr "Пример"
-
-#: .tmp/ui_scrMouse.py:203
-msgid "The <b>clicking behavior</b> defines how many times you want to click when you are opening a file. If you are <b>left handed</b>, you may prefer to swap the left and right buttons of your pointing device."
-msgstr "<b>Поведение нажатия</b> определяет, сколько раз вы хотите кликнуть по файлу, чтобы его открыть. Если вы <b>левша</b>, то возможно вы захотите поменять левую и правую кнопки мыши."
-
-#: .tmp/ui_scrMouse.py:204
-msgid "Clicking Behaviour"
-msgstr "Поведение нажатия"
-
-#: .tmp/ui_scrMouse.py:205
-msgid "Single-click to open files and folders"
-msgstr "Один клик для открытия файлов и папок"
-
-#: .tmp/ui_scrMouse.py:206
-msgid "Dou&ble-click to open files and folders"
-msgstr "&Двойной клик для открытия файлов и папок"
-
-#: .tmp/ui_scrMouse.py:207
-msgid "Button Order"
-msgstr "Расположение кнопок"
-
-#: .tmp/ui_scrMouse.py:208
-msgid "Right Hand"
-msgstr "Правша"
-
-#: .tmp/ui_scrMouse.py:209
-msgid "Left Hand"
-msgstr "Левша"
-
-#: .tmp/ui_scrMouse.py:210
-msgid "Reverse scrolling"
-msgstr "Обратная прокрутка"
-
-#: .tmp/ui_scrPackage.py:133
-msgid "Show updates in the system tray"
-msgstr "Показать обновления в системном трее"
-
-#: .tmp/ui_scrPackage.py:134
-msgid "Check updates automatically every"
-msgstr "Проверять обновления автоматически каждые"
-
-#: .tmp/ui_scrPackage.py:135
-msgid " hours"
-msgstr " часов"
-
-#: .tmp/ui_scrPackage.py:136
-msgid "To install and remove programs to Pisi Linux, use Package-Manager. Package-Manager also can automatically install the latest updates available. You can set the period for checking new updates."
-msgstr "Для установки и удаления программ в Pisi Linux, используйте Менеджер Пакетов. Менеджер Пакетов также может автоматически устанавливать последние обновления. Вы можете установить период для проверки обновлений."
-
-#: .tmp/ui_scrPackage.py:137
-msgid "Updates"
-msgstr "Обновления"
-
-#: .tmp/ui_scrSearch.py:100
-msgid "Search"
-msgstr "Поиск"
-
-#: .tmp/ui_scrSearch.py:101
-msgid "Strigi Desktop Search indexes your frequently used files. This gives you very fast file search results. Strigi also can search for files based on their contents."
-msgstr "Strigi Desktop Search индексирует часто используемых файлов. Это позволяет вам очень быстро получить результаты поиска по файлам. Strigi также можете искать файлы на основе их содержимого."
-
-#: .tmp/ui_scrSearch.py:102
-msgid "Allow Strigi to index my files"
-msgstr "Позволить Strigi индексировать мои файлы"
-
-#: .tmp/ui_scrSearch.py:103
-msgid "Search Options"
-msgstr "Параметры поиска"
-
-#: .tmp/ui_scrSmolt.py:155
-msgid "<b>Smolt</b> is a tool that collects the information in the following table and sends it to us for which lets us improve Pisi Linux according to the user profile statistics."
-msgstr "<b>Smolt</b> является инструментом, который собирает информацию в следующей таблице и направляет ее к нам, что позволяет нам улучшать Pisi Linux, согласно статистике профиля пользователя."
-
-#: .tmp/ui_scrSmolt.py:157
-msgid "&Send my profile"
-msgstr "&Отправить мой профиль"
-
-#: .tmp/ui_scrSmolt.py:159
-msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Smolt will only send hardware and basic operating system information to the Pisi Linux smolt server (smoon).  The only tie from the database to a submitters machine is the UUID.  As long as the submitter does not give out this UUID the submission is anonymous.  If at any point in time a user wants to delete their profile from the database they need only run</p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">    <span style=\" font-style:italic;\">smoltDeleteProfile</span></p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   The information sent to the smolt database server should be considered public in that anyone can view the statistics, data and share machine profiles.  In  many ways smolt is designed to get hardware vendors and other 3rd parties attention.  As such, not only will this information be shared with 3rd parties, we will be using smolt as leverage to gain better support for open source drivers and better support in general.</p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-decoration: underline;\">IP Logging:</span>  In Pisi Linux's smolt install all web traffic goes through a proxy server first.  This is the only place IP addresses are being logged and they are kept on that server for a period of 4 weeks at which time log rotation removes these logs.  The Pisi Linux Project does not aggregate ip addresses in the smolt database.  These logs are private and will not be available to the general public.</p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Users unhappy with this policy should simply not use smolt.  Users with questions about this policy should contact the Pisi Linux Infrastructure Team at admin [at] pisilinux.org  Also remember that users can delete their profiles at any time using &quot;<span style=\" font-style:italic;\">smoltDeleteProfile</span>&quot;</p></body></html>"
-msgstr ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Smolt только передаст информацию о программном и аппаратном обеспечении на сервер Pisi Linux smolt (smoon).  Единственный идентификатор из базы данных - это UUID.  Если подписчик не передает UUID, подписка будет анонимной.  Если подписчик захочит удалить подписку, ему достаточно запустить</p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">    <span style=\" font-style:italic;\">smoltDeleteProfile</span></p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Информация, посланная в базу данных smolt считается публичной, для того, чтобы каждый мог просмотреть статистику и профили. Часто smolt получает информацию от сторонних производителей. В этом случае информация будет не только доступна сторонним лицам, но и может быть использована для лучшей поддержки открытых драйверов и вообще программного обеспечения.</p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-decoration: underline;\">IP Logging:</span>  При установке сервера smolt в Pisi Linux весь web-трафик будет идти через прокси-сервер. Это единственное место, где IP адреса будут сохраняться в течении 4 недель, после чего записи будут удаляться.  Проект The Pisi Linux  не собирает IP адреса в базе данных smolt. Они являются частными и не будут доступны для публики.</p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Пользователи, которые недовольны этой политикой, могут просто не использовать smolt.  Пользователи, которые хотят задать вопросы, могут связаться с Pisi Linux Infrastructure Team по адресу admin [at] pisilinux.org  Так же помните, что в любой момент можно удалить свой профиль, используя &quot;<span style=\" font-style:italic;\">smoltDeleteProfile</span>&quot;</p></body></html>"
-
-#: .tmp/ui_scrStyle.py:237
-msgid "Choose your favorite theme and desktop type. Customize Pisi Linux with colorful styles and themes."
-msgstr "Выберите вашу любимую тему оформления и тип рабочего стола. Настройте Pisi Linux с цветовыми схемами и темами."
-
-#: .tmp/ui_scrStyle.py:238
-msgid "KDE Themes"
-msgstr "KDE темы"
-
-#: .tmp/ui_scrStyle.py:239
-msgid "Icons"
-msgstr "Значки"
-
-#: .tmp/ui_scrStyle.py:242
-msgid "Oxygen - The official icon set of KDE"
-msgstr "Oxygen - официальный набор значков KDE"
-
-#: .tmp/ui_scrStyle.py:243
-msgid "Milky - The official icon set of Pisi Linux"
-msgstr "Milky - официальный набор значков Pisi Linux"
-
-#: .tmp/ui_scrStyle.py:245
-msgid "Desktop Type"
-msgstr "Тип рабочего стола"
-
-#: .tmp/ui_scrStyle.py:246
-msgid "Desktop view (KDE4 Style)"
-msgstr "Рабочий стол KDE4 (стиль KDE4)"
-
-#: .tmp/ui_scrStyle.py:247
-msgid "Folder view (KDE3 Style)"
-msgstr "Просмотр папки (стиль KDE3)"
-
-#: .tmp/ui_scrStyle.py:248
-msgid "Number of Desktops"
-msgstr "Число рабочих столов"
-
-#: .tmp/ui_scrStyleItem.py:70
-msgid "styleName"
-msgstr "styleName"
-
-#: .tmp/ui_scrStyleItem.py:71
-msgid "styleDesc"
-msgstr "styleDesc"
-
-#: .tmp/ui_scrSummary.py:86
-msgid "You have successfully finished all steps. Here's a summary of the settings you want to apply. Click <b>Apply Settings</b> to save them now. You are now ready to enjoy Pisi Linux!"
-msgstr "Вы успешно закончили все этапы настройки. Вот суммарный список настроек, которые вы хотите применить. Нажмите <b>Применить настройки</b> чтобы сохранить их сейчас. Теперь вы готовы использовать ваш новый Pisi Linux!"
-
-#: .tmp/ui_scrSummary.py:87
-msgid "The following settings will be applied"
-msgstr "Следующие параметры будут применены"
-
-#: .tmp/ui_scrWallpaper.py:132
-msgid "Choose your favorite wallpaper for Pisi Linux. Don't forget to check out <b>Desktop Settings</b> for downloading new and cool wallpapers."
-msgstr "Выбери свои любимые обои для рабочего стола Pisi Linux. Не забудьте проверить <b>Настройки рабочего стола</b> для загрузки новых и отличных обоев для рабочего стола."
-
-#: .tmp/ui_scrWallpaper.py:133
-msgid "Wallpapers"
-msgstr "Обои рабочего стола"
-
-#: .tmp/ui_scrWallpaper.py:135
-msgid "Choose wallpaper from file"
-msgstr "Выбрать обои из файла"
-
-#: .tmp/ui_scrWallpaper.py:136
-msgid "Don't change wallpaper"
-msgstr "Не менять обои рабочего стола"
-
-#: .tmp/ui_scrWelcome.py:78
+#: .tmp/ui_scrWelcome.py:88
 msgid "What is Pisi Linux?"
 msgstr "Что такое Pisi Linux?"
 
-#: .tmp/ui_scrWelcome.py:79
-msgid "<b>Pisi Linux</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Pisi Linux, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kaptan</b> will help you personalize your Pisi Linux workspace easily and quickly. Please click <b>next</b> in order to begin."
-msgstr "<b>Pisi Linux</b> это надежная, быстрая, безопасная и дружелюбная операционная система.<br /><br />С Pisi Linux вы можете подключиться к интернету, читать ваши сообщения по e-mail, работать с документами, смотреть видео, слушать музыку, разрабатывать приложения, играть в игры и многое другое!<br /><br /><b>Kaptan</b> поможет вам настроить рабочее пространство Pisi Linux быстро и легко. Пожалуйста, нажмите <b>Дальше</b> для запуска."
+#: .tmp/ui_scrWelcome.py:89
+#, fuzzy
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:600;\">Pisi Linux</span> is "
+"a reliable, secure, fast and user friendly operating system. <br/><br/>With "
+"Pisi Linux, you can connect to the internet, read your e-mails, work with "
+"your office documents, watch movies, play music, develop applications, play "
+"games and much more! <br/><br/><span style=\" font-weight:600;\">Kaptan</"
+"span> will help you personalize your Pisi Linux workspace easily and "
+"quickly. Please click <span style=\" font-weight:600;\">next</span> in order "
+"to begin.</p></body></html>"
+msgstr ""
+"<b>Pisi Linux</b> это надежная, быстрая, безопасная и дружелюбная "
+"операционная система.<br /><br />С Pisi Linux вы можете подключиться к "
+"интернету, читать ваши сообщения по e-mail, работать с документами, смотреть "
+"видео, слушать музыку, разрабатывать приложения, играть в игры и многое "
+"другое!<br /><br /><b>Kaptan</b> поможет вам настроить рабочее пространство "
+"Pisi Linux быстро и легко. Пожалуйста, нажмите <b>Дальше</b> для запуска."
 
-#: .tmp/ui_wallpaperItem.py:73
-msgid "wallPaperName"
-msgstr "Имя рабочего стола"
+#: .tmp/scrAvatar.py:36
+msgid "User Picture"
+msgstr "Иконка пользователя"
 
-#: .tmp/ui_wallpaperItem.py:74
-msgid "wallpaperDesc"
-msgstr "Описание рабочего стола"
+#: .tmp/scrAvatar.py:48
+msgid "Create Your User Picture"
+msgstr "Создать свою иконку пользователя"
 
-#~ msgid "Repositories"
-#~ msgstr "Репозитории"
+#: .tmp/scrWallpaper.py:35
+msgid "Choose a Wallpaper"
+msgstr "Выбрать обои рабочего стола"
 
-#~ msgid "Add contrib repository"
-#~ msgstr "Добавить репозиторий Contrib"
+#: .tmp/ui_scrStyle.py:253
+msgid ""
+"Choose your favorite theme and desktop type. Customize Pisi Linux with "
+"colorful styles and themes."
+msgstr ""
+"Выберите вашу любимую тему оформления и тип рабочего стола. Настройте Pisi "
+"Linux с цветовыми схемами и темами."
 
-#~ msgid "Contrib repository includes extra and handy programs."
-#~ msgstr "Репозиторий Contrib содержит дополнительные приложения."
+#: .tmp/ui_scrStyle.py:254
+msgid "KDE Themes"
+msgstr "KDE темы"
+
+#: .tmp/ui_scrStyle.py:255
+msgid "Icons"
+msgstr "Значки"
+
+#: .tmp/ui_scrStyle.py:259
+msgid "Oxygen - The official icon set of KDE"
+msgstr "Oxygen - официальный набор значков KDE"
+
+#: .tmp/ui_scrStyle.py:260 .tmp/ui_scrStyle.py:261
+msgid "oxygen"
+msgstr ""
+
+#: .tmp/ui_scrStyle.py:263
+#, fuzzy
+msgid "kfaenza - KDE4 icon set of Pisi Linux"
+msgstr "Milky - официальный набор значков Pisi Linux"
+
+#: .tmp/ui_scrStyle.py:264 .tmp/ui_scrStyle.py:265
+msgid "kfaenza"
+msgstr ""
+
+#: .tmp/ui_scrStyle.py:267
+msgid "Desktop Type"
+msgstr "Тип рабочего стола"
+
+#: .tmp/ui_scrStyle.py:268
+msgid "Desktop view (KDE4 Style)"
+msgstr "Рабочий стол KDE4 (стиль KDE4)"
+
+#: .tmp/ui_scrStyle.py:269
+msgid "Folder view (KDE3 Style)"
+msgstr "Просмотр папки (стиль KDE3)"
+
+#: .tmp/ui_scrStyle.py:270
+msgid "Number of Desktops"
+msgstr "Число рабочих столов"

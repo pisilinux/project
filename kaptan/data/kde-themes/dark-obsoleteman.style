@@ -1,0 +1,14 @@
+[Style]
+name = DarkObsoleteman
+name[tr] = Koyu-Obsoleteman
+
+description = Anka Team captain's dark theme with a panel on bottom
+description[tr]= Anka Takımının kaptanından paneli altta koyu bir tema
+
+panelPosition = 4
+widgetStyle = oxygen
+colorScheme = KritaDarker
+desktopTheme = Produkt
+thumbnail = darkobso.png
+iconTheme = kfaenza
+windowDecoration = Oxygen

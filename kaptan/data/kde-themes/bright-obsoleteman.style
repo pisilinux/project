@@ -1,0 +1,14 @@
+[Style]
+name = BrightObsoleteman
+name[tr] = Açık-Obsoleteman
+
+description = Anka Team captain's bright theme with a panel on bottom
+description[tr]= Anka Takımının kaptanından paneli altta açık renk parlak bir tema
+
+panelPosition = 4
+widgetStyle = oxygen
+colorScheme = KritaBrighter
+desktopTheme = default
+thumbnail = brightobso.png
+iconTheme = oxygen
+windowDecoration = Oxygen

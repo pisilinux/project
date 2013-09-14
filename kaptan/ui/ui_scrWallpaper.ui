@@ -63,7 +63,7 @@
       <string notr="true"/>
      </property>
      <property name="text">
-      <string>Choose your favorite wallpaper for Pardus. Don't forget to check out &lt;b&gt;Desktop Settings&lt;/b&gt; for downloading new and cool wallpapers.</string>
+      <string>Choose your favorite wallpaper for Pisi Linux. Don't forget to check out &lt;b&gt;Desktop Settings&lt;/b&gt; for downloading new and cool wallpapers.</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>
