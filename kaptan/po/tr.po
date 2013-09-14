@@ -729,8 +729,8 @@ msgstr ""
 "daha fazlasını yapabilirsiniz!<br /><br /><span style=\" font-weight:600;\">"
 "Kaptan</span> , Pisi Linux çalışma "
 "ortamınızı hızlı ve kolayca kişiselleştirmenize yardımcı olan bir "
-"uygulamadır. Lütfen başlamak için<span style=\" font-weight:600;\">İleri<"
-"/span>'ye tıklayın.</p></body></html>"
+"uygulamadır. Lütfen başlamak için <span style=\" font-weight:600;\">İleri<"
+"/span> 'ye tıklayın.</p></body></html>"
 
 #: .tmp/scrAvatar.py:36
 msgid "User Picture"
