@@ -1,0 +1,13 @@
+[Style]
+name = Honey
+
+description = A grey and yellow theme, with a dark panel at the top.
+description[tr]= Paneli koyu renkte ve üstte olan gri-sarı renklerde bir tema
+
+panelPosition = 3
+widgetStyle = oxygen
+colorScheme = Honeycomb
+desktopTheme = Oxygen
+thumbnail = honey.png
+iconTheme = oxygen
+windowDecoration = kwin3_plastik
