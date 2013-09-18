@@ -30,7 +30,7 @@ class Install(install):
 
 
 setup(name="yali-theme-pisilinux",
-      version= "0.1",
+      version= "0.2",
       description="Pisi Linux theme for YALI (Yet Another Linux Installer)",
       license="Latest GNU GPL version",
       author="Pisi Linux Developers",
