@@ -129,7 +129,7 @@
       <bool>false</bool>
      </property>
      <property name="layoutDirection">
-      <enum>Qt::RightToLeft</enum>
+      <enum>Qt::LeftToRight</enum>
      </property>
      <property name="styleSheet">
       <string notr="true"/>
