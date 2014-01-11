@@ -57,12 +57,12 @@ class UpdatePO(Command):
         os.chdir("..")
 
 setup(name="yali-branding-pisilinux",
-      version= "0.2",
+      version= "0.1",
       description="Pisi Linux branding files for YALI (Yet Another Linux Installer)",
-      license="Latest GNU GPL version",
+      license="GNU GPL2",
       author="Pisi Linux Developers",
       author_email="admin@pisilinux.org",
-      url="https://github.com/pisilinux/project/tree/master/yali-branding-pisilinux",
+      url="http://www.pisilinux.org",
       data_files=[("/%s/slideshow" % BRANDING_DIR, glob.glob("slideshow/*.png"))],
       cmdclass = {'build': Build,
                   'install': Install,
