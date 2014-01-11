@@ -89,7 +89,7 @@
             <name>goodbye0</name>
             <_title>Installation complete!</_title>
             <icon>goodbye</icon>
-            <_help>You have successfully installed Pisi Linux on your computer. After restarting your computer, you can then begin using Pisi Linux.&lt;br&gt;&lt;br&gt;Please be sure that you remember your password and that you unmount the installation medium (remove the USB disk, eject the DVD or release the image in virtual machines).</_help>
+            <_help>You have successfully installed Pisi Linux on your computer. After restarting your computer, then you can begin using Pisi Linux.&lt;br&gt;&lt;br&gt;Please be sure that you remember your password and that you unmount the installation medium (remove the USB disk, eject the DVD or release the image in virtual machines).</_help>
         </screen>
         <screen>
             <name>goodbye1</name>
@@ -113,7 +113,7 @@
             <name>rescue</name>
             <_title>Rescue System</_title>
             <icon>media-optical-small</icon>
-            <_help>You can reinstall your boot loader or you recover any user password.</_help>
+            <_help>You can reinstall your boot loader or you can recover password of any user.</_help>
         </screen>
         <screen>
             <name>passwordRescue</name>
@@ -157,11 +157,11 @@
         </slideshow>
         <slideshow>
             <picture>tasma</picture>
-            <_description>Pisi Linux have many other in-house developed user friendly manager tools such as User Manager, Firewall Manager, Service Manager to administrate Pisi Linux easier. All the managers can be used from menu or coomandline.</_description>
+            <_description>Pisi Linux have many other in-house developed user friendly manager tools such as User Manager, Firewall Manager, Service Manager to administrate Pisi Linux easier. All the managers can be used from menu or commandline.</_description>
         </slideshow>
         <slideshow>
             <picture>gimp</picture>
-            <_description>Pisi Linux provides comprehensive file format and codec functionality plus a wide array of multimedia applications; a few examples of which are listed below.&lt;br&gt;&lt;br&gt;Audio players - Amarok or Clementine&lt;br&gt;&lt;br&gt;Audio converter - soundKonverter&lt;br&gt;&lt;br&gt;Sound editor - Audacity&lt;br&gt;&lt;br&gt;Video player - VLC&lt;br&gt;&lt;br&gt;Video editor - Kdenlive&lt;br&gt;&lt;br&gt;Photo manager/editor - Digikam&lt;br&gt;&lt;br&gt;Image editor - Gimp, Inkskape&lt;br&gt;&lt;br&gt;3D modelling - Blender</_description>
+            <_description>Pisi Linux provides comprehensive file format and codec functionality plus a wide array of multimedia applications; a few examples of which are listed below.&lt;br&gt;&lt;br&gt;Audio players - Amarok or Clementine&lt;br&gt;&lt;br&gt;Audio converter - soundKonverter&lt;br&gt;&lt;br&gt;Sound editor - Audacity&lt;br&gt;&lt;br&gt;Video player - VLC&lt;br&gt;&lt;br&gt;Video editor - Kdenlive&lt;br&gt;&lt;br&gt;Photo manager/editor - Digikam&lt;br&gt;&lt;br&gt;Image editor - Gimp, Inkscape&lt;br&gt;&lt;br&gt;3D modelling - Blender</_description>
         </slideshow>
         <slideshow>
             <picture>games</picture>
