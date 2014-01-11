@@ -41,7 +41,7 @@
             <name>accounts</name>
             <_title>Setup your account</_title>
             <icon>users</icon>
-            <_help>Multiple users can share the same computer safely with Pisi Linux. An administrator account with the name &quot;root&quot; will be set automatically. &lt;br&gt;&lt;br&gt;Administrator account is not for everyday use, so we recommend you to add user accounts upon your needs. The first user will be granted administrative authorization if you don't revoke them. To revoke administrative rights, or set a custom user ID you can click on the Advanced tab where you can find a few other options as well. &lt;br&gt;&lt;br&gt; If you need to administrate user accounts later, you can find User Manager tool in the System Settings.</_help>
+            <_help>Multiple users can share the same computer safely with Pisi Linux. An administrator account with the name &quot;root&quot; will be set automatically. &lt;br&gt;&lt;br&gt;Administrator account is not for everyday use, so we recommend you to add user accounts upon your needs. The first user will be granted administrative authorization if you don't revoke them. To revoke administrative rights, or set a custom user ID you can click on the Advanced tab where you can find a few other options as well. &lt;br&gt;&lt;br&gt; If you need to administrate user accounts later, you can find User Manager tool in the menu.</_help>
         </screen>
         <screen>
             <name>admin</name>
