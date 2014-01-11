@@ -53,13 +53,13 @@
             <name>driveSelection</name>
             <_title>Choose where Pisi Linux should be installed</_title>
             <icon>drive-harddisk</icon>
-            <_help>You will need a realistic minimum of 10GB disk space to install Pisi Linux, although more is highly recommended. Please select the disk you want to use for installation. In the next step, you will be able to choose between different partitioning options.</_help>
+            <_help>You will need a realistic minimum of 12GB disk space to install Pisi Linux, although more is highly recommended. Please select the disk you want to use for installation. In the next step, you will be able to choose between different partitioning options.</_help>
         </screen>
         <screen>
             <name>automaticPartitioning</name>
             <_title>Select a partitioning method</_title>
             <icon>partitionmanager</icon>
-            <_help>When you select "Use All Space", Pisi Linux will format your disk and create four partitions for user space, and system, boot and swap files using LVM (Logical Volume Manager). &lt;br&gt;&lt;br&gt; If there is another installed system with an adequate disk space, you can use the "Shrink Current System" option to resize the first partition and install Pisi Linux in the created free space. &lt;br&gt;&lt;br&gt; If you have at least 4GBs of unpartitioned-unused space (10 GBs recommended), you can choose the "Use Free Space" option, so Pisi Linux will create the necessary partitions described above.&lt;br&gt;&lt;br&gt; You can choose "Create Custom Layout" for manual partitioning.&lt;br&gt;&lt;br&gt; It is advised to backup your data to avoid future problems.</_help>
+            <_help>When you select "Use All Space", Pisi Linux will format your disk and create four partitions for user space, and system, boot and swap files using LVM (Logical Volume Manager). &lt;br&gt;&lt;br&gt; If there is another installed system with an adequate disk space, you can use the "Shrink Current System" option to resize the first partition and install Pisi Linux in the created free space. &lt;br&gt;&lt;br&gt; If you have at least 12GBs of unpartitioned-unused space (12 GBs recommended), you can choose the "Use Free Space" option, so Pisi Linux will create the necessary partitions described above.&lt;br&gt;&lt;br&gt; You can choose "Create Custom Layout" for manual partitioning.&lt;br&gt;&lt;br&gt; It is advised to backup your data to avoid future problems.</_help>
         </screen>
         <screen>
             <name>manualPartitioning</name>
