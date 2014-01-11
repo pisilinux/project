@@ -83,7 +83,7 @@
             <name>packageInstallation</name>
             <_title>Installing Pisi Linux</_title>
             <icon>applications-other</icon>
-            <_help>YYALI is now installing Pisi Linux on your computer. This operation takes approximately 20-30 minutes depending on your computer's hardware.&lt;br&gt;&lt;br&gt;Note that the installation from a USB storage will be much faster than an optical medium (CD/DVD).&lt;br&gt;&lt;br&gt;Now, sit back and enjoy the installation during which you will be able to discover the features and the innovations offered by this new Pisi Linux operating system.</_help>
+            <_help>YALI is now installing Pisi Linux on your computer. This operation takes approximately 20-30 minutes depending on your computer's hardware.&lt;br&gt;&lt;br&gt;Note that the installation from a USB storage will be much faster than an optical medium (CD/DVD).&lt;br&gt;&lt;br&gt;Now, sit back and enjoy the installation during which you will be able to discover the features and the innovations offered by this new Pisi Linux operating system.</_help>
         </screen>
         <screen>
             <name>goodbye0</name>
