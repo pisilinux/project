@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pds
+Version: 1.2.6
+Summary: Pds: Pisi Desktop Services
+Home-page: http://pisilinux.org
+Author: Pisi Linux
+Author-email: admins@pisilinux.org
+License: GNU GPL2
+Description: Pds is a Python Library that helps developers for creating desktop environment independet UI applications
+Platform: UNKNOWN

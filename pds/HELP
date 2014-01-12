@@ -1,0 +1,33 @@
+Howto
+~~~~~
+::
+
+ import pds
+ instance = pds.Pds()
+ instance.session.Name
+ .. 'kde'
+
+ instance.session.Version
+ .. '4'
+
+ instance.home
+ .. '/home/pars'
+
+ instance.install_prefix
+ .. '/usr/kde/4'
+
+ instance.config_file
+ .. '/home/pars/.kde4/share/config/kdeglobals'
+
+ instance.config_path
+ .. '/home/pars/.kde4/'
+
+Test Scripts
+~~~~~~~~~~~~
+
+You can use following test scripts from $PYTHON_DIR/site-packages/pds/
+
+ - test-pds.py (For GUI Test, requires PyQt)
+ - test-cli.py (To get environment information)
+ - test-qapp.py (For testing QUniqueApplication)
+
