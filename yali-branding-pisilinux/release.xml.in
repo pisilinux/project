@@ -17,7 +17,7 @@
             <name>welcome</name>
             <_title>Welcome back...</_title>
             <icon>applications-other</icon>
-            <_help>You've installed and booted Pisi Linux successfully... Just a few clicks left... Pisi Linux supports multiple users on the same system. So you need to create at least one user and set the system wide configurations. So you will be able to login and enjoy Pisi Linux...</_help>
+            <_help>You've installed and booted Pisi Linux successfully... Just a few clicks left... Pisi Linux supports multiple users on the same system. So you need to create at least one user and set the system-wide configurations. So you will be able to login and enjoy Pisi Linux...</_help>
         </screen>
         <screen>
             <name>mediaCheck</name>
@@ -29,7 +29,7 @@
             <name>keyboardSetup</name>
             <_title>Choose your keyboard layout</_title>
             <icon>input-keyboard</icon>
-            <_help>A keyboard layout sets the arrangement of keys on the keyboard. You may want to use a different layout then your keyboard&apos;s physical layout or to be sure that your keyboard is set up correctly. &lt;br&gt;You can test the selected layout by typing in the given textbox.</_help>
+            <_help>A keyboard layout sets the arrangement of keys on the keyboard. You may want to use a different layout than your keyboard&apos;s physical layout or to be sure that your keyboard is set up correctly. &lt;br&gt;You can test the selected layout by typing in the given textbox.</_help>
         </screen>
         <screen>
             <name>timeSetup</name>
@@ -41,7 +41,7 @@
             <name>accounts</name>
             <_title>Setup your account</_title>
             <icon>users</icon>
-            <_help>Multiple users can share the same computer safely with Pisi Linux. An administrator account with the name &quot;root&quot; will be set automatically. &lt;br&gt;Administrator account is not for everyday use, so we recommend you to add user accounts upon your needs. The first user will be granted administrative authorization if you don't revoke them. To revoke administrative rights, or set a custom user ID you can click on the Advanced tab where you can find a few other options as well. &lt;br&gt; If you need to administrate user accounts later, you can find User Manager tool in the menu.</_help>
+            <_help>Multiple users can share the same computer safely with Pisi Linux. An administrator account with the name &quot;root&quot; will be set automatically. &lt;br&gt;Administrator account is not for everyday use, so we recommend you to add user accounts upon your needs. The first user will be granted administrative authorization by default. To revoke administrative rights, or set a custom user ID you can click on the Advanced tab where you can find a few other options as well. &lt;br&gt; If you need to administer user accounts later, you can find User Manager tool in the menu.</_help>
         </screen>
         <screen>
             <name>admin</name>
@@ -59,17 +59,17 @@
             <name>automaticPartitioning</name>
             <_title>Select a partitioning method</_title>
             <icon>partitionmanager</icon>
-            <_help>When you select "Use All Space", Pisi Linux will format your disk and create four partitions for user space, and system, boot and swap files using LVM (Logical Volume Manager). &lt;br&gt; If there is another installed system with an adequate disk space, you can use the "Shrink Current System" option to resize the first partition and install Pisi Linux in the created free space. &lt;br&gt; If you have at least 12GBs of unpartitioned-unused space (12 GBs recommended), you can choose the "Use Free Space" option, so Pisi Linux will create the necessary partitions described above.&lt;br&gt; You can choose "Create Custom Layout" for manual partitioning.&lt;br&gt; It is advised to backup your data to avoid future problems.</_help>
+            <_help>When you select "Use All Space", Pisi Linux will format your disk and create four partitions for user space, and system, boot and swap files using LVM (Logical Volume Manager). &lt;br&gt; If there is another installed system with adequate disk space, you can use the "Shrink Current System" option to resize the first partition and install Pisi Linux in the created free space. &lt;br&gt; If you have at least 12GB of unpartitioned-unused space (12 GB recommended), you can choose the "Use Free Space" option, so Pisi Linux will create the necessary partitions described above.&lt;br&gt; You can choose "Create Custom Layout" for manual partitioning.&lt;br&gt; It is advised to backup your data to avoid future problems.</_help>
         </screen>
         <screen>
             <name>manualPartitioning</name>
             <_title>Partition your disk manually</_title>
             <icon>partitionmanager</icon>
-            <_help>You have to choose a *free* physical partition in order to create your system partitions. If anything goes wrong you can Reset and start again. &lt;br&gt;In order to use LVM, first you have to create a Physical Volume, then a Volume Group which will contain your Logical Volumes. You can use Logical Volumes similar to partitions and set them for system files, user files, etc. &lt;br&gt;In order to use RAID partitions you have to create at least two RAID members. Try to divide the space equally as the space of the disk will be same with the smallest partition. When you have two RAID members, you will be able to create a RAID array which is similar to a partition as it may be formatted and set for the system files, user files, etc. &lt;br&gt;Please refer to Pisi Linux Installation and Using Guide for more information about disk partitioning. You can find it in our website.</_help>
+            <_help>You have to choose a *free* physical partition in order to create your system partitions. If anything goes wrong you can Reset and start again. &lt;br&gt;In order to use LVM, first you have to create a Physical Volume, then a Volume Group which will contain your Logical Volumes. You can use Logical Volumes similar to partitions and set them for system files, user files, etc. &lt;br&gt;In order to use RAID partitions you have to create at least two RAID members. Try to divide the space equally as the space of the disk will be same with the smallest partition. When you have two RAID members, you will be able to create a RAID array which is similar to a partition as it may be formatted and set for the system files, user files, etc. &lt;br&gt;Please refer to Pisi Linux Installation and Using Guide for more information about disk partitioning which can be found on our website.</_help>
         </screen>
         <screen>
             <name>bootloadersetup</name>
-            <_title>Configure the bootloader</_title>
+            <_title>Configure the boot-loader</_title>
             <icon>bootloader</icon>
             <_help>A boot-loader is a small program that runs when a computer is powered-up. It is responsible for loading the operating system into memory and then transferring control to it..&lt;br&gt;Pisi Linux uses GRUB2 (GRand Unified Boot-loader version 2) as the default boot-loader. At start-up, GRUB2 displays a menu allowing the user to boot from a list of installed operating systems.&lt;br&gt;The recommended, and default way to implement GRUB2 is to install it to the mbr (Master Boot Record) of the boot disk. You can choose Advanced settings for a custom installation of the boot-loader.</_help>
         </screen>
@@ -83,19 +83,19 @@
             <name>packageInstallation</name>
             <_title>Installing Pisi Linux</_title>
             <icon>applications-other</icon>
-            <_help>YALI is now installing Pisi Linux on your computer. This operation takes approximately 20-30 minutes depending on your computer's hardware.&lt;br&gt;Note that the installation from a USB storage will be much faster than an optical medium (CD/DVD).&lt;br&gt;Now, sit back and enjoy the installation during which you will be able to discover the features and the innovations offered by this new Pisi Linux operating system.</_help>
+            <_help>YALI is now installing Pisi Linux on your computer. This operation takes approximately 20-30 minutes depending on your computer's hardware.&lt;br&gt;Note that installation from USB media will be much faster compared to using optical media (CD/DVD).&lt;br&gt;Now, sit back and enjoy the installation during which you will be able to discover the features and the innovations offered by this new Pisi Linux operating system.</_help>
         </screen>
         <screen>
             <name>goodbye0</name>
             <_title>Installation complete!</_title>
             <icon>goodbye</icon>
-            <_help>You have successfully installed Pisi Linux on your computer. After restarting your computer, then you can begin using Pisi Linux.&lt;br&gt;Please be sure that you remember your password and that you unmount the installation medium (remove the USB disk, eject the DVD or release the image in virtual machines).</_help>
+            <_help>You have successfully installed Pisi Linux on your computer. After restarting your computer, you can begin using Pisi Linux.&lt;br&gt;Please be sure that you remember your password and to unmount the installation medium (remove the USB disk, eject the DVD or release the image in virtual machines).</_help>
         </screen>
         <screen>
             <name>goodbye1</name>
             <_title>Installation complete!</_title>
             <icon>goodbye</icon>
-            <_help>Congratulations, you have successfully installed Pisi Linux on your computer. After restarting your computer, you will able to add new user accounts and use Pisi Linux. Please be sure that you unmount the installation medium (remove the usb disk, eject the dvd or release the image in virtual machies).</_help>
+            <_help>Congratulations, you have successfully installed Pisi Linux on your computer. After restarting your computer, you will able to add new user accounts and start using Pisi Linux. Please be sure that you unmount the installation medium (remove the usb disk, eject the dvd or release the image in virtual machines).</_help>
         </screen>
         <screen>
             <name>goodbye2</name>
@@ -133,7 +133,7 @@
         </slideshow>
         <slideshow>
             <picture>kontact</picture>
-            <_description>Use Pisi Linux to keep in touch with people and events. Kontact combines a lot of functionality in a single suite: email, address book, calendar, to-do, news feeds, notes, groupware and even synchronization with your Google mail, contacts and calendar. Or choose from the many other available options, such as …&lt;br&gt;Email - Kmail, Thunderbird&lt;br&gt;IRC client - Konversation, Quassel&lt;br&gt;Instant Messaging - Kopete, Pidgin&lt;br&gt;Twitter client - chqok, qtwitter&lt;br&gt;RSS feeds - Akgregator, Lifrea&lt;br&gt;VOIP - Skype, linphone.</_description>
+            <_description>Use Pisi Linux to keep in touch with people and events. Kontact combines a lot of functionality in a one suite: email, address book, calendar, to-do, news feeds, notes, groupware and even synchronization with your Google mail, contacts and calendar. Or choose from the many other available options, such as …&lt;br&gt;Email - Kmail, Thunderbird&lt;br&gt;IRC client - Konversation, Quassel&lt;br&gt;Instant Messaging - Kopete, Pidgin&lt;br&gt;Twitter client - chqok, qtwitter&lt;br&gt;RSS feeds - Akgregator, Lifrea&lt;br&gt;VOIP - Skype, linphone</_description>
         </slideshow>
         <slideshow>
             <picture>libreoffice</picture>
@@ -145,11 +145,11 @@
         </slideshow>
         <slideshow>
             <picture>dolphin</picture>
-            <_description>Dolphin is the KDE file manager. It is lightweight yet versatile and full-featured ...&lt;br&gt;Tabbed and breadcrumb navigation&lt;br&gt;Flexible view options including split-pane&lt;br&gt;Retains view properties of folders&lt;br&gt;Automatic scaling of content in re-sized windows&lt;br&gt;File content previewing&lt;br&gt;File searching, tagging, rating and commenting&lt;br&gt;Integration of network transparency&lt;br&gt;Dock-able information panels&lt;br&gt;For a utilitarian but very powerful file manager option, check out Krusader.&lt;br&gt;Additionallly Pisi Linux has some other popular filemanagers like, Thunar, Pcmanfm, Mate File Manager etc.</_description>
+            <_description>Dolphin is the KDE file manager. It is lightweight yet versatile and full-featured ...&lt;br&gt;Tabbed and breadcrumb navigation&lt;br&gt;Flexible view options including split-pane&lt;br&gt;Retains view properties of folders&lt;br&gt;Automatic scaling of content in re-sized windows&lt;br&gt;File content previewing&lt;br&gt;File searching, tagging, rating and commenting&lt;br&gt;Integration of network transparency&lt;br&gt;Dock-able information panels&lt;br&gt;For a utilitarian but very powerful file manager option, check out Krusader.&lt;br&gt;Additionally Pisi Linux has some other popular file-managers like, Thunar, Pcmanfm, Mate File Manager etc.</_description>
         </slideshow>
         <slideshow>
             <picture>pisi</picture>
-            <_description>PiSi (Packages Installed Successfully as Intended) was built from scratch to address some of the shortcomings of traditional package management systems. It features a modern, simple, compact and highly efficient design. In comparison with other systems, it is easy to learn to build packages for yourself, should you wish to do so.&lt;br&gt;Written in Python and uses XML for source files&lt;br&gt;Incorporates both low-level and high-level operations: separate tool such as APT, YUM, URPMI etc, is not required&lt;br&gt;Comprehensive CLI and GUI package management&lt;br&gt;Uses delta updates and LZMA compression, saving time, bandwidth and space&lt;br&gt;Utilizes Berkeley DB for fast database access.&lt;br&gt;Pisi has full featured GUI called Package Manager. Package Manager will help you to keep your system up-to-date, remove the components that you never use or add new ones. You can reach Package Manager from the menu.</_description>
+            <_description>PiSi (Packages Installed Successfully as Intended) was built from scratch to address some of the shortcomings of traditional package management systems. It features a modern, simple, compact and highly efficient design. In comparison with other systems, it is easy to learn to build packages for yourself. Written in Python and uses XML for source files. Incorporates both low-level and high-level operations: separate tool such as APT, YUM, URPMI etc, is not required.Comprehensive CLI and GUI package management, delta updates and LZMA compression (saving time, bandwidth and space). Utilizes Berkeley DB for fast database access.&lt;br&gt;Pisi has full featured GUI called Package Manager which will help you to keep your system up-to-date, remove the components that you never use or add new ones. You can reach Package Manager from the menu.</_description>
         </slideshow>
         <slideshow>
             <picture>kaptan</picture>
@@ -157,19 +157,19 @@
         </slideshow>
         <slideshow>
             <picture>tasma</picture>
-            <_description>Pisi Linux have many other in-house developed user friendly manager tools such as User Manager, Firewall Manager, Service Manager to administrate Pisi Linux easier. All the managers can be used from menu or commandline.</_description>
+            <_description>Pisi Linux has developed some other in-house, user friendly manager tools such as User Manager, Firewall Manager, Service Manager to administer Pisi Linux easier. All the managers can be run using menu or commandline.</_description>
         </slideshow>
         <slideshow>
             <picture>gimp</picture>
-            <_description>Pisi Linux provides comprehensive file format and codec functionality plus a wide array of multimedia applications; a few examples of which are listed below.&lt;br&gt;Audio players - Amarok or Clementine&lt;br&gt;Audio converter - soundKonverter&lt;br&gt;Sound editor - Audacity&lt;br&gt;Video player - VLC&lt;br&gt;Video editor - Kdenlive&lt;br&gt;Photo manager/editor - Digikam&lt;br&gt;Image editor - Gimp, Inkscape&lt;br&gt;3D modelling - Blender</_description>
+            <_description>Pisi Linux provides comprehensive file format and codec functionality plus a wide array of multimedia applications; a few examples of which are listed below.&lt;br&gt;Audio players - Amarok or Clementine&lt;br&gt;Audio converter - soundKonverter&lt;br&gt;Sound editor - Audacity&lt;br&gt;Video player - VLC, SMplayer&lt;br&gt;Video editor - Kdenlive&lt;br&gt;Photo manager/editor - Digikam&lt;br&gt;Image editor - Gimp, Inkscape&lt;br&gt;3D modelling - Blender</_description>
         </slideshow>
         <slideshow>
             <picture>games</picture>
-            <_description>Fun is a serious matter... Everyone has the right to relax for a moment with the help of a sudoku puzzle or a simple game. Pisi Linux has some little, enjoying games in the installation medium, however the real domain is waiting you online. If you are a gamer, you should check out the games section in Package Manager to explore hundreds of free games including simulators, online team building FPS&apos;s, old school arcades etc...</_description>
+            <_description>Fun is a serious matter... Everyone has the right to relax for a moment with the help of a sudoku puzzle or a simple game. Pisi Linux has a selection of enjoyable games in the installation medium, however the real domain is waiting for you online. If you are a gamer, you should check out the games section in Package Manager to explore hundreds of free games including simulators, online team building FPS&apos;s, old school arcades etc...</_description>
         </slideshow>
         <slideshow>
             <picture>community</picture>
-            <_description>Here are a few options if you wish to find out more about Pisi Linux, get help, or become involved with the community or the project itself. Alternatively, you can engage with us via Google+, facebook or Twitter.&lt;br&gt;Pisi Linux main website (Turkish) - http://www.pisilinux.org&lt;br&gt;Forum (Turkish) - http://forum.pisilinux.org&lt;br&gt;Pisi Linux World - http://www.pisilinuxworld.org&lt;br&gt;Forum (international) - http://forum.pisilinuxworld.org&lt;br&gt;Pisi Linux Welt (official German website) - http://germany.pisilinuxworld.org&lt;br&gt;Github - https://github.com/pisilinux&lt;br&gt;IRC freenode #pisi-linux&lt;br&gt;The Anka-Team is always looking for help or support. If you feel you may be able to contribute in any way, technically or otherwise, we will always be pleased to hear from you. Contact: admin@pisilinux.org Thank you for using Pisi Linux.</_description>
+            <_description>Here are a few options if you wish to find out more about Pisi Linux, get help, or become involved with the community or the project itself. We can also be found on Google+, facebook or Twitter.&lt;br&gt;Pisi Linux main website (Turkish) - http://www.pisilinux.org&lt;br&gt;Pisi Linux World - http://www.pisilinuxworld.org&lt;br&gt;Pisi Linux Welt (official German website) - http://germany.pisilinuxworld.org&lt;br&gt;Github - https://github.com/pisilinux&lt;br&gt;IRC freenode #pisi-linux&lt;br&gt;The Anka-Team is always looking for help or support. If you feel you may be able to contribute in any way, technically or otherwise, we will always be pleased to hear from you. Contact: admin@pisilinux.org Thank you for using Pisi Linux.</_description>
         </slideshow>
     </slideshows>
 </Release>
