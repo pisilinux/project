@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Yali Branding Pardus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-18 15:37+0200\n"
+"POT-Creation-Date: 2014-01-18 21:17+0200\n"
 "PO-Revision-Date: 2011-01-18 16:26+0200\n"
 "Last-Translator: Attila Siposs <sipiatti@gmail.com>\n"
 "Language-Team: Hungarian <pardus-translators@pardus.org.tr>\n"
@@ -30,11 +30,23 @@ msgid "Help will be included when Kahya implementation is complete"
 msgstr "A Kahya implementálásakor elérető lesz a súgója is."
 
 #: ../release.xml.in.h:3
+msgid "Welcome to YALI !"
+msgstr ""
+
+#: ../release.xml.in.h:4
+msgid ""
+"At the bottom of each page of the installer you will notice a few controls:"
+"&lt;br&gt;&lt;br&gt;- Button to quit the installer and either shut down or "
+"re-boot&lt;br&gt;- A button for reviewing the release notes&lt;br&gt;- Back/"
+"forward arrows, should you wish to step back and check or make changes."
+msgstr ""
+
+#: ../release.xml.in.h:5
 #, fuzzy
 msgid "Get ready to install Pisi Linux"
 msgstr "Felkészülés a Pardus telepítésére"
 
-#: ../release.xml.in.h:4
+#: ../release.xml.in.h:6
 #, fuzzy
 msgid ""
 "Pisi Linux is a free and open source operating system that showcases many "
@@ -58,11 +70,11 @@ msgstr ""
 "kattintással, vagy a weblapunkon. &lt;br&gt;&lt;br&gt;A Pardus telepítéséhez "
 "valamennyi felhasználói licenszmegállapodást el kell fogadnia."
 
-#: ../release.xml.in.h:5
+#: ../release.xml.in.h:7
 msgid "Welcome back..."
 msgstr "A Pardus üdvözli Önt..."
 
-#: ../release.xml.in.h:6
+#: ../release.xml.in.h:8
 #, fuzzy
 msgid ""
 "You've installed and booted Pisi Linux successfully - just a last few clicks."
@@ -75,12 +87,12 @@ msgstr ""
 "felhasználót létre kell hoznia, és pár rendszerbeállítást el kell végeznie, "
 "mielőtt használatba veszi."
 
-#: ../release.xml.in.h:7
+#: ../release.xml.in.h:9
 #, fuzzy
 msgid "Double-check your installation medium"
 msgstr "Ellenőrizze a telepítő adathordozót!"
 
-#: ../release.xml.in.h:8
+#: ../release.xml.in.h:10
 #, fuzzy
 msgid ""
 "Validation uses a file verification method to compare the files on the "
@@ -96,11 +108,11 @@ msgstr ""
 "At-Once) módban kiírni, alacsonyabb írási sebesség mellett (4x a DVD "
 "lemezek, 8-12x a CD lemezek számára)."
 
-#: ../release.xml.in.h:9
+#: ../release.xml.in.h:11
 msgid "Choose your keyboard layout"
 msgstr "Válasszon billentyűzetkiosztást"
 
-#: ../release.xml.in.h:10
+#: ../release.xml.in.h:12
 #, fuzzy
 msgid ""
 "A keyboard layout sets the arrangement of keys on the keyboard. You may want "
@@ -115,11 +127,11 @@ msgstr ""
 "Pardusban használni kíván. Ki is próbálhatja, ha szöveget gépel a beviteli "
 "mezőbe."
 
-#: ../release.xml.in.h:11
+#: ../release.xml.in.h:13
 msgid "Set your local time and date"
 msgstr "Helyi dátum és idő beállítása"
 
-#: ../release.xml.in.h:12
+#: ../release.xml.in.h:14
 #, fuzzy
 msgid ""
 "These settings allow you to set the date and time for your computer. You may "
@@ -135,11 +147,11 @@ msgstr ""
 "időnek hívnak. A hagyományok szerint az időzónákban a helyi időt az UTC-ből "
 "(Coordinated Universal Time) számítják."
 
-#: ../release.xml.in.h:13
+#: ../release.xml.in.h:15
 msgid "Setup your account"
 msgstr "Felhasználói beállítások"
 
-#: ../release.xml.in.h:14
+#: ../release.xml.in.h:16
 #, fuzzy
 msgid ""
 "Pisi Linux enables multiple users to easily and safely share a computer. An "
@@ -161,12 +173,12 @@ msgstr ""
 "menüben található Felhasználókezelő segítségével módosíthatja a számítógép "
 "felhasználóit."
 
-#: ../release.xml.in.h:15
+#: ../release.xml.in.h:17
 #, fuzzy
 msgid "Choose administration password and a hostname"
 msgstr "Válasszon rendszergazda jelszót és adjon nevet a számítógépnek"
 
-#: ../release.xml.in.h:16
+#: ../release.xml.in.h:18
 #, fuzzy
 msgid ""
 "&quot;root&quot; is the conventional name for the administrator user who has "
@@ -188,11 +200,11 @@ msgstr ""
 "azonosítója. Mivel ez a név azonosítja a gépet a helyi hálózaton, célszerű "
 "egyedi, beszédes nevet választani."
 
-#: ../release.xml.in.h:17
+#: ../release.xml.in.h:19
 msgid "Choose where Pisi Linux should be installed"
 msgstr ""
 
-#: ../release.xml.in.h:18
+#: ../release.xml.in.h:20
 #, fuzzy
 msgid ""
 "You will need a realistic minimum of 12GB disk space to install Pisi Linux, "
@@ -204,11 +216,11 @@ msgstr ""
 "szükség (10GB ajánlott). Válassza ki a telepítésre használandó lemezt. A "
 "következő lépésben választani tud majd több partícionálási lehetőség közül."
 
-#: ../release.xml.in.h:19
+#: ../release.xml.in.h:21
 msgid "Select a partitioning method"
 msgstr "Válasszon partícionálási módot"
 
-#: ../release.xml.in.h:20
+#: ../release.xml.in.h:22
 #, fuzzy
 msgid ""
 "When you select \"Use All Disk\", Pisi Linux will format your disk using LVM "
@@ -233,11 +245,11 @@ msgstr ""
 "használja a \"Saját beállítások\" lehetőséget. Tanácsos biztonsági mentést "
 "végezni a problémák elkerülése érdekében."
 
-#: ../release.xml.in.h:21
+#: ../release.xml.in.h:23
 msgid "Partition your disk manually"
 msgstr "Lemezek kézi partícionálása"
 
-#: ../release.xml.in.h:22
+#: ../release.xml.in.h:24
 #, fuzzy
 msgid ""
 "You have to choose a *free* physical partition in order to create your "
@@ -266,12 +278,12 @@ msgstr ""
 "&lt;br&gt;&lt;br&gt; További információkért tanulmányozza a weboldalunkon "
 "található Pardus Telepítési és Felhasználói Útmutatót."
 
-#: ../release.xml.in.h:23
+#: ../release.xml.in.h:25
 #, fuzzy
 msgid "Configure the boot-loader"
 msgstr "A rendszerbetöltő beállítása"
 
-#: ../release.xml.in.h:24
+#: ../release.xml.in.h:26
 #, fuzzy
 msgid ""
 "A boot-loader is a program that runs when a computer powers-up. It is "
@@ -293,20 +305,20 @@ msgstr ""
 "rendszerindító lemez elejére telepíteni. Választhat más telepítési módot is, "
 "ha tisztában van a következményekkel."
 
-#: ../release.xml.in.h:25
+#: ../release.xml.in.h:27
 msgid "Summary of proposed installation"
 msgstr ""
 
-#: ../release.xml.in.h:26
+#: ../release.xml.in.h:28
 msgid "A final review now - before actual installation commences."
 msgstr ""
 
-#: ../release.xml.in.h:27
+#: ../release.xml.in.h:29
 #, fuzzy
 msgid "Installing Pisi Linux"
 msgstr "A Pardus telepítése"
 
-#: ../release.xml.in.h:28
+#: ../release.xml.in.h:30
 #, fuzzy
 msgid ""
 "YALI is now installing Pisi Linux to your computer. This will take roughly "
@@ -324,11 +336,11 @@ msgstr ""
 "kiadása által kínált rendszer képességeinek és a bevezett újítások  "
 "bemutatóját."
 
-#: ../release.xml.in.h:29
+#: ../release.xml.in.h:31
 msgid "Installation complete!"
 msgstr "A telepítés befejeződött!"
 
-#: ../release.xml.in.h:30
+#: ../release.xml.in.h:32
 #, fuzzy
 msgid ""
 "You have successfully installed Pisi Linux on your computer. After "
@@ -341,7 +353,7 @@ msgstr ""
 "emlékszik még a jelszóra, és ne felejtse el eltávolítani a telepítő médiumot "
 "(usb-kulcs, dvd vagy lemezkép ha virtuális gépet használ)."
 
-#: ../release.xml.in.h:31
+#: ../release.xml.in.h:33
 #, fuzzy
 msgid ""
 "Congratulations, you have successfully installed Pisi Linux on your "
@@ -354,11 +366,11 @@ msgstr ""
 "felhasználókat felvenni a Pardus használatához. Ne felejtse el eltávolítani "
 "a telepítő médiát (usb-kulcs, dvd vagy lemezkép ha virtuális gépet használ)."
 
-#: ../release.xml.in.h:32
+#: ../release.xml.in.h:34
 msgid "All done!"
 msgstr "Készen vagyunk!"
 
-#: ../release.xml.in.h:33
+#: ../release.xml.in.h:35
 msgid ""
 "User accounts are successfully configured. Click Next to proceed. One note: "
 "You remember your password, don&apos;t you?"
@@ -366,7 +378,7 @@ msgstr ""
 "A felhasználói fiókok beállításra kerültek. Kattintson a Továbbra a "
 "folytatáshoz. Egy megjegyzés: Ugye emlékszik még a jelszóra?"
 
-#: ../release.xml.in.h:34
+#: ../release.xml.in.h:36
 #, fuzzy
 msgid ""
 "You have successfully rescued your system. Please be sure that you un-mount "
@@ -377,23 +389,23 @@ msgstr ""
 "felhasználókat felvenni a Pardus használatához. Ne felejtse el eltávolítani "
 "a telepítő médiát (usb-kulcs, dvd vagy lemezkép ha virtuális gépet használ)."
 
-#: ../release.xml.in.h:35
+#: ../release.xml.in.h:37
 msgid "Rescue System"
 msgstr ""
 
-#: ../release.xml.in.h:36
+#: ../release.xml.in.h:38
 msgid "You can re-install your boot-loader or recover a user password."
 msgstr ""
 
-#: ../release.xml.in.h:37
+#: ../release.xml.in.h:39
 msgid "Reset forgotten password"
 msgstr ""
 
-#: ../release.xml.in.h:38
+#: ../release.xml.in.h:40
 msgid "You can recover your password"
 msgstr ""
 
-#: ../release.xml.in.h:39
+#: ../release.xml.in.h:41
 msgid ""
 "Pisi Linux is a fork of the (PiSi-based) Pardus operating system and its "
 "unique technologies. When it became apparent early in 2012 that for "
@@ -409,7 +421,7 @@ msgid ""
 "stable and user-friendly."
 msgstr ""
 
-#: ../release.xml.in.h:40
+#: ../release.xml.in.h:42
 msgid ""
 "Pisi Linux ships with Firefox, the most popular open source Internet "
 "browser. Firefox offers great customization options and has a large "
@@ -422,7 +434,7 @@ msgid ""
 "manager."
 msgstr ""
 
-#: ../release.xml.in.h:41
+#: ../release.xml.in.h:43
 msgid ""
 "Use Pisi Linux to keep in touch with people and events. Kontact combines a "
 "lot of functionality in one suite: email, address book, calendar, to-do, "
@@ -434,7 +446,7 @@ msgid ""
 "br&gt;VOIP - Skype, linphone"
 msgstr ""
 
-#: ../release.xml.in.h:42
+#: ../release.xml.in.h:44
 msgid ""
 "Looking for a productivity suite? Our suggestion is LibreOffice, a free, "
 "high quality and cross-platform office suite.... &lt;br&gt;&lt;br&gt;"
@@ -448,7 +460,7 @@ msgid ""
 "suite developed by the KDE team."
 msgstr ""
 
-#: ../release.xml.in.h:43
+#: ../release.xml.in.h:45
 msgid ""
 "KDE&apos;s Plasma Desktop is the default desktop GUI used in Pisi Linux. KDE "
 "is actually a Software Compilation produced by an international team that "
@@ -461,7 +473,7 @@ msgid ""
 "faster, yet less feature-rich desktop experience."
 msgstr ""
 
-#: ../release.xml.in.h:44
+#: ../release.xml.in.h:46
 msgid ""
 "Dolphin is the KDE file manager. It is lightweight yet versatile and full-"
 "featured:&lt;br&gt;- Tabbed and breadcrumb navigation&lt;br&gt;- Flexible "
@@ -474,7 +486,7 @@ msgid ""
 "other popular file-managers, like Thunar, Pcmanfm, Mate File Manager etc."
 msgstr ""
 
-#: ../release.xml.in.h:45
+#: ../release.xml.in.h:47
 msgid ""
 "PiSi (Packages Installed Successfully as Intended) was built from scratch to "
 "address some shortcomings of traditional package management systems. It "
@@ -489,7 +501,7 @@ msgid ""
 "new ones."
 msgstr ""
 
-#: ../release.xml.in.h:46
+#: ../release.xml.in.h:48
 #, fuzzy
 msgid ""
 "Kaptan is a &quot;desktop greeter&quot;, which helps you customize your KDE "
@@ -511,7 +523,7 @@ msgstr ""
 "is bármikor el tudja indítani. &lt;br&gt;Tipp: Az Alt+F2 megnyomásával "
 "előhívhatja a rendszer alkalmazásindítóját"
 
-#: ../release.xml.in.h:47
+#: ../release.xml.in.h:49
 #, fuzzy
 msgid ""
 "Pisi Linux has developed some other in-house, user friendly manager tools "
@@ -525,7 +537,7 @@ msgstr ""
 "használható, vagy beépítve a Rendszerbeállítások alkalmazásba, amely az "
 "ilyen jellegű feladatok gyűjtőhelye."
 
-#: ../release.xml.in.h:48
+#: ../release.xml.in.h:50
 msgid ""
 "Pisi Linux provides comprehensive file format and codec functionality plus a "
 "wide array of multimedia applications, a few examples of which are listed "
@@ -536,7 +548,7 @@ msgid ""
 "modelling - Blender"
 msgstr ""
 
-#: ../release.xml.in.h:49
+#: ../release.xml.in.h:51
 #, fuzzy
 msgid ""
 "Fun is a serious matter... Everyone has the right to relax for a moment with "
@@ -553,7 +565,7 @@ msgstr ""
 "Ha ön számítógép játékos is, mindenképpen nézze meg a Csomagkezelő játék "
 "szekcióját játékok százai várnak Önre, köztük szimulátorok, FPS-ek, stb."
 
-#: ../release.xml.in.h:50
+#: ../release.xml.in.h:52
 msgid ""
 "Here are a few options if you wish to find out more about Pisi Linux, get "
 "help, or become involved with the community or the project itself. "

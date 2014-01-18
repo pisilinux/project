@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-18 15:37+0200\n"
+"POT-Creation-Date: 2014-01-18 21:17+0200\n"
 "PO-Revision-Date: 2013-04-04 18:07+0300\n"
 "Last-Translator: \n"
 "Language-Team: Turkish <kde-i18n-doc@kde.org>\n"
@@ -28,10 +28,22 @@ msgstr ""
 "Kahya uygulaması geliştirmesi tamamlandığında yardım metni eklenecektir."
 
 #: ../release.xml.in.h:3
+msgid "Welcome to YALI !"
+msgstr ""
+
+#: ../release.xml.in.h:4
+msgid ""
+"At the bottom of each page of the installer you will notice a few controls:"
+"&lt;br&gt;&lt;br&gt;- Button to quit the installer and either shut down or "
+"re-boot&lt;br&gt;- A button for reviewing the release notes&lt;br&gt;- Back/"
+"forward arrows, should you wish to step back and check or make changes."
+msgstr ""
+
+#: ../release.xml.in.h:5
 msgid "Get ready to install Pisi Linux"
 msgstr "Pisi Linux'u kurmaya hazır olun"
 
-#: ../release.xml.in.h:4
+#: ../release.xml.in.h:6
 #, fuzzy
 msgid ""
 "Pisi Linux is a free and open source operating system that showcases many "
@@ -53,11 +65,11 @@ msgstr ""
 "veya web sayfamızdan okuyabilirsiniz. &lt;br&gt;&lt;br&gt;Pisi Linux'u "
 "bilgisayarınıza kurmak için koşulları kabul etmeniz gerekir."
 
-#: ../release.xml.in.h:5
+#: ../release.xml.in.h:7
 msgid "Welcome back..."
 msgstr "Tekrar hoş geldiniz..."
 
-#: ../release.xml.in.h:6
+#: ../release.xml.in.h:8
 #, fuzzy
 msgid ""
 "You've installed and booted Pisi Linux successfully - just a last few clicks."
@@ -71,12 +83,12 @@ msgstr ""
 "sistem ayarlarını yapmalısınız. Ardından Pisi Linux'ta oturum açarak yeni "
 "sisteminizin tadını çıkarabilirsiniz..."
 
-#: ../release.xml.in.h:7
+#: ../release.xml.in.h:9
 #, fuzzy
 msgid "Double-check your installation medium"
 msgstr "Kurulum ortamınızı kontrol edin"
 
-#: ../release.xml.in.h:8
+#: ../release.xml.in.h:10
 #, fuzzy
 msgid ""
 "Validation uses a file verification method to compare the files on the "
@@ -94,11 +106,11 @@ msgstr ""
 "gibi), düşük hızda(DVD için 4x, CD için 8-12x) ve DAO (tek seferde yaz) "
 "kipinde yazmayı deneyiniz."
 
-#: ../release.xml.in.h:9
+#: ../release.xml.in.h:11
 msgid "Choose your keyboard layout"
 msgstr "Klavye düzeninizi seçin"
 
-#: ../release.xml.in.h:10
+#: ../release.xml.in.h:12
 #, fuzzy
 msgid ""
 "A keyboard layout sets the arrangement of keys on the keyboard. You may want "
@@ -112,11 +124,11 @@ msgstr ""
 "metin kutusuna yazı yazarak seçtiğini düzenin çalışıp çalışmadığını "
 "görebilirsiniz."
 
-#: ../release.xml.in.h:11
+#: ../release.xml.in.h:13
 msgid "Set your local time and date"
 msgstr "Saat ve tarihi ayarlayın"
 
-#: ../release.xml.in.h:12
+#: ../release.xml.in.h:14
 #, fuzzy
 msgid ""
 "These settings allow you to set the date and time for your computer. You may "
@@ -132,11 +144,11 @@ msgstr ""
 "ve genellikle yerel saat olarak anılır. Adet olduğu üzere, zaman ayarları "
 "kendi yerel zamanını hesaplayarak UTC ile eş zamanlı biçimde oluşturulur."
 
-#: ../release.xml.in.h:13
+#: ../release.xml.in.h:15
 msgid "Setup your account"
 msgstr "Kullanıcı hesabı açın"
 
-#: ../release.xml.in.h:14
+#: ../release.xml.in.h:16
 #, fuzzy
 msgid ""
 "Pisi Linux enables multiple users to easily and safely share a computer. An "
@@ -160,12 +172,12 @@ msgstr ""
 "yönetmeniz gerektiğinde, Sistem Ayarlarında bulunan Kullanıcı Yöneticisini "
 "kullanabilirsiniz."
 
-#: ../release.xml.in.h:15
+#: ../release.xml.in.h:17
 #, fuzzy
 msgid "Choose administration password and a hostname"
 msgstr "Yönetici parolasını belirleyin ve bilgisayarınız için bir isim seçin"
 
-#: ../release.xml.in.h:16
+#: ../release.xml.in.h:18
 #, fuzzy
 msgid ""
 "&quot;root&quot; is the conventional name for the administrator user who has "
@@ -189,11 +201,11 @@ msgstr ""
 "üzerinde tanımlayacağı için, görevi ya da kullanıcısını tarif eden bir isim "
 "öneririz."
 
-#: ../release.xml.in.h:17
+#: ../release.xml.in.h:19
 msgid "Choose where Pisi Linux should be installed"
 msgstr ""
 
-#: ../release.xml.in.h:18
+#: ../release.xml.in.h:20
 #, fuzzy
 msgid ""
 "You will need a realistic minimum of 12GB disk space to install Pisi Linux, "
@@ -206,11 +218,11 @@ msgstr ""
 "kurulumu gerçekleştireceğiniz diski seçin. Sonraki adımda bölümlendirme "
 "konusunda değişik seçeneklerden yararlanabileceksiniz."
 
-#: ../release.xml.in.h:19
+#: ../release.xml.in.h:21
 msgid "Select a partitioning method"
 msgstr "Bölümleme yöntemini seçin"
 
-#: ../release.xml.in.h:20
+#: ../release.xml.in.h:22
 #, fuzzy
 msgid ""
 "When you select \"Use All Disk\", Pisi Linux will format your disk using LVM "
@@ -236,11 +248,11 @@ msgstr ""
 "&lt;br&gt; Her ihtimalde ileride çıkabilecek problemlere karşı var olan "
 "dosyalarınızın yedeğini almanızı öneririz."
 
-#: ../release.xml.in.h:21
+#: ../release.xml.in.h:23
 msgid "Partition your disk manually"
 msgstr "Diski elle bölümlendir"
 
-#: ../release.xml.in.h:22
+#: ../release.xml.in.h:24
 #, fuzzy
 msgid ""
 "You have to choose a *free* physical partition in order to create your "
@@ -271,12 +283,12 @@ msgstr ""
 "ihtiyacınız varsa web sitemizdeki Pisi Linux Kurulum ve Kullanım "
 "Kılavuzlarına bakabilirsiniz. "
 
-#: ../release.xml.in.h:23
+#: ../release.xml.in.h:25
 #, fuzzy
 msgid "Configure the boot-loader"
 msgstr "Önyükleyiciyi yapılandırın"
 
-#: ../release.xml.in.h:24
+#: ../release.xml.in.h:26
 #, fuzzy
 msgid ""
 "A boot-loader is a program that runs when a computer powers-up. It is "
@@ -299,19 +311,19 @@ msgstr ""
 "&quot;Gelişmiş Seçenekler&quot; ile farklı kurulum yöntemlerinden birini her "
 "zaman seçebilirsiniz."
 
-#: ../release.xml.in.h:25
+#: ../release.xml.in.h:27
 msgid "Summary of proposed installation"
 msgstr ""
 
-#: ../release.xml.in.h:26
+#: ../release.xml.in.h:28
 msgid "A final review now - before actual installation commences."
 msgstr ""
 
-#: ../release.xml.in.h:27
+#: ../release.xml.in.h:29
 msgid "Installing Pisi Linux"
 msgstr "Pisi Linux kuruluyor"
 
-#: ../release.xml.in.h:28
+#: ../release.xml.in.h:30
 #, fuzzy
 msgid ""
 "YALI is now installing Pisi Linux to your computer. This will take roughly "
@@ -328,11 +340,11 @@ msgstr ""
 "arkanıza yaslanın ve yeni Pisi Linux işletim sizteminizde size sunulan "
 "özellikleri keşfedin ve kurulumun keyfini çıkarın."
 
-#: ../release.xml.in.h:29
+#: ../release.xml.in.h:31
 msgid "Installation complete!"
 msgstr "Kurulum tamamlandı!"
 
-#: ../release.xml.in.h:30
+#: ../release.xml.in.h:32
 #, fuzzy
 msgid ""
 "You have successfully installed Pisi Linux on your computer. After "
@@ -346,7 +358,7 @@ msgstr ""
 "olarak, sanal disklerdeki imaj dosyalarının ilişkilendirmesini kaldırarak) "
 "emin olun. "
 
-#: ../release.xml.in.h:31
+#: ../release.xml.in.h:33
 #, fuzzy
 msgid ""
 "Congratulations, you have successfully installed Pisi Linux on your "
@@ -361,11 +373,11 @@ msgstr ""
 "fiziksel olarak, sanal disklerdeki imaj dosyalarının ilişkilendirmesini "
 "kaldırarak) emin olun. "
 
-#: ../release.xml.in.h:32
+#: ../release.xml.in.h:34
 msgid "All done!"
 msgstr "Her şey tamam!"
 
-#: ../release.xml.in.h:33
+#: ../release.xml.in.h:35
 msgid ""
 "User accounts are successfully configured. Click Next to proceed. One note: "
 "You remember your password, don&apos;t you?"
@@ -373,7 +385,7 @@ msgstr ""
 "Kullanıcı hesapları başarıyla yapılandırıldı. İleri tuşuna basarak devam "
 "edebilirsiniz. Parolanızı hatırlıyorsunuz değil mi?"
 
-#: ../release.xml.in.h:34
+#: ../release.xml.in.h:36
 #, fuzzy
 msgid ""
 "You have successfully rescued your system. Please be sure that you un-mount "
@@ -384,27 +396,27 @@ msgstr ""
 "çıkardığınıza emin olun (usb belleği kaldırın, dvd'i çıkarın veya sanal "
 "bilgisayara bağlı görüntüyü ayırın)"
 
-#: ../release.xml.in.h:35
+#: ../release.xml.in.h:37
 msgid "Rescue System"
 msgstr "İşletim düzenini kurtarın"
 
-#: ../release.xml.in.h:36
+#: ../release.xml.in.h:38
 #, fuzzy
 msgid "You can re-install your boot-loader or recover a user password."
 msgstr ""
 "Başlangıç yükleyicisini tekrar kurabilir veya herhangi bir kullanıcı "
 "şifresini geri getirebilirsiniz."
 
-#: ../release.xml.in.h:37
+#: ../release.xml.in.h:39
 msgid "Reset forgotten password"
 msgstr "Unutulmuş olan şifreyi sıfırlayın"
 
-#: ../release.xml.in.h:38
+#: ../release.xml.in.h:40
 #, fuzzy
 msgid "You can recover your password"
 msgstr "Şifrenizi geri getirebilirsiniz."
 
-#: ../release.xml.in.h:39
+#: ../release.xml.in.h:41
 msgid ""
 "Pisi Linux is a fork of the (PiSi-based) Pardus operating system and its "
 "unique technologies. When it became apparent early in 2012 that for "
@@ -420,7 +432,7 @@ msgid ""
 "stable and user-friendly."
 msgstr ""
 
-#: ../release.xml.in.h:40
+#: ../release.xml.in.h:42
 msgid ""
 "Pisi Linux ships with Firefox, the most popular open source Internet "
 "browser. Firefox offers great customization options and has a large "
@@ -433,7 +445,7 @@ msgid ""
 "manager."
 msgstr ""
 
-#: ../release.xml.in.h:41
+#: ../release.xml.in.h:43
 msgid ""
 "Use Pisi Linux to keep in touch with people and events. Kontact combines a "
 "lot of functionality in one suite: email, address book, calendar, to-do, "
@@ -445,7 +457,7 @@ msgid ""
 "br&gt;VOIP - Skype, linphone"
 msgstr ""
 
-#: ../release.xml.in.h:42
+#: ../release.xml.in.h:44
 msgid ""
 "Looking for a productivity suite? Our suggestion is LibreOffice, a free, "
 "high quality and cross-platform office suite.... &lt;br&gt;&lt;br&gt;"
@@ -459,7 +471,7 @@ msgid ""
 "suite developed by the KDE team."
 msgstr ""
 
-#: ../release.xml.in.h:43
+#: ../release.xml.in.h:45
 msgid ""
 "KDE&apos;s Plasma Desktop is the default desktop GUI used in Pisi Linux. KDE "
 "is actually a Software Compilation produced by an international team that "
@@ -472,7 +484,7 @@ msgid ""
 "faster, yet less feature-rich desktop experience."
 msgstr ""
 
-#: ../release.xml.in.h:44
+#: ../release.xml.in.h:46
 msgid ""
 "Dolphin is the KDE file manager. It is lightweight yet versatile and full-"
 "featured:&lt;br&gt;- Tabbed and breadcrumb navigation&lt;br&gt;- Flexible "
@@ -485,7 +497,7 @@ msgid ""
 "other popular file-managers, like Thunar, Pcmanfm, Mate File Manager etc."
 msgstr ""
 
-#: ../release.xml.in.h:45
+#: ../release.xml.in.h:47
 msgid ""
 "PiSi (Packages Installed Successfully as Intended) was built from scratch to "
 "address some shortcomings of traditional package management systems. It "
@@ -500,7 +512,7 @@ msgid ""
 "new ones."
 msgstr ""
 
-#: ../release.xml.in.h:46
+#: ../release.xml.in.h:48
 #, fuzzy
 msgid ""
 "Kaptan is a &quot;desktop greeter&quot;, which helps you customize your KDE "
@@ -525,7 +537,7 @@ msgstr ""
 "çağrılabilir ve bu kısayol bazı temel işlevler de sunmaktadır. Evinizde "
 "deneyin!"
 
-#: ../release.xml.in.h:47
+#: ../release.xml.in.h:49
 #, fuzzy
 msgid ""
 "Pisi Linux has developed some other in-house, user friendly manager tools "
@@ -538,7 +550,7 @@ msgstr ""
 "arada, diğer yönetim ve yapılandırma araçlarıyla birlikte Sistem Ayarları "
 "içerisinde bulabilirsiniz."
 
-#: ../release.xml.in.h:48
+#: ../release.xml.in.h:50
 msgid ""
 "Pisi Linux provides comprehensive file format and codec functionality plus a "
 "wide array of multimedia applications, a few examples of which are listed "
@@ -549,7 +561,7 @@ msgid ""
 "modelling - Blender"
 msgstr ""
 
-#: ../release.xml.in.h:49
+#: ../release.xml.in.h:51
 #, fuzzy
 msgid ""
 "Fun is a serious matter... Everyone has the right to relax for a moment with "
@@ -568,7 +580,7 @@ msgstr ""
 "takım halinde oynanan FPS'lerin, klasik bilgisayar oyunlarının yer aldığı "
 "yüzlerce oyuna mutlaka göz atın."
 
-#: ../release.xml.in.h:50
+#: ../release.xml.in.h:52
 msgid ""
 "Here are a few options if you wish to find out more about Pisi Linux, get "
 "help, or become involved with the community or the project itself. "

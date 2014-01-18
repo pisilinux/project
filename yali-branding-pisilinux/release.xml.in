@@ -4,9 +4,15 @@
         <screen>
             <name>kahya</name>
             <_title>Kahya</_title>
-            <icon></icon>
+            <icon>applications-other</icon>
             <_help>Help will be included when Kahya implementation is complete</_help>
         </screen>
+        <screen>
+            <name>info</name>
+            <_title>Welcome to YALI !</_title>
+            <icon>applications-other</icon>
+            <_help>At the bottom of each page of the installer you will notice a few controls:&lt;br&gt;&lt;br&gt;- Button to quit the installer and either shut down or re-boot&lt;br&gt;- A button for reviewing the release notes&lt;br&gt;- Back/forward arrows, should you wish to step back and check or make changes.</_help>
+       </screen>
         <screen>
             <name>license</name>
             <_title>Get ready to install Pisi Linux</_title>
