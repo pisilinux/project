@@ -39,8 +39,8 @@ It is recomended to create swap space for Pisi Linux (can be done during install
 Pisi Linux currently exists only in 64bit form. However, 32bit packages are included for applications such as<br /> Skype and Steam. Codecs for playing audio and video files are also included.<br /><br />
 
 <b>Anything else ?</b><br />
-There are over 6000 packages in our repositories, with more added all the time.<br /><br />
-Pisi Linux is translated to 14 languages: Turkish, English, Dutch, German, Russian, Spanish, French, Hungarian,<br />Italian, Croatian, Swedish, Ukrainian, Polish and Portuguese (Brazil). Translation to other languages is on-going.<br /><br />
+There are over 6000 packages in our repositories, with more added all the time.<br />
+Pisi Linux is translated to 14 languages: Turkish, English, Dutch, German, Russian, Spanish, French, Hungarian,<br /> Italian, Croatian, Swedish, Ukrainian, Polish and Portuguese (Brazil). Translation to other languages is on-going.<br /><br />
 Turkish/English: Anka/Phoenix - Pisi/Kitty - Kaptan/Captain<br />
 We hope you enjoy using Pisi Linux. Thank you.
 </td></tr></table>
