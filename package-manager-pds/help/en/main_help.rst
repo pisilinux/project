@@ -1,7 +1,7 @@
 Package Manager
 ---------------
 
-**Package Manager** is used to search, install or upgrade packages from Pardus
+**Package Manager** is used to search, install or upgrade packages from Pisi Linux
 package repository. It's a handy and usable tool to manage your packages in an
 easy way.
 

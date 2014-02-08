@@ -6,36 +6,36 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-13 11:27+0300\n"
+"POT-Creation-Date: 2014-02-08 15:17+0200\n"
 "PO-Revision-Date: 2010-08-20 15:05+0400\n"
 "Last-Translator: Jozsef <Kurucity@aim.com>\n"
 "Language-Team: American English <pardus-translators@pardus.org.tr>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: data/package-manager.desktop.in.h:1
-msgid "Add or Remove Software"
-msgstr "Додај или уклони софтвер"
-
-#: data/package-manager.desktop.in.h:2
-#: data/packagemanager-helper.desktop.in.h:2 src/pmutils.py:71
-#: src/progressdialog.py:63 ui/ui_mainwindow.py:35
+#: data/packagemanager-helper.desktop.in.h:1 src/pmutils.py:71
+#: src/progressdialog.py:63 ui/ui_mainwindow.py:44
 msgid "Package Manager"
 msgstr "Менаџер пакета"
+
+#: data/package-manager.desktop.in.h:2
+msgid "Add or Remove Software"
+msgstr "Додај или уклони софтвер"
 
 #: data/package-manager.desktop.in.h:3
 msgid "PiSi Package Manager Graphical User Interface"
 msgstr "Графичко окружење ПиСи менаџера пакета"
 
-#: data/packagemanager-helper.desktop.in.h:1
+#: data/packagemanager-helper.desktop.in.h:2
 msgid "Add/Remove/Update Packages"
 msgstr "Додај/Уклони/Надогради пакете"
 
-#: src/basketdialog.py:53 ui/ui_basketdialog.py:194
+#: src/basketdialog.py:53 ui/ui_basketdialog.py:204
 msgid "Clear Basket"
 msgstr ""
 
@@ -157,7 +157,7 @@ msgstr "Прокажи пакете који могу да се инсталир
 msgid "Updates"
 msgstr "Све исправке"
 
-#: src/mainwindow.py:154 ui/ui_mainwidget_v3.py:167
+#: src/mainwindow.py:154 ui/ui_mainwidget_v3.py:176
 msgid "Settings"
 msgstr "Подешавања"
 
@@ -378,8 +378,8 @@ msgstr "надограђено"
 msgid "modified"
 msgstr ""
 
-#: src/statemanager.py:102 ui/ui_basketdialog.py:195
-#: ui/ui_mainwidget_v3.py:174
+#: src/statemanager.py:102 ui/ui_basketdialog.py:205
+#: ui/ui_mainwidget_v3.py:183
 msgid "Install Package(s)"
 msgstr "Инсталирај пакет(е)"
 
@@ -427,7 +427,7 @@ msgstr ""
 msgid "You have selected the following package(s) to modify:"
 msgstr ""
 
-#: src/statemanager.py:127 ui/ui_basketdialog.py:191
+#: src/statemanager.py:127 ui/ui_basketdialog.py:201
 msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
 msgstr ""
 
@@ -499,281 +499,281 @@ msgstr "Ажурирање репозиторијума"
 msgid "There are %1 updates available!"
 msgstr ""
 
-#: src/webdialog.py:113 ui/ui_webdialog.py:157
+#: src/webdialog.py:113 ui/ui_webdialog.py:166
 #, fuzzy
 msgid "Package Files"
 msgstr "Величина пакета:"
 
-#: ui/ui_appitem.py:62
+#: ui/ui_appitem.py:71
 msgid "Application"
 msgstr ""
 
-#: ui/ui_appitem.py:63
+#: ui/ui_appitem.py:72
 msgid "Web Tarayıcı"
 msgstr ""
 
-#: ui/ui_appitem.py:64
+#: ui/ui_appitem.py:73
 msgid "Firefox"
 msgstr ""
 
-#: ui/ui_basketdialog.py:189 ui/ui_webdialog.py:156
+#: ui/ui_basketdialog.py:199 ui/ui_webdialog.py:165
 msgid "Basket"
 msgstr ""
 
-#: ui/ui_basketdialog.py:190
+#: ui/ui_basketdialog.py:200
 msgid "Selected package(s) for install:"
 msgstr ""
 
-#: ui/ui_basketdialog.py:192
+#: ui/ui_basketdialog.py:202
 msgid "Total Size:"
 msgstr ""
 
-#: ui/ui_basketdialog.py:193
+#: ui/ui_basketdialog.py:203
 msgid "<b>2.2 MB</b>"
 msgstr ""
 
-#: ui/ui_basketdialog.py:196
+#: ui/ui_basketdialog.py:206
 msgid "Download Size:"
 msgstr ""
 
-#: ui/ui_basketdialog.py:197
+#: ui/ui_basketdialog.py:207
 msgid "<b>2.0 MB</"
 msgstr ""
 
-#: ui/ui_mainwidget_v3.py:166 ui/ui_message.py:46
-#: ui/ui_progressdialog_v4.py:228
+#: ui/ui_mainwidget_v3.py:175 ui/ui_message.py:55
+#: ui/ui_progressdialog_v4.py:237
 msgid "Form"
 msgstr ""
 
-#: ui/ui_mainwidget_v3.py:168
+#: ui/ui_mainwidget_v3.py:177
 msgid "Type to search..."
 msgstr ""
 
-#: ui/ui_mainwidget_v3.py:169
+#: ui/ui_mainwidget_v3.py:178
 msgid "Update Types"
 msgstr ""
 
-#: ui/ui_mainwidget_v3.py:170
+#: ui/ui_mainwidget_v3.py:179
 msgid "Category Panel"
 msgstr ""
 
-#: ui/ui_mainwidget_v3.py:171 ui/ui_pminstall.py:90
+#: ui/ui_mainwidget_v3.py:180 ui/ui_pminstall.py:99
 msgid "Package List"
 msgstr ""
 
-#: ui/ui_mainwidget_v3.py:172
+#: ui/ui_mainwidget_v3.py:181
 msgid "Show Basket"
 msgstr ""
 
-#: ui/ui_mainwidget_v3.py:173
+#: ui/ui_mainwidget_v3.py:182
 #, fuzzy
 msgid "Check for Updates"
 msgstr "Сигурносне исправке"
 
-#: ui/ui_pminstall.py:88
+#: ui/ui_pminstall.py:97
 #, fuzzy
 msgid "Package Manager Quick Install"
 msgstr "Подешавања"
 
-#: ui/ui_pminstall.py:89
+#: ui/ui_pminstall.py:98
 msgid "Following packages are selected to install. Do you want to install these packages ?"
 msgstr ""
 
-#: ui/ui_pminstall.py:91
+#: ui/ui_pminstall.py:100
 #, fuzzy
 msgid "Install"
 msgstr "инсталирано"
 
-#: ui/ui_pminstall.py:92
+#: ui/ui_pminstall.py:101
 msgid "Cancel"
 msgstr ""
 
-#: ui/ui_preview.py:56
+#: ui/ui_preview.py:65
 msgid "Preview"
 msgstr ""
 
-#: ui/ui_progressdialog_v4.py:229
+#: ui/ui_progressdialog_v4.py:238
 msgid "Alt+C"
 msgstr ""
 
-#: ui/ui_repodialog.py:58
+#: ui/ui_repodialog.py:67
 msgid "Add New Repository"
 msgstr ""
 
-#: ui/ui_repodialog.py:59
+#: ui/ui_repodialog.py:68
 msgid "Name of the repository, e.g <b>pardus-devel</b>"
 msgstr ""
 
-#: ui/ui_repodialog.py:60 ui/ui_settingsdialog.py:429
+#: ui/ui_repodialog.py:69 ui/ui_settingsdialog.py:440
 msgid "Repository Name"
 msgstr ""
 
-#: ui/ui_repodialog.py:61 ui/ui_settingsdialog.py:430
+#: ui/ui_repodialog.py:70 ui/ui_settingsdialog.py:442
 msgid "Repository Address"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:402
+#: ui/ui_settingsdialog.py:412
 msgid "Package Manager Settings"
 msgstr "Подешавања"
 
-#: ui/ui_settingsdialog.py:403
+#: ui/ui_settingsdialog.py:413
 msgid "Package list"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:404
+#: ui/ui_settingsdialog.py:414
 msgid "&Show only desktop applications"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:405
+#: ui/ui_settingsdialog.py:415
 msgid "Show Component information "
 msgstr ""
 
-#: ui/ui_settingsdialog.py:406
+#: ui/ui_settingsdialog.py:416
 msgid "Show package type tags"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:407
+#: ui/ui_settingsdialog.py:417
 msgid "System tray icon"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:408
+#: ui/ui_settingsdialog.py:418
 msgid "Enable system tray icon"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:409
+#: ui/ui_settingsdialog.py:419
 msgid "Hide system tray if there is no update."
 msgstr ""
 
-#: ui/ui_settingsdialog.py:410
+#: ui/ui_settingsdialog.py:420
 msgid "Enable &periodic update check"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:411
+#: ui/ui_settingsdialog.py:421
 msgid "Check interval :"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:412
+#: ui/ui_settingsdialog.py:422
 msgid " min"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:413
+#: ui/ui_settingsdialog.py:423
 msgid "Install updates automatically"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:414
+#: ui/ui_settingsdialog.py:424
 msgid "&General Settings"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:415
+#: ui/ui_settingsdialog.py:425
 msgid "Cache Limit"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:416
+#: ui/ui_settingsdialog.py:426
 msgid "&Use hard disk cache for downloaded software"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:417
+#: ui/ui_settingsdialog.py:427
 msgid "Maximum cache size:"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:418
+#: ui/ui_settingsdialog.py:428
 msgid "Unlimited"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:419
+#: ui/ui_settingsdialog.py:429
 msgid " Mib"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:420
+#: ui/ui_settingsdialog.py:430
 msgid "Current cache dir:"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:421
+#: ui/ui_settingsdialog.py:431
 msgid "Select..."
 msgstr ""
 
-#: ui/ui_settingsdialog.py:422
+#: ui/ui_settingsdialog.py:432
 msgid "Open"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:423
+#: ui/ui_settingsdialog.py:433
 msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
 msgstr ""
 
-#: ui/ui_settingsdialog.py:424
+#: ui/ui_settingsdialog.py:434
 msgid "C&lean disk cache now"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:425
+#: ui/ui_settingsdialog.py:435
 msgid "Bandwidth limit"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:426
+#: ui/ui_settingsdialog.py:436
 msgid "Use bandwidth limit :"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:427
+#: ui/ui_settingsdialog.py:437
 msgid " kB/s"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:428
+#: ui/ui_settingsdialog.py:438
 msgid "C&ache"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:431
+#: ui/ui_settingsdialog.py:443
 msgid "&Add New Repository"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:432
+#: ui/ui_settingsdialog.py:444
 msgid "Remove Repository"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:433
+#: ui/ui_settingsdialog.py:445
 msgid "Move &Up"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:434
+#: ui/ui_settingsdialog.py:446
 msgid "Move &Down"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:435
+#: ui/ui_settingsdialog.py:447
 msgid "&Repositories"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:436
+#: ui/ui_settingsdialog.py:448
 msgid "Use Proxy"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:437
+#: ui/ui_settingsdialog.py:449
 msgid "HTTP proxy server:"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:438 ui/ui_settingsdialog.py:440
-#: ui/ui_settingsdialog.py:442
+#: ui/ui_settingsdialog.py:450 ui/ui_settingsdialog.py:452
+#: ui/ui_settingsdialog.py:454
 msgid "Port:"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:439
+#: ui/ui_settingsdialog.py:451
 msgid "HTTPS proxy server:"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:441
+#: ui/ui_settingsdialog.py:453
 msgid "FTP proxy server:"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:443
+#: ui/ui_settingsdialog.py:455
 msgid "Domain:"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:444
+#: ui/ui_settingsdialog.py:456
 msgid "Username:"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:445
+#: ui/ui_settingsdialog.py:457
 msgid "Password:"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:446
+#: ui/ui_settingsdialog.py:458
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
@@ -782,83 +782,74 @@ msgid ""
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:451
+#: ui/ui_settingsdialog.py:463
 msgid "<a href=#>Use this proxy server for all protocols</a>"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:452
+#: ui/ui_settingsdialog.py:464
 msgid "&Proxy"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:453
+#: ui/ui_settingsdialog.py:465
 msgid "&Help"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:454
+#: ui/ui_settingsdialog.py:466
 msgid "&OK"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:455
+#: ui/ui_settingsdialog.py:467
 msgid "&Cancel"
 msgstr ""
 
-#: ui/ui_summarydialog.py:66
+#: ui/ui_summarydialog.py:77
 msgid "Operation Summary"
 msgstr ""
 
-#: ui/ui_summarydialog.py:67
+#: ui/ui_summarydialog.py:78
 msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
 msgstr ""
 
-#: ui/ui_summarydialog.py:68
+#: ui/ui_summarydialog.py:79
 msgid "&Ok"
 msgstr ""
 
-#: ui/ui_webdialog.py:158
+#: ui/ui_webdialog.py:167
 #, fuzzy
 msgid ""
 "AppInfo Server is not reachable\n"
 "Please check your network connection"
 msgstr "Молимо Вас проверите мрежну конекцију и покушајте поново."
 
-#: ui/ui_webdialog.py:160 ui/ui_webdialog.py:161
+#: ui/ui_webdialog.py:169 ui/ui_webdialog.py:170
 #, fuzzy
 msgid "Package Details"
 msgstr "Величина пакета:"
 
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "(c) -2010 ТУБИТАК/УЕКАЕ"
+#~ msgid "<h3>Preparing PiSi...</h3>"
+#~ msgstr "<h3>Припремање ПиСија...</h3>"
 
-#~ msgid "Developer"
-#~ msgstr "Развијач"
+#~ msgid "Time remaining:"
+#~ msgstr "Преостало време:"
 
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Гокман Гоксел"
+#~ msgid "--  / --"
+#~ msgstr "--  / --"
 
-#~ msgid "Faik Uygur"
-#~ msgstr "Фаик Ујгур"
+#~ msgid "--:--:--"
+#~ msgstr "--:--:--"
 
-#~ msgid "First Author"
-#~ msgstr "Први аутор"
+#~ msgid "Status:"
+#~ msgstr "Статус:"
 
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Јожеф Куруцић"
+#~ msgid "Show Installed Packages"
+#~ msgstr "Прикажи инсталиране пакете"
 
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "Kurucity@aim.com"
-
-#~ msgid "Show main window"
-#~ msgstr "Прикажи главни прозор"
+#~ msgid "File"
+#~ msgstr "Фајл"
 
 #, fuzzy
-#~ msgid "Upgradable Packages"
-#~ msgstr "Прикажи пакете који могу да се ажурирају"
-
-#, fuzzy
-#~ msgid "Modify Package(s)"
-#~ msgstr "Уклањање пакета"
+#~ msgid "-- / --"
+#~ msgstr "--  / --"
 
 #, fuzzy
 #~ msgid ""
@@ -867,26 +858,35 @@ msgstr "Величина пакета:"
 #~ msgstr "Инсталирај пакет(е)"
 
 #, fuzzy
-#~ msgid "-- / --"
-#~ msgstr "--  / --"
+#~ msgid "Modify Package(s)"
+#~ msgstr "Уклањање пакета"
 
-#~ msgid "File"
-#~ msgstr "Фајл"
+#, fuzzy
+#~ msgid "Upgradable Packages"
+#~ msgstr "Прикажи пакете који могу да се ажурирају"
 
-#~ msgid "Show Installed Packages"
-#~ msgstr "Прикажи инсталиране пакете"
+#~ msgid "Show main window"
+#~ msgstr "Прикажи главни прозор"
 
-#~ msgid "Status:"
-#~ msgstr "Статус:"
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "Kurucity@aim.com"
 
-#~ msgid "--:--:--"
-#~ msgstr "--:--:--"
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Јожеф Куруцић"
 
-#~ msgid "--  / --"
-#~ msgstr "--  / --"
+#~ msgid "First Author"
+#~ msgstr "Први аутор"
 
-#~ msgid "Time remaining:"
-#~ msgstr "Преостало време:"
+#~ msgid "Faik Uygur"
+#~ msgstr "Фаик Ујгур"
 
-#~ msgid "<h3>Preparing PiSi...</h3>"
-#~ msgstr "<h3>Припремање ПиСија...</h3>"
+#~ msgid "Gökmen Göksel"
+#~ msgstr "Гокман Гоксел"
+
+#~ msgid "Developer"
+#~ msgstr "Развијач"
+
+#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "(c) -2010 ТУБИТАК/УЕКАЕ"

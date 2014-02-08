@@ -7,34 +7,34 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-08 15:17+0200\n"
+"POT-Creation-Date: 2011-07-13 11:27+0300\n"
 "PO-Revision-Date: 2011-01-17 08:29+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 
 #: data/package-manager.desktop.in.h:1
-#: data/packagemanager-helper.desktop.in.h:1 src/pmutils.py:71
-#: src/progressdialog.py:63 ui/ui_mainwindow.py:44
-msgid "Package Manager"
-msgstr "Менеджер пакетов"
-
-#: data/package-manager.desktop.in.h:2
 msgid "Add or Remove Software"
 msgstr "Установка и удаление программ"
+
+#: data/package-manager.desktop.in.h:2
+#: data/packagemanager-helper.desktop.in.h:2 src/pmutils.py:71
+#: src/progressdialog.py:63 ui/ui_mainwindow.py:35
+msgid "Package Manager"
+msgstr "Менеджер пакетов"
 
 #: data/package-manager.desktop.in.h:3
 msgid "PiSi Package Manager Graphical User Interface"
 msgstr "Pisi Package Manager Графический интерфейс пользователя"
 
-#: data/packagemanager-helper.desktop.in.h:2
+#: data/packagemanager-helper.desktop.in.h:1
 msgid "Add/Remove/Update Packages"
 msgstr "Добавить / удалить / обновить пакеты"
 
-#: src/basketdialog.py:53 ui/ui_basketdialog.py:204
+#: src/basketdialog.py:53 ui/ui_basketdialog.py:194
 msgid "Clear Basket"
 msgstr "Очистить"
 
@@ -146,7 +146,7 @@ msgstr "Устанавливаемые пакеты"
 msgid "Updates"
 msgstr "Обновление"
 
-#: src/mainwindow.py:154 ui/ui_mainwidget_v3.py:176
+#: src/mainwindow.py:154 ui/ui_mainwidget_v3.py:167
 msgid "Settings"
 msgstr "Настройки"
 
@@ -362,8 +362,8 @@ msgstr "обновлено"
 msgid "modified"
 msgstr "изменено"
 
-#: src/statemanager.py:102 ui/ui_basketdialog.py:205
-#: ui/ui_mainwidget_v3.py:183
+#: src/statemanager.py:102 ui/ui_basketdialog.py:195
+#: ui/ui_mainwidget_v3.py:174
 msgid "Install Package(s)"
 msgstr "Установить"
 
@@ -411,7 +411,7 @@ msgstr "Вы выбрали следующий(е) пакет(ы) для обн�
 msgid "You have selected the following package(s) to modify:"
 msgstr "Вы выбрали следующий(е) пакет(ы) для изменения:"
 
-#: src/statemanager.py:127 ui/ui_basketdialog.py:201
+#: src/statemanager.py:127 ui/ui_basketdialog.py:191
 msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
 msgstr "Дополнительные зависимости выбранных пакетов также будут установлены:"
 
@@ -486,280 +486,280 @@ msgstr "Обновление репозитория"
 msgid "There are %1 updates available!"
 msgstr "Доступно <b>%1</b> обновлений!"
 
-#: src/webdialog.py:113 ui/ui_webdialog.py:166
+#: src/webdialog.py:113 ui/ui_webdialog.py:157
 msgid "Package Files"
 msgstr "Файлы пакета"
 
-#: ui/ui_appitem.py:71
+#: ui/ui_appitem.py:62
 msgid "Application"
 msgstr "Приложение"
 
-#: ui/ui_appitem.py:72
+#: ui/ui_appitem.py:63
 msgid "Web Tarayıcı"
 msgstr "Web Tarayıcı"
 
-#: ui/ui_appitem.py:73
+#: ui/ui_appitem.py:64
 msgid "Firefox"
 msgstr "Firefox"
 
-#: ui/ui_basketdialog.py:199 ui/ui_webdialog.py:165
+#: ui/ui_basketdialog.py:189 ui/ui_webdialog.py:156
 msgid "Basket"
 msgstr "Корзина"
 
-#: ui/ui_basketdialog.py:200
+#: ui/ui_basketdialog.py:190
 msgid "Selected package(s) for install:"
 msgstr "Выбранные пакеты для установки:"
 
-#: ui/ui_basketdialog.py:202
+#: ui/ui_basketdialog.py:192
 msgid "Total Size:"
 msgstr "Общий объем:"
 
-#: ui/ui_basketdialog.py:203
+#: ui/ui_basketdialog.py:193
 msgid "<b>2.2 MB</b>"
 msgstr "<b>2.2 MB</b>"
 
-#: ui/ui_basketdialog.py:206
+#: ui/ui_basketdialog.py:196
 msgid "Download Size:"
 msgstr "Размер загрузки:"
 
-#: ui/ui_basketdialog.py:207
+#: ui/ui_basketdialog.py:197
 msgid "<b>2.0 MB</"
 msgstr "<b>2.0 MB</"
 
-#: ui/ui_mainwidget_v3.py:175 ui/ui_message.py:55
-#: ui/ui_progressdialog_v4.py:237
+#: ui/ui_mainwidget_v3.py:166 ui/ui_message.py:46
+#: ui/ui_progressdialog_v4.py:228
 msgid "Form"
 msgstr "Форма"
 
-#: ui/ui_mainwidget_v3.py:177
+#: ui/ui_mainwidget_v3.py:168
 #, fuzzy
 msgid "Type to search..."
 msgstr "Нажмите для поиска"
 
-#: ui/ui_mainwidget_v3.py:178
+#: ui/ui_mainwidget_v3.py:169
 msgid "Update Types"
 msgstr "Типы обновлений"
 
-#: ui/ui_mainwidget_v3.py:179
+#: ui/ui_mainwidget_v3.py:170
 msgid "Category Panel"
 msgstr "Панель категории"
 
-#: ui/ui_mainwidget_v3.py:180 ui/ui_pminstall.py:99
+#: ui/ui_mainwidget_v3.py:171 ui/ui_pminstall.py:90
 msgid "Package List"
 msgstr "Список пакетов"
 
-#: ui/ui_mainwidget_v3.py:181
+#: ui/ui_mainwidget_v3.py:172
 msgid "Show Basket"
 msgstr "Показать корзину"
 
-#: ui/ui_mainwidget_v3.py:182
+#: ui/ui_mainwidget_v3.py:173
 msgid "Check for Updates"
 msgstr "Проверить наличие обновлений"
 
-#: ui/ui_pminstall.py:97
+#: ui/ui_pminstall.py:88
 msgid "Package Manager Quick Install"
 msgstr "Менеджер пакетов Быстрая установка"
 
-#: ui/ui_pminstall.py:98
+#: ui/ui_pminstall.py:89
 msgid "Following packages are selected to install. Do you want to install these packages ?"
 msgstr "Следующие пакеты выбран для установки. Вы хотите установить эти пакеты?"
 
-#: ui/ui_pminstall.py:100
+#: ui/ui_pminstall.py:91
 msgid "Install"
 msgstr "Установить"
 
-#: ui/ui_pminstall.py:101
+#: ui/ui_pminstall.py:92
 msgid "Cancel"
 msgstr "Отменить"
 
-#: ui/ui_preview.py:65
+#: ui/ui_preview.py:56
 msgid "Preview"
 msgstr ""
 
-#: ui/ui_progressdialog_v4.py:238
+#: ui/ui_progressdialog_v4.py:229
 msgid "Alt+C"
 msgstr "Alt+O"
 
-#: ui/ui_repodialog.py:67
+#: ui/ui_repodialog.py:58
 msgid "Add New Repository"
 msgstr "Добавить новый репозиторий"
 
-#: ui/ui_repodialog.py:68
+#: ui/ui_repodialog.py:59
 msgid "Name of the repository, e.g <b>pardus-devel</b>"
 msgstr "Имя репозитория, например <b>pardus-devel</b>"
 
-#: ui/ui_repodialog.py:69 ui/ui_settingsdialog.py:440
+#: ui/ui_repodialog.py:60 ui/ui_settingsdialog.py:429
 msgid "Repository Name"
 msgstr "Имя Репозитория"
 
-#: ui/ui_repodialog.py:70 ui/ui_settingsdialog.py:442
+#: ui/ui_repodialog.py:61 ui/ui_settingsdialog.py:430
 msgid "Repository Address"
 msgstr "Адрес Репозитория"
 
-#: ui/ui_settingsdialog.py:412
+#: ui/ui_settingsdialog.py:402
 msgid "Package Manager Settings"
 msgstr "Настройка Менеджера пакетов"
 
-#: ui/ui_settingsdialog.py:413
+#: ui/ui_settingsdialog.py:403
 msgid "Package list"
 msgstr "Список пакетов"
 
-#: ui/ui_settingsdialog.py:414
+#: ui/ui_settingsdialog.py:404
 msgid "&Show only desktop applications"
 msgstr "&Показывать только приложения для рабочего стола"
 
-#: ui/ui_settingsdialog.py:415
+#: ui/ui_settingsdialog.py:405
 msgid "Show Component information "
 msgstr "Показывать информацию о компонентах"
 
-#: ui/ui_settingsdialog.py:416
+#: ui/ui_settingsdialog.py:406
 msgid "Show package type tags"
 msgstr "Показать теги типов пакетов"
 
-#: ui/ui_settingsdialog.py:417
+#: ui/ui_settingsdialog.py:407
 msgid "System tray icon"
 msgstr "Значок в системном лотке"
 
-#: ui/ui_settingsdialog.py:418
+#: ui/ui_settingsdialog.py:408
 msgid "Enable system tray icon"
 msgstr "Включить значок в системном лотке"
 
-#: ui/ui_settingsdialog.py:419
+#: ui/ui_settingsdialog.py:409
 msgid "Hide system tray if there is no update."
 msgstr "Спрятать значок в системном лотке, если нет обновлений"
 
-#: ui/ui_settingsdialog.py:420
+#: ui/ui_settingsdialog.py:410
 msgid "Enable &periodic update check"
 msgstr "&Включить и периодически проверять обновления"
 
-#: ui/ui_settingsdialog.py:421
+#: ui/ui_settingsdialog.py:411
 msgid "Check interval :"
 msgstr "Интервал проверки:"
 
-#: ui/ui_settingsdialog.py:422
+#: ui/ui_settingsdialog.py:412
 msgid " min"
 msgstr " мин"
 
-#: ui/ui_settingsdialog.py:423
+#: ui/ui_settingsdialog.py:413
 msgid "Install updates automatically"
 msgstr "Устанавливать обновления автоматически"
 
-#: ui/ui_settingsdialog.py:424
+#: ui/ui_settingsdialog.py:414
 msgid "&General Settings"
 msgstr "Основные"
 
-#: ui/ui_settingsdialog.py:425
+#: ui/ui_settingsdialog.py:415
 #, fuzzy
 msgid "Cache Limit"
 msgstr "Ограничение кеша"
 
-#: ui/ui_settingsdialog.py:426
+#: ui/ui_settingsdialog.py:416
 msgid "&Use hard disk cache for downloaded software"
 msgstr "&Использовать жесткий диск для создания кэша скачанного ПО"
 
-#: ui/ui_settingsdialog.py:427
+#: ui/ui_settingsdialog.py:417
 msgid "Maximum cache size:"
 msgstr "Максимальный объем кэша:"
 
-#: ui/ui_settingsdialog.py:428
+#: ui/ui_settingsdialog.py:418
 msgid "Unlimited"
 msgstr "Неограниченный"
 
-#: ui/ui_settingsdialog.py:429
+#: ui/ui_settingsdialog.py:419
 msgid " Mib"
 msgstr " мб"
 
-#: ui/ui_settingsdialog.py:430
+#: ui/ui_settingsdialog.py:420
 msgid "Current cache dir:"
 msgstr "Текущий каталог кэша:"
 
-#: ui/ui_settingsdialog.py:431
+#: ui/ui_settingsdialog.py:421
 msgid "Select..."
 msgstr "Выбрать..."
 
-#: ui/ui_settingsdialog.py:432
+#: ui/ui_settingsdialog.py:422
 msgid "Open"
 msgstr "Открыть"
 
-#: ui/ui_settingsdialog.py:433
+#: ui/ui_settingsdialog.py:423
 msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
 msgstr "Очистка кэша удалит все скачанное ПО. Это не удалит установленные пакеты и не повлияет на стабильность работы системы."
 
-#: ui/ui_settingsdialog.py:434
+#: ui/ui_settingsdialog.py:424
 msgid "C&lean disk cache now"
 msgstr "О&чистить кэш на диске."
 
-#: ui/ui_settingsdialog.py:435
+#: ui/ui_settingsdialog.py:425
 msgid "Bandwidth limit"
 msgstr "Ограничение использования канала"
 
-#: ui/ui_settingsdialog.py:436
+#: ui/ui_settingsdialog.py:426
 msgid "Use bandwidth limit :"
 msgstr "Использовать лимит ширины канала:"
 
-#: ui/ui_settingsdialog.py:437
+#: ui/ui_settingsdialog.py:427
 msgid " kB/s"
 msgstr "Кб/с"
 
-#: ui/ui_settingsdialog.py:438
+#: ui/ui_settingsdialog.py:428
 msgid "C&ache"
 msgstr "К&эш"
 
-#: ui/ui_settingsdialog.py:443
+#: ui/ui_settingsdialog.py:431
 msgid "&Add New Repository"
 msgstr "&Добавить новый репозиторий"
 
-#: ui/ui_settingsdialog.py:444
+#: ui/ui_settingsdialog.py:432
 msgid "Remove Repository"
 msgstr "Удалить репозиторий"
 
-#: ui/ui_settingsdialog.py:445
+#: ui/ui_settingsdialog.py:433
 msgid "Move &Up"
 msgstr "Передвинуть &выше"
 
-#: ui/ui_settingsdialog.py:446
+#: ui/ui_settingsdialog.py:434
 msgid "Move &Down"
 msgstr "Передвинуть &ниже"
 
-#: ui/ui_settingsdialog.py:447
+#: ui/ui_settingsdialog.py:435
 msgid "&Repositories"
 msgstr "&Репозитории"
 
-#: ui/ui_settingsdialog.py:448
+#: ui/ui_settingsdialog.py:436
 #, fuzzy
 msgid "Use Proxy"
 msgstr "Использовать прокси-сервер"
 
-#: ui/ui_settingsdialog.py:449
+#: ui/ui_settingsdialog.py:437
 msgid "HTTP proxy server:"
 msgstr "HTTP прокси-сервер:"
 
-#: ui/ui_settingsdialog.py:450 ui/ui_settingsdialog.py:452
-#: ui/ui_settingsdialog.py:454
+#: ui/ui_settingsdialog.py:438 ui/ui_settingsdialog.py:440
+#: ui/ui_settingsdialog.py:442
 msgid "Port:"
 msgstr "Порт:"
 
-#: ui/ui_settingsdialog.py:451
+#: ui/ui_settingsdialog.py:439
 msgid "HTTPS proxy server:"
 msgstr "HTTPS прокси-сервер:"
 
-#: ui/ui_settingsdialog.py:453
+#: ui/ui_settingsdialog.py:441
 msgid "FTP proxy server:"
 msgstr "FTP прокси-сервер:"
 
-#: ui/ui_settingsdialog.py:455
+#: ui/ui_settingsdialog.py:443
 msgid "Domain:"
 msgstr "Домен:"
 
-#: ui/ui_settingsdialog.py:456
+#: ui/ui_settingsdialog.py:444
 msgid "Username:"
 msgstr "Имя пользователя:"
 
-#: ui/ui_settingsdialog.py:457
+#: ui/ui_settingsdialog.py:445
 msgid "Password:"
 msgstr "Пароль:"
 
-#: ui/ui_settingsdialog.py:458
+#: ui/ui_settingsdialog.py:446
 #, fuzzy
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
@@ -774,92 +774,111 @@ msgstr ""
 "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">-- / --, -- КБ/с</span></p></body></html>"
 
-#: ui/ui_settingsdialog.py:463
+#: ui/ui_settingsdialog.py:451
 msgid "<a href=#>Use this proxy server for all protocols</a>"
 msgstr "<a href=#>Использовать этот прокси-сервер для всех протоколов</a>"
 
-#: ui/ui_settingsdialog.py:464
+#: ui/ui_settingsdialog.py:452
 msgid "&Proxy"
 msgstr "&Прокси-сервер"
 
-#: ui/ui_settingsdialog.py:465
+#: ui/ui_settingsdialog.py:453
 msgid "&Help"
 msgstr "Сп&равка"
 
-#: ui/ui_settingsdialog.py:466
+#: ui/ui_settingsdialog.py:454
 msgid "&OK"
 msgstr "О&К"
 
-#: ui/ui_settingsdialog.py:467
+#: ui/ui_settingsdialog.py:455
 msgid "&Cancel"
 msgstr "&Отменить"
 
-#: ui/ui_summarydialog.py:77
+#: ui/ui_summarydialog.py:66
 msgid "Operation Summary"
 msgstr "Итоги"
 
-#: ui/ui_summarydialog.py:78
+#: ui/ui_summarydialog.py:67
 msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
 msgstr "Вы можете запустить новое установленное приложение дважды щелкнув по его названию в меню прямо сейчас или позже."
 
-#: ui/ui_summarydialog.py:79
+#: ui/ui_summarydialog.py:68
 msgid "&Ok"
 msgstr "О&к"
 
-#: ui/ui_webdialog.py:167
+#: ui/ui_webdialog.py:158
 msgid ""
 "AppInfo Server is not reachable\n"
 "Please check your network connection"
 msgstr "Проверьте сетевые подключения и повторите попытку."
 
-#: ui/ui_webdialog.py:169 ui/ui_webdialog.py:170
+#: ui/ui_webdialog.py:160 ui/ui_webdialog.py:161
 msgid "Package Details"
 msgstr "Описание пакета"
 
-#~ msgid "No proxy server"
-#~ msgstr "Нет прокси-сервера"
+#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "(C) 2009-2010 TUBITAK / UEKAE"
 
-#~ msgid "Use manual settings"
-#~ msgstr "Использовать пользовательские установки"
+#~ msgid "Gökmen Göksel"
+#~ msgstr "Gökmen Göksel"
 
-#~ msgid "Use Desktop Enviorenment's settings"
-#~ msgstr "Использовать установки среды рабочего стола"
+#~ msgid "Developer"
+#~ msgstr "Разработчик"
 
-#~ msgid "Search Button"
-#~ msgstr "Кнопка поиска"
+#~ msgid "Faik Uygur"
+#~ msgstr "Faik Uygur"
 
-#~ msgid "Search"
-#~ msgstr "Поиск"
+#~ msgid "First Author"
+#~ msgstr "Первый автор"
 
-#~ msgid "Action Button for current states action"
-#~ msgstr "Кнопка действия для текущего состояния"
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Ясыров Василий, Семенов Николай, Щербаков Александр, Алексей Иванов"
 
-#~ msgid "Toggler for selection all packages in Package List"
-#~ msgstr "Переключатель для выбора всех пакетов в Списке пакетов"
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "zag@vspu.ru, tribunal2000@gmail.com, neocrust@gmail.com, alexey.ivanes@gmail.com"
 
-#~ msgid "Operation"
-#~ msgstr "Операция"
+#~ msgid "Show main window"
+#~ msgstr "Показать главное окно"
 
-#~ msgid "<h3>Preparing PiSi...</h3>"
-#~ msgstr "<h3>Подготовка PiSi...</h3>"
+#~ msgid "Hide summary screen"
+#~ msgstr "Скрыть окно итогов"
 
-#~ msgid "Time remaining:"
-#~ msgstr "Оставшееся время:"
+#~ msgid "Show Updates"
+#~ msgstr "Показать обновления"
 
-#~ msgid "--  / --"
-#~ msgstr "--  / --"
+#~ msgid "Ignore"
+#~ msgstr "Игнорировать"
 
-#~ msgid "--:--:--"
-#~ msgstr "--:--:--"
+#~ msgid "Search Bar"
+#~ msgstr "Строка поиска"
 
-#~ msgid "Operation:"
-#~ msgstr "Операция:"
+#~ msgid "Type to filter files"
+#~ msgstr "По типу файлов"
 
-#~ msgid "Status:"
-#~ msgstr "Статус:"
+#~ msgid " kb/s"
+#~ msgstr " кб/с"
 
-#~ msgid "Close"
-#~ msgstr "Закрыть"
+#~ msgid "Upgradable Packages"
+#~ msgstr "Обновляемые пакеты"
+
+#~ msgid "Modify Package(s)"
+#~ msgstr "Изменить пакет(ы)"
+
+#~ msgid "http://packages.pardus.org.tr/pardus-2009.2/pisi-index.xml.bz2"
+#~ msgstr "http://packages.pardus.org.tr/pardus-2009.2/pisi-index.xml.bz2"
+
+#~ msgid "http://packages.pardus.org.tr/contrib-2009/pisi-index.xml.bz2"
+#~ msgstr "http://packages.pardus.org.tr/contrib-2009/pisi-index.xml.bz2"
+
+#~ msgid ""
+#~ "Installed Packages\n"
+#~ "\n"
+#~ msgstr "Установленные пакеты"
+
+#~ msgid "-- / --"
+#~ msgstr "-- / --"
 
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
@@ -874,66 +893,47 @@ msgstr "Описание пакета"
 #~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 #~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></p></body></html>"
 
-#~ msgid "-- / --"
-#~ msgstr "-- / --"
+#~ msgid "Close"
+#~ msgstr "Закрыть"
 
-#~ msgid ""
-#~ "Installed Packages\n"
-#~ "\n"
-#~ msgstr "Установленные пакеты"
+#~ msgid "Status:"
+#~ msgstr "Статус:"
 
-#~ msgid "http://packages.pardus.org.tr/contrib-2009/pisi-index.xml.bz2"
-#~ msgstr "http://packages.pardus.org.tr/contrib-2009/pisi-index.xml.bz2"
+#~ msgid "Operation:"
+#~ msgstr "Операция:"
 
-#~ msgid "http://packages.pardus.org.tr/pardus-2009.2/pisi-index.xml.bz2"
-#~ msgstr "http://packages.pardus.org.tr/pardus-2009.2/pisi-index.xml.bz2"
+#~ msgid "--:--:--"
+#~ msgstr "--:--:--"
 
-#~ msgid "Modify Package(s)"
-#~ msgstr "Изменить пакет(ы)"
+#~ msgid "--  / --"
+#~ msgstr "--  / --"
 
-#~ msgid "Upgradable Packages"
-#~ msgstr "Обновляемые пакеты"
+#~ msgid "Time remaining:"
+#~ msgstr "Оставшееся время:"
 
-#~ msgid " kb/s"
-#~ msgstr " кб/с"
+#~ msgid "<h3>Preparing PiSi...</h3>"
+#~ msgstr "<h3>Подготовка PiSi...</h3>"
 
-#~ msgid "Type to filter files"
-#~ msgstr "По типу файлов"
+#~ msgid "Operation"
+#~ msgstr "Операция"
 
-#~ msgid "Search Bar"
-#~ msgstr "Строка поиска"
+#~ msgid "Toggler for selection all packages in Package List"
+#~ msgstr "Переключатель для выбора всех пакетов в Списке пакетов"
 
-#~ msgid "Ignore"
-#~ msgstr "Игнорировать"
+#~ msgid "Action Button for current states action"
+#~ msgstr "Кнопка действия для текущего состояния"
 
-#~ msgid "Show Updates"
-#~ msgstr "Показать обновления"
+#~ msgid "Search"
+#~ msgstr "Поиск"
 
-#~ msgid "Hide summary screen"
-#~ msgstr "Скрыть окно итогов"
+#~ msgid "Search Button"
+#~ msgstr "Кнопка поиска"
 
-#~ msgid "Show main window"
-#~ msgstr "Показать главное окно"
+#~ msgid "Use Desktop Enviorenment's settings"
+#~ msgstr "Использовать установки среды рабочего стола"
 
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "zag@vspu.ru, tribunal2000@gmail.com, neocrust@gmail.com, alexey.ivanes@gmail.com"
+#~ msgid "Use manual settings"
+#~ msgstr "Использовать пользовательские установки"
 
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Ясыров Василий, Семенов Николай, Щербаков Александр, Алексей Иванов"
-
-#~ msgid "First Author"
-#~ msgstr "Первый автор"
-
-#~ msgid "Faik Uygur"
-#~ msgstr "Faik Uygur"
-
-#~ msgid "Developer"
-#~ msgstr "Разработчик"
-
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Gökmen Göksel"
-
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "(C) 2009-2010 TUBITAK / UEKAE"
+#~ msgid "No proxy server"
+#~ msgstr "Нет прокси-сервера"

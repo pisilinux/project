@@ -9,36 +9,36 @@ msgid ""
 msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-08 15:17+0200\n"
+"POT-Creation-Date: 2011-07-13 11:27+0300\n"
 "PO-Revision-Date: 2010-07-08 00:11+0100\n"
 "Last-Translator: Stefan Wilhelm <sw@pardususer.de>\n"
 "Language-Team: German <kde-i18n-doc@kde.org>\n"
-"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
 "X-Generator: Lokalize 0.3\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: data/package-manager.desktop.in.h:1
-#: data/packagemanager-helper.desktop.in.h:1 src/pmutils.py:71
-#: src/progressdialog.py:63 ui/ui_mainwindow.py:44
-msgid "Package Manager"
-msgstr "Paket-Manager"
-
-#: data/package-manager.desktop.in.h:2
 msgid "Add or Remove Software"
 msgstr "Software hinzufügen oder entfernen"
+
+#: data/package-manager.desktop.in.h:2
+#: data/packagemanager-helper.desktop.in.h:2 src/pmutils.py:71
+#: src/progressdialog.py:63 ui/ui_mainwindow.py:35
+msgid "Package Manager"
+msgstr "Paket-Manager"
 
 #: data/package-manager.desktop.in.h:3
 msgid "PiSi Package Manager Graphical User Interface"
 msgstr "PiSi Paket-Manager grafische Nutzeroberfläche (GUI)"
 
-#: data/packagemanager-helper.desktop.in.h:2
+#: data/packagemanager-helper.desktop.in.h:1
 msgid "Add/Remove/Update Packages"
 msgstr "Hinzufügen/Entfernen/Aktualisieren von Paketen"
 
-#: src/basketdialog.py:53 ui/ui_basketdialog.py:204
+#: src/basketdialog.py:53 ui/ui_basketdialog.py:194
 msgid "Clear Basket"
 msgstr "Auswahl zurücksetzen"
 
@@ -151,7 +151,7 @@ msgstr "Installierbare Pakete"
 msgid "Updates"
 msgstr "Updates"
 
-#: src/mainwindow.py:154 ui/ui_mainwidget_v3.py:176
+#: src/mainwindow.py:154 ui/ui_mainwidget_v3.py:167
 msgid "Settings"
 msgstr "Einstellungen"
 
@@ -369,8 +369,8 @@ msgstr "aktualisiert"
 msgid "modified"
 msgstr "modifiziert"
 
-#: src/statemanager.py:102 ui/ui_basketdialog.py:205
-#: ui/ui_mainwidget_v3.py:183
+#: src/statemanager.py:102 ui/ui_basketdialog.py:195
+#: ui/ui_mainwidget_v3.py:174
 msgid "Install Package(s)"
 msgstr "Paket(e) installieren"
 
@@ -418,7 +418,7 @@ msgstr "Ausgewählte Paket(e) sind zu aktualisieren:"
 msgid "You have selected the following package(s) to modify:"
 msgstr "Folgende Paket(e) wurden ausgewählt:"
 
-#: src/statemanager.py:127 ui/ui_basketdialog.py:201
+#: src/statemanager.py:127 ui/ui_basketdialog.py:191
 msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
 msgstr "Erforderliche Pakete, die zusätzlich installiert werden:"
 
@@ -496,281 +496,281 @@ msgstr "Depot wird aktualisiert"
 msgid "There are %1 updates available!"
 msgstr "Es sind <b>%1</b> Aktualisierungen verfügbar!"
 
-#: src/webdialog.py:113 ui/ui_webdialog.py:166
+#: src/webdialog.py:113 ui/ui_webdialog.py:157
 msgid "Package Files"
 msgstr "Paketliste"
 
-#: ui/ui_appitem.py:71
+#: ui/ui_appitem.py:62
 msgid "Application"
 msgstr "Programm"
 
-#: ui/ui_appitem.py:72
+#: ui/ui_appitem.py:63
 msgid "Web Tarayıcı"
 msgstr "Webbrowser"
 
-#: ui/ui_appitem.py:73
+#: ui/ui_appitem.py:64
 msgid "Firefox"
 msgstr "Firefox"
 
-#: ui/ui_basketdialog.py:199 ui/ui_webdialog.py:165
+#: ui/ui_basketdialog.py:189 ui/ui_webdialog.py:156
 msgid "Basket"
 msgstr "Korb"
 
-#: ui/ui_basketdialog.py:200
+#: ui/ui_basketdialog.py:190
 msgid "Selected package(s) for install:"
 msgstr "Ausgewählte Pakete zur Installation:"
 
-#: ui/ui_basketdialog.py:202
+#: ui/ui_basketdialog.py:192
 msgid "Total Size:"
 msgstr "Gesamtgrösse:"
 
-#: ui/ui_basketdialog.py:203
+#: ui/ui_basketdialog.py:193
 msgid "<b>2.2 MB</b>"
 msgstr "<b>2.2 MB</b>"
 
 # Zweifel..
-#: ui/ui_basketdialog.py:206
+#: ui/ui_basketdialog.py:196
 msgid "Download Size:"
 msgstr "Download Grösse:"
 
-#: ui/ui_basketdialog.py:207
+#: ui/ui_basketdialog.py:197
 msgid "<b>2.0 MB</"
 msgstr "<b>2.0 MB</"
 
-#: ui/ui_mainwidget_v3.py:175 ui/ui_message.py:55
-#: ui/ui_progressdialog_v4.py:237
+#: ui/ui_mainwidget_v3.py:166 ui/ui_message.py:46
+#: ui/ui_progressdialog_v4.py:228
 msgid "Form"
 msgstr "Form"
 
-#: ui/ui_mainwidget_v3.py:177
+#: ui/ui_mainwidget_v3.py:168
 #, fuzzy
 msgid "Type to search..."
 msgstr "Geben Sie Ihre Suche ein"
 
-#: ui/ui_mainwidget_v3.py:178
+#: ui/ui_mainwidget_v3.py:169
 msgid "Update Types"
 msgstr "Updatemöglichkeiten"
 
-#: ui/ui_mainwidget_v3.py:179
+#: ui/ui_mainwidget_v3.py:170
 msgid "Category Panel"
 msgstr "Kategoriefeld"
 
-#: ui/ui_mainwidget_v3.py:180 ui/ui_pminstall.py:99
+#: ui/ui_mainwidget_v3.py:171 ui/ui_pminstall.py:90
 msgid "Package List"
 msgstr "Paketliste"
 
-#: ui/ui_mainwidget_v3.py:181
+#: ui/ui_mainwidget_v3.py:172
 msgid "Show Basket"
 msgstr "Korb anzeigen"
 
-#: ui/ui_mainwidget_v3.py:182
+#: ui/ui_mainwidget_v3.py:173
 msgid "Check for Updates"
 msgstr "Auf Updates überprüfen"
 
-#: ui/ui_pminstall.py:97
+#: ui/ui_pminstall.py:88
 msgid "Package Manager Quick Install"
 msgstr "Schnellinstallation durch Paket-Manager"
 
-#: ui/ui_pminstall.py:98
+#: ui/ui_pminstall.py:89
 msgid "Following packages are selected to install. Do you want to install these packages ?"
 msgstr "Die folgenden Pakete wurden zur Installation markiert. Wollen Sie diese Pakete jetzt installieren?"
 
-#: ui/ui_pminstall.py:100
+#: ui/ui_pminstall.py:91
 msgid "Install"
 msgstr "Installieren"
 
-#: ui/ui_pminstall.py:101
+#: ui/ui_pminstall.py:92
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: ui/ui_preview.py:65
+#: ui/ui_preview.py:56
 msgid "Preview"
 msgstr ""
 
-#: ui/ui_progressdialog_v4.py:238
+#: ui/ui_progressdialog_v4.py:229
 msgid "Alt+C"
 msgstr "Alt+C"
 
-#: ui/ui_repodialog.py:67
+#: ui/ui_repodialog.py:58
 msgid "Add New Repository"
 msgstr "Neues Depot hinzufügen"
 
-#: ui/ui_repodialog.py:68
+#: ui/ui_repodialog.py:59
 msgid "Name of the repository, e.g <b>pardus-devel</b>"
 msgstr "Name des Depots, z.B. <b>pardus-devel</b>"
 
-#: ui/ui_repodialog.py:69 ui/ui_settingsdialog.py:440
+#: ui/ui_repodialog.py:60 ui/ui_settingsdialog.py:429
 msgid "Repository Name"
 msgstr "Depot-Name"
 
-#: ui/ui_repodialog.py:70 ui/ui_settingsdialog.py:442
+#: ui/ui_repodialog.py:61 ui/ui_settingsdialog.py:430
 msgid "Repository Address"
 msgstr "Depot-Adresse"
 
-#: ui/ui_settingsdialog.py:412
+#: ui/ui_settingsdialog.py:402
 msgid "Package Manager Settings"
 msgstr "Einstellungen des Paket Managers"
 
-#: ui/ui_settingsdialog.py:413
+#: ui/ui_settingsdialog.py:403
 msgid "Package list"
 msgstr "Paketliste"
 
-#: ui/ui_settingsdialog.py:414
+#: ui/ui_settingsdialog.py:404
 msgid "&Show only desktop applications"
 msgstr "&Nur Desktop-Anwendungen zeigen"
 
-#: ui/ui_settingsdialog.py:415
+#: ui/ui_settingsdialog.py:405
 msgid "Show Component information "
 msgstr "Zeige Komponenteninformation"
 
-#: ui/ui_settingsdialog.py:416
+#: ui/ui_settingsdialog.py:406
 msgid "Show package type tags"
 msgstr "Zeige Kürzel des Pakettyps"
 
-#: ui/ui_settingsdialog.py:417
+#: ui/ui_settingsdialog.py:407
 msgid "System tray icon"
 msgstr "System Tray-Icon"
 
-#: ui/ui_settingsdialog.py:418
+#: ui/ui_settingsdialog.py:408
 msgid "Enable system tray icon"
 msgstr "System Tray-Icon aktivieren"
 
-#: ui/ui_settingsdialog.py:419
+#: ui/ui_settingsdialog.py:409
 msgid "Hide system tray if there is no update."
 msgstr "Verstecke das Tray-Icon, sofern keine Updates verfügbar."
 
-#: ui/ui_settingsdialog.py:420
+#: ui/ui_settingsdialog.py:410
 msgid "Enable &periodic update check"
 msgstr "&Periodische Suche von Updates aktivieren"
 
-#: ui/ui_settingsdialog.py:421
+#: ui/ui_settingsdialog.py:411
 msgid "Check interval :"
 msgstr "Überprüfugsintervall:"
 
-#: ui/ui_settingsdialog.py:422
+#: ui/ui_settingsdialog.py:412
 msgid " min"
 msgstr "min"
 
-#: ui/ui_settingsdialog.py:423
+#: ui/ui_settingsdialog.py:413
 msgid "Install updates automatically"
 msgstr "Installiere Updates automatisch"
 
-#: ui/ui_settingsdialog.py:424
+#: ui/ui_settingsdialog.py:414
 msgid "&General Settings"
 msgstr "&Allgemeine Einstellungen"
 
-#: ui/ui_settingsdialog.py:425
+#: ui/ui_settingsdialog.py:415
 #, fuzzy
 msgid "Cache Limit"
 msgstr "Paketliste"
 
-#: ui/ui_settingsdialog.py:426
+#: ui/ui_settingsdialog.py:416
 msgid "&Use hard disk cache for downloaded software"
 msgstr "&Für die heruntergeladene Software den Festplatten-Cache verwenden"
 
-#: ui/ui_settingsdialog.py:427
+#: ui/ui_settingsdialog.py:417
 msgid "Maximum cache size:"
 msgstr "Maximale Cachegrösse:"
 
-#: ui/ui_settingsdialog.py:428
+#: ui/ui_settingsdialog.py:418
 msgid "Unlimited"
 msgstr "unbegrenzt"
 
-#: ui/ui_settingsdialog.py:429
+#: ui/ui_settingsdialog.py:419
 msgid " Mib"
 msgstr "MiB"
 
-#: ui/ui_settingsdialog.py:430
+#: ui/ui_settingsdialog.py:420
 msgid "Current cache dir:"
 msgstr "Aktuelles Chache Verzeichnis:"
 
-#: ui/ui_settingsdialog.py:431
+#: ui/ui_settingsdialog.py:421
 msgid "Select..."
 msgstr "Wähle..."
 
-#: ui/ui_settingsdialog.py:432
+#: ui/ui_settingsdialog.py:422
 msgid "Open"
 msgstr "Öffnen"
 
-#: ui/ui_settingsdialog.py:433
+#: ui/ui_settingsdialog.py:423
 msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
 msgstr "Durch das Leeren des Festplatten-Caches werden die heruntergeladenen Programme entfernt. Die installierten Programme werden dadurch nicht gelöscht, und es wird auch keine Auswirkung auf die Systemstabilität haben."
 
-#: ui/ui_settingsdialog.py:434
+#: ui/ui_settingsdialog.py:424
 msgid "C&lean disk cache now"
 msgstr "F&estplatten-Cache leeren"
 
-#: ui/ui_settingsdialog.py:435
+#: ui/ui_settingsdialog.py:425
 msgid "Bandwidth limit"
 msgstr "Bandbreitenlimit"
 
-#: ui/ui_settingsdialog.py:436
+#: ui/ui_settingsdialog.py:426
 msgid "Use bandwidth limit :"
 msgstr "Bandbreitenlimit verwenden:"
 
-#: ui/ui_settingsdialog.py:437
+#: ui/ui_settingsdialog.py:427
 msgid " kB/s"
 msgstr " kB/s"
 
-#: ui/ui_settingsdialog.py:438
+#: ui/ui_settingsdialog.py:428
 msgid "C&ache"
 msgstr "C&ache"
 
-#: ui/ui_settingsdialog.py:443
+#: ui/ui_settingsdialog.py:431
 msgid "&Add New Repository"
 msgstr "&Neues Depot hinzufügen"
 
-#: ui/ui_settingsdialog.py:444
+#: ui/ui_settingsdialog.py:432
 msgid "Remove Repository"
 msgstr "Depot entfernen"
 
-#: ui/ui_settingsdialog.py:445
+#: ui/ui_settingsdialog.py:433
 msgid "Move &Up"
 msgstr "Nach &Oben"
 
-#: ui/ui_settingsdialog.py:446
+#: ui/ui_settingsdialog.py:434
 msgid "Move &Down"
 msgstr "Nach &Unten"
 
-#: ui/ui_settingsdialog.py:447
+#: ui/ui_settingsdialog.py:435
 msgid "&Repositories"
 msgstr "&Depots"
 
-#: ui/ui_settingsdialog.py:448
+#: ui/ui_settingsdialog.py:436
 #, fuzzy
 msgid "Use Proxy"
 msgstr "&Proxy"
 
-#: ui/ui_settingsdialog.py:449
+#: ui/ui_settingsdialog.py:437
 msgid "HTTP proxy server:"
 msgstr "HTTP-Proxy-Server:"
 
-#: ui/ui_settingsdialog.py:450 ui/ui_settingsdialog.py:452
-#: ui/ui_settingsdialog.py:454
+#: ui/ui_settingsdialog.py:438 ui/ui_settingsdialog.py:440
+#: ui/ui_settingsdialog.py:442
 msgid "Port:"
 msgstr "Port:"
 
-#: ui/ui_settingsdialog.py:451
+#: ui/ui_settingsdialog.py:439
 msgid "HTTPS proxy server:"
 msgstr "HTTPS-Proxy-Server:"
 
-#: ui/ui_settingsdialog.py:453
+#: ui/ui_settingsdialog.py:441
 msgid "FTP proxy server:"
 msgstr "FTP-Proxy-Server:"
 
-#: ui/ui_settingsdialog.py:455
+#: ui/ui_settingsdialog.py:443
 msgid "Domain:"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:456
+#: ui/ui_settingsdialog.py:444
 msgid "Username:"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:457
+#: ui/ui_settingsdialog.py:445
 msgid "Password:"
 msgstr ""
 
-#: ui/ui_settingsdialog.py:458
+#: ui/ui_settingsdialog.py:446
 #, fuzzy
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
@@ -785,40 +785,40 @@ msgstr ""
 "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">-- / --, -- KB/s</span></p></body></html>"
 
-#: ui/ui_settingsdialog.py:463
+#: ui/ui_settingsdialog.py:451
 #, fuzzy
 msgid "<a href=#>Use this proxy server for all protocols</a>"
 msgstr "Diesen Proxy-Server für alle Protokolle verwenden"
 
-#: ui/ui_settingsdialog.py:464
+#: ui/ui_settingsdialog.py:452
 msgid "&Proxy"
 msgstr "&Proxy"
 
-#: ui/ui_settingsdialog.py:465
+#: ui/ui_settingsdialog.py:453
 msgid "&Help"
 msgstr "&Hilfe"
 
-#: ui/ui_settingsdialog.py:466
+#: ui/ui_settingsdialog.py:454
 msgid "&OK"
 msgstr "&OK"
 
-#: ui/ui_settingsdialog.py:467
+#: ui/ui_settingsdialog.py:455
 msgid "&Cancel"
 msgstr "&Abbrechen"
 
-#: ui/ui_summarydialog.py:77
+#: ui/ui_summarydialog.py:66
 msgid "Operation Summary"
 msgstr "Aktions-Report"
 
-#: ui/ui_summarydialog.py:78
+#: ui/ui_summarydialog.py:67
 msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
 msgstr "Sie können jetzt die neu installierten Programme durch einen Doppelklick in diesem Fenster starten, oder Sie starten die Programme wie gewohnt vom Systemmenü aus."
 
-#: ui/ui_summarydialog.py:79
+#: ui/ui_summarydialog.py:68
 msgid "&Ok"
 msgstr "&Ok"
 
-#: ui/ui_webdialog.py:167
+#: ui/ui_webdialog.py:158
 msgid ""
 "AppInfo Server is not reachable\n"
 "Please check your network connection"
@@ -826,99 +826,76 @@ msgstr ""
 "Der AppInfo Server ist nicht erreichbar\n"
 "Bitte prüfen Sie Ihre Netzwerkverbindung"
 
-#: ui/ui_webdialog.py:169 ui/ui_webdialog.py:170
+#: ui/ui_webdialog.py:160 ui/ui_webdialog.py:161
 msgid "Package Details"
 msgstr "Paket Details"
 
-#~ msgid "No proxy server"
-#~ msgstr "Kein Proxy Server"
+#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
 
-#~ msgid "Use manual settings"
-#~ msgstr "Verwende manuelle Einstellungen"
+#~ msgid "Developer"
+#~ msgstr "Entwickler"
 
-#~ msgid "Use Desktop Enviorenment's settings"
-#~ msgstr "Desktop Einstellung verwenden"
+#~ msgid "Gökmen Göksel"
+#~ msgstr "Gökmen Göksel"
 
-#~ msgid "Search Button"
+#~ msgid "Faik Uygur"
+#~ msgstr "Faik Uygur"
+
+#~ msgid "First Author"
+#~ msgstr "Erster Autor"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Stefan Wilhelm"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "sw@pardususer.de"
+
+#~ msgid "Show main window"
+#~ msgstr "Hauptfenster zeigen"
+
+#~ msgid "Hide summary screen"
+#~ msgstr "Verberge die Anzeige der Zusammenfassung"
+
+#~ msgid "There are <b>%1</b> updates available!"
+#~ msgstr "Es sind <b>%1</b> Updates verfügbar!"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignoriere"
+
+#~ msgid "Show Updates"
+#~ msgstr "Updates anzeigen"
+
+#~ msgid "Search Bar"
 #~ msgstr "Suchleiste"
 
-#~ msgid "Search"
-#~ msgstr "Suche"
+#~ msgid "Type to filter files"
+#~ msgstr "Dateien filtern"
 
-#~ msgid "Action Button for current states action"
-#~ msgstr "Aktionsknopf für den Status aktueller Vorgänge "
+#~ msgid " kb/s"
+#~ msgstr "kB/s"
 
-#~ msgid "Toggler for selection all packages in Package List"
-#~ msgstr "Umschalter für die Auswahl aller Pakete in der Paketliste"
+#~ msgid "Upgradable Packages"
+#~ msgstr "Upgrades anzeigen"
 
-#~ msgid "Operation"
-#~ msgstr "Vorgang"
+#~ msgid "Modify Package(s)"
+#~ msgstr "Paket(e) werden entfernt"
 
-#~ msgid "<h3>Preparing PiSi...</h3>"
-#~ msgstr "<h3>Vorbereitung PiSi...</h3>"
+#~ msgid "http://packages.pardus.org.tr/pardus-2009.2/pisi-index.xml.bz2"
+#~ msgstr "http://packages.pardus.org.tr/pardus-2009.2/pisi-index.xml.bz2"
 
-#~ msgid "Time remaining:"
-#~ msgstr "Verbleibende Zeit:"
+#~ msgid "http://packages.pardus.org.tr/contrib-2009/pisi-index.xml.bz2"
+#~ msgstr "http://packages.pardus.org.tr/contrib-2009/pisi-index.xml.bz2"
 
-#~ msgid "--  / --"
+#~ msgid ""
+#~ "Installed Packages\n"
+#~ "\n"
+#~ msgstr "Paket(e) installieren"
+
+#~ msgid "-- / --"
 #~ msgstr "--  / --"
-
-#~ msgid "--:--:--"
-#~ msgstr "--:--:--"
-
-#~ msgid "Operation:"
-#~ msgstr "Vorgang:"
-
-#~ msgid "Status:"
-#~ msgstr "Status:"
-
-#~ msgid "Close"
-#~ msgstr "Schließen"
-
-#~ msgid "Show Installed Packages"
-#~ msgstr "Installierte Pakete anzeigen"
-
-#~ msgid "Use proxy server"
-#~ msgstr "Proxy-Server verwenden"
-
-#~ msgid "Succesfully finished installing %1"
-#~ msgstr "Installation von %1 erfolgreich abgeschlossen"
-
-#~ msgid "Succesfully finished installing packages"
-#~ msgstr "Installation von %1 erfolgreich abgeschlossen"
-
-#~ msgid "Bandwidth limit:"
-#~ msgstr "Max. Bandbreite:"
-
-#~ msgid "Update check"
-#~ msgstr "Updateüberprüfung"
-
-#~ msgid "(use 0 for no limit)"
-#~ msgstr "(0 für kein Limit)"
-
-#~ msgid "Ok"
-#~ msgstr "Ok"
-
-#~ msgid "Delete"
-#~ msgstr "Löschen"
-
-#~ msgid "Maintainer"
-#~ msgstr "Aktueller Betreuer"
-
-#~ msgid "Package Installer"
-#~ msgstr "Paket Installer"
-
-#~ msgid "Installing %1"
-#~ msgstr "%1 wird installiert"
-
-#~ msgid "Package Installer is already started!"
-#~ msgstr "Paket Installer ist schon gestartet"
-
-#~ msgid "Reverse package selections"
-#~ msgstr "Paketmarkierungen invertieren"
-
-#~ msgid "File"
-#~ msgstr "Datei"
 
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
@@ -933,69 +910,92 @@ msgstr "Paket Details"
 #~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
 #~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Alle Pakete aus dieser Gruppe auswählen</p></body></html>"
 
-#~ msgid "-- / --"
+#~ msgid "File"
+#~ msgstr "Datei"
+
+#~ msgid "Reverse package selections"
+#~ msgstr "Paketmarkierungen invertieren"
+
+#~ msgid "Package Installer is already started!"
+#~ msgstr "Paket Installer ist schon gestartet"
+
+#~ msgid "Installing %1"
+#~ msgstr "%1 wird installiert"
+
+#~ msgid "Package Installer"
+#~ msgstr "Paket Installer"
+
+#~ msgid "Maintainer"
+#~ msgstr "Aktueller Betreuer"
+
+#~ msgid "Delete"
+#~ msgstr "Löschen"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgid "(use 0 for no limit)"
+#~ msgstr "(0 für kein Limit)"
+
+#~ msgid "Update check"
+#~ msgstr "Updateüberprüfung"
+
+#~ msgid "Bandwidth limit:"
+#~ msgstr "Max. Bandbreite:"
+
+#~ msgid "Succesfully finished installing packages"
+#~ msgstr "Installation von %1 erfolgreich abgeschlossen"
+
+#~ msgid "Succesfully finished installing %1"
+#~ msgstr "Installation von %1 erfolgreich abgeschlossen"
+
+#~ msgid "Use proxy server"
+#~ msgstr "Proxy-Server verwenden"
+
+#~ msgid "Show Installed Packages"
+#~ msgstr "Installierte Pakete anzeigen"
+
+#~ msgid "Close"
+#~ msgstr "Schließen"
+
+#~ msgid "Status:"
+#~ msgstr "Status:"
+
+#~ msgid "Operation:"
+#~ msgstr "Vorgang:"
+
+#~ msgid "--:--:--"
+#~ msgstr "--:--:--"
+
+#~ msgid "--  / --"
 #~ msgstr "--  / --"
 
-#~ msgid ""
-#~ "Installed Packages\n"
-#~ "\n"
-#~ msgstr "Paket(e) installieren"
+#~ msgid "Time remaining:"
+#~ msgstr "Verbleibende Zeit:"
 
-#~ msgid "http://packages.pardus.org.tr/contrib-2009/pisi-index.xml.bz2"
-#~ msgstr "http://packages.pardus.org.tr/contrib-2009/pisi-index.xml.bz2"
+#~ msgid "<h3>Preparing PiSi...</h3>"
+#~ msgstr "<h3>Vorbereitung PiSi...</h3>"
 
-#~ msgid "http://packages.pardus.org.tr/pardus-2009.2/pisi-index.xml.bz2"
-#~ msgstr "http://packages.pardus.org.tr/pardus-2009.2/pisi-index.xml.bz2"
+#~ msgid "Operation"
+#~ msgstr "Vorgang"
 
-#~ msgid "Modify Package(s)"
-#~ msgstr "Paket(e) werden entfernt"
+#~ msgid "Toggler for selection all packages in Package List"
+#~ msgstr "Umschalter für die Auswahl aller Pakete in der Paketliste"
 
-#~ msgid "Upgradable Packages"
-#~ msgstr "Upgrades anzeigen"
+#~ msgid "Action Button for current states action"
+#~ msgstr "Aktionsknopf für den Status aktueller Vorgänge "
 
-#~ msgid " kb/s"
-#~ msgstr "kB/s"
+#~ msgid "Search"
+#~ msgstr "Suche"
 
-#~ msgid "Type to filter files"
-#~ msgstr "Dateien filtern"
-
-#~ msgid "Search Bar"
+#~ msgid "Search Button"
 #~ msgstr "Suchleiste"
 
-#~ msgid "Show Updates"
-#~ msgstr "Updates anzeigen"
+#~ msgid "Use Desktop Enviorenment's settings"
+#~ msgstr "Desktop Einstellung verwenden"
 
-#~ msgid "Ignore"
-#~ msgstr "Ignoriere"
+#~ msgid "Use manual settings"
+#~ msgstr "Verwende manuelle Einstellungen"
 
-#~ msgid "There are <b>%1</b> updates available!"
-#~ msgstr "Es sind <b>%1</b> Updates verfügbar!"
-
-#~ msgid "Hide summary screen"
-#~ msgstr "Verberge die Anzeige der Zusammenfassung"
-
-#~ msgid "Show main window"
-#~ msgstr "Hauptfenster zeigen"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "sw@pardususer.de"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Stefan Wilhelm"
-
-#~ msgid "First Author"
-#~ msgstr "Erster Autor"
-
-#~ msgid "Faik Uygur"
-#~ msgstr "Faik Uygur"
-
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Gökmen Göksel"
-
-#~ msgid "Developer"
-#~ msgstr "Entwickler"
-
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgid "No proxy server"
+#~ msgstr "Kein Proxy Server"

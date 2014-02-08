@@ -7,7 +7,7 @@ settings.
 General settings
 ----------------
 
-You can modify the general configuration of Pardus package manager, i.e showing
+You can modify the general configuration of Pisi Linux package manager, i.e showing
 the system tray icon, setting the interval of package update checking etc.
 
 Cache

@@ -12,7 +12,7 @@
 #
 
 # Package Manager Version String
-version = "2.3.2"
+version = "2.4.1"
 PACKAGE = "Package Manager"
 
 # PyKDE4 Imports
@@ -26,8 +26,8 @@ catalog     = appName
 # license     = KAboutData.License_GPL
 # copyright   = ki18n("(c) 2009-2010 TUBITAK/UEKAE")
 # text        = ki18n(None)
-homePage    = "http://developer.pardus.org.tr/projects/package-manager"
-bugEmail    = "bugs@pardus.org.tr"
+homePage    = "https://github.com/pisilinux/project/tree/master/package-manager-pds"
+bugEmail    = "bugs@pisilinux.org"
 # aboutData   = KAboutData(appName, catalog, programName, version,
 #                          description, license, copyright, text,
 #                          homePage, bugEmail)

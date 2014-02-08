@@ -1,7 +1,7 @@
 Paket Yöneticisi
 ----------------
 
-**Paket Yöneticisi** ile Pardus paket depolarında arama yapabilir, paketleri
+**Paket Yöneticisi** ile Pisi Linux paket depolarında arama yapabilir, paketleri
 kurabilir ya da kurulu paketlerinn güncellenmesini sağlayabilirsiniz. Bu araç
 ile birlikte paketlerinizi hızlı ve kolay bir şekilde yönetebilirsiniz.
 
@@ -61,7 +61,7 @@ Paketler kaldırılırken işlem durumunu takip edebilirsiniz.
 Güncellemeleri kontrol etmek
 ----------------------------
 
-Kullandığınız bir paket, güvenlik ya da işlevsellik açısından Pardus
+Kullandığınız bir paket, güvenlik ya da işlevsellik açısından Pisi Linux
 geliştiricileri tarafından güncellenebilir.  Bu nedenle sisteminizdeki
 paketlerı belirli aralıklarda güncellemeniz gerekebilir.
 
