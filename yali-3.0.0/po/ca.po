@@ -1,637 +1,22 @@
-# translation of yali.po to Catala
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Pau Amaro-Seoane <pau@aei.mpg.de>, 2007.
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: yali\n"
+"Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-20 23:33+0200\n"
-"PO-Revision-Date: 2007-03-18 14:13+0100\n"
-"Last-Translator: Pau Amaro-Seoane <pau@aei.mpg.de>\n"
-"Language-Team: Catala <pardus-translation-ca@ns1.uludag.org.tr>\n"
-"Language: \n"
+"POT-Creation-Date: 2014-02-12 04:04+0200\n"
+"PO-Revision-Date: 2014-01-24 13:55+0000\n"
+"Last-Translator: richdb <rr.debruin@gmail.com>\n"
+"Language-Team: Catalan (http://www.transifex.com/projects/p/PiSiLinux/"
+"language/ca/)\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-
-#: yali/gui/Ui/autopartquestion.py:91
-msgid ""
-"There appears to be more than one resizeable partition. You can select a "
-"partition from the list below or YALI will select one for you."
-msgstr ""
-
-#: yali/gui/Ui/autopartquestion.py:92 yali/gui/Ui/connectionlist.py:85
-#: yali/gui/Ui/dialog.py:78
-msgid "X"
-msgstr ""
-
-#: yali/gui/Ui/autopartquestion.py:93
-msgid "Automatically choose the partition to resize (recommended)"
-msgstr ""
-
-#: yali/gui/Ui/autopartquestion.py:94
-msgid "I will choose the target"
-msgstr ""
-
-#: yali/gui/Ui/autopartquestion.py:95
-#, fuzzy
-msgid "Use Selected"
-msgstr "espai lliure"
-
-#: yali/gui/Ui/autopartwidget.py:169
-#, fuzzy
-msgid "Use All Disk"
-msgstr "espai lliure"
-
-#: yali/gui/Ui/autopartwidget.py:171
-msgid "Shrink Current System"
-msgstr ""
-
-#: yali/gui/Ui/autopartwidget.py:173 yali/gui/ScrSummary.py:149
-#, fuzzy
-msgid "Use Free Space"
-msgstr "espai lliure"
-
-#: yali/gui/Ui/autopartwidget.py:175
-#, fuzzy
-msgid "Manual Partitioning"
-msgstr "Crea una partició"
-
-#: yali/gui/Ui/bootloaderwidget.py:138
-#, fuzzy
-msgid "Advanced settings"
-msgstr "Nom de l'ordinador:"
-
-#: yali/gui/Ui/bootloaderwidget.py:139
-#, fuzzy
-msgid "Default settings"
-msgstr "Nom de l'ordinador:"
-
-#: yali/gui/Ui/bootloaderwidget.py:140
-#, fuzzy
-msgid "Don't install bootloader"
-msgstr "No instal·les el carregador de l'engegada"
-
-#: yali/gui/Ui/bootloaderwidget.py:141 yali/gui/ScrBootloader.py:99
-msgid "The first sector of"
-msgstr ""
-
-#: yali/gui/Ui/checkcdwidget.py:211
-msgid ""
-"You can validate the integrity of the installation packages. Although this "
-"is an optional step, we highly recommend to do the validation in order to "
-"avoid any possible errors during the installation process."
-msgstr ""
-
-#: yali/gui/Ui/checkcdwidget.py:212
-#, fuzzy
-msgid "Validation failed"
-msgstr "La comprovació ha fallat"
-
-#: yali/gui/Ui/checkcdwidget.py:213
-#, fuzzy
-msgid "Validation succeeded"
-msgstr "La comprovació ha fallat"
-
-#: yali/gui/Ui/checkcdwidget.py:214 yali/gui/ScrCheckCD.py:62
-msgid "Validate"
-msgstr ""
-
-#: yali/gui/Ui/collectionitem.py:93
-#, fuzzy
-msgid "Form"
-msgstr "Format?"
-
-#: yali/gui/Ui/connectionlist.py:84
-msgid ""
-"To use PiSi History support, you may need to be online. You can use a "
-"connection profile from the list below:"
-msgstr ""
-
-#: yali/gui/Ui/connectionlist.py:86
-msgid "Connect"
-msgstr ""
-
-#: yali/gui/Ui/createdevicewidget.py:143
-#, fuzzy
-msgid "Standard Partition"
-msgstr "Edita una partició"
-
-#: yali/gui/Ui/createdevicewidget.py:144 yali/gui/ScrPartitionManual.py:153
-msgid "General purpose of partition creation"
-msgstr ""
-
-#: yali/gui/Ui/createdevicewidget.py:145 yali/gui/ScrPartitionManual.py:158
-msgid "Volume Group"
-msgstr ""
-
-#: yali/gui/Ui/createdevicewidget.py:146 yali/gui/ScrPartitionManual.py:159
-msgid "Requires at least 1 free LVM formatted partition"
-msgstr ""
-
-#: yali/gui/Ui/createdevicewidget.py:147 yali/gui/ScrPartitionManual.py:161
-msgid "Logical Volume"
-msgstr ""
-
-#: yali/gui/Ui/createdevicewidget.py:148 yali/gui/ScrPartitionManual.py:162
-msgid "Create Logical Volume on selected Volume Group"
-msgstr ""
-
-#: yali/gui/Ui/createdevicewidget.py:149 yali/gui/ScrPartitionManual.py:155
-msgid "Physical Volume"
-msgstr ""
-
-#: yali/gui/Ui/createdevicewidget.py:150 yali/gui/ScrPartitionManual.py:156
-#, fuzzy
-msgid "Create LVM formatted partition"
-msgstr "Fés una nova particó"
-
-#: yali/gui/Ui/createdevicewidget.py:151
-msgid "Raid Member"
-msgstr ""
-
-#: yali/gui/Ui/createdevicewidget.py:152 yali/gui/ScrPartitionManual.py:165
-#, fuzzy
-msgid "Create Raid formatted partition"
-msgstr "Formata aquesta partició"
-
-#: yali/gui/Ui/createdevicewidget.py:153
-msgid "Raid Array"
-msgstr ""
-
-#: yali/gui/Ui/createdevicewidget.py:154 yali/gui/ScrPartitionManual.py:168
-msgid "Requires at least 2 free Raid formatted partition"
-msgstr ""
-
-#: yali/gui/Ui/datetimewidget.py:181
-msgid "Date"
-msgstr ""
-
-#: yali/gui/Ui/datetimewidget.py:182
-msgid "Time"
-msgstr ""
-
-#: yali/gui/Ui/datetimewidget.py:183
-msgid "Timezone"
-msgstr ""
-
-#: yali/gui/Ui/exception.py:72
-msgid "Unhandled exception occured"
-msgstr ""
-
-#: yali/gui/Ui/exception.py:73
-msgid ""
-"Please fill a bug report at http://bugs.pisilinux.org.tr/ attaching the "
-"following backtrace."
-msgstr ""
-
-#: yali/gui/Ui/exception.py:74 yali/gui/ScrCheckCD.py:101
-#: yali/storage/__init__.py:930
-msgid "Reboot"
-msgstr "Reengega"
-
-#: yali/gui/Ui/exception.py:75
-msgid "Show Backtrace"
-msgstr ""
-
-#: yali/gui/Ui/help.py:65
-msgid "help content"
-msgstr ""
-
-#: yali/gui/Ui/info.py:98
-msgid ""
-"Welcome to YALI (Yet Another Linux Installer), where you will have the "
-"opportunity to verify the installation medium, select your keyboard layout, "
-"choose your time-zone, create user accounts and prepare your disk - followed "
-"by a summary and final review before committing to the installation of Pisi "
-"Linux.\n"
-"Further information for each page of the installer may be viewed by clicking "
-"the question-mark icon at the top of its page. \n"
-"YALI was designed with ease of use in mind and should not pose a problem to "
-"the novice Linux user. As with all such procedures though, any valuable data "
-"on your system should be backed-up before commencing."
-msgstr ""
-
-#: yali/gui/Ui/installprogress.py:76
-msgid "Installing Package: "
-msgstr ""
-
-#: yali/gui/Ui/keyboardwidget.py:142
-#, fuzzy
-msgid "Keyboard Layouts"
-msgstr "Nom de l'ordinador:"
-
-#: yali/gui/Ui/keyboardwidget.py:143
-msgid "Test Layout"
-msgstr ""
-
-#: yali/gui/Ui/license.py:117
-msgid ""
-"<html><head/><body><p>Before installing Pisi Linux on your computer, please "
-"read and accept the terms of free / open source licenses of the softwares "
-"included in this installation medium. <a href=\"#\"><span style=\" text-"
-"decoration: underline; color:#56a2c0;\">License texts</span></a></p></body></"
-"html>"
-msgstr ""
-
-#: yali/gui/Ui/license.py:118
-msgid "I understand and accept the terms"
-msgstr ""
-
-#: yali/gui/Ui/logicalvolume.py:152
-msgid "Logical Volume:"
-msgstr ""
-
-#: yali/gui/Ui/logicalvolume.py:153 yali/gui/Ui/partedit.py:173
-#: yali/gui/Ui/partitionedit.py:153
-msgid "Use :"
-msgstr ""
-
-#: yali/gui/Ui/logicalvolume.py:154 yali/gui/Ui/partedit.py:174
-#: yali/gui/Ui/partitionedit.py:154 yali/gui/Ui/partition.py:153
-msgid "Size :"
-msgstr ""
-
-#: yali/gui/Ui/logicalvolume.py:155 yali/gui/Ui/logicalvolume.py:157
-#: yali/gui/Ui/partedit.py:175 yali/gui/Ui/partitionedit.py:155
-#: yali/gui/Ui/partition.py:154 yali/gui/Ui/partition.py:156
-#: yali/gui/Ui/partitionshrinkwidget.py:102 yali/gui/Ui/partresize.py:102
-msgid " MB"
-msgstr ""
-
-#: yali/gui/Ui/logicalvolume.py:156 yali/gui/Ui/partition.py:155
-#: yali/gui/Ui/partresize.py:104
-msgid "Resize"
-msgstr ""
-
-#: yali/gui/Ui/logicalvolume.py:158 yali/gui/Ui/partedit.py:178
-#: yali/gui/Ui/partitionedit.py:156 yali/gui/Ui/partition.py:159
-#, fuzzy
-msgid "File System :"
-msgstr "Sistema de fitxers"
-
-#: yali/gui/Ui/logicalvolume.py:159 yali/gui/Ui/manualpartwidget.py:197
-#: yali/gui/Ui/partition.py:157 yali/gui/Ui/raid.py:117
-#: yali/gui/ScrPartitionManual.py:130 yali/storage/storageset.py:387
-#, fuzzy
-msgid "Format"
-msgstr "Format?"
-
-#: yali/gui/Ui/logicalvolume.py:160 yali/gui/Ui/partition.py:158
-#: yali/gui/Ui/raid.py:118
-msgid "Migrate"
-msgstr ""
-
-#: yali/gui/Ui/main.py:258
-msgid "Yali"
-msgstr ""
-
-#: yali/gui/Ui/main.py:259 yali/gui/YaliWindow.py:417
-msgid "Release Notes"
-msgstr "Notes de la versió"
-
-#: yali/gui/Ui/main.py:260
-msgid "Previous Screen"
-msgstr ""
-
-#: yali/gui/Ui/main.py:261
-msgid "Back"
-msgstr ""
-
-#: yali/gui/Ui/main.py:262
-msgid "Next Screen"
-msgstr ""
-
-#: yali/gui/Ui/main.py:263 yali/gui/ScrSummary.py:59
-#: yali/gui/ScrSummary.py:211 yali/gui/ScrSummary.py:218
-msgid "Next"
-msgstr ""
-
-#: yali/gui/Ui/manualpartwidget.py:193
-msgid "Device"
-msgstr ""
-
-#: yali/gui/Ui/manualpartwidget.py:194
-#, fuzzy
-msgid "Mount Point"
-msgstr "La comprovació ha fallat"
-
-#: yali/gui/Ui/manualpartwidget.py:195
-msgid "Label"
-msgstr ""
-
-#: yali/gui/Ui/manualpartwidget.py:196
-msgid "Type"
-msgstr ""
-
-#: yali/gui/Ui/manualpartwidget.py:198 yali/gui/Ui/volumegroup.py:126
-msgid "Size"
-msgstr ""
-
-#: yali/gui/Ui/manualpartwidget.py:199
-msgid "Create"
-msgstr ""
-
-#: yali/gui/Ui/manualpartwidget.py:200 yali/gui/Ui/setupuserswidget.py:511
-#: yali/gui/Ui/volumegroup.py:128
-msgid "Edit"
-msgstr ""
-
-#: yali/gui/Ui/manualpartwidget.py:201 yali/gui/Ui/setupuserswidget.py:512
-#: yali/gui/Ui/volumegroup.py:129 yali/gui/lvm_gui.py:552
-#: yali/storage/storageBackendHelpers.py:92
-#: yali/storage/storageBackendHelpers.py:296
-msgid "Delete"
-msgstr ""
-
-#: yali/gui/Ui/manualpartwidget.py:202
-msgid "Reset"
-msgstr ""
-
-#: yali/gui/Ui/partedit.py:176
-#, fuzzy
-msgid "Format :"
-msgstr "Format?"
-
-#: yali/gui/Ui/partedit.py:177
-#, fuzzy
-msgid "Yes, format this partition"
-msgstr "Fés una nova particó"
-
-#: yali/gui/Ui/partedit.py:179
-#, fuzzy
-msgid "Delete Partition"
-msgstr "Edita una partició"
-
-#: yali/gui/Ui/partedit.py:180
-#, fuzzy
-msgid "Resize Partition"
-msgstr "Edita una partició"
-
-#: yali/gui/Ui/partedit.py:181
-msgid "Changes will be applied after Summary Screen."
-msgstr ""
-
-#: yali/gui/Ui/partedit.py:182
-msgid "Refresh Disks"
-msgstr ""
-
-#: yali/gui/Ui/partedit.py:183
-#, fuzzy
-msgid "Reset All Changes"
-msgstr "espai lliure"
-
-#: yali/gui/Ui/partedit.py:184
-msgid "Apply"
-msgstr ""
-
-#: yali/gui/Ui/partitionedit.py:157
-#, fuzzy
-msgid "Force to be primary partition"
-msgstr "Fés una nova particó"
-
-#: yali/gui/Ui/partition.py:152 yali/gui/Ui/raid.py:115
-msgid "Use:"
-msgstr ""
-
-#: yali/gui/Ui/partition.py:160
-#, fuzzy
-msgid "Force to be a primary partition"
-msgstr "Formata aquesta partició"
-
-#: yali/gui/Ui/partitionshrink.py:73 yali/gui/Ui/partitionshrinkwidget.py:100
-msgid ""
-"Which partition would you like to shrink to make room for your installation?"
-msgstr ""
-
-#: yali/gui/Ui/partitionshrink.py:74
-msgid "Shrink partition to size (in MB)"
-msgstr ""
-
-#: yali/gui/Ui/partitionshrinkwidget.py:101
-msgid "Shrink partition to size (in MB) :"
-msgstr ""
-
-#: yali/gui/Ui/partitionshrinkwidget.py:103 yali/gui/Ui/partresize.py:103
-#: yali/gui/Ui/setupuserswidget.py:513 yali/gui/lvm_gui.py:418
-#: yali/gui/lvm_gui.py:465 yali/gui/lvm_gui.py:552
-#: yali/gui/ScrPartitionManual.py:114 yali/gui/ScrPartitionManual.py:130
-#: yali/gui/ScrPartitionManual.py:140 yali/gui/YaliDialog.py:220
-#: yali/storage/__init__.py:930 yali/storage/storageBackendHelpers.py:92
-#: yali/storage/storageBackendHelpers.py:296
-msgid "Cancel"
-msgstr "Cancel·la"
-
-#: yali/gui/Ui/partitionshrinkwidget.py:104
-msgid "Shrink"
-msgstr ""
-
-#: yali/gui/Ui/partresize.py:99
-msgid ""
-"Changes will be applied when you click \"Resize\". To cancel the changes, "
-"click <b>\"Cancel\".\n"
-"<br><br>\n"
-"Warning: A resizing operation may corrupt the partition, rendering the data "
-"on it unreachable. Make sure that you have backed up the data. Note that "
-"this operation cannot be undone.<b>"
-msgstr ""
-
-#: yali/gui/Ui/raid.py:114
-msgid "Raid Device:"
-msgstr ""
-
-#: yali/gui/Ui/raid.py:116
-#, fuzzy
-msgid "Filesystem:"
-msgstr "Sistema de fitxers"
-
-#: yali/gui/Ui/raid.py:119
-msgid "Raid Level:"
-msgstr ""
-
-#: yali/gui/Ui/raid.py:120
-msgid "Raid Members:"
-msgstr ""
-
-#: yali/gui/Ui/raid.py:121
-msgid "Number of spares:"
-msgstr ""
-
-#: yali/gui/Ui/rescuegrubwidget.py:118
-#, fuzzy
-msgid "Select where to install the GRUB bootloader"
-msgstr "No instal·les el carregador de l'engegada"
-
-#: yali/gui/Ui/rescuegrubwidget.py:119
-msgid "First bootable disk (recommended)"
-msgstr ""
-
-#: yali/gui/Ui/rescuegrubwidget.py:120
-msgid "Disk partition where Pisi Linux is installed"
-msgstr ""
-
-#: yali/gui/Ui/rescuegrubwidget.py:121
-msgid "Selected disk below"
-msgstr ""
-
-#: yali/gui/Ui/rescuepasswordwidget.py:136
-msgid "Choose the user you want to reset the password:"
-msgstr ""
-
-#: yali/gui/Ui/rescuepasswordwidget.py:137
-#, fuzzy
-msgid "Password:"
-msgstr "Mot de pas:"
-
-#: yali/gui/Ui/rescuepasswordwidget.py:138 yali/gui/Ui/setupuserswidget.py:504
-#, fuzzy
-msgid "Confirm Password"
-msgstr "Mot de pas:"
-
-#: yali/gui/Ui/rescuepasswordwidget.py:139
-#, fuzzy
-msgid "Reset Password"
-msgstr "Mot de pas:"
-
-#: yali/gui/Ui/rescuepisiwidget.py:84
-msgid "<b>Connection status:</b>"
-msgstr ""
-
-#: yali/gui/Ui/rescuepisiwidget.py:85
-msgid ""
-"To use PiSi's history feature, you may need to be online. Select connection "
-"profile."
-msgstr ""
-
-#: yali/gui/Ui/rescuepisiwidget.py:86
-msgid "Select Connection"
-msgstr ""
-
-#: yali/gui/Ui/rescuepisiwidget.py:87
-msgid "Select the operation to undo:"
-msgstr ""
-
-#: yali/gui/Ui/rescuewidget.py:125
-msgid "Choose what do you want to do to repair your system"
-msgstr ""
-
-#: yali/gui/Ui/rescuewidget.py:126
-#, fuzzy
-msgid "Reinstall bootloader"
-msgstr "No instal·les el carregador de l'engegada"
-
-#: yali/gui/Ui/rescuewidget.py:127
-#, fuzzy
-msgid "Reset forgotten password"
-msgstr "Mot de pas:"
-
-#: yali/gui/Ui/rescuewidget.py:128
-msgid "Return back to a previous system state"
-msgstr ""
-
-#: yali/gui/Ui/rootpasswidget.py:142
-#, fuzzy
-msgid "Administrator password"
-msgstr "Mot de pas:"
-
-#: yali/gui/Ui/rootpasswidget.py:143
-#, fuzzy
-msgid "Confirm password"
-msgstr "Mot de pas:"
-
-#: yali/gui/Ui/rootpasswidget.py:144
-msgid "Computer Name"
-msgstr ""
-
-#: yali/gui/Ui/setupuserswidget.py:501
-msgid "User Name"
-msgstr ""
-
-#: yali/gui/Ui/setupuserswidget.py:502
-msgid "Real Name"
-msgstr ""
-
-#: yali/gui/Ui/setupuserswidget.py:503
-#, fuzzy
-msgid "Password"
-msgstr "Mot de pas:"
-
-#: yali/gui/Ui/setupuserswidget.py:505
-msgid "Custom User ID"
-msgstr ""
-
-#: yali/gui/Ui/setupuserswidget.py:506
-msgid "Not recommended"
-msgstr ""
-
-#: yali/gui/Ui/setupuserswidget.py:507
-msgid "Bypass authorization attempts for this user"
-msgstr ""
-
-#: yali/gui/Ui/setupuserswidget.py:508
-msgid "Add user to administrator (wheel) group"
-msgstr ""
-
-#: yali/gui/Ui/setupuserswidget.py:509
-msgid "Select auto login user"
-msgstr ""
-
-#: yali/gui/Ui/setupuserswidget.py:510 yali/gui/Ui/volumegroup.py:127
-#: yali/gui/ScrUsers.py:286 yali/gui/ScrUsers.py:329 yali/gui/ScrUsers.py:413
-msgid "Add"
-msgstr ""
-
-#: yali/gui/Ui/setupuserswidget.py:514
-#, fuzzy
-msgid "Advanced"
-msgstr "Nom de l'ordinador:"
-
-#: yali/gui/Ui/volumegroup.py:119
-msgid "Volume Group Name:"
-msgstr ""
-
-#: yali/gui/Ui/volumegroup.py:120
-msgid "Physical Extends"
-msgstr ""
-
-#: yali/gui/Ui/volumegroup.py:121
-msgid "Physical Volumes to use:"
-msgstr ""
-
-#: yali/gui/Ui/volumegroup.py:122
-#, fuzzy
-msgid "Total Space:"
-msgstr "espai lliure"
-
-#: yali/gui/Ui/volumegroup.py:123
-#, fuzzy
-msgid "Free Space:"
-msgstr "espai lliure"
-
-#: yali/gui/Ui/volumegroup.py:124
-msgid "Logical Volumes"
-msgstr ""
-
-#: yali/gui/Ui/volumegroup.py:125
-#, fuzzy
-msgid "Mountpoint"
-msgstr "La comprovació ha fallat"
-
-#: yali/gui/Ui/volumegroup.py:130
-#, fuzzy
-msgid "Used Space:"
-msgstr "espai lliure"
-
-#: yali/gui/Ui/welcome.py:98
-msgid ""
-"Pisi Linux is installed and running successfully... \n"
-"\n"
-"Before you login to system, you need to create your first user and set the "
-"system wide configurations. "
-msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: yali/gui/lvm_gui.py:48
 msgid "Not enough physical volumes"
@@ -700,6 +85,14 @@ msgid ""
 "immediately."
 msgstr ""
 
+#: yali/gui/lvm_gui.py:418 yali/gui/lvm_gui.py:465 yali/gui/lvm_gui.py:552
+#: yali/gui/ScrPartitionManual.py:114 yali/gui/ScrPartitionManual.py:130
+#: yali/gui/ScrPartitionManual.py:140 yali/gui/YaliDialog.py:220
+#: yali/storage/__init__.py:930 yali/storage/storageBackendHelpers.py:92
+#: yali/storage/storageBackendHelpers.py:296
+msgid "Cancel"
+msgstr "Cancel·la"
+
 #: yali/gui/lvm_gui.py:418 yali/gui/lvm_gui.py:465
 #: yali/gui/ScrPartitionManual.py:358 yali/gui/ScrRescuePassword.py:123
 #: yali/gui/ScrRescue.py:95 yali/storage/storageset.py:336
@@ -752,9 +145,8 @@ msgid ""
 msgstr ""
 
 #: yali/gui/lvm_gui.py:510
-#, fuzzy
 msgid "No free space"
-msgstr "espai lliure"
+msgstr ""
 
 #: yali/gui/lvm_gui.py:511
 msgid ""
@@ -774,6 +166,11 @@ msgstr ""
 msgid ""
 "Are you sure you want to delete the \n"
 "logical volume \"%s\"?"
+msgstr ""
+
+#: yali/gui/lvm_gui.py:552 yali/storage/storageBackendHelpers.py:92
+#: yali/storage/storageBackendHelpers.py:296
+msgid "Delete"
 msgstr ""
 
 #: yali/gui/lvm_gui.py:582
@@ -841,14 +238,14 @@ msgid ""
 msgstr ""
 
 #: yali/gui/partition_gui.py:34
-#, fuzzy, python-format
+#, python-format
 msgid "Create Partition on %(path)s (%(model)s)"
-msgstr "Fés una nova particó"
+msgstr ""
 
 #: yali/gui/partition_gui.py:38
-#, fuzzy, python-format
+#, python-format
 msgid "Edit Partition %s"
-msgstr "Edita una partició"
+msgstr ""
 
 #: yali/gui/partition_gui.py:40
 msgid "Edit Partition"
@@ -890,9 +287,8 @@ msgid "A RAID%(level)d set requires at least %(min_member)d member"
 msgstr ""
 
 #: yali/gui/runner.py:117
-#, fuzzy
 msgid "Error!"
-msgstr "Hi ha hagut un error!"
+msgstr ""
 
 #: yali/gui/runner.py:118
 #, python-format
@@ -917,39 +313,36 @@ msgid "Storage Devices initialising..."
 msgstr ""
 
 #: yali/gui/ScrAdmin.py:154
-#, fuzzy
 msgid "Password is too short."
-msgstr "<font color=\"#FF6D19\">Els mots de pas no coinideixen!</font>"
+msgstr ""
 
 #: yali/gui/ScrAdmin.py:162
-#, fuzzy
 msgid "Passwords do not match."
-msgstr "<font color=\"#FF6D19\">Els mots de pas no coinideixen!</font>"
+msgstr ""
 
 #: yali/gui/ScrAdmin.py:167
-#, fuzzy
 msgid "Do not use your username as your password."
 msgstr ""
-"<font color=\"#FF6D19\">Preparació del teu disc per a la instal·lació!</font>"
 
 #: yali/gui/ScrAdmin.py:177
-#, fuzzy
 msgid "Hostname cannot be longer than 64 characters."
 msgstr ""
-"<font color=\"#FF6D19\">Ho sent. El nom que has triat per a l'usuari conté "
-"caràcters no vàlids.</font>"
 
 #: yali/gui/ScrAdmin.py:190
-#, fuzzy
 msgid "Hostname contains invalid characters."
 msgstr ""
-"<font color=\"#FF6D19\">Ho sent. El nom que has triat per a l'usuari conté "
-"caràcters no vàlids.</font>"
+
+#: yali/gui/ScrBootloader.py:99
+msgid "The first sector of"
+msgstr ""
+
+#: yali/gui/ScrCheckCD.py:62
+msgid "Validate"
+msgstr ""
 
 #: yali/gui/ScrCheckCD.py:68
-#, fuzzy
 msgid "Starting validation..."
-msgstr "Comencem a formatar!"
+msgstr ""
 
 #: yali/gui/ScrCheckCD.py:82
 msgid "Package validation is in progress. Please wait until it is completed."
@@ -982,24 +375,23 @@ msgstr ""
 msgid "Skip Package"
 msgstr ""
 
+#: yali/gui/ScrCheckCD.py:101 yali/storage/__init__.py:930
+msgid "Reboot"
+msgstr "Reengega"
+
 #: yali/gui/ScrCheckCD.py:115
-#, fuzzy
 msgid ""
 "<font color=\"#FFF\"><b>Validation succeeded. You can proceed with the "
 "installation.</b></font>"
 msgstr ""
-"<font color=\"#257216\">La comprovació ha eixit bé. Pots continuar en la "
-"pròxima pantalla.</font>"
 
 #: yali/gui/ScrCheckCD.py:127
-#, fuzzy
 msgid "Package validation is finished."
-msgstr "Particions:"
+msgstr ""
 
 #: yali/gui/ScrDateTime.py:169
-#, fuzzy
 msgid "Adjusting time settings"
-msgstr "Nom de l'ordinador:"
+msgstr ""
 
 #: yali/gui/ScrDriveSelection.py:96
 #, python-format
@@ -1016,9 +408,8 @@ msgid "You must select at least one drive to be used for installation."
 msgstr ""
 
 #: yali/gui/ScrGoodbye.py:37
-#, fuzzy
 msgid "Running post-install operations..."
-msgstr "Fés una nova particó"
+msgstr ""
 
 #: yali/gui/ScrGoodbye.py:49
 msgid "Press <b>Restart</b> to restart the computer."
@@ -1029,9 +420,8 @@ msgid "Restart"
 msgstr ""
 
 #: yali/gui/ScrGoodbye.py:50
-#, fuzzy
 msgid "<b>Please wait while restarting...</b>"
-msgstr "Espera mentre formate!"
+msgstr ""
 
 #: yali/gui/ScrGoodbye.py:64
 msgid "Setting timezone..."
@@ -1054,52 +444,46 @@ msgid "Setting root password..."
 msgstr ""
 
 #: yali/gui/ScrGoodbye.py:73
-#, fuzzy
 msgid "Resetting user password..."
-msgstr "Mot de pas:"
+msgstr ""
 
 #: yali/gui/ScrGoodbye.py:76
-#, fuzzy
 msgid "Setup First-Boot..."
-msgstr "No instal·les el carregador de l'engegada"
+msgstr ""
 
 #: yali/gui/ScrGoodbye.py:79
-#, fuzzy
 msgid "Teardown First-Boot..."
-msgstr "No instal·les el carregador de l'engegada"
+msgstr ""
 
 #: yali/gui/ScrGoodbye.py:83
 msgid "Adding users..."
 msgstr ""
 
 #: yali/gui/ScrGoodbye.py:88
-#, fuzzy
 msgid "Installing bootloader..."
-msgstr "No instal·les el carregador de l'engegada"
+msgstr ""
 
 #: yali/gui/ScrGoodbye.py:89 yali/gui/ScrGoodbye.py:93
-#, fuzzy
 msgid "Writing bootloader config..."
-msgstr "No instal·les el carregador de l'engegada"
+msgstr ""
 
 #: yali/gui/ScrGoodbye.py:90 yali/gui/ScrGoodbye.py:96
-#, fuzzy
 msgid "Stopping to D-Bus..."
-msgstr "Comencem a formatar!"
+msgstr ""
 
 #: yali/gui/ScrGoodbye.py:91 yali/gui/ScrGoodbye.py:97
 msgid "Teardown storage subsystem..."
 msgstr ""
 
 #: yali/gui/ScrInstall.py:161
-#, fuzzy, python-format
+#, python-format
 msgid "Installing <b>%(name)s</b> -- %(summary)s"
-msgstr "Instal·lació: %s<br>%s"
+msgstr ""
 
 #: yali/gui/ScrInstall.py:170
-#, fuzzy, python-format
+#, python-format
 msgid "Configuring <b>%s</b>"
-msgstr "Configuració del programari: %s"
+msgstr ""
 
 #: yali/gui/ScrInstall.py:196
 #, python-format
@@ -1125,19 +509,12 @@ msgid "No"
 msgstr ""
 
 #: yali/gui/ScrInstall.py:261
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "An error occured during the installation of packages.\n"
 "This may be caused by a corrupted installation medium error:\n"
 "%s\n"
 msgstr ""
-"Durant la instal·lació del programari hi ha hagut un error.\n"
-"\n"
-"Probablement açò és degut a un CD Pardus corrupte o a un problema amb el "
-"lector òptic.\n"
-"\n"
-"Error:\n"
-"%s\n"
 
 #: yali/gui/ScrKahyaCheck.py:78
 msgid "No storage device found."
@@ -1159,9 +536,8 @@ msgid ""
 msgstr ""
 
 #: yali/gui/ScrPartitionAuto.py:60
-#, fuzzy
 msgid "Use All Disks"
-msgstr "espai lliure"
+msgstr ""
 
 #: yali/gui/ScrPartitionManual.py:94
 #, python-format
@@ -1171,9 +547,8 @@ msgid ""
 msgstr ""
 
 #: yali/gui/ScrPartitionManual.py:101
-#, fuzzy
 msgid "Partitioning Errors"
-msgstr "Particions:"
+msgstr ""
 
 #: yali/gui/ScrPartitionManual.py:106
 msgid ""
@@ -1182,9 +557,8 @@ msgid ""
 msgstr ""
 
 #: yali/gui/ScrPartitionManual.py:112
-#, fuzzy
 msgid "Partitioning Warnings"
-msgstr "Particions:"
+msgstr ""
 
 #: yali/gui/ScrPartitionManual.py:114 yali/gui/ScrPartitionManual.py:140
 #: yali/gui/YaliDialog.py:218 yali/storage/__init__.py:164
@@ -1198,9 +572,12 @@ msgid ""
 msgstr ""
 
 #: yali/gui/ScrPartitionManual.py:128
-#, fuzzy
 msgid "Format Warnings"
-msgstr "Comencem a formatar!"
+msgstr ""
+
+#: yali/gui/ScrPartitionManual.py:130 yali/storage/storageset.py:387
+msgid "Format"
+msgstr ""
 
 #: yali/gui/ScrPartitionManual.py:138
 msgid "All Changes that you made will be removed"
@@ -1219,16 +596,51 @@ msgid "RAID"
 msgstr ""
 
 #: yali/gui/ScrPartitionManual.py:152
-#, fuzzy
 msgid "Partition"
-msgstr "Partició %d"
+msgstr ""
+
+#: yali/gui/ScrPartitionManual.py:153
+msgid "General purpose of partition creation"
+msgstr ""
+
+#: yali/gui/ScrPartitionManual.py:155
+msgid "Physical Volume"
+msgstr ""
+
+#: yali/gui/ScrPartitionManual.py:156
+msgid "Create LVM formatted partition"
+msgstr ""
+
+#: yali/gui/ScrPartitionManual.py:158
+msgid "Volume Group"
+msgstr ""
+
+#: yali/gui/ScrPartitionManual.py:159
+msgid "Requires at least 1 free LVM formatted partition"
+msgstr ""
+
+#: yali/gui/ScrPartitionManual.py:161
+msgid "Logical Volume"
+msgstr ""
+
+#: yali/gui/ScrPartitionManual.py:162
+msgid "Create Logical Volume on selected Volume Group"
+msgstr ""
 
 #: yali/gui/ScrPartitionManual.py:164
 msgid "Member"
 msgstr ""
 
+#: yali/gui/ScrPartitionManual.py:165
+msgid "Create Raid formatted partition"
+msgstr ""
+
 #: yali/gui/ScrPartitionManual.py:167
 msgid "Array"
+msgstr ""
+
+#: yali/gui/ScrPartitionManual.py:168
+msgid "Requires at least 2 free Raid formatted partition"
 msgstr ""
 
 #: yali/gui/ScrPartitionManual.py:231
@@ -1261,9 +673,8 @@ msgstr "Extesa"
 
 #: yali/gui/ScrPartitionManual.py:351 yali/storage/partitioning.py:1649
 #: yali/storage/partitioning.py:1681
-#, fuzzy
 msgid "Error Partitioning"
-msgstr "Crea una partició"
+msgstr ""
 
 #: yali/gui/ScrPartitionManual.py:352
 #, python-format
@@ -1271,30 +682,26 @@ msgid "Could not allocate requested partitions: %s."
 msgstr ""
 
 #: yali/gui/ScrPartitionManual.py:356
-#, fuzzy
 msgid "Warning Partitioning"
-msgstr "Crea una partició"
+msgstr ""
 
 #: yali/gui/ScrPartitionManual.py:357
-#, fuzzy, python-format
+#, python-format
 msgid "Warning: %s."
-msgstr "Compte"
+msgstr ""
 
 #: yali/gui/ScrPartitionManual.py:358
 #: yali/storage/storageBackendHelpers.py:319
-#, fuzzy
 msgid "Modify Partition"
-msgstr "Edita una partició"
+msgstr ""
 
 #: yali/gui/ScrPartitionManual.py:472
-#, fuzzy
 msgid "Partition Selection Warning"
-msgstr "Particions:"
+msgstr ""
 
 #: yali/gui/ScrPartitionManual.py:473
-#, fuzzy
 msgid "Please select free physical partition to create new device."
-msgstr "Cal que tries un tipus de partició d'aquesta llista de sota."
+msgstr ""
 
 #: yali/gui/ScrPartitionManual.py:483
 msgid "Unable To Edit"
@@ -1309,44 +716,36 @@ msgid ""
 msgstr ""
 
 #: yali/gui/ScrRescuePassword.py:99 yali/gui/ScrUsers.py:214
-#, fuzzy
 msgid "Don't use your user name or name as a password"
 msgstr ""
-"<font color=\"#FF6D19\">Preparació del teu disc per a la instal·lació!</font>"
 
 #: yali/gui/ScrRescuePassword.py:102 yali/gui/ScrUsers.py:217
-#, fuzzy
 msgid "Passwords do not match"
-msgstr "<font color=\"#FF6D19\">Els mots de pas no coinideixen!</font>"
+msgstr ""
 
 #: yali/gui/ScrRescuePassword.py:105 yali/gui/ScrUsers.py:220
-#, fuzzy
 msgid "Password is too short"
-msgstr "<font color=\"#FF6D19\">Els mots de pas no coinideixen!</font>"
+msgstr ""
 
 #: yali/gui/ScrRescuePassword.py:120 yali/gui/ScrRescue.py:92
 msgid "Cannot Rescue"
 msgstr ""
 
 #: yali/gui/ScrRescuePassword.py:121 yali/gui/ScrRescue.py:93
-#, fuzzy
 msgid "Your current installation cannot be rescued."
-msgstr "Sí, fés una partició automàtica i formata el disc sel·leccionat!"
+msgstr ""
 
 #: yali/gui/ScrRescuePassword.py:145
-#, fuzzy
 msgid "Super User"
-msgstr "Nou usuari:"
+msgstr ""
 
 #: yali/gui/ScrRescuePisi.py:37
-#, fuzzy
 msgid "Starting D-Bus..."
-msgstr "Comencem a formatar!"
+msgstr ""
 
 #: yali/gui/ScrRescuePisi.py:38
-#, fuzzy
 msgid "Connecting to D-Bus..."
-msgstr "La comprovació ha fallat"
+msgstr ""
 
 #: yali/gui/ScrRescuePisi.py:39
 msgid "Fetching history..."
@@ -1357,9 +756,8 @@ msgid "Please Wait..."
 msgstr ""
 
 #: yali/gui/ScrRescuePisi.py:75
-#, fuzzy
 msgid "No connection available"
-msgstr "La comprovació ha fallat"
+msgstr ""
 
 #: yali/gui/ScrRescuePisi.py:116
 #, python-format
@@ -1372,18 +770,16 @@ msgid "Connecting to network %s..."
 msgstr ""
 
 #: yali/gui/ScrRescuePisi.py:176 yali/gui/ScrRescuePisi.py:177
-#, fuzzy
 msgid "Connection failed"
-msgstr "La comprovació ha fallat"
+msgstr ""
 
 #: yali/gui/ScrRescuePisi.py:180 yali/gui/ScrRescuePisi.py:181
 msgid "Connected"
 msgstr ""
 
 #: yali/gui/ScrRescue.py:54
-#, fuzzy
 msgid "Mount failed"
-msgstr "La comprovació ha fallat"
+msgstr ""
 
 #: yali/gui/ScrRescue.py:55
 #, python-format
@@ -1397,30 +793,32 @@ msgstr ""
 msgid "<b><p>Are you sure you want to restart the computer?</p></b>"
 msgstr ""
 
+#: yali/gui/ScrSummary.py:59 yali/gui/ScrSummary.py:211
+#: yali/gui/ScrSummary.py:218
+msgid "Next"
+msgstr ""
+
 #: yali/gui/ScrSummary.py:68
-#, fuzzy, python-format
+#, python-format
 msgid "Installation starts in <b>%s</b> seconds"
-msgstr "Instal·lació: %s<br>%s"
+msgstr ""
 
 #: yali/gui/ScrSummary.py:76
-#, fuzzy
 msgid "Start Installation"
-msgstr "Nom de l'ordinador:"
+msgstr ""
 
 #: yali/gui/ScrSummary.py:78
-#, fuzzy
 msgid "Apply Settings"
-msgstr "Nom de l'ordinador:"
+msgstr ""
 
 #: yali/gui/ScrSummary.py:95
-#, fuzzy
 msgid "Keyboard Settings"
-msgstr "Nom de l'ordinador:"
+msgstr ""
 
 #: yali/gui/ScrSummary.py:97
-#, fuzzy, python-format
+#, python-format
 msgid "Selected keyboard layout is <b>%s</b>"
-msgstr "Comprova la distribució del teclat que has triat:"
+msgstr ""
 
 #: yali/gui/ScrSummary.py:103
 msgid "Date/Time Settings"
@@ -1448,9 +846,8 @@ msgid ""
 msgstr ""
 
 #: yali/gui/ScrSummary.py:121
-#, fuzzy
 msgid "Hostname Settings"
-msgstr "Nom de l'ordinador:"
+msgstr ""
 
 #: yali/gui/ScrSummary.py:123
 #, python-format
@@ -1458,19 +855,16 @@ msgid "Hostname is set as <b>%s</b>"
 msgstr ""
 
 #: yali/gui/ScrSummary.py:129
-#, fuzzy
 msgid "Partition Settings"
-msgstr "Particions:"
+msgstr ""
 
 #: yali/gui/ScrSummary.py:136
-#, fuzzy
 msgid "Automatic Partitioning selected."
-msgstr "Sí, fés una partició automàtica i formata el disc sel·leccionat!"
+msgstr ""
 
 #: yali/gui/ScrSummary.py:138
-#, fuzzy
 msgid "Use All Space"
-msgstr "espai lliure"
+msgstr ""
 
 #: yali/gui/ScrSummary.py:139
 #, python-format
@@ -1491,6 +885,10 @@ msgid ""
 "or FAT32)"
 msgstr ""
 
+#: yali/gui/ScrSummary.py:149
+msgid "Use Free Space"
+msgstr ""
+
 #: yali/gui/ScrSummary.py:150
 #, python-format
 msgid ""
@@ -1500,14 +898,12 @@ msgid ""
 msgstr ""
 
 #: yali/gui/ScrSummary.py:156
-#, fuzzy
 msgid "Manual Partitioning selected."
-msgstr "Crea una partició"
+msgstr ""
 
 #: yali/gui/ScrSummary.py:164
-#, fuzzy
 msgid "Bootloader Settings"
-msgstr "Nom de l'ordinador:"
+msgstr ""
 
 #: yali/gui/ScrSummary.py:165
 #, python-format
@@ -1519,14 +915,13 @@ msgid "GRUB will not be installed."
 msgstr ""
 
 #: yali/gui/ScrSummary.py:174
-#, fuzzy
 msgid "Package Installation Settings"
-msgstr "Particions:"
+msgstr ""
 
 #: yali/gui/ScrSummary.py:175
-#, fuzzy, python-format
+#, python-format
 msgid "Collection <b>%s</b> selected"
-msgstr "Crea una partició"
+msgstr ""
 
 #: yali/gui/ScrSummary.py:195
 msgid "Confirm"
@@ -1560,44 +955,36 @@ msgid ""
 msgstr ""
 
 #: yali/gui/ScrUsers.py:127 yali/gui/ScrUsers.py:359
-#, fuzzy
 msgid "Update"
-msgstr "Crea un usuari"
+msgstr ""
 
 #: yali/gui/ScrUsers.py:266
-#, fuzzy
 msgid "This user name is already taken, please choose another one."
 msgstr ""
-"<font color=\"#FF6D19\">Mmmh, aquest usuari (nom) ja existeix. Tria un "
-"d'altre, si et plau.</font>"
 
 #: yali/gui/ScrUsers.py:270
-#, fuzzy
 msgid "The user name contains invalid characters."
 msgstr ""
-"<font color=\"#FF6D19\">Ho sent. El nom que has triat per a l'usuari conté "
-"caràcters no vàlids.</font>"
 
 #: yali/gui/ScrUsers.py:273
-#, fuzzy
 msgid "The real name contains invalid characters."
 msgstr ""
-"<font color=\"#FF6D19\">Ho sent. El nom autèntic conté caràcters no vàlids.</"
-"font>"
 
 #: yali/gui/ScrUsers.py:281
 msgid "User ID used before, choose another one!"
 msgstr ""
 
+#: yali/gui/ScrUsers.py:286 yali/gui/ScrUsers.py:329 yali/gui/ScrUsers.py:413
+msgid "Add"
+msgstr ""
+
 #: yali/gui/shrink_gui.py:23
-#, fuzzy
 msgid "Partitions to Shrink"
-msgstr "Particions:"
+msgstr ""
 
 #: yali/gui/shrink_gui.py:47
-#, fuzzy
 msgid "Resize FileSystem Error"
-msgstr "Sistema de fitxers"
+msgstr ""
 
 #: yali/gui/shrink_gui.py:48
 #, python-format
@@ -1649,9 +1036,8 @@ msgid "Style file doesn't exists"
 msgstr ""
 
 #: yali/gui/YaliWindow.py:130
-#, fuzzy
 msgid "Release file doesn't exists"
-msgstr "Notes de la versió"
+msgstr ""
 
 #: yali/gui/YaliWindow.py:138
 msgid "Turn Off Computer"
@@ -1674,9 +1060,8 @@ msgid "left"
 msgstr ""
 
 #: yali/gui/YaliWindow.py:181
-#, fuzzy
 msgid "Mouse Settings"
-msgstr "Nom de l'ordinador:"
+msgstr ""
 
 #: yali/gui/YaliWindow.py:182
 #, python-format
@@ -1705,14 +1090,17 @@ msgid "Terminal"
 msgstr ""
 
 #: yali/gui/YaliWindow.py:249
-#, fuzzy
 msgid "Tetris"
-msgstr "Turc"
+msgstr ""
 
 #: yali/gui/YaliWindow.py:382
 #, python-format
 msgid "An error occurred when attempting to load screens:%s"
 msgstr ""
+
+#: yali/gui/YaliWindow.py:417
+msgid "Release Notes"
+msgstr "Notes de la versió"
 
 #: yali/gui/YaliWindow.py:440
 msgid "Release notes could not be loaded."
@@ -1738,9 +1126,8 @@ msgid "Failed teardownAll in storage.complete with error:%s"
 msgstr ""
 
 #: yali/storage/__init__.py:57
-#, fuzzy
 msgid "Storage Device Error"
-msgstr "Comencem a formatar!"
+msgstr ""
 
 #: yali/storage/__init__.py:58
 #, python-format
@@ -1765,9 +1152,8 @@ msgid "Ignore"
 msgstr ""
 
 #: yali/storage/__init__.py:158 yali/storage/__init__.py:168
-#, fuzzy
 msgid "Dirty File Systems"
-msgstr "Sistema de fitxers"
+msgstr ""
 
 #: yali/storage/__init__.py:159
 #, python-format
@@ -1787,9 +1173,8 @@ msgid ""
 msgstr ""
 
 #: yali/storage/__init__.py:336
-#, fuzzy
 msgid "This partition is holding the data for the hard drive install."
-msgstr "Instal·la en la partició arrel"
+msgstr ""
 
 #: yali/storage/__init__.py:339
 msgid "You cannot delete a partition of a LDL formatted DASD."
@@ -1905,9 +1290,8 @@ msgid ""
 msgstr ""
 
 #: yali/storage/partitioning.py:1670
-#, fuzzy
 msgid "Warnings During Automatic Partitioning"
-msgstr "Crea una partició"
+msgstr ""
 
 #: yali/storage/partitioning.py:1671
 #, python-format
@@ -1932,9 +1316,8 @@ msgid ""
 msgstr ""
 
 #: yali/storage/partitioning.py:1701
-#, fuzzy
 msgid "Automatic Partitioning Errors"
-msgstr "Particions:"
+msgstr ""
 
 #: yali/storage/partitioning.py:1702
 #, python-format
@@ -1952,11 +1335,8 @@ msgid "Please enter a volume group name."
 msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:22
-#, fuzzy
 msgid "Volume Group Names must be less than 128 characters"
 msgstr ""
-"<font color=\"#FF6D19\">Ho sent. El nom que has triat per a l'usuari conté "
-"caràcters no vàlids.</font>"
 
 #: yali/storage/storageBackendHelpers.py:25
 #, python-format
@@ -1974,11 +1354,8 @@ msgid "Please enter a logical volume name."
 msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:44
-#, fuzzy
 msgid "Logical Volume Names must be less than 128 characters"
 msgstr ""
-"<font color=\"#FF6D19\">Ho sent. El nom que has triat per a l'usuari conté "
-"caràcters no vàlids.</font>"
 
 #: yali/storage/storageBackendHelpers.py:48
 #, python-format
@@ -1992,9 +1369,8 @@ msgid ""
 msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:68
-#, fuzzy
 msgid "Format as Swap?"
-msgstr "Format?"
+msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:69
 #, python-format
@@ -2006,9 +1382,9 @@ msgid ""
 msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:89
-#, fuzzy, python-format
+#, python-format
 msgid "You are about to delete all partitions on the device '%s'."
-msgstr "Estàs a punt d'esborrar totes les particions del dispositu '%s'"
+msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:139
 msgid "Notice"
@@ -2028,9 +1404,8 @@ msgid "Unable To Delete"
 msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:155
-#, fuzzy
 msgid "You must first select a partition to delete."
-msgstr "Estàs a punt d'esborrar totes les particions del dispositu '%s'"
+msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:200
 #, python-format
@@ -2040,9 +1415,8 @@ msgid ""
 msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:209
-#, fuzzy
 msgid "Error with Partitioning"
-msgstr "Crea una partició"
+msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:210
 #, python-format
@@ -2055,9 +1429,8 @@ msgid ""
 msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:226
-#, fuzzy
 msgid "Partitioning Warning"
-msgstr "Particions:"
+msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:227
 #, python-format
@@ -2082,9 +1455,8 @@ msgid ""
 msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:251
-#, fuzzy
 msgid "Format Warning"
-msgstr "Comencem a formatar!"
+msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:279
 #, python-format
@@ -2100,14 +1472,13 @@ msgid "You are about to delete the logical volume \"%s\"."
 msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:286
-#, fuzzy
 msgid "You are about to delete a RAID device."
-msgstr "Estàs a punt d'esborrar totes les particions del dispositu '%s'"
+msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:288
-#, fuzzy, python-format
+#, python-format
 msgid "You are about to delete the %s partition."
-msgstr "Estàs a punt d'esborrar totes les particions del dispositu '%s'"
+msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:292
 #, python-format
@@ -2115,9 +1486,8 @@ msgid "You are about to delete the %(type)s %(name)s"
 msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:302
-#, fuzzy
 msgid "Confirm Reset"
-msgstr "Mot de pas:"
+msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:302
 msgid ""
@@ -2136,14 +1506,12 @@ msgid ""
 msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:318
-#, fuzzy
 msgid "Format?"
-msgstr "Format?"
+msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:319
-#, fuzzy
 msgid "Do Not Format"
-msgstr "Format?"
+msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:326
 #, python-format
@@ -2156,9 +1524,8 @@ msgstr ""
 #: yali/storage/storageBackendHelpers.py:331
 #: yali/storage/storageBackendHelpers.py:356
 #: yali/storage/storageBackendHelpers.py:376
-#, fuzzy
 msgid "Storage Device Warning"
-msgstr "Comencem a formatar!"
+msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:332
 #, python-format
@@ -2359,19 +1726,18 @@ msgid "cannot activate VG with missing PV(s)"
 msgstr ""
 
 #: yali/storage/library/lvm.py:265
-#, fuzzy, python-format
+#, python-format
 msgid "vginfo failed for %s"
-msgstr "La comprovació ha fallat"
+msgstr ""
 
 #: yali/storage/library/lvm.py:291
-#, fuzzy, python-format
+#, python-format
 msgid "lvs failed for %s"
-msgstr "La comprovació ha fallat"
+msgstr ""
 
 #: yali/storage/formats/disklabel.py:28
-#, fuzzy
 msgid "partition table"
-msgstr "Tipus de partició"
+msgstr ""
 
 #: yali/storage/formats/dmraidmember.py:19
 msgid "dm-raid member device"
@@ -2383,9 +1749,9 @@ msgid "Unknown return code: %d."
 msgstr ""
 
 #: yali/storage/formats/filesystem.py:247
-#, fuzzy, python-format
+#, python-format
 msgid "Migrating %s filesystem on %s"
-msgstr "Sistema de fitxers"
+msgstr ""
 
 #: yali/storage/formats/filesystem.py:299
 #, python-format
@@ -2393,14 +1759,14 @@ msgid "Creating %(type)s filesystem on %(device)s"
 msgstr ""
 
 #: yali/storage/formats/filesystem.py:347
-#, fuzzy, python-format
+#, python-format
 msgid "Resizing filesystem on %s"
-msgstr "Sistema de fitxers"
+msgstr ""
 
 #: yali/storage/formats/filesystem.py:378
-#, fuzzy, python-format
+#, python-format
 msgid "Checking filesystem on %s"
-msgstr "La comprovació ha fallat"
+msgstr ""
 
 #: yali/storage/formats/filesystem.py:387
 #, python-format
@@ -2473,9 +1839,8 @@ msgid "English"
 msgstr "Anglès"
 
 #: yali/localedata.py:42
-#, fuzzy
 msgid "English GB"
-msgstr "Anglès"
+msgstr ""
 
 #: yali/localedata.py:52
 msgid "Greek"
