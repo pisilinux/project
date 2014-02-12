@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-12 04:04+0200\n"
+"POT-Creation-Date: 2014-02-12 19:43+0200\n"
 "PO-Revision-Date: 2014-01-24 13:58+0000\n"
 "Last-Translator: richdb <rr.debruin@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/PiSiLinux/"
@@ -17,6 +17,620 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: yali/gui/Ui/autopartquestion.py:91
+msgid ""
+"There appears to be more than one resizeable partition. You can select a "
+"partition from the list below or YALI will select one for you."
+msgstr ""
+
+#: yali/gui/Ui/autopartquestion.py:92 yali/gui/Ui/connectionlist.py:85
+#: yali/gui/Ui/dialog.py:78
+msgid "X"
+msgstr ""
+
+#: yali/gui/Ui/autopartquestion.py:93
+msgid "Automatically choose the partition to resize (recommended)"
+msgstr ""
+
+#: yali/gui/Ui/autopartquestion.py:94
+msgid "I will choose the target"
+msgstr ""
+
+#: yali/gui/Ui/autopartquestion.py:95
+#, fuzzy
+msgid "Use Selected"
+msgstr "Szabad terület használata"
+
+#: yali/gui/Ui/autopartwidget.py:169
+#, fuzzy
+msgid "Use All Disk"
+msgstr "Teljes terület használata"
+
+#: yali/gui/Ui/autopartwidget.py:171
+msgid "Shrink Current System"
+msgstr ""
+
+#: yali/gui/Ui/autopartwidget.py:173 yali/gui/ScrSummary.py:149
+msgid "Use Free Space"
+msgstr "Szabad terület használata"
+
+#: yali/gui/Ui/autopartwidget.py:175
+#, fuzzy
+msgid "Manual Partitioning"
+msgstr "Kézi partícionálás lett kiválasztva."
+
+#: yali/gui/Ui/bootloaderwidget.py:138
+#, fuzzy
+msgid "Advanced settings"
+msgstr "Idő beállítása"
+
+#: yali/gui/Ui/bootloaderwidget.py:139
+#, fuzzy
+msgid "Default settings"
+msgstr "Dátum/idő beállítása"
+
+#: yali/gui/Ui/bootloaderwidget.py:140
+#, fuzzy
+msgid "Don't install bootloader"
+msgstr "Rendszertöltő telepítése..."
+
+#: yali/gui/Ui/bootloaderwidget.py:141 yali/gui/ScrBootloader.py:99
+msgid "The first sector of"
+msgstr "Első szektor"
+
+#: yali/gui/Ui/checkcdwidget.py:211
+msgid ""
+"You can validate the integrity of the installation packages. Although this "
+"is an optional step, we highly recommend to do the validation in order to "
+"avoid any possible errors during the installation process."
+msgstr ""
+
+#: yali/gui/Ui/checkcdwidget.py:212
+#, fuzzy
+msgid "Validation failed"
+msgstr "Érvényesítés %s"
+
+#: yali/gui/Ui/checkcdwidget.py:213
+#, fuzzy
+msgid "Validation succeeded"
+msgstr "Érvényesítés %s"
+
+#: yali/gui/Ui/checkcdwidget.py:214 yali/gui/ScrCheckCD.py:62
+msgid "Validate"
+msgstr "Érvényesítés"
+
+#: yali/gui/Ui/collectionitem.py:93
+#, fuzzy
+msgid "Form"
+msgstr "Formázás"
+
+#: yali/gui/Ui/connectionlist.py:84
+msgid ""
+"To use PiSi History support, you may need to be online. You can use a "
+"connection profile from the list below:"
+msgstr ""
+
+#: yali/gui/Ui/connectionlist.py:86
+#, fuzzy
+msgid "Connect"
+msgstr "Csatlakozva"
+
+#: yali/gui/Ui/createdevicewidget.py:143
+#, fuzzy
+msgid "Standard Partition"
+msgstr "Partíció módosítása"
+
+#: yali/gui/Ui/createdevicewidget.py:144 yali/gui/ScrPartitionManual.py:153
+msgid "General purpose of partition creation"
+msgstr "A partícionálás alapvető célja"
+
+#: yali/gui/Ui/createdevicewidget.py:145 yali/gui/ScrPartitionManual.py:158
+msgid "Volume Group"
+msgstr "VG"
+
+#: yali/gui/Ui/createdevicewidget.py:146 yali/gui/ScrPartitionManual.py:159
+msgid "Requires at least 1 free LVM formatted partition"
+msgstr "Legalább egy szabad LVM formázott partíció szükséges"
+
+#: yali/gui/Ui/createdevicewidget.py:147 yali/gui/ScrPartitionManual.py:161
+msgid "Logical Volume"
+msgstr "Logikai kötet (LV)"
+
+#: yali/gui/Ui/createdevicewidget.py:148 yali/gui/ScrPartitionManual.py:162
+msgid "Create Logical Volume on selected Volume Group"
+msgstr "Logikai kötet létrehozása a kiválasztott VG-n"
+
+#: yali/gui/Ui/createdevicewidget.py:149 yali/gui/ScrPartitionManual.py:155
+msgid "Physical Volume"
+msgstr "Fizikai kötet"
+
+#: yali/gui/Ui/createdevicewidget.py:150 yali/gui/ScrPartitionManual.py:156
+msgid "Create LVM formatted partition"
+msgstr "LVM partíció létrehozása"
+
+#: yali/gui/Ui/createdevicewidget.py:151
+#, fuzzy
+msgid "Raid Member"
+msgstr "Érvénytelen Raid tagok"
+
+#: yali/gui/Ui/createdevicewidget.py:152 yali/gui/ScrPartitionManual.py:165
+msgid "Create Raid formatted partition"
+msgstr "Raid partíció létrehozása"
+
+#: yali/gui/Ui/createdevicewidget.py:153
+#, fuzzy
+msgid "Raid Array"
+msgstr "RAID tömb"
+
+#: yali/gui/Ui/createdevicewidget.py:154 yali/gui/ScrPartitionManual.py:168
+msgid "Requires at least 2 free Raid formatted partition"
+msgstr "Legalább két Raid partíció szükséges"
+
+#: yali/gui/Ui/datetimewidget.py:181
+msgid "Date"
+msgstr ""
+
+#: yali/gui/Ui/datetimewidget.py:182
+msgid "Time"
+msgstr ""
+
+#: yali/gui/Ui/datetimewidget.py:183
+msgid "Timezone"
+msgstr ""
+
+#: yali/gui/Ui/exception.py:72
+msgid "Unhandled exception occured"
+msgstr ""
+
+#: yali/gui/Ui/exception.py:73
+msgid ""
+"Please fill a bug report at http://bugs.pisilinux.org.tr/ attaching the "
+"following backtrace."
+msgstr ""
+
+#: yali/gui/Ui/exception.py:74 yali/gui/ScrCheckCD.py:101
+#: yali/storage/__init__.py:930
+msgid "Reboot"
+msgstr "Újraindítás"
+
+#: yali/gui/Ui/exception.py:75
+msgid "Show Backtrace"
+msgstr ""
+
+#: yali/gui/Ui/help.py:65
+msgid "help content"
+msgstr ""
+
+#: yali/gui/Ui/info.py:98
+msgid ""
+"Welcome to YALI (Yet Another Linux Installer), where you will have the "
+"opportunity to verify the installation medium, select your keyboard layout, "
+"choose your time-zone, create user accounts and prepare your disk - followed "
+"by a summary and final review before committing to the installation of Pisi "
+"Linux.\n"
+"Further information for each page of the installer may be viewed by clicking "
+"the question-mark icon at the top of its page. \n"
+"YALI was designed with ease of use in mind and should not pose a problem to "
+"the novice Linux user. As with all such procedures though, any valuable data "
+"on your system should be backed-up before commencing."
+msgstr ""
+
+#: yali/gui/Ui/installprogress.py:76
+msgid "Installing Package: "
+msgstr ""
+
+#: yali/gui/Ui/keyboardwidget.py:142
+#, fuzzy
+msgid "Keyboard Layouts"
+msgstr "Billentyűzet beállítások"
+
+#: yali/gui/Ui/keyboardwidget.py:143
+msgid "Test Layout"
+msgstr ""
+
+#: yali/gui/Ui/license.py:117
+msgid ""
+"<html><head/><body><p>Before installing Pisi Linux on your computer, please "
+"read and accept the terms of free / open source licenses of the softwares "
+"included in this installation medium. <a href=\"#\"><span style=\" text-"
+"decoration: underline; color:#56a2c0;\">License texts</span></a></p></body></"
+"html>"
+msgstr ""
+
+#: yali/gui/Ui/license.py:118
+msgid "I understand and accept the terms"
+msgstr ""
+
+#: yali/gui/Ui/logicalvolume.py:152
+#, fuzzy
+msgid "Logical Volume:"
+msgstr "Logikai kötet (LV)"
+
+#: yali/gui/Ui/logicalvolume.py:153 yali/gui/Ui/partedit.py:173
+#: yali/gui/Ui/partitionedit.py:153
+msgid "Use :"
+msgstr ""
+
+#: yali/gui/Ui/logicalvolume.py:154 yali/gui/Ui/partedit.py:174
+#: yali/gui/Ui/partitionedit.py:154 yali/gui/Ui/partition.py:153
+msgid "Size :"
+msgstr ""
+
+#: yali/gui/Ui/logicalvolume.py:155 yali/gui/Ui/logicalvolume.py:157
+#: yali/gui/Ui/partedit.py:175 yali/gui/Ui/partitionedit.py:155
+#: yali/gui/Ui/partition.py:154 yali/gui/Ui/partition.py:156
+#: yali/gui/Ui/partitionshrinkwidget.py:102 yali/gui/Ui/partresize.py:102
+msgid " MB"
+msgstr ""
+
+#: yali/gui/Ui/logicalvolume.py:156 yali/gui/Ui/partition.py:155
+#: yali/gui/Ui/partresize.py:104
+msgid "Resize"
+msgstr ""
+
+#: yali/gui/Ui/logicalvolume.py:158 yali/gui/Ui/partedit.py:178
+#: yali/gui/Ui/partitionedit.py:156 yali/gui/Ui/partition.py:159
+#, fuzzy
+msgid "File System :"
+msgstr "Fájlrendszer átméretezési hiba"
+
+#: yali/gui/Ui/logicalvolume.py:159 yali/gui/Ui/manualpartwidget.py:197
+#: yali/gui/Ui/partition.py:157 yali/gui/Ui/raid.py:117
+#: yali/gui/ScrPartitionManual.py:130 yali/storage/storageset.py:387
+msgid "Format"
+msgstr "Formázás"
+
+#: yali/gui/Ui/logicalvolume.py:160 yali/gui/Ui/partition.py:158
+#: yali/gui/Ui/raid.py:118
+msgid "Migrate"
+msgstr ""
+
+#: yali/gui/Ui/main.py:258
+msgid "Yali"
+msgstr ""
+
+#: yali/gui/Ui/main.py:259 yali/gui/YaliWindow.py:417
+msgid "Release Notes"
+msgstr "Kiadási megjegyzések"
+
+#: yali/gui/Ui/main.py:260
+msgid "Previous Screen"
+msgstr ""
+
+#: yali/gui/Ui/main.py:261
+#, fuzzy
+msgid "Back"
+msgstr "Vissza"
+
+#: yali/gui/Ui/main.py:262
+msgid "Next Screen"
+msgstr ""
+
+#: yali/gui/Ui/main.py:263 yali/gui/ScrSummary.py:59
+#: yali/gui/ScrSummary.py:211 yali/gui/ScrSummary.py:218
+msgid "Next"
+msgstr "Következő"
+
+#: yali/gui/Ui/manualpartwidget.py:193
+msgid "Device"
+msgstr ""
+
+#: yali/gui/Ui/manualpartwidget.py:194
+#, fuzzy
+msgid "Mount Point"
+msgstr "Csatolási pont hiba"
+
+#: yali/gui/Ui/manualpartwidget.py:195
+msgid "Label"
+msgstr ""
+
+#: yali/gui/Ui/manualpartwidget.py:196
+msgid "Type"
+msgstr ""
+
+#: yali/gui/Ui/manualpartwidget.py:198 yali/gui/Ui/volumegroup.py:126
+msgid "Size"
+msgstr ""
+
+#: yali/gui/Ui/manualpartwidget.py:199
+msgid "Create"
+msgstr ""
+
+#: yali/gui/Ui/manualpartwidget.py:200 yali/gui/Ui/setupuserswidget.py:511
+#: yali/gui/Ui/volumegroup.py:128
+msgid "Edit"
+msgstr ""
+
+#: yali/gui/Ui/manualpartwidget.py:201 yali/gui/Ui/setupuserswidget.py:512
+#: yali/gui/Ui/volumegroup.py:129 yali/gui/lvm_gui.py:552
+#: yali/storage/storageBackendHelpers.py:92
+#: yali/storage/storageBackendHelpers.py:296
+msgid "Delete"
+msgstr "Törlés"
+
+#: yali/gui/Ui/manualpartwidget.py:202
+msgid "Reset"
+msgstr ""
+
+#: yali/gui/Ui/partedit.py:176
+#, fuzzy
+msgid "Format :"
+msgstr "Formázás"
+
+#: yali/gui/Ui/partedit.py:177
+#, fuzzy
+msgid "Yes, format this partition"
+msgstr "LVM partíció létrehozása"
+
+#: yali/gui/Ui/partedit.py:179
+#, fuzzy
+msgid "Delete Partition"
+msgstr "Partíció módosítása"
+
+#: yali/gui/Ui/partedit.py:180
+#, fuzzy
+msgid "Resize Partition"
+msgstr "Partíció módosítása"
+
+#: yali/gui/Ui/partedit.py:181
+msgid "Changes will be applied after Summary Screen."
+msgstr ""
+
+#: yali/gui/Ui/partedit.py:182
+msgid "Refresh Disks"
+msgstr ""
+
+#: yali/gui/Ui/partedit.py:183
+#, fuzzy
+msgid "Reset All Changes"
+msgstr "Teljes terület használata"
+
+#: yali/gui/Ui/partedit.py:184
+msgid "Apply"
+msgstr ""
+
+#: yali/gui/Ui/partitionedit.py:157
+#, fuzzy
+msgid "Force to be primary partition"
+msgstr "LVM partíció létrehozása"
+
+#: yali/gui/Ui/partition.py:152 yali/gui/Ui/raid.py:115
+msgid "Use:"
+msgstr ""
+
+#: yali/gui/Ui/partition.py:160
+#, fuzzy
+msgid "Force to be a primary partition"
+msgstr "Raid partíció létrehozása"
+
+#: yali/gui/Ui/partitionshrink.py:73 yali/gui/Ui/partitionshrinkwidget.py:100
+msgid ""
+"Which partition would you like to shrink to make room for your installation?"
+msgstr ""
+
+#: yali/gui/Ui/partitionshrink.py:74
+msgid "Shrink partition to size (in MB)"
+msgstr ""
+
+#: yali/gui/Ui/partitionshrinkwidget.py:101
+msgid "Shrink partition to size (in MB) :"
+msgstr ""
+
+#: yali/gui/Ui/partitionshrinkwidget.py:103 yali/gui/Ui/partresize.py:103
+#: yali/gui/Ui/setupuserswidget.py:513 yali/gui/lvm_gui.py:418
+#: yali/gui/lvm_gui.py:465 yali/gui/lvm_gui.py:552
+#: yali/gui/ScrPartitionManual.py:114 yali/gui/ScrPartitionManual.py:130
+#: yali/gui/ScrPartitionManual.py:140 yali/gui/YaliDialog.py:220
+#: yali/storage/__init__.py:930 yali/storage/storageBackendHelpers.py:92
+#: yali/storage/storageBackendHelpers.py:296
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: yali/gui/Ui/partitionshrinkwidget.py:104
+msgid "Shrink"
+msgstr ""
+
+#: yali/gui/Ui/partresize.py:99
+msgid ""
+"Changes will be applied when you click \"Resize\". To cancel the changes, "
+"click <b>\"Cancel\".\n"
+"<br><br>\n"
+"Warning: A resizing operation may corrupt the partition, rendering the data "
+"on it unreachable. Make sure that you have backed up the data. Note that "
+"this operation cannot be undone.<b>"
+msgstr ""
+
+#: yali/gui/Ui/raid.py:114
+msgid "Raid Device:"
+msgstr ""
+
+#: yali/gui/Ui/raid.py:116
+msgid "Filesystem:"
+msgstr ""
+
+#: yali/gui/Ui/raid.py:119
+msgid "Raid Level:"
+msgstr ""
+
+#: yali/gui/Ui/raid.py:120
+#, fuzzy
+msgid "Raid Members:"
+msgstr "Érvénytelen Raid tagok"
+
+#: yali/gui/Ui/raid.py:121
+msgid "Number of spares:"
+msgstr ""
+
+#: yali/gui/Ui/rescuegrubwidget.py:118
+msgid "Select where to install the GRUB bootloader"
+msgstr ""
+
+#: yali/gui/Ui/rescuegrubwidget.py:119
+msgid "First bootable disk (recommended)"
+msgstr ""
+
+#: yali/gui/Ui/rescuegrubwidget.py:120
+msgid "Disk partition where Pisi Linux is installed"
+msgstr ""
+
+#: yali/gui/Ui/rescuegrubwidget.py:121
+msgid "Selected disk below"
+msgstr ""
+
+#: yali/gui/Ui/rescuepasswordwidget.py:136
+msgid "Choose the user you want to reset the password:"
+msgstr ""
+
+#: yali/gui/Ui/rescuepasswordwidget.py:137
+msgid "Password:"
+msgstr ""
+
+#: yali/gui/Ui/rescuepasswordwidget.py:138 yali/gui/Ui/setupuserswidget.py:504
+#, fuzzy
+msgid "Confirm Password"
+msgstr "Visszaállítás jóváhagyása"
+
+#: yali/gui/Ui/rescuepasswordwidget.py:139
+msgid "Reset Password"
+msgstr ""
+
+#: yali/gui/Ui/rescuepisiwidget.py:84
+msgid "<b>Connection status:</b>"
+msgstr ""
+
+#: yali/gui/Ui/rescuepisiwidget.py:85
+msgid ""
+"To use PiSi's history feature, you may need to be online. Select connection "
+"profile."
+msgstr ""
+
+#: yali/gui/Ui/rescuepisiwidget.py:86
+msgid "Select Connection"
+msgstr ""
+
+#: yali/gui/Ui/rescuepisiwidget.py:87
+msgid "Select the operation to undo:"
+msgstr ""
+
+#: yali/gui/Ui/rescuewidget.py:125
+msgid "Choose what do you want to do to repair your system"
+msgstr ""
+
+#: yali/gui/Ui/rescuewidget.py:126
+#, fuzzy
+msgid "Reinstall bootloader"
+msgstr "Rendszertöltő telepítése..."
+
+#: yali/gui/Ui/rescuewidget.py:127
+#, fuzzy
+msgid "Reset forgotten password"
+msgstr "Rendszergazda jelszó beállítása..."
+
+#: yali/gui/Ui/rescuewidget.py:128
+msgid "Return back to a previous system state"
+msgstr ""
+
+#: yali/gui/Ui/rootpasswidget.py:142
+msgid "Administrator password"
+msgstr ""
+
+#: yali/gui/Ui/rootpasswidget.py:143
+#, fuzzy
+msgid "Confirm password"
+msgstr "Visszaállítás jóváhagyása"
+
+#: yali/gui/Ui/rootpasswidget.py:144
+msgid "Computer Name"
+msgstr ""
+
+#: yali/gui/Ui/setupuserswidget.py:501
+msgid "User Name"
+msgstr ""
+
+#: yali/gui/Ui/setupuserswidget.py:502
+msgid "Real Name"
+msgstr ""
+
+#: yali/gui/Ui/setupuserswidget.py:503
+msgid "Password"
+msgstr ""
+
+#: yali/gui/Ui/setupuserswidget.py:505
+msgid "Custom User ID"
+msgstr ""
+
+#: yali/gui/Ui/setupuserswidget.py:506
+msgid "Not recommended"
+msgstr ""
+
+#: yali/gui/Ui/setupuserswidget.py:507
+msgid "Bypass authorization attempts for this user"
+msgstr ""
+
+#: yali/gui/Ui/setupuserswidget.py:508
+msgid "Add user to administrator (wheel) group"
+msgstr ""
+
+#: yali/gui/Ui/setupuserswidget.py:509
+msgid "Select auto login user"
+msgstr ""
+
+#: yali/gui/Ui/setupuserswidget.py:510 yali/gui/Ui/volumegroup.py:127
+#: yali/gui/ScrUsers.py:286 yali/gui/ScrUsers.py:329 yali/gui/ScrUsers.py:413
+msgid "Add"
+msgstr "Hozzáadás"
+
+#: yali/gui/Ui/setupuserswidget.py:514
+msgid "Advanced"
+msgstr ""
+
+#: yali/gui/Ui/volumegroup.py:119
+#, fuzzy
+msgid "Volume Group Name:"
+msgstr "VG"
+
+#: yali/gui/Ui/volumegroup.py:120
+#, fuzzy
+msgid "Physical Extends"
+msgstr "Fizikai kötet"
+
+#: yali/gui/Ui/volumegroup.py:121
+#, fuzzy
+msgid "Physical Volumes to use:"
+msgstr "Fizikai kötet"
+
+#: yali/gui/Ui/volumegroup.py:122
+msgid "Total Space:"
+msgstr ""
+
+#: yali/gui/Ui/volumegroup.py:123
+#, fuzzy
+msgid "Free Space:"
+msgstr "Szabad terület használata"
+
+#: yali/gui/Ui/volumegroup.py:124
+#, fuzzy
+msgid "Logical Volumes"
+msgstr "Logikai kötet (LV)"
+
+#: yali/gui/Ui/volumegroup.py:125
+#, fuzzy
+msgid "Mountpoint"
+msgstr "Csatolási pont használatban van"
+
+#: yali/gui/Ui/volumegroup.py:130
+#, fuzzy
+msgid "Used Space:"
+msgstr "Teljes terület használata"
+
+#: yali/gui/Ui/welcome.py:98
+msgid ""
+"Pisi Linux is installed and running successfully... \n"
+"\n"
+"Before you login to system, you need to create your first user and set the "
+"system wide configurations. "
+msgstr ""
 
 #: yali/gui/lvm_gui.py:48
 msgid "Not enough physical volumes"
@@ -96,14 +710,6 @@ msgstr ""
 "a fizikai extentek egész számú többszörösére változzon.\n"
 "\n"
 "A változtatás azonnal életbe lép."
-
-#: yali/gui/lvm_gui.py:418 yali/gui/lvm_gui.py:465 yali/gui/lvm_gui.py:552
-#: yali/gui/ScrPartitionManual.py:114 yali/gui/ScrPartitionManual.py:130
-#: yali/gui/ScrPartitionManual.py:140 yali/gui/YaliDialog.py:220
-#: yali/storage/__init__.py:930 yali/storage/storageBackendHelpers.py:92
-#: yali/storage/storageBackendHelpers.py:296
-msgid "Cancel"
-msgstr "Mégsem"
 
 #: yali/gui/lvm_gui.py:418 yali/gui/lvm_gui.py:465
 #: yali/gui/ScrPartitionManual.py:358 yali/gui/ScrRescuePassword.py:123
@@ -196,11 +802,6 @@ msgid ""
 "Are you sure you want to delete the \n"
 "logical volume \"%s\"?"
 msgstr "Biztosan törli a \"%s\" logikai kötetet?"
-
-#: yali/gui/lvm_gui.py:552 yali/storage/storageBackendHelpers.py:92
-#: yali/storage/storageBackendHelpers.py:296
-msgid "Delete"
-msgstr "Törlés"
 
 #: yali/gui/lvm_gui.py:582
 msgid "Make Logical Volume"
@@ -375,14 +976,6 @@ msgstr "A gépnév nem lehet 64 karakternél hosszabb."
 msgid "Hostname contains invalid characters."
 msgstr "A gépnév érvénytelen karaktereket tartalmaz."
 
-#: yali/gui/ScrBootloader.py:99
-msgid "The first sector of"
-msgstr "Első szektor"
-
-#: yali/gui/ScrCheckCD.py:62
-msgid "Validate"
-msgstr "Érvényesítés"
-
 #: yali/gui/ScrCheckCD.py:68
 msgid "Starting validation..."
 msgstr "Érvényesítés indítása..."
@@ -419,10 +1012,6 @@ msgstr "Érvényesítés kihagyása"
 #: yali/gui/ScrCheckCD.py:101
 msgid "Skip Package"
 msgstr "Csomag kihagyása"
-
-#: yali/gui/ScrCheckCD.py:101 yali/storage/__init__.py:930
-msgid "Reboot"
-msgstr "Újraindítás"
 
 #: yali/gui/ScrCheckCD.py:115
 msgid ""
@@ -628,10 +1217,6 @@ msgstr ""
 msgid "Format Warnings"
 msgstr "Formázási figyelmeztetés"
 
-#: yali/gui/ScrPartitionManual.py:130 yali/storage/storageset.py:387
-msgid "Format"
-msgstr "Formázás"
-
 #: yali/gui/ScrPartitionManual.py:138
 msgid "All Changes that you made will be removed"
 msgstr "Minden eddigi változtatás el lesz távolítva."
@@ -652,49 +1237,13 @@ msgstr "RAID"
 msgid "Partition"
 msgstr "Partíció"
 
-#: yali/gui/ScrPartitionManual.py:153
-msgid "General purpose of partition creation"
-msgstr "A partícionálás alapvető célja"
-
-#: yali/gui/ScrPartitionManual.py:155
-msgid "Physical Volume"
-msgstr "Fizikai kötet"
-
-#: yali/gui/ScrPartitionManual.py:156
-msgid "Create LVM formatted partition"
-msgstr "LVM partíció létrehozása"
-
-#: yali/gui/ScrPartitionManual.py:158
-msgid "Volume Group"
-msgstr "VG"
-
-#: yali/gui/ScrPartitionManual.py:159
-msgid "Requires at least 1 free LVM formatted partition"
-msgstr "Legalább egy szabad LVM formázott partíció szükséges"
-
-#: yali/gui/ScrPartitionManual.py:161
-msgid "Logical Volume"
-msgstr "Logikai kötet (LV)"
-
-#: yali/gui/ScrPartitionManual.py:162
-msgid "Create Logical Volume on selected Volume Group"
-msgstr "Logikai kötet létrehozása a kiválasztott VG-n"
-
 #: yali/gui/ScrPartitionManual.py:164
 msgid "Member"
 msgstr "Tag"
 
-#: yali/gui/ScrPartitionManual.py:165
-msgid "Create Raid formatted partition"
-msgstr "Raid partíció létrehozása"
-
 #: yali/gui/ScrPartitionManual.py:167
 msgid "Array"
 msgstr "Tömb"
-
-#: yali/gui/ScrPartitionManual.py:168
-msgid "Requires at least 2 free Raid formatted partition"
-msgstr "Legalább két Raid partíció szükséges"
 
 #: yali/gui/ScrPartitionManual.py:231
 msgid "Volume Groups"
@@ -849,11 +1398,6 @@ msgstr ""
 msgid "<b><p>Are you sure you want to restart the computer?</p></b>"
 msgstr "<b><p>Biztosan újraindítja a számítógépet?</p></b>"
 
-#: yali/gui/ScrSummary.py:59 yali/gui/ScrSummary.py:211
-#: yali/gui/ScrSummary.py:218
-msgid "Next"
-msgstr "Következő"
-
 #: yali/gui/ScrSummary.py:68
 #, python-format
 msgid "Installation starts in <b>%s</b> seconds"
@@ -947,10 +1491,6 @@ msgstr ""
 "A kiválasztott %s eszköz(ök) minden linux partíciója eltávolításra kerül. Az "
 "eszközön lévő más partíciók (pl. VFAT, FAT32) nem lesznek eltávolítva."
 
-#: yali/gui/ScrSummary.py:149
-msgid "Use Free Space"
-msgstr "Szabad terület használata"
-
 #: yali/gui/ScrSummary.py:150
 #, python-format
 msgid ""
@@ -1038,10 +1578,6 @@ msgstr "A teljes név érvénytelen karaktereket tartalmaz."
 #: yali/gui/ScrUsers.py:281
 msgid "User ID used before, choose another one!"
 msgstr "A felhasználó azonosító már foglalt, válasszon másikat."
-
-#: yali/gui/ScrUsers.py:286 yali/gui/ScrUsers.py:329 yali/gui/ScrUsers.py:413
-msgid "Add"
-msgstr "Hozzáadás"
 
 #: yali/gui/shrink_gui.py:23
 msgid "Partitions to Shrink"
@@ -1164,10 +1700,6 @@ msgstr "Tetris"
 #, python-format
 msgid "An error occurred when attempting to load screens:%s"
 msgstr ""
-
-#: yali/gui/YaliWindow.py:417
-msgid "Release Notes"
-msgstr "Kiadási megjegyzések"
 
 #: yali/gui/YaliWindow.py:440
 msgid "Release notes could not be loaded."

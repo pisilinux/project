@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-12 04:04+0200\n"
+"POT-Creation-Date: 2014-02-12 19:43+0200\n"
 "PO-Revision-Date: 2014-02-11 19:50+0000\n"
 "Last-Translator: groni_g g <groni3427@gmail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/PiSiLinux/"
@@ -21,6 +21,633 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: yali/gui/Ui/autopartquestion.py:91
+msgid ""
+"There appears to be more than one resizeable partition. You can select a "
+"partition from the list below or YALI will select one for you."
+msgstr ""
+"Es scheint mehr als eine Partition mit veränderbarer Größe zu sein. Sie "
+"können eine Partition aus der folgenden Liste wählen oder YALI wählt eine "
+"für Sie."
+
+#: yali/gui/Ui/autopartquestion.py:92 yali/gui/Ui/connectionlist.py:85
+#: yali/gui/Ui/dialog.py:78
+msgid "X"
+msgstr "X"
+
+#: yali/gui/Ui/autopartquestion.py:93
+msgid "Automatically choose the partition to resize (recommended)"
+msgstr ""
+"Wählen Sie die Partition automatisch, um seine Größe automatisch zu ändern "
+"(empfohlen)"
+
+#: yali/gui/Ui/autopartquestion.py:94
+msgid "I will choose the target"
+msgstr "Ich werde die Partition wählen"
+
+#: yali/gui/Ui/autopartquestion.py:95
+msgid "Use Selected"
+msgstr "Gewählte Partition verwenden"
+
+#: yali/gui/Ui/autopartwidget.py:169
+msgid "Use All Disk"
+msgstr "Alle Datenträger verwenden"
+
+#: yali/gui/Ui/autopartwidget.py:171
+msgid "Shrink Current System"
+msgstr "Aktuelle System verkleinern"
+
+#: yali/gui/Ui/autopartwidget.py:173 yali/gui/ScrSummary.py:149
+msgid "Use Free Space"
+msgstr "Verwende freien Speicherplatz"
+
+#: yali/gui/Ui/autopartwidget.py:175
+msgid "Manual Partitioning"
+msgstr "Manuelle Partitionierung"
+
+#: yali/gui/Ui/bootloaderwidget.py:138
+msgid "Advanced settings"
+msgstr "Fortgeschrittene Einstellungen"
+
+#: yali/gui/Ui/bootloaderwidget.py:139
+msgid "Default settings"
+msgstr "Standardeinstellungen"
+
+#: yali/gui/Ui/bootloaderwidget.py:140
+msgid "Don't install bootloader"
+msgstr "Bootmanager nicht installieren"
+
+#: yali/gui/Ui/bootloaderwidget.py:141 yali/gui/ScrBootloader.py:99
+msgid "The first sector of"
+msgstr "Der erste Sektor von"
+
+#: yali/gui/Ui/checkcdwidget.py:211
+msgid ""
+"You can validate the integrity of the installation packages. Although this "
+"is an optional step, we highly recommend to do the validation in order to "
+"avoid any possible errors during the installation process."
+msgstr ""
+"Sie können die Integrität der Installationspakete überprüfen. Obwohl dies "
+"ein optionaler Schritt ist, empfehlen wir ausdrücklich die Überprüfung um "
+"mögliche Fehler während der Installation zu vermeiden."
+
+#: yali/gui/Ui/checkcdwidget.py:212
+msgid "Validation failed"
+msgstr "Die Überprüfung ist gescheitert"
+
+#: yali/gui/Ui/checkcdwidget.py:213
+msgid "Validation succeeded"
+msgstr "Die Überprüfung ist erfolgreich"
+
+#: yali/gui/Ui/checkcdwidget.py:214 yali/gui/ScrCheckCD.py:62
+msgid "Validate"
+msgstr "Überprüfe"
+
+#: yali/gui/Ui/collectionitem.py:93
+msgid "Form"
+msgstr "Form"
+
+#: yali/gui/Ui/connectionlist.py:84
+msgid ""
+"To use PiSi History support, you may need to be online. You can use a "
+"connection profile from the list below:"
+msgstr ""
+"Um die PiSi Verlaufsunterstützung verwenden zu können, sollten Sie online "
+"sein. Sie können ein Verbindungsprofil aus der folgenden Liste verwenden:"
+
+#: yali/gui/Ui/connectionlist.py:86
+msgid "Connect"
+msgstr "Verbinden"
+
+#: yali/gui/Ui/createdevicewidget.py:143
+msgid "Standard Partition"
+msgstr "Standard Partition"
+
+#: yali/gui/Ui/createdevicewidget.py:144 yali/gui/ScrPartitionManual.py:153
+msgid "General purpose of partition creation"
+msgstr "Dient der Erstellung von Partitionen"
+
+#: yali/gui/Ui/createdevicewidget.py:145 yali/gui/ScrPartitionManual.py:158
+msgid "Volume Group"
+msgstr "Volume Gruppe"
+
+#: yali/gui/Ui/createdevicewidget.py:146 yali/gui/ScrPartitionManual.py:159
+msgid "Requires at least 1 free LVM formatted partition"
+msgstr "Benötigt zumindest 1 freie LVM formatierte Partition"
+
+#: yali/gui/Ui/createdevicewidget.py:147 yali/gui/ScrPartitionManual.py:161
+msgid "Logical Volume"
+msgstr "Logical Volume"
+
+#: yali/gui/Ui/createdevicewidget.py:148 yali/gui/ScrPartitionManual.py:162
+msgid "Create Logical Volume on selected Volume Group"
+msgstr "Logical Volume in der gewählten Volume-Gruppe erstellen"
+
+#: yali/gui/Ui/createdevicewidget.py:149 yali/gui/ScrPartitionManual.py:155
+msgid "Physical Volume"
+msgstr "Physical Volume"
+
+#: yali/gui/Ui/createdevicewidget.py:150 yali/gui/ScrPartitionManual.py:156
+msgid "Create LVM formatted partition"
+msgstr "Erstelle LVM formatierte Partition"
+
+#: yali/gui/Ui/createdevicewidget.py:151
+msgid "Raid Member"
+msgstr "RAID Mitglieder"
+
+#: yali/gui/Ui/createdevicewidget.py:152 yali/gui/ScrPartitionManual.py:165
+msgid "Create Raid formatted partition"
+msgstr "RAID formatierte Partition erstellen"
+
+#: yali/gui/Ui/createdevicewidget.py:153
+msgid "Raid Array"
+msgstr "RAID-Array"
+
+#: yali/gui/Ui/createdevicewidget.py:154 yali/gui/ScrPartitionManual.py:168
+msgid "Requires at least 2 free Raid formatted partition"
+msgstr "Benötigt mindestens 2 freie RAID formatierte Partitionen"
+
+#: yali/gui/Ui/datetimewidget.py:181
+msgid "Date"
+msgstr "Datum"
+
+#: yali/gui/Ui/datetimewidget.py:182
+msgid "Time"
+msgstr "Zeit"
+
+#: yali/gui/Ui/datetimewidget.py:183
+msgid "Timezone"
+msgstr "Zeitzone"
+
+#: yali/gui/Ui/exception.py:72
+msgid "Unhandled exception occured"
+msgstr "Unbehandelte Ausnahme ist aufgetreten"
+
+#: yali/gui/Ui/exception.py:73
+msgid ""
+"Please fill a bug report at http://bugs.pisilinux.org.tr/ attaching the "
+"following backtrace."
+msgstr ""
+"Bitte füllen Sie auf http://bugs.pisilinux.org.tr/ einen Fehlerbericht aus "
+"und fügen Sie die Fehlerausgabe ein."
+
+#: yali/gui/Ui/exception.py:74 yali/gui/ScrCheckCD.py:101
+#: yali/storage/__init__.py:930
+msgid "Reboot"
+msgstr "Neustart"
+
+#: yali/gui/Ui/exception.py:75
+msgid "Show Backtrace"
+msgstr "Die Fehlerausgabe anzeigen"
+
+#: yali/gui/Ui/help.py:65
+msgid "help content"
+msgstr "Hilfe "
+
+#: yali/gui/Ui/info.py:98
+msgid ""
+"Welcome to YALI (Yet Another Linux Installer), where you will have the "
+"opportunity to verify the installation medium, select your keyboard layout, "
+"choose your time-zone, create user accounts and prepare your disk - followed "
+"by a summary and final review before committing to the installation of Pisi "
+"Linux.\n"
+"Further information for each page of the installer may be viewed by clicking "
+"the question-mark icon at the top of its page. \n"
+"YALI was designed with ease of use in mind and should not pose a problem to "
+"the novice Linux user. As with all such procedures though, any valuable data "
+"on your system should be backed-up before commencing."
+msgstr ""
+"Willkommen in YALI (Yet Another Linux Installer), wo Sie die Möglichkeit "
+"haben, das Installationsmedium zu überprüfen, Ihr Tastaturlayout zu wählen, "
+"Ihre Zeitzone zu wählen, Benutzerkonten zu erstellen und Ihre Festplatte "
+"vorzubereiten - gefolgt von einer Zusammenfassung und abschließende "
+"Überprüfung vor der Installation von Pisi Linux.\n"
+"Weitere Informationen für jede Seite des Installationsprogramms können durch "
+"Klicken auf das Fragezeichen am oberen Rand der Seite aufgerufen werden.\n"
+"YALI wurde für Benutzerfreundlichkeit und einfacher Handhabung konzipiert "
+"und sollte kein Problem für den Einsteiger Linux-Benutzer darstellen. Wie "
+"bei allen solchen Prozeduren sollten  allerdings alle wichtigen Daten auf "
+"Ihrem System vor dem Beginn der Installation gesichert werden."
+
+#: yali/gui/Ui/installprogress.py:76
+msgid "Installing Package: "
+msgstr "Installation des Pakets:"
+
+#: yali/gui/Ui/keyboardwidget.py:142
+msgid "Keyboard Layouts"
+msgstr "Tastatureinstellungen"
+
+#: yali/gui/Ui/keyboardwidget.py:143
+msgid "Test Layout"
+msgstr "Einstellungen testen"
+
+#: yali/gui/Ui/license.py:117
+msgid ""
+"<html><head/><body><p>Before installing Pisi Linux on your computer, please "
+"read and accept the terms of free / open source licenses of the softwares "
+"included in this installation medium. <a href=\"#\"><span style=\" text-"
+"decoration: underline; color:#56a2c0;\">License texts</span></a></p></body></"
+"html>"
+msgstr ""
+"<html><head/><body><p>Bevor Sie Pisi Linux auf Ihrem Computer installieren, "
+"lesen und akzeptieren Sie bitte zuerst die Lizenzbedingungen der Free / Open "
+"Source Software auf diesem Installationsmedium. <a href=\"#\"><span style=\" "
+"text-decoration: underline; color:#56a2c0;\">Lizenztexte</span></a></p></"
+"body></html>"
+
+#: yali/gui/Ui/license.py:118
+msgid "I understand and accept the terms"
+msgstr "Ich verstehe und akzeptiere die Bedingungen"
+
+#: yali/gui/Ui/logicalvolume.py:152
+msgid "Logical Volume:"
+msgstr "Logical Volume:"
+
+#: yali/gui/Ui/logicalvolume.py:153 yali/gui/Ui/partedit.py:173
+#: yali/gui/Ui/partitionedit.py:153
+msgid "Use :"
+msgstr "Benutze"
+
+#: yali/gui/Ui/logicalvolume.py:154 yali/gui/Ui/partedit.py:174
+#: yali/gui/Ui/partitionedit.py:154 yali/gui/Ui/partition.py:153
+msgid "Size :"
+msgstr "Größe :"
+
+#: yali/gui/Ui/logicalvolume.py:155 yali/gui/Ui/logicalvolume.py:157
+#: yali/gui/Ui/partedit.py:175 yali/gui/Ui/partitionedit.py:155
+#: yali/gui/Ui/partition.py:154 yali/gui/Ui/partition.py:156
+#: yali/gui/Ui/partitionshrinkwidget.py:102 yali/gui/Ui/partresize.py:102
+msgid " MB"
+msgstr "MB"
+
+#: yali/gui/Ui/logicalvolume.py:156 yali/gui/Ui/partition.py:155
+#: yali/gui/Ui/partresize.py:104
+msgid "Resize"
+msgstr "Größe ändern"
+
+#: yali/gui/Ui/logicalvolume.py:158 yali/gui/Ui/partedit.py:178
+#: yali/gui/Ui/partitionedit.py:156 yali/gui/Ui/partition.py:159
+msgid "File System :"
+msgstr "Dateisystem :"
+
+#: yali/gui/Ui/logicalvolume.py:159 yali/gui/Ui/manualpartwidget.py:197
+#: yali/gui/Ui/partition.py:157 yali/gui/Ui/raid.py:117
+#: yali/gui/ScrPartitionManual.py:130 yali/storage/storageset.py:387
+msgid "Format"
+msgstr "Formatiere"
+
+#: yali/gui/Ui/logicalvolume.py:160 yali/gui/Ui/partition.py:158
+#: yali/gui/Ui/raid.py:118
+msgid "Migrate"
+msgstr "Migriere"
+
+#: yali/gui/Ui/main.py:258
+msgid "Yali"
+msgstr "Yali"
+
+#: yali/gui/Ui/main.py:259 yali/gui/YaliWindow.py:417
+msgid "Release Notes"
+msgstr "Release Notes"
+
+#: yali/gui/Ui/main.py:260
+msgid "Previous Screen"
+msgstr "Vorheriges Fenster"
+
+#: yali/gui/Ui/main.py:261
+msgid "Back"
+msgstr "Zurück"
+
+#: yali/gui/Ui/main.py:262
+msgid "Next Screen"
+msgstr "Nächstes Fenster"
+
+#: yali/gui/Ui/main.py:263 yali/gui/ScrSummary.py:59
+#: yali/gui/ScrSummary.py:211 yali/gui/ScrSummary.py:218
+msgid "Next"
+msgstr "Weiter"
+
+#: yali/gui/Ui/manualpartwidget.py:193
+msgid "Device"
+msgstr "Gerät"
+
+#: yali/gui/Ui/manualpartwidget.py:194
+msgid "Mount Point"
+msgstr "Einhängepunkt"
+
+#: yali/gui/Ui/manualpartwidget.py:195
+msgid "Label"
+msgstr "Bezeichnung"
+
+#: yali/gui/Ui/manualpartwidget.py:196
+msgid "Type"
+msgstr "Typ"
+
+#: yali/gui/Ui/manualpartwidget.py:198 yali/gui/Ui/volumegroup.py:126
+msgid "Size"
+msgstr "Größe"
+
+#: yali/gui/Ui/manualpartwidget.py:199
+msgid "Create"
+msgstr "Erstellen"
+
+#: yali/gui/Ui/manualpartwidget.py:200 yali/gui/Ui/setupuserswidget.py:511
+#: yali/gui/Ui/volumegroup.py:128
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: yali/gui/Ui/manualpartwidget.py:201 yali/gui/Ui/setupuserswidget.py:512
+#: yali/gui/Ui/volumegroup.py:129 yali/gui/lvm_gui.py:552
+#: yali/storage/storageBackendHelpers.py:92
+#: yali/storage/storageBackendHelpers.py:296
+msgid "Delete"
+msgstr "Löschen"
+
+#: yali/gui/Ui/manualpartwidget.py:202
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: yali/gui/Ui/partedit.py:176
+msgid "Format :"
+msgstr "Format :"
+
+#: yali/gui/Ui/partedit.py:177
+msgid "Yes, format this partition"
+msgstr "Ja, formatiere diese Partition"
+
+#: yali/gui/Ui/partedit.py:179
+msgid "Delete Partition"
+msgstr "Partition löschen"
+
+#: yali/gui/Ui/partedit.py:180
+msgid "Resize Partition"
+msgstr "Partitionsgröße ändern"
+
+#: yali/gui/Ui/partedit.py:181
+msgid "Changes will be applied after Summary Screen."
+msgstr ""
+"Nachdem Sie die Zusammenfassung akzeptiert haben, werden die Änderungen "
+"übernommen"
+
+#: yali/gui/Ui/partedit.py:182
+msgid "Refresh Disks"
+msgstr "Datenträger aktualisieren"
+
+#: yali/gui/Ui/partedit.py:183
+msgid "Reset All Changes"
+msgstr "Alle Änderungen zurücksetzen"
+
+#: yali/gui/Ui/partedit.py:184
+msgid "Apply"
+msgstr "Übernehmen"
+
+#: yali/gui/Ui/partitionedit.py:157
+msgid "Force to be primary partition"
+msgstr "Primäre Partition erzwingen"
+
+#: yali/gui/Ui/partition.py:152 yali/gui/Ui/raid.py:115
+msgid "Use:"
+msgstr "Benutze"
+
+#: yali/gui/Ui/partition.py:160
+msgid "Force to be a primary partition"
+msgstr "Primäre Partition erzwingen"
+
+#: yali/gui/Ui/partitionshrink.py:73 yali/gui/Ui/partitionshrinkwidget.py:100
+msgid ""
+"Which partition would you like to shrink to make room for your installation?"
+msgstr ""
+"Welche Partition wollen Sie verkleinern, um Platz für Ihre Installation zu "
+"machen?"
+
+#: yali/gui/Ui/partitionshrink.py:74
+msgid "Shrink partition to size (in MB)"
+msgstr "Verkleinern der Partition zu Größe (in MB)"
+
+#: yali/gui/Ui/partitionshrinkwidget.py:101
+msgid "Shrink partition to size (in MB) :"
+msgstr "Verkleinern der Partition zu Größe (in MB)"
+
+#: yali/gui/Ui/partitionshrinkwidget.py:103 yali/gui/Ui/partresize.py:103
+#: yali/gui/Ui/setupuserswidget.py:513 yali/gui/lvm_gui.py:418
+#: yali/gui/lvm_gui.py:465 yali/gui/lvm_gui.py:552
+#: yali/gui/ScrPartitionManual.py:114 yali/gui/ScrPartitionManual.py:130
+#: yali/gui/ScrPartitionManual.py:140 yali/gui/YaliDialog.py:220
+#: yali/storage/__init__.py:930 yali/storage/storageBackendHelpers.py:92
+#: yali/storage/storageBackendHelpers.py:296
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: yali/gui/Ui/partitionshrinkwidget.py:104
+msgid "Shrink"
+msgstr "Verkleinern"
+
+#: yali/gui/Ui/partresize.py:99
+msgid ""
+"Changes will be applied when you click \"Resize\". To cancel the changes, "
+"click <b>\"Cancel\".\n"
+"<br><br>\n"
+"Warning: A resizing operation may corrupt the partition, rendering the data "
+"on it unreachable. Make sure that you have backed up the data. Note that "
+"this operation cannot be undone.<b>"
+msgstr ""
+"Die Änderungen werden angewendet, nach dem Sie \"Größe ändern\" geklickt "
+"haben. Um abzubrechen, klicken Sie \"Abbrechen\".\n"
+"<br><br>\n"
+"<b>\n"
+"Warnung: Eine Größenänderung kann die Partition beschädigen und die Daten "
+"darauf können nicht mehr wiederhergestellt werden. Stellen Sie sicher, dass "
+"Sie die Daten gesichert haben. Vergessen Sie nicht, dass dieser Vorgang "
+"nicht rückgängig gemacht werden kann.\n"
+"<b>"
+
+#: yali/gui/Ui/raid.py:114
+msgid "Raid Device:"
+msgstr "RAID Gerät:"
+
+#: yali/gui/Ui/raid.py:116
+msgid "Filesystem:"
+msgstr "Dateisystem:"
+
+#: yali/gui/Ui/raid.py:119
+msgid "Raid Level:"
+msgstr "RAID Level:"
+
+#: yali/gui/Ui/raid.py:120
+msgid "Raid Members:"
+msgstr "RAID Mitglieder:"
+
+#: yali/gui/Ui/raid.py:121
+msgid "Number of spares:"
+msgstr "Anzahl der verfügbaren Reserve:"
+
+#: yali/gui/Ui/rescuegrubwidget.py:118
+msgid "Select where to install the GRUB bootloader"
+msgstr "Wählen Sie, wo der GRUB-Bootmanager installiert werden soll"
+
+#: yali/gui/Ui/rescuegrubwidget.py:119
+msgid "First bootable disk (recommended)"
+msgstr "Erste bootfähige Festplatte (empfohlen) "
+
+#: yali/gui/Ui/rescuegrubwidget.py:120
+msgid "Disk partition where Pisi Linux is installed"
+msgstr "Die Partition, auf der Pisi Linux installiert ist"
+
+#: yali/gui/Ui/rescuegrubwidget.py:121
+msgid "Selected disk below"
+msgstr "Folgende markierte Festplatte"
+
+#: yali/gui/Ui/rescuepasswordwidget.py:136
+msgid "Choose the user you want to reset the password:"
+msgstr ""
+"Wählen Sie den Benutzer aus, für dem Sie das Passwort zurücksetzen wollen:"
+
+#: yali/gui/Ui/rescuepasswordwidget.py:137
+msgid "Password:"
+msgstr "Passwort:"
+
+#: yali/gui/Ui/rescuepasswordwidget.py:138 yali/gui/Ui/setupuserswidget.py:504
+msgid "Confirm Password"
+msgstr "Passwort bestätigen"
+
+#: yali/gui/Ui/rescuepasswordwidget.py:139
+msgid "Reset Password"
+msgstr "Passwort zurücksetzen"
+
+#: yali/gui/Ui/rescuepisiwidget.py:84
+msgid "<b>Connection status:</b>"
+msgstr "<b>Verbindungsstatus:</b>"
+
+#: yali/gui/Ui/rescuepisiwidget.py:85
+msgid ""
+"To use PiSi's history feature, you may need to be online. Select connection "
+"profile."
+msgstr ""
+"Um PiSi's Verlauffunktion zu benutzen, müssen Sie online sein. Wählen Sie "
+"Ihr Verbindungsprofil."
+
+#: yali/gui/Ui/rescuepisiwidget.py:86
+msgid "Select Connection"
+msgstr "Wählen Sie die Verbindung aus"
+
+#: yali/gui/Ui/rescuepisiwidget.py:87
+msgid "Select the operation to undo:"
+msgstr "Wählen Sie den Vorgang aus, den Sie rückgängig machen möchten:"
+
+#: yali/gui/Ui/rescuewidget.py:125
+msgid "Choose what do you want to do to repair your system"
+msgstr ""
+"Wählen Sie die Option, die Sie durchführen möchten, um das System zu "
+"reparieren"
+
+#: yali/gui/Ui/rescuewidget.py:126
+msgid "Reinstall bootloader"
+msgstr "Bootloader neu installieren"
+
+#: yali/gui/Ui/rescuewidget.py:127
+msgid "Reset forgotten password"
+msgstr "vergessenes Passwort zurücksetzen"
+
+#: yali/gui/Ui/rescuewidget.py:128
+msgid "Return back to a previous system state"
+msgstr "Zu einem vorherigen Systemzustand zurückkehren"
+
+#: yali/gui/Ui/rootpasswidget.py:142
+msgid "Administrator password"
+msgstr "Administrator Passwort"
+
+#: yali/gui/Ui/rootpasswidget.py:143
+msgid "Confirm password"
+msgstr "Passwort bestätigen"
+
+#: yali/gui/Ui/rootpasswidget.py:144
+msgid "Computer Name"
+msgstr "Computername"
+
+#: yali/gui/Ui/setupuserswidget.py:501
+msgid "User Name"
+msgstr "Benutzername"
+
+#: yali/gui/Ui/setupuserswidget.py:502
+msgid "Real Name"
+msgstr "Ihr Name"
+
+#: yali/gui/Ui/setupuserswidget.py:503
+msgid "Password"
+msgstr "Passwort"
+
+#: yali/gui/Ui/setupuserswidget.py:505
+msgid "Custom User ID"
+msgstr "Individuelle Benutzer-ID"
+
+#: yali/gui/Ui/setupuserswidget.py:506
+msgid "Not recommended"
+msgstr "Nicht empfohlen"
+
+#: yali/gui/Ui/setupuserswidget.py:507
+msgid "Bypass authorization attempts for this user"
+msgstr "Bypass Berechtigungsversuche für diesen Benutzer"
+
+#: yali/gui/Ui/setupuserswidget.py:508
+msgid "Add user to administrator (wheel) group"
+msgstr "Füge den Benutzer zur Administratorgruppe (wheel) hinzu"
+
+#: yali/gui/Ui/setupuserswidget.py:509
+msgid "Select auto login user"
+msgstr "Wählen Sie den automatisch einzuloggenden Benutzer aus"
+
+#: yali/gui/Ui/setupuserswidget.py:510 yali/gui/Ui/volumegroup.py:127
+#: yali/gui/ScrUsers.py:286 yali/gui/ScrUsers.py:329 yali/gui/ScrUsers.py:413
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: yali/gui/Ui/setupuserswidget.py:514
+msgid "Advanced"
+msgstr "Erweitert"
+
+#: yali/gui/Ui/volumegroup.py:119
+msgid "Volume Group Name:"
+msgstr "Volume Gruppenname:"
+
+#: yali/gui/Ui/volumegroup.py:120
+msgid "Physical Extends"
+msgstr "Physikalisch Erweitert"
+
+#: yali/gui/Ui/volumegroup.py:121
+msgid "Physical Volumes to use:"
+msgstr "Physical Volumen zu benutzen:"
+
+#: yali/gui/Ui/volumegroup.py:122
+msgid "Total Space:"
+msgstr "Gesamtgröße:"
+
+#: yali/gui/Ui/volumegroup.py:123
+msgid "Free Space:"
+msgstr "Freie Speicherplatz:"
+
+#: yali/gui/Ui/volumegroup.py:124
+msgid "Logical Volumes"
+msgstr "Logische Volumen:"
+
+#: yali/gui/Ui/volumegroup.py:125
+msgid "Mountpoint"
+msgstr "Einhängepunkt:"
+
+#: yali/gui/Ui/volumegroup.py:130
+msgid "Used Space:"
+msgstr "Verwendeter Speicherplatz:"
+
+#: yali/gui/Ui/welcome.py:98
+msgid ""
+"Pisi Linux is installed and running successfully... \n"
+"\n"
+"Before you login to system, you need to create your first user and set the "
+"system wide configurations. "
+msgstr ""
+"Pisi Linux wurde  installiert und läuft erfolgreich...\n"
+"\n"
+"Bevor Sie sich ins System einloggen, müssen Sie zumindestens einen Benutzer "
+"anlegen und die systemweiten Einstellungen  konfigurieren."
 
 #: yali/gui/lvm_gui.py:48
 msgid "Not enough physical volumes"
@@ -105,14 +732,6 @@ msgstr ""
 "\n"
 "Diese Änderung wird sofort\n"
 "wirksam."
-
-#: yali/gui/lvm_gui.py:418 yali/gui/lvm_gui.py:465 yali/gui/lvm_gui.py:552
-#: yali/gui/ScrPartitionManual.py:114 yali/gui/ScrPartitionManual.py:130
-#: yali/gui/ScrPartitionManual.py:140 yali/gui/YaliDialog.py:220
-#: yali/storage/__init__.py:930 yali/storage/storageBackendHelpers.py:92
-#: yali/storage/storageBackendHelpers.py:296
-msgid "Cancel"
-msgstr "Abbrechen"
 
 #: yali/gui/lvm_gui.py:418 yali/gui/lvm_gui.py:465
 #: yali/gui/ScrPartitionManual.py:358 yali/gui/ScrRescuePassword.py:123
@@ -207,11 +826,6 @@ msgid ""
 msgstr ""
 "Wollen Sie wirklich das Logical Volume \n"
 " \"%s\" löschen?"
-
-#: yali/gui/lvm_gui.py:552 yali/storage/storageBackendHelpers.py:92
-#: yali/storage/storageBackendHelpers.py:296
-msgid "Delete"
-msgstr "Löschen"
 
 #: yali/gui/lvm_gui.py:582
 msgid "Make Logical Volume"
@@ -393,14 +1007,6 @@ msgstr "Der Hostname darf nicht länger als 64 Zeichen sein."
 msgid "Hostname contains invalid characters."
 msgstr "Der Hostname enthält unzulässige Zeichen."
 
-#: yali/gui/ScrBootloader.py:99
-msgid "The first sector of"
-msgstr "Der erste Sektor von"
-
-#: yali/gui/ScrCheckCD.py:62
-msgid "Validate"
-msgstr "Überprüfe"
-
 #: yali/gui/ScrCheckCD.py:68
 msgid "Starting validation..."
 msgstr "Starte Überprüfung..."
@@ -438,10 +1044,6 @@ msgstr "Überspringe Überprüfung"
 #: yali/gui/ScrCheckCD.py:101
 msgid "Skip Package"
 msgstr "Überspringe Paket"
-
-#: yali/gui/ScrCheckCD.py:101 yali/storage/__init__.py:930
-msgid "Reboot"
-msgstr "Neustart"
 
 #: yali/gui/ScrCheckCD.py:115
 msgid ""
@@ -657,10 +1259,6 @@ msgstr ""
 msgid "Format Warnings"
 msgstr "Formatierungs Warnungen"
 
-#: yali/gui/ScrPartitionManual.py:130 yali/storage/storageset.py:387
-msgid "Format"
-msgstr "Formatiere"
-
 #: yali/gui/ScrPartitionManual.py:138
 msgid "All Changes that you made will be removed"
 msgstr "Alle Änderungen die Sie gemacht haben werden rückgängig gemacht"
@@ -681,49 +1279,13 @@ msgstr "RAID"
 msgid "Partition"
 msgstr "Partition"
 
-#: yali/gui/ScrPartitionManual.py:153
-msgid "General purpose of partition creation"
-msgstr "Dient der Erstellung von Partitionen"
-
-#: yali/gui/ScrPartitionManual.py:155
-msgid "Physical Volume"
-msgstr "Physical Volume"
-
-#: yali/gui/ScrPartitionManual.py:156
-msgid "Create LVM formatted partition"
-msgstr "Erstelle LVM formatierte Partition"
-
-#: yali/gui/ScrPartitionManual.py:158
-msgid "Volume Group"
-msgstr "Volume Gruppe"
-
-#: yali/gui/ScrPartitionManual.py:159
-msgid "Requires at least 1 free LVM formatted partition"
-msgstr "Benötigt zumindest 1 freie LVM formatierte Partition"
-
-#: yali/gui/ScrPartitionManual.py:161
-msgid "Logical Volume"
-msgstr "Logical Volume"
-
-#: yali/gui/ScrPartitionManual.py:162
-msgid "Create Logical Volume on selected Volume Group"
-msgstr "Logical Volume in der gewählten Volume-Gruppe erstellen"
-
 #: yali/gui/ScrPartitionManual.py:164
 msgid "Member"
 msgstr "Mitglied"
 
-#: yali/gui/ScrPartitionManual.py:165
-msgid "Create Raid formatted partition"
-msgstr "RAID formatierte Partition erstellen"
-
 #: yali/gui/ScrPartitionManual.py:167
 msgid "Array"
 msgstr "Array"
-
-#: yali/gui/ScrPartitionManual.py:168
-msgid "Requires at least 2 free Raid formatted partition"
-msgstr "Benötigt mindestens 2 freie RAID formatierte Partitionen"
 
 #: yali/gui/ScrPartitionManual.py:231
 msgid "Volume Groups"
@@ -884,11 +1446,6 @@ msgstr ""
 msgid "<b><p>Are you sure you want to restart the computer?</p></b>"
 msgstr "<b><p>Wollen Sie den Computer wirklich neu starten?</p></b>"
 
-#: yali/gui/ScrSummary.py:59 yali/gui/ScrSummary.py:211
-#: yali/gui/ScrSummary.py:218
-msgid "Next"
-msgstr "Weiter"
-
 #: yali/gui/ScrSummary.py:68
 #, python-format
 msgid "Installation starts in <b>%s</b> seconds"
@@ -983,10 +1540,6 @@ msgstr ""
 "Entfernt alle Linuxpartitionen auf dem gewählten %s Gerät(en). Diese "
 "Einstellung entfernt jedoch nicht andere vorhandene Partitionen auf dem "
 "Speichergerät (z.B. VFAT, FAT32)."
-
-#: yali/gui/ScrSummary.py:149
-msgid "Use Free Space"
-msgstr "Verwende freien Speicherplatz"
 
 #: yali/gui/ScrSummary.py:150
 #, python-format
@@ -1086,10 +1639,6 @@ msgstr "Der Name enthält unzulässige Zeichen."
 #: yali/gui/ScrUsers.py:281
 msgid "User ID used before, choose another one!"
 msgstr "Die Benutzer-ID ist bereits vergeben, bitte eine andere ID wählen!"
-
-#: yali/gui/ScrUsers.py:286 yali/gui/ScrUsers.py:329 yali/gui/ScrUsers.py:413
-msgid "Add"
-msgstr "Hinzufügen"
 
 #: yali/gui/shrink_gui.py:23
 msgid "Partitions to Shrink"
@@ -1213,10 +1762,6 @@ msgstr "Tetris"
 #, python-format
 msgid "An error occurred when attempting to load screens:%s"
 msgstr "Bei dem Versuch den Bildschirm zu laden ist ein Fehler aufgetreten:%s"
-
-#: yali/gui/YaliWindow.py:417
-msgid "Release Notes"
-msgstr "Release Notes"
 
 #: yali/gui/YaliWindow.py:440
 msgid "Release notes could not be loaded."
@@ -2260,422 +2805,3 @@ msgstr "Releasedatei ist fehlerhaft"
 #: yali/util.py:532 yali/util.py:575
 msgid "Invalid xml file"
 msgstr "Ungültige XML-Datei"
-
-#~ msgid ""
-#~ "There appears to be more than one resizeable partition. You can select a "
-#~ "partition from the list below or YALI will select one for you."
-#~ msgstr ""
-#~ "Es scheint mehr als eine Partition mit veränderbarer Größe zu sein. Sie "
-#~ "können eine Partition aus der folgenden Liste wählen oder YALI wählt eine "
-#~ "für Sie."
-
-#~ msgid "X"
-#~ msgstr "X"
-
-#~ msgid "Automatically choose the partition to resize (recommended)"
-#~ msgstr ""
-#~ "Wählen Sie die Partition automatisch, um seine Größe automatisch zu "
-#~ "ändern (empfohlen)"
-
-#~ msgid "I will choose the target"
-#~ msgstr "Ich werde die Partition wählen"
-
-#~ msgid "Use Selected"
-#~ msgstr "Gewählte Partition verwenden"
-
-#~ msgid "Use All Disk"
-#~ msgstr "Alle Datenträger verwenden"
-
-#~ msgid "Shrink Current System"
-#~ msgstr "Aktuelle System verkleinern"
-
-#~ msgid "Manual Partitioning"
-#~ msgstr "Manuelle Partitionierung"
-
-#~ msgid "Advanced settings"
-#~ msgstr "Fortgeschrittene Einstellungen"
-
-#~ msgid "Default settings"
-#~ msgstr "Standardeinstellungen"
-
-#~ msgid "Don't install bootloader"
-#~ msgstr "Bootmanager nicht installieren"
-
-#~ msgid ""
-#~ "You can validate the integrity of the installation packages. Although "
-#~ "this is an optional step, we highly recommend to do the validation in "
-#~ "order to avoid any possible errors during the installation process."
-#~ msgstr ""
-#~ "Sie können die Integrität der Installationspakete überprüfen. Obwohl dies "
-#~ "ein optionaler Schritt ist, empfehlen wir ausdrücklich die Überprüfung um "
-#~ "mögliche Fehler während der Installation zu vermeiden."
-
-#~ msgid "Validation failed"
-#~ msgstr "Die Überprüfung ist gescheitert"
-
-#~ msgid "Validation succeeded"
-#~ msgstr "Die Überprüfung ist erfolgreich"
-
-#~ msgid "Form"
-#~ msgstr "Form"
-
-#~ msgid ""
-#~ "To use PiSi History support, you may need to be online. You can use a "
-#~ "connection profile from the list below:"
-#~ msgstr ""
-#~ "Um die PiSi Verlaufsunterstützung verwenden zu können, sollten Sie online "
-#~ "sein. Sie können ein Verbindungsprofil aus der folgenden Liste verwenden:"
-
-#~ msgid "Connect"
-#~ msgstr "Verbinden"
-
-#~ msgid "Standard Partition"
-#~ msgstr "Standard Partition"
-
-#~ msgid "Raid Member"
-#~ msgstr "RAID Mitglieder"
-
-#~ msgid "Raid Array"
-#~ msgstr "RAID-Array"
-
-#~ msgid "Date"
-#~ msgstr "Datum"
-
-#~ msgid "Time"
-#~ msgstr "Zeit"
-
-#~ msgid "Timezone"
-#~ msgstr "Zeitzone"
-
-#~ msgid "Unhandled exception occured"
-#~ msgstr "Unbehandelte Ausnahme ist aufgetreten"
-
-#~ msgid ""
-#~ "Please fill a bug report at http://bugs.pisilinux.org.tr/ attaching the "
-#~ "following backtrace."
-#~ msgstr ""
-#~ "Bitte füllen Sie auf http://bugs.pisilinux.org.tr/ einen Fehlerbericht "
-#~ "aus und fügen Sie die Fehlerausgabe ein."
-
-#~ msgid "Show Backtrace"
-#~ msgstr "Die Fehlerausgabe anzeigen"
-
-#~ msgid "help content"
-#~ msgstr "Hilfe "
-
-#~ msgid ""
-#~ "Welcome to YALI (Yet Another Linux Installer), where you will have the "
-#~ "opportunity to verify the installation medium, select your keyboard "
-#~ "layout, choose your time-zone, create user accounts and prepare your disk "
-#~ "- followed by a summary and final review before committing to the "
-#~ "installation of Pisi Linux.\n"
-#~ "Further information for each page of the installer may be viewed by "
-#~ "clicking the question-mark icon at the top of its page. \n"
-#~ "YALI was designed with ease of use in mind and should not pose a problem "
-#~ "to the novice Linux user. As with all such procedures though, any "
-#~ "valuable data on your system should be backed-up before commencing."
-#~ msgstr ""
-#~ "Willkommen in YALI (Yet Another Linux Installer), wo Sie die Möglichkeit "
-#~ "haben, das Installationsmedium zu überprüfen, Ihr Tastaturlayout zu "
-#~ "wählen, Ihre Zeitzone zu wählen, Benutzerkonten zu erstellen und Ihre "
-#~ "Festplatte vorzubereiten - gefolgt von einer Zusammenfassung und "
-#~ "abschließende Überprüfung vor der Installation von Pisi Linux.\n"
-#~ "Weitere Informationen für jede Seite des Installationsprogramms können "
-#~ "durch Klicken auf das Fragezeichen am oberen Rand der Seite aufgerufen "
-#~ "werden.\n"
-#~ "YALI wurde für Benutzerfreundlichkeit und einfacher Handhabung konzipiert "
-#~ "und sollte kein Problem für den Einsteiger Linux-Benutzer darstellen. Wie "
-#~ "bei allen solchen Prozeduren sollten  allerdings alle wichtigen Daten auf "
-#~ "Ihrem System vor dem Beginn der Installation gesichert werden."
-
-#~ msgid "Installing Package: "
-#~ msgstr "Installation des Pakets:"
-
-#~ msgid "Keyboard Layouts"
-#~ msgstr "Tastatureinstellungen"
-
-#~ msgid "Test Layout"
-#~ msgstr "Einstellungen testen"
-
-#~ msgid ""
-#~ "<html><head/><body><p>Before installing Pisi Linux on your computer, "
-#~ "please read and accept the terms of free / open source licenses of the "
-#~ "softwares included in this installation medium. <a href=\"#\"><span style="
-#~ "\" text-decoration: underline; color:#56a2c0;\">License texts</span></a></"
-#~ "p></body></html>"
-#~ msgstr ""
-#~ "<html><head/><body><p>Bevor Sie Pisi Linux auf Ihrem Computer "
-#~ "installieren, lesen und akzeptieren Sie bitte zuerst die "
-#~ "Lizenzbedingungen der Free / Open Source Software auf diesem "
-#~ "Installationsmedium. <a href=\"#\"><span style=\" text-decoration: "
-#~ "underline; color:#56a2c0;\">Lizenztexte</span></a></p></body></html>"
-
-#~ msgid "I understand and accept the terms"
-#~ msgstr "Ich verstehe und akzeptiere die Bedingungen"
-
-#~ msgid "Logical Volume:"
-#~ msgstr "Logical Volume:"
-
-#~ msgid "Use :"
-#~ msgstr "Benutze"
-
-#~ msgid "Size :"
-#~ msgstr "Größe :"
-
-#~ msgid " MB"
-#~ msgstr "MB"
-
-#~ msgid "Resize"
-#~ msgstr "Größe ändern"
-
-#~ msgid "File System :"
-#~ msgstr "Dateisystem :"
-
-#~ msgid "Migrate"
-#~ msgstr "Migriere"
-
-#~ msgid "Yali"
-#~ msgstr "Yali"
-
-#~ msgid "Previous Screen"
-#~ msgstr "Vorheriges Fenster"
-
-#~ msgid "Back"
-#~ msgstr "Zurück"
-
-#~ msgid "Next Screen"
-#~ msgstr "Nächstes Fenster"
-
-#~ msgid "Device"
-#~ msgstr "Gerät"
-
-#~ msgid "Mount Point"
-#~ msgstr "Einhängepunkt"
-
-#~ msgid "Label"
-#~ msgstr "Bezeichnung"
-
-#~ msgid "Type"
-#~ msgstr "Typ"
-
-#~ msgid "Size"
-#~ msgstr "Größe"
-
-#~ msgid "Create"
-#~ msgstr "Erstellen"
-
-#~ msgid "Edit"
-#~ msgstr "Bearbeiten"
-
-#~ msgid "Reset"
-#~ msgstr "Zurücksetzen"
-
-#~ msgid "Format :"
-#~ msgstr "Format :"
-
-#~ msgid "Yes, format this partition"
-#~ msgstr "Ja, formatiere diese Partition"
-
-#~ msgid "Delete Partition"
-#~ msgstr "Partition löschen"
-
-#~ msgid "Resize Partition"
-#~ msgstr "Partitionsgröße ändern"
-
-#~ msgid "Changes will be applied after Summary Screen."
-#~ msgstr ""
-#~ "Nachdem Sie die Zusammenfassung akzeptiert haben, werden die Änderungen "
-#~ "übernommen"
-
-#~ msgid "Refresh Disks"
-#~ msgstr "Datenträger aktualisieren"
-
-#~ msgid "Reset All Changes"
-#~ msgstr "Alle Änderungen zurücksetzen"
-
-#~ msgid "Apply"
-#~ msgstr "Übernehmen"
-
-#~ msgid "Force to be primary partition"
-#~ msgstr "Primäre Partition erzwingen"
-
-#~ msgid "Use:"
-#~ msgstr "Benutze"
-
-#~ msgid "Force to be a primary partition"
-#~ msgstr "Primäre Partition erzwingen"
-
-#~ msgid ""
-#~ "Which partition would you like to shrink to make room for your "
-#~ "installation?"
-#~ msgstr ""
-#~ "Welche Partition wollen Sie verkleinern, um Platz für Ihre Installation "
-#~ "zu machen?"
-
-#~ msgid "Shrink partition to size (in MB)"
-#~ msgstr "Verkleinern der Partition zu Größe (in MB)"
-
-#~ msgid "Shrink partition to size (in MB) :"
-#~ msgstr "Verkleinern der Partition zu Größe (in MB)"
-
-#~ msgid "Shrink"
-#~ msgstr "Verkleinern"
-
-#~ msgid ""
-#~ "Changes will be applied when you click \"Resize\". To cancel the changes, "
-#~ "click <b>\"Cancel\".\n"
-#~ "<br><br>\n"
-#~ "Warning: A resizing operation may corrupt the partition, rendering the "
-#~ "data on it unreachable. Make sure that you have backed up the data. Note "
-#~ "that this operation cannot be undone.<b>"
-#~ msgstr ""
-#~ "Die Änderungen werden angewendet, nach dem Sie \"Größe ändern\" geklickt "
-#~ "haben. Um abzubrechen, klicken Sie \"Abbrechen\".\n"
-#~ "<br><br>\n"
-#~ "<b>\n"
-#~ "Warnung: Eine Größenänderung kann die Partition beschädigen und die Daten "
-#~ "darauf können nicht mehr wiederhergestellt werden. Stellen Sie sicher, "
-#~ "dass Sie die Daten gesichert haben. Vergessen Sie nicht, dass dieser "
-#~ "Vorgang nicht rückgängig gemacht werden kann.\n"
-#~ "<b>"
-
-#~ msgid "Raid Device:"
-#~ msgstr "RAID Gerät:"
-
-#~ msgid "Filesystem:"
-#~ msgstr "Dateisystem:"
-
-#~ msgid "Raid Level:"
-#~ msgstr "RAID Level:"
-
-#~ msgid "Raid Members:"
-#~ msgstr "RAID Mitglieder:"
-
-#~ msgid "Number of spares:"
-#~ msgstr "Anzahl der verfügbaren Reserve:"
-
-#~ msgid "Select where to install the GRUB bootloader"
-#~ msgstr "Wählen Sie, wo der GRUB-Bootmanager installiert werden soll"
-
-#~ msgid "First bootable disk (recommended)"
-#~ msgstr "Erste bootfähige Festplatte (empfohlen) "
-
-#~ msgid "Disk partition where Pisi Linux is installed"
-#~ msgstr "Die Partition, auf der Pisi Linux installiert ist"
-
-#~ msgid "Selected disk below"
-#~ msgstr "Folgende markierte Festplatte"
-
-#~ msgid "Choose the user you want to reset the password:"
-#~ msgstr ""
-#~ "Wählen Sie den Benutzer aus, für dem Sie das Passwort zurücksetzen wollen:"
-
-#~ msgid "Password:"
-#~ msgstr "Passwort:"
-
-#~ msgid "Confirm Password"
-#~ msgstr "Passwort bestätigen"
-
-#~ msgid "Reset Password"
-#~ msgstr "Passwort zurücksetzen"
-
-#~ msgid "<b>Connection status:</b>"
-#~ msgstr "<b>Verbindungsstatus:</b>"
-
-#~ msgid ""
-#~ "To use PiSi's history feature, you may need to be online. Select "
-#~ "connection profile."
-#~ msgstr ""
-#~ "Um PiSi's Verlauffunktion zu benutzen, müssen Sie online sein. Wählen Sie "
-#~ "Ihr Verbindungsprofil."
-
-#~ msgid "Select Connection"
-#~ msgstr "Wählen Sie die Verbindung aus"
-
-#~ msgid "Select the operation to undo:"
-#~ msgstr "Wählen Sie den Vorgang aus, den Sie rückgängig machen möchten:"
-
-#~ msgid "Choose what do you want to do to repair your system"
-#~ msgstr ""
-#~ "Wählen Sie die Option, die Sie durchführen möchten, um das System zu "
-#~ "reparieren"
-
-#~ msgid "Reinstall bootloader"
-#~ msgstr "Bootloader neu installieren"
-
-#~ msgid "Reset forgotten password"
-#~ msgstr "vergessenes Passwort zurücksetzen"
-
-#~ msgid "Return back to a previous system state"
-#~ msgstr "Zu einem vorherigen Systemzustand zurückkehren"
-
-#~ msgid "Administrator password"
-#~ msgstr "Administrator Passwort"
-
-#~ msgid "Confirm password"
-#~ msgstr "Passwort bestätigen"
-
-#~ msgid "Computer Name"
-#~ msgstr "Computername"
-
-#~ msgid "User Name"
-#~ msgstr "Benutzername"
-
-#~ msgid "Real Name"
-#~ msgstr "Ihr Name"
-
-#~ msgid "Password"
-#~ msgstr "Passwort"
-
-#~ msgid "Custom User ID"
-#~ msgstr "Individuelle Benutzer-ID"
-
-#~ msgid "Not recommended"
-#~ msgstr "Nicht empfohlen"
-
-#~ msgid "Bypass authorization attempts for this user"
-#~ msgstr "Bypass Berechtigungsversuche für diesen Benutzer"
-
-#~ msgid "Add user to administrator (wheel) group"
-#~ msgstr "Füge den Benutzer zur Administratorgruppe (wheel) hinzu"
-
-#~ msgid "Select auto login user"
-#~ msgstr "Wählen Sie den automatisch einzuloggenden Benutzer aus"
-
-#~ msgid "Advanced"
-#~ msgstr "Erweitert"
-
-#~ msgid "Volume Group Name:"
-#~ msgstr "Volume Gruppenname:"
-
-#~ msgid "Physical Extends"
-#~ msgstr "Physikalisch Erweitert"
-
-#~ msgid "Physical Volumes to use:"
-#~ msgstr "Physical Volumen zu benutzen:"
-
-#~ msgid "Total Space:"
-#~ msgstr "Gesamtgröße:"
-
-#~ msgid "Free Space:"
-#~ msgstr "Freie Speicherplatz:"
-
-#~ msgid "Logical Volumes"
-#~ msgstr "Logische Volumen:"
-
-#~ msgid "Mountpoint"
-#~ msgstr "Einhängepunkt:"
-
-#~ msgid "Used Space:"
-#~ msgstr "Verwendeter Speicherplatz:"
-
-#~ msgid ""
-#~ "Pisi Linux is installed and running successfully... \n"
-#~ "\n"
-#~ "Before you login to system, you need to create your first user and set "
-#~ "the system wide configurations. "
-#~ msgstr ""
-#~ "Pisi Linux wurde  installiert und läuft erfolgreich...\n"
-#~ "\n"
-#~ "Bevor Sie sich ins System einloggen, müssen Sie zumindestens einen "
-#~ "Benutzer anlegen und die systemweiten Einstellungen  konfigurieren."
