@@ -64,7 +64,7 @@ class Xfce(DefaultDe):
     ConfigPath           = '$HOME/.config/xfce4/'
     ConfigFile           = 'xfconf/xfce-perchannel-xml/xsettings.xml'
     ConfigType           = 'xml'
-    DefaultIconTheme     = 'hicolor'
+    DefaultIconTheme     = 'Faenza'
     DefaultConfigPath    = '/etc/xdg/xfce4/%s' % ConfigFile
     IconKey              = 'IconThemeName'
 
@@ -74,7 +74,7 @@ class Enlightenment(DefaultDe):
     ConfigPath           = '$HOME/.e/e/'
     ConfigFile           = 'config/standard/e.cfg'
     ConfigType           = 'env'
-    DefaultIconTheme     = 'hicolor'
+    DefaultIconTheme     = 'Faenza'
     IconKey              = 'E_ICON_THEME'
 
 class LXDE(DefaultDe):
@@ -83,9 +83,9 @@ class LXDE(DefaultDe):
     ConfigPath           = '$HOME/.config'
     ConfigFile           = ''
     ConfigType           = None
-    DefaultIconTheme     = 'oxygen'
+    DefaultIconTheme     = 'Faenza'
     IconKey              = 'theme/name'
-    DefaultIconFile      = '/usr/share/icons/lxde_pardus2011_menu.png'
+    DefaultIconFile      = '/usr/share/lxde/images/pisilinuxLogo.png'
 
 class Fluxbox(DefaultDe):
     Name                 = 'fluxbox'
@@ -93,7 +93,7 @@ class Fluxbox(DefaultDe):
     ConfigPath           = '$HOME/.config'
     ConfigFile           = ''
     ConfigType           = None
-    DefaultIconTheme     = 'oxygen'
+    DefaultIconTheme     = 'Faenza'
 
 class Gnome(DefaultDe):
     Name                 = 'gnome'
@@ -113,3 +113,10 @@ class Gnome3(DefaultDe):
     ConfigType           = None
     DefaultIconTheme     = 'oxygen'
 
+class Mate(DefaultDe):
+    Name                 = 'mate'
+    Version              = '1.61'
+    ConfigPath           = '$HOME/.config/mate'
+    ConfigFile           = ''
+    ConfigType           = None
+    DefaultIconTheme     = 'matefaenza'

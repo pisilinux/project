@@ -14,8 +14,9 @@
 
 # Pardus Desktop Services
 from os import path
-from os import getenv
 from os import popen
+from os import getenv
+from os import environ
 
 import piksemel
 import gettext
@@ -32,7 +33,7 @@ from pds.environments import *
 class Pds:
 
     SupportedDesktops = (DefaultDe, Kde4, Kde3, Xfce, Enlightenment, LXDE,
-                        Fluxbox, Gnome, Gnome3)
+                        Fluxbox, Gnome, Gnome3, Mate)
 
     def __init__(self, catalogName='', debug=False):
         self._session           = None
@@ -148,12 +149,19 @@ class Pds:
     def session(self):
         if not self._session:
             env = getenv('DESKTOP_SESSION')
-            if env == 'default' or not env or env == 'gnome':
+            if not env:
+                for var in list(environ.keys()):
+                    v = var.split('_')
+                    if len(v) < 2: continue
+                    elif v[1] == 'DESKTOP':
+                        env = v[0].lower()
+                        break
+            elif env == 'default' or env == 'gnome':
                 session = readfile('/etc/default/desktop', DefaultDe.Name)
                 env     = session.split('=')[1].strip()
             for de in Pds.SupportedDesktops:
                 if env:
-                    if env in de.SessionTypes or env == de.Name:
+                    if env in de.SessionTypes or env.lower() == de.Name.lower():
                         self._session = de
                 else:
                     if de.VersionKey:
