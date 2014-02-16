@@ -1,0 +1,146 @@
+# translation of po-file for firewall-manager into german
+# Firewall Manager.
+# Copyright (C) 2006-2009, TÜBİTAK/UEKAE
+# This file is distributed under the same license as the Firewall Manager package.
+# 
+# Stefan <sw1976de at googlemail dot com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: es\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-16 00:19+0300\n"
+"PO-Revision-Date: 2009-07-09 00:30+0100\n"
+"Last-Translator: Stefan <sw1976de@googlemail.com>\n"
+"Language-Team: Deutsch <pardus-translation-de@pardus.org.tr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: data/firewall-manager.desktop.in.h:1
+msgid "An application for managing firewall."
+msgstr "Konfiguration der Firewall."
+
+#: data/firewall-manager.desktop.in.h:2
+#: data/kcm_firewall-manager.desktop.in.h:1
+msgid "Firewall Manager"
+msgstr "Firewall"
+
+#: src/firewallmanager/about.py:26
+msgid "(c) 2006-2010 TUBITAK/UEKAE"
+msgstr "(c) 2006-2010 TUBITAK/UEKAE"
+
+#: src/firewallmanager/about.py:34
+msgid "Gökmen Göksel"
+msgstr "Gökmen Göksel"
+
+#: src/firewallmanager/about.py:34
+msgid "Current Maintainer"
+msgstr "Aktueller Betreuer"
+
+#: src/firewallmanager/about.py:35
+msgid "Bahadır Kandemir"
+msgstr "Bahadır Kandemir"
+
+#: src/firewallmanager/about.py:35
+msgid "First Developer"
+msgstr "Hauptentwickler"
+
+#: src/firewallmanager/about.py:36
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Stefan Wilhelm"
+
+#: src/firewallmanager/about.py:36
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sw@pardususer.de"
+
+#: src/firewallmanager/main.py:96
+msgid ""
+"There are no packages that provide backend for this application.\n"
+"Please make sure that packages are installed and configured correctly."
+msgstr ""
+"Für das Backend dieser Applikation sind keine Pakete vorhanden.\n"
+"Bitte stellen Sie sicher, dass die erforderlichen Pakete installiert und korrekt konfiguriert sind."
+
+#: src/firewallmanager/main.py:200
+msgid "All"
+msgstr "Alles"
+
+#: src/firewallmanager/main.py:211
+msgid "Action"
+msgstr "Aktion"
+
+#: src/firewallmanager/main.py:257 src/firewallmanager/main.py:280
+#: src/firewallmanager/main.py:317
+msgid "Access denied."
+msgstr "Zugriff verweigert."
+
+#: src/firewallmanager/main.py:94
+msgid "Error"
+msgstr "Fehler"
+
+#: src/firewallmanager/pagedialog.py:31 src/firewallmanager/pagedialog.py:35
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: src/firewallmanager/service.py:38
+msgid "Firewall is activated."
+msgstr "Firewall ist aktiviert."
+
+#: src/firewallmanager/service.py:41
+msgid "Stop"
+msgstr "Anhalten"
+
+#: src/firewallmanager/service.py:43
+msgid "Firewall is deactivated."
+msgstr "Firewall ist deaktiviert."
+
+#: src/firewallmanager/service.py:46 ui/ui_service.py:47
+msgid "Start"
+msgstr "Aktivieren"
+
+#: ui/ui_item.py:74
+msgid "Active or deactivate module."
+msgstr "Aktiviere oder deaktiviere das Modul."
+
+#: ui/ui_item.py:75
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: ui/ui_item.py:76
+msgid "Delete"
+msgstr "Löschen"
+
+#: ui/ui_main.py:82
+msgid "Add New"
+msgstr "Neu hinzufügen"
+
+#: ui/ui_settingsitem:78
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: ui/ui_settingsitem:79
+msgid "Remove"
+msgstr "Entfernen"
+
+#: ui/ui_settingsitem:80
+msgid "Move Up"
+msgstr "Nach oben"
+
+#: ui/ui_settingsitem:81
+msgid "Move Down"
+msgstr "Nach unten"
+
+#: src/firewallmanager/pagedialog.py:67
+msgid "Ok"
+msgstr "Ok"
+
+#: src/firewallmanager/pagedialog.py:71
+msgid "Cancel"
+msgstr "stornieren"
+
+#~ msgid " "
+#~ msgstr " "

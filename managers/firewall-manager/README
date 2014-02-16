@@ -1,0 +1,6 @@
+Firewall Manager
+----------------
+
+ Firewall Manager is a Kde application for managing the iptables based firewall.
+ It uses COMAR as configuration backend.
+
