@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN" "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+
+<policyconfig>
+    <vendor>Pardus</vendor>
+    <vendor_url>http://www.pardus.org.tr</vendor_url>
+    <icon_name>preferences-system</icon_name>
+
+    <action id="tr.org.pardus.comar.system.settings.set">
+        <description>Change system settings</description>
+        <description xml:lang="tr">Sistem ayarlarını değiştir</description>
+        <description xml:lang="sv">Ändra systeminställningar</description>
+        <description xml:lang="nl">Systeeminstellingen wijzigen</description>
+        <message>System policy prevents changing system settings</message>
+        <message xml:lang="tr">Sistem politikası sistem ayarlarını değiştirmeyi engelliyor</message>
+        <message xml:lang="sv">Systempolicyn förhindrar ändring av systeminställningar</message>
+        <message xml:lang="nl">Systeembeleid voorkomt wijzigen systeeminstellingen</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+</policyconfig>

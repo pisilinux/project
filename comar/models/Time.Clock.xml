@@ -1,0 +1,28 @@
+<comarModel>
+    <interface name="Time.Clock">
+        <method name="setDate" access_label="set">
+            <arg name="year" type="i" direction="in"/>
+            <arg name="month" type="i" direction="in"/>
+            <arg name="day" type="i" direction="in"/>
+            <arg name="hour" type="i" direction="in"/>
+            <arg name="minute" type="i" direction="in"/>
+            <arg name="second" type="i" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="getDate" access_label="get">
+            <arg name="date" type="s" direction="out"/>
+        </method>
+        <method name="loadFromHW">
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="saveToHW">
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="setTimeZone" access_label="set">
+            <arg name="zone" type="s" direction="in"/>
+        </method>
+        <method name="getTimeZone" access_label="get">
+            <arg name="zone" type="s" direction="out"/>
+        </method>
+    </interface>
+</comarModel>

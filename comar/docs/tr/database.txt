@@ -1,0 +1,101 @@
+COMAR 3.* Veritabanı Formatı
+============================
+
+3.0 sürümünde, BSDDB yerine, aşağıdaki gibi dizin/dosya temelli 
+bir veritabanı kullanılıyor:
+
+
+    COMAR DB
+        |
+        + modules
+        |   |
+        |   + core.py
+        |   + ...
+        |
+        + models
+        |   |
+        |   + System.Package.xml
+        |   + System.Service.xml
+        |   + User.Manager.xml
+        |   + ...
+        |
+        + scripts
+        |   |
+        |   + System.Package
+        |   |   |
+        |   |   + apache.py
+        |   |   + baselayout.py
+        |   |   + ...
+        |   |
+        |   + System.Service
+        |   |   |
+        |   |   + apache.py
+        |   |   + kdebase.py
+        |   |   + ...
+        |   |
+        |   + ...
+        |
+        + apps
+            |
+            + apache
+            |   |
+            |   + System.Service
+            |   + System.Package
+            |   + ...
+            |
+            + baselayout
+            |   |
+            |   + System.Package
+            |   + User.Manager
+            |   + ...
+            |
+            + ...
+
+
+
+Modules
+-------
+
+Modules dizini, sadece COMAR betikleri tarafından kullanılabilecek 
+Python modüllerini içermektedir.
+
+
+Models
+------
+
+Models dizininde, COMAR'ın sunacağı sistem modellerine ait tanımlar 
+(XML) bulunmaktadır. Önceki sürümlerin aksine, her model için ayrı 
+bir XML dosyası bulunmaktadır. Model tanımı aşağıdaki gibidir:
+
+    <interface name="System.Service">
+        <method name="ready"/>
+        <method name="start"/>
+        <method name="stop"/>
+        <method name="reload"/>
+        <method name="setState">
+            <arg name="state" type="s" direction="in"/>
+        </method>
+        <method name="info">
+            <arg name="type" type="s" direction="out"/>
+            <arg name="description" type="s" direction="out"/>
+            <arg name="status" type="s" direction="out"/>
+        </method>
+        <signal name="Changed">
+            <arg name="service" type="s"/>
+            <arg name="state" type="s"/>
+        </signal>
+    </interface>
+
+
+Scripts
+-------
+
+Bu dizinde uygulama betikleri yer almaktadır. Betikler, modellere 
+göre gruplandırılmıştır.
+
+
+Apps
+----
+
+Bu dizinde uygulamaların hangi modelleri sağladığının bir listesi 
+yer almaktadır.

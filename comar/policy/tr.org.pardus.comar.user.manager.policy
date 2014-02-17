@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN" "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+
+<policyconfig>
+    <vendor>Pardus</vendor>
+    <vendor_url>http://www.pardus.org.tr</vendor_url>
+    <icon_name>system-users</icon_name>
+
+    <action id="tr.org.pardus.comar.user.manager.adduser">
+        <description>Add user</description>
+        <description xml:lang="tr">Kullanıcı ekle</description>
+        <description xml:lang="fr">Ajouter un utilisateur</description>
+        <description xml:lang="es">Agregar usuario</description>
+        <description xml:lang="pl">Dodawanie użytkowników</description>
+        <description xml:lang="de">Benutzer hinzufügen</description>
+        <description xml:lang="sv">Lägg till användare</description>
+        <description xml:lang="nl">Gebruiker toevoegen</description>
+        <message>System policy prevents adding new user</message>
+        <message xml:lang="tr">Sistem politikası yeni kullanıcı eklemeyi engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas d'ajouter un utilisateur</message>
+        <message xml:lang="es">La política del sistema no permite agregar usuarios</message>
+        <message xml:lang="de">Systemrichtlinie verhindert das Hinzufügen des neuen Benutzers</message>
+        <message xml:lang="sv">Systempolicyn förhindrar tillägg av användare</message>
+        <message xml:lang="nl">Systeembeleid voorkomt gebruiker toevoegen</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.user.manager.setuser">
+        <description>Change user details</description>
+        <description xml:lang="tr">Kullanıcı bilgilerini değiştir</description>
+        <description xml:lang="fr">Modifier les détails concernant un utilisateur</description>
+        <description xml:lang="es">Modificar detalles de usuario</description>
+        <description xml:lang="pl">Zmiana ustawień użytkownika</description>
+        <description xml:lang="de">Benutzer-Details ändern</description>
+        <description xml:lang="sv">Ändra användaruppgifter</description>
+        <description xml:lang="nl">Gebruikerdetails wijzigen</description>
+        <message>System policy prevents editing user details</message>
+        <message xml:lang="tr">Sistem politikası kullanıcı bilgilerini değiştirmeyi engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de modifier les détails concernant un utilisateur</message>
+        <message xml:lang="es">La política del sistema no permite modificar datos de usuarios</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Bearbeitung der Benutzer-Details</message>
+        <message xml:lang="sv">Systempolicyn förhindrar ändring av användare</message>
+        <message xml:lang="nl">Systeembeleid voorkomt gebruikerdetails wijzigen</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.user.manager.deleteuser">
+        <description>Delete user</description>
+        <description xml:lang="tr">Kullanıcı sil</description>
+        <description xml:lang="fr">Supprimer un utilisateur</description>
+        <description xml:lang="es">Eliminar usuario</description>
+        <description xml:lang="pl">Usuwanie użytkowników</description>
+        <description xml:lang="de">Benutzer löschen</description>
+        <description xml:lang="sv">Ta bort användare</description>
+        <description xml:lang="nl">Gebruiker verwijderen</description>
+        <message>System policy prevents removing user</message>
+        <message xml:lang="tr">Sistem politikası kullanıcı silmeyi engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de supprimer un utilisateur</message>
+        <message xml:lang="es">La política del sistema no permite eliminar usuarios</message>
+        <message xml:lang="de">Systemrichtlinie verhindert das Löschen des Benutzers</message>
+        <message xml:lang="sv">Systempolicyn förhindrar borttagning av användare</message>
+        <message xml:lang="nl">Systeembeleid voorkomt gebruiker verwijderen</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.user.manager.addgroup">
+        <description>Add group</description>
+        <description xml:lang="tr">Grup ekle</description>
+        <description xml:lang="fr">Ajouter un groupe</description>
+        <description xml:lang="es">Agregar grupo</description>
+        <description xml:lang="pl">Dodawanie grup</description>
+        <description xml:lang="de">Gruppe hinzufügen</description>
+        <description xml:lang="sv">Lägg till grupp</description>
+        <description xml:lang="nl">Groep toevoegen</description>
+        <message>System policy prevents adding new group</message>
+        <message xml:lang="tr">Sistem politikası yeni grup eklemeyi engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas d'ajouter un groupe</message>
+        <message xml:lang="es">La política del sistema no permite agregar grupos</message>
+        <message xml:lang="de">Systemrichtlinie verhindert das Hinzufügen der neuen Gruppe</message>
+        <message xml:lang="sv">Systempolicyn förhindrar tillägg av grupp</message>
+        <message xml:lang="nl">Systeembeleid voorkomt groep toevoegen</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.user.manager.deletegroup">
+        <description>Delete group</description>
+        <description xml:lang="tr">Grup sil</description>
+        <description xml:lang="fr">Supprimer un groupe</description>
+        <description xml:lang="es">Eliminar grupo</description>
+        <description xml:lang="pl">Kasowanie grup</description>
+        <description xml:lang="de">Gruppe löschen</description>
+        <description xml:lang="sv">Ta bort grupp</description>
+        <description xml:lang="nl">Groep verwijderen</description>
+        <message>System policy prevents removing group</message>
+        <message xml:lang="tr">Sistem politikası grup silmeyi engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de supprimer un groupe</message>
+        <message xml:lang="es">La política del sistema no permite eliminar grupos</message>
+        <message xml:lang="de">Systemrichtlinie verhindert das Löschen der Gruppe</message>
+        <message xml:lang="sv">Systempolicyn förhindrar borttagning av grupp</message>
+        <message xml:lang="nl">Systeembeleid voorkomt groep verwijderen</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.user.manager.get">
+        <description>Get user/groups</description>
+        <description xml:lang="tr">Kullanıcı/grupları al</description>
+        <description xml:lang="fr">Obtenir un groupe/un utilisateur</description>
+        <description xml:lang="es">Obtener usuarios/grupos</description>
+        <description xml:lang="pl">Odczyt grup/użytkowników</description>
+        <description xml:lang="de">Benutzer/Gruppen abrufen</description>
+        <description xml:lang="sv">Visa användare/grupper</description>
+        <description xml:lang="nl">Gebruiker/groepen ophalen</description>
+        <message>System policy prevents getting user/group details</message>
+        <message xml:lang="tr">Sistem politikası kullanıcı/grup detaylarını almayı engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas d'obtenir un groupe/un utilisateur</message>
+        <message xml:lang="es">La política del sistema no permite obtener detalles de usuarios/grupos</message>
+        <message xml:lang="de">Systemrichtlinie verhindert das Abrufen der Benutzer/Gruppen</message>
+        <message xml:lang="sv">Systempolicyn förhindrar visning av användare/grupper</message>
+        <message xml:lang="nl">Systeembeleid voorkomt gebruiker/groepen ophalen</message>
+        <defaults>
+            <allow_any>yes</allow_any>
+            <allow_active>yes</allow_active>
+            <allow_inactive>yes</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.user.manager.listuserauthorizations">
+        <description>List user authorizations</description>
+        <description xml:lang="tr">Kullanıcı yetkilerini listele</description>
+        <description xml:lang="fr">Lister les permissions d'un utilisateur</description>
+        <description xml:lang="es">Listar derechos de usuarios</description>
+        <description xml:lang="pl">Listowanie autoryzacji użytkowników</description>
+        <description xml:lang="de">Benutzer-Berechtigungen auflisten</description>
+        <description xml:lang="sv">Visa användarbehörighet</description>
+        <description xml:lang="nl">Gebruikerautorisaties weergeven</description>
+        <message>System policy prevents listing user authorizations</message>
+        <message xml:lang="tr">Sistem politikası kullanıcı yetkilerinin listelenmesini engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de lister les permissions d'un utilisateur</message>
+        <message xml:lang="es">La política del sistema no permite listar permisos de usuarios</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Auflistung der Benutzer-Berechtigungen</message>
+        <message xml:lang="sv">Systempolicyn förhindrar visning av användarbehörighet</message>
+        <message xml:lang="nl">Systeembeleid voorkomt gebruikerautorisaties weergeven</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+</policyconfig>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN" "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+
+<policyconfig>
+    <vendor>Pardus</vendor>
+    <vendor_url>http://www.pardus.org.tr</vendor_url>
+    <icon_name>package</icon_name>
+
+    <action id="tr.org.pardus.comar.system.packagehandler.setuppackage">
+        <description>Execute package handler setup scripts</description>
+        <description xml:lang="tr">Paket işleyicisi kurulum betiklerini çalıştır</description>
+        <description xml:lang="nl">Voer pakket afhandelings installatie uit</description>
+        <description xml:lang="fr">Exécuter les scripts de configuration du gestionnaire de paquet</description>
+        <description xml:lang="es">Ejecutar los scripts de configuración de paquetes</description>
+        <description xml:lang="pl">Wykonywanie skryptów pakietów</description>
+        <description xml:lang="de">Ausführen des Paketsteuerer-Setup-Skripts</description>
+        <description xml:lang="sv">Kör skript för pakethanteringsinställningar</description>
+        <message>System policy prevents executing package handlers' setup scripts</message>
+        <message xml:lang="tr">Sistem politikası paket işleyicilerinin kurulum betiklerinin çalıştırılmasını engelliyor</message>
+        <message xml:lang="nl">Systeembeleid voorkomt uitvoeren van pakket afhandelings instellings scripts</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas d'exécuter les scripts de configuration d'un gestionnaire de paquet</message>
+        <message xml:lang="es">La política del sistema no permite la ejecución de los scripts de configuración de paquetes</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Ausführung des Paketsteuerer-Setup-Skripts</message>
+        <message xml:lang="sv">Systempolicyn förhindrar körning av skript för pakethanteringsinställningar</message>
+        <defaults>
+            <allow_any>no</allow_any>
+            <allow_inactive>no</allow_inactive>
+            <allow_active>no</allow_active>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.system.packagehandler.cleanuppackage">
+        <description>Execute package handler cleanup scripts</description>
+        <description xml:lang="tr">Paket işleyicisi temizlik betiklerini çalıştır</description>
+        <description xml:lang="nl">Uitvoeren pakket afhandelings opruim scrips</description>
+        <description xml:lang="fr">Exécuter les scripts de nettoyage du gestionnaire de paquet</description>
+        <description xml:lang="es">Ejecutar los scripts de limpieza de paquetes</description>
+        <description xml:lang="pl">Wykonywanie skryptów porządkujących pakietów</description>
+        <description xml:lang="de">Ausführen des Paketsteuerer-Säuberungs-Skripts</description>
+        <description xml:lang="sv">Kör skript för upprensning av pakethanteraren</description>
+        <message>System policy prevents executing package handlers' cleanup scripts</message>
+        <message xml:lang="tr">Sistem politikası paket işleyicilerinin temizlik betiklerininin çalıştırılmasını engelliyor</message>
+        <message xml:lang="nl">Systeembeleid voorkomt uivoeren pakket afhandelings opruim scripts</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas d'exécuter les scripts de nettoyage du gestionnaire de paquet</message>
+        <message xml:lang="es">La política del sistema no permite la ejecución de los scripts de limpieza de paquetes</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Ausführung des Paketsteuerer-Säuberungs-Skripts</message>
+        <message xml:lang="sv">Systempolicyn förhindrar körning av skript för upprensning av pakethanteraren</message>
+        <defaults>
+            <allow_any>no</allow_any>
+            <allow_inactive>no</allow_inactive>
+            <allow_active>no</allow_active>
+        </defaults>
+    </action>
+    <action id="tr.org.pardus.comar.system.packagehandler.postcleanuppackage">
+        <description>Execute package handler postcleanup scripts</description>
+        <description xml:lang="tr">Paket işleyicisi temizlik betiklerini çalıştır</description>
+        <description xml:lang="fr">Exécuter les scripts de nettoyage du gestionnaire de paquet</description>
+        <description xml:lang="es">Ejecutar los scripts de limpieza de paquetes</description>
+        <description xml:lang="pl">Wykonywanie skryptów porządkujących pakietów</description>
+        <description xml:lang="de">Ausführen des Paketsteuerer-Säuberungs-Skripts</description>
+        <description xml:lang="sv">Kör post-upprensningsskript för pakethanteraren</description>
+        <description xml:lang="nl">Voer post-wissen script pakkethandler uit</description>
+        <message>System policy prevents executing package handlers' cleanup scripts</message>
+        <message xml:lang="tr">Sistem politikası paket işleyicilerinin temizlik betiklerininin çalıştırılmasını engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas d'exécuter les scripts de nettoyage du gestionnaire de paquet</message>
+        <message xml:lang="es">La política del sistema no permite la ejecución de los scripts de limpieza de paquetes</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Ausführung des Paketsteuerer-Säuberungs-Skripts</message>
+        <message xml:lang="sv">Systempolicyn förhindrar körning av skript för upprensning av pakethanteraren</message>
+        <message xml:lang="nl">Systeembeleid voorkomt uitvoeren post-wissen script pakkethandler</message>
+        <defaults>
+            <allow_any>no</allow_any>
+            <allow_inactive>no</allow_inactive>
+            <allow_active>no</allow_active>
+        </defaults>
+    </action>
+</policyconfig>

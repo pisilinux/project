@@ -1,0 +1,48 @@
+System.Service
+==============
+
+
+    start():
+        Starts the service.
+
+
+    stop():
+        Stopts the service.
+
+
+    reload():
+        Reloads the service.
+
+
+    setState(state):
+        Set service's auto start behavior. Setting state to "on" will start 
+        service on startup.
+
+
+    ready():
+        Starts service if state is "on".
+
+
+    info():
+        Returns service type, description and status.
+
+        Function should return something like that:
+
+        01 (
+        02     "service",
+        03     "Apache web server",
+        04     "on",
+        05 ]
+
+        Status field is a little bit tricky:
+            If service state is "on", and service is running, status is "on"
+            If service state is "on", but service is not running, status is "stopped"
+            If service state is "off", and service is not running, status is "off"
+            If service state is "off", but service is running, status is "started"
+
+
+    Signals:
+        Changed: Fired when a service state is changed
+            Arguments:
+                service: Package name
+                state: Service state, same as status in info()

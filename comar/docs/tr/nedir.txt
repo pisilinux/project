@@ -1,0 +1,41 @@
+ÇOMAR (COnfiguration MAnageR - Yapılandırma Yöneticisi), sıradan bir işi yapmak için Google'da saatler geçirmeyin, anlamadığınız bir formatta yazılmış ayar dosyalarını kurcalamayın ve bu sırada sisteminizi uçurmayın diye oluşturulmuş bir ayar yönetim sistemi. PiSi'nin kardeşi olur kendisi; biri uygulamaları kurar, diğeri yapılandırır - ya da en azından yapılandırma işi için kolay kullanılabilir bir ortam yaratır.
+
+Misal, ağ bağlantısı kurmak istiyorsunuz. Bunu farklı yollarla, farklı yöntemlerle yapabilirsiniz. Ethernet, wireless, modem ve 3G kullanabilirsiniz. Ethernet ile yapacaksanız iş nispeten kolaydır; DHCP istemcisini açar, IP almaya çalışırsınız. makul bir süre sonra IP alamazsanız, ağda bir sorun olduğunu anlarsınız; ya da IP alıp hayatınıza devam edersiniz. Kablosuzda durum biraz daha karışıktır. DHCP ile IP almadan önce -varsa- kimlik doğrulama yaparsınız, doğrulama şekline göre farklı ayarlar yapar, farklı uygulamalar çalıştırırsınız. Her işi konsoldan yapmanızı gerektiren sadist bir işletim sistemi kullanmıyorsanız, genelde bu iş için bir araç kullanırsınız. İşlem yapmadan önce sizden yetkili kullanıcı parolasını ister, ilgili dosyaları değiştirir, gerekli programları çalıştırır.
+
+Çoğu Linux dağımı bu işi böyle yapar. Belirli bir görevi yerine getirmek için oluşturulmuş -çoğu dağıtıma özgü- yönetim arabirimleri, kendi yöntemleri ile ayarları değiştirir, komut çalıştırır ve sonuçta kullanıcının isteğini yerine getirir. Sorun ise, aynı ayar dosyaları ya da uygulamalar farklı yönetim araçları ve bu araçlardan bilgi almak isteyen diğer uygulamalar tarafından kullanılmak istendiğinde ve kullanıcılara bir işi yapabilmeleri için yetkili kullanıcı (root) hesabı parolası verilmesi gerektiğinde ortaya çıkar.
+
+ÇOMAR, burada devreye girer, sade ve basit bir çözüm ile. Pardus'ta sık yapılan işler için görev modelleri tanımlanır ve bu görevleri üstlenecek uygulamaların birbirlerinin ayağına basmadan, altyapıdaki değişikliklerden (değişen sürümler, kullanılan yeni teknolojiler, ...) çalışmalarını sağlayacak ve gerektiğinde yetki kontrolü yapabilen bir yönetim katmanı oluşturulur.
+
+* Ağ bağlantısı yönetimi
+  * Aygıtları listele
+  * Aygıt üzerinde bir bağlantı oluştur
+  * Adres ayarları yap
+  * Bağlantıyı aç
+  * Bağlantı bilgilerini göster
+  * ...
+* Servis yönetimi
+  * Servisleri listele
+  * Servisi aç
+  * Servis bilgilerini al
+  * ...
+* ...
+
+Görev modelleri yukarıda görüldüğü gibi olabildiğince sadedir, uygulamalardan ve teknolojilerden bağımsızdır. Alt görevleri yerine getirecek kodlar ise görevi yerine getirecek uygulamanın PiSi paketi ile beraber gelen Python betikleridir (bunlara ÇOMAR betikleri diyoruz) ve bu betikler içinde modelde tanımlı her alt görevi yerine getiren bir fonksiyon bulunmaktadır. Her uygulama, aynı görevi farklı şekillerde yerine getirdiğinden, her uygulamanın ÇOMAR betiği farklıdır. Betikler, uygulamaların PiSi paketlerini hazırlayan -teorik olarak, Pardus geliştiricileri arasında, o uygulamayı en iyi bilen- geliştiriciler tarafından yazıldığından, arabirimlerin keyfi yöntemlerle ayar dosyası değiştirme ya da komut çalıştırmasından daha güvenli ve düzenlidirler. Detaylı bilgi için, mevcut görev modelleri ve bu görevleri yerine getirecek ÇOMAR betiklerinin formatları [0] incelenebilir.
+
+Arabirimler ve ÇOMAR betikleri arasında duran ve yetki kontrolü yapan katmanda ise, yapılan iş teknik olarak karışık görünse de, aslında son derece basittir. Arabirimden alınan bir çağrı, örneğin ağ bağlantısı kurma emri; çağrıyı yapan kullanıcının o işi yapmaya yetkisi olup olmadığı kontrol edildikten sonra, ilgili uygulamanın ÇOMAR betiğine yönlendirilir ve betikte tanımlı fonksiyon çalıştırılır. Sıkıcı detaylar için, iletişim için kullanılan DBus'a belgeleri [2] ve ara katman ile ilgili tasarım notları incelenebilir.
+
+Arabirimlerin, bu ara katman ile iletişimi kolay bir şekilde yapabilmeleri için -nispeten- basit bir Python kütüphanesi bulunmaktadır:
+
+    import comar
+    link = comar.Link()
+    print "Servis betiği olan uygulamalar:"
+    print list(link.System.Service)
+
+Bu Python kütüphanesi ile ilgili daha fazla örnek, COMAR API [3] projesine ait Beni Oku [4] dosyasında ve örnekler dizininde [5] bulunabilir.
+
+[0] http://svn.pardus.org.tr/uludag/trunk/comar/comar/docs/tr/models/
+[1] http://www.freedesktop.org/wiki/IntroductionToDBus
+[2] http://svn.pardus.org.tr/uludag/trunk/comar/comar/docs/tr/
+[3] http://svn.pardus.org.tr/uludag/trunk/comar/api/
+[4] http://svn.pardus.org.tr/uludag/trunk/comar/api/README
+[5] http://svn.pardus.org.tr/uludag/trunk/comar/api/examples/

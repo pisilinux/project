@@ -1,0 +1,86 @@
+<comarModel>
+    <interface name="System.Manager">
+        <method name="installPackage">
+            <arg name="package" type="s" direction="in"/>
+        </method>
+        <method name="reinstallPackage" access_label="installpackage">
+            <arg name="package" type="s" direction="in"/>
+        </method>
+        <method name="updatePackage">
+            <arg name="package" type="s" direction="in"/>
+        </method>
+        <method name="removePackage">
+            <arg name="package" type="s" direction="in"/>
+        </method>
+        <method name="updateRepository">
+            <arg name="repository" type="s" direction="in"/>
+        </method>
+        <method name="updateAllRepositories"/>
+        <method name="addRepository">
+            <arg name="name" type="s" direction="in"/>
+            <arg name="uri" type="s" direction="in"/>
+        </method>
+        <method name="removeRepository">
+            <arg name="repository" type="s" direction="in"/>
+        </method>
+        <method name="setRepositories">
+          <arg name="repositories" type="a(ss)" direction="in"/>
+        </method>
+        <method name="setRepoActivities">
+          <arg name="repos" type="a{sb}" direction="in"/>
+        </method>
+        <method name="setCache">
+          <arg name="enabled" type="b"/>
+          <arg name="limit" type="i"/>
+        </method>
+        <method name="setConfig">
+          <arg name="category" type="s"/>
+          <arg name="name" type="s"/>
+          <arg name="value" type="s"/>
+        </method>
+        <method name="clearCache">
+          <arg name="cacheDir" type="s"/>
+          <arg name="limit" type="i"/>
+        </method>
+        <method name="takeSnapshot"/>
+        <method name="takeBack">
+          <arg name="operation" type="i" direction="in"/>
+        </method>
+        <signal name="progress">
+          <arg name="operation" type="s" direction="out"/>
+          <arg name="filename" type="s" direction="out"/>
+          <arg name="percent" type="i" direction="out"/>
+          <arg name="rate" type="i" direction="out"/>
+          <arg name="symbol" type="s" direction="out"/>
+          <arg name="download_size" type="i" direction="out"/>
+          <arg name="total_size" type="i" direction="out"/>
+        </signal>
+        <signal name="error">
+          <arg name="message" type="s" direction="out"/>
+        </signal>
+        <signal name="warning">
+          <arg name="message" type="s" direction="out"/>
+        </signal>
+        <signal name="info">
+          <arg name="message" type="s" direction="out"/>
+        </signal>
+        <signal name="status">
+          <arg name="message1" type="s" direction="out"/>
+          <arg name="message2" type="s" direction="out"/>
+          <arg name="message3" type="s" direction="out"/>
+          <arg name="message4" type="s" direction="out"/>
+        </signal>
+        <signal name="started">
+          <arg name="message" type="s" direction="out"/>
+        </signal>
+        <signal name="finished">
+          <arg name="message" type="s" direction="out"/>
+        </signal>
+        <signal name="cancelled">
+          <arg name="message" type="s" direction="out"/>
+        </signal>
+        <signal name="updatingRepo"/>
+        <signal name="takingSnapshot"/>
+        <signal name="takingBack"/>
+    </interface>
+</comarModel>

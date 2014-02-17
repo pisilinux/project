@@ -1,0 +1,154 @@
+<comarModel>
+    <interface name="Network.Link">
+        <method name="linkInfo" action_id="">
+            <arg name="info" type="a{ss}" direction="out"/>
+        </method>
+        <method name="authMethods" action_id="">
+            <arg name="info" type="a(ss)" direction="out"/>
+        </method>
+        <method name="PINRequired" action_id="">
+            <arg name="device" type="s" direction="in"/>
+            <arg name="result" type="b" direction="out"/>
+        </method>
+        <method name="sendPIN" action_id="">
+            <arg name="device" type="s" direction="in"/>
+            <arg name="pin" type="s" direction="in"/>
+            <arg name="result" type="s" direction="out"/>
+        </method>
+        <method name="authParameters" action_id="">
+            <arg name="method" type="s" direction="in"/>
+            <arg name="info" type="a(sss)" direction="out"/>
+        </method>
+        <method name="setAuthMethod" action_id="tr.org.pardus.comar.net.link.set">
+            <arg name="name" type="s" direction="in"/>
+            <arg name="method" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="setAuthParameters" action_id="tr.org.pardus.comar.net.link.set">
+            <arg name="name" type="s" direction="in"/>
+            <arg name="key" type="s" direction="in"/>
+            <arg name="value" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="getAuthMethod" action_id="">
+            <arg name="name" type="s" direction="in"/>
+            <arg name="method" type="s" direction="out"/>
+        </method>
+        <method name="getAuthParameters" action_id="tr.org.pardus.comar.net.link.getauth">
+            <arg name="name" type="s" direction="in"/>
+            <arg name="key" type="a{ss}" direction="out"/>
+        </method>
+        <method name="deviceList" action_id="">
+            <arg name="devices" type="a{ss}" direction="out"/>
+        </method>
+        <method name="deviceModes" action_id="">
+            <arg name="info" type="a(ss)" direction="out"/>
+        </method>
+        <method name="remoteName" action_id="">
+            <arg name="remote" type="s" direction="out"/>
+        </method>
+        <method name="scanRemote" action_id="">
+            <arg name="device" type="s" direction="in"/>
+            <arg name="remotes" type="aa{sv}" direction="out"/>
+        </method>
+        <method name="setRemote" action_id="tr.org.pardus.comar.net.link.set">
+            <arg name="name" type="s" direction="in"/>
+            <arg name="remote" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="connections" action_id="">
+            <arg name="connections" type="as" direction="out"/>
+        </method>
+        <method name="connectionInfo" action_id="">
+            <arg name="name" type="s" direction="in"/>
+            <arg name="info" type="a{ss}" direction="out"/>
+        </method>
+        <method name="setDevice" action_id="tr.org.pardus.comar.net.link.set">
+            <arg name="name" type="s" direction="in"/>
+            <arg name="device" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="setDeviceMode" action_id="tr.org.pardus.comar.net.link.set">
+            <arg name="name" type="s" direction="in"/>
+            <arg name="mode" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="deleteConnection" action_id="tr.org.pardus.comar.net.link.set">
+            <arg name="name" type="s" direction="in"/>
+        </method>
+        <method name="setAddress" action_id="tr.org.pardus.comar.net.link.set">
+            <arg name="name" type="s" direction="in"/>
+            <arg name="mode" type="s" direction="in"/>
+            <arg name="address" type="s" direction="in"/>
+            <arg name="mask" type="s" direction="in"/>
+            <arg name="gateway" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="setNameService" action_id="tr.org.pardus.comar.net.link.set">
+            <arg name="name" type="s" direction="in"/>
+            <arg name="namemode" type="s" direction="in"/>
+            <arg name="nameserver" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="setState" action_id="tr.org.pardus.comar.net.link.setstate">
+            <arg name="name" type="s" direction="in"/>
+            <arg name="state" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="getState" action_id="">
+            <arg name="name" type="s" direction="in"/>
+            <arg name="state" type="s" direction="out"/>
+        </method>
+        <method name="kernelEvent">
+            <arg name="data" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <signal name="connectionChanged">
+            <arg name="operation" type="s"/>
+            <arg name="profile" type="s"/>
+        </signal>
+        <signal name="stateChanged">
+            <arg name="profile" type="s"/>
+            <arg name="state" type="s"/>
+            <arg name="address_or_msg" type="s"/>
+        </signal>
+        <signal name="deviceChanged">
+            <arg name="action" type="s"/>
+            <arg name="type" type="s"/>
+            <arg name="device_id" type="s"/>
+            <arg name="device_name" type="s"/>
+        </signal>
+    </interface>
+    <interface name="Network.Stack">
+      <method name="getNameServers" action_id="">
+        <arg name="servers" type="as" direction="out"/>
+      </method>
+      <method name="setNameServers" action_id="tr.org.pardus.comar.net.stack.set">
+        <arg name="nameservers" type="as" direction="in"/>
+        <arg name="searchdomain" type="s" direction="in"/>
+        <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+      </method>
+      <method name="registerNameServers" action_id="tr.org.pardus.comar.net.stack.set">
+        <arg name="ifname" type="s" direction="in"/>
+        <arg name="nameservers" type="as" direction="in"/>
+        <arg name="searchdomain" type="s" direction="in"/>
+        <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+      </method>
+      <method name="unregisterNameServers" action_id="tr.org.pardus.comar.net.stack.set">
+        <arg name="ifname" type="s" direction="in"/>
+        <arg name="nameservers" type="as" direction="in"/>
+        <arg name="searchdomain" type="s" direction="in"/>
+        <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+      </method>
+      <method name="flushNameCache" action_id="tr.org.pardus.comar.net.stack.set">
+        <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+      </method>
+      <method name="getHostName" action_id="">
+        <arg name="hostname" type="s" direction="out"/>
+      </method>
+      <method name="setHostName" action_id="tr.org.pardus.comar.net.stack.set">
+        <arg name="hostname" type="s" direction="in"/>
+        <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+      </method>
+    </interface>
+</comarModel>

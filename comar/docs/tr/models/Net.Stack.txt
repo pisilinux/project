@@ -1,0 +1,1 @@
+Net.Stack demode oldu, Network.Stack kullanın. Geri uyumluluk için tutuluyor.

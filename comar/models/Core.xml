@@ -1,0 +1,36 @@
+<comarModel>
+    <interface name="Core">
+        <method name="register" action_id="tr.org.pardus.comar.register">
+            <arg name="model" type="s" direction="in"/>
+            <arg name="package" type="s" direction="in"/>
+            <arg name="script" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="remove" action_id="tr.org.pardus.comar.remove">
+            <arg name="package" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="listModelApplications" action_id="">
+            <arg name="model" type="s" direction="in"/>
+            <arg name="apps" type="as" direction="out"/>
+        </method>
+        <method name="listApplicationModels" action_id="">
+            <arg name="app" type="s" direction="in"/>
+            <arg name="models" type="as" direction="out"/>
+        </method>
+        <method name="introspect" action_id="">
+            <arg name="xml" type="s" direction="out"/>
+        </method>
+        <method name="cancel" action_id="">
+            <arg name="method_name" type="s" direction="in"/>
+            <arg name="killed_calls" type="i" direction="out"/>
+        </method>
+        <method name="listRunning" action_id="">
+            <arg name="all" type="b" direction="in"/>
+            <arg name="methods" type="as" direction="out"/>
+        </method>
+        <method name="setLocale" action_id="">
+            <arg name="locale" type="s" direction="in"/>
+        </method>
+    </interface>
+</comarModel>

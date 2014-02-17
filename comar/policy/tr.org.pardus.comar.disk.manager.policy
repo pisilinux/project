@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN" "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+
+<policyconfig>
+    <vendor>Pardus</vendor>
+    <vendor_url>http://www.pardus.org.tr</vendor_url>
+    <icon_name>drive-harddisk</icon_name>
+
+    <action id="tr.org.pardus.comar.disk.manager.set">
+        <description>Change disk manager settings</description>
+        <description xml:lang="tr">Disk yöneticisi ayarlarını değiştir</description>
+        <description xml:lang="nl">Verander schijfbeheer instellingen</description>
+        <description xml:lang="fr">Modifier les paramètres du gestionnaire de disques</description>
+        <description xml:lang="es">Modificar configuración de administrador de particiones</description>
+        <description xml:lang="pl">Zmiana ustawień menedżera dysków</description>
+        <description xml:lang="de">Festplatten-Manager-Einstellungen ändern</description>
+        <description xml:lang="sv">Ändra Hårddiskhanterarens inställningar</description>
+        <description xml:lang="it">Cambia impostazioni del gestore dei dischi</description>
+        <message>System policy prevents changing disk manager settings</message>
+        <message xml:lang="tr">Sistem politikası disk yöneticisi ayarlarını değiştirmeyi engelliyor</message>
+        <message xml:lang="nl">Systeembeleid vookomt veranderingen in schijfbeheer instellingen</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de modifier les paramètre du gestionnaire de disque</message>
+        <message xml:lang="es">La política no del sistema no permite modificar la configuración de administrador de particiones</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Änderung der Festplatten-Manager-Einstellungen</message>
+        <message xml:lang="sv">Systempolicyn förhindrar ändring av Hårddiskhanterarens inställningar</message>
+        <message xml:lang="it">Le politiche di gestione di sistema non permettono di modificare le impostazioni del gestore dei dischi</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.disk.manager.get">
+        <description>View disk manager settings</description>
+        <description xml:lang="tr">Disk yöneticisi ayarlarını görüntüle</description>
+        <description xml:lang="nl">Bekijk schijfbeheer instellingen</description>
+        <description xml:lang="fr">Voir les paramètres du gestionnaire de disques</description>
+        <description xml:lang="es">Ver configuración de administrador de particiones</description>
+        <description xml:lang="pl">Odczyt ustawień menedżera dysków</description>
+        <description xml:lang="de">Festplatten-Manager-Einstellungen ansehen</description>
+        <description xml:lang="sv">Visa Hårddiskhanterarens inställningar</description>
+        <description xml:lang="it">Vedi impostazioni del gestore dei dischi</description>
+        <message>System policy prevents viewing disk manager settings</message>
+        <message xml:lang="tr">Sistem politikası disk yöneticisi ayarlarına bakmayı engelliyor</message>
+        <message xml:lang="nl">Systeembeleid voorkomt bekijken van de schijfbeheer instellingen</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de voir les paramètres du gestionnaire de disques</message>
+        <message xml:lang="es">La política no del sistema no permite ver la configuración de administrador de particiones</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Einsicht in die Festplatten-Manager-Einstellungen</message>
+        <message xml:lang="sv">Systempolicyn förhindrar visning av Hårddiskhanterarens inställningar</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono di vedere le impostazioni del gestore dei dischi</message>
+        <defaults>
+            <allow_any>yes</allow_any>
+            <allow_active>yes</allow_active>
+            <allow_inactive>yes</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.disk.manager.mount">
+        <description>Add and remove block devices</description>
+        <description xml:lang="tr">Disk ekle ve çıkar</description>
+        <description xml:lang="nl">Toevoegen en verwijderen van apparatuur</description>
+        <description xml:lang="fr">Ajouter et supprimer des périphériques de type bloc</description>
+        <description xml:lang="es">Agregar y remover dispositivos particiones</description>
+        <description xml:lang="pl">Dodawanie i usuwanie urządzeń blokowych</description>
+        <description xml:lang="de">Festplatten hinzufügen und entfernen</description>
+        <description xml:lang="sv">Lägg till och ta bort blockenhet</description>
+        <message>System policy prevents adding and removing block devices</message>
+        <message xml:lang="tr">Sistem politikası disk eklemeyi ve çıkarmayı engelliyor</message>
+        <message xml:lang="nl">Systeembeleid voorkomt het toevoegen en verwijderen van apparaten</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas d'ajouter et de supprimer des périphériques de type bloc</message>
+        <message xml:lang="es">La política no del sistema no permite agregar o remover particiones</message>
+        <message xml:lang="de">Systemrichtlinie verhindert das Hinzufügen und Entfernen der Festplatten</message>
+        <message xml:lang="sv">Systempolicyn förhindrar tillägg och borttagning av blockenhet</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+</policyconfig>

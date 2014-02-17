@@ -1,0 +1,46 @@
+Network.Stack
+=============
+
+    getNameServers():
+        Returns a list of name servers.
+
+        Function should return something like that:
+
+        01 [
+        02     "193.140.100.210",
+        03     "193.140.100.215",
+        04     "194.27.222.62",
+        05 ]
+
+
+    setNameServers(nameservers, searchdomain):
+        Sets new name servers and a new search domain. First argument 
+        should be list of servers, second argument should be domain name.
+
+
+    registerNameServers(iface, nameservers, searchdomain):
+        Registers name servers for specified interface. First argument 
+        should be interface name, second argument should be list of servers 
+        third argument should be domain name.
+
+
+    unregisterNameServers(iface, nameservers, searchdomain):
+        Removes name servers from specified interface. First argument 
+        should be interface name, second argument should be list of servers 
+        to be removed, third argument should be domain name.
+
+
+    flushNameCache():
+        Flushes name cache.
+
+
+    getHostName():
+        Returns hostname of computer.
+
+        Function should return something like that:
+
+        01 "pardus-2009"
+
+
+    setHostName(hostname):
+        Sets hostname of computer.

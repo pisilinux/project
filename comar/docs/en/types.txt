@@ -1,0 +1,60 @@
+Types
+=====
+
+When converting DBus message arguments to Python objects, type signatures
+in XML files are used:
+
+    <method name="test">
+        <arg name="first" type="s" direction="in"/>
+        <arg name="second" type="i" direction="in"/>
+        <arg name="third" type="a{ss}" direction="in"/>
+        <arg name="fourth" type="(sss)" direction="in"/>
+    </method>
+
+If arguments passed to methods and values returned by methods does not
+match XML files, COMAR ignores calls and/or doesn't reply at all.
+
+DBus object signatures of Python objects are:
+
+    bool                   b
+    int                    i
+    long                   x
+    float                  d
+    str                    s
+
+Container type signatures should include the signature of the content:
+
+    list                   a + <contained type>
+
+    str list               as
+    int list               ai
+    long list              ax
+
+    tuple                 (<contained types>)
+    (str, int, long)      (six)
+
+    dict                  a{<key type><value type>}
+    {str: int}            a{si}
+    {str: str}            a{ss}
+
+    [{str: int}]          aa{si}
+
+If contained type is variant (some values are str's, some are int's e.g.),
+"v" signature can be used. When using "v", containe type should not be any 
+other container type.
+
+    [{str: [str, int]}]   aa{sav}
+
+IMPORTANT: You can't use more than one signature in arguments, unless
+they are contained in a container type. Following signatures are wrong:
+
+    ss
+    si
+    s(si)
+    sa{ss}
+
+However, following signatures are valid:
+
+    (sssss)
+    a{s(sss)}
+    aa{ss}

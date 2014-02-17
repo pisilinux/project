@@ -1,0 +1,49 @@
+Network.Firewall Model
+======================
+
+    listModules():
+        Lists usable firewall modules.
+
+        Function should return something like that:
+
+        O1 [
+        02     "internet-sharing",
+        03     "content-serving",
+        04 ]
+
+
+    moduleInfo(module):
+        Returns module title, description and icon.
+
+        Function should return something like that:
+
+        O1 (
+        02     i18n("Internet Sharing"),
+        03     i18n("Description..."),
+        04     "network-workgroup"
+        05 )
+
+
+    moduleParameters(module):
+        Returns parameters required by module.
+
+        Function should return something like that:
+
+        O1 [
+        02     (
+        03         "device-input",
+        03         i18n("Gateway to Internet"),
+        03         "combo",
+        03         {"option1": "...", "option2": "..."},
+        03     ),
+        05 ]
+
+        First argument is parameter keyword.
+        Second argument is parameter label.
+        Third argument is the name of widget set to be used.
+        Fourth argument is options for third argument.
+
+
+    def useModule(module, values):
+        Activates specified module with given parameters. Values is a
+        dictionary.

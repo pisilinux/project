@@ -1,0 +1,73 @@
+<comarModel>
+    <interface name="User.Manager">
+        <method name="userList" access_label="get">
+            <arg name="users" type="a(iss)" direction="out"/>
+        </method>
+        <method name="userInfo" access_label="get">
+            <arg name="uid" type="i" direction="in"/>
+            <arg name="name" type="s" direction="out"/>
+            <arg name="realname" type="s" direction="out"/>
+            <arg name="gid" type="i" direction="out"/>
+            <arg name="homedir" type="s" direction="out"/>
+            <arg name="shell" type="s" direction="out"/>
+            <arg name="groups" type="as" direction="out"/>
+        </method>
+        <method name="addUser">
+            <arg name="uid" type="i" direction="in"/>
+            <arg name="name" type="s" direction="in"/>
+            <arg name="realname" type="s" direction="in"/>
+            <arg name="homedir" type="s" direction="in"/>
+            <arg name="shell" type="s" direction="in"/>
+            <arg name="password" type="s" direction="in"/>
+            <arg name="groups" type="as" direction="in"/>
+            <arg name="grants" type="as" direction="in"/>
+            <arg name="blocks" type="as" direction="in"/>
+            <arg name="id" type="i" direction="out"/>
+        </method>
+        <method name="setUser">
+            <arg name="uid" type="i" direction="in"/>
+            <arg name="realname" type="s" direction="in"/>
+            <arg name="homedir" type="s" direction="in"/>
+            <arg name="shell" type="s" direction="in"/>
+            <arg name="password" type="s" direction="in"/>
+            <arg name="groups" type="as" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="deleteUser">
+            <arg name="uid" type="i" direction="in"/>
+            <arg name="deletefiles" type="b" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="groupList" access_label="get">
+            <arg name="groups" type="a(is)" direction="out"/>
+        </method>
+        <method name="addGroup">
+            <arg name="gid" type="i" direction="in"/>
+            <arg name="name" type="s" direction="in"/>
+            <arg name="gid" type="i" direction="out"/>
+        </method>
+        <method name="deleteGroup">
+            <arg name="gid" type="i" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="listUserAuthorizations">
+            <arg name="uid" type="i" direction="in"/>
+            <arg name="authorizations" type="a(sissb)" direction="out"/>
+        </method>
+        <method name="grantAuthorization" access_label="setuser">
+            <arg name="uid" type="i" direction="in"/>
+            <arg name="actionid" type="s" direction="in"/>
+            <arg name="success" type="b" direction="out"/>
+        </method>
+        <method name="revokeAuthorization" access_label="setuser">
+            <arg name="uid" type="i" direction="in"/>
+            <arg name="actionid" type="s" direction="in"/>
+            <arg name="success" type="b" direction="out"/>
+        </method>
+        <method name="blockAuthorization" access_label="setuser">
+            <arg name="uid" type="i" direction="in"/>
+            <arg name="actionid" type="s" direction="in"/>
+            <arg name="success" type="b" direction="out"/>
+        </method>
+    </interface>
+</comarModel>

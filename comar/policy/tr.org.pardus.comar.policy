@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN" "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+
+<policyconfig>
+    <vendor>Pardus</vendor>
+    <vendor_url>http://www.pardus.org.tr</vendor_url>
+    <icon_name>applications-system</icon_name>
+
+    <action id="tr.org.pardus.comar.register">
+        <description>Register new scripts</description>
+        <description xml:lang="tr">Yeni betikleri sisteme kaydet</description>
+        <description xml:lang="nl">Registreer nieuwe scripts</description>
+        <description xml:lang="fr">Enregistrer de nouveaux scripts</description>
+        <description xml:lang="es">Registrar nuevos scripts</description>
+        <description xml:lang="pl">Zarejestruj nowe skrypty</description>
+        <description xml:lang="de">Neue Skripte registrieren</description>
+        <description xml:lang="sv">Registrerar nya skript</description>
+        <description xml:lang="it">Registra nuovi script</description>
+        <message>System policy prevents registering scripts</message>
+        <message xml:lang="tr">Sistem politikası betiklerin sisteme kaydedilmesini engelliyor</message>
+        <message xml:lang="nl">Systeembeleid voorkomt registreren scripts</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas d'enregistrer de nouveaux scripts</message>
+        <message xml:lang="es">La política del sistema no permite registrar nuevos scripts</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Registrierung der Skripte</message>
+        <message xml:lang="pl">Ustawienia systemu zabraniają rejestrowaniu nowych skryptów</message>
+        <message xml:lang="sv">Systempolicyn förhindrar registreringen av skript</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono di registrare nuovi script</message>
+        <defaults>
+            <allow_any>no</allow_any>
+            <allow_active>no</allow_active>
+            <allow_inactive>no</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.remove">
+        <description>Remove application</description>
+        <description xml:lang="tr">Uygulama kaldır</description>
+        <description xml:lang="nl">Verwijder programma's</description>
+        <description xml:lang="fr">Supprimer l'application</description>
+        <description xml:lang="es">Eliminar programa</description>
+        <description xml:lang="pl">Usuń aplikację</description>
+        <description xml:lang="de">Anwendung entfernen</description>
+        <description xml:lang="sv">Ta bort program</description>
+        <description xml:lang="it">Rimuovi programma</description>
+        <message>System policy prevents removing applications</message>
+        <message xml:lang="tr">Sistem politikası uygulamaların kaldırılmasını engelliyor</message>
+        <message xml:lang="nl">Systeembeleid voorkomt verwijderen programma's</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de supprimer d'applications</message>
+        <message xml:lang="es">La política del sistema no permite eliminar programas</message>
+        <message xml:lang="pl">Ustawienia systemu zabraniają usuwania aplikacji</message>
+        <message xml:lang="de">Systemrichtlinie verhindert das Entfernen der Anwendungen</message>
+        <message xml:lang="sv">Systempolicyn förhindrar borttagning av program</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono di eliminare dei programmi</message>
+        <defaults>
+            <allow_any>no</allow_any>
+            <allow_active>no</allow_active>
+            <allow_inactive>no</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.listapplications">
+        <description>List applications</description>
+        <description xml:lang="tr">Uygulamaları listele</description>
+        <description xml:lang="fr">Lister les applications</description>
+        <description xml:lang="es">Listar programas</description>
+        <description xml:lang="pl">Listuj aplikacje</description>
+        <description xml:lang="de">Anwendungen auflisten</description>
+        <description xml:lang="sv">Lista program</description>
+        <description xml:lang="it">Lista programmi</description>
+        <description xml:lang="nl">Applicaties weergeven</description>
+        <message>System policy prevents listing applications</message>
+        <message xml:lang="tr">Sistem politikaları uygulamaların listelenmesini engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de lister d'applications</message>
+        <message xml:lang="es">La política del sistema no permite listar programas</message>
+        <message xml:lang="pl">Ustawienia systemu zabraniają listowania aplikacji</message>
+        <message xml:lang="de">Systekrichtlinie verhindert die Auflistung der Anwendungen</message>
+        <message xml:lang="sv">Systempolicyn förhindrar listning av program</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono di ottenere una lista dei programmi</message>
+        <message xml:lang="nl">Systeembeleid voorkomt applicaties weergeven</message>
+        <defaults>
+            <allow_any>yes</allow_any>
+            <allow_active>yes</allow_active>
+            <allow_inactive>yes</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.listmodels">
+        <description>List models</description>
+        <description xml:lang="tr">Modelleri listele</description>
+        <description xml:lang="nl">Lijst van modellen</description>
+        <description xml:lang="fr">Lister les modèles</description>
+        <description xml:lang="es">Listar modelos</description>
+        <description xml:lang="pl">Listuj modele</description>
+        <description xml:lang="de">Medelle auflisten</description>
+        <description xml:lang="sv">Lista modeller</description>
+        <description xml:lang="it">Lista modelli</description>
+        <message>System policy prevents listing models</message>
+        <message xml:lang="tr">Sistem politikası modellerin listelenmesini engelliyor</message>
+        <message xml:lang="nl">Systeembeleid voorkomt lijst van modellen te geven</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de lister de modèles</message>
+        <message xml:lang="es">La política del sistema no permite listar los modelos</message>
+        <message xml:lang="pl">Ustawienia systemu zabraniają listowania modeli</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Auflistung der Modelle</message>
+        <message xml:lang="sv">Systempolicyn förhindrar listning av modeller</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono di ottenere una lista dei modelli</message>
+        <defaults>
+            <allow_any>yes</allow_any>
+            <allow_active>yes</allow_active>
+            <allow_inactive>yes</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.listapplicationmodels">
+        <description>List application models</description>
+        <description xml:lang="tr">Uygulama modellerini listele</description>
+        <description xml:lang="nl">Lijst van programma modellen</description> 
+        <description xml:lang="fr">Lister des modèles d'applications</description>
+        <description xml:lang="es">Listar modelos de programas</description>
+        <description xml:lang="pl">Listuj modele aplikacji</description>
+        <description xml:lang="de">Anwendungsmodelle auflisten</description>
+        <description xml:lang="sv">Lista programmodeller</description>
+        <description xml:lang="it">Lista modelli dei programmi</description>
+        <message>System policy prevents listing application models</message>
+        <message xml:lang="tr">Sistem politikası uygulama modellerinin listelenmesini engelliyor</message>
+        <message xml:lang="nl">Systeembeleid voorkomt lijst van programma modellen te geven</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de lister de modèles d'application</message>
+        <message xml:lang="es">La política del sistema no permite listar modelos de programas</message>
+        <message xml:lang="pl">Ustawienia systemu zabraniają listowania modeli aplikacji</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Auflistung der Anwendungsmodelle</message>
+        <message xml:lang="sv">Systempolicyn förhindrar listning av programmodeller</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono di ottenere una lista dei modelli dei programmi</message>
+        <defaults>
+            <allow_any>yes</allow_any>
+            <allow_active>yes</allow_active>
+            <allow_inactive>yes</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.listmodelapplications">
+        <description>List model applications</description>
+        <description xml:lang="tr">Model uygulamaları listele</description>
+        <description xml:lang="nl">Lijst van model applicaties</description>
+        <description xml:lang="fr">Lister des applications modèles</description>
+        <description xml:lang="es">Listar programas de ejemplo</description>
+        <description xml:lang="pl">Listuj modelowe aplikacje</description>
+        <description xml:lang="de">Modelanwendungen auflisten</description>
+        <description xml:lang="sv">Lista modellprogram</description>
+        <description xml:lang="it">Lista programmi di esempio</description>
+        <message>System policy prevents listing model applications</message>
+        <message xml:lang="tr">Sistem politikası model uygulamaların listelenmesini engelliyor</message>
+        <message xml:lang="nl">Systeembeleid voorkomt lijst van model programma's te geven</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de lister d'applications modèles</message>
+        <message xml:lang="es">La política del sistema no permite listar programas de ejemplo</message>
+        <message xml:lang="pl">Ustawienia systemu zabraniają lisowania modelowych aplikacji</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Auflistung der Modelanwendungen</message>
+        <message xml:lang="sv">Systempolicyn förhindrar listning av modellprogram</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono di ottenere una lista dei programmi di esempio</message>
+        <defaults>
+            <allow_any>yes</allow_any>
+            <allow_active>yes</allow_active>
+            <allow_inactive>yes</allow_inactive>
+        </defaults>
+    </action>
+</policyconfig>

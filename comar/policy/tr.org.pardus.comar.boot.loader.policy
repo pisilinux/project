@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN" "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+
+<policyconfig>
+    <vendor>Pardus</vendor>
+    <vendor_url>http://www.pardus.org.tr</vendor_url>
+    <icon_name>computer</icon_name>
+
+    <action id="tr.org.pardus.comar.boot.loader.updatekernelentry">
+        <description>Update kernel release on specified partition</description>
+        <description xml:lang="tr">Belirli disk bölümündeki çekirdek sürümünü güncelle</description>
+        <description xml:lang="fr">Mise à jour de la version du noyau dans la partition indiquée</description>
+        <description xml:lang="es">Actualizar versión del kernel en partición indicada</description>
+        <description xml:lang="nl">Bijwerken kernel op specifieke partitie</description>
+        <description xml:lang="pl">Aktualizowanie wersji kernela na wskazanej partycji</description>
+        <description xml:lang="de">Kernel-Version auf der angegebenen Partition aktualisieren</description>
+        <description xml:lang="sv">Uppdatera kärnan på angiven partition</description>
+        <description xml:lang="it">Aggiorna versione del kernel sulla partizione specificata</description>
+        <message>System policy prevents updating kernel</message>
+        <message xml:lang="tr">Sistem politikası çekirdek güncellemeyi engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas la mise à jour du noyau</message>
+        <message xml:lang="es">La política del sistema no permite la actualización del kernel</message>
+        <message xml:lang="nl">Systeembeleid voorkomt bijwerken kernel</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Aktualisierung des Kernels</message>
+        <message xml:lang="sv">Systempolicyn förhindrar uppdatering av kärnan</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono l'aggiornamento del kernel</message>
+        <defaults>
+            <allow_any>no</allow_any>
+            <allow_active>no</allow_active>
+            <allow_inactive>no</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.boot.loader.removeentry">
+        <description>Remove entry from boot loader</description>
+        <description xml:lang="tr">Önyükleyiciden girdi sil</description>
+        <description xml:lang="fr">Supprimer cette entrée du chargeur de démarrage</description>
+        <description xml:lang="es">Eliminar ítem de la lista del cargador de arranque</description>
+        <description xml:lang="nl">Verwijder item van bootlader</description>
+        <description xml:lang="pl">Usuwanie wpisów z konfiguracji menedżera rozruchu</description>
+        <description xml:lang="de">Eintrag vom Boot-Loader entfernen</description>
+        <description xml:lang="sv">Ta bort post från starthanteraren</description>
+        <description xml:lang="it">Elimina voca dal bootloader</description>
+        <message>System policy prevents removing entry</message>
+        <message xml:lang="tr">Sistem politikası girdi silmeyi engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de supprimer l'entrée</message>
+        <message xml:lang="es">La política del sistema no permite eliminar entrada en la lista</message>
+        <message xml:lang="nl">Systeembeleid voorkomt verwijderen item van bootlader</message>
+        <message xml:lang="de">Systemrichtlinie verhindert das Entfernen des Eintrages</message>
+        <message xml:lang="sv">Systempolicyn förhindrar borttagning av post</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono di eliminare la voce</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.boot.loader.removeunused">
+        <description>Remove unused kernel from system</description>
+        <description xml:lang="tr">Sistemden kullanılmayan çekirdeği sil</description>
+        <description xml:lang="fr">Supprimer du système les noyaux inutilisés.</description>
+        <description xml:lang="es">Eliminar kernel no utilizado del sistema</description>
+        <description xml:lang="nl">Verwijder ongebruikte kernel van systeem</description>
+        <description xml:lang="pl">Usuwanie nieużywanych kerneli z systemu</description>
+        <description xml:lang="de">Nicht verwendete Kernel vom System entfernen</description>
+        <description xml:lang="sv">Ta bort oanvända kärnor från systemet</description>
+        <description xml:lang="it">Elimina kernel inutilizzati dal sistema</description>
+        <message>System policy prevents removing unused kernels</message>
+        <message xml:lang="tr">Sistem politikası kullanılmayan çekirdeği silmeyi engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de supprimer les noyaux inutilisés</message>
+        <message xml:lang="es">La política del sistema no permite eliminar nucleos (kernels) sin uso del sistema</message>
+        <message xml:lang="nl">Systeembeleid voorkomt verwijderen ongebruikte kernel van systeem</message>
+        <message xml:lang="de">Systemrichtlinie verhindert das Entfernen der nicht verwendeten Kernel</message>
+        <message xml:lang="sv">Systempolicyn förhindrar borttagning av oanvända kärnor</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono di eliminare i kernel inutilizzati</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.boot.loader.set">
+        <description>Edit boot loader options and add new entries</description>
+        <description xml:lang="tr">Önyükleyici seçeneklerini değiştir ve yeni girdiler ekle</description>
+        <description xml:lang="fr">Éditer les options du chargeur de démarrage et ajouter de nouvelles entrées</description>
+        <description xml:lang="es">Editar opciones del cargador de arranque y agregar entradas</description>
+        <description xml:lang="nl">Bewerk bootlader en voeg nieuwe items toe</description>
+        <description xml:lang="pl">Edycja opcji menedżera rozruchu i dodawanie nowych wpisów</description>
+        <description xml:lang="de">Boot-Loader-Optionen bearbeiten und neue Einträge hinzufügen</description>
+        <description xml:lang="sv">Redigera starthanterarens alternativ och lägg till nya poster</description>
+        <description xml:lang="it">Modifica opzioni del bootloader e aggiungi nuove voci</description>
+        <message>System policy prevents changing bootloader settings</message>
+        <message xml:lang="tr">Sistem politikası önyükleyici ayarlarını değiştirmeyi engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de supprimer les noyaux inutilisés</message>
+        <message xml:lang="es">La política del sistema no permite modificar configuración del cargador de arranque</message>
+        <message xml:lang="nl">Systeembeleid voorkomt bewerken bootlader en voeg nieuwe items toe</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Änderung der Boot-Loader-Einstellungen</message>
+        <message xml:lang="sv">Systempolicyn förhindrar redigering av starthanterarens inställningar</message>
+        <message xml:lang="it">Le politiche di gestione di sistema non permettono di modificare le impostazioni del bootloader</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.boot.loader.get">
+        <description>View boot loader options and list entries</description>
+        <description xml:lang="tr">Önyükleyici seçeneklerine bak ve girdileri listele</description>
+        <description xml:lang="fr">Voir les options du chargeur de démarrage et lister les entrées</description>
+        <description xml:lang="es">Ver opciones del cargador de arranque y lista de entradas</description>
+        <description xml:lang="nl">Bekijk bootlader opties en toon items</description>
+        <description xml:lang="pl">Odczyt ustawień menedżera rozruchu</description>
+        <description xml:lang="de">Boot-Loader-Optionen ansehen und Einträge auflisten</description>
+        <description xml:lang="sv">Visa starthanterarens alternativ och poster</description>
+        <description xml:lang="it">Vedi opzioni del bootloader e la lista delle voci</description>
+        <message>System policy prevents viewing bootloader settings</message>
+        <message xml:lang="tr">Sistem politikası önyükleyici ayarlarına bakmayı engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de voir les options du chargeur de démarrage.</message>
+        <message xml:lang="es">La política del sistema no permite ver la configruación del cargador de arranque</message>
+        <message xml:lang="nl">Systeembeleid voorkomt bekijken bootlader opties en tonen items</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Einsicht in die Boot-Loader-Einstellungen</message>
+        <message xml:lang="sv">Systempolicyn förhindrar visning av starthanterarens inställningar</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono di vedre le impostazioni del bootloader</message>
+        <defaults>
+            <allow_any>yes</allow_any>
+            <allow_active>yes</allow_active>
+            <allow_inactive>yes</allow_inactive>
+        </defaults>
+    </action>
+</policyconfig>

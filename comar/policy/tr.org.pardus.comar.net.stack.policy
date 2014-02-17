@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN" "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+
+<policyconfig>
+    <vendor>Pardus</vendor>
+    <vendor_url>http://www.pardus.org.tr</vendor_url>
+    <icon_name>applications-internet</icon_name>
+
+    <action id="tr.org.pardus.comar.net.stack.set">
+        <description>Set hostname/nameserver info</description>
+        <description xml:lang="tr">Makine adı/isim sunucu bilgisini değiştir</description>
+        <description xml:lang="nl">Stel hostnaam/naamserver info in</description>
+        <description xml:lang="fr">Établir les informations concernant le nom d'hôte/le serveur de nom</description>
+        <description xml:lang="es">Establecer información de nombre de servidor (hostname) y servidor de nombres</description>
+        <description xml:lang="pl">Ustawianie hostname/nameserver</description>
+        <description xml:lang="de">Hostnamen-/Nameserver-Informationen einstellen</description>
+        <description xml:lang="sv">Ange information om värddatornamn och namnservrar</description>
+        <description xml:lang="it">Modifica nome host e server DNS</description>
+        <message>System policy prevents changing host/nameserver information</message>
+        <message xml:lang="tr">Sistem politikası makine adı/isim sunucu bilgisini değiştirmeyi engelliyor</message>
+        <message xml:lang="nl">Systeembeleid voorkomt veranderen van host/servernaam informatie</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas d'établir les informations concernant le nom d'hôte/le serveur de nom</message>
+        <message xml:lang="es">La política del sistema no permite modificar información de nombre de la maquina (hostname) o servidor de nombres</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Änderung der Host-/Nameserver-Informationen</message>
+        <message xml:lang="sv">Systempolicyn förhindrar redigering av värddatornamn och namnserver</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono di impostare il nome dell'host o il server DNS</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.net.stack.get">
+        <description>Get hostname/nameserver info</description>
+        <description xml:lang="tr">Makine adı/isim sunucu bilgisini al</description>
+        <description xml:lang="nl">Hostnaam/naamserver informatie ophalen</description>
+        <description xml:lang="fr">Obtenir les informations concernant le nom d'hôte/le serveur de nom</description>
+        <description xml:lang="es">Obtener información de nombre de máqina (hostname) y servidor de nombres</description>
+        <description xml:lang="pl">Odczyt hostname/nameserver</description>
+        <description xml:lang="de">Hostnamen-/Nameserver-Informationen abrufen</description>
+        <description xml:lang="sv">Visa information om värddatornamn och namnservrar</description>
+        <description xml:lang="it">Ottieni informazioni sul nome host e sul server DNS</description>
+        <message>System policy prevents getting host/nameserver info</message>
+        <message xml:lang="tr">Sistem politikası makine adı/isim sunucu bilgisini almayı engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas d'obtenir les informations concernant le nom d'hôte/le serveur de nom</message>
+        <message xml:lang="es">La política del sistema no permite obtener información de nombre de la maquina (hostname) o servidor de nombres</message>
+        <message xml:lang="de">Systemrichtlinie verhindert den Abruf der Host-/Nameserver-Informationen</message>
+        <message xml:lang="sv">Systempolicyn visning av värddatornamn och namnserver</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono di ottenere informazioni sul nome dell'host o il server DNS</message>
+        <message xml:lang="nl">Systeembeleid voorkomt hostnaam/naamserver informatie ophalen</message>
+        <defaults>
+            <allow_any>yes</allow_any>
+            <allow_active>yes</allow_active>
+            <allow_inactive>yes</allow_inactive>
+        </defaults>
+    </action>
+</policyconfig>

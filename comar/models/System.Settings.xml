@@ -1,0 +1,63 @@
+<comarModel>
+    <interface name="System.Settings">
+        <method name="listLanguages" action_id="">
+            <arg name="languages" type="a(ss)" direction="out"/>
+        </method>
+        <method name="getLanguage" action_id="">
+            <arg name="language" type="s" direction="out"/>
+        </method>
+        <method name="setLanguage" action_id="tr.org.pardus.comar.system.settings.set">
+            <arg name="language" type="s" direction="in"/>
+        </method>
+
+        <method name="listKeymaps" action_id="">
+            <arg name="language" type="s" direction="in"/>
+            <arg name="keymaps" type="a(ss)" direction="out"/>
+        </method>
+        <method name="getKeymap" action_id="">
+            <arg name="keymap" type="s" direction="out"/>
+        </method>
+        <method name="setKeymap" action_id="tr.org.pardus.comar.system.settings.set">
+            <arg name="keymap" type="s" direction="in"/>
+        </method>
+
+        <method name="listLocales" action_id="">
+            <arg name="language" type="s" direction="in"/>
+            <arg name="locales" type="a(ss)" direction="out"/>
+        </method>
+        <method name="getLocale" action_id="">
+            <arg name="locale" type="s" direction="out"/>
+        </method>
+        <method name="setLocale" action_id="tr.org.pardus.comar.system.settings.set">
+            <arg name="locale" type="s" direction="in"/>
+        </method>
+
+        <method name="getHeadStart" action_id="">
+            <arg name="package" type="s" direction="out"/>
+        </method>
+        <method name="setHeadStart" action_id="tr.org.pardus.comar.system.settings.set">
+            <arg name="package" type="s" direction="in"/>
+        </method>
+
+        <method name="getClock" action_id="">
+            <arg name="is_utc" type="b" direction="out"/>
+            <arg name="adjust" type="b" direction="out"/>
+        </method>
+        <method name="setClock" action_id="tr.org.pardus.comar.system.settings.set">
+            <arg name="is_utc" type="b" direction="in"/>
+            <arg name="adjust" type="b" direction="in"/>
+        </method>
+
+        <method name="getTTYs" action_id="">
+            <arg name="count" type="i" direction="out"/>
+        </method>
+        <method name="setTTYs" action_id="tr.org.pardus.comar.system.settings.set">
+            <arg name="count" type="i" direction="in"/>
+        </method>
+
+        <signal name="Changed">
+            <arg name="service" type="s"/>
+            <arg name="state" type="s"/>
+        </signal>
+    </interface>
+</comarModel>

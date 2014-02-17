@@ -1,0 +1,299 @@
+Network.Link Modeli
+===================
+
+    linkInfo():
+        Uygulamanın ağ bağlantısı kurmak ya da yönetmek için ihtiyaç duyduğu bilgileri sunar.
+
+        Örnek Fonksiyon Tanımı:
+
+        01 def linkInfo():
+        02     return {
+        03         "type": "wifi",
+        04         "name": "Wireless connection",
+        05         "modes": "device,device_mode,remote,remote_scan,net,auto,auth",
+        06     }
+
+        - type: Uygulamanın sağladığı bağlantı türünü ifade eden anahtar kelime
+                (wifi, net, dialup, ...)
+
+        - name: Bağlantı türüne ait açıklama. Yerelleştirilebilir.
+
+        - modes: Profil oluştururken kullanılabilecek metodlar ve özellikler ile ilgili bilgi sunar.
+
+                 device : Bağlantı kurarken bir aygıt seçilmesi gerektiğini gösterir.
+
+            device_mode : Bağlantıda kullanılacak aygıt, birden fazla çalışma modu
+                          desteklediğini (wireless kartlardaki adhoc, managed, ... 
+                          modları gibi) gösterir.
+
+                 remote : Bağlantı kurarken uzak bir bağlantı noktası adresi verilmesi gerektiğini gösterir.
+                          (ppp için telefon numarası, wifi için essid, ...)
+
+            remote_scan : Uzak bağlantı tarama işlemi yapılabileceği anlamına gelir.
+
+                 net    : Alınacak adresin önceden belirlenebildiği anlamına gelir.
+
+                 auto   : Adres almak için DHCP kullanılabileceği anlamına gelir.
+
+                 auth   : Bağlantı kurarken kimlik doğrulama yapılabileceği anlamına gelir.
+
+
+    def authMethods():
+        "auth" destekleniyorsa, kullanılabilir kimlik doğrulama methodlarını listelemek için kullanılır.
+
+        Örnek Fonksiyon Tanımı:
+
+        01 def authMethods():
+        02     return [
+        03         ("wep", "WEP"),
+        04         ("wpa", "WPA"),
+        05         ("802.1x", "Dynamic WEP (802.1x)"),
+        06     ]
+
+        İlk eleman method adı, ikincisi ise method tanımıdır. Method tanımları yerelleştirilebilir.
+
+
+    def authParameters(method):
+        "auth" destekleniyorsa, ilgili kimlik doğrulama methodunun ihtiyaç duyduğu bilgileri tanımlamak için kullanılır.
+
+        Örnek Fonksiyon Tanımı:
+
+        01 def authParameters(method):
+        02     if method == "wep":
+        03         return [
+        04             ("password", "Password", "pass"),
+        05         ]
+        06     elif method == "wpa":
+        07         return [
+        08             ("password", "Password", "pass"),
+        09         ]
+        10     elif method == "802.1x":
+        11         return [
+        12             ("username", "Username", "text"),
+        13             ("password", "Password", "pass"),
+        14             ("cert_cli", "Client Certificate", "file"),
+        15             ("cert_ca", "CA Certificate", "file"),
+        16             ("keyfile", "Private Key", "file"),
+        17         ]
+        18 
+        19     return modes
+
+        İlk değer istenen değerin adını, ikincisi tanımını, üçüncüsü ise türünü belirtir. Tanım yerelleştirilebilir.
+
+        Kullanılabilir türler:
+
+            text : Metin girişleri için
+
+            pass : Parola girişleri için
+
+            file : Dosya girişleri için
+
+
+    setAuthMethod(profile, method):
+        "auth" modu destekleniyorsa, profili kimlik doğrulama "method"u ile ilişkilendirmek için kullanılır.
+
+
+    setAuthParameters(profile, auth_key, auth_value):
+        "auth" modu destekleniyorsa, kimlik doğrulama için gereken alanları belirlemek için kullanır.
+
+
+    getAuthMethod(profile):
+        "auth" modu destekleniyorsa, profille ilişkilendirilmiş auth modunu döndürür.
+
+        Yazılacak fonksiyon, aşağıdaki gibi bir çıktı vermelidir:
+
+        01 "802.1x"
+
+
+    getAuthParameters(profile):
+        "auth" modu destekleniyorsa, profilin kimlik doğrulama bilgilerini verir.
+
+        Yazılacak fonksiyon, aşağıdaki gibi bir çıktı vermelidir:
+
+        01 {
+        02     "login": "bahadir",
+        03     "parola": "parolam",
+        04     "cert_cli": "/home/bahadir/.cert/cli.cert",
+        05     "cert_ca": "/home/bahadir/.cert/ca.cert",
+        06     "keyfile": "/home/bahadir/.cert/mykey",
+        07 }
+
+
+    deviceList():
+        "device" modu destekleniyorsa, yygulama tarafından kullanılabilen aygıt listesini verir.
+
+        Yazılacak fonksiyon, aşağıdaki gibi bir çıktı vermelidir:
+
+        O1 {
+        02     "pci:1106_3065_eth1": "VT6102 [Rhine-II] - VIA Technologies, Inc. (eth1)",
+        03 }
+
+
+    def deviceModes():
+        "device_mode" destekleniyorsa, kullanılabilir aygıt modlarını listelemek için kullanılabilir.
+
+        Örnek Fonksiyon Tanımı:
+
+        01 def deviceModes():
+        02     return [
+        03         ("managed", "Managed"),
+        04         ("adhoc", "Ad Hoc"),
+        05     ]
+
+        İlk eleman mod adı, ikincisi ise mod tanımdır. Mod tanımı yerelleştirilebilir.
+
+
+    def remoteName():
+        "remote" destekleniyorsa, uzak bağlantı noktayı belirtirken kullanılacak etiketi döndürür.
+
+        Örnek Fonksiyon Tanımı:
+
+        01 def remoteName():
+        02     return "Phone Number"
+
+        Yerelleştirilebilir.
+
+
+    scanRemote(device):
+        "remote" modu destekleniyorsa bağlanılabilir uzak noktaları taramak için kullanılır.
+
+        Yazılacak fonksiyon, aşağıdaki gibi bir çıktı vermelidir:
+
+        01 [
+        02     {
+        03         "remote": "HOME",
+        04         "encryption": "wep",
+        05         "mac": "00:00:00:00:00:00",
+        06         "channel": "11",
+        07         "mode": "managed",
+        08         "protocol": "IEEE 802.11g",
+        09         "quality": "54",
+        10     },
+        11     {
+        12         "remote": "APOINT",
+        13         "encryption": "wpa",
+        14         "mac": "11:11:11:11:11:11",
+        15         "channel": "11",
+        16         "mode": "managed",
+        17         "protocol": "IEEE 802.11g",
+        18         "quality": "12",
+        19     },
+        20 ]
+
+        NOT: Bu metodu wireless'tan başka kullanacak uygulama olmayacağı için Dict key'ler böyle kalabilir.
+
+
+    setRemote(profile, remote):
+        "remote" modu destekleniyorsa, uzaktaki noktanın adresini belirtmek için kullanılır.
+
+        Wireless için ESSID, PPP için telefon numarası, VPN için host:port bu şekilde belirtilebilir.
+
+
+    connections():
+        Oluşturulan profillerin listesini verir.
+
+        Yazılacak fonksiyon, aşağıdaki gibi bir çıktı vermelidir:
+
+        O1 [
+        02     "Ev",
+        03     "Ofis",
+        04 ]
+
+
+    connectionInfo(profile):
+        Bağlantıya ait bilgileri gösterir.
+
+        Yazılacak fonksiyon, aşağıdaki gibi bir çıktı vermelidir:
+
+        01 {
+        02     "name": "Ev",
+        03     "device_id": "pci:1106_3065_eth1",
+        04     "device_name": "VT6102 [Rhine-II] - VIA Technologies, Inc. (eth1)",
+        05     "net_mode": "manual",
+        06     "net_address": "192.168.2.10",
+        07     "net_mask": "255.255.255.0",
+        08     "net_gateway": "192.168.2.1",
+        09     "state": "up",
+        00 }
+
+        NOT: Alanlar tanımlanmalı.
+
+
+    setDevice(profile, device):
+        "device" modu destekleniyorsa, profili bir aygıtla ilişkilendirmek için kullanılabilir.
+
+
+    setDeviceMode(profile, mode):
+        "device_mode" destekleniyorsa, aygıt modu belirtmek için kullanılır.
+
+
+    deleteConnection(profile):
+        Profili silmek için kullanılabilir.
+
+
+    setAddress(profile, mode, address, mask, gateway):
+        "net" modu destekleniyorsa adres girmek girmek için kullanılır:
+
+            setAddress("ev", "manual", "192.168.2.2", "255.255.255.0", "192.168.2.1")
+
+        "auto" modu destekleniyorsa, otomatik adres alma sağlanabilir:
+
+            setAddress("ev", "auth", "", "", "")
+
+        NOT: Sadeleştirilebilir.
+
+
+    setNameService(profile, namemode, nameserver):
+        NOT: Fonsksiyon tanımlanmalı
+
+
+    setState(profile, state):
+        "up" ile ilgili profil bağlantısını kurar, "down" ile kapatır.
+
+
+    getState(profile):
+        Profilin bağlantı durumunu verir.
+
+        Yazılacak fonksiyon, aşağıdaki çıktılardan birini vermelidir:
+
+        "up <Adres>"
+
+        "down"
+
+        "inaccessible <Hata mesajı>"
+
+        "unavailable"
+
+        "unplugged"
+
+
+    Sinyaller:
+        connectionChanged: Bağlantı profili değiştirildiğinde gönderilir.
+            Argümanlar:
+                operation: Aşağıdakilerden biri olmalı:
+                    added
+                    changed
+                    deleted
+                profile: Profil adı
+
+        stateChanged: Bağlantı durumu değiştirildiğinde gönderilir.
+            Argümanlar:
+                profile: Profil adı
+                state: Aşağıdakilerden biri olmalı:
+                    connecting
+                    down
+                    up
+                    inaccessible
+                address_or_msg:
+                    state "up" ise, bağlantı adresi.
+                    state "inaccessible" ise, hata mesajı.
+
+        deviceChanged: Bir aygıt çıkarıldığında ya da takıldığında gönderilir.
+            Argümanlar:
+                action: Aşağıdakilerden biri olmalı:
+                    added
+                    new
+                    removed
+                type: linkInfo() içinde tanımlanan tip olmalı
+                device_id: Aygıt No.
+                device_name: Aygıt Adı

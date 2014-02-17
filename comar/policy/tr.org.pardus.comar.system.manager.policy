@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN" "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+
+<policyconfig>
+    <vendor>Pardus</vendor>
+    <vendor_url>http://www.pardus.org.tr</vendor_url>
+    <icon_name>package</icon_name>
+
+    <action id="tr.org.pardus.comar.system.manager.installpackage">
+        <description>Install package</description>
+        <description xml:lang="tr">Paket yükle</description>
+        <description xml:lang="fr">Installer le paquet</description>
+        <description xml:lang="es">Instalar paquete</description>
+        <description xml:lang="pl">Instalacja pakietów</description>
+        <description xml:lang="de">Paket installieren</description>
+        <description xml:lang="sv">Installera paket</description>
+        <description xml:lang="nl">Pakket installeren</description>
+        <message>System policy prevents installing package</message>
+        <message xml:lang="tr">Sistem politikası paket yüklemeyi engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas d'installer le paquet</message>
+        <message xml:lang="es">La política del sistema no permite instalar paquetes</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Installation des Pakets</message>
+        <message xml:lang="sv">Systempolicyn förhindrar installation av paket</message>
+        <message xml:lang="nl">Systeembeleid vookomt pakket installeren</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.system.manager.removepackage">
+        <description>Remove package</description>
+        <description xml:lang="tr">Paket kaldır</description>
+        <description xml:lang="fr">Installer le paquet</description>
+        <description xml:lang="es">Remover paquete</description>
+        <description xml:lang="pl">Usuwanie pakietów</description>
+        <description xml:lang="de">Paket entfernen</description>
+        <description xml:lang="sv">Ta bort paket</description>
+        <description xml:lang="nl">Pakket verwijderen</description>
+        <message>System policy prevents removing package</message>
+        <message xml:lang="tr">Sistem politikası paket kaldırmayı engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de supprimer le paquet</message>
+        <message xml:lang="es">La política del sistema no permite remover paquetes</message>
+        <message xml:lang="de">Systemrichtlinie verhindert das Entfernen des Pakets</message>
+        <message xml:lang="sv">Systempolicyn förhindrar borttagning av paket</message>
+        <message xml:lang="nl">Systeembeleid voorkomt pakket verwijderen</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.system.manager.updatepackage">
+        <description>Update package</description>
+        <description xml:lang="tr">Paket güncelle</description>
+        <description xml:lang="fr">Mise à jour du paquet</description>
+        <description xml:lang="es">Actualizar paquete</description>
+        <description xml:lang="pl">Aktualizowanie pakietów</description>
+        <description xml:lang="de">Paket aktualisieren</description>
+        <description xml:lang="sv">Uppdatera paket</description>
+        <description xml:lang="nl">Pakket opwaarderen</description>
+        <message>System policy prevents updating package</message>
+        <message xml:lang="tr">Sistem politikası paket güncellemeyi engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de mettre à jour le paquet</message>
+        <message xml:lang="es">La política del sistema no permite actualizar paquetes</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Aktualisierung des Pakets</message>
+        <message xml:lang="sv">Systempolicyn förhindrar uppdatering av paket</message>
+        <message xml:lang="nl">Systeembeleid voorkomt pakket opwaarderen</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.system.manager.updaterepository">
+        <description>Update repository</description>
+        <description xml:lang="tr">Depo güncelle</description>
+        <description xml:lang="fr">Mise à jour du dépôt</description>
+        <description xml:lang="es">Actualizar repositorio</description>
+        <description xml:lang="pl">Aktualizacja repozytorium</description>
+        <description xml:lang="de">Depo aktualisieren</description>
+        <description xml:lang="sv">Uppdatera förråd</description>
+        <description xml:lang="nl">Repository opwaarderen</description>
+        <message>System policy prevents updating repository</message>
+        <message xml:lang="tr">Sistem politikası depo güncellemeyi engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de mettre à jour le dépôt</message>
+        <message xml:lang="es">La política del sistema no permite actualizar repositorios</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Aktualisierung des Depots</message>
+        <message xml:lang="sv">Systempolicyn förhindrar uppdatering av förråd</message>
+        <message xml:lang="nl">Systeembeleid voorkomt repository opwaarderen</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>yes</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.system.manager.updateallrepositories">
+        <description>Update all repositories</description>
+        <description xml:lang="tr">Tüm depoları güncelle</description>
+        <description xml:lang="fr">Mettre à jour tous les dépôts</description>
+        <description xml:lang="es">Actualizar todos los repositorios</description>
+        <description xml:lang="pl">Aktualizacja wszystkich repozytoriów</description>
+        <description xml:lang="de">Alle Depots aktualisieren</description>
+        <description xml:lang="sv">Uppdatera alla förråd</description>
+        <description xml:lang="nl">Alle repositories opwaarderen</description>
+        <message>System policy prevents updating all repositories</message>
+        <message xml:lang="tr">Sistem politikası tüm depoları güncellemeyi engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de mettre à jour tous les dépôts</message>
+        <message xml:lang="es">La política del sistema no permite actualizar todos los repositorios</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Aktualisierung der allen Depots</message>
+        <message xml:lang="sv">Systempolicyn förhindrar uppdatering av alla förråd</message>
+        <message xml:lang="nl">Systeembeleid voorkomt alle repositories opwaarderen</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>yes</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.system.manager.addrepository">
+        <description>Add repository</description>
+        <description xml:lang="tr">Depo ekle</description>
+        <description xml:lang="fr">Ajouter un dépôt</description>
+        <description xml:lang="es">Agregar repositorio</description>
+        <description xml:lang="pl">Dodawanie repozytoriów</description>
+        <description xml:lang="de">Depot hinzufügen</description>
+        <description xml:lang="sv">Lägg till förråd</description>
+        <description xml:lang="nl">Repository toevoegen</description>
+        <message>System policy prevents adding repository</message>
+        <message xml:lang="tr">Sistem politikası depo eklemeyi engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas d'ajouter un dépôt</message>
+        <message xml:lang="es">La política del sistema no permite agregar repositorios</message>
+        <message xml:lang="de">Systemrichtlinie verhindert das Hinzufügen des Depots</message>
+        <message xml:lang="sv">Systempolicyn förhindrar tillägg av förråd</message>
+        <message xml:lang="nl">Systeembeleid voorkomt repository toevoegen</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.system.manager.removerepository">
+        <description>Remove repository</description>
+        <description xml:lang="tr">Depo kaldır</description>
+        <description xml:lang="fr">Supprimer un dépôt</description>
+        <description xml:lang="es">Eliminar repositorio</description>
+        <description xml:lang="pl">Usuwanie repozytoriów</description>
+        <description xml:lang="de">Depot entfernen</description>
+        <description xml:lang="sv">Ta bort förråd</description>
+        <description xml:lang="nl">Repository verwijderen</description>
+        <message>System policy prevents removing repository</message>
+        <message xml:lang="tr">Sistem politikası depo kaldırmayı engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de supprimer un dépôt</message>
+        <message xml:lang="es">La política del sistema no permite eliminar repositorios</message>
+        <message xml:lang="de">Systemrichtlinie verhindert das Entfernen des Depots</message>
+        <message xml:lang="sv">Systempolicyn förhindrar borttagning av förråd</message>
+        <message xml:lang="nl">Systeembeleid voorkomt repository verwijderen</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.system.manager.setrepositories">
+        <description>Set repositories</description>
+        <description xml:lang="tr">Depoları yaz</description>
+        <description xml:lang="fr">Établir la liste des dépôts</description>
+        <description xml:lang="es">Establecer repositorios</description>
+        <description xml:lang="pl">Ustawianie repozytoriów</description>
+        <description xml:lang="de">Depots einstellen</description>
+        <description xml:lang="sv">Anpassa förråd</description>
+        <description xml:lang="nl">Repository instellen</description>
+        <message>System policy prevents setting repositories</message>
+        <message xml:lang="tr">Sistem politikası depoları yazmayı engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas d'établir la liste des dépôts.</message>
+        <message xml:lang="es">La política del sistema no permite establecer lista de repositorios</message>
+        <message xml:lang="de">Systemrichtlinie verhindert das Einstellen des Depots</message>
+        <message xml:lang="sv">Systempolicyn förhindrar anpassning av förråd</message>
+        <message xml:lang="nl">Systeembeleid voorkomt repository instellen</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.system.manager.setrepoactivities">
+        <description>Set repositories' activation status</description>
+        <description xml:lang="tr">Depoların aktiflik durumunu yaz</description>
+        <description xml:lang="sv">Anpassa förrådens aktiveringsstatus</description>
+        <description xml:lang="nl">Activeringsstatus repositories instellen</description>
+        <message>System policy prevents setting repositories' activity status</message>
+        <message xml:lang="tr">Sistem politikası depoların aktiflik durumlarını yazmayı engelliyor</message>
+        <message xml:lang="sv">Systempolicyn förhindrar anpassning av förrådens aktiveringsstatus</message>
+        <message xml:lang="nl">Systeembeleid voorkomt activeringsstatus repositories instellen</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.system.manager.setcache">
+        <description>Set PiSi package cache</description>
+        <description xml:lang="tr">PiSi paket önbelleğini yaz</description>
+        <description xml:lang="fr">Établir le cache de paquets de PiSi</description>
+        <description xml:lang="es">Establecer cache de PiSi</description>
+        <description xml:lang="pl">Ustawianie kesza PiSi dla pakietów</description>
+        <description xml:lang="de">Cache des PiSi-Pakets einstellen</description>
+        <description xml:lang="sv">Anpassa PiSis paketcache</description>
+        <description xml:lang="nl">PiSi-pakketbuffer instellen</description>
+        <message>System policy prevents setting PiSi package cache</message>
+        <message xml:lang="tr">Sistem politikası PiSi paket önbelleğini ayarlamayı engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas d'établir le cache de paquets de PiSi</message>
+        <message xml:lang="es">La política del sistema no permite establecer el cache de PiSi</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Einstellung des PiSi-Paket-Caches</message>
+        <message xml:lang="sv">Systempolicyn förhindrar anpassning av Pisis paketcache</message>
+        <message xml:lang="nl">Systeembeleid voorkomt PiSi-pakketbuffer instellen</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.system.manager.setconfig">
+        <description>Change PiSi config</description>
+        <description xml:lang="tr">PiSi ayarı değiştirme</description>
+        <description xml:lang="fr">Modifier la configuration de PiSi</description>
+        <description xml:lang="es">Modificar configuración de PiSi</description>
+        <description xml:lang="pl">Konfigurowanie PiSi</description>
+        <description xml:lang="de">PiSi-Konfiguration ändern</description>
+        <description xml:lang="sv">Ändra PiSis konfiguration</description>
+        <description xml:lang="nl">PiSi-configuratie wijzigen</description>
+        <message>System policy prevents changing PiSi config</message>
+        <message xml:lang="tr">Sistem politikası PiSi ayarını değiştirmeyi engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de changer la configuration de PiSi</message>
+        <message xml:lang="es">La política del sistema no permite modificar la configuración de PiSi</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Änderung der PiSi-Konfiguration</message>
+        <message xml:lang="sv">Systempolicyn förhindrar ändring av Pisis konfiguration</message>
+        <message xml:lang="nl">Systeembeleid voorkomt PiSi-configuratie wijzigen</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.system.manager.clearcache">
+        <description>Clear PiSi cache</description>
+        <description xml:lang="tr">PiSi önbelleğini boşalt</description>
+        <description xml:lang="fr">Vider le cache de PiSi</description>
+        <description xml:lang="es">Vaciar cache de PiSi</description>
+        <description xml:lang="pl">Czyszczenie kesza PiSi</description>
+        <description xml:lang="de">Den PiSi-Cache leeren</description>
+        <description xml:lang="sv">Rensa PiSis cache</description>
+        <description xml:lang="nl">PiSi-buffer wissen</description>
+        <message>System policy prevents clearing PiSi package cache</message>
+        <message xml:lang="tr">Sistem politikası PiSi paket önbelleğini boşaltmayı engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de vider le cache de PiSi</message>
+        <message xml:lang="es">La política del sistema no permite vaciar el cache de PiSi</message>
+        <message xml:lang="de">Systemrichtlinie verhindert das Leeren des PiSi-Paket-Caches</message>
+        <message xml:lang="sv">Systempolicyn förhindrar rensning av Pisis cache</message>
+                <message xml:lang="nl">Systeembeleid voorkomt PiSi-buffer wissen</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.system.manager.takesnapshot">
+        <description>Take a Snapshot of System</description>
+        <description xml:lang="tr">Sistem Görüntüsünü al</description>
+        <description xml:lang="fr">Prendre un instantané du système</description>
+        <description xml:lang="es">Realizar una instanánea del estado del sistema</description>
+        <description xml:lang="pl">Wykonywanie zrzutu systemu</description>
+        <description xml:lang="de">Sicherungspunkt von dem jetztigen Zustand des Systems erstellen</description>
+        <description xml:lang="sv">Skapa en ögonblicksbild av systemet</description>
+        <description xml:lang="nl">Momentopname van systeem maken</description>
+        <message>System policy prevents taking snapshot</message>
+        <message xml:lang="tr">Sistem politikası sistem görüntüsü almayı engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de prendre un instantané du système</message>
+        <message xml:lang="es">La política del sistema no permite realizar una instanánea del sistema</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Erstellung des Sicherungpunktes</message>
+        <message xml:lang="sv">Systempolicyn förhindrar skapandet av en ögonblicksbild</message>
+                <message xml:lang="nl">Systeembeleid voorkomt momentopname van systeem maken</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.system.manager.takeback">
+        <description>Take system back to a Snapshot</description>
+        <description xml:lang="tr">Sistemi eski bir görüntüye götür</description>
+        <description xml:lang="fr">Restaurer l'état du système selon un instantané</description>
+        <description xml:lang="es">Retroceder el estado del sistema a una instanánea</description>
+        <description xml:lang="pl">Przywracanie systemu ze zrzutu</description>
+        <description xml:lang="de">System zu einem Sicherungspunkt wiederherstellen</description>
+        <description xml:lang="sv">Återställ systemet till en ögonblicksbild</description>
+        <description xml:lang="nl">Systeem teugzetten naar momentopname</description>
+        <message>System policy prevents system snapshot operation</message>
+        <message xml:lang="tr">Sistem politikası sistem görüntüsüne gitmeyi engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de restaurer l'état du système selon un instantané</message>
+        <message xml:lang="es">La política del sistema no permite retroceder el estado del sistema a una instanánea determinada</message>
+        <message xml:lang="de">Systemrichtlinie verhindert den Sicherungspunkt-Vorgang </message>
+        <message xml:lang="sv">Systempolicyn förhindrar ögonblicksbildsåtgärden</message>
+                <message xml:lang="nl">Systeembeleid voorkomt systeem teugzetten naar momentopname</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+</policyconfig>

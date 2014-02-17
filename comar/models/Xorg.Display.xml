@@ -1,0 +1,73 @@
+<comarModel>
+    <interface name="Xorg.Display">
+        <method name="ready" access_label="set">
+            <arg name="boot" type="b" direction="in"/>
+            <arg name="result" type="b" direction="out"/>
+        </method>
+        <method name="initialConfig" access_label="set">
+            <arg name="result" type="b" direction="out"/>
+        </method>
+        <method name="safeConfig" access_label="set">
+            <arg name="result" type="b" direction="out"/>
+        </method>
+        <method name="activeDeviceID" access_label="get">
+            <arg name="result" type="s" direction="out"/>
+        </method>
+        <method name="listDrivers" access_label="get">
+            <arg name="drivers" type="as" direction="out"/>
+        </method>
+        <method name="setDriver" access_label="set">
+            <arg name="driver" type="s" direction="in"/>
+        </method>
+        <method name="setDepth" access_label="set">
+            <arg name="depth" type="i" direction="in"/>
+        </method>
+        <method name="setOutput" access_label="set">
+            <arg name="output" type="s" direction="in"/>
+            <arg name="enabled" type="b" direction="in"/>
+            <arg name="ignored" type="b" direction="in"/>
+        </method>
+        <method name="setMode" access_label="set">
+            <arg name="output" type="s" direction="in"/>
+            <arg name="resolution" type="s" direction="in"/>
+            <arg name="rate" type="s" direction="in"/>
+        </method>
+        <method name="setOrientation" access_label="set">
+            <arg name="output" type="s" direction="in"/>
+            <arg name="rotation" type="s" direction="in"/>
+            <arg name="reflection" type="s" direction="in"/>
+        </method>
+        <method name="setPosition" access_label="set">
+            <arg name="output" type="s" direction="in"/>
+            <arg name="position" type="s" direction="in"/>
+            <arg name="arg" type="s" direction="in"/>
+        </method>
+        <method name="setMonitor" access_label="set">
+            <arg name="output" type="s" direction="in"/>
+            <arg name="vendor" type="s" direction="in"/>
+            <arg name="model" type="s" direction="in"/>
+            <arg name="horizSync" type="s" direction="in"/>
+            <arg name="vertRefresh" type="s" direction="in"/>
+        </method>
+        <method name="syncConfigs" access_label="set"/>
+        <method name="getPendingConfig" access_label="get">
+            <arg name="result" type="a{ss}" direction="out"/>
+        </method>
+        <method name="setKeymap" access_label="set">
+            <arg name="layout" type="s" direction="in"/>
+            <arg name="variant" type="s" direction="in"/>
+        </method>
+    </interface>
+    <interface name="Xorg.Driver">
+        <method name="enable"/>
+        <method name="disable"/>
+        <method name="getInfo" access_label="get">
+            <arg name="info" type="a{ss}" direction="out"/>
+        </method>
+        <method name="getDeviceOptions">
+            <arg name="busId" type="s" direction="in"/>
+            <arg name="options" type="a{ss}" direction="in"/>
+            <arg name="result" type="a{ss}" direction="out"/>
+        </method>
+    </interface>
+</comarModel>

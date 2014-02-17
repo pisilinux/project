@@ -1,0 +1,43 @@
+Net.Filter Model
+================
+
+*** DRAFT ***
+
+Unlike other models, Net.Link is application-dependent and it's used 
+to manage IPTables. IPTables is a powerfull firewall for Linux and 
+it's nearly impossible to design a simple model that  supports all 
+important features of it.
+
+setRule() passes arguments to IPTables directly, so all interfaces 
+that uses Net.Filter model also should be IPTables dependent and 
+have the ability to parse/generate IPTables rules.
+
+        <method name="setRule" action_id="tr.org.pardus.comar.net.filter.set">
+            <arg name="rule" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="getRules" action_id="">
+            <arg name="rules" type="as" direction="out"/>
+        </method>
+        <method name="setProfile" action_id="tr.org.pardus.comar.net.filter.set">
+            <arg name="profile" type="s" direction="in"/>
+            <arg name="save_filter" type="s" direction="in"/>
+            <arg name="save_mangle" type="s" direction="in"/>
+            <arg name="save_nat" type="s" direction="in"/>
+            <arg name="save_raw" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="getProfile" action_id="">
+            <arg name="profile" type="s" direction="out"/>
+            <arg name="save_filter" type="s" direction="out"/>
+            <arg name="save_mangle" type="s" direction="out"/>
+            <arg name="save_nat" type="s" direction="out"/>
+            <arg name="save_raw" type="s" direction="out"/>
+        </method>
+        <signal name="ProfileChanged">
+            <arg name="profile" type="s"/>
+            <arg name="filter" type="s"/>
+            <arg name="mangle" type="s"/>
+            <arg name="nat" type="s"/>
+            <arg name="raw" type="s"/>
+        </signal>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN" "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+
+<policyconfig>
+    <vendor>Pardus</vendor>
+    <vendor_url>http://www.pardus.org.tr</vendor_url>
+    <icon_name>applications-internet</icon_name>
+
+    <action id="tr.org.pardus.comar.net.share.set">
+        <description>Set bridge interfaces</description>
+        <description xml:lang="tr">Köprü arabirimlerini ayarla</description>
+        <description xml:lang="nl">Stel brug interfaces in</description>
+        <description xml:lang="sv">Sätt bryggade gränssnitt</description>
+        <message>System policy prevents adding/deleting bridge interfaces</message>
+        <message xml:lang="tr">Sistem politikası köprü arabirimi eklemeyi/kaldırmayı engelliyor</message>
+        <message xml:lang="nl">Systeembeleid voorkomt toevoegen/verwijderen brug interfaces</message> 
+        <message xml:lang="sv">Systempolicyn förhindrar bryggning av gränssnitt</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+</policyconfig>

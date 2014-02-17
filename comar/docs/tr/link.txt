@@ -1,0 +1,50 @@
+COMAR Çağrıları
+===============
+
+COMAR API paketi, COMAR servisine çağrı yapılması ve sinyallerin
+dinlenebilmesi için, DBus modülüne göre daha temiz bir arabirim sunar:
+
+    import comar
+    link = comar.Link()
+
+    # Betiklerdeki i18n metodu istemci yerelinde değer üretsin
+    link.setLocale()
+
+    # "System.Service" modelini sunan paketlerin listesi
+    packages = list(link.System.Service)
+
+    # "kdebase" paketine ait System.Service.start() metodunu çalıştır
+    link.System.Service["kdebase"].start()
+
+    # Tüm paketlerin System.Service.stop() metodunu çalıştır
+    # Cevap beklenmediği için ortamın asenkron çağrı desteklemesi gerekmez
+    link.System.Service.stop(quiet=True)
+
+Asenkron çağrı (cevabın beklenmediği, geldiğinde bir metodun çalıştırıldığı
+çağrılar) yapmak için ortamın bunu desteklemesi gerekir. Asenkron çağrılar
+aşağıdaki gibi yapılabilir:
+
+    from PyQt4 import QtGui
+    from dbus.mainloop.qt import DBusQtMainLoop
+
+    import comar
+
+    app = QtGui.QApplication(sys.argv)
+    DBusQtMainLoop(set_as_default=True)
+
+    def handleServices(package, exception, results):
+        if not exception:
+            serviceName, serviceDesc, serviceState = results
+            print serviceName, serviceDesc, serviceState
+
+    link = comar.Link()
+    link.System.Service.info(async=handleServices)
+
+    app.exec_()
+
+Paket adı belirtilmediği için, info() çağrısı tüm paketlere gönderilir.
+Paketlerden dönen cevaplar, handleServices() metoduna yönlendirilir. Çağrıyı
+alan kaç paket varsa, handleServices() metodu o kadar çağrılır.
+
+Cevabın umursanmadığı durumlarda, quiet=True argümanı kullanılabilir. Ortamın
+asenkron çağrı desteklemesi gerekmez.

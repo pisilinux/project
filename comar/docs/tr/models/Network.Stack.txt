@@ -1,0 +1,47 @@
+Network.Stack
+=============
+
+    getNameServers():
+        İsim sunucuların listesini döndürür.
+
+        Yazılacak fonksiyon, aşağıdaki gibi bir çıktı vermelidir:
+
+        01 [
+        02     "193.140.100.210",
+        03     "193.140.100.215",
+        04     "194.27.222.62",
+        05 ]
+
+
+    setNameServers(nameservers, searchdomain):
+        İsim sunucuları ve arama sırasında kullanılacak alan adını belirler. 
+        İlk argüman isim sunucularının listesi, ikinci argüman ise alan adı 
+        olmalıdır.
+
+
+    registerNameServers(iface, nameservers, searchdomain):
+        İstenen arayüzün isim sunucularını belirler. İlk argüman arayüz ismi,
+        ikinci argüman isim sunucularının listesi, üçüncü argüman ise alan adı 
+        olmalıdır.
+
+
+    unregisterNameServers(iface, nameservers, searchdomain):
+        İstenen arayüzün isim sunucularını siler. İlk argüman arayüz ismi, 
+        ikinci argüman isim sunucularının listesi, üçüncü argüman ise alan adı 
+        olmalıdır.
+
+
+    flushNameCache():
+        İsim önbelleğini temizler.
+
+
+    getHostName():
+        Bilgisayarın adını döndürür.
+
+        Yazılacak fonksiyon, aşağıdaki gibi bir çıktı vermelidir:
+
+        01 "pardus-2009"
+
+
+    setHostName(hostname):
+        Bilgisayarın adını belirler.

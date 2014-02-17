@@ -1,0 +1,23 @@
+Requirements
+=============
+
+    Python 2.5
+    DBus
+    polkit
+
+
+Installation
+=============
+
+Build:
+
+    $ cmake .
+    $ make
+
+Install:
+
+    # make install DESTDIR=/
+
+Import Comar 2.0 scripts (optional):
+
+    # comar2to3

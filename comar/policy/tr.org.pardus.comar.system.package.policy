@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN" "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+
+<policyconfig>
+    <vendor>Pardus</vendor>
+    <vendor_url>http://www.pardus.org.tr</vendor_url>
+    <icon_name>package</icon_name>
+
+    <action id="tr.org.pardus.comar.system.package.postinstall">
+        <description>Execute post-install script of a package</description>
+        <description xml:lang="tr">Bir paketin yükleme sonrası betiğini çalıştır</description>
+        <description xml:lang="nl">Voer post-installatie script van pakket uit</description>
+        <description xml:lang="fr">Exécuter les scripts de post-installation d'un paquet</description>
+        <description xml:lang="es">Ejecutar script de post-instalación de un paquete</description>
+        <description xml:lang="pl">Wykonywanie skryptów "po instalacji" pakietów</description>
+        <description xml:lang="de">Postinstall-Skript eines Pakets ausführen</description>
+        <description xml:lang="sv">Kör avslutande skript efter paketinstallation</description>
+        <message>System policy prevents executing post-install script</message>
+        <message xml:lang="tr">Sistem politikası yükleme sonrası betiği çalıştırmayı engelliyor</message>
+        <message xml:lang="nl">Systeembeleid voorkomt uitvoeren van post-installatie script</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas d'exécuter les scripts de post-installation d'un paquet</message>
+        <message xml:lang="es">La política del sistema no permite la ejecución del scripts de post-instalación de paquetes</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Ausführung des Postinstall-Skripts</message>
+        <message xml:lang="sv">Systempolicyn förhindrar körning av avslutande skript efter paketinstallation</message>
+        <defaults>
+            <allow_any>no</allow_any>
+            <allow_inactive>no</allow_inactive>
+            <allow_active>no</allow_active>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.system.package.preremove">
+        <description>Execute pre-remove script of a package</description>
+        <description xml:lang="tr">Bir paketin kaldırma öncesi betiğini çalıştır</description>
+        <description xml:lang="nl">Voer pre-verwijder script van een pakket uit</description> 
+        <description xml:lang="fr">Exécuter les scripts de préparation à la suppression d'un paquet</description>
+        <description xml:lang="es">Ejecutar script de pre-remove de un paquete</description>
+        <description xml:lang="pl">Wykonywanie skryptów "przed usunięciem" pakietów</description>
+        <description xml:lang="de">Preremove-Skript eines Pakets ausführen</description>
+        <description xml:lang="sv">Kör skript före paketborttagning</description>
+        <message>System policy prevents executing pre-remove script</message>
+        <message xml:lang="tr">Sistem politikası kaldırma öncesi betiği çalıştırmayı engelliyor</message>
+        <message xml:lang="nl">Systeembeleid voorkomt uitvoeren van pre-verwijder script</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas d'exécuter les scripts de préparation à la suppression d'un paquet</message>
+        <message xml:lang="es">La política del sistema no permite la ejecución del scripts de pre-remove de paquetes</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Ausführung des Preremove-Skripts</message>
+        <message xml:lang="sv">Systempolicyn förhindrar körning av inledande skript före paketborttagning</message>
+        <defaults>
+            <allow_any>no</allow_any>
+            <allow_inactive>no</allow_inactive>
+            <allow_active>no</allow_active>
+        </defaults>
+    </action>
+    <action id="tr.org.pardus.comar.system.package.postremove">
+        <description>Execute post-remove script of a package</description>
+        <description xml:lang="tr">Bir paketin kaldırma sonrası betiğini çalıştır</description>
+        <description xml:lang="fr">Exécuter les scripts de préparation à la suppression d'un paquet</description>
+        <description xml:lang="es">Ejecutar script de post-remove de un paquete</description>
+        <description xml:lang="pl">Wykonywanie skryptów "przed usunięciem" pakietów</description>
+        <description xml:lang="de">Preremove-Skript eines Pakets ausführen</description>
+        <description xml:lang="sv">Kör skript efter paketborttagning</description>
+        <description xml:lang="nl">Voer post-verwijder script van een pakket uit</description> 
+        <message>System policy prevents executing post-remove script</message>
+        <message xml:lang="tr">Sistem politikası kaldırma öncesi betiği çalıştırmayı engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas d'exécuter les scripts de préparation à la suppression d'un paquet</message>
+        <message xml:lang="es">La política del sistema no permite la ejecución del scripts de post-remove de paquetes</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Ausführung des Preremove-Skripts</message>
+        <message xml:lang="sv">Systempolicyn förhindrar körning av avslutande skript efter paketborttagning</message>
+        <message xml:lang="nl">Systeembeleid voorkomt uitvoeren van post-verwijder script</message>
+        <defaults>
+            <allow_any>no</allow_any>
+            <allow_inactive>no</allow_inactive>
+            <allow_active>no</allow_active>
+        </defaults>
+    </action>
+</policyconfig>

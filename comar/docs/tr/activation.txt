@@ -1,0 +1,44 @@
+Servis Aktivasyonu
+==================
+
+COMAR, çağrı geldiğinde DBus tarafından otomatik çalıştırılan, 
+ve bir süre (öntanımlı 60 saniye) boşta kalırsa kapanan, sürekli 
+çalışmayan, bir servistir.
+
+Servis aktivasyonu, DBus tarafından yapılır ve bunun için COMAR'la 
+beraber gelen şu ayar dosyası kullanılır:
+
+    # /usr/share/dbus-1/system-services/tr.org.pardus.comar.service
+    [D-BUS Service]
+    Name=tr.org.pardus.comar
+    Exec=/usr/sbin/comar3
+    User=root
+
+    # /usr/share/dbus-1/system-services/tr.org.pardus.comar2.service
+    [D-BUS Service]
+    Name=tr.org.pardus.comar2
+    Exec=/usr/sbin/comar3 --busname=tr.org.pardus.comar2
+    User=root
+
+PiSi güncelleme yaparken, COMAR paketi güncellendiyse, o andan itibaren 
+yapılan çağrıların yeni COMAR tarafından yürütülmesi için COMAR'ı 
+restart etmek gerekir. O an çalışan bir ComarJob varsa (ki güncelleme 
+işlemi Package-Manager ile yapılıyorsa, mutlaka çalışan bir ComarJob 
+var demektir), ComarJob'un işi bitene kadar COMAR servisi (sorunsuz 
+olarak) durdurulamaz ve servis yeniden başlatılamadığı için çağrıların 
+eski COMAR tarafından yürütülmesi sorun çıkarabilir.
+
+Bu yüzden, farklı adreste (farklı DBus adresi) aynı hizmeti (aynı DBus 
+arayüzü) verecek bir servis çalıştırılması için ikinci ayar dosyası 
+kulanılmaktadır. Süreç basit olarak şöyle işler:
+
+Paket güncellemeleri sırasında, kurulum sonrası işlemler (System.Package) 
+için "tr.org.pardus.comar3" adresini kullanarak postInstall ve preRemove 
+metodlarını çağırır. COMAR servisi çalışmıyorsa, ilk ayar dosyası 
+sayesinde otomatik olarak çalıştırılır ve metodlar yürütülür. Güncellemeler 
+arasında COMAR paketi varsa, o andan itibaren yapılan tüm çağrılar 
+"tr.org.pardus.comar2" üzerinden yapılır ve ikinci ayar dosyası 
+sayesinde COMAR servisi, "--busname" argümanı ile çalıştırılır (bu argüman 
+sayesinde, aynı hizmet farklı adres üzerinden verilmektedir). Çalışan yeni 
+COMAR servisi, yeni binary'yi ve konfigürasyon dosyalarını kullanacağı için, 
+kurulumun sonraki aşamasında yeni COMAR'ın kullanılması garantilenmiş olur.

@@ -1,0 +1,40 @@
+<comarModel>
+    <interface name="System.Package">
+        <method name="postInstall">
+            <arg name="fromVersion" type="s" direction="in"/>
+            <arg name="fromRelease" type="s" direction="in"/>
+            <arg name="toVersion" type="s" direction="in"/>
+            <arg name="toRelease" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="preRemove">
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="postRemove">
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <signal name="Installed">
+            <arg name="package" type="s"/>
+        </signal>
+        <signal name="Removed">
+            <arg name="package" type="s"/>
+        </signal>
+    </interface>
+    <interface name="System.PackageHandler">
+        <method name="setupPackage">
+            <arg name="metapath" type="s" direction="in"/>
+            <arg name="filepath" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="cleanupPackage">
+            <arg name="metapath" type="s" direction="in"/>
+            <arg name="filepath" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="postCleanupPackage">
+            <arg name="metapath" type="s" direction="in"/>
+            <arg name="filepath" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+    </interface>
+</comarModel>

@@ -1,0 +1,89 @@
+Disk.Manager
+============
+
+    getDevices():
+        Returns a list of disks.
+
+        Function should return something like that:
+
+        01 [
+        02     "/dev/sda",
+        03     "/dev/sdb",
+        04 ]
+
+
+    getDeviceParts(device):
+        Returns list of partitions of specified device.
+
+        Function should return something like that:
+
+        01 [
+        02     "/dev/sda1",
+        03     "/dev/sda2",
+        04     "/dev/sda3",
+        05 ]
+
+
+    getMounted():
+        Returns a list of mounted partitions.
+
+        Function should return something like that:
+
+        01 [
+        02     "/dev/sda1",
+        03     "/dev/sda3",
+        04 ]
+
+
+    getDeviceByLabel(label):
+        Returns device name that has specified label.
+
+        Function should return something like that:
+
+        01 "/dev/sda1"
+
+
+    mount(device, path):
+        Mounts device to the specified path.
+
+
+    umount(device):
+        Unmounts device.
+
+
+    listEntries():
+        Returns a list of entries in fstab
+
+        Function should return something like that:
+
+        01 [
+        02     "/dev/sda1",
+        03     "LABEL=PARDUS_ROOT",
+        04     "/dev/sda3",
+        05 ]
+
+
+    addEntry(device, path, fsType, options):
+        Adds an entry to fstab. First argument is device path, second argument
+        is mount point, third argument is filesystem type, fourth argument is 
+        dictionary of options.
+
+
+    getEntry(device):
+        Returns mount point, filesystem type and options of an entry.
+
+        Function should return something like that:
+
+        01 (
+        02     "/mnt/sda1",
+        03     "ext3",
+        04     {"noatime": "", "defaults": ""},
+        05 (
+
+
+    removeEntry(device):
+        Removes an entry from fstab.
+
+
+    Signals:
+        changed: Fired when an entry is updated in fstab.

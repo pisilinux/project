@@ -1,0 +1,50 @@
+<comarModel>
+    <interface name="Boot.Loader">
+        <method name="listSystems" action_id="">
+            <arg name="systems" type="a{s(sasas)}" direction="out"/>
+        </method>
+        <method name="getOptions" access_label="get">
+            <arg name="options" type="a{ss}" direction="out"/>
+        </method>
+        <method name="setOption" access_label="set">
+            <arg name="option" type="s" direction="in"/>
+            <arg name="value" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="listEntries" access_label="get">
+            <arg name="entries" type="aa{ss}" direction="out"/>
+        </method>
+        <method name="updateKernelEntry">
+            <arg name="version" type="s" direction="in"/>
+            <arg name="root" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="setEntry" access_label="set">
+            <arg name="title" type="s" direction="in"/>
+            <arg name="os_type" type="s" direction="in"/>
+            <arg name="root" type="s" direction="in"/>
+            <arg name="kernel" type="s" direction="in"/>
+            <arg name="initrd" type="s" direction="in"/>
+            <arg name="options" type="s" direction="in"/>
+            <arg name="default" type="s" direction="in"/>
+            <arg name="index" type="i" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="removeEntry">
+            <arg name="index" type="i" direction="in"/>
+            <arg name="title" type="s" direction="in"/>
+            <arg name="uninstall" type="b" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="listUnused" access_label="get">
+            <arg name="versions" type="as" direction="out"/>
+        </method>
+        <method name="removeUnused">
+            <arg name="version" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <signal name="Changed">
+            <arg name="changed_item" type="s"/>
+        </signal>
+    </interface>
+</comarModel>

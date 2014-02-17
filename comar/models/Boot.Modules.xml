@@ -1,0 +1,53 @@
+<comarModel>
+    <interface name="Boot.Modules">
+        <method name="listAvailable" access_label="get">
+            <arg name="modules" type="as" direction="out"/>
+        </method>
+        <method name="listLoaded" access_label="get">
+            <arg name="modules" type="a{ss}" direction="out"/>
+        </method>
+        <method name="setOptions">
+            <arg name="module" type="s" direction="in"/>
+            <arg name="options" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="load">
+            <arg name="module" type="s" direction="in"/>
+            <arg name="options" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="unload">
+            <arg name="module" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="listAutoload" access_label="get">
+            <arg name="kernel_version" type="s" direction="in"/>
+            <arg name="modules" type="as" direction="out"/>
+        </method>
+        <method name="addAutoload" access_label="editautoload">
+            <arg name="module" type="s" direction="in"/>
+            <arg name="kernel_version" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="removeAutoload" access_label="editautoload">
+            <arg name="module" type="s" direction="in"/>
+            <arg name="kernel_version" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="listBlacklist" access_label="get">
+            <arg name="modules" type="as" direction="out"/>
+        </method>
+        <method name="addBlacklist" access_label="editblacklist">
+            <arg name="module" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="removeBlacklist" access_label="editblacklist">
+            <arg name="module" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="updateModules">
+            <arg name="kernel_version" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+    </interface>
+</comarModel>

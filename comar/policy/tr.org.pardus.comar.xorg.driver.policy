@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN" "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+
+<policyconfig>
+    <vendor>Pardus</vendor>
+    <vendor_url>http://www.pardus.org.tr</vendor_url>
+    <icon_name>video-display</icon_name>
+
+    <action id="tr.org.pardus.comar.xorg.driver.get">
+        <description>Get driver info</description>
+        <description xml:lang="tr">Sürücü bilgisini al</description>
+        <description xml:lang="sv">Läser drivrutinsinformation</description>
+        <description xml:lang="nl">Stuurprogramma-informatie ophalen</description>
+        <message>System policy prevents getting driver info</message>
+        <message xml:lang="tr">Sistem politikası sürücü bilgisini almayı engelliyor</message>
+        <message xml:lang="sv">Systempolicyn förhindrar läsning av drivrutinsinformation</message>
+        <message xml:lang="nl">Systeembeleid voorkomt stuurprogramma-informatie ophalen</message>
+        <defaults>
+            <allow_any>yes</allow_any>
+            <allow_active>yes</allow_active>
+            <allow_inactive>yes</allow_inactive>
+        </defaults>
+    </action>
+</policyconfig>

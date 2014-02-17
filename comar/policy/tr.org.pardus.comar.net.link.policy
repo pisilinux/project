@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN" "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+
+<policyconfig>
+    <vendor>Pardus</vendor>
+    <vendor_url>http://www.pardus.org.tr</vendor_url>
+    <icon_name>applications-internet</icon_name>
+
+    <action id="tr.org.pardus.comar.net.link.scanremote">
+        <description>Scan remote access points</description>
+        <description xml:lang="tr">Uzak erişim noktalarını tara</description>
+        <description xml:lang="nl">Scan voor toegangspunten op afstand</description>
+        <description xml:lang="fr">Rechercher les points d'accès distants</description>
+        <description xml:lang="es">Buscar puntos remotos de acceso</description>
+        <description xml:lang="pl">Skanowanie punktów dostępowych</description>
+        <description xml:lang="de">Fernzugriffspunkte suchen</description>
+        <description xml:lang="sv">Skanna efter accesspunkter</description>
+        <description xml:lang="it">Scansiona access point remoti</description>
+        <message>System policy prevents scanning remote access points</message>
+        <message xml:lang="tr">Sistem politikası uzak erişim noktalarını taramayı engelliyor</message>
+        <message xml:lang="nl">Systeembeleid voorkomt scannen naar toegangspunten op afstand</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de rechercher les points d'accès distants</message>
+        <message xml:lang="es">La política del sistema no permite buscar puntos remotos de acceso</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Suche nach Fernzugriffspunkten</message>
+        <message xml:lang="sv">Systempolicyn förhindrar skannandet efter accesspunkter</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono di scansionare gli access point remoti</message>
+        <defaults>
+            <allow_any>yes</allow_any>
+            <allow_active>yes</allow_active>
+            <allow_inactive>yes</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.net.link.deleteconnection">
+        <description>Delete connection</description>
+        <description xml:lang="tr">Bağlantıyı sil</description>
+        <description xml:lang="nl">Verwijder verbinding</description>
+        <description xml:lang="fr">Supprimer la connexion</description>
+        <description xml:lang="es">Eliminar la conexión</description>
+        <description xml:lang="pl">Kasowanie połączenia</description>
+        <description xml:lang="de">Verbindung löschen</description>
+        <description xml:lang="sv">Ta bort anslutning</description>
+        <description xml:lang="it">Rimuovi connessione</description>
+        <message>System policy prevents removing connections</message>
+        <message xml:lang="tr">Sistem politikası bağlantı silmeyi engelliyor</message>
+        <message xml:lang="nl">Systeembeleid voorkomt verwijderen verbindingen</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de supprimer la connexion</message>
+        <message xml:lang="es">La política del sistema no permite eliminar la conexión</message>
+        <message xml:lang="de">Systemrichtlinie verhindert das Löschen der Verbindung</message>
+        <message xml:lang="sv">Systempolicyn förhindrar borttagning av anslutning</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono di eliminare la connessione</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.net.link.setstate">
+        <description>Set connection state</description>
+        <description xml:lang="tr">Bağlantı durumunu değiştir</description>
+        <description xml:lang="nl">Stel verbindingsstatus in</description>
+        <description xml:lang="fr">Établir l'état de la connexion</description>
+        <description xml:lang="es">Establecer estado de conexión</description>
+        <description xml:lang="pl">Ustawianie stanu połączenia</description>
+        <description xml:lang="de">Verbindungszustand einstellen</description>
+        <description xml:lang="sv">Sätt anslutningstillstånd</description>
+        <description xml:lang="it">Imposta stato della connessione</description>
+        <message>System policy prevents changing connection state</message>
+        <message xml:lang="tr">Sistem politikası bağlantı durumunu değiştirmeyi engelliyor</message>
+        <message xml:lang="nl">Systeembeleid voorkomt veranderen van de verbindingsstatus</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas d'établir l'état de la connexion</message>
+        <message xml:lang="es">La política del sistema no permite cambiar el estado de la conexión</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Änderung des Verbindungszustandes</message>
+        <message xml:lang="sv">Systempolicyn förhindrar redigering av anslutningstillstånd</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono di impostare lo stato della connessione</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.net.link.set">
+        <description>Add connection or set connection details</description>
+        <description xml:lang="tr">Bağlantı ekle veya detaylarını değiştir</description>
+        <description xml:lang="nl">Toevoegen verbinding of details verbinding aanpassen</description>
+        <description xml:lang="fr">Ajouter une connexion ou établir les détails de la connexion</description>
+        <description xml:lang="es">Agregar conexión o configurar detalles de una conexión</description>
+        <description xml:lang="pl">Ustawianie szczegółów połączenia</description>
+        <description xml:lang="de">Verbindung hinzufügen oder Verbindungsdetails einstellen</description>
+        <description xml:lang="sv">Lägg till anslutning eller sätt anslutningsalternativ</description>
+        <description xml:lang="it">Aggiungi una connessione o modificane i dettagli</description>
+        <message>System policy prevents adding/editing connections</message>
+        <message xml:lang="tr">Sistem politikası bağlantı eklemeyi/bağlantıda değişiklik yapmayı engelliyor</message>
+        <message xml:lang="nl">Systeembeleid voorkomt toevoegen/aanpassen verbindingen</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas d'établir les détails concernant la connexion</message>
+        <message xml:lang="es">La política del sistema no permite agregar/modificar conexiones</message>
+        <message xml:lang="de">Systemrichtlinie verhindert das Hinzufügen/Bearbeiten der Verbindungen</message>
+        <message xml:lang="sv">Systempolicyn förhindrar redigering/tillägg av anslutning</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono di aggiungere o modificare connessioni</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.net.link.get">
+        <description>Get connection/device details</description>
+        <description xml:lang="tr">Bağlantı/aygıt detaylarını al</description>
+        <description xml:lang="nl">Krijg verbinding/apparaat details</description>
+        <description xml:lang="fr">Obtenir les informations concernant la connexion / le périphérique</description>
+        <description xml:lang="es">Obtener información de la conexión /del dispositivo</description>
+        <description xml:lang="pl">Odczyt ustawień połączenia/urządzenia</description>
+        <description xml:lang="de">Verbindungs-/Geräte-Details abrufen</description>
+        <description xml:lang="sv">Hämta anslutnings- och enhetsinformation</description>
+        <description xml:lang="it">Ottieni informazioni sulla connessione o sul dispositivo</description>
+        <message>System policy prevents getting connection/device details</message>
+        <message xml:lang="tr">Sistem politikası bağlantı/aygıt detaylarını almayı engelliyor</message>
+        <message xml:lang="nl">Systeembeleid voorkomt verkrijgen van verbinding/apparaat details</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas d'obtenir les informations concernant la connexion / le périphérique</message>
+        <message xml:lang="es">La política del sistema no permite obtener detalles de la conexión / del dispositivo</message>
+        <message xml:lang="de">Systemrichtlinie verhindert den Abruf der Verbindungs-/Geräte-Details</message>
+        <message xml:lang="sv">Systempolicyn förhindrar visning av anslutnings- och enhetsinformation</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono di ottenere informazioni sulla connessione o sul dispositivo</message>
+        <defaults>
+            <allow_any>yes</allow_any>
+            <allow_active>yes</allow_active>
+            <allow_inactive>yes</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.net.link.getauth">
+        <description>Get authentication details</description>
+        <description xml:lang="tr">Kimlik doğrulama detaylarını al</description>
+        <description xml:lang="sv">Visa autentiseringsinformation</description>
+        <description xml:lang="it">Ottieni informazioni sull'autenticazione</description>
+        <description xml:lang="nl">Authenticatie details ophalen</description>
+        <message>System policy prevents getting authentication details</message>
+        <message xml:lang="tr">Sistem politikası kimlik doğrulama detaylarını almayı engelliyor</message>
+        <message xml:lang="sv">Systempolicyn förhindrar visning av autentiseringsinformation</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono di ottenere informazioni sull'autenticazione</message>
+        <message xml:lang="nl">Systeembeleid voorkomt authenticatie details ophalen</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+</policyconfig>

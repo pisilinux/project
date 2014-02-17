@@ -1,0 +1,49 @@
+<comarModel>
+    <interface name="Network.Firewall">
+        <method name="listModules" action_id="">
+            <arg name="modules" type="as" direction="out"/>
+        </method>
+        <method name="moduleInfo" action_id="">
+            <arg name="module" type="s" direction="in"/>
+            <arg name="title" type="s" direction="out"/>
+            <arg name="description" type="s" direction="out"/>
+            <arg name="icon" type="s" direction="out"/>
+        </method>
+        <method name="moduleParameters" action_id="">
+            <arg name="module" type="s" direction="in"/>
+            <arg name="parameters" type="a(sssa{ss})" direction="out"/>
+        </method>
+        <method name="getModuleState" action_id="">
+            <arg name="module" type="s" direction="in"/>
+            <arg name="state" type="s" direction="out"/>
+        </method>
+        <method name="setModuleState" action_id="tr.org.pardus.comar.net.filter.set">
+            <arg name="module" type="s" direction="in"/>
+            <arg name="state" type="s" direction="in"/>
+        </method>
+        <method name="setModuleParameters" action_id="tr.org.pardus.comar.net.filter.set">
+            <arg name="module" type="s" direction="in"/>
+            <arg name="parameters" type="a{ss}" direction="in"/>
+        </method>
+        <method name="getModuleParameters" action_id="">
+            <arg name="module" type="s" direction="in"/>
+            <arg name="parameters" type="a{ss}" direction="out"/>
+        </method>
+        <method name="getState" action_id="">
+            <arg name="state" type="s" direction="out"/>
+        </method>
+        <method name="setState" action_id="tr.org.pardus.comar.net.filter.set">
+            <arg name="state" type="s" direction="in"/>
+        </method>
+        <signal name="stateChanged">
+            <arg name="state" type="s"/>
+        </signal>
+        <signal name="moduleStateChanged">
+            <arg name="module" type="s"/>
+            <arg name="state" type="s"/>
+        </signal>
+        <signal name="moduleSettingsChanged">
+            <arg name="module" type="s"/>
+        </signal>
+    </interface>
+</comarModel>

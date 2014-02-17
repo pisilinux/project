@@ -1,0 +1,32 @@
+<comarModel>
+    <interface name="System.Service">
+        <method name="ready" action_id="tr.org.pardus.comar.system.service.set">
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="start" action_id="tr.org.pardus.comar.system.service.set">
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="stop" action_id="tr.org.pardus.comar.system.service.set">
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="reload" action_id="tr.org.pardus.comar.system.service.set">
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="setState" action_id="tr.org.pardus.comar.system.service.set">
+            <arg name="state" type="s" direction="in"/>
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="registerState" access_label="set">
+            <annotation name="org.freedesktop.DBus.Method.NoReply" value="true"/>
+        </method>
+        <method name="info" action_id="">
+            <arg name="type" type="s" direction="out"/>
+            <arg name="description" type="s" direction="out"/>
+            <arg name="status" type="s" direction="out"/>
+        </method>
+        <signal name="Changed">
+            <arg name="service" type="s"/>
+            <arg name="state" type="s"/>
+        </signal>
+    </interface>
+</comarModel>

@@ -1,0 +1,62 @@
+Tipler
+======
+
+DBus mesajlarındaki argümanlar Python nesnelerine dönüştürülürken, XML
+dosyalarındaki tip imzaları kullanılmaktadır:
+
+    <method name="test">
+        <arg name="first" type="s" direction="in"/>
+        <arg name="second" type="i" direction="in"/>
+        <arg name="third" type="a{ss}" direction="in"/>
+        <arg name="fourth" type="(sss)" direction="in"/>
+    </method>
+
+Metodlara verilen argümanlar, ve metodlardan dönen değerler model XML
+dosyalarında doğru belirtilmediği sürece COMAR çağrıyı yürütmez ve/veya
+çağrıya cevap vermez.
+
+Python nesne tiplerinin DBus nesne imzaları aşağıdaki gibidir:
+
+    bool                   b
+    int                    i
+    long                   x
+    float                  d
+    str                    s
+
+Taşıyıcı tiplerin imzalarında, taşınan değerlere ait imzalar da bulunmalıdır:
+
+    list                   a + <taşınan nesne tipi>
+
+    str list               as
+    int list               ai
+    long list              ax
+
+    tuple                 (<taşınan nesne tipleri>)
+    (str, int, long)      (six)
+
+    dict                  a{<anahtarın nesne tipi><değerin nesne tipi>}
+    {str: int}            a{si}
+    {str: str}            a{ss}
+
+    [{str: int}]          aa{si}
+
+Taşınan değer değişken ise (örneğin bir eleman int iken, diğeri str ise),
+"v" (variant) imzası kullanılabilir. "v" kullanıldığında taşınan tip,
+sadece temel tiplerden biri olabilir.
+
+    [{str: [str, int]}]   aa{sav}
+
+ÖNEMLİ: Bir argüman içinde, birden fazla imza (taşıyıcı bir tip içinde
+olmadıkları sürece) birleştirilerek kullanılamaz. Aşağıdaki imzalar
+yanlıştır:
+
+    ss
+    si
+    s(si)
+    sa{ss}
+
+Ancak, aşağıdaki imzalar geçerlidir:
+
+    (sssss)
+    a{s(sss)}
+    aa{ss}

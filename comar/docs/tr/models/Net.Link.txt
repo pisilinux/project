@@ -1,0 +1,1 @@
+Net.Link demode oldu, Network.Link kullanın. Geri uyumluluk için tutuluyor.

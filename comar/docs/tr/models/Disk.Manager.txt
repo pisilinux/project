@@ -1,0 +1,90 @@
+Disk.Manager
+============
+
+    getDevices():
+        Disklerin listesini döndürür:
+
+        Yazılacak fonksiyon, aşağıdaki gibi bir çıktı vermelidir:
+
+        01 [
+        02     "/dev/sda",
+        03     "/dev/sdb",
+        04 ]
+
+
+    getDeviceParts(device):
+        İstenen diske ait bölümleri döndürür.
+
+        Yazılacak fonksiyon, aşağıdaki gibi bir çıktı vermelidir:
+
+        01 [
+        02     "/dev/sda1",
+        03     "/dev/sda2",
+        04     "/dev/sda3",
+        05 ]
+
+
+    getMounted():
+        Bağlı disk bölümlerinin listesini döndürür.
+
+        Yazılacak fonksiyon, aşağıdaki gibi bir çıktı vermelidir:
+
+        01 [
+        02     "/dev/sda1",
+        03     "/dev/sda3",
+        04 ]
+
+
+    getDeviceByLabel(label):
+        Etiketi verilen aygıtın adresini verir.
+
+        Yazılacak fonksiyon, aşağıdaki gibi bir çıktı vermelidir:
+
+        01 "/dev/sda1"
+
+
+    mount(device, path):
+        Aygıtı, istenen patikaya bağlar.
+
+
+    umount(device):
+        Aygıtı kaldırır.
+
+
+    listEntries():
+        fstab'de kayıtlı bölümleri listeler.
+
+        Yazılacak fonksiyon, aşağıdaki gibi bir çıktı vermelidir:
+
+        01 [
+        02     "/dev/sda1",
+        03     "LABEL=PARDUS_ROOT",
+        04     "/dev/sda3",
+        05 ]
+
+
+    addEntry(device, path, fsType, options):
+        fstab'a bir girdi ekler. İlk argüman aygıt adresi, ikincisi bağlama
+        noktası, üçüncüsü dosya sistemi tipi, dördüncüsü ise seçeneklerin
+        bulunduğu bir dictionary'dir.
+
+
+    getEntry(device):
+        Girdiye ait bağlama noktası, dosya sistemi tipi ve seçenekleri
+        döndürür.
+
+        Yazılacak fonksiyon, aşağıdaki gibi bir çıktı vermelidir:
+
+        01 (
+        02     "/mnt/sda1",
+        03     "ext3",
+        04     {"noatime": "", "defaults": ""},
+        05 (
+
+
+    removeEntry(device):
+        fstab'den bir girdi çıkarır.
+
+
+    Sinyaller:
+        changed: fstab'de bir değişiklik olduğunda gönderilir.

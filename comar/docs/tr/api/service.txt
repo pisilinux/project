@@ -1,0 +1,90 @@
+Servis Betikleri
+================
+
+Servis betikleri, Comar'ın sistem servislerinin yönetimi için kullandığı, PİSİ paketleri ile gelen Python uygulamalarıdır. Comar'a System.Service çağrısı (start, stop, info, ...) gönderildiğinde, ilgili paket ile birlikte gelen servis betiği çalıştırılır.
+
+Servis betiği, aşağıdaki gibidir. Sunucunun çalıştırılması, durdurulması ve o anki durumunun öğrenilmesi için gerekli 3 method tanımlanması yeterlidir. Bu üç işlem herhangi bir yöntem ile yapılabilir, ancak servis betiklerinin ortak bir formatta olması ve betiğin yazılmasını kolaylaşması için ÇOMAR-API ile birlikte gelen servis modülü kullanılması tavsiye edilir. ÇOMAR-API, /usr/lib/pardus/comar altında bulunabilir.
+
+    serviceType = "server"
+    serviceDesc = _({"en": "Server",
+                     "tr": "Sunucu"})
+
+    from comar.service import *
+
+    @synchronized
+    def start():
+        startService(command="/usr/bin/sunucu",
+                     args="start",
+                     pidfile="/var/run/sunucu.pid",
+                     donotify=True)
+
+    @synchronized
+    def stop():
+        stopService(command="/usr/bin/sunucu",
+                    args="stop",
+                    donotify=True)
+
+    def status():
+        return isServiceRunning("/var/run/sunucu.pid")
+
+
+serviceType
+-----------
+
+Bu değişken üç değer alabilir: server, local, script.
+
+    local: Yerel servisler
+    server: Sunucular
+    script: Betikler
+
+için kullanılmalıdır. Arkaplanda bir süreç oluşturmayan her paket script olmalıdır.
+
+
+serviceDesc
+-----------
+
+    serviceDesc = _({"en": "Server",
+                     "tr": "Sunucu"})
+
+Servis yönetim arabirimleri tarafından kullanılan servis açıklaması, bu değişken ile belirlenir. _() metodu ile, çağrının yapıldığı dile ait açıklamanı gösterilmesi sağlanır.
+
+
+@synchronized Dekoratörü
+------------------------
+
+Servisler, aynı anda birden fazla uygulama tarafından çalıştırılabilmektedir. Olası race-condition'ları engellemek için @synchronized dekoratörü kullanılmalıdır. Bu dekoratör ile, bir methodun işi bitene kadar diğer method çağrısı bekletilir.
+
+
+Service API
+-----------
+
+Sunucu çalıştırma ve durdurma işlemleri, os.system() ya da Popen() komutuyla yapılabilir. Ancak uygulamaların ortak bir çalıştırma formatı olmadığı için servis betikleri okunmaz bir hal alabilir. Bunu önlemek için sık kullanılan çalışma formatlarını destekleyen bir servis API'si oluşturulmuştur.
+
+startService():
+
+    Aşağıdaki parametreler kullanılabilir:
+
+    command  : Çalıştırılacak servis [str]
+    args     : Uygulamaya gönderilecek parametreler (opsiyonel) [str]
+    pidfile  : Çalışan servisin süreç numarasını tutan dosya. [str]
+               (Çalışan bir süreç varsa servis tekrar çalıştırılmaz.)
+    makepid  : Uygulama, kendi pidfile'ını oluşturmuyorsa, pidfile oluştur. Genellikle detach parametresiyle birlikte kullanılır. [True/False]
+    nice     : Sürecin önemi [int]
+    chuid    : Süreci başlatırken kullanılacak kullanıcı:grup [str:str]
+    detach   : Süreç kendini arkaplana atmıyorsa, süreci forkla ve arkaplana at. [True/False]
+    donotify : Servis çalıştıktan sonra ÇOMAR notify, hata oluşursa fail() gönder [True/False]
+
+
+stopService():
+
+    Aşağıdaki parametreler kullanılabilir:
+
+    pidfile  : Durdurulacak süreç numarasını içeren PID dosyası [str]
+    command  : Pidfile yoksa, durdurulacak uygulamanın adresi [str]
+               (/proc taranır ve command değerine sahip süreç yokedilir)
+    args     : Argüman listesi. (Komut ile birlikte bir argüman vererek durdurulan servisler için) [str]
+               (/proc taranmaz, <command args> komutu çalıştırılır)
+    chuid    : Süreci yokederken kullanılacak kullanıcı:grup [str:str]
+    user     : Belirli bir kullanıcıya ait süreci öldürürken kullanılacak kullanıcı adı [str]
+    signalno : Süreç yokedilirken kullanılacak sinyal no [int]
+    donotify : Servisi durdurduktan sonra ÇOMAR notify, hata oluşursa fail() gönder [True/False]

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN" "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+
+<policyconfig>
+    <vendor>Pardus</vendor>
+    <vendor_url>http://www.pardus.org.tr</vendor_url>
+    <icon_name>computer</icon_name>
+
+    <action id="tr.org.pardus.comar.boot.modules.setoptions">
+        <description>Set module options</description>
+        <description xml:lang="tr">Modül seçeneklerini değiştir</description>
+        <description xml:lang="fr">Établir les options du module</description>
+        <description xml:lang="es">Establecer las opciones de los módulos</description>
+        <description xml:lang="nl">Stel module opties in</description>
+        <description xml:lang="pl">Ustawianie opcji modułów</description>
+        <description xml:lang="de">Modul-Optionen einstellen</description>
+        <description xml:lang="sv">Sätt modulinställningar</description>
+        <description xml:lang="it">Modifica impostazioni moduli</description>
+        <message>System policy prevents setting module options</message>
+        <message xml:lang="tr">Sistem politikası modül seçeneklerini değiştirmeyi engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas d'établir les options du module</message>
+        <message xml:lang="es">La política del sistema no permite modificar las opciones de los módulos</message>
+        <message xml:lang="nl">Systeembeleid voorkomt module opties instellen</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Änderung der Modul-Optionen</message>
+        <message xml:lang="sv">Systempolicyn förhindrar redigering av modulinställningar</message>
+        <message xml:lang="it">Le politiche di gestione di sistema non permettono di modificare le impostazioni dei moduli</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.boot.modules.load">
+        <description>Load kernel module</description>
+        <description xml:lang="tr">Çekirdek modülünü etkinleştir</description>
+        <description xml:lang="fr">Charger le module</description>
+        <description xml:lang="es">Cargar módulo de kernel</description>
+        <description xml:lang="nl">Laad kernel module</description>
+        <description xml:lang="pl">Ładowanie modułów kernela</description>
+        <description xml:lang="de">Kernel-Modul laden</description>
+        <description xml:lang="sv">Ladda kärnmodul</description>
+        <description xml:lang="it">Carica modulo del kernel</description>
+        <message>System policy prevents loading kernel module</message>
+        <message xml:lang="tr">Sistem politikası çekirdek modülünü etkinleştirmeyi engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de charger le module</message>
+        <message xml:lang="es">La política del sistema no permite cargar módulo del kernel</message>
+        <message xml:lang="nl">Systeembeleid voorkomt laden kernel module</message>
+        <message xml:lang="de">Systemrichtlinie verhindert das Laden des Kernel-Moduls</message>
+        <message xml:lang="sv">Systempolicyn förhindrar laddning av kärnmoduler</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono di caricare un modulo del kernel</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.boot.modules.unload">
+        <description>Unload kernel module</description>
+        <description xml:lang="tr">Çekirdek modülünü etkisiz kıl</description>
+        <description xml:lang="fr">Décharger le module</description>
+        <description xml:lang="es">Descargar módulo de kernel</description>
+        <description xml:lang="nl">Ontlaad kernel module</description>
+        <description xml:lang="pl">Usuwanie załadowanych modułów kernela</description>
+        <description xml:lang="de">Kernel-Modul entladen</description>
+        <description xml:lang="sv">Frigör kärnmodul</description>
+        <description xml:lang="it">Smonta modulo del kernel</description>
+        <message>System policy prevents unloading kernel module</message>
+        <message xml:lang="tr">Sistem politikası çekirdek modülünü etkisiz kılmayı engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas de décharger le module</message>
+        <message xml:lang="es">La política del sistema no permite descargar módulo del kernel</message>
+        <message xml:lang="nl">Systeembeleid voorkomt ontladen kernel module</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Entladung des Kernel-Moduls</message>
+        <message xml:lang="sv">Systempolicyn förhindrar frigörandet av kärnmoduler</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono di smontare un modulo del kernel</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.boot.modules.addautoload">
+        <description>Add autoloading kernel module</description>
+        <description xml:lang="tr">Otomatik yüklenen çekirdek modülü ekle</description>
+        <description xml:lang="fr">Activer le chargement automatique du module</description>
+        <description xml:lang="es">Agregar módulo de kernel para cargar automaticamente</description>
+        <description xml:lang="nl">Voeg autoladen toe aan kernel module</description>
+        <description xml:lang="pl">Dodawanie modułów do automatycznego ładowania</description>
+        <description xml:lang="de">Automatisches Laden des Kernel-Moduls hinzufügen</description>
+        <description xml:lang="sv">Lägg till automatisk laddning av kärnmodul</description>
+        <description xml:lang="it">Attivare il caricamento automatico del modulo</description>
+        <message>System policy prevents adding an autoloading kernel module</message>
+        <message xml:lang="tr">Sistem politikası otomatik yüklenen çekirdek modülü eklenmesini engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas d'activer le chargement automatique du module</message>
+        <message xml:lang="es">La política del sistema no permite agregar módulo del kernel para cargar automaticamente</message>
+        <message xml:lang="nl">Systeembeleid voorkomt toevoegen autoladen aan kernel module</message>
+        <message xml:lang="de">Systemrichtlinie verhindert das Hinzufügen des Automatisches Ladens des Kernel-Moduls</message>
+        <message xml:lang="sv">Systempolicyn förhindrar tillägg av automatiskt laddande kärnmodul</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono di caricare il modulo automaticamente</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.boot.modules.updatemodules">
+        <description>Update module configuration</description>
+        <description xml:lang="tr">Modül yapılandırmasını güncelle</description>
+        <description xml:lang="fr">Mettre à jour la configuration du module</description>
+        <description xml:lang="es">Actualizar configuración de módulos</description>
+        <description xml:lang="nl">Werk module configuratie bij</description>
+        <description xml:lang="pl">Aktualizacja konfiguracji modułów</description>
+        <description xml:lang="de">Modulkonfiguration aktualisieren</description>
+        <description xml:lang="sv">Uppdatera modulinställning</description>
+        <description xml:lang="it">Aggiorna configurazione moduli</description>
+        <message>System policy prevents updating module configuration</message>
+        <message xml:lang="tr">Sistem politikası modül yapılandırmasını güncellemeyi engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet la mise à jour de la configuration du module</message>
+        <message xml:lang="es">La política del sistema no permite actualizar la configuración de los módulos</message>
+        <message xml:lang="nl">Systeembeleid voorkomt bijwerken module configuratie</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Aktualisierung der Modulkonfiguration</message>
+        <message xml:lang="sv">Systempolicyn förhindrar uppdatering av modulinställning</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono di aggiornare la configurazione dei moduli</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.boot.modules.get">
+        <description>Get module information</description>
+        <description xml:lang="tr">Modül bilgisini al</description>
+        <description xml:lang="fr">Obtenir les informations concernant le module</description>
+        <description xml:lang="es">Obtener información de módulos</description>
+        <description xml:lang="nl">Ontvang module informatie</description>
+        <description xml:lang="pl">Odczyt informacji o module</description>
+        <description xml:lang="de">Modulinformation abrufen</description>
+        <description xml:lang="sv">Hämta modulinformation</description>
+        <description xml:lang="it">Ottieni informazioni sul modulo</description>
+        <message>System policy prevents getting module information</message>
+        <message xml:lang="tr">Sistem politikası modül bilgisini almayı engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas d'obtenir les informations concernant le module</message>
+        <message xml:lang="es">La política del sistema no permite obtener información de los módulos</message>
+        <message xml:lang="nl">Systeembeleid voorkomt ontvangen module informatie</message>
+        <message xml:lang="de">Systemrichtlinie verhindert das Abrufen der Modulinformation</message>
+        <message xml:lang="sv">Systempolicyn förhindrar hämtning av modulinformation</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono di ottenere informazioni sui moduli</message>
+        <defaults>
+            <allow_any>yes</allow_any>
+            <allow_active>yes</allow_active>
+            <allow_inactive>yes</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.boot.modules.editautoload">
+        <description>Edit autoload list</description>
+        <description xml:lang="tr">Otomatik yükleme listesini değiştir</description>
+        <description xml:lang="fr">Éditer la liste de chargement automatique</description>
+        <description xml:lang="es">Editar lista de autocarga</description>
+        <description xml:lang="nl">Bewerk autolaad lijst</description>
+        <description xml:lang="pl">Edycja listy automatycznego ładowania modułów</description>
+        <description xml:lang="de">Auto-Laden-Liste bearbeiten</description>
+        <description xml:lang="sv">Redigera lista för automatisk laddning</description>
+        <description xml:lang="it">Modifica lista di caricamento automatico</description>
+        <message>System policy prevents editing autoload list</message>
+        <message xml:lang="tr">Sistem politikası otomatik yükleme listesini değiştirmeyi engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas d'éditer la liste de chargement automatique</message>
+        <message xml:lang="es">La política del sistema no permite modificar la lista de carga automática</message>
+        <message xml:lang="nl">Systeembeleid voorkomt bewerken autolaad lijst</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Bearbeitung der Auto-Laden-Liste</message>
+        <message xml:lang="sv">Systempolicyn förhindrar redigering av lista för automatisk laddning</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono di modificare la lista di caricamento automatico</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+
+    <action id="tr.org.pardus.comar.boot.modules.editblacklist">
+        <description>Edit module blacklist</description>
+        <description xml:lang="tr">Modül karalistesini değiştir</description>
+        <description xml:lang="fr">Éditer la liste noire des modules</description>
+        <description xml:lang="es">Editar lista negra de módulos</description>
+        <description xml:lang="nl">Bewerk module zwarte lijst</description>
+        <description xml:lang="pl">Edycja czarnej listy modułów</description>
+        <description xml:lang="de">Modul-Blacklist bearbeiten</description>
+        <description xml:lang="sv">Redigera svartlistade moduler</description>
+        <description xml:lang="it">Modifica la lista nera dei moduli</description>
+        <message>System policy prevents editing module blacklist</message>
+        <message xml:lang="tr">Sistem politikası modül karalistesini değiştirmeyi engelliyor</message>
+        <message xml:lang="fr">Le mode de gestion du système ne permet pas d'éditer la liste noire des modules</message>
+        <message xml:lang="es">La política del sistema no permite modificar la lista negra de módulos</message>
+        <message xml:lang="nl">Systeembeleid voorkomt bewerken module zwarte lijst</message>
+        <message xml:lang="de">Systemrichtlinie verhindert die Bearbeitung der Modul-Blacklist</message>
+        <message xml:lang="sv">Systempolicyn förhindrar redigering av svartlistade moduler</message>
+        <message xml:lang="it">Le politiche di gestione del sistema non permettono di modificare la lista nera dei moduli</message>
+        <defaults>
+            <allow_any>auth_admin_keep</allow_any>
+            <allow_active>auth_admin_keep</allow_active>
+            <allow_inactive>auth_admin_keep</allow_inactive>
+        </defaults>
+    </action>
+</policyconfig>

@@ -1,0 +1,55 @@
+<comarModel>
+    <interface name="Disk.Manager">
+        <method name="getDevices" access_label="get">
+            <arg name="devices" type="as" direction="out"/>
+        </method>
+        <method name="getDeviceByLabel" access_label="get">
+            <arg name="label" type="s" direction="in"/>
+            <arg name="device" type="s" direction="out"/>
+        </method>
+        <method name="isMounted" access_label="get">
+            <arg name="device" type="s" direction="in"/>
+            <arg name="path" type="s" direction="out"/>
+        </method>
+        <method name="getFSType" access_label="get">
+            <arg name="part" type="s" direction="in"/>
+            <arg name="type" type="s" direction="out"/>
+        </method>
+        <method name="getDeviceParts" access_label="get">
+            <arg name="device" type="s" direction="in"/>
+            <arg name="parts" type="as" direction="out"/>
+        </method>
+        <method name="getMounted" access_label="get">
+            <arg name="parts" type="a(ss)" direction="out"/>
+        </method>
+        <method name="mount" access_label="mount">
+            <arg name="device" type="s" direction="in"/>
+            <arg name="path" type="s" direction="in"/>
+        </method>
+        <method name="umount" access_label="mount">
+            <arg name="device" type="s" direction="in"/>
+        </method>
+        <method name="listEntries" access_label="get">
+            <arg name="devices" type="as" direction="out"/>
+        </method>
+        <method name="addEntry" access_label="set">
+            <arg name="device" type="s" direction="in"/>
+            <arg name="path" type="s" direction="in"/>
+            <arg name="fsType" type="s" direction="in"/>
+            <arg name="options" type="a{ss}" direction="in"/>
+        </method>
+        <method name="getEntry" access_label="get">
+            <arg name="device" type="s" direction="in"/>
+            <arg name="path" type="s" direction="out"/>
+            <arg name="fsType" type="s" direction="out"/>
+            <arg name="options" type="a{ss}" direction="out"/>
+        </method>
+        <method name="removeEntry" access_label="set">
+            <arg name="device" type="s" direction="in"/>
+        </method>
+        <method name="refreshPartitionTable" access_label="set">
+            <arg name="device" type="s" direction="in"/>
+        </method>
+        <signal name="changed"/>
+    </interface>
+</comarModel>

@@ -1,0 +1,298 @@
+Network.Link Model
+==================
+
+    linkInfo():
+        Provides information that application requires to create or manage network connection.
+
+        Sample Function Definition:
+
+        01 def linkInfo():
+        02     return {
+        03         "type": "wifi",
+        04         "name": "Wireless connection",
+        05         "modes": "device,device_mode,remote,remote_scan,net,auto,auth",
+        06     }
+
+        - type: Connection type that application provides
+                (wifi, net, dialup, ...)
+
+        - name: Description of connection type. Can be localized.
+
+        - modes: Features or methods can be used while creating connection.
+
+                 device : A device should be selected to make connection.
+
+            device_mode : Device supports more than one state (e.g. wireless cards have
+                          managed, adhoc, ... modes).
+
+                 remote : A remote address/name should be defined to make a connection
+                          (phone number for dialup, essid for wireless, ...)
+
+            remote_scan : Scanning for remote points is supported.
+
+                 net    : Ip can be defined by user.
+
+                 auto   : DHCP can be used to get IP.
+
+                 auth   : User can authenticate to make a connection.
+
+
+    def authMethods():
+        If "auth" is supported, this function will return a list of supported authentication methods.
+
+        Sample Function Definition:
+
+        01 def authMethods():
+        02     return [
+        03         ("wep", "WEP"),
+        04         ("wpa", "WPA"),
+        05         ("802.1x", "Dynamic WEP (802.1x)"),
+        06     ]
+
+        First element of tuple is method name, second is method description. Definition can be localized.
+
+
+    def authParameters(method):
+        If "auth" mode is supported, this function will return required parameters for selected authentication "method".
+
+        Sample Function Definition:
+
+        01 def authParameters(method):
+        02     if method == "wep":
+        03         return [
+        04             ("password", "Password", "pass"),
+        05         ]
+        06     elif method == "wpa":
+        07         return [
+        08             ("password", "Password", "pass"),
+        09         ]
+        10     elif method == "802.1x":
+        11         return [
+        12             ("username", "Username", "text"),
+        13             ("password", "Password", "pass"),
+        14             ("cert_cli", "Client Certificate", "file"),
+        15             ("cert_ca", "CA Certificate", "file"),
+        16             ("keyfile", "Private Key", "file"),
+        17         ]
+        18 
+        19     return modes
+
+        First element of tuple is parameter name, second is description, third is type. Description can be localized.
+
+        Types:
+
+            text : Text input
+
+            pass : Password input
+
+            file : File input
+
+
+    setAuthMethod(profile, method):
+        If "auth" mode is supported, this function is used to specify authentication method for that profile.
+
+
+    setAuthParameters(profile, auth_key, auth_value):
+        If "auth" mode is supported, this function is used to specify required fields to make connecition.
+
+
+    getAuthMethod(profile):
+        If "auth" mode is supported, this function should return authentication method for that profile.
+
+        Function should return something like that:
+
+        01 "802.1x"
+
+
+    getAuthParameters(profile):
+        If "auth" mode is supported, this function should return authentication settings for that profile.
+
+        Function should return something like that:
+
+        01 {
+        02     "login": "bahadir",
+        03     "parola": "password",
+        04     "cert_cli": "/home/bahadir/.cert/cli.cert",
+        05     "cert_ca": "/home/bahadir/.cert/ca.cert",
+        06     "keyfile": "/home/bahadir/.cert/mykey",
+        07 }
+
+
+    deviceList():
+        If "device" mode is supported, this function should return a list of available devices.
+
+        Function should return something like that:
+
+        O1 {
+        02     "pci:1106_3065_eth1": "VT6102 [Rhine-II] - VIA Technologies, Inc. (eth1)",
+        03 }
+
+
+    def deviceModes():
+        If "device_mode" mode is supported, this function should return a list of available device modes.
+
+        Sample Function Definition:
+
+        01 def deviceModes():
+        02     return [
+        03         ("managed", "Managed"),
+        04         ("adhoc", "Ad Hoc"),
+        05     ]
+
+        First element of tuple is mode name, second is description. Description can be localized.
+
+
+    def remoteName():
+        If "remote" mode is supported, this function should return label for remote point.
+
+        Sample Function Definition:
+
+        01 def remoteName():
+        02     return "Phone Number"
+
+        Can be localized.
+
+
+    scanRemote(device):
+        If "remote_scan" is supported, this function should return a list of remote points.
+
+        Function should return something like that:
+
+        01 [
+        02     {
+        03         "remote": "HOME",
+        04         "encryption": "wep",
+        05         "mac": "00:00:00:00:00:00",
+        06         "channel": "11",
+        07         "mode": "managed",
+        08         "protocol": "IEEE 802.11g",
+        09         "quality": "54",
+        10     },
+        11     {
+        12         "remote": "APOINT",
+        13         "encryption": "wpa",
+        14         "mac": "11:11:11:11:11:11",
+        15         "channel": "11",
+        16         "mode": "managed",
+        17         "protocol": "IEEE 802.11g",
+        18         "quality": "12",
+        19     },
+        20 ]
+
+        NOTE: Since this method is only used by wireless-tools, dictionary keys are OK.
+
+
+    setRemote(profile, remote):
+        If "remote" mode is supported, this function is used to specify remote point for that profile.
+
+        Can be used to sed ESSID for wireless, phone number for PPP, host:port for VPN.
+
+
+    connections():
+        Returns a list of profile names.
+
+        Function should return something like that:
+
+        O1 [
+        02     "Home",
+        03     "Office",
+        04 ]
+
+
+    connectionInfo(profile):
+        Returns profile information.
+
+        Function should return something like that:
+
+        01 {
+        02     "name": "Home",
+        03     "device_id": "pci:1106_3065_eth1",
+        04     "device_name": "VT6102 [Rhine-II] - VIA Technologies, Inc. (eth1)",
+        05     "net_mode": "manual",
+        06     "net_address": "192.168.2.10",
+        07     "net_mask": "255.255.255.0",
+        08     "net_gateway": "192.168.2.1",
+        09     "state": "up",
+        00 }
+
+        NOTE: Fields should be defined.
+
+
+    setDevice(profile, device):
+        If "device" mode is supported, this function is used to set device for that profile.
+
+
+    setDeviceMode(profile, mode):
+        If "device_mode" mode is supported, this function is used to set device mode for that profile.
+
+
+    deleteConnection(profile):
+        Removes profile.
+
+
+    setAddress(profile, mode, address, mask, gateway):
+        If "net" mode is supported, this function is used to set address:
+
+            setAddress("Home", "manual", "192.168.2.2", "255.255.255.0", "192.168.2.1")
+
+        If "auto" modu is supported, this function is used to get address automatically:
+
+            setAddress("Home", "auth", "", "", "")
+
+        NOT: Can be simplified.
+
+
+    setNameService(profile, namemode, nameserver):
+        NOTE: Needs description
+
+
+    setState(profile, state):
+        "up" will connect, "down" will disconnect.
+
+
+    getState(profile):
+        Returns state of profile.
+
+        Function should return one of these:
+
+        "up <Address>"
+
+        "down"
+
+        "inaccessible <Error message>"
+
+        "unavailable"
+
+        "unplugged"
+
+
+    Signals:
+        connectionChanged: Fired when a connection profile is changed.
+            Arguments:
+                operation: Should be one of these:
+                    added
+                    changed
+                    deleted
+                profile: Profile name
+
+        stateChanged: Fired when state of a connection is changed.
+            Arguments:
+                profile: Profile name
+                state: Should be one of these:
+                    connecting
+                    down
+                    up
+                    inaccessible
+                address_or_msg:
+                    Address, if state is "up"
+                    Error message, if state is "inaccessible"
+
+        deviceChanged: Fired when a device is plugged or unplugged.
+            Arguments:
+                action: Should be one of these:
+                    added
+                    new
+                    removed
+                type: Should be connection type defined in linkInfo()
+                device_id: Device ID
+                device_name: Device name

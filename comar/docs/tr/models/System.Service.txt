@@ -1,0 +1,48 @@
+System.Service
+==============
+
+
+    start():
+        Servisi başlatır.
+
+
+    stop():
+        Servisi durdurur.
+
+
+    reload():
+        Servisi yeniden yükler.
+
+
+    setState(state):
+        Servisin otoamtik başlatma davranışını belirler. Durum "on" ise,
+        servis açılışta otomatik başlatılır.
+
+
+    ready():
+        Servis durumu "on" ise, servisi başlatır.
+
+
+    info():
+        Servis tipi, tanımı ve durumunu döndürür.
+
+        Yazılacak fonksiyon, aşağıdaki gibi bir çıktı vermelidir:
+
+        01 (
+        02     "service",
+        03     "Apache web server",
+        04     "on",
+        05 ]
+
+        Durum alanı, biraz "farklı" bir değer taşır:
+            Servis otomatik başlatılacaksa, ve servis çalışıyorsa durum "on" olur
+            Servis otomatik başlatılacaksa, ama servis çalışmıyorsa durum "stopped" olur
+            Servis otomatik başlatılmayacaksa, ve servis çalışmıyorsa durum "off" olur
+            Servis otomatik başlatılmayacaksa, ama servis çalışıyorsa durum "started" olur
+
+
+    Signals:
+        Changed: Fired when a service state is changed
+            Arguments:
+                service: Package name
+                state: Service state, same as status in info()
