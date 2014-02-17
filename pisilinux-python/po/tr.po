@@ -1,0 +1,166 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Necmettin Begiter <necmettin.begiter@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: YALI-tr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-05-05 11:24+EEST\n"
+"PO-Revision-Date: 2009-07-14 14:31+0300\n"
+"Last-Translator: Necmettin Begiter <necmettin.begiter@gmail.com>\n"
+"Language-Team: Turkish <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: pardus/localedata.py:46
+msgid "Turkish"
+msgstr "Türkçe"
+
+#: pardus/localedata.py:51
+msgid "Turkish Q"
+msgstr "Türkçe Q"
+
+#: pardus/localedata.py:52
+msgid "Turkish F"
+msgstr "Türkçe F"
+
+#: pardus/localedata.py:57
+msgid "English"
+msgstr "İngilizce (US)"
+
+#: pardus/localedata.py:62
+msgid "Afrikaans"
+msgstr "Afrikaanca"
+
+#: pardus/localedata.py:68
+msgid "Arabic"
+msgstr "Arapça"
+
+#: pardus/localedata.py:74
+msgid "Belgium"
+msgstr "Belçika"
+
+#: pardus/localedata.py:80
+msgid "Bulgarian"
+msgstr "Bulgarca"
+
+#: pardus/localedata.py:86
+msgid "Brazilian"
+msgstr "Brezilya Portekizcesi"
+
+#: pardus/localedata.py:92
+msgid "Catalan"
+msgstr "Katalanca"
+
+#: pardus/localedata.py:98
+msgid "Welsh"
+msgstr "Gallerce"
+
+#: pardus/localedata.py:104
+msgid "Czech"
+msgstr "Çekce"
+
+#: pardus/localedata.py:110
+msgid "Danish"
+msgstr "Danca"
+
+#: pardus/localedata.py:116
+msgid "German"
+msgstr "Almanca"
+
+#: pardus/localedata.py:122
+msgid "Spanish"
+msgstr "İspanyolca"
+
+#: pardus/localedata.py:128
+msgid "Estonian"
+msgstr "Estonca"
+
+#: pardus/localedata.py:134
+msgid "Finnish"
+msgstr "Fince"
+
+#: pardus/localedata.py:140
+msgid "French"
+msgstr "Fransızca"
+
+#: pardus/localedata.py:146
+msgid "Greek"
+msgstr "Yunanca"
+
+#: pardus/localedata.py:152
+msgid "Croatian"
+msgstr "Hırvatça"
+
+#: pardus/localedata.py:158
+msgid "Hungarian"
+msgstr "Macarca"
+
+#: pardus/localedata.py:164
+msgid "Icelandic"
+msgstr "İzlandaca"
+
+#: pardus/localedata.py:170
+msgid "Italian"
+msgstr "İtalyanca"
+
+#: pardus/localedata.py:176
+msgid "Japanese"
+msgstr "Japonca"
+
+#: pardus/localedata.py:182
+msgid "Macedonian"
+msgstr "Makedonca"
+
+#: pardus/localedata.py:188
+msgid "Malayalam"
+msgstr "Malayalamca"
+
+#: pardus/localedata.py:194
+msgid "Norwegian"
+msgstr "Norveççe"
+
+#: pardus/localedata.py:200
+msgid "Dutch"
+msgstr "Hollandaca"
+
+#: pardus/localedata.py:206
+msgid "Polish"
+msgstr "Lehce"
+
+#: pardus/localedata.py:212
+msgid "Portuguese"
+msgstr "Portekizce"
+
+#: pardus/localedata.py:218
+msgid "Russian"
+msgstr "Rusça"
+
+#: pardus/localedata.py:224
+msgid "Slovak"
+msgstr "Slovakça"
+
+#: pardus/localedata.py:230
+msgid "Slovenian"
+msgstr "Slovence"
+
+#: pardus/localedata.py:236
+msgid "Serbian"
+msgstr "Sırpça"
+
+#: pardus/localedata.py:242
+msgid "Swedish"
+msgstr "İsveççe"
+
+#: pardus/localedata.py:248
+msgid "Ukrainian"
+msgstr "Ukraynaca"
+
+#: pardus/localedata.py:254
+msgid "Vietnamese"
+msgstr "Vietnamca"
+
+

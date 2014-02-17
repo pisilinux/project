@@ -1,0 +1,108 @@
+Module 'pardus.strutils'
+----------------------------------------
+string/list/functional utility functions
+
+any (pred,seq)
+
+concat (l)
+Concatenate a list of lists.
+
+every (pred,seq)
+
+human_readable_rate (size)
+
+human_readable_size (size)
+
+multisplit (str,chars)
+Split str with any of the chars.
+
+prefix (a,b)
+Check if sequence a is a prefix of sequence b.
+
+remove_prefix (a,b)
+Remove prefix a from sequence b.
+
+same (l)
+Check if all elements of a sequence are equal.
+
+strlist (l)
+Concatenate string reps of l's elements.
+
+unzip (seq)
+
+
+
+Module 'pardus.dirutils'
+----------------------------------------
+dirutils module provides basic directory functions.
+
+dir_size (dir)
+Calculate the size of files under a directory.
+
+remove_dir (path)
+Remove all content of a directory.
+
+
+
+Module 'pardus.sysutils'
+----------------------------------------
+sysutils module provides basic system utilities.
+
+find_executable (exec_name)
+find the given executable in PATH
+
+getKernelOption (option)
+Get a dictionary of args for the given kernel command line option
+
+
+Module 'pardus.xorg'
+----------------------------------------
+None
+
+Module 'pardus.xorg.capslock'
+----------------------------------------
+None
+
+
+
+Module 'pardus.xorg.xterm'
+----------------------------------------
+None
+
+reset_title ()
+Reset console window title.
+
+set_title (message)
+Set message as console window title.
+
+
+
+
+
+Module 'pardus.fileutils'
+----------------------------------------
+sysutils module provides basic file I/0 utility functions.
+
+touch (filename)
+Update file modification date, create file if necessary
+
+
+
+Module 'pardus.procutils'
+----------------------------------------
+procutils module provides basic process utilities.
+
+capture ()
+Capture output of the command without running a shell
+
+run ()
+Run a command without running a shell, only output errors
+
+run_full ()
+Run a command without running a shell, with full output
+
+run_quiet ()
+Run the command without running a shell and no output
+
+
+

@@ -1,0 +1,166 @@
+# Copyright (C) YEAR ORGANIZATION
+#
+# Patrik Karlsson <patrik@pardus.nu>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: pardus-python\n"
+"POT-Creation-Date: 2008-05-05 11:36+EEST\n"
+"PO-Revision-Date: 2009-12-28 17:24+0100\n"
+"Last-Translator: Patrik Karlsson <patrik@pardus.nu>\n"
+"Language-Team: Swedish <pardus-translators@pardus.org.tr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: pardus/localedata.py:46
+msgid "Turkish"
+msgstr "Turkiska"
+
+#: pardus/localedata.py:51
+msgid "Turkish Q"
+msgstr "Turkiska Q"
+
+#: pardus/localedata.py:52
+msgid "Turkish F"
+msgstr "Turkiska F"
+
+#: pardus/localedata.py:57
+msgid "English"
+msgstr "Engelska"
+
+#: pardus/localedata.py:62
+msgid "Afrikaans"
+msgstr "Afrikaans"
+
+#: pardus/localedata.py:68
+msgid "Arabic"
+msgstr "Arabiska"
+
+#: pardus/localedata.py:74
+msgid "Belgium"
+msgstr "Belgien"
+
+#: pardus/localedata.py:80
+msgid "Bulgarian"
+msgstr "Bulgarien"
+
+#: pardus/localedata.py:86
+msgid "Brazilian"
+msgstr "Brasiliansk Portugisiska"
+
+#: pardus/localedata.py:92
+msgid "Catalan"
+msgstr "Katalanska"
+
+#: pardus/localedata.py:98
+msgid "Welsh"
+msgstr "Kymriska"
+
+#: pardus/localedata.py:104
+msgid "Czech"
+msgstr "Tjeckiska"
+
+#: pardus/localedata.py:110
+msgid "Danish"
+msgstr "Danska"
+
+#: pardus/localedata.py:116
+msgid "German"
+msgstr "Tyska"
+
+#: pardus/localedata.py:122
+msgid "Spanish"
+msgstr "Spanska"
+
+#: pardus/localedata.py:128
+msgid "Estonian"
+msgstr "Estniska"
+
+#: pardus/localedata.py:134
+msgid "Finnish"
+msgstr "Finska"
+
+#: pardus/localedata.py:140
+msgid "French"
+msgstr "Franska"
+
+#: pardus/localedata.py:146
+msgid "Greek"
+msgstr "Grekiska"
+
+#: pardus/localedata.py:152
+msgid "Croatian"
+msgstr "Kroatiska"
+
+#: pardus/localedata.py:158
+msgid "Hungarian"
+msgstr "Ungerska"
+
+#: pardus/localedata.py:164
+msgid "Icelandic"
+msgstr "Isländska"
+
+#: pardus/localedata.py:170
+msgid "Italian"
+msgstr "Italienska"
+
+#: pardus/localedata.py:176
+msgid "Japanese"
+msgstr "Japanska"
+
+#: pardus/localedata.py:182
+msgid "Macedonian"
+msgstr "Makedonska"
+
+#: pardus/localedata.py:188
+msgid "Malayalam"
+msgstr "Malayalam"
+
+#: pardus/localedata.py:194
+msgid "Norwegian"
+msgstr "Norska"
+
+#: pardus/localedata.py:200
+msgid "Dutch"
+msgstr "Nederländska"
+
+#: pardus/localedata.py:206
+msgid "Polish"
+msgstr "Polska"
+
+#: pardus/localedata.py:212
+msgid "Portuguese"
+msgstr "Portugisiska"
+
+#: pardus/localedata.py:218
+msgid "Russian"
+msgstr "Ryska"
+
+#: pardus/localedata.py:224
+msgid "Slovak"
+msgstr "Slovakiska"
+
+#: pardus/localedata.py:230
+msgid "Slovenian"
+msgstr "Slovenska"
+
+#: pardus/localedata.py:236
+msgid "Serbian"
+msgstr "Serbiska"
+
+#: pardus/localedata.py:242
+msgid "Swedish"
+msgstr "Svenska"
+
+#: pardus/localedata.py:248
+msgid "Ukrainian"
+msgstr "Ukrainska"
+
+#: pardus/localedata.py:254
+msgid "Vietnamese"
+msgstr "Vietnamesiska"
+
+

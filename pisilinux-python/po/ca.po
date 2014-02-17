@@ -1,0 +1,165 @@
+# translation of yali.po to Catala
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Pau Amaro-Seoane <pau@aei.mpg.de>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: yali\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-05-05 11:29+EEST\n"
+"PO-Revision-Date: 2007-03-18 14:13+0100\n"
+"Last-Translator: Pau Amaro-Seoane <pau@aei.mpg.de>\n"
+"Language-Team: Catala <pardus-translation-ca@ns1.uludag.org.tr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: pardus/localedata.py:46
+msgid "Turkish"
+msgstr "Turc"
+
+#: pardus/localedata.py:51
+msgid "Turkish Q"
+msgstr "Turc Q"
+
+#: pardus/localedata.py:52
+msgid "Turkish F"
+msgstr "Turc F"
+
+#: pardus/localedata.py:57
+msgid "English"
+msgstr "Anglès"
+
+#: pardus/localedata.py:62
+msgid "Afrikaans"
+msgstr "Afrikaans"
+
+#: pardus/localedata.py:68
+msgid "Arabic"
+msgstr "Àrab"
+
+#: pardus/localedata.py:74
+msgid "Belgium"
+msgstr "Belga"
+
+#: pardus/localedata.py:80
+msgid "Bulgarian"
+msgstr "Búlgar"
+
+#: pardus/localedata.py:86
+msgid "Brazilian"
+msgstr "Brasiler"
+
+#: pardus/localedata.py:92
+msgid "Catalan"
+msgstr "Català"
+
+#: pardus/localedata.py:98
+msgid "Welsh"
+msgstr "Galès"
+
+#: pardus/localedata.py:104
+msgid "Czech"
+msgstr "Txec"
+
+#: pardus/localedata.py:110
+msgid "Danish"
+msgstr "Danès"
+
+#: pardus/localedata.py:116
+msgid "German"
+msgstr "Alemany"
+
+#: pardus/localedata.py:122
+msgid "Spanish"
+msgstr "Castellà"
+
+#: pardus/localedata.py:128
+msgid "Estonian"
+msgstr "Estonià"
+
+#: pardus/localedata.py:134
+msgid "Finnish"
+msgstr "Finlandès"
+
+#: pardus/localedata.py:140
+msgid "French"
+msgstr "Francès"
+
+#: pardus/localedata.py:146
+msgid "Greek"
+msgstr "Grec"
+
+#: pardus/localedata.py:152
+msgid "Croatian"
+msgstr "Croata"
+
+#: pardus/localedata.py:158
+msgid "Hungarian"
+msgstr "Húngar"
+
+#: pardus/localedata.py:164
+msgid "Icelandic"
+msgstr "Islandès"
+
+#: pardus/localedata.py:170
+msgid "Italian"
+msgstr "Italià"
+
+#: pardus/localedata.py:176
+msgid "Japanese"
+msgstr "Japonès"
+
+#: pardus/localedata.py:182
+msgid "Macedonian"
+msgstr "Macedoni"
+
+#: pardus/localedata.py:188
+msgid "Malayalam"
+msgstr "Malayalam"
+
+#: pardus/localedata.py:194
+msgid "Norwegian"
+msgstr "Noruec"
+
+#: pardus/localedata.py:200
+msgid "Dutch"
+msgstr "Holandès"
+
+#: pardus/localedata.py:206
+msgid "Polish"
+msgstr "Polonès"
+
+#: pardus/localedata.py:212
+msgid "Portuguese"
+msgstr "Portuguès"
+
+#: pardus/localedata.py:218
+msgid "Russian"
+msgstr "Rus"
+
+#: pardus/localedata.py:224
+msgid "Slovak"
+msgstr "Eslovac"
+
+#: pardus/localedata.py:230
+msgid "Slovenian"
+msgstr "Eslovè"
+
+#: pardus/localedata.py:236
+msgid "Serbian"
+msgstr "Serbi"
+
+#: pardus/localedata.py:242
+msgid "Swedish"
+msgstr "Suec"
+
+#: pardus/localedata.py:248
+msgid "Ukrainian"
+msgstr "Ucranià"
+
+#: pardus/localedata.py:254
+msgid "Vietnamese"
+msgstr "Annamita"

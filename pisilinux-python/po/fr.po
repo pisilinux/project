@@ -1,0 +1,168 @@
+# translation of fr.po to French
+# translation of tr.po to
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Barış Metin <baris@uludag.org.tr>, 2005.
+# Atilla Aktuna <aktuna@gmail.com>, 2006.
+# Amine Chadly <amine.chadly@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: fr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-05-05 11:29+EEST\n"
+"PO-Revision-Date: 2007-10-19 22:35+0200\n"
+"Last-Translator: Amine Chadly <amine.chadly@gmail.com>\n"
+"Language-Team: French <pardus-translators@liste.pardus.org.tr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: pardus/localedata.py:46
+msgid "Turkish"
+msgstr "Turc"
+
+#: pardus/localedata.py:51
+msgid "Turkish Q"
+msgstr "Turc Q"
+
+#: pardus/localedata.py:52
+msgid "Turkish F"
+msgstr "Turc F"
+
+#: pardus/localedata.py:57
+msgid "English"
+msgstr "Anglais"
+
+#: pardus/localedata.py:62
+msgid "Afrikaans"
+msgstr "Afrikaans"
+
+#: pardus/localedata.py:68
+msgid "Arabic"
+msgstr "Arabe"
+
+#: pardus/localedata.py:74
+msgid "Belgium"
+msgstr "Belge"
+
+#: pardus/localedata.py:80
+msgid "Bulgarian"
+msgstr "Bulgare"
+
+#: pardus/localedata.py:86
+msgid "Brazilian"
+msgstr "Brésilien"
+
+#: pardus/localedata.py:92
+msgid "Catalan"
+msgstr "Catalan"
+
+#: pardus/localedata.py:98
+msgid "Welsh"
+msgstr "Gallois"
+
+#: pardus/localedata.py:104
+msgid "Czech"
+msgstr "Tchèque"
+
+#: pardus/localedata.py:110
+msgid "Danish"
+msgstr "Danois"
+
+#: pardus/localedata.py:116
+msgid "German"
+msgstr "Allemand"
+
+#: pardus/localedata.py:122
+msgid "Spanish"
+msgstr "Espagnol"
+
+#: pardus/localedata.py:128
+msgid "Estonian"
+msgstr "Estonien"
+
+#: pardus/localedata.py:134
+msgid "Finnish"
+msgstr "Finnois"
+
+#: pardus/localedata.py:140
+msgid "French"
+msgstr "Français"
+
+#: pardus/localedata.py:146
+msgid "Greek"
+msgstr "Grec"
+
+#: pardus/localedata.py:152
+msgid "Croatian"
+msgstr "Croate"
+
+#: pardus/localedata.py:158
+msgid "Hungarian"
+msgstr "Hongrois"
+
+#: pardus/localedata.py:164
+msgid "Icelandic"
+msgstr "Islandais"
+
+#: pardus/localedata.py:170
+msgid "Italian"
+msgstr "Italien"
+
+#: pardus/localedata.py:176
+msgid "Japanese"
+msgstr "Japonnais"
+
+#: pardus/localedata.py:182
+msgid "Macedonian"
+msgstr "Macédonien"
+
+#: pardus/localedata.py:188
+msgid "Malayalam"
+msgstr "Malayalam"
+
+#: pardus/localedata.py:194
+msgid "Norwegian"
+msgstr "Norvégien"
+
+#: pardus/localedata.py:200
+msgid "Dutch"
+msgstr "Hollandais"
+
+#: pardus/localedata.py:206
+msgid "Polish"
+msgstr "Polonais"
+
+#: pardus/localedata.py:212
+msgid "Portuguese"
+msgstr "Portugais"
+
+#: pardus/localedata.py:218
+msgid "Russian"
+msgstr "Russe"
+
+#: pardus/localedata.py:224
+msgid "Slovak"
+msgstr "Slovaque"
+
+#: pardus/localedata.py:230
+msgid "Slovenian"
+msgstr "Slovène"
+
+#: pardus/localedata.py:236
+msgid "Serbian"
+msgstr "Serbe"
+
+#: pardus/localedata.py:242
+msgid "Swedish"
+msgstr "Suédois"
+
+#: pardus/localedata.py:248
+msgid "Ukrainian"
+msgstr "Ukrainien"
+
+#: pardus/localedata.py:254
+msgid "Vietnamese"
+msgstr "Vietnamien"
