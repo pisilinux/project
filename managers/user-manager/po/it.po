@@ -1,0 +1,312 @@
+# translation of it.po to Italian
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Siciliano Davide <edivad95@gmail.com>, 2009.
+# Davide Siciliano <edivad95@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: it\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-10 15:44+0200\n"
+"PO-Revision-Date: 2010-05-13 20:51+0200\n"
+"Last-Translator: Davide Siciliano <edivad95@gmail.com>\n"
+"Language-Team: Italian <>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.0\n"
+
+#: data/kcm_user-manager.desktop.in.h:1 data/user-manager.desktop.in.h:1
+msgid "An application for managing user accounts."
+msgstr "Un'applicazione per gestire gli account."
+
+#: data/kcm_user-manager.desktop.in.h:2 data/user-manager.desktop.in.h:2
+#: src/user-manager.py:73
+msgid "User Manager"
+msgstr "Gestione utenti"
+
+#: src/usermanager/about.py:33 src/usermanager/about.py:35
+#, fuzzy
+msgid "Disk Manager"
+msgstr "Gestione utenti"
+
+#: src/usermanager/about.py:37
+msgid "(c) 2006-2010 TUBITAK/UEKAE"
+msgstr "(c) 2006-2010 TUBITAK/UEKAE"
+
+#: src/usermanager/about.py:45
+msgid "Current Maintainer"
+msgstr "Maintainer corrente"
+
+#: src/usermanager/about.py:45
+msgid "Gökmen Göksel"
+msgstr "Gökmen Göksel"
+
+#: src/usermanager/about.py:46
+msgid "Bahadır Kandemir"
+msgstr "Bahadır Kandemir"
+
+#: src/usermanager/about.py:46
+msgid "First Developer"
+msgstr "Il primo Sviluppatore "
+
+#: src/usermanager/about.py:47
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "edivad95@gmail.com"
+
+#: src/usermanager/about.py:47
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Davide Siciliano"
+
+#: src/usermanager/context.py:30
+#, fuzzy
+msgid "Do you want to continue ?"
+msgstr "Vuoi eliminare il gruppo '%1'?"
+
+#: src/usermanager/edit.py:129
+#, fuzzy
+msgid "User/group operations"
+msgstr "Informazioni utente"
+
+#: src/usermanager/edit.py:130
+msgid "Package operations"
+msgstr "Operazioni di pacchetto"
+
+#: src/usermanager/edit.py:131
+msgid "Service operations"
+msgstr ""
+
+#: src/usermanager/edit.py:132
+msgid "Date/time operations"
+msgstr ""
+
+#: src/usermanager/edit.py:133
+msgid "Kernel/Process operations"
+msgstr ""
+
+#: src/usermanager/edit.py:134
+msgid "Bootloader settings"
+msgstr "Impostazioni di bootloader"
+
+#: src/usermanager/edit.py:135
+msgid "Screen settings"
+msgstr "Impostazioni dello schermo"
+
+#: src/usermanager/edit.py:136
+#, fuzzy
+msgid "Locale settings"
+msgstr "Impostazioni dello schermo"
+
+#: src/usermanager/edit.py:137
+msgid "Network settings"
+msgstr "Impostazioni del rete"
+
+#: src/usermanager/edit.py:138
+#, fuzzy
+msgid "Login Manager settings"
+msgstr "Impostazioni Login Manager"
+
+#: src/usermanager/edit.py:139
+msgid "Keyboard settings"
+msgstr "Impostazioni della tastiera"
+
+#: src/usermanager/edit.py:312
+#, fuzzy
+msgid "There has to be at least one group selected"
+msgstr "Ci deve essere almeno un gruppo selezionato."
+
+#: src/usermanager/edit.py:389
+msgid "Start with typing this user's full name."
+msgstr "Incomincia scrivendo il nome completo dell'utente."
+
+#: src/usermanager/edit.py:392
+msgid "You should enter a password for this user."
+msgstr "Devi inserire una password per l'utente."
+
+#: src/usermanager/edit.py:399
+msgid "Password must be longer."
+msgstr "La password è troppo corta."
+
+#: src/usermanager/edit.py:403
+msgid "Don't use your full name or user name as a password."
+msgstr "Non usare il tuo nome o il tuo nome utente come password."
+
+#: src/usermanager/edit.py:406
+msgid "Passwords don't match."
+msgstr "Le password non corrispondono."
+
+#: src/usermanager/edit.py:411
+msgid "You must enter a user name."
+msgstr "Devi inserire un nome utente."
+
+#: src/usermanager/edit.py:414
+msgid "This user name is used by another user."
+msgstr "Questo nome utente è già in uso da un altro utente."
+
+#: src/usermanager/edit.py:418
+msgid "User name must not start with a number."
+msgstr "Non puoi far iniziare il tuo nome utente con un numero."
+
+#: src/usermanager/main.py:117
+#, fuzzy
+msgid ""
+"There are no packages that provide backend for this application.\n"
+"Please make sure that packages are installed and configured correctly"
+msgstr ""
+"Non ci sono pacchetti che forniscano un backend per questa applicazione.\n"
+"Per favore, assicurati che i pacchetti siano stati installati e configurati correttamente."
+
+#: src/usermanager/main.py:209 src/usermanager/main.py:273
+#: src/usermanager/main.py:290 src/usermanager/main.py:466
+#, fuzzy
+msgid "Access denied"
+msgstr "Accesso negato."
+
+#: src/usermanager/main.py:235
+msgid "Users"
+msgstr "Utenti"
+
+#: src/usermanager/main.py:236 ui/ui_edituser.py:251
+msgid "Groups"
+msgstr "Gruppi"
+
+#: src/usermanager/main.py:237
+msgid "All Users"
+msgstr "Tutti gli Utenti"
+
+#: src/usermanager/main.py:238
+msgid "All Groups"
+msgstr "Tutti i Gruppi"
+
+#: src/usermanager/main.py:249
+msgid "Add User"
+msgstr "Aggiungi Utente"
+
+#: src/usermanager/main.py:254
+msgid "Add Group"
+msgstr "Aggiungi Gruppo"
+
+#: src/usermanager/main.py:370
+msgid "Cannot delete <b>%1</b>. The user is currently logged in."
+msgstr "Impossibile eliminare <b>%1</b>. L'utente è loggato."
+
+#: src/usermanager/main.py:377
+msgid "Do you want to delete user '%1' (%2)?"
+msgstr "Vuoi cancellare l'utente '%1' (%2)?"
+
+#: src/usermanager/main.py:378
+msgid "Also remove user files. (This may take long.)"
+msgstr "Rimuovi anche i files dell'utente. (Potrebbe prendere molto tempo.)"
+
+#: src/usermanager/main.py:389
+#, fuzzy
+msgid "Do yu want to delete group '%1'?"
+msgstr "Vuoi eliminare il gruppo '%1'?"
+
+#: src/usermanager/main.py:440
+msgid "Remove items"
+msgstr ""
+
+#: ui/ui_editgroup.py:90
+msgid "Group Information"
+msgstr "Informazioni Gruppo"
+
+#: ui/ui_editgroup.py:91
+msgid "Group Name:"
+msgstr "Nome Gruppo:"
+
+#: ui/ui_editgroup.py:92
+msgid "No.:"
+msgstr "Numero:"
+
+#: ui/ui_editgroup.py:93 ui/ui_edituser.py:241
+msgid "Auto"
+msgstr "Automatico"
+
+#: ui/ui_edituser.py:232
+msgid "User Information"
+msgstr "Informazioni utente"
+
+#: ui/ui_edituser.py:233
+msgid "Full Name:"
+msgstr "Nome completo:"
+
+#: ui/ui_edituser.py:234
+msgid "Password:"
+msgstr "Password:"
+
+#: ui/ui_edituser.py:235
+msgid "Password (Again):"
+msgstr "Password (Conferma):"
+
+#: ui/ui_edituser.py:236
+msgid "Username:"
+msgstr "Nome Utente:"
+
+#: ui/ui_edituser.py:237
+msgid "Home Directory:"
+msgstr "Home Directory:"
+
+#: ui/ui_edituser.py:238
+msgid "Shell:"
+msgstr "Terminale:"
+
+#: ui/ui_edituser.py:239
+msgid "Give administrator rights"
+msgstr "Dai privilegi di amministratore a questo utente"
+
+#: ui/ui_edituser.py:240
+msgid "User Id:"
+msgstr "ID Utente:"
+
+#: ui/ui_edituser.py:242
+msgid "Advanced"
+msgstr "Avanzato"
+
+#: ui/ui_edituser.py:243
+msgid "Apply this policy to all actions"
+msgstr "Applica questa politica a tutte le azioni"
+
+#: ui/ui_edituser.py:244
+msgid "Use system settings"
+msgstr "Usa impostazioni di sistema"
+
+#: ui/ui_edituser.py:245
+msgid "Authorize user"
+msgstr "Autorizza utente"
+
+#: ui/ui_edituser.py:246
+msgid "Deny user"
+msgstr "Non autorizzare utente"
+
+#: ui/ui_edituser.py:247 ui/ui_edituser.py:250
+msgid "Start typing to filter"
+msgstr ""
+
+#: ui/ui_edituser.py:248
+msgid "Authorizations"
+msgstr "Autorizzazioni"
+
+#: ui/ui_edituser.py:249
+msgid "Main Group:"
+msgstr "Gruppo principale:"
+
+#: ui/ui_item.py:69
+msgid "Edit"
+msgstr "Modifica"
+
+#: ui/ui_item.py:70
+msgid "Delete"
+msgstr "Elimina"
+
+#: ui/ui_main.py:86
+msgid "Add New"
+msgstr "Aggiungi"
+
+#~ msgid " "
+#~ msgstr " "

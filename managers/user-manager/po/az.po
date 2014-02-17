@@ -1,0 +1,295 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-10 15:44+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/kcm_user-manager.desktop.in.h:1 data/user-manager.desktop.in.h:1
+msgid "An application for managing user accounts."
+msgstr ""
+
+#: data/kcm_user-manager.desktop.in.h:2 data/user-manager.desktop.in.h:2
+#: src/user-manager.py:73
+msgid "User Manager"
+msgstr ""
+
+#: src/usermanager/about.py:33 src/usermanager/about.py:35
+msgid "Disk Manager"
+msgstr ""
+
+#: src/usermanager/about.py:37
+msgid "(c) 2006-2010 TUBITAK/UEKAE"
+msgstr "(c) 2006-2010 TUBITAK/UEKAE"
+
+#: src/usermanager/about.py:45
+msgid "Current Maintainer"
+msgstr ""
+
+#: src/usermanager/about.py:45
+msgid "Gökmen Göksel"
+msgstr ""
+
+#: src/usermanager/about.py:46
+msgid "Bahadır Kandemir"
+msgstr "Bahadır Kandemir"
+
+#: src/usermanager/about.py:46
+msgid "First Developer"
+msgstr ""
+
+#: src/usermanager/about.py:47
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: src/usermanager/about.py:47
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: src/usermanager/context.py:30
+msgid "Do you want to continue ?"
+msgstr ""
+
+#: src/usermanager/edit.py:129
+msgid "User/group operations"
+msgstr ""
+
+#: src/usermanager/edit.py:130
+msgid "Package operations"
+msgstr ""
+
+#: src/usermanager/edit.py:131
+msgid "Service operations"
+msgstr ""
+
+#: src/usermanager/edit.py:132
+msgid "Date/time operations"
+msgstr ""
+
+#: src/usermanager/edit.py:133
+msgid "Kernel/Process operations"
+msgstr ""
+
+#: src/usermanager/edit.py:134
+msgid "Bootloader settings"
+msgstr ""
+
+#: src/usermanager/edit.py:135
+msgid "Screen settings"
+msgstr ""
+
+#: src/usermanager/edit.py:136
+msgid "Locale settings"
+msgstr ""
+
+#: src/usermanager/edit.py:137
+msgid "Network settings"
+msgstr ""
+
+#: src/usermanager/edit.py:138
+msgid "Login Manager settings"
+msgstr ""
+
+#: src/usermanager/edit.py:139
+msgid "Keyboard settings"
+msgstr ""
+
+#: src/usermanager/edit.py:312
+msgid "There has to be at least one group selected"
+msgstr ""
+
+#: src/usermanager/edit.py:389
+msgid "Start with typing this user's full name."
+msgstr ""
+
+#: src/usermanager/edit.py:392
+msgid "You should enter a password for this user."
+msgstr ""
+
+#: src/usermanager/edit.py:399
+msgid "Password must be longer."
+msgstr ""
+
+#: src/usermanager/edit.py:403
+msgid "Don't use your full name or user name as a password."
+msgstr ""
+
+#: src/usermanager/edit.py:406
+msgid "Passwords don't match."
+msgstr ""
+
+#: src/usermanager/edit.py:411
+msgid "You must enter a user name."
+msgstr ""
+
+#: src/usermanager/edit.py:414
+msgid "This user name is used by another user."
+msgstr ""
+
+#: src/usermanager/edit.py:418
+msgid "User name must not start with a number."
+msgstr ""
+
+#: src/usermanager/main.py:117
+msgid ""
+"There are no packages that provide backend for this application.\n"
+"Please make sure that packages are installed and configured correctly"
+msgstr ""
+
+#: src/usermanager/main.py:209 src/usermanager/main.py:273
+#: src/usermanager/main.py:290 src/usermanager/main.py:466
+msgid "Access denied"
+msgstr ""
+
+#: src/usermanager/main.py:235
+msgid "Users"
+msgstr ""
+
+#: src/usermanager/main.py:236 ui/ui_edituser.py:251
+msgid "Groups"
+msgstr ""
+
+#: src/usermanager/main.py:237
+msgid "All Users"
+msgstr ""
+
+#: src/usermanager/main.py:238
+msgid "All Groups"
+msgstr ""
+
+#: src/usermanager/main.py:249
+msgid "Add User"
+msgstr ""
+
+#: src/usermanager/main.py:254
+msgid "Add Group"
+msgstr ""
+
+#: src/usermanager/main.py:370
+msgid "Cannot delete <b>%1</b>. The user is currently logged in."
+msgstr ""
+
+#: src/usermanager/main.py:377
+msgid "Do you want to delete user '%1' (%2)?"
+msgstr ""
+
+#: src/usermanager/main.py:378
+msgid "Also remove user files. (This may take long.)"
+msgstr ""
+
+#: src/usermanager/main.py:389
+msgid "Do yu want to delete group '%1'?"
+msgstr ""
+
+#: src/usermanager/main.py:440
+msgid "Remove items"
+msgstr ""
+
+#: ui/ui_editgroup.py:90
+msgid "Group Information"
+msgstr ""
+
+#: ui/ui_editgroup.py:91
+msgid "Group Name:"
+msgstr ""
+
+#: ui/ui_editgroup.py:92
+msgid "No.:"
+msgstr ""
+
+#: ui/ui_editgroup.py:93 ui/ui_edituser.py:241
+msgid "Auto"
+msgstr ""
+
+#: ui/ui_edituser.py:232
+msgid "User Information"
+msgstr ""
+
+#: ui/ui_edituser.py:233
+msgid "Full Name:"
+msgstr ""
+
+#: ui/ui_edituser.py:234
+msgid "Password:"
+msgstr ""
+
+#: ui/ui_edituser.py:235
+msgid "Password (Again):"
+msgstr ""
+
+#: ui/ui_edituser.py:236
+msgid "Username:"
+msgstr ""
+
+#: ui/ui_edituser.py:237
+msgid "Home Directory:"
+msgstr ""
+
+#: ui/ui_edituser.py:238
+msgid "Shell:"
+msgstr ""
+
+#: ui/ui_edituser.py:239
+msgid "Give administrator rights"
+msgstr ""
+
+#: ui/ui_edituser.py:240
+msgid "User Id:"
+msgstr ""
+
+#: ui/ui_edituser.py:242
+msgid "Advanced"
+msgstr ""
+
+#: ui/ui_edituser.py:243
+msgid "Apply this policy to all actions"
+msgstr ""
+
+#: ui/ui_edituser.py:244
+msgid "Use system settings"
+msgstr ""
+
+#: ui/ui_edituser.py:245
+msgid "Authorize user"
+msgstr ""
+
+#: ui/ui_edituser.py:246
+msgid "Deny user"
+msgstr ""
+
+#: ui/ui_edituser.py:247 ui/ui_edituser.py:250
+msgid "Start typing to filter"
+msgstr ""
+
+#: ui/ui_edituser.py:248
+msgid "Authorizations"
+msgstr ""
+
+#: ui/ui_edituser.py:249
+msgid "Main Group:"
+msgstr ""
+
+#: ui/ui_item.py:69
+msgid "Edit"
+msgstr ""
+
+#: ui/ui_item.py:70
+msgid "Delete"
+msgstr ""
+
+#: ui/ui_main.py:86
+msgid "Add New"
+msgstr ""
