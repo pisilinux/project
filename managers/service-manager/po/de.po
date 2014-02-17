@@ -1,0 +1,143 @@
+# translation of de.po to German
+# Service Manager
+# Copyright (C) 2009 TUBITAK/UEAKE
+# This file is distributed under the same license as the Service Manager package.
+# Gökmen Göksel <gokmen@pardus.org.tr>
+# 
+# Klemens Häckel <click3d at linuxmail dot org>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: de\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-01-10 08:20+0200\n"
+"PO-Revision-Date: 2009-06-27 20:30-0400\n"
+"Last-Translator: Klemens Häckel <click3d at linuxmail dot org>\n"
+"Language-Team: German <es@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: data/kcm_service-manager.desktop.in.h:1 data/service-manager.desktop.in.h:1
+msgid "An application for managing system services."
+msgstr "Verwaltung der System-Dienste."
+
+#: data/kcm_service-manager.desktop.in.h:2 data/service-manager.desktop.in.h:2
+msgid "Service Manager"
+msgstr "Dienste"
+
+#: src/servicemanager/about.py:26
+msgid "(c) 2009-2010 TUBITAK/UEKAE"
+msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+
+#: src/servicemanager/about.py:34
+msgid "Gökmen Göksel"
+msgstr "Gökmen Göksel"
+
+#: src/servicemanager/about.py:34
+msgid "Current Maintainer"
+msgstr "Aktueller Betreuer"
+
+#: src/servicemanager/about.py:35
+msgid "Bahadır Kandemir"
+msgstr "Bahadır Kandemir"
+
+#: src/servicemanager/about.py:35
+msgid "COMAR Author"
+msgstr "Autor von COMAR"
+
+#: src/servicemanager/about.py:36
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Stefan Wilhelm"
+
+#: src/servicemanager/about.py:36
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sw@pardususer.de"
+
+#: src/servicemanager/base.py:96
+msgid "Authentication Error"
+msgstr "Authentifikationsfehler"
+
+#: src/servicemanager/base.py:97
+msgid "You are not authorized for this operation."
+msgstr "Sie sind für diese Aktion nicht bevollmächtigt."
+
+#: src/servicemanager/base.py:99
+msgid "Error"
+msgstr "Fehler"
+
+#: src/servicemanager/base.py:100
+msgid "An exception occurred."
+msgstr "Ein Ausnahmefall ist eingetreten."
+
+#: src/servicemanager/widgets.py:171 ui/ui_info.py:53
+msgid "Service information is not available"
+msgstr "Information über Dienst ist nicht verfügbar"
+
+#: ui/ui_info.py:52 ui/ui_item.py:127 ui/ui_main.py:61
+msgid "Form"
+msgstr "Form"
+
+#: ui/ui_info.py:54
+msgid "Hide Information"
+msgstr "Verberge Information"
+
+#: ui/ui_item.py:128
+msgid "serviceName"
+msgstr "serviceName"
+
+#: ui/ui_item.py:129
+msgid "serviceDesc"
+msgstr "serviceDesc"
+
+#: ui/ui_item.py:130
+msgid "Start service"
+msgstr "Dienst starten"
+
+#: ui/ui_item.py:131
+msgid "Reload service"
+msgstr "Dienst neu starten"
+
+#: ui/ui_item.py:132
+msgid "Run on start"
+msgstr "Automatisch starten"
+
+#: ui/ui_item.py:133
+msgid "Stop service"
+msgstr "Dienst anhalten"
+
+#: ui/ui_item.py:134
+msgid "More Information"
+msgstr "Mehr Information"
+
+#: ui/ui_main.py:62
+msgid "type service name to search..."
+msgstr "Schreiben Sie den Namen des Dienstes den Sie suchen..."
+
+#: ui/ui_main.py:63
+msgid "Servers"
+msgstr "Server"
+
+#: ui/ui_main.py:64
+msgid "System Services"
+msgstr "Systemdienste"
+
+#: ui/ui_main.py:65
+msgid "Startup Services"
+msgstr "Automatische Dienste"
+
+#: ui/ui_main.py:66
+msgid "Running Services"
+msgstr "Aktive Dienste"
+
+#: ui/ui_main.py:67
+msgid "All Services"
+msgstr "Alle Dienste"
+
+# Zweifel - singular/plural ? wahrscheinlich Singular..
+#: ui/ui_main.py:68
+msgid "Getting service info... %p%"
+msgstr "Erhalte Dienste Info... %p%"

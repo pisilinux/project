@@ -1,0 +1,39 @@
+[Desktop Entry]
+Exec=kcmshell4 kcm_service-manager
+Icon=flag-yellow
+Type=Service
+ServiceTypes=KCModule
+
+X-KDE-FactoryName=servicemanager
+X-KDE-Library=kpythonpluginfactory
+X-KDE-ParentApp=kcontrol
+X-KDE-PluginKeyword=service-manager/service-manager.py
+X-KDE-System-Settings-Parent-Category=system-administration
+X-KDE-Weight=70
+
+Name=Service Manager
+Name[az]=Servis İdarəçisi
+Name[da]=Tjeneste håndtering
+Name[de]=Dienste
+Name[es]=Administrador de servicios
+Name[fr]=Gestionnaire de services
+Name[hu]=Szolgáltatás kezelő
+Name[it]=Gestore dei servizi
+Name[nl]=Dienstbeheer
+Name[pt_BR]=Gerenciador de Serviço
+Name[ru]=Менеджер служб
+Name[sv]=Tjänstehanteraren
+Name[tr]=Servis Yöneticisi
+Comment=An application for managing system services.
+Comment[az]=Sistem xidmətləri idarəçilik tətbiqi
+Comment[de]=Verwaltung der System-Dienste.
+Comment[es]=Programa para gerenciar los servicios del sistema
+Comment[fr]=Une application de gestion des services du système.
+Comment[hu]=Rendszerszolgáltatás kezelő alkalmazás.
+Comment[it]=Un applicazione per la gestione dei servizi sel sistema.
+Comment[nl]=Een toepassing voor het beheren van systeemdiensten.
+Comment[pt_BR]=Um aplicativo para gerenciar os Serviços do Sistema
+Comment[ru]=Приложение для управления системными службами.
+Comment[sv]=Ett program för hantering av systemtjänster.
+Comment[tr]=Sistem servisleri yönetim uygulaması.
+X-KDE-Keywords=python service managers

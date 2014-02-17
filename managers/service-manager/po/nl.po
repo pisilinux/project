@@ -1,0 +1,141 @@
+# translation of nl.po to Nederlands
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Antoon Tolboom <atolboo@gmail.com>, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: nl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-01-10 08:20+0200\n"
+"PO-Revision-Date: 2011-01-10 08:21+0200\n"
+"Last-Translator: Antoon Tolboom <atolboo@gmail.com>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/kcm_service-manager.desktop.in.h:1 data/service-manager.desktop.in.h:1
+msgid "An application for managing system services."
+msgstr "Een toepassing voor het beheren van systeemdiensten."
+
+#: data/kcm_service-manager.desktop.in.h:2 data/service-manager.desktop.in.h:2
+msgid "Service Manager"
+msgstr "Dienstbeheer"
+
+#: src/servicemanager/about.py:26
+msgid "(c) 2009-2010 TUBITAK/UEKAE"
+msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+
+#: src/servicemanager/about.py:34
+msgid "Current Maintainer"
+msgstr "Huidige onderhouder"
+
+#: src/servicemanager/about.py:34
+msgid "Gökmen Göksel"
+msgstr "Gökmen Göksel"
+
+#: src/servicemanager/about.py:35
+msgid "Bahadır Kandemir"
+msgstr "Bahadır Kandemir"
+
+#: src/servicemanager/about.py:35
+msgid "COMAR Author"
+msgstr "COMAR-auteur"
+
+#: src/servicemanager/about.py:36
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "atolboo@gmail.com"
+
+#: src/servicemanager/about.py:36
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Antoon Tolboom"
+
+#: src/servicemanager/base.py:96
+msgid "Authentication Error"
+msgstr "Authenticatiefout"
+
+#: src/servicemanager/base.py:97
+msgid "You are not authorized for this operation."
+msgstr "U bent niet geautoriseerd voor deze bewerking."
+
+#: src/servicemanager/base.py:99
+msgid "Error"
+msgstr "Fout"
+
+#: src/servicemanager/base.py:100
+msgid "An exception occurred."
+msgstr "Onbehandelde fout opgetreden."
+
+#: src/servicemanager/widgets.py:171 ui/ui_info.py:53
+msgid "Service information is not available"
+msgstr "Dienstinformatie is niet aanwezig"
+
+#: ui/ui_info.py:52 ui/ui_item.py:127 ui/ui_main.py:61
+msgid "Form"
+msgstr "Form"
+
+#: ui/ui_info.py:54
+msgid "Hide Information"
+msgstr "Informatie verbergen"
+
+#: ui/ui_item.py:128
+msgid "serviceName"
+msgstr "dienstnaam"
+
+#: ui/ui_item.py:129
+msgid "serviceDesc"
+msgstr "dienstbeschrijving"
+
+#: ui/ui_item.py:130
+msgid "Start service"
+msgstr "Dienst starten"
+
+#: ui/ui_item.py:131
+msgid "Reload service"
+msgstr "Dienst herladen"
+
+#: ui/ui_item.py:132
+msgid "Run on start"
+msgstr "Bij opstarten uitvoeren"
+
+#: ui/ui_item.py:133
+msgid "Stop service"
+msgstr "Dienst stoppen"
+
+#: ui/ui_item.py:134
+msgid "More Information"
+msgstr "Meer informatie"
+
+#: ui/ui_main.py:62
+msgid "type service name to search..."
+msgstr "type dienstnaam om te zoeken..."
+
+#: ui/ui_main.py:63
+msgid "Servers"
+msgstr "Servers"
+
+#: ui/ui_main.py:64
+msgid "System Services"
+msgstr "Systeemdiensten"
+
+#: ui/ui_main.py:65
+msgid "Startup Services"
+msgstr "Opstartdiensten"
+
+#: ui/ui_main.py:66
+msgid "Running Services"
+msgstr "Actieve diensten"
+
+#: ui/ui_main.py:67
+msgid "All Services"
+msgstr "Alle diensten"
+
+#: ui/ui_main.py:68
+msgid "Getting service info... %p%"
+msgstr "Dienstinformatie wordt opgehaald... %p%"

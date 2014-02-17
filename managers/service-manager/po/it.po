@@ -1,0 +1,140 @@
+# translation of it.po to Italian
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Siciliano Davide <edivad95@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: it\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-01-10 08:20+0200\n"
+"PO-Revision-Date: 2011-01-10 08:20+0200\n"
+"Last-Translator: Siciliano Davide <edivad95@gmail.com>\n"
+"Language-Team: Italian <pardus-translation-it@pardus.org.tr>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: data/kcm_service-manager.desktop.in.h:1 data/service-manager.desktop.in.h:1
+msgid "An application for managing system services."
+msgstr "Un applicazione per la gestione dei servizi sel sistema."
+
+#: data/kcm_service-manager.desktop.in.h:2 data/service-manager.desktop.in.h:2
+msgid "Service Manager"
+msgstr "Gestore dei servizi"
+
+#: src/servicemanager/about.py:26
+msgid "(c) 2009-2010 TUBITAK/UEKAE"
+msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+
+#: src/servicemanager/about.py:34
+msgid "Current Maintainer"
+msgstr "Mantainer corrente"
+
+#: src/servicemanager/about.py:34
+msgid "Gökmen Göksel"
+msgstr "Gökmen Göksel"
+
+#: src/servicemanager/about.py:35
+msgid "Bahadır Kandemir"
+msgstr "Bahadır Kandemir"
+
+#: src/servicemanager/about.py:35
+msgid "COMAR Author"
+msgstr "Autore di COMAR"
+
+#: src/servicemanager/about.py:36
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "edivad95@gmail.com"
+
+#: src/servicemanager/about.py:36
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Davide Siciliano"
+
+#: src/servicemanager/base.py:96
+msgid "Authentication Error"
+msgstr "Errore di Autenticazione"
+
+#: src/servicemanager/base.py:97
+msgid "You are not authorized for this operation."
+msgstr "Non sei autorizzato per questa operazione."
+
+#: src/servicemanager/base.py:99
+msgid "Error"
+msgstr "Errore"
+
+#: src/servicemanager/base.py:100
+msgid "An exception occurred."
+msgstr "Si è verificata un'eccezione."
+
+#: src/servicemanager/widgets.py:171 ui/ui_info.py:53
+msgid "Service information is not available"
+msgstr "Informazioni di servizio non sono disponibili"
+
+#: ui/ui_info.py:52 ui/ui_item.py:127 ui/ui_main.py:61
+msgid "Form"
+msgstr "Forma"
+
+#: ui/ui_info.py:54
+msgid "Hide Information"
+msgstr "Nascondi Informazioni"
+
+#: ui/ui_item.py:128
+msgid "serviceName"
+msgstr "Nome del Servizio"
+
+#: ui/ui_item.py:129
+msgid "serviceDesc"
+msgstr "Descrizione del Servizio"
+
+#: ui/ui_item.py:130
+msgid "Start service"
+msgstr "Avvia servizio"
+
+#: ui/ui_item.py:131
+msgid "Reload service"
+msgstr "Riavvia servizio"
+
+#: ui/ui_item.py:132
+msgid "Run on start"
+msgstr "Esegui all'avvio"
+
+#: ui/ui_item.py:133
+msgid "Stop service"
+msgstr "Ferma servizio"
+
+#: ui/ui_item.py:134
+msgid "More Information"
+msgstr "Ulteriori Informazioni"
+
+#: ui/ui_main.py:62
+msgid "type service name to search..."
+msgstr "scrivi il nome del servizio che vuoi cercare..."
+
+#: ui/ui_main.py:63
+msgid "Servers"
+msgstr "Servers"
+
+#: ui/ui_main.py:64
+msgid "System Services"
+msgstr "Servizi di sistema"
+
+#: ui/ui_main.py:65
+msgid "Startup Services"
+msgstr "Servizi di avvio"
+
+#: ui/ui_main.py:66
+msgid "Running Services"
+msgstr "Servizi in esecuzione"
+
+#: ui/ui_main.py:67
+msgid "All Services"
+msgstr "Tutti i servizi"
+
+#: ui/ui_main.py:68
+msgid "Getting service info... %p%"
+msgstr "Reperimento informazioni servizio... %p%"

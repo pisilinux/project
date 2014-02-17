@@ -1,0 +1,6 @@
+Service Manager
+---------------
+
+ Service Manager is a Kde application for managing system services.
+ It uses COMAR as configuration backend.
+
