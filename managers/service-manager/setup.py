@@ -157,9 +157,11 @@ class Install(install):
 
         # Make directories
         print "Making directories..."
+        pixmap_dir="/usr/share/pixmap"
         makeDirs(bin_dir)
         makeDirs(locale_dir)
         makeDirs(apps_dir)
+        makeDirs(pixmap_dir)
         makeDirs(project_dir)
         if FOR_KDE_4:
             makeDirs(services_dir)
@@ -168,6 +170,9 @@ class Install(install):
         print "Installing desktop files..."
 
         shutil.copy("data/%s.desktop" % PROJECT, apps_dir)
+        
+        shutil.copy("data/flag-yellow.png" % PROJECT, pixmap_dir)
+
         if FOR_KDE_4:
             shutil.copy("data/kcm_%s.desktop" % PROJECT, services_dir)
         shutil.rmtree('build/data')
@@ -254,7 +259,7 @@ setup(
       version           = about.version,
       description       = unicode(about.PACKAGE),
       license           = unicode('GPL'),
-      author            = "Pardus Developers",
+      author            = "Pisi Linux Developers",
       author_email      = about.bugEmail,
       url               = about.homePage,
       packages          = [''],
