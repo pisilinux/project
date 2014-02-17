@@ -1,0 +1,98 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Ali Işıngör, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-12-27 18:21+0200\n"
+"PO-Revision-Date: 2011-01-02 00:02+0200\n"
+"Last-Translator: Ali Işıngör\n"
+"Language-Team: Turkish <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.0\n"
+
+#: panda.cpp:57
+msgid "Current Driver Information"
+msgstr "Informazione Attuale dei Driver"
+
+#: panda.cpp:81
+msgid "Vendor:"
+msgstr "Venditore:"
+
+#: panda.cpp:89
+msgid "Renderer:"
+msgstr "Renderer:"
+
+#: panda.cpp:97
+msgid "Version:"
+msgstr "Versione:"
+
+#: panda.cpp:114
+msgid "Driver Preference"
+msgstr "Preferenze Driver"
+
+#: panda.cpp:120
+msgid "Use the driver developed by the open source community"
+msgstr "Usa il driver sviluppato dalla comunità open source"
+
+#: panda.cpp:121
+msgid "Use the proprietary driver provided by the manufacturer"
+msgstr "Usa il driver proprietario fornito dal produttore"
+
+#: panda.cpp:123
+msgid "Use the safe driver that provides limited features"
+msgstr "Usa il driver sicuro che fornisce funzionalità limitate"
+
+#: panda.cpp:138 rc.cpp:2 rc.cpp:2
+msgid "Video Driver Administration"
+msgstr "Informazioni Di Video Driver"
+
+#: panda.cpp:142
+msgid "(c) 2011 Fatih Arslan"
+msgstr "(c) 2011 Fatih Arslan"
+
+#: panda.cpp:148
+msgid "Please use <a href=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</a> to report bugs.\n"
+msgstr "Per favore usare <a href=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</a> per segnalare i bug.\n"
+
+#: panda.cpp:150
+msgid "Fatih Arslan"
+msgstr "Fatih Arslan"
+
+#: panda.cpp:150
+msgid "Original author"
+msgstr "Autore originale"
+
+#: panda.cpp:196
+msgid "Unable to apply settings due to missing packages"
+msgstr "Impossibile applicare le impostazioni a causa di pacchetti mancanti"
+
+#: panda.cpp:213
+msgid "Unable to authenticate/execute the action: %1, %2"
+msgstr "Impossibile autenticare / eseguire l'azione: %1, %2"
+
+#: panda.cpp:215
+msgid "An internal error occurred"
+msgstr "Verificato un errore interno"
+
+#: panda.cpp:223
+msgid ""
+"You have to restart your system for the changes to take affect.\n"
+"Do you want to restart now?"
+msgstr ""
+"Devi riavviare il sistema affinché le modifiche abbiano effetto.\n"
+" Vuoi avviarlo ora?"
+
+#: rc.cpp:1 rc.cpp:1
+msgid "Video Driver"
+msgstr "Video Driver"
+
+#: rc.cpp:3 rc.cpp:3
+msgid "video,driver,graphics,display"
+msgstr "video,driver,graffici,schermo"

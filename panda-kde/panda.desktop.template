@@ -1,0 +1,19 @@
+[Desktop Entry]
+Exec=kcmshell4 panda
+Icon=hwinfo
+Type=Service
+X-KDE-ServiceTypes=KCModule
+Categories=Qt;KDE;X-KDE-settings-system;
+
+X-KDE-Library=kcm_panda
+X-KDE-Init-Symbol=panda
+X-KDE-ParentApp=kcontrol
+
+X-KDE-System-Settings-Parent-Category=display
+X-KDE-Weight=110
+
+_Name=Video Driver
+
+_Comment=Video Driver Administration
+
+_X-KDE-Keywords=video,driver,graphics,display

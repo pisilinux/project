@@ -1,0 +1,12 @@
+[Domain]
+Name=Pardus Alternative Driver Administration Control Module
+Name[tr]=Pardus Alternatif Sürücü Yönetim Modülü
+Icon=preferences-system-login
+
+[org.kde.kcontrol.kcmpanda.save]
+Name=Change driver settings
+Name[tr]=Sürücü ayarlarını değiştir
+Description=Administrator authorization is required to change settings
+Description[tr]=Sürücü ayarlarını değiştirmek için yönetici hakları gerekiyor
+Policy=auth_admin
+Persistence=session

@@ -1,0 +1,112 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Attila Siposs <sipiatti@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-12-27 11:06+0200\n"
+"PO-Revision-Date: 2010-12-27 15:07+0100\n"
+"Last-Translator: Attila Siposs <sipiatti@gmail.com>\n"
+"Language-Team: Hungarian <pardus-translators@pardus.org.tr>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: panda.cpp:57
+msgid "Current Driver Information"
+msgstr "Jelenlegi meghajtó információ"
+
+#: panda.cpp:81
+msgid "Vendor:"
+msgstr "Gyártó:"
+
+#: panda.cpp:89
+msgid "Renderer:"
+msgstr "Renderelő:"
+
+#: panda.cpp:97
+msgid "Version:"
+msgstr "Verzió:"
+
+#: panda.cpp:114
+msgid "Driver Preference"
+msgstr "Meghajtó beállításai"
+
+#: panda.cpp:120
+msgid "Use the driver developed by the open source community"
+msgstr "A nyílt forrású közösség által fejlesztett meghajtó használata"
+
+#: panda.cpp:121
+msgid "Use the proprietary driver provided by the manufacturer"
+msgstr "Gyártó által készített zárt meghajtó használata"
+
+#: panda.cpp:123
+msgid "Use the safe driver that provides limited features"
+msgstr "A korlátozottabb képességű biztonságos meghajtó használata"
+
+#: panda.cpp:138 rc.cpp:2 rc.cpp:2
+msgid "Video Driver Administration"
+msgstr "Video meghajtó kezelése"
+
+#: panda.cpp:142
+msgid "(c) 2011 Fatih Arslan"
+msgstr "(c) 2011 Fatih Arslan"
+
+#: panda.cpp:148
+msgid ""
+"Please use <a href=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</"
+"a> to report bugs.\n"
+msgstr ""
+"A hibák bejelentésére használja ezt a linket : <a href=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</"
+"a>\n"
+
+#: panda.cpp:150
+msgid "Fatih Arslan"
+msgstr "Fatih Arslan"
+
+#: panda.cpp:150
+msgid "Original author"
+msgstr "Eredeti szerző"
+
+#: panda.cpp:151
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Attila Siposs"
+
+#: panda.cpp:152
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sipiatti@gmail.com"
+
+#: panda.cpp:198
+msgid "Unable to apply settings due to missing packages"
+msgstr "Nem sikerült a beállításokat alkalmazni hiányzó csomagok miatt"
+
+#: panda.cpp:215
+msgid "Unable to authenticate/execute the action: %1, %2"
+msgstr "A műveletet nem sikerült végrehajtani: %1, %2"
+
+#: panda.cpp:217
+msgid "An internal error occurred"
+msgstr "Belső hiba lépett fel"
+
+#: panda.cpp:225
+msgid ""
+"You have to restart your system for the changes to take affect.\n"
+"Do you want to restart now?"
+msgstr ""
+"A változások életbe léptetéséhez újra kell indítani a rendszert.\n"
+"Akarja most újraindítani?"
+
+#: rc.cpp:1 rc.cpp:1
+msgid "Video Driver"
+msgstr "Videokártya meghajtó"
+
+#: rc.cpp:3 rc.cpp:3
+msgid "video,driver,graphics,display"
+msgstr "video,meghajtó,grafikus,kijelző"

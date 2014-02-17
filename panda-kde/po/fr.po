@@ -1,0 +1,114 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Philippe Svetoslavsky <philsvet@gmail.com>, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: panda-kde\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-12-27 18:21+0200\n"
+"PO-Revision-Date: 2011-01-12 14:20+0100\n"
+"Last-Translator: Philippe Svetoslavsky <philsvet@gmail.com>\n"
+"Language-Team: French <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: panda.cpp:57
+msgid "Current Driver Information"
+msgstr "Information sur le pilote actuel"
+
+#: panda.cpp:81
+msgid "Vendor:"
+msgstr "Fabricant :"
+
+#: panda.cpp:89
+msgid "Renderer:"
+msgstr "Moteur de rendu :"
+
+#: panda.cpp:97
+msgid "Version:"
+msgstr "Version :"
+
+#: panda.cpp:114
+msgid "Driver Preference"
+msgstr "Préférences du pilote"
+
+#: panda.cpp:120
+msgid "Use the driver developed by the open source community"
+msgstr "Utiliser le pilote développé par la communauté open-source"
+
+#: panda.cpp:121
+msgid "Use the proprietary driver provided by the manufacturer"
+msgstr "Utiliser le pilote développé par le fabricant"
+
+#: panda.cpp:123
+msgid "Use the safe driver that provides limited features"
+msgstr "Utiliser le pilote sûr mais offrant des fonctionnalités limitées"
+
+#: panda.cpp:138 rc.cpp:2
+msgid "Video Driver Administration"
+msgstr "Paramétrage du pilote vidéo"
+
+#: panda.cpp:142
+msgid "(c) 2011 Fatih Arslan"
+msgstr "(c) 2011 Fatih Arslan"
+
+#: panda.cpp:148
+msgid ""
+"Please use <a href=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</"
+"a> to report bugs.\n"
+msgstr ""
+"Merci d'utiliser <a href=\"http://bugs.pardus.org.tr\">http://bugs.pardus."
+"org.tr</a> pour rapporter les bogues. \n"
+
+#: panda.cpp:150
+msgid "Fatih Arslan"
+msgstr "Fatih Arslan"
+
+#: panda.cpp:150
+msgid "Original author"
+msgstr "Auteur originel"
+
+#: panda.cpp:151
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Philippe Svetoslavsky"
+
+#: panda.cpp:152
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "philsvet@gmail.com"
+
+#: panda.cpp:198
+msgid "Unable to apply settings due to missing packages"
+msgstr "Impossible d'appliquer les paramètres à cause de paquets manquants"
+
+#: panda.cpp:215
+msgid "Unable to authenticate/execute the action: %1, %2"
+msgstr "Impossible d'authentifier/exécuter l'action : %1, %2"
+
+#: panda.cpp:217
+msgid "An internal error occurred"
+msgstr "Une erreur interne s'est produite"
+
+#: panda.cpp:225
+msgid ""
+"You have to restart your system for the changes to take affect.\n"
+"Do you want to restart now?"
+msgstr ""
+"Vous devez redémarrer votre système pour que les modifications prennent "
+"effet. \n"
+"Voulez-vous redémarrer maintenant ?"
+
+#: rc.cpp:1
+msgid "Video Driver"
+msgstr "Pilote vidéo"
+
+#: rc.cpp:3
+msgid "video,driver,graphics,display"
+msgstr "vidéo, pilote, graphique, affichage"
+
