@@ -1,0 +1,450 @@
+# translation of ro.po to Romanian
+# LANGUAGE translations for boot loader
+# Copyright (C) 2004 SUSE LINUX AG
+# Claudiu Costin <claudiuc@kde.org>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bootloader.ro\n"
+"PO-Revision-Date: 2007-12-04 15:50+0100\n"
+"Last-Translator: \n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.2\n"
+"Plural-Forms:  nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
+
+#. ok button label
+#. txt_ok
+msgid "OK"
+msgstr "OK"
+
+#. cancel button label
+#. txt_cancel
+msgid "Cancel"
+msgstr "Renunţă"
+
+#. reboot button label
+#. txt_reboot
+msgid "Reboot"
+msgstr "Restartează"
+
+#. continue button label
+#. txt_continue
+msgid "Continue"
+msgstr "Continuă"
+
+#. txt_install
+msgid "Installation"
+msgstr "Instalare"
+
+#. txt_manual_install
+msgid "Manual Installation"
+msgstr "Instalare manuală"
+
+#. txt_noacpi_install
+msgid "Installation--ACPI Disabled"
+msgstr "Instalare--ACPI dezactivat"
+
+#. txt_safe_install
+msgid "Installation--Safe Settings"
+msgstr "Instalare--Setări sigure"
+
+#. txt_safe_linux
+msgid "Linux--Safe Settings"
+msgstr "Linux--Setări sigure"
+
+#. txt_boot_harddisk
+msgid "Boot from Hard Disk"
+msgstr "Bootează de pe hard disc"
+
+#. txt_rescue
+msgid "Rescue System"
+msgstr "Sistem de salvare"
+
+#. txt_memtest
+msgid "Memory Test"
+msgstr "Test de memorie"
+
+#. txt_bootoptions
+msgid "Boot Options"
+msgstr "Opţiuni de pornire"
+
+#. window title for exit dialog
+#. txt_exit_title (see txt_exit_dialog)
+msgid "Exiting..."
+msgstr "Ies..."
+
+#. txt_exit_dialog
+msgid ""
+"You are leaving the graphical boot menu and\n"
+"starting the text mode interface."
+msgstr ""
+"Acum părăsiţi modul grafic de boot\n"
+"şi intraţi în interfaţa text."
+
+#. txt_help
+msgid "Help"
+msgstr "Ajutor"
+
+#. window title for kernel loading (see txt_load_kernel)
+#. txt_load_kernel_title
+msgid "Starting..."
+msgstr "Pornesc..."
+
+#. Keep the three newlines!
+#. txt_load_kernel
+msgid ""
+"Loading Linux Kernel\n"
+"\n"
+"\n"
+msgstr ""
+"Încarc kernelul Linux\n"
+"\n"
+"\n"
+
+#. Keep the three newlines!
+#. txt_load_memtest
+msgid ""
+"Loading memtest86\n"
+"\n"
+"\n"
+msgstr ""
+"Încarc memtest86\n"
+"\n"
+"\n"
+
+#. info box title
+#. txt_info_title
+msgid "Boot Loader"
+msgstr "Boot Loader"
+
+#. error box title
+#. txt_error_title
+msgid "I/O Error"
+msgstr "Eroare I/O"
+
+#. boot disk change dialog title
+#. txt_change_disk_title
+msgid "Change Boot Disk"
+msgstr "Schimbaţi discul de pornire"
+
+#. txt_insert_disk
+#, c-format
+msgid "Insert boot disk %u."
+msgstr "Introduceţi discul de pornire %u."
+
+#. txt_insert_disk2
+#, c-format
+msgid ""
+"This is boot disk %u.\n"
+"Insert boot disk %u."
+msgstr ""
+"Aceasta este discul de pornire %u.\n"
+"Introduceţi discul de pornire %u."
+
+#. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
+#. txt_insert_disk3
+#, c-format
+msgid ""
+"This is not a <product> boot disk.\n"
+"Insert boot disk %u."
+msgstr ""
+"Acesta nu este un disc de pornire <product>.\n"
+"Introduceţi discul %u."
+
+#. password dialog title
+#. txt_password_title
+msgid "Password"
+msgstr "Parolă"
+
+#. txt_dud_ready
+msgid "Get your driver update floppy ready."
+msgstr "Pregătiţi discheta de actualizare a driverelor."
+
+#. dvd warning title
+#. txt_dvd_warning_title
+msgid "DVD Error"
+msgstr "Eroare DVD"
+
+#. txt_dvd_warning2
+msgid ""
+"This is a two-sided DVD. You have booted from the second side.\n"
+"\n"
+"Turn the DVD over then continue."
+msgstr ""
+"Acesta este un DVD cu două feţe. Aţi pornit sistemul de pe a doua faţă.\n"
+"\n"
+" Întoarceţi DVD-ul şi apoi continuaţi."
+
+#. power off dialog title
+#. txt_power_off_title
+msgid "Power Off"
+msgstr "Oprire alimentare"
+
+#. txt_power_off
+msgid "Halt the system now?"
+msgstr "Opresc sistemul acum?"
+
+#. menu entry for hard disk installation
+#. txt_harddisk
+msgid "Hard Disk"
+msgstr "Hard Disc"
+
+#. dialog title for hard disk installation
+#. txt_harddisk_title
+msgid "Hard Disk Installation"
+msgstr "Instalare de pe hard disc"
+
+#. txt_hd_diskdevice
+msgid "Disk Device (Scans All Disks If Empty)\n"
+msgstr "Dispozitive disc (scanează toate discurile dacă nu este completat)\n"
+
+#. txt_directory
+msgid "Directory\n"
+msgstr "Director\n"
+
+#. dialog title for ftp installation
+#. txt_ftp_title
+msgid "FTP Installation"
+msgstr "Instalare prin FTP"
+
+#. txt_server
+msgid "Server\n"
+msgstr "Server\n"
+
+#. txt_password
+msgid "Password\n"
+msgstr "Parolă\n"
+
+#. label for ftp user input
+#. txt_user1
+msgid "User (Anonymous Login If Empty)\n"
+msgstr "Utilizator (anonim, dacă nu este completat)\n"
+
+#. dialog title for nfs installation
+#. txt_nfs_title
+msgid "NFS Installation"
+msgstr "Instalare prin NFS"
+
+#. label for smb user input
+#. txt_user2
+msgid "User (Uses \"guest\" If Empty)\n"
+msgstr "Utilizator (foloseşte \"guest\" dacă este necompletat)\n"
+
+#. dialog title for smb installation
+#. txt_smb_title
+msgid "SMB (Windows Share) Installation"
+msgstr "Instalare prin SMB (share Windows)"
+
+#. dialog title for http installation
+#. txt_http_title
+msgid "HTTP Installation"
+msgstr "Instalare prin HTTP"
+
+#. 'driver' as in '(hardware) driver update'
+#. txt_driver_update
+msgid "Driver"
+msgstr "Driver"
+
+#. as in Windows Authentication Domain
+#. txt_domain
+msgid "Domain\n"
+msgstr "Domeniu\n"
+
+#. button label for other/more options
+#. txt_other_options
+msgid "Other Options"
+msgstr "Alte opţiuni"
+
+#. txt_language
+msgid "Language"
+msgstr "Limbă"
+
+#. txt_apic
+msgid "Installation--IOAPIC Enabled"
+msgstr "Instalare--IOAPIC activat"
+
+#. txt_noapic_install
+msgid "Installation--IOAPIC Disabled"
+msgstr "Instalare--IOAPIC dezactivat"
+
+#. txt_nolapic_install
+msgid "Installation--Local APIC Disabled"
+msgstr "Instalare--APIC local dezactivat"
+
+#. txt_yes
+msgid "Yes"
+msgstr "Da"
+
+#. txt_no
+msgid "No"
+msgstr "Nu"
+
+#. menu item for selecting a file
+#. txt_file
+msgid "File"
+msgstr "Fişier"
+
+#. input label: share as in "Windows share" (SMB)
+#. txt_share
+msgid "Share\n"
+msgstr "Partajare\n"
+
+#. txt_zenAuto
+msgid "Automatic Mode"
+msgstr "Mod automat"
+
+#. txt_zenManual
+msgid "Manual Mode"
+msgstr "Mod manual"
+
+#. txt_zenConfig
+msgid "Configure Parameters on ZEN Partition"
+msgstr "Configuraţi parametrii partiţiei ZEN"
+
+#. txt_zenInstall
+msgid "Install or Update ZEN Partition"
+msgstr "Instalează sau actualizează partiţie ZEN"
+
+#. txt_zenLilo
+msgid "Reinstall ZEN Partition Boot Loader"
+msgstr "Reinstalează încărcătorul de sistem al partiţiei ZEN"
+
+#. txt_zenDisable
+msgid "Disable ZEN Partition"
+msgstr "Dezactiveaza partiţia ZEN"
+
+#. txt_zenEnable
+msgid "Enable ZEN Partition"
+msgstr "Activează partiţia ZEN"
+
+#. video mode menu item
+#. txt_text_mode
+msgid "Text Mode"
+msgstr "Mod text"
+
+#. menu item, like 'memory test'
+#. txt_firmware
+msgid "Firmware Test"
+msgstr "Test de firmware"
+
+#. txt_dud_file_msg
+msgid ""
+"To load driver updates directly from CD-ROM,\n"
+"enter the driver update file names (separated\n"
+"by commas ',') here:\n"
+msgstr ""
+"Pentru a încărca actualizările de driver direct de pe CD-ROM,\n"
+"introduceţi aici numele fişierelor cu actualizările (separate prin\n"
+"virgulă ','):\n"
+
+#. install source menu title
+#. ** please keep it really short (comparable to the english text) **
+#. txt_install_source
+msgid "Source"
+msgstr "Sursă"
+
+#. video mode/display size menu title
+#. ** please keep it really short (comparable to the english text) **
+#. txt_video_mode
+msgid "Video Mode"
+msgstr "Mod video"
+
+#. driver update dialog title
+#. -> txt_dud_file_msg
+#. txt_driver_update2
+msgid "Driver Update"
+msgstr "Actualizare de driver"
+
+#. menu label for selecting (cpu) architecture
+#. like i386, x86-64, ppc
+#. ** please keep it really short (comparable to the english text) **
+#. txt_arch
+msgid "Arch"
+msgstr "Arch"
+
+#. menu label for selecting some (linux) kernel variant
+#. ** please keep it really short (comparable to the english text) **
+#. txt_kernel
+msgid "Kernel"
+msgstr "Kernel"
+
+#. menu item for kernel variant (cf. txt_kernel)
+#. txt_kernel_default
+msgid "Default"
+msgstr "Implicit"
+
+#. menu item for kernel variant (cf. txt_kernel)
+#. -> like in txt_safe_linux
+#. txt_kernel_safe
+msgid "Safe Settings"
+msgstr "Setări sigure"
+
+#. menu item for kernel variant (cf. txt_kernel)
+#. -> similar to txt_noacpi_install
+#. txt_kernel_noacpi
+msgid "No ACPI"
+msgstr "Fără APIC"
+
+#. menu item for kernel variant (cf. txt_kernel)
+#. -> similar to txt_nolapic_install
+#. txt_kernel_nolapic
+msgid "No Local APIC"
+msgstr "Fără APIC local"
+
+#. main menu: start in system repair mode
+#. txt_repain_system
+msgid "Repair Installed System"
+msgstr "Repară sistemul instalat"
+
+#. menu item
+#. txt_mediacheck
+msgid "Check Installation Media"
+msgstr ""
+
+#. txt_zorg
+msgid "Graphical Display"
+msgstr ""
+
+#. txt_zorg_default
+msgid "Default"
+msgstr ""
+
+#. txt_zorg_safe
+msgid "Failsafe"
+msgstr ""
+
+#. txt_zorg_probe
+msgid "Probe Again"
+msgstr ""
+
+#. txt_zorg_off
+msgid "Off"
+msgstr ""
+
+#. txt_hdt
+msgid "Hardware info"
+msgstr ""
+
+#. txt_mudur
+msgid "Boot"
+msgstr ""
+
+#. txt_mudur_forcefsck
+msgid "FS check"
+msgstr ""
+
+#. txt_mainmenu
+msgid "Main menu"
+msgstr ""
+
+#. txt_otheroptions
+msgid "Other options"
+msgstr ""
+
+#. txt_kernel_debug
+msgid "debug"
+msgstr ""
+
