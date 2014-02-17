@@ -1,0 +1,417 @@
+# translation of nl.po to Nederlands
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Willem Gielen <w.gielen@gmail.com>, 2007, 2008, 2009.
+# W.P.M.H.I.A. Gielen <w.gielen@gmail.com>, 2008.
+# Antoon Tolboom <atolboo@gmail.com>, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: nl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-22 08:50+0000\n"
+"PO-Revision-Date: 2010-11-29 10:21+0100\n"
+"Last-Translator: Antoon Tolboom <atolboo@gmail.com>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: bin/mudur.py:307
+msgid "Cannot write mudur.log, read-only file system"
+msgstr "Kan niet schrijven naar mudur.log, alleen-lezen bestandsysteem"
+
+#: bin/mudur.py:484
+msgid "Cannot find /etc/pardus-release"
+msgstr "Kan /etc/pardus-release niet vinden"
+
+#: bin/mudur.py:580
+msgid "/etc/env.d/03locale cannot be updated"
+msgstr "/etc/env.d/03locale kan niet opgewaardeerd worden"
+
+#: bin/mudur.py:606
+#, python-format
+msgid "Could not set unicode mode on tty %d"
+msgstr "Kan unicode modus niet instellen op tty %d"
+
+#: bin/mudur.py:664
+msgid "Cannot connect to DBus, services won't be started"
+msgstr "Kan geen verbinding maken met DBus, diensten worden niet gestart"
+
+#: bin/mudur.py:680
+#, python-format
+msgid ""
+"Unable to start network:\n"
+"  %s"
+msgstr ""
+"Kan netwerk niet starten:\n"
+"  %s"
+
+#: bin/mudur.py:685
+msgid "Cannot start system logger"
+msgstr "Kan systeem logger niet starten"
+
+#: bin/mudur.py:691
+msgid "Starting services"
+msgstr "Opstarten diensten"
+
+#: bin/mudur.py:724
+msgid "Stopping services"
+msgstr "Stoppen diensten"
+
+#: bin/mudur.py:752 bin/service.py:161 bin/service.py:270
+#, python-format
+msgid "Starting %s"
+msgstr "Opstarten %s"
+
+#: bin/mudur.py:763 bin/service.py:174 bin/service.py:282
+#, python-format
+msgid "Stopping %s"
+msgstr "Stoppen %s"
+
+#: bin/mudur.py:804
+msgid "Can't move persistent udev rules from /dev/.udev"
+msgstr "Kan blijvende udev-regels niet van /dev/.udev verplaatsen"
+
+#: bin/mudur.py:816
+msgid "Starting udev"
+msgstr "Opstarten udev"
+
+#: bin/mudur.py:830
+msgid "Populating /dev"
+msgstr "Opvulen /dev"
+
+#: bin/mudur.py:856
+msgid "Removing stale lock file /etc/mtab~"
+msgstr "Verwijderen van oud vergrendeld bestand /etc/mtab~"
+
+#: bin/mudur.py:859
+msgid "Failed removing stale lock file /etc/mtab~"
+msgstr "Verwijderen van oud vergrendeld bestand /etc/mtab~ is mislukt"
+
+#: bin/mudur.py:871
+msgid "/etc/fstab doesn't contain an entry for the root filesystem"
+msgstr "/etc/fstab bevat geen item voor het root systeembestand"
+
+#: bin/mudur.py:878
+msgid "Remounting root filesystem read-only"
+msgstr "Opnieuw aankoppelen hoofdbestandsysteem als alleen-lezen"
+
+#: bin/mudur.py:883
+msgid "Checking root filesystem (full check forced)"
+msgstr "Controleren root bestandssysteem (volledige controle geforceerd)"
+
+#: bin/mudur.py:889
+msgid "Checking root filesystem"
+msgstr "Controleren root bestandssysteem"
+
+#: bin/mudur.py:898
+msgid "Filesystem repaired, but reboot needed!"
+msgstr "Bestandsysteem gerepareerd, maar herstarten is nodig!"
+
+#: bin/mudur.py:904
+msgid "Rebooting in 10 seconds..."
+msgstr "Herstart na 10 seconden..."
+
+#: bin/mudur.py:906
+msgid "Rebooting..."
+msgstr "Herstarten..."
+
+#: bin/mudur.py:910
+msgid "Filesystem could not be repaired"
+msgstr "Bestandsysteem kon niet gerepareerd worden"
+
+#: bin/mudur.py:915
+msgid "Skipping root filesystem check (fstab's passno == 0)"
+msgstr "Overslaan controle van root bestandssysteem (fstab's overslagno == 0)"
+
+#: bin/mudur.py:923
+msgid "Remounting root filesystem read/write"
+msgstr "Opnieuw aankoppelen root bestandssysteem als lezen/schrijven"
+
+#: bin/mudur.py:927
+msgid ""
+"Root filesystem could not be mounted read/write\n"
+"   You can either login below and manually check your filesytem(s) OR\n"
+"   restart your system, press F3 and select 'FS check' from boot menu\n"
+msgstr ""
+"Root systeembestand kan niet aangekoppeld worden voor lezen/schrijven\n"
+"   Log hieronder in en controleer handmatig het bestandsysteem(en) OF\n"
+"   herstart het systeem, druk op F3 en selecteer FS-controle in het "
+"opstartmenu\n"
+
+#: bin/mudur.py:939
+msgid "Couldn't synchronize /etc/mtab from /proc/mounts"
+msgstr "Kan /etc/mtab van /proc/mounts niet synchroniseren"
+
+#: bin/mudur.py:959
+msgid "Checking all filesystems"
+msgstr "Controleren alle bestandssystemen"
+
+#: bin/mudur.py:963
+msgid "A full fsck has been forced"
+msgstr "Een volledige fsck is afgedwongen"
+
+#: bin/mudur.py:981
+msgid "Filesystem errors corrected"
+msgstr "Fouten in het bestandssysteem gecorrigeerd"
+
+#: bin/mudur.py:983
+msgid "Fsck could not correct all errors, manual repair needed"
+msgstr "Fsck kon niet alle problemen oplossen. Handmatige reparatie is vereist"
+
+#: bin/mudur.py:992
+msgid "Mounting local filesystems"
+msgstr "Aankoppelen lokale bestandssystemen"
+
+#: bin/mudur.py:1000
+msgid "Mounting remote filesystems"
+msgstr "Aankoppelen bestandssystemen op afstand"
+
+#: bin/mudur.py:1046
+#, python-format
+msgid "Setting up hostname as '%s'"
+msgstr "Hostnaam instellen als '%s'"
+
+#: bin/mudur.py:1069
+msgid "Setting disk parameters"
+msgstr "Instellen schijf parameters"
+
+#: bin/mudur.py:1089
+msgid "Activating swap space"
+msgstr "Activeren swapruimte"
+
+#: bin/mudur.py:1100
+msgid "Deactivating swap space"
+msgstr "Deactiveren swapruimte"
+
+#: bin/mudur.py:1110
+msgid "Cleaning up /var"
+msgstr "Opschonen /var"
+
+#: bin/mudur.py:1126
+msgid "Cleaning up /tmp"
+msgstr "Opschonen /tmp"
+
+#: bin/mudur.py:1163
+msgid "Setting system clock to hardware clock"
+msgstr "Systeemklok instellen op hardwareklok"
+
+#: bin/mudur.py:1179
+msgid "Failed to adjust systematic drift of the hardware clock"
+msgstr "Aanpassen systematische afwijking van de hardware klok mislukt"
+
+#: bin/mudur.py:1184
+msgid "Failed to set system clock to hardware clock"
+msgstr "Systeemklok instellen op hardwareklok mislukt"
+
+#: bin/mudur.py:1195
+msgid "Syncing system clock to hardware clock"
+msgstr "Systeemklok synchroniseren met hardwareklok"
+
+#: bin/mudur.py:1198
+msgid "Failed to synchronize clocks"
+msgstr "Synchroniseren van klokken mislukt"
+
+#: bin/mudur.py:1252
+msgid "Unmounting filesystems"
+msgstr "Afkoppelen bestandssystemen"
+
+#: bin/mudur.py:1260
+msgid "Remounting remaining filesystems read-only"
+msgstr "Opnieuw aankoppelen bestandssystemen als alleen-lezen"
+
+#: bin/mudur.py:1276
+msgid ""
+"An internal error occured. Please report to the bugs.pardus.org.trwith "
+"following information:"
+msgstr ""
+"Er is een interne fout opgetreden. Meld de foutmelding bij bugs.pardus.org."
+"tr met de volgende informatie:"
+
+#: bin/mudur.py:1379
+msgid "Setting up localhost"
+msgstr "Instellen localhost"
+
+#: bin/mudur.py:1392
+msgid "Updating environment variables"
+msgstr "Bijwerken omgevingsvariabelen"
+
+#: bin/service.py:60
+msgid "local"
+msgstr "lokaal"
+
+#: bin/service.py:61
+msgid "script"
+msgstr "script"
+
+#: bin/service.py:62
+msgid "server"
+msgstr "server"
+
+#: bin/service.py:74
+msgid "running"
+msgstr "actief"
+
+#: bin/service.py:76
+msgid "yes"
+msgstr "ja"
+
+#: bin/service.py:78
+msgid "conditional"
+msgstr "voorwaardelijk"
+
+#: bin/service.py:101
+msgid "Status"
+msgstr "Status"
+
+#: bin/service.py:102
+msgid "Service"
+msgstr "Dienst"
+
+#: bin/service.py:103
+msgid "Autostart"
+msgstr "Autostart"
+
+#: bin/service.py:104
+msgid "Description"
+msgstr "Beschrijving"
+
+#: bin/service.py:147 bin/service.py:157
+#, python-format
+msgid "Unable to start %s:"
+msgstr "Kan %s niet starten:"
+
+#: bin/service.py:170
+#, python-format
+msgid "Unable to stop %s:"
+msgstr "Kan %s niet stoppen:"
+
+#: bin/service.py:183
+#, python-format
+msgid "Unable to set %s state:"
+msgstr "Kan %s status niet instellen:"
+
+#: bin/service.py:188
+#, python-format
+msgid "Service '%s' will be auto started."
+msgstr "Dienst '%s' wordt automatische gestart."
+
+#: bin/service.py:190
+#, python-format
+msgid "Service '%s' won't be auto started."
+msgstr "Dienst '%s' zal niet automatische worden gestart."
+
+#: bin/service.py:192
+#, python-format
+msgid "Service '%s' will be started if required."
+msgstr "Dienst '%s' zal, indien nodig, automatisch gestart worden."
+
+#: bin/service.py:201
+#, python-format
+msgid "Unable to reload %s:"
+msgstr "Kan %s niet herladen:"
+
+#: bin/service.py:205
+#, python-format
+msgid "Reloading %s"
+msgstr "Herladen %s"
+
+#: bin/service.py:259
+msgid "You must be root to use that."
+msgstr "U dient root te zijn om dit te gebruiken."
+
+#: bin/service.py:278
+msgid "Unable to start DBus"
+msgstr "Kon DBus niet starten"
+
+#: bin/service.py:292
+msgid "DBus is not running."
+msgstr "DBus is niet actief."
+
+#: bin/service.py:294
+msgid "DBus is running."
+msgstr "DBus is actief."
+
+#: bin/service.py:299
+msgid ""
+"usage: service [<options>] [<service>] <command>\n"
+"where command is:\n"
+" list     Display service list\n"
+" status   Display service status\n"
+" info     Display service status\n"
+" on       Auto start the service\n"
+" off      Don't auto start the service\n"
+" start    Start the service\n"
+" stop     Stop the service\n"
+" restart  Stop the service, then start again\n"
+" reload   Reload the configuration (if service supports this)\n"
+"and option is:\n"
+" -N, --no-color  Don't use color in output\n"
+" -q, --quiet     Don't print replies"
+msgstr ""
+"gebruik: service [<opties>] <dienst>] <commando>\n"
+"waarbij commando's zijn:\n"
+" list    Dienstenlijst weergeven\n"
+" status     Dienstenstatus tonen\n"
+" info    Dienstenstatus tonen\n"
+" on      Autostart dienst\n"
+" off     Dienst niet automatisch starten\n"
+" start   Start dienst\n"
+" stop    Stop dienst\n"
+" restart  Stop dienst en herstart\n"
+" reload   Herladen van de configuratie (als de dienst dit ondersteunt)\n"
+"en optie is:\n"
+" -N, --no-color  Gebruik geen kleur in uitvoer  -q, --quiet     Print geen "
+"antwoorden"
+
+#: bin/service.py:355
+#, python-format
+msgid "No such service: %s"
+msgstr "Geen dienst: %s"
+
+#~ msgid "Safe Mode"
+#~ msgstr "Veilige modus"
+
+#~ msgid "Triggering udev events which are failed during a previous run"
+#~ msgstr "Aansturen udev events welke eerde mislikt zijn"
+
+#~ msgid "Trying to initiate a warm reboot (skipping BIOS with kexec kernel)"
+#~ msgstr "Probeer een warme herstart (BIOS overslaan met kexec kernel)"
+
+#~ msgid "Networking backend is set to NetworkManager"
+#~ msgstr "Networkingbackend is ingesteld in netwerkbeheer"
+
+#~ msgid "Bringing up %s"
+#~ msgstr "%s naar voren brengen"
+
+#~ msgid "Unable to bring up %s"
+#~ msgstr "Kan %s niet naar voren te brengen"
+
+#~ msgid "No network connection, skipping remote mount."
+#~ msgstr "Geen netwerkverbinding, aankoppelen op afstand overslaan."
+
+#~ msgid "Mounting remote filesystems (CTRL-C stops trying)"
+#~ msgstr "Aankoppelen bestandssystemen op afstand (CTRL-C stopt pogen)"
+
+#~ msgid "Mounting skipped with CTRL-C, remote shares will not be accessible!"
+#~ msgstr ""
+#~ "Aankoppelen overgeslagen met CTRL-C, delen op afstand is niet "
+#~ "toegankelijk!"
+
+#~ msgid "Mounting USB filesystem"
+#~ msgstr "Aankoppelen USB bestandssysteem"
+
+#~ msgid "Starting portmap service for NFS"
+#~ msgstr "Starten poortmap dienst voor NFS"
+
+#~ msgid "Mounting /dev"
+#~ msgstr "Aankoppelen /dev"
+
+#~ msgid "Mounting /sys"
+#~ msgstr "Aankoppelen /sys"
+
+#~ msgid "Mounting /dev/pts"
+#~ msgstr "Aankoppelen /dev/pts"

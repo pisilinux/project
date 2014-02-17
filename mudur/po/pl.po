@@ -1,0 +1,551 @@
+# translation of pl.po to Nederlands
+# Willem Gielen <w.gielen@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: pl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-22 08:50+0000\n"
+"PO-Revision-Date: 2009-02-06 10:55+0100\n"
+"Last-Translator: Willem Gielen <w.gielen@gmail.com>\n"
+"Language-Team: Nederlands <nl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: bin/mudur.py:307
+msgid "Cannot write mudur.log, read-only file system"
+msgstr "Nie można zapisać mudur.log, system plików tylko do odczytu"
+
+#: bin/mudur.py:484
+msgid "Cannot find /etc/pardus-release"
+msgstr "Nie można znaleźć /etc/pardus-release"
+
+#: bin/mudur.py:580
+msgid "/etc/env.d/03locale cannot be updated"
+msgstr "/etc/env.d/03locale nie może być zaktualizowany"
+
+#: bin/mudur.py:606
+#, python-format
+msgid "Could not set unicode mode on tty %d"
+msgstr "Nie można ustawić trybu unicode na tty %d"
+
+#: bin/mudur.py:664
+msgid "Cannot connect to DBus, services won't be started"
+msgstr "Nie można połączyć z DBus, usługi nie zostaną uruchomione"
+
+#: bin/mudur.py:680
+#, python-format
+msgid ""
+"Unable to start network:\n"
+"  %s"
+msgstr ""
+"Nie można uruchomić sieci: \n"
+" %s"
+
+#: bin/mudur.py:685
+msgid "Cannot start system logger"
+msgstr "Nie można wystartować "
+
+#: bin/mudur.py:691
+msgid "Starting services"
+msgstr "Startowanie usług"
+
+#: bin/mudur.py:724
+msgid "Stopping services"
+msgstr "Zatrzymywanie usług"
+
+#: bin/mudur.py:752 bin/service.py:161 bin/service.py:270
+#, python-format
+msgid "Starting %s"
+msgstr "Uruchamianie  %s"
+
+#: bin/mudur.py:763 bin/service.py:174 bin/service.py:282
+#, python-format
+msgid "Stopping %s"
+msgstr "Zatrzymywanie %s"
+
+#: bin/mudur.py:804
+msgid "Can't move persistent udev rules from /dev/.udev"
+msgstr "Nie można przenieść reguł udev z  /dev/.udev"
+
+#: bin/mudur.py:816
+msgid "Starting udev"
+msgstr "Startowanie udev"
+
+#: bin/mudur.py:830
+msgid "Populating /dev"
+msgstr "Tworzę /dev"
+
+#: bin/mudur.py:856
+msgid "Removing stale lock file /etc/mtab~"
+msgstr "Usuwanie nieaktualnego pliku blokującego  /etc /mtab~"
+
+#: bin/mudur.py:859
+msgid "Failed removing stale lock file /etc/mtab~"
+msgstr "Nie powiodło się usuwanie nieaktualnego pliku blokującego  /etc/mtab~"
+
+#: bin/mudur.py:871
+msgid "/etc/fstab doesn't contain an entry for the root filesystem"
+msgstr "/etc/fstab nie zawiera wpisu z główną partycją root"
+
+#: bin/mudur.py:878
+msgid "Remounting root filesystem read-only"
+msgstr "Odmontowywanie głównego systemu plików tylko-do-odczytu"
+
+#: bin/mudur.py:883
+msgid "Checking root filesystem (full check forced)"
+msgstr "Sprawdzanie głównego systemu plików (pełne)"
+
+#: bin/mudur.py:889
+msgid "Checking root filesystem"
+msgstr "Sprawdzanie głównego systemu plików"
+
+#: bin/mudur.py:898
+msgid "Filesystem repaired, but reboot needed!"
+msgstr "System plików naprawiony, wymagany reboot!"
+
+#: bin/mudur.py:904
+msgid "Rebooting in 10 seconds..."
+msgstr "Ponowne uruchomienie za 10 sekund..."
+
+#: bin/mudur.py:906
+msgid "Rebooting..."
+msgstr "Rebootowanie..."
+
+#: bin/mudur.py:910
+msgid "Filesystem could not be repaired"
+msgstr "System plików nie może zostać naprawiony"
+
+#: bin/mudur.py:915
+msgid "Skipping root filesystem check (fstab's passno == 0)"
+msgstr "Pomijanie testu głównego system plików (passno w fstab == 0)"
+
+#: bin/mudur.py:923
+msgid "Remounting root filesystem read/write"
+msgstr "Odmontowywanie głównego systemu plików odczyt/zapis"
+
+#: bin/mudur.py:927
+msgid ""
+"Root filesystem could not be mounted read/write\n"
+"   You can either login below and manually check your filesytem(s) OR\n"
+"   restart your system, press F3 and select 'FS check' from boot menu\n"
+msgstr ""
+
+#: bin/mudur.py:939
+msgid "Couldn't synchronize /etc/mtab from /proc/mounts"
+msgstr "Nie można synchronizować  /etc/mtab z /proc/mounts"
+
+#: bin/mudur.py:959
+msgid "Checking all filesystems"
+msgstr "Sprawdzanie wszystkich systemów plików"
+
+#: bin/mudur.py:963
+msgid "A full fsck has been forced"
+msgstr "Wymuszono pełen fsck"
+
+#: bin/mudur.py:981
+msgid "Filesystem errors corrected"
+msgstr "Błędy systemu plików naprawione"
+
+#: bin/mudur.py:983
+msgid "Fsck could not correct all errors, manual repair needed"
+msgstr "Fsck nie może naprawić wszystkich błędów, wymagana ręczna naprawa"
+
+#: bin/mudur.py:992
+msgid "Mounting local filesystems"
+msgstr "Montowanie lokalnych systemów plików"
+
+#: bin/mudur.py:1000
+msgid "Mounting remote filesystems"
+msgstr "Montowanie zdalnych systemów plików"
+
+#: bin/mudur.py:1046
+#, python-format
+msgid "Setting up hostname as '%s'"
+msgstr "Ustawianie nazwy hosta na '%s'"
+
+#: bin/mudur.py:1069
+msgid "Setting disk parameters"
+msgstr "Ustawianie parametrów dysku"
+
+#: bin/mudur.py:1089
+msgid "Activating swap space"
+msgstr "Aktywowanie SWAP"
+
+#: bin/mudur.py:1100
+msgid "Deactivating swap space"
+msgstr "Dezaktywowanie SWAP"
+
+#: bin/mudur.py:1110
+msgid "Cleaning up /var"
+msgstr "Czyszczenie /var"
+
+#: bin/mudur.py:1126
+msgid "Cleaning up /tmp"
+msgstr "Czyszczenie /tmp"
+
+#: bin/mudur.py:1163
+msgid "Setting system clock to hardware clock"
+msgstr "Ustawianie zegara systemowego do zegara sprzętowego"
+
+#: bin/mudur.py:1179
+msgid "Failed to adjust systematic drift of the hardware clock"
+msgstr "Aanpassen systematische afwijking van de hardware klok mislukt"
+
+#: bin/mudur.py:1184
+msgid "Failed to set system clock to hardware clock"
+msgstr "Instellen systeemklok als hardwareklok mislukt"
+
+#: bin/mudur.py:1195
+msgid "Syncing system clock to hardware clock"
+msgstr "Synchronizacja zegara systemowego z zegarem sprzętowym"
+
+#: bin/mudur.py:1198
+msgid "Failed to synchronize clocks"
+msgstr "Niepowodzenie przy synchronizacji czasu"
+
+#: bin/mudur.py:1252
+msgid "Unmounting filesystems"
+msgstr "Odmontowywanie systemów plików"
+
+#: bin/mudur.py:1260
+msgid "Remounting remaining filesystems read-only"
+msgstr "Montowanie pozostałych systemów plików w trybie tylko do odczytu"
+
+#: bin/mudur.py:1276
+msgid ""
+"An internal error occured. Please report to the bugs.pardus.org.trwith "
+"following information:"
+msgstr ""
+"Pojawił się błąd wewnętrzny. Proszę zgłosić go na bugs.pardus.org.tr z "
+"następującą informacją:"
+
+#: bin/mudur.py:1379
+msgid "Setting up localhost"
+msgstr "Ustawiam localhost"
+
+#: bin/mudur.py:1392
+msgid "Updating environment variables"
+msgstr "Aktualizuję zmienne środowiskowe"
+
+#: bin/service.py:60
+msgid "local"
+msgstr "lokalne/y"
+
+#: bin/service.py:61
+msgid "script"
+msgstr "skrypt"
+
+#: bin/service.py:62
+msgid "server"
+msgstr "serwer"
+
+#: bin/service.py:74
+msgid "running"
+msgstr "w toku"
+
+#: bin/service.py:76
+msgid "yes"
+msgstr "tak"
+
+#: bin/service.py:78
+msgid "conditional"
+msgstr "opcjonalny"
+
+#: bin/service.py:101
+msgid "Status"
+msgstr "Status"
+
+#: bin/service.py:102
+msgid "Service"
+msgstr "Usługa"
+
+#: bin/service.py:103
+msgid "Autostart"
+msgstr "Autostart"
+
+#: bin/service.py:104
+msgid "Description"
+msgstr "Opis"
+
+#: bin/service.py:147 bin/service.py:157
+#, python-format
+msgid "Unable to start %s:"
+msgstr "Nie można uruchomić %s:"
+
+#: bin/service.py:170
+#, python-format
+msgid "Unable to stop %s:"
+msgstr "Nie można zatrzymać %s:"
+
+#: bin/service.py:183
+#, python-format
+msgid "Unable to set %s state:"
+msgstr "Nie można ustawić państwa %s :"
+
+#: bin/service.py:188
+#, python-format
+msgid "Service '%s' will be auto started."
+msgstr "Usługa '%s' zostanie automatycznie uruchomiona."
+
+#: bin/service.py:190
+#, python-format
+msgid "Service '%s' won't be auto started."
+msgstr "Usługa '%s' nie zostanie automatycznie uruchomiona."
+
+#: bin/service.py:192
+#, python-format
+msgid "Service '%s' will be started if required."
+msgstr "Dienst '%s' zal, indien nodig, gestart worden."
+
+#: bin/service.py:201
+#, python-format
+msgid "Unable to reload %s:"
+msgstr "Nie można przeładować %s:"
+
+#: bin/service.py:205
+#, python-format
+msgid "Reloading %s"
+msgstr "Ponowne uruchomienie %s"
+
+#: bin/service.py:259
+msgid "You must be root to use that."
+msgstr "Musisz być rootem by wykonać tą operację."
+
+#: bin/service.py:278
+msgid "Unable to start DBus"
+msgstr "Nie mogę uruchomić D-Bus"
+
+#: bin/service.py:292
+msgid "DBus is not running."
+msgstr "Usługa DBus nie jest uruchomiona."
+
+#: bin/service.py:294
+msgid "DBus is running."
+msgstr "Usługa DBus jest w toku."
+
+#: bin/service.py:299
+msgid ""
+"usage: service [<options>] [<service>] <command>\n"
+"where command is:\n"
+" list     Display service list\n"
+" status   Display service status\n"
+" info     Display service status\n"
+" on       Auto start the service\n"
+" off      Don't auto start the service\n"
+" start    Start the service\n"
+" stop     Stop the service\n"
+" restart  Stop the service, then start again\n"
+" reload   Reload the configuration (if service supports this)\n"
+"and option is:\n"
+" -N, --no-color  Don't use color in output\n"
+" -q, --quiet     Don't print replies"
+msgstr ""
+"użytkowanie: usługa [<opcje>] [<usługa>] <polecenie>\n"
+"gdzie polecenia to:\n"
+" list     Wyświetla listę usług\n"
+" status   Wyświetla stan usługi\n"
+" info     Wyświetla stan usługi\n"
+" on       Automatycznie włącza usługę\n"
+" off      Usuwa automatyczne włączenia usługi\n"
+" start    Uruchamia usługę\n"
+" stop     Zatrzymuje usługę\n"
+" restart  Restartuje usługę\n"
+" reload   Przeładowuje konfigurację (jeżeli usługa to obsługuje)\n"
+"a opcje to:\n"
+" -N, --no-color  Nie koloruje wyniku -q, --quiet     Nie wyświetla odpowiedzi"
+
+#: bin/service.py:355
+#, python-format
+msgid "No such service: %s"
+msgstr "Nie ma takiej usługi : %s"
+
+#~ msgid "Safe Mode"
+#~ msgstr "Tryb awaryjny"
+
+#~ msgid "Triggering udev events which are failed during a previous run"
+#~ msgstr "Activeren udev gebeurtenissen die bij eerdere run mislukt zijn"
+
+#~ msgid "Bringing up %s"
+#~ msgstr "Podnosze interfejs %s"
+
+#~ msgid "Unable to bring up %s"
+#~ msgstr "Nie mogę podnieść interfejsu %s"
+
+#~ msgid "No network connection, skipping remote mount."
+#~ msgstr "Geen netwerk verbinding, overslaan aankoppelen op afstand."
+
+#~ msgid "Mounting remote filesystems (CTRL-C stops trying)"
+#~ msgstr "Montowanie zdalnych systemów plików (CTRL-C zatrzymuje operację)"
+
+#~ msgid "Mounting skipped with CTRL-C, remote shares will not be accessible!"
+#~ msgstr "Montowanie pominięte przez CTRL-C, zdalne zasoby są niedostępne!"
+
+#~ msgid "Mounting USB filesystem"
+#~ msgstr "Montowanie systemu plików USB"
+
+#~ msgid "Starting portmap service for NFS"
+#~ msgstr "Uruchamianie portmap dla NFS"
+
+#~ msgid "Mounting /dev"
+#~ msgstr "Montowanie /dev"
+
+#~ msgid "Mounting /sys"
+#~ msgstr "Montowanie /sys"
+
+#~ msgid "Mounting /dev/pts"
+#~ msgstr "Montowanie /dev/pts"
+
+#~ msgid "Root filesystem could not be mounted read/write"
+#~ msgstr "Główny system plików nie może zostać zamontowany do odczytu/zapisu"
+
+#~ msgid "Starting DBus..."
+#~ msgstr "Startowanie DBus..."
+
+#~ msgid "Stopping DBus"
+#~ msgstr "Zatrzymywanie DBus"
+
+#~ msgid "Restoring saved device states"
+#~ msgstr "Odtwarzam zapisane stany urządzeń"
+
+#~ msgid "Loading CPUFreq modules"
+#~ msgstr "Ładuję moduły CPUFreq"
+
+#~ msgid "Stopping DBus..."
+#~ msgstr "Zatrzymywanie DBus"
+
+#~ msgid "Connection Name : %s "
+#~ msgstr "Nazwa Połączenia : %s"
+
+#~ msgid "Status          : %s "
+#~ msgstr "Stan : %s"
+
+#~ msgid "Adress          : %s "
+#~ msgstr "Adres : %s"
+
+#~ msgid "Device Name     : %s "
+#~ msgstr "Nazwa Urządzenia : %s "
+
+#~ msgid "Device Id       : %s "
+#~ msgstr "Id Urządzenia : %s "
+
+#~ msgid "Mask            : %s "
+#~ msgstr "Maska : %s "
+
+#~ msgid "Gateway         : %s "
+#~ msgstr "Bramka : %s "
+
+#~ msgid "Netmode         : %s "
+#~ msgstr "Netmode         : %s "
+
+#~ msgid "Namemode        : %s "
+#~ msgstr "Namemode        : %s "
+
+#~ msgid "Remote          : %s "
+#~ msgstr "Remote          : %s "
+
+#~ msgid "Up"
+#~ msgstr "Działa"
+
+#~ msgid "Down"
+#~ msgstr "Nie działa"
+
+#~ msgid ""
+#~ "usage: %s <command> <arguments>\n"
+#~ "where command is:\n"
+#~ " devices      List network devices\n"
+#~ " connections  List connections\n"
+#~ " info         List properties of a given connection\n"
+#~ " create       Create a new connection\n"
+#~ " delete       Delete a connection\n"
+#~ " up           Connect given connection\n"
+#~ " down         Disconnect given connection"
+#~ msgstr ""
+#~ "użytkowanie: %s <polecenie> <argumenty>\n"
+#~ "gdzie polecenia to:\n"
+#~ " devices      Listuje urządzenia sieciowe\n"
+#~ " connections  Listuje połączenia\n"
+#~ " info         Listuje właściwości danego połączenia\n"
+#~ " create       Tworzy nowe połączenie\n"
+#~ " delete       Kasuje połączenie\n"
+#~ " up           Nawiązuje dane połączenie\n"
+#~ " down         Zamyka dane połączenie"
+
+#~ msgid "Error: %s"
+#~ msgstr "Błąd: %s"
+
+#~ msgid "There are more than one profiles named '%s'"
+#~ msgstr "Istnieje więcej niż jeden profil '%s'"
+
+#~ msgid "Use one of the following commands:"
+#~ msgstr "Użyj jednej z poniższych komend:"
+
+#~ msgid "Profile name"
+#~ msgstr "Nazwa profilu"
+
+#~ msgid "Connection types:"
+#~ msgstr "Rodzaje połączenia:"
+
+#~ msgid "Type"
+#~ msgstr "Typ"
+
+#~ msgid "No avaible device for this type of connection"
+#~ msgstr "Brak urządzenia dla tego typu połączenia"
+
+#~ msgid "Devices:"
+#~ msgstr "Urządzenia:"
+
+#~ msgid "Device"
+#~ msgstr "Urządzenie"
+
+#~ msgid "%s:"
+#~ msgstr "%s:"
+
+#~ msgid "Enter manually"
+#~ msgstr "Wprowadź ręcznie"
+
+#~ msgid "Scan"
+#~ msgstr "Skanuj"
+
+#~ msgid "No remote access points found"
+#~ msgstr "Brak punktów dostępowych"
+
+#~ msgid "Choose authentication type:"
+#~ msgstr "Wybierz typ autoryzacji"
+
+#~ msgid "Password"
+#~ msgstr "Hasło"
+
+#~ msgid "Username"
+#~ msgstr "Login"
+
+#~ msgid "Network settings:"
+#~ msgstr "Ustawienia sieci:"
+
+#~ msgid "Automatic query (DHCP)"
+#~ msgstr "Automatycznie (DHCP)"
+
+#~ msgid "Manual configuration"
+#~ msgstr "Ręczna konfiguracja"
+
+#~ msgid "IP Address"
+#~ msgstr "Adres IP"
+
+#~ msgid "Network mask"
+#~ msgstr "Maska sieci"
+
+#~ msgid "Gateway"
+#~ msgstr "Gateway"
+
+#~ msgid "Profile"
+#~ msgstr "Profil"
+
+#~ msgid "Profile %s removed."
+#~ msgstr "Profil %s usunięty."
+
+#~ msgid "D-Bus Error: %s"
+#~ msgstr "D-Bus Error: %s"
+
+#~ msgid "Cancelled"
+#~ msgstr "Anulowana"

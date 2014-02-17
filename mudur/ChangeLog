@@ -1,0 +1,404 @@
+2014-01-21  Marcin Bojara <marcin@pisilinux.org>
+	* bin/mudur_tmpfiles.py: Fix creating a character device node
+
+2014-01-18  Marcin Bojara <marcin@pisilinux.org>
+	* bin/mudur_tmpfiles.py: Added support for tmpfiles
+	* bin/mudur.py: Fixes for working with latest udev and tmpfiles
+
+2010-12-30  Onur Küçük <onur@pardus.org.tr>
+	* bin/mudur.py: Add HU and RU locales.
+	* bin/update-fstab.py: Port to new parted (by Gökçen).
+
+2010-09-14  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py: Switch from sysklogd to rsyslog.
+
+2010-07-08  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py: Drop support for COMAR based network management, start
+	NetworkManager in start_network().
+
+2010-06-08  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py: Drop all deprecated and backward-compatibility stuff.
+	* bin/mudur.py (start_udev): Drop copying of devices which is now handled
+	by udev >= 155.
+	* setup.py: Bump to 4.0 for 2011.
+
+2010-04-09  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py: pylint fixes
+
+2010-03-16  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/service.py: Fix UI message when reloading a service.
+
+2010-03-09  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py (cleanupVar): Call the newly added function to prune pisi
+	info files holding needsServiceRestart and needsReboot packages.
+	* bin/mudur.py: Use delimitier-separated words for identifier names
+	instead of CamelCase notation.
+	* bin/mudur.py: Merge start_service and stop_service into manage_service.
+
+2010-02-25  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py: Move network-dependent code into startNetwork()
+
+2010-01-26  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py: Implement profiling support with cProfile,
+	Don't mount /sys, /proc, /dev and /dev/pts if they're already mounted,
+	Use /proc/sys/kernel/printk instead of dmesg for setting log level,
+	Use os.chmod instead of forking chmod.
+	* bin/setup.py: 3.1.4
+
+2010-01-22  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py: Check for /proc and /sys before mounting,
+	refactor mounting parts a little.
+	* bin/setup.py: Bump to 3.1.3
+
+2010-01-14  Bahadır Kandemir <bahadir@pardus.org.tr>
+	* bin/deluser.py: Add deluser command to easily delete users with COMAR
+
+2010-01-14  Onur Küçük <onur@pardus.org.tr>
+	* bin/adduser.py: Add adduser command to easily add users with COMAR
+
+2010-01-08  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py: Don't call useless is_virtual() method as we don't support
+	Xen.
+
+2010-01-06  Onur Küçük <onur@pardus.org.tr>
+	* bin/mudur.py: Check if mudur is in live environment from
+	/var/run/pardus/livemedia
+	* bin/mudur.py: Rename livecd config to live
+
+2009-12-30  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py (setSystemLanguage): Don't fail if /etc/env.d/03locale is
+	missing.
+
+2009-12-09  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py (cleanupVar): Don't remove livemedia file as it will be
+	used by our brand new, smart booting mechanism.
+
+2009-11-22  Bahadır Kandemir <bahadir@pardus.org.tr>
+	* service.py: Error message if service is missing
+
+2009-11-09  Ozan Çağlayan <ozan@pardus.org.tr>
+	* setup.py: Bump to 3.1.1.
+
+2009-11-02  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py (mountRootFileSystem): Revert mount -af with the old loop
+	to fix /home mounts, separate swap activation.
+	* bin/mudur.py (run_async): Fix possible NoneType error.
+	* bin/mudur.py: Add support for starting preload daemon,
+	* bin/mudur.py: Add methods for turning swap on/off,
+	* bin/mudur.py: Add deprecated config option for testing future changes
+
+2009-10-21  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py (autoloadModules): Pass -b to modprobe to obey blacklist
+	files,
+	* bin/mudur.py (mtime): Use os.path.getmtime() instead of os.stat(),
+	* bin/mudur.py (setHostname):
+	- Use ternary if-else construction for better readability,
+	* bin/mudur.py (startServices, stopServices): Don't leak D-Bus connection
+	handles, close them.
+	* bin/mudur.py: Fix some inverted logic if-else blocks,
+	* bin/mudur.py (Config): Rename get_mount() to
+	get_fstab_entry_with_mountpoint(),
+	* bin/mudur.py (updateMtab): New function to update mtab entry for a given
+	partition and clear existing mtab~ lock files (#10562),
+	* bin/mudur.py (stopSystem): Use shutil.copy instead of forking 'cp',
+	* bin/mudur.py (mountRootFileSystem): Call mount -af instead of calling
+	mount -f for each partition in /etc/fstab,
+	* bin/mudur.py (cleanupTmp): Call rm -rf once without extending each
+	pattern through glob,
+	* bin/mudur.py (mountRootFileSystem): Suggest F3/FS Check when rootfs
+	can't be mounted as R/W (#10408),
+	* bin/mudur.py: Bring back get_kernel_option() and touch() from
+	pardus-python to reduce external dependencies,
+	Move imports to the related functions as mudur is called and called again
+	through the boot process.
+
+2009-10-19  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py (checkRootFileSystem): Don't fail if /etc/fstab doesn't
+	somehow have an entry for the root filesystem.
+2009-07-23  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py (main): --retry-failed is removed, use --type=failed instead.
+2009-07-23  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py (writeToFile): Give an empty string to the writeToFile
+	function by default,
+	* bin/mudur.py (checkRootFileSystem):
+	- Refactor the function so that mudur calls sulogin when the root
+	filesystem couldn't be mounted as read/write,
+	- Call fsck with -y for trying to fix the filesystem in all cases when the
+	fsck is forced,
+	- Don't re re-mount read/only the root filesystem if fsck isn't forced
+	through /forcefsck or /etc/fstab.
+	* bin/mudur.py (mountRootFileSystem):
+	- New function separated from checkRootFileSystem,
+	- Guard against IOErrors when trying to write into /etc/mtab after
+	mounting the root filesystem as read/write.
+	* bin/mudur.py (UI.greet): Append '(Safe Mode)' string to the mudur's
+	initial greeting message to distinguish between a normal and safe startup.
+
+2009-07-02  Bahadır Kandemir <bahadir@pardus.org.tr>
+	* bin/service.py: Open COMAR Link when necessary.
+
+2009-06-26  Bahadır Kandemir <bahadir@pardus.org.tr>
+	* bin/mudur.py: Reset all profile states before trying to connect network
+	profiles.
+
+2009-06-26  Bahadır Kandemir <bahadir@pardus.org.tr>
+	* bin/mudur.py: Even simplest methods may reply after minutes on virtual
+	machines, thus boot fails while bringing up network devices.
+
+2009-06-26  H. İbrahim Güngör  <h.ibrahim.gungor@gmail.com>
+	* bin/network.py: Show connection states
+
+2009-06-10  Bahadır Kandemir <bahadir@pardus.org.tr>
+	* bin/mudur.py: Clear previous connection states
+
+2009-06-04  Bahadır Kandemir <bahadir@pardus.org.tr>
+	* bin/service.py: Use comar.Link()
+
+2009-05-26  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/network.py: Print colorized message when bringing up/down the
+	profiles, don't offer packages providing no devices when creating
+	connections.
+
+2009-05-25  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/*.py: Update copyright dates,
+	* bin/mudur.py (Logger.log): Strip color characters before writing to the
+	mudur.log file,
+	* bin/compat.py: Port the code to COMAR 3.0 structure,
+	* bin/network.py:
+	- Better formatting on screen,
+	- Don't write backend names if there aren't any profiles or devices on that backend,
+	- Add support for fancy colors, can be disabled with --no-color,
+	- Ask the profile name at the end,
+	- Quit immediately if the backend doesn't provide any device
+	  instead of asking useless questions.
+	* setup.py: Bump version to 3.0.3.
+
+2009-05-21  Bahadır Kandemir <bahadir@pardus.org.tr>
+	* bin/mudur.py (getServices): Omit non existing services
+
+2009-05-21  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py (startServices): Don't wait for X11 socket if no head_start
+	is defined,
+	* bin/mudur.py (UI): Make color characters a dictionary,
+	* bin/mudur.py: Refactor messages, drop a useless information message
+	about udev,
+	* bin/mudur.py (localMount): Drop unreachable code in localMount,
+	* bin/mudur.py (UI): Put all the special characters into the color dict,
+	* bin/service.py: bus variable is not used, fix translation logic.
+
+2009-05-20  Bahadır Kandemir <bahadir@pardus.org.tr>
+	* bin/mudur.py: Do nothing if device is unplugged.
+
+2009-05-20  Onur Küçük <onur@pardus.org.tr>
+	* bin/mudur.py: Add easy colorize support
+	* bin/mudur.py: Add color to network and hostname info
+
+2009-05-18  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py: Revert /proc/modules check,
+	* bin/mudur.py (waitBus): Don't flood mudur.log, just write the waited
+	time once upon exit.
+
+2009-05-17  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py: Use touch from pardus.shellutils.
+
+2009-05-17  Fatih Aşıcı <fatih@pardus.org.tr>
+	* bin/mudur.py: Get back the kernel version parsing. It is used by
+	autoloadModules().
+	* bin/mudur.py: Change default language to "en".
+
+2009-05-16  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py (Config.__init__): Remove unused kernel version parsing.
+	Should be implemented in pardus-python if mudur needs it one day.
+	* bin/mudur.py: Python functions return None by default, no need to
+	explicitly return it.
+	* bin/mudur.py: Make /forcefsck detection a one-liner.
+	* bin/mudur.py: Trigger udev for failed events only if /dev/.udev/failed
+	exists,
+	* bin/mudur.py (startNetwork): Remove the bus parameter as it wasn't used
+	at all in the function,
+	* bin/mudur.py: Use get_kernel_option from pardus.sysutils which carefully
+	parses /proc/cmdline and returns an appropriate dictionary, adapt the
+	relevant parts of mudur to handle it.
+
+2009-05-15  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py (localMount): Remove noshm as mount don't have an option
+	like that.
+
+2009-05-15  Bahadır Kandemir <bahadir@pardus.org.tr>
+	* bin/mudur.py (startNetwork): Fixed not recognizing other wired devices.
+
+2009-05-09  Bahadır Kandemir <bahadir@pardus.org.tr>
+	* bin/mudur.py (startNetwork): Fixed a race condition, also cleaned up
+	code.
+
+2009-05-04  Ozan Çağlayan <ozan@pardus.org.tr>
+	* etc/mudur.conf: Set head_start to xdm
+	* bin/mudur.py (startNetwork): Switch to new network backend.
+
+2009-04-27  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py(localMount): Remove probing of usbcore as it's
+	now in-kernel.
+
+2009-04-20  Ozan Çağlayan <ozan@pardus.org.tr>
+	* etc/mudur.conf: Comment the head_start for now,
+	* setup.py: Prepare for the 3.0.0 release.
+
+2009-04-09  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py (setupUdev): This modification caused /dev/ppp
+	to disappear upon reboot (#9497).
+
+2009-03-20  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py (copyUdevRules): Upstream says that we don't have to
+	retrigger for persistent rules,
+	* bin/mudur.py (CPU): Completely remove the CPU class as cpufreq
+	probing will be done by kernel,
+	* bin/mudur.py (checkFileSystems): Delete /forcefsck only if it
+	exists. Fixes an unhandled exception during boot if mudur=forcefsck
+	is given,
+	* bin/mudur.py (readyService): Remove this method and use startService
+	with a second parameter equal to 'ready' instead of this,
+	* bin/mudur.py (startService): Add a second parameter command= for
+	being able to call "service --ready" for some services.
+	* bin/mudur.py (Config.__init__): Enable debug by default as we don't
+	flood the mudur.log with millions of lines when it's enabled.
+
+2009-03-16  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py: Disable CPUFreq probing as they will be
+	built into kernel.
+
+2009-03-04  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py: Add occasional debug calls for
+	better logging into /var/log/mudur.log
+
+2009-03-03  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py: The I/O redirection of start-stop-daemon
+	doesn't work at all. Implemented a new method run_async()
+	which runs a command in background and optionally redirects
+	its output and error streams.
+	* bin/mudur.py (startUdev): Use run_async() for spawning
+	udevadm monitor instead of buggy start-stop-daemon.
+	* bin/mudur.py (Logger.sync): Use epoch time instead of
+	uptime for not reading /proc/uptime for every log attempt.
+	Use writelines() instead of map().
+
+2009-02-26  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/network.py: Remove useless import.
+	* bin/service.py (loadConfig, Service.__init__): Rename shadowed builtin variables.
+	* bin/update-environment.py (read_env_d): Rename shadowed builtin variables.
+	* bin/mudur.py:
+	Comment the code,
+	Rename some functions for better self-explanation,
+	Split setupUdev() to setupUdev() and startUdev(),
+	Make the code pychecker clean.
+	* bin/mudur.py (loadFile, writeToFile):
+	Use open() instead of file().
+	* bin/mudur.py (setupUdev):
+	Limit the size of /dev to 10M,
+	No need to traverse /lib/udev/devices, just copy it recursively,
+	Remove uevent_helper hack for older kernels.
+	* bin/mudur.py (startUdev):
+	Use start-stop-daemon for udev monitor startup/cleanup.
+	* bin/mudur.py (stopSystem):
+	Call stopUdev() to stop udev daemon.
+
+2009-02-25  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py (copyUdevFiles): Implement a new method for
+	copying the rules and log file instead of spawning a new process.
+
+2009-02-23  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py (setupUdev):
+	Use start-stop-daemon for udev startup,
+	The default timeout is 180, no need to give it as a parameter,
+	Call "udevadm monitor" for logging into /dev/.udev.log,
+	Call /usr/bin/udevsync after rw remounting of the root filesystem
+	for copying the log file and the persistent network/cdrom rules
+	from /dev into /var/log and /etc (#8458, #8520).
+
+2009-02-21  Fatih Aşıcı <fatih@pardus.org.tr>
+	* bin/mudur.py (startServices): Increase timeout for waiting X
+	socket to be ready and do not wait if xorg=off is passed on kernel
+	command line.
+
+2009-02-02  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py (stopSystem): Use lambda function for sort helper.
+
+2009-02-02  Bahadır Kandemir <bahadir@pardus.org.tr>
+	* bin/mudur.py: Handle logger.sync() exceptions (Fixes #7410).
+
+2009-01-25  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py: Drop legacy kernel check for udev initialization.
+
+2009-01-14  Furkan Duman <coderlord@gmail.com>
+    * bin/network.py: Unicode fix for Turkish characters in connection name.
+
+2009-01-08  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py: Use lat0-16 instead of lat9-16 for Swedish font (#8940).
+
+2009-01-06  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py (startServices): Start sysklogd after startNetwork and
+	remove redundant sysklogd as it's manually started.
+
+2008-12-26  Onur Küçük <onur@pardus.org.tr>
+	* bin/mudur.py (cleanupTmp) : Add kde4 directories.
+
+2008-12-26  Ozan Çağlayan <ozan@pardus.org.tr>
+	* po/es.po : Updated Spanish translation.
+	* bin/mudur.py : Encapsulate mudur with a main() function.
+	* bin/mudur.py : Replace old_handler stuff with Python's
+	default SIGINT signal handler.
+
+2008-12-24  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py (modules): Remove module dependency calculation
+	as it's handled by kernel's pakhandler.
+
+2008-12-11  Bahadır Kandemir <bahadir@pardus.org.tr>
+	* bin/mudur.py (cleanupVar): Ignore errors during the cleanup of
+	/var directory.
+
+2008-11-10  Gökçen Eraslan <gokcen@pardus.org.tr>
+	* bin/update_environment.py (update_environment): Add PKG_CONFIG_PATH
+	to the special environment variables.
+
+2008-10-13  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/mudur.py (modules): i18n fix for 'Calculating module
+	dependencies...' string.
+
+2008-10-12  Bahadır Kandemir  <bahadir@pardus.org.tr>
+	* bin/service.py: Replace "-" with "_" before passing package 
+	name to D-Bus
+
+2008-09-17  Fatih Aşıcı  <fatih@pardus.org.tr>
+	* bin/update-fstab.py: Do not create a directory when mount
+	point is 'none'.
+
+2008-09-13  Ozan Çağlayan <ozan@pardus.org.tr>
+	* bin/service.py (format_service_list): Stopped conditional
+	services are now colored yellow in /bin/service's output.
+
+2008-09-11  Fatih Aşıcı  <fatih@pardus.org.tr>
+	* bin/update-environment.py (update_environment): Set the
+	default value of the new argument 'live' to False.
+
+2008-09-11  Fatih Aşıcı  <fatih@pardus.org.tr>
+	* bin/update-environment.py (update_environment): Add new
+	argument 'live' for being able to not call ldconfig
+	on live cd's.
+	(usage): Add the new command line argument '--live' to the
+	usage function's output.
+	(main): Parse the new argument '--live' using getopt and
+	pass it to update_environment() for further processing.
+
+	* bin/mudur.py (main): Call update-environment with '--live' in
+	case of a livecd boot.
+
+2008-08-27  Bahadır Kandemir  <bahadir@pardus.org.tr>
+	* bin/mudur.py (languages): Add sv_SE locale.
+
+2008-07-07  Ozan Çağlayan  <ozan@pardus.org.tr>
+	* bin/mudur.py (startDBus): Gettextize the string 'Starting DBus'.
+
+2008-06-27  Ekin Meroğlu  <ekin@pardus.org.tr>
+	* etc/mudur.conf: Redefine head_start to be 'kdebase'
+
+2008-06-27  Bahadır Kandemir  <bahadir@pardus.org.tr>
+	* setup.py: Version 2.0
