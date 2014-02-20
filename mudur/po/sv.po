@@ -1,22 +1,22 @@
-# translation of sv.po to
-# translation of mudur.po to
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
-# Patrik Karlsson <patrik@pardus.nu>, 2008, 2009, 2010.
+# 
+# Translators:
+# Patrik Karlsson <patrik@pardus.nu>, 2008-2010
 msgid ""
 msgstr ""
-"Project-Id-Version: sv\n"
+"Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-06-22 08:50+0000\n"
-"PO-Revision-Date: 2010-02-05 16:28+0100\n"
-"Last-Translator: Patrik Karlsson <patrik@pardus.nu>\n"
-"Language-Team: Swedish <pardus-translators@pardus.org.tr>\n"
+"PO-Revision-Date: 2013-01-04 22:06+0000\n"
+"Last-Translator: circass <erdincgultekin@gmail.com>\n"
+"Language-Team: Swedish (http://www.transifex.com/projects/p/PiSiLinux/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.0\n"
 
 #: bin/mudur.py:307
 msgid "Cannot write mudur.log, read-only file system"
@@ -44,9 +44,7 @@ msgstr "Kan inte ansluta till D-Bus, tjänsten startas ej"
 msgid ""
 "Unable to start network:\n"
 "  %s"
-msgstr ""
-"Kan inte starta nätverk:\n"
-" %s"
+msgstr "Kan inte starta nätverk:\n %s"
 
 #: bin/mudur.py:685
 msgid "Cannot start system logger"
@@ -135,10 +133,7 @@ msgid ""
 "Root filesystem could not be mounted read/write\n"
 "   You can either login below and manually check your filesytem(s) OR\n"
 "   restart your system, press F3 and select 'FS check' from boot menu\n"
-msgstr ""
-"Rotfilsystemet kunde inte monteras läs/skriv\n"
-"   Du kan antingen logga in och själv kontrollera dina filsystem, ELLER\n"
-"   starta om datorn, trycka F3 och välja 'FS check' från uppstartsmenyn.\n"
+msgstr "Rotfilsystemet kunde inte monteras läs/skriv\n   Du kan antingen logga in och själv kontrollera dina filsystem, ELLER\n   starta om datorn, trycka F3 och välja 'FS check' från uppstartsmenyn.\n"
 
 #: bin/mudur.py:939
 msgid "Couldn't synchronize /etc/mtab from /proc/mounts"
@@ -225,8 +220,7 @@ msgstr "Återmonterar återstående filsystem skrivskyddade"
 msgid ""
 "An internal error occured. Please report to the bugs.pardus.org.trwith "
 "following information:"
-msgstr ""
-"Ett internt fel har uppstått. Vänligen rapportera till bugs.pardus.org.tr:"
+msgstr "Ett internt fel har uppstått. Vänligen rapportera till bugs.pardus.org.tr:"
 
 #: bin/mudur.py:1379
 msgid "Setting up localhost"
@@ -348,219 +342,9 @@ msgid ""
 "and option is:\n"
 " -N, --no-color  Don't use color in output\n"
 " -q, --quiet     Don't print replies"
-msgstr ""
-"användning: service [<alternativ>] [<tjänst>] <kommando>\n"
-"där kommando är:\n"
-" list     visar tjänstelista\n"
-" status   visar tjänstestatus\n"
-" info     visar tjänstestatus\n"
-" on       automatisk start av tjänst\n"
-" off      ingen automatisk start av tjänst\n"
-" start    Startar tjänsten\n"
-" stop     Stoppar tjänsten\n"
-" restart  Stoppar och startar tjänsten\n"
-" reload   Läser om inställningarna (om tjänsten stödjer det)\n"
-"och alternativ är:\n"
-" -N, --no-color  Använd inte färger i meddelanden\n"
-" -q, --quiet     Använd inte meddelanden"
+msgstr "användning: service [<alternativ>] [<tjänst>] <kommando>\ndär kommando är:\n list     visar tjänstelista\n status   visar tjänstestatus\n info     visar tjänstestatus\n on       automatisk start av tjänst\n off      ingen automatisk start av tjänst\n start    Startar tjänsten\n stop     Stoppar tjänsten\n restart  Stoppar och startar tjänsten\n reload   Läser om inställningarna (om tjänsten stödjer det)\noch alternativ är:\n -N, --no-color  Använd inte färger i meddelanden\n -q, --quiet     Använd inte meddelanden"
 
 #: bin/service.py:355
 #, python-format
 msgid "No such service: %s"
 msgstr "Tjänst saknas: %s"
-
-#~ msgid "Safe Mode"
-#~ msgstr "Säkert läge"
-
-#~ msgid "Triggering udev events which are failed during a previous run"
-#~ msgstr "Utlöser udev-händelser som misslyckades vid föregående körning"
-
-#~ msgid "Trying to initiate a warm reboot (skipping BIOS with kexec kernel)"
-#~ msgstr "Försöker initiera omstart (hoppar över BIOS med kexec kernel)"
-
-#~ msgid "Networking backend is set to NetworkManager"
-#~ msgstr "Nätverkshanteraren används som nätverksbakände"
-
-#~ msgid "Bringing up %s"
-#~ msgstr "Aktiverar %s"
-
-#~ msgid "Unable to bring up %s"
-#~ msgstr "Kunde inte aktivera %s"
-
-#~ msgid "No network connection, skipping remote mount."
-#~ msgstr "Ingen nätverksanslutning, hoppar över fjärrmontering."
-
-#~ msgid "Mounting remote filesystems (CTRL-C stops trying)"
-#~ msgstr "Monterar fjärrfilsystem (CTRL-C avbryter)"
-
-#~ msgid "Mounting skipped with CTRL-C, remote shares will not be accessible!"
-#~ msgstr ""
-#~ "Montering avbröts med CTRL-C, fjärrutdelningar blir inte tillgängliga!"
-
-#~ msgid "Mounting USB filesystem"
-#~ msgstr "Monterar USB-filsystem"
-
-#~ msgid "Starting portmap service for NFS"
-#~ msgstr "Startar portmap-tjänst för NFS"
-
-#~ msgid "Mounting /dev"
-#~ msgstr "Monterar /dev"
-
-#~ msgid "Mounting /sys"
-#~ msgstr "Monterar /sys"
-
-#~ msgid "Mounting /dev/pts"
-#~ msgstr "Monterar /dev/pts"
-
-#~ msgid "Root filesystem could not be mounted read/write"
-#~ msgstr "Kunde inte återmontera rotfilsystemet läs/skriv"
-
-#~ msgid "Starting DBus..."
-#~ msgstr "Startar D-Bus..."
-
-#~ msgid "Stopping DBus"
-#~ msgstr "Stoppar D-Bus"
-
-#~ msgid "Restoring saved device states"
-#~ msgstr "Återställer enhetstillstånd"
-
-#~ msgid "Loading CPUFreq modules"
-#~ msgstr "Laddar moduler för CPU-frekvens"
-
-#~ msgid "Stopping DBus..."
-#~ msgstr "Stoppar D-Bus..."
-
-#~ msgid "Connection Name : %s "
-#~ msgstr "Anslutningens namn: %s "
-
-#~ msgid "Status          : %s "
-#~ msgstr "Status          : %s "
-
-#~ msgid "Adress          : %s "
-#~ msgstr "Adress          : %s "
-
-#~ msgid "Device Name     : %s "
-#~ msgstr "Enhetens namn     : %s "
-
-#~ msgid "Device Id       : %s "
-#~ msgstr "Enhetens id       : %s "
-
-#~ msgid "Mask            : %s "
-#~ msgstr "Nätmask            : %s "
-
-#~ msgid "Gateway         : %s "
-#~ msgstr "Förmedlingsnod         : %s "
-
-#~ msgid "Netmode         : %s "
-#~ msgstr "Nätverksläge         : %s "
-
-#~ msgid "Namemode        : %s "
-#~ msgstr "Namnläge        : %s "
-
-#~ msgid "Remote          : %s "
-#~ msgstr "Fjärr          : %s "
-
-#~ msgid "Up"
-#~ msgstr "Upp"
-
-#~ msgid "Down"
-#~ msgstr "Ner"
-
-#~ msgid ""
-#~ "usage: %s <command> <arguments>\n"
-#~ "where command is:\n"
-#~ " devices      List network devices\n"
-#~ " connections  List connections\n"
-#~ " info         List properties of a given connection\n"
-#~ " create       Create a new connection\n"
-#~ " delete       Delete a connection\n"
-#~ " up           Connect given connection\n"
-#~ " down         Disconnect given connection"
-#~ msgstr ""
-#~ "användning: %s <kommando> <argument>\n"
-#~ "där kommando är:\n"
-#~ " devices      Visa näverksenheter\n"
-#~ " connections  Visa anslutningar\n"
-#~ " info         Visa en anslutnings egenskaper\n"
-#~ " create       Skapa en ny anslutning\n"
-#~ " delete       Ta bort en anslutning\n"
-#~ " up           Koppla upp anslutning\n"
-#~ " down         Koppla ner anslutning"
-
-#~ msgid "Error: %s"
-#~ msgstr "Fel: %s"
-
-#~ msgid "There are more than one profiles named '%s'"
-#~ msgstr "Det är fler än en profil med namnet '%s'"
-
-#~ msgid "Use one of the following commands:"
-#~ msgstr "Använd ett av följande kommandon:"
-
-#~ msgid "Profile name"
-#~ msgstr "Profilnamn"
-
-#~ msgid "Connection types:"
-#~ msgstr "Anslutningstyper:"
-
-#~ msgid "Type"
-#~ msgstr "Typ"
-
-#~ msgid "No avaible device for this type of connection"
-#~ msgstr "Tillgänglig enhet för den anslutningstypen saknas"
-
-#~ msgid "Devices:"
-#~ msgstr "Enheter:"
-
-#~ msgid "Device"
-#~ msgstr "Enhet"
-
-#~ msgid "%s:"
-#~ msgstr "%s:"
-
-#~ msgid "Enter manually"
-#~ msgstr "Ange manuellt"
-
-#~ msgid "Scan"
-#~ msgstr "Skanna"
-
-#~ msgid "No remote access points found"
-#~ msgstr "Inga fjärranslutningspunkter funna"
-
-#~ msgid "Choose authentication type:"
-#~ msgstr "Välj autentiseringsläge:"
-
-#~ msgid "Password"
-#~ msgstr "Lösenord"
-
-#~ msgid "Username"
-#~ msgstr "Användarnamn"
-
-#~ msgid "Network settings:"
-#~ msgstr "Nätverksinställningar:"
-
-#~ msgid "Automatic query (DHCP)"
-#~ msgstr "Automatisk förfrågan (DHCP)"
-
-#~ msgid "Manual configuration"
-#~ msgstr "Manuell inställning"
-
-#~ msgid "IP Address"
-#~ msgstr "IP-adress"
-
-#~ msgid "Network mask"
-#~ msgstr "Nätmask"
-
-#~ msgid "Gateway"
-#~ msgstr "Förmedlingsnod"
-
-#~ msgid "Profile"
-#~ msgstr "Profil"
-
-#~ msgid "Profile %s removed."
-#~ msgstr "Profilen %s togs bort."
-
-#~ msgid "D-Bus Error: %s"
-#~ msgstr "D-Bus-fel: %s"
-
-#~ msgid "Cancelled"
-#~ msgstr "Avbruten"

@@ -1,24 +1,26 @@
-# translation of tr.po to
-# Copyright (C) 2006-2009
-# This file is distributed under the same license as the mudur package.
-#
-# Görkem Çetin <gorkem@pardus.org.tr>, 2006.
-# Ozan Çağlayan <ozan@pardus.org.tr>, 2008.
-# Necmettin Begiter <necmettin.begiter@gmail.com>, 2009.
-# Ayhan YALÇINSOY <ayhanyalcinsoy@gmail.com>, 2010.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Ayhan YALÇINSOY <ayhanyalcinsoy@gmail.com>, 2010
+# Görkem Çetin <gorkem@pardus.org.tr>, 2006
+# mozen <inactive+mozen@transifex.com>, 2013
+# Necmettin Begiter <necmettin.begiter@gmail.com>, 2009
+# Ozan Çağlayan <ozan@pardus.org.tr>, 2008
 msgid ""
 msgstr ""
-"Project-Id-Version: tr\n"
+"Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-06-22 08:50+0000\n"
-"PO-Revision-Date: 2010-12-06 22:04+0200\n"
-"Last-Translator: Ayhan YALÇINSOY <ayhanyalcinsoy@gmail.com>\n"
-"Language-Team: Turkish <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2013-04-02 23:15+0000\n"
+"Last-Translator: mozen <inactive+mozen@transifex.com>\n"
+"Language-Team: Turkish (http://www.transifex.com/projects/p/PiSiLinux/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 1.1\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: bin/mudur.py:307
 msgid "Cannot write mudur.log, read-only file system"
@@ -46,9 +48,7 @@ msgstr "DBus'a bağlanılamadı, servisler başlatılmayacak"
 msgid ""
 "Unable to start network:\n"
 "  %s"
-msgstr ""
-"Ağ hizmeti başlatılamadı:\n"
-"  %s"
+msgstr "Ağ hizmeti başlatılamadı:\n  %s"
 
 #: bin/mudur.py:685
 msgid "Cannot start system logger"
@@ -137,12 +137,7 @@ msgid ""
 "Root filesystem could not be mounted read/write\n"
 "   You can either login below and manually check your filesytem(s) OR\n"
 "   restart your system, press F3 and select 'FS check' from boot menu\n"
-msgstr ""
-"Kök dosya sistemi yazılır/okunur olarak bağlanamadı\n"
-"   Sisteme giriş yapıp el ile dosya sistemlerinizi denetleyebilir VEYA\n"
-"   bilgisayarınızı baştan başlatıp, açılış menüsünde F3'e basıp 'Diski "
-"onar'\n"
-"   seçeneğini kullanabilirsiniz\n"
+msgstr "Kök dosya sistemi yazılır/okunur olarak bağlanamadı\n   Sisteme giriş yapıp el ile dosya sistemlerinizi denetleyebilir VEYA\n   bilgisayarınızı baştan başlatıp, açılış menüsünde F3'e basıp 'Diski onar'\n   seçeneğini kullanabilirsiniz\n"
 
 #: bin/mudur.py:939
 msgid "Couldn't synchronize /etc/mtab from /proc/mounts"
@@ -162,8 +157,7 @@ msgstr "Dosya sistemindeki hatalar düzeltildi"
 
 #: bin/mudur.py:983
 msgid "Fsck could not correct all errors, manual repair needed"
-msgstr ""
-"Fsck tüm hataları düzeltemedi. Düzeltme işleminin elle yapılması gerekiyor"
+msgstr "Fsck tüm hataları düzeltemedi. Düzeltme işleminin elle yapılması gerekiyor"
 
 #: bin/mudur.py:992
 msgid "Mounting local filesystems"
@@ -230,9 +224,7 @@ msgstr "Kalan dosya sistemleri salt okunur olarak yeniden bağlanıyor"
 msgid ""
 "An internal error occured. Please report to the bugs.pardus.org.trwith "
 "following information:"
-msgstr ""
-"Bir iç hata oluştu. Lütfen aşağıdaki bilgileri http://hata.pardus.org.tr "
-"adresine bildirin:"
+msgstr "Bir iç hata oluştu. Lütfen aşağıdaki bilgileri http://bugs.pisilinux.org adresine bildirin:"
 
 #: bin/mudur.py:1379
 msgid "Setting up localhost"
@@ -354,70 +346,9 @@ msgid ""
 "and option is:\n"
 " -N, --no-color  Don't use color in output\n"
 " -q, --quiet     Don't print replies"
-msgstr ""
-"kullanım: service [<seçenek>] [<servis adı>] <komut>\n"
-"komut aşağıdakilerden birisi olabilir:\n"
-" list    Servis listesini göster\n"
-" status  Servis durumunu göster\n"
-" info    Servis durumunu göster\n"
-" on      Servisi açılışta otomatik başlat\n"
-" off     Servisi açılışta başlatma\n"
-" start   Servisi başlat\n"
-" stop    Servisi durdur\n"
-" restart Servisi durdur, sonra yeniden başlat\n"
-" reload  Servis yapılandırmasını yeniden yükle (eğer destekleniyorsa)\n"
-"seçenekler ise şunlardır:\n"
-" -N, --no-color  Çıktıda renk kullanma\n"
-" -q, --quiet     Çıktıları ekrana basma"
+msgstr "kullanım: service [<seçenek>] [<servis adı>] <komut>\nkomut aşağıdakilerden birisi olabilir:\n list    Servis listesini göster\n status  Servis durumunu göster\n info    Servis durumunu göster\n on      Servisi açılışta otomatik başlat\n off     Servisi açılışta başlatma\n start   Servisi başlat\n stop    Servisi durdur\n restart Servisi durdur, sonra yeniden başlat\n reload  Servis yapılandırmasını yeniden yükle (eğer destekleniyorsa)\nseçenekler ise şunlardır:\n -N, --no-color  Çıktıda renk kullanma\n -q, --quiet     Çıktıları ekrana basma"
 
 #: bin/service.py:355
 #, python-format
 msgid "No such service: %s"
 msgstr "Böyle bir servis yok: %s"
-
-#~ msgid "Safe Mode"
-#~ msgstr "Güvenli Kip"
-
-#~ msgid "Triggering udev events which are failed during a previous run"
-#~ msgstr "Daha önce başarısız olan udev olayları tekrar tetikleniyor"
-
-#~ msgid "Trying to initiate a warm reboot (skipping BIOS with kexec kernel)"
-#~ msgstr ""
-#~ "Sistem BIOS'u (kexec çekirdeğiyle) atlanarak hızlı yeniden başlatma "
-#~ "deneniyor"
-
-#~ msgid "Networking backend is set to NetworkManager"
-#~ msgstr "Ağ arkaucu NetworkManager olarak ayarlı"
-
-#~ msgid "Bringing up %s"
-#~ msgstr "Ağ arayüzü %s etkinleştiriliyor"
-
-#~ msgid "Unable to bring up %s"
-#~ msgstr "Ağ arayüzü %s etkinleştirilemedi"
-
-#~ msgid "No network connection, skipping remote mount."
-#~ msgstr "Ağ bağlantısı yok, uzak dosya sistemleri bağlanamayacak."
-
-#~ msgid "Mounting remote filesystems (CTRL-C stops trying)"
-#~ msgstr "Uzak dosya sistemleri bağlanıyor (CTRL-C ile kesebilirsiniz)"
-
-#~ msgid "Mounting skipped with CTRL-C, remote shares will not be accessible!"
-#~ msgstr "Bağlama CTRL-C ile kesildi, uzak paylaşımlara erişilemeyecek!"
-
-#~ msgid "Mounting USB filesystem"
-#~ msgstr "USB dosya sistemi bağlanıyor"
-
-#~ msgid "Starting portmap service for NFS"
-#~ msgstr "NFS için portmap servisi başlatılıyor"
-
-#~ msgid "Mounting /dev"
-#~ msgstr "/dev dizini bağlanıyor"
-
-#~ msgid "Mounting /sys"
-#~ msgstr "/sys dizini bağlanıyor"
-
-#~ msgid "Mounting /dev/pts"
-#~ msgstr "/dev/pts dizini bağlanıyor"
-
-#~ msgid "Root filesystem could not be mounted read/write"
-#~ msgstr "Kök dosya sistemi okunur/yazılır olarak bağlanamadı"

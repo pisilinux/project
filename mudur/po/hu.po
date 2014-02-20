@@ -1,22 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: mudur\n"
+"Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-06-22 08:50+0000\n"
-"PO-Revision-Date: 2010-11-30 10:19+0100\n"
-"Last-Translator: Zoltan Siposs <zoltan.siposs@gmail.com>\n"
-"Language-Team: HUNGARIAN <pardus-translators@pardus.org.tr>\n"
+"PO-Revision-Date: 2013-01-04 22:03+0000\n"
+"Last-Translator: circass <erdincgultekin@gmail.com>\n"
+"Language-Team: Hungarian (http://www.transifex.com/projects/p/PiSiLinux/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Hungarian\n"
-"X-Poedit-Country: HUNGARY\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: bin/mudur.py:307
 msgid "Cannot write mudur.log, read-only file system"
@@ -37,17 +36,14 @@ msgstr "Nem tudom beállítnai a unicode módot a(z) %d terminálon"
 
 #: bin/mudur.py:664
 msgid "Cannot connect to DBus, services won't be started"
-msgstr ""
-"Nem tudok a DBushoz csatlakozni, a szolgáltatások nem lesznek elindítva."
+msgstr "Nem tudok a DBushoz csatlakozni, a szolgáltatások nem lesznek elindítva."
 
 #: bin/mudur.py:680
 #, python-format
 msgid ""
 "Unable to start network:\n"
 "  %s"
-msgstr ""
-"Nem indítható el a hálózat:\n"
-"%s"
+msgstr "Nem indítható el a hálózat:\n%s"
 
 #: bin/mudur.py:685
 msgid "Cannot start system logger"
@@ -125,8 +121,7 @@ msgstr "A fájlrendszer nem javítható"
 
 #: bin/mudur.py:915
 msgid "Skipping root filesystem check (fstab's passno == 0)"
-msgstr ""
-"A gyökér fájlrendszer ellenőrzésének kihagyása (fstab beállítás, passno == 0)"
+msgstr "A gyökér fájlrendszer ellenőrzésének kihagyása (fstab beállítás, passno == 0)"
 
 #: bin/mudur.py:923
 msgid "Remounting root filesystem read/write"
@@ -137,12 +132,7 @@ msgid ""
 "Root filesystem could not be mounted read/write\n"
 "   You can either login below and manually check your filesytem(s) OR\n"
 "   restart your system, press F3 and select 'FS check' from boot menu\n"
-msgstr ""
-"A gyökér fájlrendszer nem csatolható fel írható/olvasható módban\n"
-"   Alább bejelentkezhet és elvégezheti a fájlrendszer(ek) kézi ellenőrzését "
-"VAGY\n"
-"   újraindíthatja a rendszert és a rendszerindító menüben F3 megnyomásával "
-"kiválaszthatja a fájlrendszer ellenőrzést.\n"
+msgstr "A gyökér fájlrendszer nem csatolható fel írható/olvasható módban\n   Alább bejelentkezhet és elvégezheti a fájlrendszer(ek) kézi ellenőrzését VAGY\n   újraindíthatja a rendszert és a rendszerindító menüben F3 megnyomásával kiválaszthatja a fájlrendszer ellenőrzést.\n"
 
 #: bin/mudur.py:939
 msgid "Couldn't synchronize /etc/mtab from /proc/mounts"
@@ -162,8 +152,7 @@ msgstr "A fájlrendszerhibák kijavítva"
 
 #: bin/mudur.py:983
 msgid "Fsck could not correct all errors, manual repair needed"
-msgstr ""
-"AZ fsck nem tudott mindent hibát kijavítani. Manuális javítás szükséges."
+msgstr "AZ fsck nem tudott mindent hibát kijavítani. Manuális javítás szükséges."
 
 #: bin/mudur.py:992
 msgid "Mounting local filesystems"
@@ -230,9 +219,7 @@ msgstr "Maradék fájlrendszerek újracsatolása csak olvashatóként"
 msgid ""
 "An internal error occured. Please report to the bugs.pardus.org.trwith "
 "following information:"
-msgstr ""
-"Belső hiba történt. Kérjük küldjön hibabejelentés a bugs.pardus.org.tr "
-"címen, az alábbi tartalommal: "
+msgstr "Belső hiba történt. Kérjük küldjön hibabejelentés a bugs.pardus.org.tr címen, az alábbi tartalommal: "
 
 #: bin/mudur.py:1379
 msgid "Setting up localhost"
@@ -354,54 +341,9 @@ msgid ""
 "and option is:\n"
 " -N, --no-color  Don't use color in output\n"
 " -q, --quiet     Don't print replies"
-msgstr ""
-"használata: service [<opciók>] [<szolgáltatás>] <parancs>\n"
-"ahol a parancs az alábbiak egyike:\n"
-" list     Kilistázza a szolgáltatásokat\n"
-" status   A szolgáltatás állapotát mutatja meg\n"
-" info     A szolgáltatás állapotát mutatja meg\n"
-" on       Automatikusan indítja a szolgáltatást\n"
-" off      Nem indítja automatikusa a szolgáltatást\n"
-" start    Elindítja a szolgáltatást\n"
-" stop     Leállítja a szolgáltatást\n"
-" restart  Leállítja, majd újraindítja a szolgáltatást\n"
-" reload   Újraolvassa a beállításokat (amennyiben a szolgáltatás képes rá)\n"
-"az opciók a következők lehetnek:\n"
-" -N, --no-color  Ne használjon színeket az üzenetek megjelenítése során\n"
-" -q, --quiet     Ne írja ki az üzeneteket"
+msgstr "használata: service [<opciók>] [<szolgáltatás>] <parancs>\nahol a parancs az alábbiak egyike:\n list     Kilistázza a szolgáltatásokat\n status   A szolgáltatás állapotát mutatja meg\n info     A szolgáltatás állapotát mutatja meg\n on       Automatikusan indítja a szolgáltatást\n off      Nem indítja automatikusa a szolgáltatást\n start    Elindítja a szolgáltatást\n stop     Leállítja a szolgáltatást\n restart  Leállítja, majd újraindítja a szolgáltatást\n reload   Újraolvassa a beállításokat (amennyiben a szolgáltatás képes rá)\naz opciók a következők lehetnek:\n -N, --no-color  Ne használjon színeket az üzenetek megjelenítése során\n -q, --quiet     Ne írja ki az üzeneteket"
 
 #: bin/service.py:355
 #, python-format
 msgid "No such service: %s"
 msgstr "Nincs ilyen szolgáltatás: %s"
-
-#~ msgid "Safe Mode"
-#~ msgstr "Csökkentett mód"
-
-#~ msgid "Triggering udev events which are failed during a previous run"
-#~ msgstr "Az előző futásnál hibásan működö udev események újrapróbálása"
-
-#~ msgid "Trying to initiate a warm reboot (skipping BIOS with kexec kernel)"
-#~ msgstr ""
-#~ "Kísérlet a meleg-újraindításra (a BIOS kexec kernel általi kihagyása)"
-
-#~ msgid "Networking backend is set to NetworkManager"
-#~ msgstr "A hálózakezelő alrendszer a NetworkManager."
-
-#~ msgid "Bringing up %s"
-#~ msgstr "%s indítása"
-
-#~ msgid "Unable to bring up %s"
-#~ msgstr "Nem tudom indítani %s-t"
-
-#~ msgid "No network connection, skipping remote mount."
-#~ msgstr ""
-#~ "Nincs hálózati kapcsolat, a távoli fájlrendszerek nem lesznem csatolva."
-
-#~ msgid "Mounting remote filesystems (CTRL-C stops trying)"
-#~ msgstr "Távoli fájlrendszerek csatolása (CTRL-C megszakítja a próbálkozást)"
-
-#~ msgid "Mounting skipped with CTRL-C, remote shares will not be accessible!"
-#~ msgstr ""
-#~ "A csatolás megszakítva CTR-C-vel, a távoli megosztott fájlrendszerek nem "
-#~ "lesznek elérhetők!"

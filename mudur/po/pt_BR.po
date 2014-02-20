@@ -1,26 +1,26 @@
-# Translation of pt_BR.po to Brazilian Portuguese
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
-# Pedro Leite <pedro.leite@gmail.com>, 2007.
+# 
+# Translators:
+# Pedro Leite <pedro.leite@gmail.com>, 2007
 msgid ""
 msgstr ""
-"Project-Id-Version: pt_BR\n"
+"Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-06-22 08:50+0000\n"
-"PO-Revision-Date: 2007-02-19 22:23-0300\n"
-"Last-Translator: Pedro Leite <pedro.leite@gmail.com>\n"
-"Language-Team: Brazilian Portuguese <http://liste.uludag.org.tr/mailman/"
-"listinfo/pardus-translation-ptbr>\n"
+"PO-Revision-Date: 2013-01-04 22:20+0000\n"
+"Last-Translator: circass <erdincgultekin@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/PiSiLinux/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: bin/mudur.py:307
 msgid "Cannot write mudur.log, read-only file system"
-msgstr ""
-"Não é possível escrever mudur.log, sistema de arquivos somente-leitura."
+msgstr "Não é possível escrever mudur.log, sistema de arquivos somente-leitura."
 
 #: bin/mudur.py:484
 msgid "Cannot find /etc/pardus-release"
@@ -44,9 +44,7 @@ msgstr "Não é possível se conectar ao DBus, os serviços não serão iniciado
 msgid ""
 "Unable to start network:\n"
 "  %s"
-msgstr ""
-"Não foi possível iniciar a rede:\n"
-" %s"
+msgstr "Não foi possível iniciar a rede:\n %s"
 
 #: bin/mudur.py:685
 msgid "Cannot start system logger"
@@ -135,11 +133,7 @@ msgid ""
 "Root filesystem could not be mounted read/write\n"
 "   You can either login below and manually check your filesytem(s) OR\n"
 "   restart your system, press F3 and select 'FS check' from boot menu\n"
-msgstr ""
-"Sistema de arquivos raiz não pôde ser montado para leitura/escrita\n"
-" Você pode fazer seu login abaixo e checar manualmente seu(s) Sistema(s) de "
-"arquivo(s) OU\n"
-" reiniciar seu sistema, pressione F3 e selecione 'FScheck' no menu de boot\n"
+msgstr "Sistema de arquivos raiz não pôde ser montado para leitura/escrita\n Você pode fazer seu login abaixo e checar manualmente seu(s) Sistema(s) de arquivo(s) OU\n reiniciar seu sistema, pressione F3 e selecione 'FScheck' no menu de boot\n"
 
 #: bin/mudur.py:939
 msgid "Couldn't synchronize /etc/mtab from /proc/mounts"
@@ -226,9 +220,7 @@ msgstr "Remontando sistemas de arquivos remanescentes como somente-leitura"
 msgid ""
 "An internal error occured. Please report to the bugs.pardus.org.trwith "
 "following information:"
-msgstr ""
-"Um erro interno ocorreu. Por favor, reporte este erro em bugs.pardus.org.tr "
-"com a seguinte informação:"
+msgstr "Um erro interno ocorreu. Por favor, reporte este erro em bugs.pardus.org.tr com a seguinte informação:"
 
 #: bin/mudur.py:1379
 msgid "Setting up localhost"
@@ -350,104 +342,9 @@ msgid ""
 "and option is:\n"
 " -N, --no-color  Don't use color in output\n"
 " -q, --quiet     Don't print replies"
-msgstr ""
-"uso: service [<opções>] [<serviço>] <comando>\n"
-"onde o comando é:\n"
-" list     Mostra a lista de serviços\n"
-" status   Mostra o status do serviço\n"
-" info     Mostra informações do serviço\n"
-" on       Inicia automaticamente o serviço\n"
-" off      Não inicia automaticamente o serviço\n"
-" start    Inicia o serviço\n"
-" stop     Pára o serviço\n"
-" restart  Pára o serviço e então o inicia de novo\n"
-" reload   Recarrega a configuração (caso o serviço suporte isto)\n"
-"e a opção é:\n"
-" -N, --no-color  Não usar cor na saída"
+msgstr "uso: service [<opções>] [<serviço>] <comando>\nonde o comando é:\n list     Mostra a lista de serviços\n status   Mostra o status do serviço\n info     Mostra informações do serviço\n on       Inicia automaticamente o serviço\n off      Não inicia automaticamente o serviço\n start    Inicia o serviço\n stop     Pára o serviço\n restart  Pára o serviço e então o inicia de novo\n reload   Recarrega a configuração (caso o serviço suporte isto)\ne a opção é:\n -N, --no-color  Não usar cor na saída"
 
 #: bin/service.py:355
 #, python-format
 msgid "No such service: %s"
 msgstr "Sem este serviço: %s"
-
-#~ msgid "Safe Mode"
-#~ msgstr "Modo Seguro"
-
-#~ msgid "Triggering udev events which are failed during a previous run"
-#~ msgstr ""
-#~ "Desencadeamento de eventos udev que falhou durante uma execução anterior"
-
-#~ msgid "Mounting remote filesystems (CTRL-C stops trying)"
-#~ msgstr "Remontando o sistema de arquivos raiz como somente-leitura"
-
-#~ msgid "Mounting USB filesystem"
-#~ msgstr "Montando sistema de arquivos USB"
-
-#~ msgid "Starting portmap service for NFS"
-#~ msgstr "Iniciando os serviços"
-
-#~ msgid "Mounting /dev"
-#~ msgstr "Montando /dev"
-
-#~ msgid "Mounting /sys"
-#~ msgstr "Montando /sys"
-
-#~ msgid "Mounting /dev/pts"
-#~ msgstr "Montando /dev/pts"
-
-#~ msgid "Root filesystem could not be mounted read/write"
-#~ msgstr "Sistema de arquivos raiz não pôde ser montado como leitura/escrita"
-
-#~ msgid "Starting DBus..."
-#~ msgstr "Iniciando DBus"
-
-#~ msgid "Stopping DBus"
-#~ msgstr "Parando os serviços"
-
-#~ msgid "Restoring saved device states"
-#~ msgstr "Recuperando os estados de dispositivo salvos"
-
-#~ msgid "Stopping DBus..."
-#~ msgstr "Parando os serviços"
-
-#~ msgid "Devices:"
-#~ msgstr "Serviço"
-
-#~ msgid "Device"
-#~ msgstr "Serviço"
-
-#~ msgid "Profile %s removed."
-#~ msgstr "Serviço '%s' recarregado."
-
-#~ msgid "Calculating module dependencies for %s"
-#~ msgstr "Calculando as dependências dos módulos"
-
-#~ msgid "Device '%s' selected."
-#~ msgstr "Serviço '%s' parado."
-
-#~ msgid "Starting COMAR"
-#~ msgstr "Iniciando COMAR"
-
-#~ msgid "Stopping COMAR"
-#~ msgstr "Parando COMAR"
-
-#~ msgid "Starting Coldplug"
-#~ msgstr "Iniciando Coldplug"
-
-#~ msgid "You dont have permission to do this operation."
-#~ msgstr "Você não tem permissão para realizar esta operação."
-
-#~ msgid "Service doesn't provide this operation."
-#~ msgstr "Serviço não fornece esta operação."
-
-#~ msgid "%(script)s error: %(data)s"
-#~ msgstr "%s erro: %s"
-
-#~ msgid "You should be the root user in order to control the comar service."
-#~ msgstr "Você deve ser o usuário root para controlar o serviço comar."
-
-#~ msgid "Service '%s' started."
-#~ msgstr "Serviço '%s' iniciado."
-
-#~ msgid "Service '%s' stopped."
-#~ msgstr "Serviço '%s' parado."

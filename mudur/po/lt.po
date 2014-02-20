@@ -3,238 +3,236 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Andrea Decorte <adecorte@gmail.com>, 2007
-# Davide Siciliano <edivad95@gmail.com>, 2010
-# Ercole Carpanetto <ercole69@gmail.com>, 2008
+# klaipedetis <romangalina@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-06-22 08:50+0000\n"
-"PO-Revision-Date: 2013-09-15 09:11+0000\n"
-"Last-Translator: ddave <ddave090@gmail.com>\n"
-"Language-Team: Italian (http://www.transifex.com/projects/p/PiSiLinux/language/it/)\n"
+"PO-Revision-Date: 2013-12-13 12:17+0000\n"
+"Last-Translator: klaipedetis <romangalina@gmail.com>\n"
+"Language-Team: Lithuanian (http://www.transifex.com/projects/p/PiSiLinux/language/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: bin/mudur.py:307
 msgid "Cannot write mudur.log, read-only file system"
-msgstr "Impossibile scrivere mudur.log, filesystem di sola lettura"
+msgstr "Negali užrašyti mudur.log. Bylų sistemos tik skaitymo režimas."
 
 #: bin/mudur.py:484
 msgid "Cannot find /etc/pardus-release"
-msgstr "Impossibile trovare il file /etc/pardus-release"
+msgstr "Neįmanoma rasti /etc/pradus-release"
 
 #: bin/mudur.py:580
 msgid "/etc/env.d/03locale cannot be updated"
-msgstr "/etc/env.d/03locale non può essere aggiornato."
+msgstr "/etc/env.d/03locale neįmanoma atnaujinti"
 
 #: bin/mudur.py:606
 #, python-format
 msgid "Could not set unicode mode on tty %d"
-msgstr "Impossibile impostare la modalità Unicode su tty %d"
+msgstr "Negalima nustatyti Unicode režimą tty %d"
 
 #: bin/mudur.py:664
 msgid "Cannot connect to DBus, services won't be started"
-msgstr "Impossibile collegarsi a DBUS, i servizi non verranno avviati"
+msgstr "Negalima prisijungti DBus, servisas ne startuoja"
 
 #: bin/mudur.py:680
 #, python-format
 msgid ""
 "Unable to start network:\n"
 "  %s"
-msgstr "Impossibile attivare rete:\n %s"
+msgstr "Nepavyko paleisti tinklo\n%s"
 
 #: bin/mudur.py:685
 msgid "Cannot start system logger"
-msgstr "Impossibile avviare il logger di sistema"
+msgstr "Sistemos žurnalų tarnybos neįmanoma paleisti"
 
 #: bin/mudur.py:691
 msgid "Starting services"
-msgstr "Avvio dei servizi"
+msgstr "Tarnyba pasileidžia"
 
 #: bin/mudur.py:724
 msgid "Stopping services"
-msgstr "Arresto dei servizi"
+msgstr "Tarnyba sustabdo"
 
 #: bin/mudur.py:752 bin/service.py:161 bin/service.py:270
 #, python-format
 msgid "Starting %s"
-msgstr "Avvio di %s"
+msgstr "Startuoja  %s"
 
 #: bin/mudur.py:763 bin/service.py:174 bin/service.py:282
 #, python-format
 msgid "Stopping %s"
-msgstr "Arresto di %s"
+msgstr "Stabdomas  %s"
 
 #: bin/mudur.py:804
 msgid "Can't move persistent udev rules from /dev/.udev"
-msgstr "Non è possibile spostare le regole di udev persistente da /dev/.udev"
+msgstr "Negalima perkelti nuolatinis udev nurudimai iš /dev/.udev"
 
 #: bin/mudur.py:816
 msgid "Starting udev"
-msgstr "Avvio di udev"
+msgstr "Pasileidžia udev"
 
 #: bin/mudur.py:830
 msgid "Populating /dev"
-msgstr "Popolamento di /dev"
+msgstr "Užpildymas /dev"
 
 #: bin/mudur.py:856
 msgid "Removing stale lock file /etc/mtab~"
-msgstr "Rimozione vecchio file di blocco /etc/mtab~"
+msgstr "Šalinamas pasenusias užraktas faile /etc/mtab~"
 
 #: bin/mudur.py:859
 msgid "Failed removing stale lock file /etc/mtab~"
-msgstr "Impossibile eliminare file obsoleti di blocco /etc/mtab~"
+msgstr "Ne pavyko pašalinti pasenusio užraktą faile /etc/mtab~"
 
 #: bin/mudur.py:871
 msgid "/etc/fstab doesn't contain an entry for the root filesystem"
-msgstr "/etc/fstab non contiene una voce riguardante il filesystem di root"
+msgstr "/etc/fstab ne turi užrašų šakniniai bylų sistemai"
 
 #: bin/mudur.py:878
 msgid "Remounting root filesystem read-only"
-msgstr "Rimontaggio del filesystem di root in sola lettura"
+msgstr "Pašalinama šakninį bylų sistema tik skaitymo režime"
 
 #: bin/mudur.py:883
 msgid "Checking root filesystem (full check forced)"
-msgstr "Controllo del filesystem di root (controllo completo forzato)"
+msgstr "Tikrinama šakninį bylų sistema ( įgalinama pilnas patikrinimas )"
 
 #: bin/mudur.py:889
 msgid "Checking root filesystem"
-msgstr "Controllo del filesystem di root"
+msgstr "Tikrinama šakninį bylų sistema"
 
 #: bin/mudur.py:898
 msgid "Filesystem repaired, but reboot needed!"
-msgstr "Filesystem riparato, ma è necessario riavviare!"
+msgstr "Bylų sistema atstatyta, reikalinga paleisti iš naujo"
 
 #: bin/mudur.py:904
 msgid "Rebooting in 10 seconds..."
-msgstr "Riavvio in 10 secondi..."
+msgstr "Pasileis iš naujo per 10 sec..."
 
 #: bin/mudur.py:906
 msgid "Rebooting..."
-msgstr "Riavvio in corso..."
+msgstr "Pasileidžia iš naujo..."
 
 #: bin/mudur.py:910
 msgid "Filesystem could not be repaired"
-msgstr "Impossibile riparare il filesystem"
+msgstr "Bylų sistema ne gali būti atstatyta"
 
 #: bin/mudur.py:915
 msgid "Skipping root filesystem check (fstab's passno == 0)"
-msgstr "Controllo del filesystem di root saltato (fstab's passno == 0)"
+msgstr "Šakninęs bylų sistemos patikrinimas praleidžiamas  (fstab's passno == 0)"
 
 #: bin/mudur.py:923
 msgid "Remounting root filesystem read/write"
-msgstr "Rimontaggio del filesystem di root in lettura/scrittura"
+msgstr "pakartotinis prijungimas šaknies bylų sistemos skaitimas/rašymas"
 
 #: bin/mudur.py:927
 msgid ""
 "Root filesystem could not be mounted read/write\n"
 "   You can either login below and manually check your filesytem(s) OR\n"
 "   restart your system, press F3 and select 'FS check' from boot menu\n"
-msgstr "Il filesystem di root non può essere montato in lettura e scrittura\n  Puoi comunque loggarti qui sotto e controllare manualmente il filesystem,\n  oppure riavviare, premere F3 e selezionare 'Controllo Filesystem' dal menu di boot\n"
+msgstr "Šakninė bylų sistema negali būti prijungta skaitymo/rašymo\nJūs galite įeiti ir rankinių būdų patikrinti jūsų bylų sistemą (os). Arba\npaleisti iš naujo jūsų sistemą, paspauskite F3 ir pasirinkite \"BS patikrinimas\" iš menių \n"
 
 #: bin/mudur.py:939
 msgid "Couldn't synchronize /etc/mtab from /proc/mounts"
-msgstr "Impossibile sincronizzare i file /etc/mtab da /proc/mounts"
+msgstr "Ne galima sinchronizuoti /etc/mtab iš /proc/mounts"
 
 #: bin/mudur.py:959
 msgid "Checking all filesystems"
-msgstr "Controllo di tutti i filesystem"
+msgstr "Tikrinimosi  visos bylų sistemos"
 
 #: bin/mudur.py:963
 msgid "A full fsck has been forced"
-msgstr "Controllo forzato file system impostato"
+msgstr "Pilnas fsck įgalinimas"
 
 #: bin/mudur.py:981
 msgid "Filesystem errors corrected"
-msgstr "Errori del filesystem corretti"
+msgstr "Bylų sistemos klaidas pataisyti "
 
 #: bin/mudur.py:983
 msgid "Fsck could not correct all errors, manual repair needed"
-msgstr "Fsck non è riuscito a correggere tutti gli errori, è necessaria una riparazione manuale"
+msgstr "Fsck ne gali ištaisyti visas klaidas, reikalingas rankinis taisymas "
 
 #: bin/mudur.py:992
 msgid "Mounting local filesystems"
-msgstr "Montaggio dei filesystem locali"
+msgstr "prijungiamos lokalus bylų sistemos"
 
 #: bin/mudur.py:1000
 msgid "Mounting remote filesystems"
-msgstr "Montaggio dei filesystem remoti"
+msgstr "prijungiamos nutuolines bylų sistemos"
 
 #: bin/mudur.py:1046
 #, python-format
 msgid "Setting up hostname as '%s'"
-msgstr "Impostazione del nome dell'host a '%s'"
+msgstr "Kompiuterio vardo nustatyti kaip '%s'"
 
 #: bin/mudur.py:1069
 msgid "Setting disk parameters"
-msgstr "Impostazione dei parametri del disco"
+msgstr "nustatyti diskų parametrus"
 
 #: bin/mudur.py:1089
 msgid "Activating swap space"
-msgstr "Attivazione swap"
+msgstr "Aktyvuoti swap erdvė"
 
 #: bin/mudur.py:1100
 msgid "Deactivating swap space"
-msgstr "Disattivazione swap"
+msgstr " SWAP erdvė deaktivojasi"
 
 #: bin/mudur.py:1110
 msgid "Cleaning up /var"
-msgstr "Svuotamento di /var"
+msgstr "Valomas /var"
 
 #: bin/mudur.py:1126
 msgid "Cleaning up /tmp"
-msgstr "Svuotamento di /tmp"
+msgstr "valomas /tmp"
 
 #: bin/mudur.py:1163
 msgid "Setting system clock to hardware clock"
-msgstr "Impostazione dell'orologio di sistema al valore dell'orologio hardware"
+msgstr "Sisteminis laikas nustatomas techninėje įrangoje"
 
 #: bin/mudur.py:1179
 msgid "Failed to adjust systematic drift of the hardware clock"
-msgstr "Correzione dello scostamento automatico  dell'orologio hardware fallita"
+msgstr "Nepavyko koreguoti sisteminį pasklidimo aparatūros laikrodžiose"
 
 #: bin/mudur.py:1184
 msgid "Failed to set system clock to hardware clock"
-msgstr "Impossibile impostare l'orologio di sistema al valore dell'orologio hardware"
+msgstr "Ne pavyko nustatyti sisteminio laiko kaip aparatūros laiką"
 
 #: bin/mudur.py:1195
 msgid "Syncing system clock to hardware clock"
-msgstr "Sincronizzazione dell'orologio di sistema al valore dell'orologio hardware"
+msgstr "Sisteminis laikas sinchronizuojasi su aparatūros laikų"
 
 #: bin/mudur.py:1198
 msgid "Failed to synchronize clocks"
-msgstr "Errore nella sincronizzazione degli orologi"
+msgstr "ne pavyko sinchronizuoti laiką"
 
 #: bin/mudur.py:1252
 msgid "Unmounting filesystems"
-msgstr "Smontaggio dei filesystem"
+msgstr "bylų sistemos atjungiamos"
 
 #: bin/mudur.py:1260
 msgid "Remounting remaining filesystems read-only"
-msgstr "Rimontaggio dei filesystem rimanenti in sola lettura"
+msgstr "Iš naujo prijungiamos atjungtos bylų sistemos tik skaitimo režime "
 
 #: bin/mudur.py:1276
 msgid ""
 "An internal error occured. Please report to the bugs.pardus.org.trwith "
 "following information:"
-msgstr "C'è stato un errore interno. Segnala per piacere un bug su bugs.pardus.org.tr fornendo le seguenti informazioni:"
+msgstr "Įvyko vidinė klaida. Prašom pranešti bugs.pardus.org.tr pridejus papildoma informaciją."
 
 #: bin/mudur.py:1379
 msgid "Setting up localhost"
-msgstr "Impostazione localhost"
+msgstr "Kompiuterio vardo nustatymai."
 
 #: bin/mudur.py:1392
 msgid "Updating environment variables"
-msgstr "Aggiornamento delle variabili di sistema"
+msgstr "Atnaujinamos aplinkos kintamieji"
 
 #: bin/service.py:60
 msgid "local"
-msgstr "locale"
+msgstr "lokalus"
 
 #: bin/service.py:61
 msgid "script"
@@ -242,91 +240,91 @@ msgstr "script"
 
 #: bin/service.py:62
 msgid "server"
-msgstr "server"
+msgstr "serveris"
 
 #: bin/service.py:74
 msgid "running"
-msgstr "in esecuzione"
+msgstr "vykdomas"
 
 #: bin/service.py:76
 msgid "yes"
-msgstr "sì"
+msgstr "taip"
 
 #: bin/service.py:78
 msgid "conditional"
-msgstr "condizionale"
+msgstr "sąlyginis"
 
 #: bin/service.py:101
 msgid "Status"
-msgstr "Stato"
+msgstr "Statusas"
 
 #: bin/service.py:102
 msgid "Service"
-msgstr "Servizio"
+msgstr "Tarnyba"
 
 #: bin/service.py:103
 msgid "Autostart"
-msgstr "Avvio automatico"
+msgstr "Automatinis paleidimas "
 
 #: bin/service.py:104
 msgid "Description"
-msgstr "Descrizione"
+msgstr "Aprašymas "
 
 #: bin/service.py:147 bin/service.py:157
 #, python-format
 msgid "Unable to start %s:"
-msgstr "Impossibile avviare %s"
+msgstr "neįmanoma paleisti %s:"
 
 #: bin/service.py:170
 #, python-format
 msgid "Unable to stop %s:"
-msgstr "Impossibile fermare %s:"
+msgstr "Neįmanoma sustabdyti %s:"
 
 #: bin/service.py:183
 #, python-format
 msgid "Unable to set %s state:"
-msgstr "Impossibile impostare lo stato %s"
+msgstr "neįmanoma nustatyti %s būsena:"
 
 #: bin/service.py:188
 #, python-format
 msgid "Service '%s' will be auto started."
-msgstr "Il servizio '%s' verrà avviato automaticamente."
+msgstr "Tarnyba '%s' bus automatiškai pasileisti. "
 
 #: bin/service.py:190
 #, python-format
 msgid "Service '%s' won't be auto started."
-msgstr "Il servizio '%s' non verrà avviato automaticamente."
+msgstr "Tarnyba '%s' nebus automatiškai pasileidžiama."
 
 #: bin/service.py:192
 #, python-format
 msgid "Service '%s' will be started if required."
-msgstr "Il servizio '%s' verrà avviato se necessario."
+msgstr "Tarnyba '%s' pasileis esant būtinibei."
 
 #: bin/service.py:201
 #, python-format
 msgid "Unable to reload %s:"
-msgstr "Impossibile ricaricare %s"
+msgstr "Neįmanoma įkelti iš naujo '%s'"
 
 #: bin/service.py:205
 #, python-format
 msgid "Reloading %s"
-msgstr "Riavvio di %s in corso..."
+msgstr "Įkeliamas iš naujo '%s'"
 
 #: bin/service.py:259
 msgid "You must be root to use that."
-msgstr "Devi essere root per eseguire questa azione."
+msgstr "Jus privalote būti root kad pasinaudoti tai."
 
 #: bin/service.py:278
 msgid "Unable to start DBus"
-msgstr "Impossibile avviare DBus"
+msgstr "DBus paleisti neįmanoma. "
 
 #: bin/service.py:292
 msgid "DBus is not running."
-msgstr "DBus non è in esecuzione."
+msgstr "Dbus ne veikia."
 
 #: bin/service.py:294
 msgid "DBus is running."
-msgstr "Dbus è in esecuzione."
+msgstr "DBus veikia."
 
 #: bin/service.py:299
 msgid ""
@@ -344,9 +342,9 @@ msgid ""
 "and option is:\n"
 " -N, --no-color  Don't use color in output\n"
 " -q, --quiet     Don't print replies"
-msgstr "utilizzo: servizio [<opzioni>] [<servizio>] <comando>\ndove comando è:\n list     Mostra la lista dei servizi\n status   Mostra lo stato dei servizi\n info     Mostra lo stato dei servizi\n on       Attiva avvio automatico del servizio\n off      Disattiva avvio automatico del servizio\n start    Avvia il servizio\n stop     Ferma il servizio\n restart  Ferma il servizio, poi lo avvia nuovamente\n reload   Ricarica la configurazione (se il servizio supporta questa funzione)\ne le opzioni sono:\n -N, --no-color  Non utilizzare colori in output  -q, --quiet Non mostrare avvisi"
+msgstr "Naudojamas: tarnyba  [<options>] [<service>] <command>\nkur komanda:\nPateikti į Ekraną tarnybų sąrašą\nEkrano statusas tarnybos statusas\nAutomatiškai pasileidžiamos tarnybos\nIšjungtos automatiškai pasileidžiamos tarnybos\npaleisti Start tarnybą\nsustabdyti Start tarnybą\npaleisti iš naujo Start tarnybą, po to  vėl paleisti\npaleisti iš naujo Reload konfigūraciją (jei tarnyba tai leidžia)\nir parametrai:\nN, --no-color ne naudoti spalvos išvedime\n-q, --quiet ne spausdinti atsakymų "
 
 #: bin/service.py:355
 #, python-format
 msgid "No such service: %s"
-msgstr "Questo servizio ( %s ) non esiste."
+msgstr "Tokios tarnybos nėra:  %s"
