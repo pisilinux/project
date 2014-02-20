@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 msgid ""
 msgstr ""
@@ -11,19 +11,17 @@ msgstr ""
 "PO-Revision-Date: 2014-01-24 13:51+0000\n"
 "Last-Translator: richdb <rr.debruin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: yali/gui/Ui/autopartquestion.py:91
 msgid ""
 "There appears to be more than one resizeable partition. You can select a "
 "partition from the list below or YALI will select one for you."
-msgstr ""
-"There appears to be more than one resizeable partition. You can select a "
-"partition from the list below or YALI will select one for you."
+msgstr "There appears to be more than one resizeable partition. You can select a partition from the list below or YALI will select one for you."
 
 #: yali/gui/Ui/autopartquestion.py:92 yali/gui/Ui/connectionlist.py:85
 #: yali/gui/Ui/dialog.py:78
@@ -79,10 +77,7 @@ msgid ""
 "You can validate the integrity of the installation packages. Although this "
 "is an optional step, we highly recommend to do the validation in order to "
 "avoid any possible errors during the installation process."
-msgstr ""
-"You can validate the integrity of the installation packages. Although this "
-"is an optional step, we highly recommend to do the validation in order to "
-"avoid any possible errors during the installation process."
+msgstr "You can validate the integrity of the installation packages. Although this is an optional step, we highly recommend to do the validation in order to avoid any possible errors during the installation process."
 
 #: yali/gui/Ui/checkcdwidget.py:212
 msgid "Validation failed"
@@ -104,9 +99,7 @@ msgstr "Form"
 msgid ""
 "To use PiSi History support, you may need to be online. You can use a "
 "connection profile from the list below:"
-msgstr ""
-"To use PiSi History support, you may need to be online. You can use a "
-"connection profile from the list below:"
+msgstr "To use PiSi History support, you may need to be online. You can use a connection profile from the list below:"
 
 #: yali/gui/Ui/connectionlist.py:86
 msgid "Connect"
@@ -180,9 +173,7 @@ msgstr "Unhandled exception occured"
 msgid ""
 "Please fill a bug report at http://bugs.pisilinux.org.tr/ attaching the "
 "following backtrace."
-msgstr ""
-"Please fill a bug report at http://bugs.pisilinux.org.tr/ attaching the "
-"following backtrace."
+msgstr "Please fill a bug report at http://bugs.pisilinux.org.tr/ attaching the following backtrace."
 
 #: yali/gui/Ui/exception.py:74 yali/gui/ScrCheckCD.py:101
 #: yali/storage/__init__.py:930
@@ -199,27 +190,10 @@ msgstr "help content"
 
 #: yali/gui/Ui/info.py:98
 msgid ""
-"Welcome to YALI (Yet Another Linux Installer), where you will have the "
-"opportunity to verify the installation medium, select your keyboard layout, "
-"choose your time-zone, create user accounts and prepare your disk - followed "
-"by a summary and final review before committing to the installation of Pisi "
-"Linux.\n"
-"Further information for each page of the installer may be viewed by clicking "
-"the question-mark icon at the top of its page. \n"
-"YALI was designed with ease of use in mind and should not pose a problem to "
-"the novice Linux user. As with all such procedures though, any valuable data "
-"on your system should be backed-up before commencing."
-msgstr ""
-"Welcome to YALI (Yet Another Linux Installer), where you will have the "
-"opportunity to verify the installation medium, select your keyboard layout, "
-"choose your time-zone, create user accounts and prepare your disk - followed "
-"by a summary and final review before committing to the installation of Pisi "
-"Linux.\n"
-"Further information for each page of the installer may be viewed by clicking "
-"the question-mark icon at the top of its page. \n"
-"YALI was designed with ease of use in mind and should not pose a problem to "
-"the novice Linux user. As with all such procedures though, any valuable data "
-"on your system should be backed-up before commencing."
+"Welcome to YALI (Yet Another Linux Installer), where you will have the opportunity to verify the installation medium, select your keyboard layout, choose your time-zone, create user accounts and prepare your disk - followed by a summary and final review before committing to the installation of Pisi Linux.\n"
+"Further information for each page of the installer may be viewed by clicking the question-mark icon at the top of its page. \n"
+"YALI was designed with ease of use in mind and should not pose a problem to the novice Linux user. As with all such procedures though, any valuable data on your system should be backed-up before commencing."
+msgstr "Welcome to YALI (Yet Another Linux Installer), where you will have the opportunity to verify the installation medium, select your keyboard layout, choose your time-zone, create user accounts and prepare your disk - followed by a summary and final review before committing to the installation of Pisi Linux.\nFurther information for each page of the installer may be viewed by clicking the question-mark icon at the top of its page. \nYALI was designed with ease of use in mind and should not pose a problem to the novice Linux user. As with all such procedures though, any valuable data on your system should be backed-up before commencing."
 
 #: yali/gui/Ui/installprogress.py:76
 msgid "Installing Package: "
@@ -238,14 +212,9 @@ msgid ""
 "<html><head/><body><p>Before installing Pisi Linux on your computer, please "
 "read and accept the terms of free / open source licenses of the softwares "
 "included in this installation medium. <a href=\"#\"><span style=\" text-"
-"decoration: underline; color:#56a2c0;\">License texts</span></a></p></body></"
-"html>"
-msgstr ""
-"<html><head/><body><p>Before installing Pisi Linux on your computer, please "
-"read and accept the terms of free / open source licenses of the softwares "
-"included in this installation medium. <a href=\"#\"><span style=\" text-"
-"decoration: underline; color:#56a2c0;\">License texts</span></a></p></body></"
-"html>"
+"decoration: underline; color:#56a2c0;\">License "
+"texts</span></a></p></body></html>"
+msgstr "<html><head/><body><p>Before installing Pisi Linux on your computer, please read and accept the terms of free / open source licenses of the softwares included in this installation medium. <a href=\"#\"><span style=\" text-decoration: underline; color:#56a2c0;\">License texts</span></a></p></body></html>"
 
 #: yali/gui/Ui/license.py:118
 msgid "I understand and accept the terms"
@@ -405,8 +374,7 @@ msgstr "Force to be a primary partition"
 #: yali/gui/Ui/partitionshrink.py:73 yali/gui/Ui/partitionshrinkwidget.py:100
 msgid ""
 "Which partition would you like to shrink to make room for your installation?"
-msgstr ""
-"Which partition would you like to shrink to make room for your installation?"
+msgstr "Which partition would you like to shrink to make room for your installation?"
 
 #: yali/gui/Ui/partitionshrink.py:74
 msgid "Shrink partition to size (in MB)"
@@ -432,19 +400,10 @@ msgstr "Shrink"
 
 #: yali/gui/Ui/partresize.py:99
 msgid ""
-"Changes will be applied when you click \"Resize\". To cancel the changes, "
-"click <b>\"Cancel\".\n"
+"Changes will be applied when you click \"Resize\". To cancel the changes, click <b>\"Cancel\".\n"
 "<br><br>\n"
-"Warning: A resizing operation may corrupt the partition, rendering the data "
-"on it unreachable. Make sure that you have backed up the data. Note that "
-"this operation cannot be undone.<b>"
-msgstr ""
-"Changes will be applied when you click \"Resize\". To cancel the changes, "
-"click <b>\"Cancel\".\n"
-"<br><br>\n"
-"Warning: A resizing operation may corrupt the partition, rendering the data "
-"on it unreachable. Make sure that you have backed up the data. Note that "
-"this operation cannot be undone.<b>"
+"Warning: A resizing operation may corrupt the partition, rendering the data on it unreachable. Make sure that you have backed up the data. Note that this operation cannot be undone.<b>"
+msgstr "Changes will be applied when you click \"Resize\". To cancel the changes, click <b>\"Cancel\".\n<br><br>\nWarning: A resizing operation may corrupt the partition, rendering the data on it unreachable. Make sure that you have backed up the data. Note that this operation cannot be undone.<b>"
 
 #: yali/gui/Ui/raid.py:114
 msgid "Raid Device:"
@@ -506,9 +465,7 @@ msgstr "<b>Connection status:</b>"
 msgid ""
 "To use PiSi's history feature, you may need to be online. Select connection "
 "profile."
-msgstr ""
-"To use PiSi's history feature, you may need to be online. Select connection "
-"profile."
+msgstr "To use PiSi's history feature, you may need to be online. Select connection profile."
 
 #: yali/gui/Ui/rescuepisiwidget.py:86
 msgid "Select Connection"
@@ -623,13 +580,8 @@ msgstr "Used Space:"
 msgid ""
 "Pisi Linux is installed and running successfully... \n"
 "\n"
-"Before you login to system, you need to create your first user and set the "
-"system wide configurations. "
-msgstr ""
-"Pisi Linux is installed and running successfully... \n"
-"\n"
-"Before you login to system, you need to create your first user and set the "
-"system wide configurations. "
+"Before you login to system, you need to create your first user and set the system wide configurations. "
+msgstr "Pisi Linux is installed and running successfully... \n\nBefore you login to system, you need to create your first user and set the system wide configurations. "
 
 #: yali/gui/lvm_gui.py:48
 msgid "Not enough physical volumes"
@@ -641,11 +593,7 @@ msgid ""
 "create an LVM Volume Group.\n"
 "Create a partition or RAID array of type \"physical volume\n"
 "(LVM)\" and then select the \"LVM\" option again."
-msgstr ""
-"At least one unused physical volume partition is needed to\n"
-"create an LVM Volume Group.\n"
-"Create a partition or RAID array of type \"physical volume\n"
-"(LVM)\" and then select the \"LVM\" option again."
+msgstr "At least one unused physical volume partition is needed to\ncreate an LVM Volume Group.\nCreate a partition or RAID array of type \"physical volume\n(LVM)\" and then select the \"LVM\" option again."
 
 #: yali/gui/lvm_gui.py:60
 msgid "Make LVM Volume Group"
@@ -685,11 +633,7 @@ msgid ""
 "otherwise the space required by the currently defined\n"
 "logical volumes will be increased to more than the\n"
 "available space."
-msgstr ""
-"The physical extent size cannot be changed because\n"
-"otherwise the space required by the currently defined\n"
-"logical volumes will be increased to more than the\n"
-"available space."
+msgstr "The physical extent size cannot be changed because\notherwise the space required by the currently defined\nlogical volumes will be increased to more than the\navailable space."
 
 #: yali/gui/lvm_gui.py:411
 msgid "Confirm Physical Extent Change"
@@ -704,14 +648,7 @@ msgid ""
 "\n"
 "This change will take effect\n"
 "immediately."
-msgstr ""
-"This change in the value of the physical extent will\n"
-"require the sizes of the current logical volume requests\n"
-"to be rounded up in size to an integer multiple of\n"
-"the physical extent.\n"
-"\n"
-"This change will take effect\n"
-"immediately."
+msgstr "This change in the value of the physical extent will\nrequire the sizes of the current logical volume requests\nto be rounded up in size to an integer multiple of\nthe physical extent.\n\nThis change will take effect\nimmediately."
 
 #: yali/gui/lvm_gui.py:418 yali/gui/lvm_gui.py:465
 #: yali/gui/ScrPartitionManual.py:358 yali/gui/ScrRescuePassword.py:123
@@ -725,10 +662,7 @@ msgid ""
 "The physical extent size cannot be changed because\n"
 "the value selected (%(curpe)10.2f MB) is larger than the\n"
 "smallest physical volume (%(maxpvsize)10.2f MB) in the volume group."
-msgstr ""
-"The physical extent size cannot be changed because\n"
-"the value selected (%(curpe)10.2f MB) is larger than the\n"
-"smallest physical volume (%(maxpvsize)10.2f MB) in the volume group."
+msgstr "The physical extent size cannot be changed because\nthe value selected (%(curpe)10.2f MB) is larger than the\nsmallest physical volume (%(maxpvsize)10.2f MB) in the volume group."
 
 #: yali/gui/lvm_gui.py:446
 #, python-format
@@ -736,10 +670,7 @@ msgid ""
 "The physical extent size cannot be changed because the value selected "
 "(%(curpe)10.2f MB) is too large compared to the size of the smallest "
 "physical volume (%(maxpvsize)10.2f MB) in the volume group."
-msgstr ""
-"The physical extent size cannot be changed because the value selected "
-"(%(curpe)10.2f MB) is too large compared to the size of the smallest "
-"physical volume (%(maxpvsize)10.2f MB) in the volume group."
+msgstr "The physical extent size cannot be changed because the value selected (%(curpe)10.2f MB) is too large compared to the size of the smallest physical volume (%(maxpvsize)10.2f MB) in the volume group."
 
 #: yali/gui/lvm_gui.py:458
 msgid "Too small"
@@ -747,11 +678,9 @@ msgstr "Too small"
 
 #: yali/gui/lvm_gui.py:459
 msgid ""
-"This change in the value of the physical extent will waste substantial space "
-"on one or more of the physical volumes in the volume group."
-msgstr ""
-"This change in the value of the physical extent will waste substantial space "
-"on one or more of the physical volumes in the volume group."
+"This change in the value of the physical extent will waste substantial space"
+" on one or more of the physical volumes in the volume group."
+msgstr "This change in the value of the physical extent will waste substantial space on one or more of the physical volumes in the volume group."
 
 #: yali/gui/lvm_gui.py:481
 #, python-format
@@ -759,10 +688,7 @@ msgid ""
 "The physical extent size cannot be changed because the resulting maximum "
 "logical volume size (%10.2f MB) is smaller than one or more of their "
 "currently defined logical volumes."
-msgstr ""
-"The physical extent size cannot be changed because the resulting maximum "
-"logical volume size (%10.2f MB) is smaller than one or more of their "
-"currently defined logical volumes."
+msgstr "The physical extent size cannot be changed because the resulting maximum logical volume size (%10.2f MB) is smaller than one or more of their currently defined logical volumes."
 
 #: yali/gui/lvm_gui.py:502
 msgid "No free slots"
@@ -773,9 +699,7 @@ msgstr "No free slots"
 msgid ""
 "You cannot create more than %d logical volume \n"
 "per volume group."
-msgstr ""
-"You cannot create more than %d logical volume \n"
-"per volume group."
+msgstr "You cannot create more than %d logical volume \nper volume group."
 
 #: yali/gui/lvm_gui.py:510
 msgid "No free space"
@@ -787,11 +711,7 @@ msgid ""
 "logical volumes. To add a logical volume you must reduce\n"
 "the size of one or more of the currently existing logical\n"
 "volumes"
-msgstr ""
-"There is no room left in the volume group to create new\n"
-"logical volumes. To add a logical volume you must reduce\n"
-"the size of one or more of the currently existing logical\n"
-"volumes"
+msgstr "There is no room left in the volume group to create new\nlogical volumes. To add a logical volume you must reduce\nthe size of one or more of the currently existing logical\nvolumes"
 
 #: yali/gui/lvm_gui.py:548 yali/storage/storageBackendHelpers.py:88
 #: yali/storage/storageBackendHelpers.py:295
@@ -803,9 +723,7 @@ msgstr "Confirm Delete"
 msgid ""
 "Are you sure you want to delete the \n"
 "logical volume \"%s\"?"
-msgstr ""
-"Are you sure you want to delete the \n"
-"logical volume \"%s\"?"
+msgstr "Are you sure you want to delete the \nlogical volume \"%s\"?"
 
 #: yali/gui/lvm_gui.py:582
 msgid "Make Logical Volume"
@@ -860,11 +778,7 @@ msgid ""
 "logical volume size (%(maxlv)10.2f MB). To increase this limit you can "
 "create more Physical Volumes from unpartitioned disk space and add them to "
 "this Volume Group."
-msgstr ""
-"The current requested size (%(size)10.2f MB) is larger than the maximum "
-"logical volume size (%(maxlv)10.2f MB). To increase this limit you can "
-"create more Physical Volumes from unpartitioned disk space and add them to "
-"this Volume Group."
+msgstr "The current requested size (%(size)10.2f MB) is larger than the maximum logical volume size (%(maxlv)10.2f MB). To increase this limit you can create more Physical Volumes from unpartitioned disk space and add them to this Volume Group."
 
 #: yali/gui/lvm_gui.py:719
 #, python-format
@@ -873,11 +787,7 @@ msgid ""
 "size of the other logical volume(s) exceeds the size of the volume group "
 "(%(tmpvgsize)d MB). Please make the volume group larger or make the logical "
 "volume smaller."
-msgstr ""
-"The size entered for this logical volume (%(size)d MB) combined with the "
-"size of the other logical volume(s) exceeds the size of the volume group "
-"(%(tmpvgsize)d MB). Please make the volume group larger or make the logical "
-"volume smaller."
+msgstr "The size entered for this logical volume (%(size)d MB) combined with the size of the other logical volume(s) exceeds the size of the volume group (%(tmpvgsize)d MB). Please make the volume group larger or make the logical volume smaller."
 
 #: yali/gui/partition_gui.py:34
 #, python-format
@@ -903,17 +813,10 @@ msgstr "Invalid Raid Members"
 
 #: yali/gui/raid_gui.py:27
 msgid ""
-"At least two unused software RAID partitions are needed to create a RAID "
-"device.\n"
+"At least two unused software RAID partitions are needed to create a RAID device.\n"
 "\n"
-"First create at least two partitions of type \"software RAID\", and then "
-"select the \"RAID\" option again."
-msgstr ""
-"At least two unused software RAID partitions are needed to create a RAID "
-"device.\n"
-"\n"
-"First create at least two partitions of type \"software RAID\", and then "
-"select the \"RAID\" option again."
+"First create at least two partitions of type \"software RAID\", and then select the \"RAID\" option again."
+msgstr "At least two unused software RAID partitions are needed to create a RAID device.\n\nFirst create at least two partitions of type \"software RAID\", and then select the \"RAID\" option again."
 
 #: yali/gui/raid_gui.py:37
 msgid "Make RAID Device"
@@ -943,10 +846,7 @@ msgid ""
 "An error occurred when attempting to load an installer interface component.\n"
 "\n"
 "className = %s.Widget"
-msgstr ""
-"An error occurred when attempting to load an installer interface component.\n"
-"\n"
-"className = %s.Widget"
+msgstr "An error occurred when attempting to load an installer interface component.\n\nclassName = %s.Widget"
 
 #: yali/gui/runner.py:122 yali/gui/ScrRescuePassword.py:123
 #: yali/gui/ScrRescue.py:95 yali/gui/YaliWindow.py:385
@@ -1007,9 +907,7 @@ msgstr "Warning"
 msgid ""
 "Validation of %s package failed.Please remaster your installation medium "
 "andreboot."
-msgstr ""
-"Validation of %s package failed.Please remaster your installation medium "
-"andreboot."
+msgstr "Validation of %s package failed.Please remaster your installation medium andreboot."
 
 #: yali/gui/ScrCheckCD.py:101
 msgid "Skip Validation"
@@ -1023,9 +921,7 @@ msgstr "Skip Package"
 msgid ""
 "<font color=\"#FFF\"><b>Validation succeeded. You can proceed with the "
 "installation.</b></font>"
-msgstr ""
-"<font color=\"#FFF\"><b>Validation succeeded. You can proceed with the "
-"installation.</b></font>"
+msgstr "<font color=\"#FFF\"><b>Validation succeeded. You can proceed with the installation.</b></font>"
 
 #: yali/gui/ScrCheckCD.py:127
 msgid "Package validation is finished."
@@ -1132,9 +1028,7 @@ msgstr "Configuring <b>%s</b>"
 msgid ""
 "Following error occured while installing packages:<b>%s</b><br><br>Do you "
 "want to retry?"
-msgstr ""
-"Following error occured while installing packages:<b>%s</b><br><br>Do you "
-"want to retry?"
+msgstr "Following error occured while installing packages:<b>%s</b><br><br>Do you want to retry?"
 
 #: yali/gui/ScrInstall.py:202 yali/gui/ScrSummary.py:297
 #: yali/gui/YaliDialog.py:218 yali/gui/YaliDialog.py:234
@@ -1158,10 +1052,7 @@ msgid ""
 "An error occured during the installation of packages.\n"
 "This may be caused by a corrupted installation medium error:\n"
 "%s\n"
-msgstr ""
-"An error occured during the installation of packages.\n"
-"This may be caused by a corrupted installation medium error:\n"
-"%s\n"
+msgstr "An error occured during the installation of packages.\nThis may be caused by a corrupted installation medium error:\n%s\n"
 
 #: yali/gui/ScrKahyaCheck.py:78
 msgid "No storage device found."
@@ -1180,9 +1071,7 @@ msgstr "License text could not be found."
 msgid ""
 "No partitions are available to resize. Only physical\n"
 "partitions which size is greater than %s MB can be resized."
-msgstr ""
-"No partitions are available to resize. Only physical\n"
-"partitions which size is greater than %s MB can be resized."
+msgstr "No partitions are available to resize. Only physical\npartitions which size is greater than %s MB can be resized."
 
 #: yali/gui/ScrPartitionAuto.py:60
 msgid "Use All Disks"
@@ -1191,11 +1080,10 @@ msgstr "Use All Disks"
 #: yali/gui/ScrPartitionManual.py:94
 #, python-format
 msgid ""
-"The partitioning scheme you requested caused the following critical errors."
-"You must correct these errors before you continue your installation of %s."
-msgstr ""
-"The partitioning scheme you requested caused the following critical errors."
-"You must correct these errors before you continue your installation of %s."
+"The partitioning scheme you requested caused the following critical "
+"errors.You must correct these errors before you continue your installation "
+"of %s."
+msgstr "The partitioning scheme you requested caused the following critical errors.You must correct these errors before you continue your installation of %s."
 
 #: yali/gui/ScrPartitionManual.py:101
 msgid "Partitioning Errors"
@@ -1205,9 +1093,7 @@ msgstr "Partitioning Errors"
 msgid ""
 "The partitioning scheme you requested generated the following warnings. "
 "Would you like to continue with your requested partitioning scheme?"
-msgstr ""
-"The partitioning scheme you requested generated the following warnings. "
-"Would you like to continue with your requested partitioning scheme?"
+msgstr "The partitioning scheme you requested generated the following warnings. Would you like to continue with your requested partitioning scheme?"
 
 #: yali/gui/ScrPartitionManual.py:112
 msgid "Partitioning Warnings"
@@ -1222,9 +1108,7 @@ msgstr "Ok"
 msgid ""
 "The following pre-existing devices have been selected to be formatted, "
 "destroying all data."
-msgstr ""
-"The following pre-existing devices have been selected to be formatted, "
-"destroying all data."
+msgstr "The following pre-existing devices have been selected to be formatted, destroying all data."
 
 #: yali/gui/ScrPartitionManual.py:128
 msgid "Format Warnings"
@@ -1328,10 +1212,7 @@ msgid ""
 "You cannot edit this device:\n"
 "\n"
 "%s"
-msgstr ""
-"You cannot edit this device:\n"
-"\n"
-"%s"
+msgstr "You cannot edit this device:\n\n%s"
 
 #: yali/gui/ScrRescuePassword.py:99 yali/gui/ScrUsers.py:214
 msgid "Don't use your user name or name as a password"
@@ -1402,13 +1283,9 @@ msgstr "Mount failed"
 #: yali/gui/ScrRescue.py:55
 #, python-format
 msgid ""
-"The following error occurred when mounting the file systems listed in /etc/"
-"fstab.  Please fix this problem and try to rescue again.\n"
+"The following error occurred when mounting the file systems listed in /etc/fstab.  Please fix this problem and try to rescue again.\n"
 "%s"
-msgstr ""
-"The following error occurred when mounting the file systems listed in /etc/"
-"fstab.  Please fix this problem and try to rescue again.\n"
-"%s"
+msgstr "The following error occurred when mounting the file systems listed in /etc/fstab.  Please fix this problem and try to rescue again.\n%s"
 
 #: yali/gui/ScrSummary.py:47
 msgid "<b><p>Are you sure you want to restart the computer?</p></b>"
@@ -1459,9 +1336,7 @@ msgstr "User %(username)s (<b>%(realname)s</b>) added."
 msgid ""
 "User %(username)s (<b>%(realname)s</b>) added with <u>administrator "
 "privileges</u>."
-msgstr ""
-"User %(username)s (<b>%(realname)s</b>) added with <u>administrator "
-"privileges</u>."
+msgstr "User %(username)s (<b>%(realname)s</b>) added with <u>administrator privileges</u>."
 
 #: yali/gui/ScrSummary.py:121
 msgid "Hostname Settings"
@@ -1489,9 +1364,7 @@ msgstr "Use All Space"
 msgid ""
 "Removes all partitions on the selected %s device(s). <b><u>This includes "
 "partitions created by other operating systems.</u></b>"
-msgstr ""
-"Removes all partitions on the selected %s device(s). <b><u>This includes "
-"partitions created by other operating systems.</u></b>"
+msgstr "Removes all partitions on the selected %s device(s). <b><u>This includes partitions created by other operating systems.</u></b>"
 
 #: yali/gui/ScrSummary.py:143
 msgid "Replace Existing Linux System(s)"
@@ -1501,12 +1374,9 @@ msgstr "Replace Existing Linux System(s)"
 #, python-format
 msgid ""
 "Removes all Linux partitions on the selected%s device(s). This does not "
-"remove other partitions you may have on your storage device(s) (such as VFAT "
-"or FAT32)"
-msgstr ""
-"Removes all Linux partitions on the selected%s device(s). This does not "
-"remove other partitions you may have on your storage device(s) (such as VFAT "
-"or FAT32)"
+"remove other partitions you may have on your storage device(s) (such as VFAT"
+" or FAT32)"
+msgstr "Removes all Linux partitions on the selected%s device(s). This does not remove other partitions you may have on your storage device(s) (such as VFAT or FAT32)"
 
 #: yali/gui/ScrSummary.py:150
 #, python-format
@@ -1514,10 +1384,7 @@ msgid ""
 "Retains your current data and partitions and uses only the unpartitioned "
 "space on the selected %s device(s), assuming you have enough free space "
 "available."
-msgstr ""
-"Retains your current data and partitions and uses only the unpartitioned "
-"space on the selected %s device(s), assuming you have enough free space "
-"available."
+msgstr "Retains your current data and partitions and uses only the unpartitioned space on the selected %s device(s), assuming you have enough free space available."
 
 #: yali/gui/ScrSummary.py:156
 msgid "Manual Partitioning selected."
@@ -1553,9 +1420,7 @@ msgstr "Confirm"
 msgid ""
 "The partitioning options you have selected will now be written to disk. Any "
 "data on deleted or reformatted partitions will be lost."
-msgstr ""
-"The partitioning options you have selected will now be written to disk. Any "
-"data on deleted or reformatted partitions will be lost."
+msgstr "The partitioning options you have selected will now be written to disk. Any data on deleted or reformatted partitions will be lost."
 
 #: yali/gui/ScrSummary.py:201
 msgid "Write Changes to Disk"
@@ -1573,15 +1438,10 @@ msgstr "Proprietary Hardware Drivers"
 msgid ""
 "<qt>Proprietary drivers are available which may be required to utilize the "
 "full capabilities of your video card. These drivers are developed by the "
-"hardware manufacturer and not supported by Pisi Linux developers since their "
-"source code is not publicly available.<br><br><b>Do you want to install and "
-"use these proprietary drivers instead of the default drivers?</b></qt>"
-msgstr ""
-"<qt>Proprietary drivers are available which may be required to utilize the "
-"full capabilities of your video card. These drivers are developed by the "
-"hardware manufacturer and not supported by Pisi Linux developers since their "
-"source code is not publicly available.<br><br><b>Do you want to install and "
-"use these proprietary drivers instead of the default drivers?</b></qt>"
+"hardware manufacturer and not supported by Pisi Linux developers since their"
+" source code is not publicly available.<br><br><b>Do you want to install and"
+" use these proprietary drivers instead of the default drivers?</b></qt>"
+msgstr "<qt>Proprietary drivers are available which may be required to utilize the full capabilities of your video card. These drivers are developed by the hardware manufacturer and not supported by Pisi Linux developers since their source code is not publicly available.<br><br><b>Do you want to install and use these proprietary drivers instead of the default drivers?</b></qt>"
 
 #: yali/gui/ScrUsers.py:127 yali/gui/ScrUsers.py:359
 msgid "Update"
@@ -1630,10 +1490,7 @@ msgid ""
 "You cannot remove this physical volume because\n"
 "otherwise the volume group will be too small to\n"
 "hold the currently defined logical volumes."
-msgstr ""
-"You cannot remove this physical volume because\n"
-"otherwise the volume group will be too small to\n"
-"hold the currently defined logical volumes."
+msgstr "You cannot remove this physical volume because\notherwise the volume group will be too small to\nhold the currently defined logical volumes."
 
 #: yali/gui/YaliDialog.py:240
 msgid "Don't ask again"
@@ -1782,26 +1639,16 @@ msgstr "Dirty File Systems"
 #: yali/storage/__init__.py:159
 #, python-format
 msgid ""
-"The following file systems for your Linux system were not unmounted "
-"cleanly.  Please boot your Linux installation, let the file systems be "
-"checked and shut down cleanly to rescue.\n"
+"The following file systems for your Linux system were not unmounted cleanly.  Please boot your Linux installation, let the file systems be checked and shut down cleanly to rescue.\n"
 "%s"
-msgstr ""
-"The following file systems for your Linux system were not unmounted "
-"cleanly.  Please boot your Linux installation, let the file systems be "
-"checked and shut down cleanly to rescue.\n"
-"%s"
+msgstr "The following file systems for your Linux system were not unmounted cleanly.  Please boot your Linux installation, let the file systems be checked and shut down cleanly to rescue.\n%s"
 
 #: yali/storage/__init__.py:169
 #, python-format
 msgid ""
-"The following file systems for your Linux system were not unmounted "
-"cleanly.  Would you like to mount them anyway?\n"
+"The following file systems for your Linux system were not unmounted cleanly.  Would you like to mount them anyway?\n"
 "%s"
-msgstr ""
-"The following file systems for your Linux system were not unmounted "
-"cleanly.  Would you like to mount them anyway?\n"
-"%s"
+msgstr "The following file systems for your Linux system were not unmounted cleanly.  Would you like to mount them anyway?\n%s"
 
 #: yali/storage/__init__.py:336
 msgid "This partition is holding the data for the hard drive install."
@@ -1816,9 +1663,7 @@ msgstr "You cannot delete a partition of a LDL formatted DASD."
 msgid ""
 "This device is part of the RAID device %s, you have to edit or remove the "
 "raid partition appropriately!"
-msgstr ""
-"This device is part of the RAID device %s, you have to edit or remove the "
-"raid partition appropriately!"
+msgstr "This device is part of the RAID device %s, you have to edit or remove the raid partition appropriately!"
 
 #: yali/storage/__init__.py:350
 msgid "This device is part of a RAID device."
@@ -1835,63 +1680,48 @@ msgstr "This device is part of a LVM volume group."
 
 #: yali/storage/__init__.py:367
 msgid ""
-"This device is an extended partition which contains logical partitions that "
-"cannot be deleted:\n"
+"This device is an extended partition which contains logical partitions that cannot be deleted:\n"
 "\n"
-msgstr ""
-"This device is an extended partition which contains logical partitions that "
-"cannot be deleted:\n"
-"\n"
+msgstr "This device is an extended partition which contains logical partitions that cannot be deleted:\n\n"
 
 #: yali/storage/__init__.py:873
 #, python-format
 msgid ""
-"You have not defined a root partition (/),which is required for installation "
-"of %s to continue."
-msgstr ""
-"You have not defined a root partition (/),which is required for installation "
-"of %s to continue."
+"You have not defined a root partition (/),which is required for installation"
+" of %s to continue."
+msgstr "You have not defined a root partition (/),which is required for installation of %s to continue."
 
 #: yali/storage/__init__.py:878
 #, python-format
 msgid ""
-"Your / partition is less than %(min)s MB which is lower than recommended for "
-"a normal %(productName)s install."
-msgstr ""
-"Your / partition is less than %(min)s MB which is lower than recommended for "
-"a normal %(productName)s install."
+"Your / partition is less than %(min)s MB which is lower than recommended for"
+" a normal %(productName)s install."
+msgstr "Your / partition is less than %(min)s MB which is lower than recommended for a normal %(productName)s install."
 
 #: yali/storage/__init__.py:884
 #, python-format
 msgid ""
-"Your %(mount)s partition is less than %(size)s megabytes which is lower than "
-"recommended for a normal %(productName)s install."
-msgstr ""
-"Your %(mount)s partition is less than %(size)s megabytes which is lower than "
-"recommended for a normal %(productName)s install."
+"Your %(mount)s partition is less than %(size)s megabytes which is lower than"
+" recommended for a normal %(productName)s install."
+msgstr "Your %(mount)s partition is less than %(size)s megabytes which is lower than recommended for a normal %(productName)s install."
 
 #: yali/storage/__init__.py:893
 msgid ""
 "You have not specified a swap partition. Due to the amount of memory "
 "present, a swap partition is required to complete installation."
-msgstr ""
-"You have not specified a swap partition. Due to the amount of memory "
-"present, a swap partition is required to complete installation."
+msgstr "You have not specified a swap partition. Due to the amount of memory present, a swap partition is required to complete installation."
 
 #: yali/storage/__init__.py:896
 msgid ""
 "You have not specified a swap partition. Although not strictly required in "
 "all cases, it will significantly improve performancefor most installations."
-msgstr ""
-"You have not specified a swap partition. Although not strictly required in "
-"all cases, it will significantly improve performancefor most installations."
+msgstr "You have not specified a swap partition. Although not strictly required in all cases, it will significantly improve performancefor most installations."
 
 #: yali/storage/__init__.py:902
 #, python-format
 msgid ""
 "This mount point is invalid. The %s directory must be on the / file system."
-msgstr ""
-"This mount point is invalid. The %s directory must be on the / file system."
+msgstr "This mount point is invalid. The %s directory must be on the / file system."
 
 #: yali/storage/__init__.py:905
 #, python-format
@@ -1907,10 +1737,7 @@ msgid ""
 "An error has occurred - no valid devices were found on\n"
 "which to create new file systems. Please check your\n"
 "hardware for the cause of this problem."
-msgstr ""
-"An error has occurred - no valid devices were found on\n"
-"which to create new file systems. Please check your\n"
-"hardware for the cause of this problem."
+msgstr "An error has occurred - no valid devices were found on\nwhich to create new file systems. Please check your\nhardware for the cause of this problem."
 
 #: yali/storage/partitioning.py:703
 msgid "requested size exceeds maximum allowed"
@@ -1937,9 +1764,7 @@ msgstr "not enough space for LVM requests"
 msgid ""
 "Could not find enough free space for automatic\n"
 "partitioning, please use another partitioning method."
-msgstr ""
-"Could not find enough free space for automatic\n"
-"partitioning, please use another partitioning method."
+msgstr "Could not find enough free space for automatic\npartitioning, please use another partitioning method."
 
 #: yali/storage/partitioning.py:1670
 msgid "Warnings During Automatic Partitioning"
@@ -1951,29 +1776,21 @@ msgid ""
 "Following warnings occurred during automatic partitioning:\n"
 "\n"
 "%s"
-msgstr ""
-"Following warnings occurred during automatic partitioning:\n"
-"\n"
-"%s"
+msgstr "Following warnings occurred during automatic partitioning:\n\n%s"
 
 #: yali/storage/partitioning.py:1680 yali/storage/partitioning.py:1700
 msgid ""
 "\n"
 "\n"
 "Press 'OK' to exit the installer."
-msgstr ""
-"\n"
-"\n"
-"Press 'OK' to exit the installer."
+msgstr "\n\nPress 'OK' to exit the installer."
 
 #: yali/storage/partitioning.py:1682
 #, python-format
 msgid ""
 "Could not allocate requested partitions: \n"
 "%(msg)s.%(extra)s"
-msgstr ""
-"Could not allocate requested partitions: \n"
-"%(msg)s.%(extra)s"
+msgstr "Could not allocate requested partitions: \n%(msg)s.%(extra)s"
 
 #: yali/storage/partitioning.py:1701
 msgid "Automatic Partitioning Errors"
@@ -1986,15 +1803,8 @@ msgid ""
 "\n"
 "%(errortxt)s\n"
 "\n"
-"This can happen if there is not enough space on your hard drive(s) for the "
-"installation. %(extra)s"
-msgstr ""
-"The following errors occurred with your partitioning:\n"
-"\n"
-"%(errortxt)s\n"
-"\n"
-"This can happen if there is not enough space on your hard drive(s) for the "
-"installation. %(extra)s"
+"This can happen if there is not enough space on your hard drive(s) for the installation. %(extra)s"
+msgstr "The following errors occurred with your partitioning:\n\n%(errortxt)s\n\nThis can happen if there is not enough space on your hard drive(s) for the installation. %(extra)s"
 
 #: yali/storage/storageBackendHelpers.py:18
 msgid "Please enter a volume group name."
@@ -2013,9 +1823,7 @@ msgstr "Error - the volume group name %s is not valid."
 msgid ""
 "Error - the volume group name contains illegal characters or spaces.  "
 "Acceptable characters are letters, digits, '.' or '_'."
-msgstr ""
-"Error - the volume group name contains illegal characters or spaces.  "
-"Acceptable characters are letters, digits, '.' or '_'."
+msgstr "Error - the volume group name contains illegal characters or spaces.  Acceptable characters are letters, digits, '.' or '_'."
 
 #: yali/storage/storageBackendHelpers.py:40
 msgid "Please enter a logical volume name."
@@ -2034,9 +1842,7 @@ msgstr "Error - the logical volume name %s is not valid."
 msgid ""
 "Error - the logical volume name contains illegal characters or spaces.  "
 "Acceptable characters are letters, digits, '.' or '_'."
-msgstr ""
-"Error - the logical volume name contains illegal characters or spaces.  "
-"Acceptable characters are letters, digits, '.' or '_'."
+msgstr "Error - the logical volume name contains illegal characters or spaces.  Acceptable characters are letters, digits, '.' or '_'."
 
 #: yali/storage/storageBackendHelpers.py:68
 msgid "Format as Swap?"
@@ -2045,15 +1851,10 @@ msgstr "Format as Swap?"
 #: yali/storage/storageBackendHelpers.py:69
 #, python-format
 msgid ""
-"%s has a partition type of 0x82 (Linux swap) but does not appear to be "
-"formatted as a Linux swap partition.\n"
+"%s has a partition type of 0x82 (Linux swap) but does not appear to be formatted as a Linux swap partition.\n"
 "\n"
 "Would you like to format this partition as a swap partition?"
-msgstr ""
-"%s has a partition type of 0x82 (Linux swap) but does not appear to be "
-"formatted as a Linux swap partition.\n"
-"\n"
-"Would you like to format this partition as a swap partition?"
+msgstr "%s has a partition type of 0x82 (Linux swap) but does not appear to be formatted as a Linux swap partition.\n\nWould you like to format this partition as a swap partition?"
 
 #: yali/storage/storageBackendHelpers.py:89
 #, python-format
@@ -2070,10 +1871,7 @@ msgid ""
 "The following partitions were not deleted because they are in use:\n"
 "\n"
 "%s"
-msgstr ""
-"The following partitions were not deleted because they are in use:\n"
-"\n"
-"%s"
+msgstr "The following partitions were not deleted because they are in use:\n\n%s"
 
 #: yali/storage/storageBackendHelpers.py:154
 #: yali/storage/storageBackendHelpers.py:161
@@ -2089,9 +1887,7 @@ msgstr "You must first select a partition to delete."
 msgid ""
 "The mount point %s is invalid.  Mount points must start with '/' and cannot "
 "end with '/', and must contain printable characters and no spaces."
-msgstr ""
-"The mount point %s is invalid.  Mount points must start with '/' and cannot "
-"end with '/', and must contain printable characters and no spaces."
+msgstr "The mount point %s is invalid.  Mount points must start with '/' and cannot end with '/', and must contain printable characters and no spaces."
 
 #: yali/storage/storageBackendHelpers.py:209
 msgid "Error with Partitioning"
@@ -2100,17 +1896,10 @@ msgstr "Error with Partitioning"
 #: yali/storage/storageBackendHelpers.py:210
 #, python-format
 msgid ""
-"The following critical errors exist with your requested partitioning scheme. "
-"These errors must be corrected prior to continuing with your install of "
-"%(productName)s.\n"
+"The following critical errors exist with your requested partitioning scheme. These errors must be corrected prior to continuing with your install of %(productName)s.\n"
 "\n"
 "%(errorstr)s"
-msgstr ""
-"The following critical errors exist with your requested partitioning scheme. "
-"These errors must be corrected prior to continuing with your install of "
-"%(productName)s.\n"
-"\n"
-"%(errorstr)s"
+msgstr "The following critical errors exist with your requested partitioning scheme. These errors must be corrected prior to continuing with your install of %(productName)s.\n\n%(errorstr)s"
 
 #: yali/storage/storageBackendHelpers.py:226
 msgid "Partitioning Warning"
@@ -2124,28 +1913,19 @@ msgid ""
 "%s\n"
 "\n"
 "Would you like to continue with your requested partitioning scheme?"
-msgstr ""
-"The following warnings exist with your requested partition scheme.\n"
-"\n"
-"%s\n"
-"\n"
-"Would you like to continue with your requested partitioning scheme?"
+msgstr "The following warnings exist with your requested partition scheme.\n\n%s\n\nWould you like to continue with your requested partitioning scheme?"
 
 #: yali/storage/storageBackendHelpers.py:242
 msgid ""
 "The following pre-existing partitions have been selected to be formatted, "
 "destroying all data."
-msgstr ""
-"The following pre-existing partitions have been selected to be formatted, "
-"destroying all data."
+msgstr "The following pre-existing partitions have been selected to be formatted, destroying all data."
 
 #: yali/storage/storageBackendHelpers.py:245
 msgid ""
-"Select 'Yes' to continue and format these partitions, or 'No' to go back and "
-"change these settings."
-msgstr ""
-"Select 'Yes' to continue and format these partitions, or 'No' to go back and "
-"change these settings."
+"Select 'Yes' to continue and format these partitions, or 'No' to go back and"
+" change these settings."
+msgstr "Select 'Yes' to continue and format these partitions, or 'No' to go back and change these settings."
 
 #: yali/storage/storageBackendHelpers.py:251
 msgid "Format Warning"
@@ -2157,10 +1937,7 @@ msgid ""
 "You are about to delete the volume group \"%s\".\n"
 "\n"
 "ALL logical volumes in this volume group will be lost!"
-msgstr ""
-"You are about to delete the volume group \"%s\".\n"
-"\n"
-"ALL logical volumes in this volume group will be lost!"
+msgstr "You are about to delete the volume group \"%s\".\n\nALL logical volumes in this volume group will be lost!"
 
 #: yali/storage/storageBackendHelpers.py:283
 #, python-format
@@ -2188,8 +1965,7 @@ msgstr "Confirm Reset"
 #: yali/storage/storageBackendHelpers.py:302
 msgid ""
 "Are you sure you want to reset the partition table to its original state?"
-msgstr ""
-"Are you sure you want to reset the partition table to its original state?"
+msgstr "Are you sure you want to reset the partition table to its original state?"
 
 #: yali/storage/storageBackendHelpers.py:310
 msgid ""
@@ -2200,14 +1976,7 @@ msgid ""
 "However, if this partition contains files that you need to keep,\n"
 "such as home directories, then continue without formatting this\n"
 "npartition."
-msgstr ""
-"You have chosen to use a pre-existing partition for this\n"
-"installation without formatting it. We recommend that you format\n"
-"this partition to make sure files from a previous operating system\n"
-"installation do not cause problems with this installation of Linux.\n"
-"However, if this partition contains files that you need to keep,\n"
-"such as home directories, then continue without formatting this\n"
-"npartition."
+msgstr "You have chosen to use a pre-existing partition for this\ninstallation without formatting it. We recommend that you format\nthis partition to make sure files from a previous operating system\ninstallation do not cause problems with this installation of Linux.\nHowever, if this partition contains files that you need to keep,\nsuch as home directories, then continue without formatting this\nnpartition."
 
 #: yali/storage/storageBackendHelpers.py:318
 msgid "Format?"
@@ -2223,10 +1992,7 @@ msgid ""
 "Partitions of type '%s' must be constrained to a\n"
 "single drive.  To do this, select the drive in the 'Allowable Drives'\n"
 "checklist."
-msgstr ""
-"Partitions of type '%s' must be constrained to a\n"
-"single drive.  To do this, select the drive in the 'Allowable Drives'\n"
-"checklist."
+msgstr "Partitions of type '%s' must be constrained to a\nsingle drive.  To do this, select the drive in the 'Allowable Drives'\nchecklist."
 
 #: yali/storage/storageBackendHelpers.py:331
 #: yali/storage/storageBackendHelpers.py:356
@@ -2237,21 +2003,15 @@ msgstr "Storage Device Warning"
 #: yali/storage/storageBackendHelpers.py:332
 #, python-format
 msgid ""
-"The following storage device may contain recoverable data:<br><br>"
-"%(description)s (%(size)s MB)<br><br>This device may have data that will be "
-"<b>permanently lost</b> if you include it in this installation.<br><br>If "
-"you don't care about any data on this device, choose <b>Reset device</b> to "
-"include it in the installation process.<br><br>If you don't want the device "
-"to be permanently erased, select <b>Ignore device</b> and the device will "
-"not be considered as a possible installation target."
-msgstr ""
-"The following storage device may contain recoverable data:<br><br>"
-"%(description)s (%(size)s MB)<br><br>This device may have data that will be "
-"<b>permanently lost</b> if you include it in this installation.<br><br>If "
-"you don't care about any data on this device, choose <b>Reset device</b> to "
-"include it in the installation process.<br><br>If you don't want the device "
-"to be permanently erased, select <b>Ignore device</b> and the device will "
-"not be considered as a possible installation target."
+"The following storage device may contain recoverable "
+"data:<br><br>%(description)s (%(size)s MB)<br><br>This device may have data "
+"that will be <b>permanently lost</b> if you include it in this "
+"installation.<br><br>If you don't care about any data on this device, choose"
+" <b>Reset device</b> to include it in the installation process.<br><br>If "
+"you don't want the device to be permanently erased, select <b>Ignore "
+"device</b> and the device will not be considered as a possible installation "
+"target."
+msgstr "The following storage device may contain recoverable data:<br><br>%(description)s (%(size)s MB)<br><br>This device may have data that will be <b>permanently lost</b> if you include it in this installation.<br><br>If you don't care about any data on this device, choose <b>Reset device</b> to include it in the installation process.<br><br>If you don't want the device to be permanently erased, select <b>Ignore device</b> and the device will not be considered as a possible installation target."
 
 #: yali/storage/storageBackendHelpers.py:343
 msgid "Reset device"
@@ -2268,11 +2028,7 @@ msgid ""
 "PVs (%(pvs)s) which will erase the LVM metadata, or ignore which will "
 "preserve thecontents.This action may also be applied to all other PVs with "
 "inconsistent metadata."
-msgstr ""
-"There is inconsistent LVM data on %(msg)s. You can reinitialize all related "
-"PVs (%(pvs)s) which will erase the LVM metadata, or ignore which will "
-"preserve thecontents.This action may also be applied to all other PVs with "
-"inconsistent metadata."
+msgstr "There is inconsistent LVM data on %(msg)s. You can reinitialize all related PVs (%(pvs)s) which will erase the LVM metadata, or ignore which will preserve thecontents.This action may also be applied to all other PVs with inconsistent metadata."
 
 #: yali/storage/storageBackendHelpers.py:364
 msgid "Yes, re-initialize"
@@ -2287,9 +2043,7 @@ msgstr "No, protect data"
 msgid ""
 "Disk contains %(members_count)s BIOS RAID metadata, but is not part of any "
 "recognized BIOS RAID sets. Ignoring disk %(members)s."
-msgstr ""
-"Disk contains %(members_count)s BIOS RAID metadata, but is not part of any "
-"recognized BIOS RAID sets. Ignoring disk %(members)s."
+msgstr "Disk contains %(members_count)s BIOS RAID metadata, but is not part of any recognized BIOS RAID sets. Ignoring disk %(members)s."
 
 #: yali/storage/storageset.py:298 yali/storage/storageset.py:311
 msgid "Invalid mount point"
@@ -2298,28 +2052,18 @@ msgstr "Invalid mount point"
 #: yali/storage/storageset.py:299
 #, python-format
 msgid ""
-"An error occurred when trying to create %s.  Some element of this path is "
-"not a directory. This is a fatal error and the install cannot continue.\n"
+"An error occurred when trying to create %s.  Some element of this path is not a directory. This is a fatal error and the install cannot continue.\n"
 "\n"
 "Press <Enter> to exit the installer."
-msgstr ""
-"An error occurred when trying to create %s.  Some element of this path is "
-"not a directory. This is a fatal error and the install cannot continue.\n"
-"\n"
-"Press <Enter> to exit the installer."
+msgstr "An error occurred when trying to create %s.  Some element of this path is not a directory. This is a fatal error and the install cannot continue.\n\nPress <Enter> to exit the installer."
 
 #: yali/storage/storageset.py:312
 #, python-format
 msgid ""
-"An error occurred when trying to create %(mountpoint)s: %(msg)s.  This is a "
-"fatal error and the install cannot continue.\n"
+"An error occurred when trying to create %(mountpoint)s: %(msg)s.  This is a fatal error and the install cannot continue.\n"
 "\n"
 "Press <Enter> to exit the installer."
-msgstr ""
-"An error occurred when trying to create %(mountpoint)s: %(msg)s.  This is a "
-"fatal error and the install cannot continue.\n"
-"\n"
-"Press <Enter> to exit the installer."
+msgstr "An error occurred when trying to create %(mountpoint)s: %(msg)s.  This is a fatal error and the install cannot continue.\n\nPress <Enter> to exit the installer."
 
 #: yali/storage/storageset.py:329 yali/storage/storageset.py:350
 msgid "Unable to mount filesystem"
@@ -2330,22 +2074,15 @@ msgstr "Unable to mount filesystem"
 msgid ""
 "An error occurred mounting device %(path)s as %(mountpoint)s.  You may "
 "continue installation, but there may be problems."
-msgstr ""
-"An error occurred mounting device %(path)s as %(mountpoint)s.  You may "
-"continue installation, but there may be problems."
+msgstr "An error occurred mounting device %(path)s as %(mountpoint)s.  You may continue installation, but there may be problems."
 
 #: yali/storage/storageset.py:351
 #, python-format
 msgid ""
-"An error occurred mounting device %(path)s as %(mountpoint)s: %(msg)s. This "
-"is a fatal error and the install cannot continue.\n"
+"An error occurred mounting device %(path)s as %(mountpoint)s: %(msg)s. This is a fatal error and the install cannot continue.\n"
 "\n"
 "Press <Enter> to exit the installer."
-msgstr ""
-"An error occurred mounting device %(path)s as %(mountpoint)s: %(msg)s. This "
-"is a fatal error and the install cannot continue.\n"
-"\n"
-"Press <Enter> to exit the installer."
+msgstr "An error occurred mounting device %(path)s as %(mountpoint)s: %(msg)s. This is a fatal error and the install cannot continue.\n\nPress <Enter> to exit the installer."
 
 #: yali/storage/storageset.py:386
 msgid "Skip"
@@ -2358,15 +2095,8 @@ msgid ""
 "\n"
 "     %s\n"
 "\n"
-"is an old-style Linux swap partition.  If you want to use this device for "
-"swap space, you must reformat as a new-style Linux swap partition."
-msgstr ""
-"The swap device:\n"
-"\n"
-"     %s\n"
-"\n"
-"is an old-style Linux swap partition.  If you want to use this device for "
-"swap space, you must reformat as a new-style Linux swap partition."
+"is an old-style Linux swap partition.  If you want to use this device for swap space, you must reformat as a new-style Linux swap partition."
+msgstr "The swap device:\n\n     %s\n\nis an old-style Linux swap partition.  If you want to use this device for swap space, you must reformat as a new-style Linux swap partition."
 
 #: yali/storage/storageset.py:429
 #, python-format
@@ -2375,17 +2105,8 @@ msgid ""
 "\n"
 "     %s\n"
 "\n"
-"in your /etc/fstab file is currently in use as a software suspend device, "
-"which means your system is hibernating. If you are performing a new install, "
-"make sure the installer is set to format all swap devices."
-msgstr ""
-"The swap device:\n"
-"\n"
-"     %s\n"
-"\n"
-"in your /etc/fstab file is currently in use as a software suspend device, "
-"which means your system is hibernating. If you are performing a new install, "
-"make sure the installer is set to format all swap devices."
+"in your /etc/fstab file is currently in use as a software suspend device, which means your system is hibernating. If you are performing a new install, make sure the installer is set to format all swap devices."
+msgstr "The swap device:\n\n     %s\n\nin your /etc/fstab file is currently in use as a software suspend device, which means your system is hibernating. If you are performing a new install, make sure the installer is set to format all swap devices."
 
 #: yali/storage/storageset.py:442
 #, python-format
@@ -2394,15 +2115,8 @@ msgid ""
 "\n"
 "     %s\n"
 "\n"
-"does not contain a supported swap volume.  In order to continue "
-"installation, you will need to format the device or skip it."
-msgstr ""
-"The swap device:\n"
-"\n"
-"     %s\n"
-"\n"
-"does not contain a supported swap volume.  In order to continue "
-"installation, you will need to format the device or skip it."
+"does not contain a supported swap volume.  In order to continue installation, you will need to format the device or skip it."
+msgstr "The swap device:\n\n     %s\n\ndoes not contain a supported swap volume.  In order to continue installation, you will need to format the device or skip it."
 
 #: yali/storage/storageset.py:453
 #, python-format
@@ -2410,10 +2124,7 @@ msgid ""
 "Error enabling swap device %(name)s: %(msg)s<br><br>This most likely means "
 "this swap device has not been initialized.<br><br>Press OK to exit the "
 "installer."
-msgstr ""
-"Error enabling swap device %(name)s: %(msg)s<br><br>This most likely means "
-"this swap device has not been initialized.<br><br>Press OK to exit the "
-"installer."
+msgstr "Error enabling swap device %(name)s: %(msg)s<br><br>This most likely means this swap device has not been initialized.<br><br>Press OK to exit the installer."
 
 #: yali/storage/storageset.py:501
 msgid "You have not created a bootable partition."
@@ -2532,12 +2243,9 @@ msgstr "%(type)s filesystem check failure on %(device)s: "
 #: yali/storage/formats/filesystem.py:391
 msgid ""
 "Errors like this usually mean there is a problem with the filesystem that "
-"will require user interaction to repair. Restart installation after you have "
-"corrected the problems on the filesystem."
-msgstr ""
-"Errors like this usually mean there is a problem with the filesystem that "
-"will require user interaction to repair. Restart installation after you have "
-"corrected the problems on the filesystem."
+"will require user interaction to repair. Restart installation after you have"
+" corrected the problems on the filesystem."
+msgstr "Errors like this usually mean there is a problem with the filesystem that will require user interaction to repair. Restart installation after you have corrected the problems on the filesystem."
 
 #: yali/storage/formats/filesystem.py:397
 msgid "Unrecoverable Error"
@@ -2567,9 +2275,7 @@ msgstr "Shared library error."
 msgid ""
 "Recoverable errors have been detected or dosfsck has discovered an internal "
 "inconsistency."
-msgstr ""
-"Recoverable errors have been detected or dosfsck has discovered an internal "
-"inconsistency."
+msgstr "Recoverable errors have been detected or dosfsck has discovered an internal inconsistency."
 
 #: yali/storage/formats/filesystem.py:857
 msgid "Usage error."
