@@ -1,25 +1,23 @@
-# translation of es.po to spanish
-# translation of es.po to
-# translation of bootloader.po to
 # LANGUAGE translations for boot loader
-# Copyright (C) 2004 SUSE LINUX AG
-#
-# Ines Pozo <Ines.Pozo@novell.com>, 2005.
-# Klemens Häckel <click3d_at_linuxmail_org>, 2008.
-# Klemens Häckel <click3d at linuxmail dot org>, 2008, 2009.
+# Copyright (C) 2005 SUSE Linux GmbH
+# 
+# Translators:
+# Ines Pozo <Ines.Pozo@novell.com>, 2005
+# Klemens Häckel <click3d at linuxmail dot org>, 2008-2009
+# Klemens Häckel <click3d_at_linuxmail_org>, 2008
+# megatotoro <jratlsv2@racsa.co.cr>, 2013
+# yoyo308 <yoyofv@gmail.com>, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: es\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-05-23 18:57-0400\n"
-"Last-Translator: Klemens Häckel <click3d at linuxmail dot org>\n"
-"Language-Team: spanish <es@li.org>\n"
-"Language: \n"
+"Project-Id-Version: PiSiLinux\n"
+"PO-Revision-Date: 2013-11-16 00:27+0000\n"
+"Last-Translator: megatotoro <jratlsv2@racsa.co.cr>\n"
+"Language-Team: Spanish (http://www.transifex.com/projects/p/PiSiLinux/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"X-Poedit-Language: Spanish\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. ok button label
 #. txt_ok
@@ -86,9 +84,7 @@ msgstr "Saliendo..."
 msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
-msgstr ""
-"Está saliendo del menú gráfico de arranque e\n"
-"iniciando la interfaz en modo texto."
+msgstr "Está saliendo del menú gráfico de arranque e\niniciando la interfaz en modo texto."
 
 #. txt_help
 msgid "Help"
@@ -105,10 +101,7 @@ msgid ""
 "Loading Linux Kernel\n"
 "\n"
 "\n"
-msgstr ""
-"Cargando el kernel Linux\n"
-"\n"
-"\n"
+msgstr "Cargando el kernel Linux\n\n\n"
 
 #. Keep the three newlines!
 #. txt_load_memtest
@@ -116,10 +109,7 @@ msgid ""
 "Loading memtest86\n"
 "\n"
 "\n"
-msgstr ""
-"Cargando memtest86\n"
-"\n"
-"\n"
+msgstr "Cargando memtest86\n\n\n"
 
 #. info box title
 #. txt_info_title
@@ -146,9 +136,7 @@ msgstr "Inserte el disco de arranque %u."
 msgid ""
 "This is boot disk %u.\n"
 "Insert boot disk %u."
-msgstr ""
-"Este es el disco de arranque %u.\n"
-"Inserte el disco de arranque %u."
+msgstr "Este es el disco de arranque %u.\nInserte el disco de arranque %u."
 
 #. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
@@ -156,9 +144,7 @@ msgstr ""
 msgid ""
 "This is not a <product> boot disk.\n"
 "Insert boot disk %u."
-msgstr ""
-"Este no es un disco de arranque de <product>.\n"
-"Introduzca el disco de arranque %u."
+msgstr "Este no es un disco de arranque de <product>.\nIntroduzca el disco de arranque %u."
 
 #. password dialog title
 #. txt_password_title
@@ -179,10 +165,7 @@ msgid ""
 "This is a two-sided DVD. You have booted from the second side.\n"
 "\n"
 "Turn the DVD over then continue."
-msgstr ""
-"Este DVD es de doble cara. Ha arrancado desde la segunda cara.\n"
-"\n"
-"Dé la vuelta al DVD y continúe."
+msgstr "Este DVD es de doble cara. Ha arrancado desde la segunda cara.\n\nDé la vuelta al DVD y continúe."
 
 #. power off dialog title
 #. txt_power_off_title
@@ -338,16 +321,12 @@ msgid "Firmware Test"
 msgstr "Prueba de firmware"
 
 #. txt_dud_file_msg
+#, wrap
 msgid ""
 "To load driver updates directly from CD-ROM,\n"
 "enter the driver update file names (separated\n"
 "by commas ',') here:\n"
-msgstr ""
-"Para cargar las actualizaciones de controlador directamente desde el CD-"
-"ROM,\n"
-"indique los nombres de archivo de las actualizaciones del controlador "
-"(separados\n"
-"por comas \",\") aquí:\n"
+msgstr "Para cargar las actualizaciones de controlador directamente desde el CD-ROM,\nindique los nombres de archivo de las actualizaciones del controlador (separados\npor comas \",\") aquí:\n"
 
 #. install source menu title
 #. ** please keep it really short (comparable to the english text) **
@@ -378,9 +357,8 @@ msgstr "Arquitectura"
 #. ** please keep it really short (comparable to the english text) **
 #. txt_kernel
 msgid "Kernel"
-msgstr "Kernel"
+msgstr "Núcleo"
 
-# favor revisar, si se puede decir mas breve..
 #. menu item for kernel variant (cf. txt_kernel)
 #. menu item for zorg variant (cf. txt_zorg)
 #. txt_kernel_default
@@ -426,13 +404,11 @@ msgstr "Presentación gráfica"
 msgid "Failsafe"
 msgstr "Modo seguro"
 
-# probe - tal vez hay mejor traduccion, favor revisar
 #. menu item for zorg variant (cf. txt_zorg)
 #. txt_zorg_probe
 msgid "Probe Again"
 msgstr "Probar de nuevo"
 
-# favor revisar, alternativas segun contexto: Apagado, inactivo, desactivado, deshabilitado
 #. menu item for zorg variant (cf. txt_zorg)
 #. txt_zorg_off
 msgid "Off"
@@ -444,20 +420,20 @@ msgstr "Información de hardware"
 
 #. txt_mudur
 msgid "Boot"
-msgstr ""
+msgstr "Boot"
 
 #. txt_mudur_forcefsck
 msgid "FS check"
-msgstr ""
+msgstr "FS check"
 
 #. txt_mainmenu
 msgid "Main menu"
-msgstr ""
+msgstr "Menú Principal"
 
 #. txt_otheroptions
 msgid "Other options"
-msgstr ""
+msgstr "Otras Opciones"
 
 #. txt_kernel_debug
 msgid "debug"
-msgstr ""
+msgstr "depurar"

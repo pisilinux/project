@@ -1,21 +1,19 @@
-# Copyright (C) 2004 SUSE LINUX AG
-#
-# Patrik Karlsson <patrik@pardus.nu>, 2009.
+# LANGUAGE translations for boot loader
+# Copyright (C) 2005 SUSE Linux GmbH
+# 
+# Translators:
+# circass <erdincgultekin@gmail.com>, 2013
+# Patrik Karlsson <patrik@pardus.nu>, 2009
 msgid ""
 msgstr ""
-"Project-Id-Version: bootloader\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-12-17 17:56+0100\n"
-"Last-Translator: Patrik Karlsson <patrik@pardus.nu>\n"
-"Language-Team: Swedish <pardus-translators@pardus.org.tr>\n"
-"Language: sv\n"
+"Project-Id-Version: PiSiLinux\n"
+"PO-Revision-Date: 2013-05-18 15:51+0000\n"
+"Last-Translator: circass <erdincgultekin@gmail.com>\n"
+"Language-Team: Swedish (http://www.transifex.com/projects/p/PiSiLinux/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.3\n"
-"X-Poedit-Language: Swedish\n"
-"X-Poedit-Country: SWEDEN\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. ok button label
@@ -83,9 +81,7 @@ msgstr "Avslutar..."
 msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
-msgstr ""
-"Du är på väg att lämna den grafiska startmenyn och\n"
-"starta textlägesgränssnittet."
+msgstr "Du är på väg att lämna den grafiska startmenyn och\nstarta textlägesgränssnittet."
 
 #. txt_help
 msgid "Help"
@@ -102,10 +98,7 @@ msgid ""
 "Loading Linux Kernel\n"
 "\n"
 "\n"
-msgstr ""
-"Laddar Linuxkärnan\n"
-"\n"
-"\n"
+msgstr "Laddar Linuxkärnan\n\n\n"
 
 #. Keep the three newlines!
 #. txt_load_memtest
@@ -113,10 +106,7 @@ msgid ""
 "Loading memtest86\n"
 "\n"
 "\n"
-msgstr ""
-"Laddar memtest86\n"
-"\n"
-"\n"
+msgstr "Laddar memtest86\n\n\n"
 
 #. info box title
 #. txt_info_title
@@ -143,9 +133,7 @@ msgstr "Sätt i startdisk %u."
 msgid ""
 "This is boot disk %u.\n"
 "Insert boot disk %u."
-msgstr ""
-"Det här är startdisk %u.\n"
-"Sätt i startdisk %u."
+msgstr "Det här är startdisk %u.\nSätt i startdisk %u."
 
 #. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
@@ -153,9 +141,7 @@ msgstr ""
 msgid ""
 "This is not a <product> boot disk.\n"
 "Insert boot disk %u."
-msgstr ""
-"Det här är inte en <product>-startdisk.\n"
-"Sätt i startdisk %u."
+msgstr "Det här är inte en <product>-startdisk.\nSätt i startdisk %u."
 
 #. password dialog title
 #. txt_password_title
@@ -176,10 +162,7 @@ msgid ""
 "This is a two-sided DVD. You have booted from the second side.\n"
 "\n"
 "Turn the DVD over then continue."
-msgstr ""
-"Det här är en dubbelsidig DVD. Du har startat från den andra sidan.\n"
-"\n"
-"Vänd på DVD-skivan och fortsätt sedan."
+msgstr "Det här är en dubbelsidig DVD. Du har startat från den andra sidan.\n\nVänd på DVD-skivan och fortsätt sedan."
 
 #. power off dialog title
 #. txt_power_off_title
@@ -335,14 +318,12 @@ msgid "Firmware Test"
 msgstr "Test av fast program"
 
 #. txt_dud_file_msg
+#, wrap
 msgid ""
 "To load driver updates directly from CD-ROM,\n"
 "enter the driver update file names (separated\n"
 "by commas ',') here:\n"
-msgstr ""
-"För att ladda drivrutinsuppdateringar direkt från cd-rom,\n"
-"ange drivrutinsuppdateringsfilnamn (åtskilda med komman\n"
-"\",\") här:\n"
+msgstr "För att ladda drivrutinsuppdateringar direkt från cd-rom,\nange drivrutinsuppdateringsfilnamn (åtskilda med komman\n\",\") här:\n"
 
 #. install source menu title
 #. ** please keep it really short (comparable to the english text) **
@@ -452,4 +433,4 @@ msgstr "Övriga alternativ"
 
 #. txt_kernel_debug
 msgid "debug"
-msgstr ""
+msgstr "Felsöka"

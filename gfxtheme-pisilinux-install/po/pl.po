@@ -1,21 +1,19 @@
-# translation of pl.po to
-# translation of pl.po to
 # LANGUAGE translations for boot loader
-# Copyright (C) 2004 SUSE LINUX AG
-# Wojciech Kapusta <wojciech@aviary.pl>, 2006.
-#
+# Copyright (C) 2005 SUSE Linux GmbH
+# 
+# Translators:
+# Wojciech Kapusta <wojciech@aviary.pl>, 2006
 msgid ""
 msgstr ""
-"Project-Id-Version: bootloader\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2008-05-14 19:23+0100\n"
-"Last-Translator: wadim dziedzic <nikdo@aviary.pl>\n"
-"Language-Team:  <pl@li.org>\n"
-"Language: \n"
+"Project-Id-Version: PiSiLinux\n"
+"PO-Revision-Date: 2013-04-08 20:00+0000\n"
+"Last-Translator: circass <erdincgultekin@gmail.com>\n"
+"Language-Team: Polish (http://www.transifex.com/projects/p/PiSiLinux/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. ok button label
 #. txt_ok
@@ -82,9 +80,7 @@ msgstr "Zamykanie..."
 msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
-msgstr ""
-"Nastąpi zamknięcie graficznego menu rozruchowego\n"
-"i uruchomienie interfejsu tekstowego."
+msgstr "Nastąpi zamknięcie graficznego menu rozruchowego\ni uruchomienie interfejsu tekstowego."
 
 #. txt_help
 msgid "Help"
@@ -101,10 +97,7 @@ msgid ""
 "Loading Linux Kernel\n"
 "\n"
 "\n"
-msgstr ""
-"Wczytywanie jądra systemu Linux\n"
-"\n"
-"\n"
+msgstr "Wczytywanie jądra systemu Linux\n\n\n"
 
 #. Keep the three newlines!
 #. txt_load_memtest
@@ -112,10 +105,7 @@ msgid ""
 "Loading memtest86\n"
 "\n"
 "\n"
-msgstr ""
-"Wczytywanie memtest86\n"
-"\n"
-"\n"
+msgstr "Wczytywanie memtest86\n\n\n"
 
 #. info box title
 #. txt_info_title
@@ -142,9 +132,7 @@ msgstr "Proszę umieścić dysk startowy %u w napędzie."
 msgid ""
 "This is boot disk %u.\n"
 "Insert boot disk %u."
-msgstr ""
-"W napędzie znajduje się dysk startowy %u.\n"
-"Proszę włożyć dysk startowy %u."
+msgstr "W napędzie znajduje się dysk startowy %u.\nProszę włożyć dysk startowy %u."
 
 #. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
@@ -152,9 +140,7 @@ msgstr ""
 msgid ""
 "This is not a <product> boot disk.\n"
 "Insert boot disk %u."
-msgstr ""
-"To nie jest dysk startowy systemu <product>.\n"
-"Proszę włożyć dysk startowy %u."
+msgstr "To nie jest dysk startowy systemu <product>.\nProszę włożyć dysk startowy %u."
 
 #. password dialog title
 #. txt_password_title
@@ -175,10 +161,7 @@ msgid ""
 "This is a two-sided DVD. You have booted from the second side.\n"
 "\n"
 "Turn the DVD over then continue."
-msgstr ""
-"To jest dwustronna płyta DVD. System został uruchomiony\n"
-"z drugiej strony płyty.\n"
-"Proszę odwrócić płytę."
+msgstr "To jest dwustronna płyta DVD. System został uruchomiony\nz drugiej strony płyty.\nProszę odwrócić płytę."
 
 #. power off dialog title
 #. txt_power_off_title
@@ -334,14 +317,12 @@ msgid "Firmware Test"
 msgstr "Test oprogramowania sprzętu"
 
 #. txt_dud_file_msg
+#, wrap
 msgid ""
 "To load driver updates directly from CD-ROM,\n"
 "enter the driver update file names (separated\n"
 "by commas ',') here:\n"
-msgstr ""
-"Aby załadować aktualizacje sterowników \n"
-"bezpośrednio z CD, proszę podac nazwy plików\n"
-"z aktualizacjami (oddzielone przecinkami ','):\n"
+msgstr "Aby załadować aktualizacje sterowników \nbezpośrednio z CD, proszę podac nazwy plików\nz aktualizacjami (oddzielone przecinkami ','):\n"
 
 #. install source menu title
 #. ** please keep it really short (comparable to the english text) **

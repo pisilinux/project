@@ -1,24 +1,21 @@
-# translation of de.po to Deutsch
-# translation of de.po to
 # LANGUAGE translations for boot loader
-# Copyright (C) 2004 SUSE LINUX AG
-#
-# Antje Faber <afaber@suse.de>, 2004, 2005.
-# Mustafa Ölcerman <m.oelcerman@pardus-linux.de>, 2008.
+# Copyright (C) 2005 SUSE Linux GmbH
+# 
+# Translators:
+# Antje Faber <afaber@suse.de>, 2004-2005
+# circass <erdincgultekin@gmail.com>, 2013
+# Mustafa Ölcerman <m.oelcerman@pardus-linux.de>, 2008
 msgid ""
 msgstr ""
-"Project-Id-Version: de\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-07-27 16:23+0200\n"
-"PO-Revision-Date: 2008-06-18 00:29+0200\n"
-"Last-Translator: Mustafa Ölcerman <m.oelcerman@pardus-linux.de>\n"
-"Language-Team: Deutsch <pardus-translation-de@pardus.org.tr>\n"
-"Language: \n"
+"Project-Id-Version: PiSiLinux\n"
+"PO-Revision-Date: 2013-04-09 15:11+0000\n"
+"Last-Translator: circass <erdincgultekin@gmail.com>\n"
+"Language-Team: German (http://www.transifex.com/projects/p/PiSiLinux/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. ok button label
 #. txt_ok
@@ -85,9 +82,7 @@ msgstr "Beenden ..."
 msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
-msgstr ""
-"Sie verlassen das grafische Bootmenü und\n"
-"kommen in den Textmodus."
+msgstr "Sie verlassen das grafische Bootmenü und\nkommen in den Textmodus."
 
 #. txt_help
 msgid "Help"
@@ -104,10 +99,7 @@ msgid ""
 "Loading Linux Kernel\n"
 "\n"
 "\n"
-msgstr ""
-"Laden des Linux-Kernels\n"
-"\n"
-"\n"
+msgstr "Laden des Linux-Kernels\n\n\n"
 
 #. Keep the three newlines!
 #. txt_load_memtest
@@ -115,10 +107,7 @@ msgid ""
 "Loading memtest86\n"
 "\n"
 "\n"
-msgstr ""
-"Laden von memtest86\n"
-"\n"
-"\n"
+msgstr "Laden von memtest86\n\n\n"
 
 #. info box title
 #. txt_info_title
@@ -145,9 +134,7 @@ msgstr "Bootdiskette %u einlegen."
 msgid ""
 "This is boot disk %u.\n"
 "Insert boot disk %u."
-msgstr ""
-"Dies ist Bootdiskette %u.\n"
-"Legen Sie bitte die Bootdiskette %u ein."
+msgstr "Dies ist Bootdiskette %u.\nLegen Sie bitte die Bootdiskette %u ein."
 
 #. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
@@ -155,9 +142,7 @@ msgstr ""
 msgid ""
 "This is not a <product> boot disk.\n"
 "Insert boot disk %u."
-msgstr ""
-"Dies ist keine <product>-Bootdiskette.\n"
-"Legen Sie bitte die Bootdiskette %u ein."
+msgstr "Dies ist keine <product>-Bootdiskette.\nLegen Sie bitte die Bootdiskette %u ein."
 
 #. password dialog title
 #. txt_password_title
@@ -178,10 +163,7 @@ msgid ""
 "This is a two-sided DVD. You have booted from the second side.\n"
 "\n"
 "Turn the DVD over then continue."
-msgstr ""
-"Dies ist eine doppelseitige DVD. Sie haben von der zweiten Seite gebootet.\n"
-"\n"
-"Drehen Sie bitte die DVD um, und fahren Sie dann fort."
+msgstr "Dies ist eine doppelseitige DVD. Sie haben von der zweiten Seite gebootet.\n\nDrehen Sie bitte die DVD um, und fahren Sie dann fort."
 
 #. power off dialog title
 #. txt_power_off_title
@@ -337,14 +319,12 @@ msgid "Firmware Test"
 msgstr "Firmware-Test"
 
 #. txt_dud_file_msg
+#, wrap
 msgid ""
 "To load driver updates directly from CD-ROM,\n"
 "enter the driver update file names (separated\n"
 "by commas ',') here:\n"
-msgstr ""
-"Wenn Sie Treiber-Updates direkt von der CD-ROM laden möchten,\n"
-"geben Sie hier die Dateinamen der Treiber-Updates\n"
-"(durch Kommas getrennt) ein:\n"
+msgstr "Wenn Sie Treiber-Updates direkt von der CD-ROM laden möchten,\ngeben Sie hier die Dateinamen der Treiber-Updates\n(durch Kommas getrennt) ein:\n"
 
 #. install source menu title
 #. ** please keep it really short (comparable to the english text) **
@@ -434,24 +414,24 @@ msgstr "Aus"
 
 #. txt_hdt
 msgid "Hardware info"
-msgstr ""
+msgstr "Hardware info"
 
 #. txt_mudur
 msgid "Boot"
-msgstr ""
+msgstr "Starten"
 
 #. txt_mudur_forcefsck
 msgid "FS check"
-msgstr ""
+msgstr "FS check"
 
 #. txt_mainmenu
 msgid "Main menu"
-msgstr ""
+msgstr "Hauptmenü"
 
 #. txt_otheroptions
 msgid "Other options"
-msgstr ""
+msgstr "Weitere Optionen"
 
 #. txt_kernel_debug
 msgid "debug"
-msgstr ""
+msgstr "\t\nFehler beseitigen"

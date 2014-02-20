@@ -1,21 +1,19 @@
-# translation of it.po to
-# translation of it.po to
-# translation of bootloader.po to
-# translation of bootloader.po to
 # LANGUAGE translations for boot loader
-# Copyright (C) 2004 SUSE LINUX AG
+# Copyright (C) 2005 SUSE Linux GmbH
+# 
+# Translators:
+# ddave <ddave090@gmail.com>, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: it\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2008-05-13 09:19-0600\n"
-"Last-Translator: Alberto Passalacqua <alberto.passalacqua@tin.it>\n"
-"Language-Team: Novell Language <language@novell.com>\n"
-"Language: \n"
+"Project-Id-Version: PiSiLinux\n"
+"PO-Revision-Date: 2013-09-15 09:21+0000\n"
+"Last-Translator: ddave <ddave090@gmail.com>\n"
+"Language-Team: Italian (http://www.transifex.com/projects/p/PiSiLinux/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.3.1\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. ok button label
 #. txt_ok
@@ -47,15 +45,15 @@ msgstr "Installazione manuale"
 
 #. txt_noacpi_install
 msgid "Installation--ACPI Disabled"
-msgstr "Installazione--ACPI disabilitata"
+msgstr "Installazione--ACPI Disabilitata"
 
 #. txt_safe_install
 msgid "Installation--Safe Settings"
-msgstr "Installazione--Safe Settings"
+msgstr "Installazione--Impostazioni Sicure"
 
 #. txt_safe_linux
 msgid "Linux--Safe Settings"
-msgstr "Linux--Safe Settings"
+msgstr "Linux--Impostazioni Sicure"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -63,7 +61,7 @@ msgstr "Avvio dal disco rigido"
 
 #. txt_rescue
 msgid "Rescue System"
-msgstr "Sistema di salvataggio"
+msgstr "Sistema di Ripristino"
 
 #. txt_memtest
 msgid "Memory Test"
@@ -82,9 +80,7 @@ msgstr "Uscita in corso..."
 msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
-msgstr ""
-"State per uscire dal menu di avvio grafico e\n"
-"per avviare l'interfaccia nel modo testo."
+msgstr "State per uscire dal menu di avvio grafico e\nper avviare l'interfaccia nel modo di testo."
 
 #. txt_help
 msgid "Help"
@@ -101,10 +97,7 @@ msgid ""
 "Loading Linux Kernel\n"
 "\n"
 "\n"
-msgstr ""
-"Caricamento del kernel Linux in corso\n"
-"\n"
-"\n"
+msgstr "Caricamento del kernel Linux in corso\n\n\n"
 
 #. Keep the three newlines!
 #. txt_load_memtest
@@ -112,10 +105,7 @@ msgid ""
 "Loading memtest86\n"
 "\n"
 "\n"
-msgstr ""
-"Caricamento di memtest86 in corso\n"
-"\n"
-"\n"
+msgstr "Caricamento di memtest86 in corso\n\n\n"
 
 #. info box title
 #. txt_info_title
@@ -142,9 +132,7 @@ msgstr "Inserire il disco di avvio di %u."
 msgid ""
 "This is boot disk %u.\n"
 "Insert boot disk %u."
-msgstr ""
-"Questo è il disco di avvio di %u.\n"
-"Inserire il disco di avvio di %u."
+msgstr "Questo è il disco di avvio di %u.\nInserire il disco di avvio di %u."
 
 #. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
@@ -152,9 +140,7 @@ msgstr ""
 msgid ""
 "This is not a <product> boot disk.\n"
 "Insert boot disk %u."
-msgstr ""
-"Questo non è un disco di avvio di <prodotto>.\n"
-"Inserire il disco di avvio %u."
+msgstr "Questo non è un disco di avvio di <prodotto>.\nInserire il disco di avvio %u."
 
 #. password dialog title
 #. txt_password_title
@@ -175,10 +161,7 @@ msgid ""
 "This is a two-sided DVD. You have booted from the second side.\n"
 "\n"
 "Turn the DVD over then continue."
-msgstr ""
-"Il DVD è a due lati. È stato effettuato l'avvio dal secondo lato.\n"
-"\n"
-"Capovolgere il DVD e continuare."
+msgstr "Il DVD è a due lati. È stato effettuato l'avvio dal secondo lato.\n\nCapovolgere il DVD e continuare."
 
 #. power off dialog title
 #. txt_power_off_title
@@ -334,14 +317,12 @@ msgid "Firmware Test"
 msgstr "Verifica firmware"
 
 #. txt_dud_file_msg
+#, wrap
 msgid ""
 "To load driver updates directly from CD-ROM,\n"
 "enter the driver update file names (separated\n"
 "by commas ',') here:\n"
-msgstr ""
-"Per caricare gli aggiornamenti del driver direttamente dal CD ROM,\n"
-"immettere qui i nomi dei file di aggiornamento del driver (separati\n"
-"da virgole','):\n"
+msgstr "Per caricare gli aggiornamenti del driver direttamente dal CD ROM,\nimmettere qui i nomi dei file di aggiornamento del driver (separati\nda virgole','):\n"
 
 #. install source menu title
 #. ** please keep it really short (comparable to the english text) **
@@ -412,43 +393,43 @@ msgstr "Verifica del supporto di installazione"
 #. menu item for zorg variant (cf. txt_zorg)
 #. txt_zorg
 msgid "Graphical Display"
-msgstr ""
+msgstr "Display Grafico"
 
 #. menu item for zorg variant (cf. txt_zorg)
 #. txt_zorg_safe
 msgid "Failsafe"
-msgstr ""
+msgstr "Failsafe"
 
 #. menu item for zorg variant (cf. txt_zorg)
 #. txt_zorg_probe
 msgid "Probe Again"
-msgstr ""
+msgstr "Chiedi ancora"
 
 #. menu item for zorg variant (cf. txt_zorg)
 #. txt_zorg_off
 msgid "Off"
-msgstr ""
+msgstr "Spento"
 
 #. txt_hdt
 msgid "Hardware info"
-msgstr ""
+msgstr "Informazioni Hardware"
 
 #. txt_mudur
 msgid "Boot"
-msgstr ""
+msgstr "Avvio"
 
 #. txt_mudur_forcefsck
 msgid "FS check"
-msgstr ""
+msgstr "Controllo FS"
 
 #. txt_mainmenu
 msgid "Main menu"
-msgstr ""
+msgstr "Menu Principale"
 
 #. txt_otheroptions
 msgid "Other options"
-msgstr ""
+msgstr "Altre opzioni"
 
 #. txt_kernel_debug
 msgid "debug"
-msgstr ""
+msgstr "debug"
