@@ -1,21 +1,23 @@
-# translation of nl.po to Nederlands
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
-# Antoon Tolboom <atolboo@gmail.com>, 2009, 2010.
+# 
+# Translators:
+# atolboo <atolboo@gmail.com>, 2009-2010
+# mozen <inactive+mozen@transifex.com>, 2013
+# richdb <rr.debruin@gmail.com>, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: nl\n"
+"Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-09-16 00:19+0300\n"
-"PO-Revision-Date: 2010-09-16 09:50+0200\n"
-"Last-Translator: Antoon Tolboom <atolboo@gmail.com>\n"
-"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
+"PO-Revision-Date: 2013-06-10 08:25+0000\n"
+"Last-Translator: richdb <rr.debruin@gmail.com>\n"
+"Language-Team: Dutch (http://www.transifex.com/projects/p/PiSiLinux/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: nl\n"
-"X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: data/firewall-manager.desktop.in.h:1
@@ -50,20 +52,18 @@ msgstr "Eerste ontwikkelaar"
 #: src/firewallmanager/about.py:36
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Antoon Tolboom"
+msgstr "Antoon Tolboom, Richard de Bruin"
 
 #: src/firewallmanager/about.py:36
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "atolboo@gmail.com"
+msgstr "atolboo@gmail.com, rr.debruin@gmail.com"
 
 #: src/firewallmanager/main.py:96
 msgid ""
 "There are no packages that provide backend for this application.\n"
 "Please make sure that packages are installed and configured correctly."
-msgstr ""
-"Er zijn geen pakketten die backend voor deze toepassing geven.\n"
-"Installeer de pakketten en stel ze correct in."
+msgstr "Er zijn geen pakketten die backend voor deze toepassing geven.\nInstalleer de pakketten en stel ze correct in."
 
 #: src/firewallmanager/main.py:200
 msgid "All"
@@ -78,7 +78,7 @@ msgstr "Actie"
 msgid "Access denied."
 msgstr "Toegang geweigerd."
 
-#: src/firewallmanager/main.py:94
+#: rc/firewallmanager/main.py:94
 msgid "Error"
 msgstr "Fout"
 
@@ -118,29 +118,26 @@ msgstr "Verwijderen"
 msgid "Add New"
 msgstr "Nieuwe toevoegen"
 
-#: ui/ui_settingsitem:78
+#: i/ui_settingsitem.py:78
 msgid "Add"
 msgstr "Toe te voegen"
 
-#: ui/ui_settingsitem:79
+#: i/ui_settingsitem.py:78
 msgid "Remove"
 msgstr "Verwijder"
 
-#: ui/ui_settingsitem:80
+#: i/ui_settingsitem.py:78
 msgid "Move Up"
-msgstr "overgaan"
+msgstr "Overgaan"
 
-#: ui/ui_settingsitem:81
+#: i/ui_settingsitem.py:78
 msgid "Move Down"
 msgstr "Naar beneden"
 
 #: src/firewallmanager/pagedialog.py:67
 msgid "Ok"
-msgstr "Okay"
+msgstr "OK"
 
 #: src/firewallmanager/pagedialog.py:71
 msgid "Cancel"
 msgstr "Annuleren"
-
-#~ msgid " "
-#~ msgstr " "

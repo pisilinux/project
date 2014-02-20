@@ -3,23 +3,24 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# asrorul_irsyad <culture.traveller@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-09-16 00:19+0300\n"
-"PO-Revision-Date: 2013-01-04 22:01+0000\n"
-"Last-Translator: circass <erdincgultekin@gmail.com>\n"
-"Language-Team: Russian (http://www.transifex.com/projects/p/PiSiLinux/language/ru/)\n"
+"PO-Revision-Date: 2014-01-18 14:01+0000\n"
+"Last-Translator: asrorul_irsyad <culture.traveller@gmail.com>\n"
+"Language-Team: Indonesian (http://www.transifex.com/projects/p/PiSiLinux/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: data/firewall-manager.desktop.in.h:1
 msgid "An application for managing firewall."
-msgstr "Приложение для управления брандмауэром."
+msgstr "Sebuah aplikasi untuk mengatur firewall"
 
 #: data/firewall-manager.desktop.in.h:2
 #: data/kcm_firewall-manager.desktop.in.h:1
@@ -36,7 +37,7 @@ msgstr "Gökmen Göksel"
 
 #: src/firewallmanager/about.py:34
 msgid "Current Maintainer"
-msgstr "Текущий менеджер"
+msgstr "Pengelola saat ini"
 
 #: src/firewallmanager/about.py:35
 msgid "Bahadır Kandemir"
@@ -44,97 +45,97 @@ msgstr "Bahadır Kandemir"
 
 #: src/firewallmanager/about.py:35
 msgid "First Developer"
-msgstr "Первый разработчик"
+msgstr "Pengembang pertama"
 
 #: src/firewallmanager/about.py:36
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Ясыров Василий, Семенов Николай, Щербаков Александр"
+msgstr "Nama Anda"
 
 #: src/firewallmanager/about.py:36
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "zag@vspu.ru, tribunal2000@gmail.com, neocrust@gmail.com"
+msgstr "Email Anda"
 
 #: src/firewallmanager/main.py:96
 msgid ""
 "There are no packages that provide backend for this application.\n"
 "Please make sure that packages are installed and configured correctly."
-msgstr "Нет пакетов, которые обеспечивают основу для этого приложения.\n Пожалуйста, убедитесь, что пакеты были установлены и настроены правильно."
+msgstr "Tidak ada paket yang menyediakan backend untuk aplikasi ini.\nMohon pastikan bahwa paket telah dipasang dan dikonfigurasi dengan benar."
 
 #: src/firewallmanager/main.py:200
 msgid "All"
-msgstr "Все"
+msgstr "Semua"
 
 #: src/firewallmanager/main.py:211
 msgid "Action"
-msgstr "Действие"
+msgstr "Tindakan"
 
 #: src/firewallmanager/main.py:257 src/firewallmanager/main.py:280
 #: src/firewallmanager/main.py:317
 msgid "Access denied."
-msgstr "Отказано в доступе."
+msgstr "Akses ditolak"
 
 #: rc/firewallmanager/main.py:94
 msgid "Error"
-msgstr "Ошибка"
+msgstr "Kesalahan"
 
 #: src/firewallmanager/pagedialog.py:31 src/firewallmanager/pagedialog.py:35
 msgid "Settings"
-msgstr "Настройки"
+msgstr "Pengaturan"
 
 #: src/firewallmanager/service.py:38
 msgid "Firewall is activated."
-msgstr "Брандмауэр включен."
+msgstr "Firewall diaktifkan"
 
 #: src/firewallmanager/service.py:41
 msgid "Stop"
-msgstr "Стоп"
+msgstr "Berhenti"
 
 #: src/firewallmanager/service.py:43
 msgid "Firewall is deactivated."
-msgstr "Брандмауэр отключен"
+msgstr "Firewall dimatikan"
 
 #: src/firewallmanager/service.py:46 ui/ui_service.py:47
 msgid "Start"
-msgstr "Старт"
+msgstr "Mulai"
 
 #: ui/ui_item.py:74
 msgid "Active or deactivate module."
-msgstr "Включить или выключить модуль."
+msgstr "Mengaktifkan atau mematikan modul"
 
 #: ui/ui_item.py:75
 msgid "Edit"
-msgstr "Изменить"
+msgstr "Ubah"
 
 #: ui/ui_item.py:76
 msgid "Delete"
-msgstr "Удалить"
+msgstr "Hapus"
 
 #: ui/ui_main.py:82
 msgid "Add New"
-msgstr "Добавить"
+msgstr "Tambah baru"
 
 #: i/ui_settingsitem.py:78
 msgid "Add"
-msgstr "Добавить"
+msgstr "Tambahkan"
 
 #: i/ui_settingsitem.py:78
 msgid "Remove"
-msgstr "Удалить"
+msgstr "Hilangkan"
 
 #: i/ui_settingsitem.py:78
 msgid "Move Up"
-msgstr "придвигаться"
+msgstr "Pindahkan ke atas"
 
 #: i/ui_settingsitem.py:78
 msgid "Move Down"
-msgstr "спускать"
+msgstr "Pindahkan ke bawah"
 
 #: src/firewallmanager/pagedialog.py:67
 msgid "Ok"
-msgstr "хорошо"
+msgstr "Oke."
 
 #: src/firewallmanager/pagedialog.py:71
 msgid "Cancel"
-msgstr "Отменить"
+msgstr "Batalkan"

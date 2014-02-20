@@ -1,22 +1,22 @@
-# translation of po-file for firewall-manager into german
-# Firewall Manager.
-# Copyright (C) 2006-2009, TÜBİTAK/UEKAE
-# This file is distributed under the same license as the Firewall Manager package.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
 # 
-# Stefan <sw1976de at googlemail dot com>, 2009.
+# Translators:
+# Stefan <sw1976de at googlemail dot com>, 2009
 msgid ""
 msgstr ""
-"Project-Id-Version: es\n"
+"Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-09-16 00:19+0300\n"
-"PO-Revision-Date: 2009-07-09 00:30+0100\n"
-"Last-Translator: Stefan <sw1976de@googlemail.com>\n"
-"Language-Team: Deutsch <pardus-translation-de@pardus.org.tr>\n"
+"PO-Revision-Date: 2013-01-04 21:49+0000\n"
+"Last-Translator: circass <erdincgultekin@gmail.com>\n"
+"Language-Team: German (http://www.transifex.com/projects/p/PiSiLinux/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: data/firewall-manager.desktop.in.h:1
 msgid "An application for managing firewall."
@@ -61,9 +61,7 @@ msgstr "sw@pardususer.de"
 msgid ""
 "There are no packages that provide backend for this application.\n"
 "Please make sure that packages are installed and configured correctly."
-msgstr ""
-"Für das Backend dieser Applikation sind keine Pakete vorhanden.\n"
-"Bitte stellen Sie sicher, dass die erforderlichen Pakete installiert und korrekt konfiguriert sind."
+msgstr "Für das Backend dieser Applikation sind keine Pakete vorhanden.\nBitte stellen Sie sicher, dass die erforderlichen Pakete installiert und korrekt konfiguriert sind."
 
 #: src/firewallmanager/main.py:200
 msgid "All"
@@ -78,7 +76,7 @@ msgstr "Aktion"
 msgid "Access denied."
 msgstr "Zugriff verweigert."
 
-#: src/firewallmanager/main.py:94
+#: rc/firewallmanager/main.py:94
 msgid "Error"
 msgstr "Fehler"
 
@@ -100,7 +98,7 @@ msgstr "Firewall ist deaktiviert."
 
 #: src/firewallmanager/service.py:46 ui/ui_service.py:47
 msgid "Start"
-msgstr "Aktivieren"
+msgstr "Start"
 
 #: ui/ui_item.py:74
 msgid "Active or deactivate module."
@@ -118,19 +116,19 @@ msgstr "Löschen"
 msgid "Add New"
 msgstr "Neu hinzufügen"
 
-#: ui/ui_settingsitem:78
+#: i/ui_settingsitem.py:78
 msgid "Add"
 msgstr "Hinzufügen"
 
-#: ui/ui_settingsitem:79
+#: i/ui_settingsitem.py:78
 msgid "Remove"
 msgstr "Entfernen"
 
-#: ui/ui_settingsitem:80
+#: i/ui_settingsitem.py:78
 msgid "Move Up"
 msgstr "Nach oben"
 
-#: ui/ui_settingsitem:81
+#: i/ui_settingsitem.py:78
 msgid "Move Down"
 msgstr "Nach unten"
 
@@ -140,7 +138,4 @@ msgstr "Ok"
 
 #: src/firewallmanager/pagedialog.py:71
 msgid "Cancel"
-msgstr "stornieren"
-
-#~ msgid " "
-#~ msgstr " "
+msgstr "Abbrechen"

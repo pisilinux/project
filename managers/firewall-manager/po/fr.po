@@ -1,23 +1,22 @@
-#ifndef FR.PO
-#define FR.PO
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # 
-# Philippe Svetoslavsky <philsvet@gmail.com>, 2009.
+# Translators:
+# Philippe Svetoslavsky <philsvet@gmail.com>, 2009
 msgid ""
 msgstr ""
-"Project-Id-Version: firewall-manager\n"
+"Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-09-16 00:19+0300\n"
-"PO-Revision-Date: 2009-08-19 09:54+0200\n"
-"Last-Translator: Philippe Svetoslavsky <philsvet@gmail.com>\n"
-"Language-Team: French <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2013-01-04 21:39+0000\n"
+"Last-Translator: circass <erdincgultekin@gmail.com>\n"
+"Language-Team: French (http://www.transifex.com/projects/p/PiSiLinux/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 0.3\n"
 
 #: data/firewall-manager.desktop.in.h:1
 msgid "An application for managing firewall."
@@ -62,9 +61,7 @@ msgstr "Votre courriel"
 msgid ""
 "There are no packages that provide backend for this application.\n"
 "Please make sure that packages are installed and configured correctly."
-msgstr ""
-"Cette application n'existe pas en version utilisable dans une console.\n"
-"Merci de vous assurer que les paquets sont correctement installés et configurés."
+msgstr "Cette application n'existe pas en version utilisable dans une console.\nMerci de vous assurer que les paquets sont correctement installés et configurés."
 
 #: src/firewallmanager/main.py:200
 msgid "All"
@@ -79,7 +76,7 @@ msgstr "Action"
 msgid "Access denied."
 msgstr "Accès refusé."
 
-#: src/firewallmanager/main.py:94
+#: rc/firewallmanager/main.py:94
 msgid "Error"
 msgstr "Erreur"
 
@@ -119,19 +116,19 @@ msgstr "Supprimer"
 msgid "Add New"
 msgstr "Ajouter un nouveau"
 
-#: ui/ui_settingsitem:78
+#: i/ui_settingsitem.py:78
 msgid "Add"
 msgstr "Ajouter"
 
-#: ui/ui_settingsitem:79
+#: i/ui_settingsitem.py:78
 msgid "Remove"
 msgstr "Supprimer"
 
-#: ui/ui_settingsitem:80
+#: i/ui_settingsitem.py:78
 msgid "Move Up"
 msgstr "Déplacer vers le haut"
 
-#: ui/ui_settingsitem:81
+#: i/ui_settingsitem.py:78
 msgid "Move Down"
 msgstr "Descendre"
 
@@ -142,8 +139,3 @@ msgstr "Bien"
 #: src/firewallmanager/pagedialog.py:71
 msgid "Cancel"
 msgstr "Annuler"
-
-#~ msgid " "
-
-#~ msgstr " "
-#endif // FR.PO

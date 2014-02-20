@@ -1,21 +1,23 @@
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
-# Daniel Kovács <bicskas9323@gmail.com>, 2010.
-# Attila Siposs <sipiatti@gmail.com>, 2010.
+# 
+# Translators:
+# andrasf <foldi.andras@yahoo.ie>, 2014
+# sipiatti <sipiatti@gmail.com>, 2010
+# Daniel Kovács <bicskas9323@gmail.com>, 2010
 msgid ""
 msgstr ""
-"Project-Id-Version: hu\n"
+"Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-09-16 00:19+0300\n"
-"PO-Revision-Date: 2010-11-27 22:39+0100\n"
-"Last-Translator: Attila Siposs <sipiatti@gmail.com>\n"
-"Language-Team: Hungarian <pardus-translators@pardus.org.tr>\n"
+"PO-Revision-Date: 2014-01-17 13:03+0000\n"
+"Last-Translator: andrasf <foldi.andras@yahoo.ie>\n"
+"Language-Team: Hungarian (http://www.transifex.com/projects/p/PiSiLinux/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
-"X-Generator: Lokalize 1.0\n"
+"Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: data/firewall-manager.desktop.in.h:1
@@ -61,10 +63,7 @@ msgstr "bicskas9323@gmail.com, sipiatti@gmail.com"
 msgid ""
 "There are no packages that provide backend for this application.\n"
 "Please make sure that packages are installed and configured correctly."
-msgstr ""
-"Az alkalmazáshoz szükséges háttércsomag(ok) nem található(k). \n"
-"Ellenőrizze, hogy a szükséges csomagok telepítésre kerültek, és "
-"megfelelően be vannak állítva."
+msgstr "Az alkalmazáshoz szükséges háttércsomag(ok) nem található(k). \nEllenőrizze, hogy a szükséges csomagok telepítésre kerültek, és megfelelően be vannak állítva."
 
 #: src/firewallmanager/main.py:200
 msgid "All"
@@ -79,7 +78,7 @@ msgstr "Művelet"
 msgid "Access denied."
 msgstr "Hozzáférés megtagadva."
 
-#: src/firewallmanager/main.py:94
+#: rc/firewallmanager/main.py:94
 msgid "Error"
 msgstr "Hiba"
 
@@ -105,7 +104,7 @@ msgstr "Indítás"
 
 #: ui/ui_item.py:74
 msgid "Active or deactivate module."
-msgstr "Modul aktiválása, vagy deaktiválása."
+msgstr "Modul bekapcsolása vagy kikapcsolása."
 
 #: ui/ui_item.py:75
 msgid "Edit"
@@ -119,29 +118,26 @@ msgstr "Törlés"
 msgid "Add New"
 msgstr "Új hozzáadása"
 
-#: ui/ui_settingsitem:78
+#: i/ui_settingsitem.py:78
 msgid "Add"
-msgstr "Hozzáadása"
+msgstr "Hozzáadás"
 
-#: ui/ui_settingsitem:79
+#: i/ui_settingsitem.py:78
 msgid "Remove"
 msgstr "Eltávolítás"
 
-#: ui/ui_settingsitem:80
+#: i/ui_settingsitem.py:78
 msgid "Move Up"
-msgstr "felköltözik"
+msgstr "Mozgatás felfelé"
 
-#: ui/ui_settingsitem:81
+#: i/ui_settingsitem.py:78
 msgid "Move Down"
-msgstr "Lefelé"
+msgstr "Mozgatás Lefelé"
 
 #: src/firewallmanager/pagedialog.py:67
 msgid "Ok"
-msgstr "rendben"
+msgstr "Ok"
 
 #: src/firewallmanager/pagedialog.py:71
 msgid "Cancel"
-msgstr "megszakításához"
-
-#~ msgid " "
-#~ msgstr " "
+msgstr "Mégsem"

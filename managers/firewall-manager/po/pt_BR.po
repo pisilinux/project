@@ -1,21 +1,22 @@
-# Translation of pt_BR.po to Brazilian Portuguese
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # 
-# Diogo Lima <diogo.urb@gmail.com>, 2010.
+# Translators:
+# Diogo Lima <diogo.urb@gmail.com>, 2010
 msgid ""
 msgstr ""
-"Project-Id-Version: pt_BR\n"
+"Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-09-16 00:19+0300\n"
-"PO-Revision-Date: 2010-05-14 00:44-0300\n"
-"Last-Translator: Diogo Lima <diogo.urb@gmail.com>\n"
-"Language-Team: Brazilian Portuguese <http://liste.uludag.org.tr/mailman/listinfo/pardus-translation-ptbr>\n"
+"PO-Revision-Date: 2013-01-04 22:21+0000\n"
+"Last-Translator: circass <erdincgultekin@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/PiSiLinux/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt_BR\n"
-"Generated-By: pygettext.py 1.5\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: data/firewall-manager.desktop.in.h:1
 msgid "An application for managing firewall."
@@ -60,9 +61,7 @@ msgstr "Seus emails"
 msgid ""
 "There are no packages that provide backend for this application.\n"
 "Please make sure that packages are installed and configured correctly."
-msgstr ""
-"Não existem pacotes que provêem suporte para essa aplicação.\n"
-"Por favor tenha certeza de que os pacotes estão instalados e configurados corretamente."
+msgstr "Não existem pacotes que provêem suporte para essa aplicação.\nPor favor tenha certeza de que os pacotes estão instalados e configurados corretamente."
 
 #: src/firewallmanager/main.py:200
 msgid "All"
@@ -77,7 +76,7 @@ msgstr "Ação"
 msgid "Access denied."
 msgstr "Acesso negado."
 
-#: src/firewallmanager/main.py:94
+#: rc/firewallmanager/main.py:94
 msgid "Error"
 msgstr "Erro"
 
@@ -117,19 +116,19 @@ msgstr "Deletar"
 msgid "Add New"
 msgstr "Adicionar Novo"
 
-#: ui/ui_settingsitem:78
+#: i/ui_settingsitem.py:78
 msgid "Add"
 msgstr "Adicionar"
 
-#: ui/ui_settingsitem:79
+#: i/ui_settingsitem.py:78
 msgid "Remove"
 msgstr "Remover"
 
-#: ui/ui_settingsitem:80
+#: i/ui_settingsitem.py:78
 msgid "Move Up"
 msgstr "Mover para cima"
 
-#: ui/ui_settingsitem:81
+#: i/ui_settingsitem.py:78
 msgid "Move Down"
 msgstr "Descer"
 
@@ -140,6 +139,3 @@ msgstr "Ok"
 #: src/firewallmanager/pagedialog.py:71
 msgid "Cancel"
 msgstr "cancelar"
-
-#~ msgid " "
-#~ msgstr " "
