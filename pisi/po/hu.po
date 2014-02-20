@@ -1,25 +1,25 @@
-# PiSi hungarian translation
-# Copyright (C) YEAR ORGANIZATION
-# Zoltan Siposs <zoltan.siposs@gmail.com>
-#
-# Daniel Kovács <bicskas9323@gmail.com>, 2010.
-# Zoltan Siposs <zoltan.siposs@gmail.com>, 2010.
-# Attila Siposs <sipiatti@gmail.com>, 2010.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# andrasf <foldi.andras@yahoo.ie>, 2013
+# sipiatti <sipiatti@gmail.com>, 2010
+# Daniel Kovács <bicskas9323@gmail.com>, 2010
+# circass <erdincgultekin@gmail.com>, 2013
+# Zoltan Siposs <zoltan.siposs@gmail.com>, 2010
 msgid ""
 msgstr ""
-"Project-Id-Version: PiSi\n"
+"Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-06-17 14:30+0300\n"
-"PO-Revision-Date: 2010-12-27 13:15+0100\n"
-"Last-Translator: Attila Siposs <sipiatti@gmail.com>\n"
-"Language-Team: Hungarian <pardus-translators@pardus.org.tr>\n"
-"Language: hu\n"
+"PO-Revision-Date: 2013-04-07 12:29+0000\n"
+"Last-Translator: andrasf <foldi.andras@yahoo.ie>\n"
+"Language-Team: Hungarian (http://www.transifex.com/projects/p/PiSiLinux/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: pygettext.py 1.5\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Lokalize 1.0\n"
+"Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: /usr/lib/python2.7/optparse.py:140
@@ -109,10 +109,8 @@ msgstr "A program futása befejeződött."
 #: pisi-cli:48
 msgid ""
 "Unhandled internal exception.\n"
-"Please file a bug report to <http://bugs.pisilinux.org>."
-msgstr ""
-"Nem kezelt belső hiba.\n"
-"Küldjön hibabejelentést a <http://bugs.pisilinux.org> címen."
+"Please file a bug report to <http://bugs.pardus.org.tr>."
+msgstr "Nem kezelt belső hiba.\nKüldjön hibabejelentést a <http://bugs.pardus.org.tr> címen."
 
 #: pisi-cli:57
 msgid "System error. Program terminated."
@@ -126,27 +124,22 @@ msgstr "Kérjük, használja a \"pisi help\" alkalmazást az általános súgóh
 msgid ""
 "\n"
 "Traceback:"
-msgstr ""
-"\n"
-"Visszakövetés:"
+msgstr "\nVisszakövetés:"
 
 #: pisi-cli:72
 msgid "Use --debug to see a traceback."
 msgstr "Használja a --debug kapcsolót a visszakövetés megjelenítéséhez."
 
 #: pisi.xml.in.h:1
-#, fuzzy
 msgid "PiSi package"
-msgstr "PiSi csomag létrehozása"
+msgstr "PiSi csomag"
 
 #: pisi/actionsapi/autotools.py:36 pisi/actionsapi/cmaketools.py:36
 #, python-format
 msgid ""
 "Please attach the config.log to your bug report:\n"
 "%s/config.log"
-msgstr ""
-"Kérjük, csatolja a config.log-ot a hibajelentéshez:\n"
-"%s/config.log"
+msgstr "Kérjük, csatolja a config.log-ot a hibajelentéshez:\n%s/config.log"
 
 #: pisi/actionsapi/autotools.py:77 pisi/actionsapi/autotools.py:87
 #: pisi/actionsapi/cmaketools.py:66 pisi/actionsapi/kde.py:65
@@ -218,10 +211,7 @@ msgid ""
 "\n"
 "!!! Please attach the config.log to your bug report:\n"
 "%s/config.log"
-msgstr ""
-"\n"
-"!!! Kérjük, csatolja a config.log-ot a hibajelentéshez:\n"
-"%s/config.log"
+msgstr "\n!!! Kérjük, csatolja a config.log-ot a hibajelentéshez:\n%s/config.log"
 
 #: pisi/actionsapi/kerneltools.py:117
 #, python-format
@@ -330,7 +320,9 @@ msgstr "A(z) %s projektfájl nem található."
 
 #: pisi/actionsapi/qt4.py:56
 #, python-format
-msgid "It seems there are more than one .pro file, you must specify one. (Possible .pro files: %s)"
+msgid ""
+"It seems there are more than one .pro file, you must specify one. (Possible "
+".pro files: %s)"
 msgstr "Úgy tűnik több mint egy .pro fájl van. Válasszon ki egyet. (Lehetséges .pro fájlok: %s)"
 
 #: pisi/actionsapi/rubymodules.py:108
@@ -574,24 +566,24 @@ msgid "%s package already fetched"
 msgstr "A(z) %s csomagot már letöltöttem"
 
 #: pisi/api.py:532
-#, fuzzy, python-format
+#, python-format
 msgid "Cleaning package cache %s..."
-msgstr "A(z) %s PiSi csomag létrehozása."
+msgstr "Csomag gyorsírótár tisztítása: %s..."
 
 #: pisi/api.py:534
-#, fuzzy, python-format
+#, python-format
 msgid "Cleaning source archive cache %s..."
-msgstr "A forráscsomag nem található: %s"
+msgstr ""
 
 #: pisi/api.py:536
-#, fuzzy, python-format
+#, python-format
 msgid "Cleaning temporary directory %s..."
-msgstr "Átmeneti könyvtár tisztítása..."
+msgstr ""
 
 #: pisi/api.py:540
-#, fuzzy, python-format
+#, python-format
 msgid "Removing cache file %s..."
-msgstr "%s csomag eltávolítása"
+msgstr ""
 
 #: pisi/api.py:571
 msgid "Taking snapshot of the system"
@@ -607,14 +599,13 @@ msgid "File %s not found"
 msgstr "A(z) %s fájl nem található"
 
 #: pisi/api.py:786
-#, fuzzy, python-format
+#, python-format
 msgid "Building index of PiSi files under %s"
-msgstr "* PiSi fájl-index építése folyamatban: %s"
+msgstr ""
 
 #: pisi/api.py:791
-#, fuzzy
 msgid "Index file written"
-msgstr "* Index fájl létrehozva"
+msgstr ""
 
 #: pisi/api.py:796
 msgid "Not a valid repo name."
@@ -660,9 +651,8 @@ msgid "Updating database at any rate as requested"
 msgstr "Adatbázis frissítése mindenképpen."
 
 #: pisi/api.py:863
-#, fuzzy
 msgid "Package database updated."
-msgstr "* A csomag adatbázis frissítve."
+msgstr ""
 
 #: pisi/api.py:865
 #, python-format
@@ -670,9 +660,9 @@ msgid "No repository named %s found."
 msgstr "%s nevű tároló nem található."
 
 #: pisi/api.py:878
-#, fuzzy, python-format
+#, python-format
 msgid "Adding '%s' to db... "
-msgstr "* '%s' hozzáadása az adatbázishoz..."
+msgstr ""
 
 #: pisi/api.py:881
 msgid "OK."
@@ -727,9 +717,7 @@ msgstr "/%s a(z) %s csomagból\n"
 msgid ""
 "File conflicts:\n"
 "%s"
-msgstr ""
-"Fájl ütközés:\n"
-"%s"
+msgstr "Fájl ütközés:\n%s"
 
 #: pisi/atomicoperations.py:241
 msgid "Re-install same version package?"
@@ -761,7 +749,9 @@ msgid "%s configuration failed."
 msgstr "%s konfigurációja nem sikerült."
 
 #: pisi/atomicoperations.py:400
-msgid "Unable to relocate following files. Reinstallation of this package is strongly recommended."
+msgid ""
+"Unable to relocate following files. Reinstallation of this package is "
+"strongly recommended."
 msgstr "Nem sikerült áthelyezni a következő fájlokat. A csomag újratelepítése erősen ajánlott."
 
 #: pisi/atomicoperations.py:491 pisi/atomicoperations.py:494
@@ -791,7 +781,8 @@ msgstr "Ütköző fájl nincs eltávolítva: %s "
 
 #: pisi/atomicoperations.py:646
 #, python-format
-msgid "Installed file %s does not exist on system [Probably you manually deleted]"
+msgid ""
+"Installed file %s does not exist on system [Probably you manually deleted]"
 msgstr "A telepített %s fájl nem létezik a rendszerben [Valószínűleg a felhasználó törölte]"
 
 #: pisi/cli/__init__.py:117
@@ -836,7 +827,6 @@ msgid "Extracting the files of %s"
 msgstr "Fájlok kibontása %s csomagból"
 
 #: pisi/cli/addrepo.py:24
-#, fuzzy
 msgid ""
 "Add a repository\n"
 "\n"
@@ -847,15 +837,6 @@ msgid ""
 "\n"
 "NB: We support only local files (e.g., /a/b/c) and http:// URIs at the moment\n"
 msgstr ""
-"Tároló hozzáadása\n"
-"\n"
-"Használata: add-repo <tároló_neve> <index_uri>\n"
-"\n"
-"<repo>: a tároló elnevezése\n"
-"<index_uri>: az indexfájlra mutató URL\n"
-"/nHa a tároló nincs megadva, alapértelmezésként a pardus-devel tároló kerül hozzáadásra\n"
-"\n"
-"Megjegyzés: jelenleg csak helyi fájlok (pl. /a/b/c) és http:// típusú címek támogatottak\n"
 
 #: pisi/cli/addrepo.py:43
 msgid "add-repo options"
@@ -874,15 +855,12 @@ msgid "Add repository at given position (0 is first)"
 msgstr "Tároló hozzáadása megadott paraméter pozícióban (0 az első)"
 
 #: pisi/cli/addrepo.py:62
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Add %s repository without updating the database?\n"
 "By confirming this you are also adding the repository to your system without checking the distribution of the repository.\n"
 "Do you want to continue?"
 msgstr ""
-"Tároló hozzáadása adatbázis frissítés nélkül?\n"
-"Ha megerősíti, a tároló hozzáadásakor a disztribúció egyezést sem ellenőrizzük.\n"
-"Folytassuk?"
 
 #: pisi/cli/addrepo.py:74
 #, python-format
@@ -895,11 +873,7 @@ msgid ""
 "\n"
 "Usage: blame <package> ... <package>\n"
 "\n"
-msgstr ""
-"Információ a csomag karbantartójáról és a verzióról\n"
-"\n"
-"Használata: blame <csomagnév> ... <csomagnév>\n"
-"\n"
+msgstr "Információ a csomag karbantartójáról és a verzióról\n\nHasználata: blame <csomagnév> ... <csomagnév>\n\n"
 
 #: pisi/cli/blame.py:39
 msgid "blame options"
@@ -944,16 +918,7 @@ msgid ""
 "\n"
 "Alternatively, you can give the name of a source package\n"
 "to be downloaded from a repository containing sources.\n"
-msgstr ""
-"PiSi csomagok készítése\n"
-"\n"
-"Használata: build [<pspec.xml> | <forrásnév>] ...\n"
-"\n"
-"Megadhatsz egy URI-t is a pspec.xml fájlhoz.\n"
-"A PiSi minden szükséges fájlt letölt és elkészíti a csomagodat.\n"
-"\n"
-"Más lehetőségként megadhatod egy forráscsomag nevét,\n"
-"melyet egy forrásokat kínáló tárolóból lehet letölteni.\n"
+msgstr "PiSi csomagok készítése\n\nHasználata: build [<pspec.xml> | <forrásnév>] ...\n\nMegadhatsz egy URI-t is a pspec.xml fájlhoz.\nA PiSi minden szükséges fájlt letölt és elkészíti a csomagodat.\n\nMás lehetőségként megadhatod egy forráscsomag nevét,\nmelyet egy forrásokat kínáló tárolóból lehet letölteni.\n"
 
 #: pisi/cli/build.py:50
 msgid "build options"
@@ -988,7 +953,9 @@ msgid "Create a static package with ar files"
 msgstr "Statikus csomag létrehozása, ar fájllal"
 
 #: pisi/cli/build.py:93 pisi/cli/delta.py:64
-msgid "Create the binary package using the given format. Use '-F help' to see a list of supported formats."
+msgid ""
+"Create the binary package using the given format. Use '-F help' to see a "
+"list of supported formats."
 msgstr "Bináris csomag létrehozása a megadott formátummal. Használja a '-F help' kapcsolót a támogatott formátumok listájának kiírásához."
 
 #: pisi/cli/build.py:100
@@ -1008,7 +975,9 @@ msgid "Break build after fetching the source archive"
 msgstr "A build megszakítása a forrás csomag letöltése után"
 
 #: pisi/cli/build.py:123
-msgid "Break build after unpacking the source archive, checking sha1sum and applying patches"
+msgid ""
+"Break build after unpacking the source archive, checking sha1sum and "
+"applying patches"
 msgstr "A build megszakítása a forrás csomag letöltése, az sh1sum ellenőrzése és a patchek alkalmazása után"
 
 #: pisi/cli/build.py:131
@@ -1041,7 +1010,6 @@ msgid "  %s (default)"
 msgstr "  %s (alapértelmezett)"
 
 #: pisi/cli/check.py:26
-#, fuzzy
 msgid ""
 "Verify installation\n"
 "\n"
@@ -1056,17 +1024,6 @@ msgid ""
 "\n"
 "If no packages are given, checks all installed packages.\n"
 msgstr ""
-"A telepítés ellenőrzése\n"
-"\n"
-"Használata: check [<csomag1 <csomag2> ... <csomagN>]\n"
-"\n"
-"<packageX>: csomag neve\n"
-"\n"
-"Egy kriptografikus ellenőrző összeg készül minden telepített\n"
-"fájlhoz. A check parancs ezt használja a csomag ellenőrzésére.\n"
-"Csak a csomagok nevét kell megadni.\n"
-"\n"
-"Ha nem adunk meg csomagot, akkor valamennyi telepített csomag ellenőrizve lesz.\n"
 
 #: pisi/cli/check.py:54
 msgid "check options"
@@ -1091,7 +1048,7 @@ msgstr ""
 
 #: pisi/cli/check.py:105
 msgid "Broken"
-msgstr ""
+msgstr "Törött"
 
 #: pisi/cli/check.py:110
 msgid "Unknown"
@@ -1102,11 +1059,9 @@ msgid "OK"
 msgstr "OK"
 
 #: pisi/cli/check.py:118
-#, fuzzy, python-format
+#, python-format
 msgid "Missing file: /%s"
 msgstr ""
-"\n"
-"Hiányzó fájl: /%s"
 
 #: pisi/cli/check.py:122
 #, python-format
@@ -1114,16 +1069,14 @@ msgid "Access denied: /%s"
 msgstr ""
 
 #: pisi/cli/check.py:126
-#, fuzzy, python-format
+#, python-format
 msgid "Corrupted file: /%s"
 msgstr ""
-"\n"
-"Sérült fájl: %s"
 
 #: pisi/cli/check.py:130
-#, fuzzy, python-format
+#, python-format
 msgid "Modified configuration file: /%s"
-msgstr "%s konfigurációja nem sikerült."
+msgstr ""
 
 #: pisi/cli/check.py:135
 #, python-format
@@ -1144,13 +1097,7 @@ msgid ""
 "\n"
 "PiSi uses filesystem locks for managing database access.\n"
 "This command deletes unused locks from the database directory."
-msgstr ""
-"Beragadt zárolások tisztítása\n"
-"\n"
-"Használata: clean\n"
-"\n"
-"A PiSi fájlrendszer zárolást (lock) használ az adatbázis hozzáférés kezelésére.\n"
-"Ez a parancs törli a nem használt zárolásokat az adatbázis könyvtárából."
+msgstr "Beragadt zárolások tisztítása\n\nHasználata: clean\n\nA PiSi fájlrendszer zárolást (lock) használ az adatbázis hozzáférés kezelésére.\nEz a parancs törli a nem használt zárolásokat az adatbázis könyvtárából."
 
 #: pisi/cli/command.py:30
 msgid "Command lacks name"
@@ -1228,12 +1175,7 @@ msgid ""
 "done at installation time, they are added to a list\n"
 "of packages waiting to be configured. This command\n"
 "configures those packages.\n"
-msgstr ""
-"Beállításra váró csomagok\n"
-"Ha néhány csomag comar-beállítása nem történt meg\n"
-"a telepítés során, akkor egy a beállításra váró fájlok\n"
-"listájába kerülnek. Ez a parancs elvégzi ezen csomagok\n"
-"beállítását.\n"
+msgstr "Beállításra váró csomagok\nHa néhány csomag comar-beállítása nem történt meg\na telepítés során, akkor egy a beállításra váró fájlok\nlistájába kerülnek. Ez a parancs elvégzi ezen csomagok\nbeállítását.\n"
 
 #: pisi/cli/configurepending.py:39
 msgid "configure-pending options"
@@ -1248,14 +1190,7 @@ msgid ""
 "Sources, packages and temporary files are stored\n"
 "under /var directory. Since these accumulate they can\n"
 "consume a lot of disk space."
-msgstr ""
-"A gyorsítótár törlése\n"
-"\n"
-"Használata: delete-cache\n"
-"\n"
-"A forráskódok, telepítő csomagok és átmeneti fájlok\n"
-"a /var könyvtár alatt kerülnek tárolásra. Ha ezekből sok összegyűlik,\n"
-"sok lemezterületet foglalhatnak el."
+msgstr "A gyorsítótár törlése\n\nHasználata: delete-cache\n\nA forráskódok, telepítő csomagok és átmeneti fájlok\na /var könyvtár alatt kerülnek tárolásra. Ha ezekből sok összegyűlik,\nsok lemezterületet foglalhatnak el."
 
 #: pisi/cli/delta.py:24
 msgid ""
@@ -1267,14 +1202,7 @@ msgid ""
 "Delta command finds the changed files between the given\n"
 "packages by comparing the sha1sum of files and creates\n"
 "a delta package with the changed files.\n"
-msgstr ""
-"Deltacsomagok létrehozása\n"
-"\n"
-"Használata: delta régicsomag újcsomag\n"
-"\n"
-"A delta utasítás az adott csomagokban található fájlok között  az sha1sum adatok alapján megkeresi a megváltozott\n"
-"állományokat és egy ún. delta PiSi csomagot hoz létre, amelyben csak ezek a megváltozott fájlok lesznek benne.\n"
-"\n"
+msgstr "Deltacsomagok létrehozása\n\nHasználata: delta régicsomag újcsomag\n\nA delta utasítás az adott csomagokban található fájlok között  az sha1sum adatok alapján megkeresi a megváltozott\nállományokat és egy ún. delta PiSi csomagot hoz létre, amelyben csak ezek a megváltozott fájlok lesznek benne.\n\n"
 
 #: pisi/cli/delta.py:46
 msgid "delta options"
@@ -1297,14 +1225,7 @@ msgid ""
 "<repoi>: repository name\n"
 "\n"
 "Disabled repositories are not taken into account in operations\n"
-msgstr ""
-"Tároló kikapcsolása\n"
-"\n"
-"Használata: disable-repo [<repo1> <repo2> ... <repoN>]\n"
-"\n"
-"<repoX>: a tároló neve\n"
-"\n"
-"A kikapcsolt tárolókat nem használjuk a különböző műveletek során.\n"
+msgstr "Tároló kikapcsolása\n\nHasználata: disable-repo [<repo1> <repo2> ... <repoN>]\n\n<repoX>: a tároló neve\n\nA kikapcsolt tárolókat nem használjuk a különböző műveletek során.\n"
 
 #: pisi/cli/emerge.py:25
 msgid ""
@@ -1316,15 +1237,7 @@ msgid ""
 "downloaded from a repository containing sources.\n"
 "\n"
 "You can also give the name of a component.\n"
-msgstr ""
-"A tárolókban található PiSi forráscsomagok fordítása és telepítése\n"
-"\n"
-"Használata: emerge <forráscsomag_neve> ...\n"
-"\n"
-"Meg kell adni a forrástárolóból letöltendő és felépítendő\n"
-"forráscsomag nevét.\n"
-"\n"
-"Megadható egy komponens neve is.\n"
+msgstr "A tárolókban található PiSi forráscsomagok fordítása és telepítése\n\nHasználata: emerge <forráscsomag_neve> ...\n\nMeg kell adni a forrástárolóból letöltendő és felépítendő\nforráscsomag nevét.\n\nMegadható egy komponens neve is.\n"
 
 #: pisi/cli/emerge.py:44
 msgid "emerge options"
@@ -1360,14 +1273,7 @@ msgid ""
 "<repoi>: repository name\n"
 "\n"
 "Disabled repositories are not taken into account in operations\n"
-msgstr ""
-"Tároló bekapcsolása\n"
-"\n"
-"Használata: enabel-repo [<repo1> <repo2> ... <repoN>]\n"
-"\n"
-"<repoX>: a tároló neve\n"
-"\n"
-"A kikapcsolt tárolók nem lesznek használva a műveletek során.\n"
+msgstr "Tároló bekapcsolása\n\nHasználata: enabel-repo [<repo1> <repo2> ... <repoN>]\n\n<repoX>: a tároló neve\n\nA kikapcsolt tárolók nem lesznek használva a műveletek során.\n"
 
 #: pisi/cli/fetch.py:25
 msgid ""
@@ -1378,14 +1284,7 @@ msgid ""
 "<packagei>: package name\n"
 "\n"
 "Downloads the given pisi packages to working directory\n"
-msgstr ""
-"Csomagok letöltése\n"
-"\n"
-"Használata: fetch [<csomag1> <csomag2> ... <csomagN>]\n"
-"\n"
-"<csomagX>: csomag neve\n"
-"\n"
-"Letölti a megadott nevű PiSi csomagokat a munkakönyvtárba\n"
+msgstr "Csomagok letöltése\n\nHasználata: fetch [<csomag1> <csomag2> ... <csomagN>]\n\n<csomagX>: csomag neve\n\nLetölti a megadott nevű PiSi csomagokat a munkakönyvtárba\n"
 
 #: pisi/cli/fetch.py:41
 msgid "fetch options"
@@ -1405,15 +1304,7 @@ msgid ""
 "conflicts relations starting from given packages. By default\n"
 "shows the package relations among repository packages, and writes\n"
 "the package in graphviz format to 'pgraph.dot'.\n"
-msgstr ""
-"Csomagok közötti kapcsolatok grafikus ábrázolása\n"
-"\n"
-"Használata: graph [<csomag1> <csomag2> ...]\n"
-"\n"
-"Grafikusan ábrázolja a csomagok kapcsolatait, a függőségeket\n"
-"és az ütközéseket. Alapértelmezésként az egy tárolón belül lévő\n"
-"csomagok közötti kapcsolatokat mutatja meg, melyet graphviz\n"
-"formátumban a 'pgraph.dot' nevű fájlban helyez el.\n"
+msgstr "Csomagok közötti kapcsolatok grafikus ábrázolása\n\nHasználata: graph [<csomag1> <csomag2> ...]\n\nGrafikusan ábrázolja a csomagok kapcsolatait, a függőségeket\nés az ütközéseket. Alapértelmezésként az egy tárolón belül lévő\ncsomagok közötti kapcsolatokat mutatja meg, melyet graphviz\nformátumban a 'pgraph.dot' nevű fájlban helyez el.\n"
 
 #: pisi/cli/graph.py:43
 msgid "graph options"
@@ -1432,9 +1323,8 @@ msgid "Do not show installed packages"
 msgstr "Ne mutassa a  telepített csomagokat"
 
 #: pisi/cli/graph.py:56
-#, fuzzy
 msgid "Draw reverse dependency graph"
-msgstr "Fordított függőségek:"
+msgstr ""
 
 #: pisi/cli/graph.py:59
 msgid "Dot output file"
@@ -1460,12 +1350,7 @@ msgid ""
 "Usage: help [ <command1> <command2> ... <commandn> ]\n"
 "\n"
 "If run without parameters, it prints the general help."
-msgstr ""
-"Súgó megjelenítése a megadott parancsokhoz\n"
-"\n"
-"Használata: help [ <parancs1> <parancs2> ... <parancsN> ]\n"
-"\n"
-"Paraméter nélkül meghívva általános súgót ad."
+msgstr "Súgó megjelenítése a megadott parancsokhoz\n\nHasználata: help [ <parancs1> <parancs2> ... <parancsN> ]\n\nParaméter nélkül meghívva általános súgót ad."
 
 #: pisi/cli/help.py:49
 msgid ""
@@ -1473,19 +1358,21 @@ msgid ""
 "\n"
 "where <command> is one of:\n"
 "\n"
-msgstr ""
-"%prog [opciók] <parancs> [argumentumok]\n"
-"\n"
-"ahol a <parancs> a következők egyike:\n"
-"\n"
+msgstr "%prog [opciók] <parancs> [argumentumok]\n\nahol a <parancs> a következők egyike:\n\n"
 
 #: pisi/cli/help.py:55
 msgid ""
 "\n"
 "Use \"%prog help <command>\" for help on a specific command.\n"
-msgstr ""
-"\n"
-"Használja a \"%prog help <parancs>\" formátumot egy adott parancs súgójának megjelenítéséhez.\n"
+msgstr "\nHasználja a \"%prog help <parancs>\" formátumot egy adott parancs súgójának megjelenítéséhez.\n"
+
+#: pisi/cli/history.py:28
+msgid "upgrade"
+msgstr "frissítés"
+
+#: pisi/cli/history.py:28
+msgid "remove"
+msgstr "eltávolít"
 
 #: pisi/cli/history.py:28
 msgid "emerge"
@@ -1496,14 +1383,6 @@ msgid "install"
 msgstr "telepít"
 
 #: pisi/cli/history.py:28
-msgid "remove"
-msgstr "eltávolít"
-
-#: pisi/cli/history.py:28
-msgid "repository update"
-msgstr "tároló frissítés"
-
-#: pisi/cli/history.py:28
 msgid "snapshot"
 msgstr "pillanatkép"
 
@@ -1512,8 +1391,8 @@ msgid "takeback"
 msgstr "visszavonás"
 
 #: pisi/cli/history.py:28
-msgid "upgrade"
-msgstr "frissítés"
+msgid "repository update"
+msgstr "tároló frissítés"
 
 #: pisi/cli/history.py:31
 msgid ""
@@ -1522,12 +1401,7 @@ msgid ""
 "Usage: history\n"
 "\n"
 "Lists previous operations."
-msgstr ""
-"Műveletek előzményei\n"
-"\n"
-"Használata: history\n"
-"\n"
-"Kilistázza a megelőző műveleteket."
+msgstr "Műveletek előzményei\n\nHasználata: history\n\nKilistázza a megelőző műveleteket."
 
 #: pisi/cli/history.py:47
 msgid "history options"
@@ -1573,17 +1447,7 @@ msgid ""
 "\n"
 "If you give multiple directories, the command still works, but puts\n"
 "everything in a single index file.\n"
-msgstr ""
-"Indexeli a megadott könyvtárban található PiSi fájlokat\n"
-"\n"
-"Használata index <könyvtár> ...\n"
-"Ez a parancs megkeresi a PiSi fájlokat a megadott könyvtárban\n"
-"kigyűjti belőlük a PiSi címkével jelölt információt és összegyűjti egy XML fájlban,\n"
-"melynek alapértelmezett neve 'pisi-index.xml'. Mind a forrás, mind a bináris\n"
-"csomagokat indexeli.\n"
-"\n"
-"Ha több könyvtárat ad meg a parancs akkor is működik, de minden adat\n"
-"egy darab index fájlba kerül.\n"
+msgstr "Indexeli a megadott könyvtárban található PiSi fájlokat\n\nHasználata index <könyvtár> ...\nEz a parancs megkeresi a PiSi fájlokat a megadott könyvtárban\nkigyűjti belőlük a PiSi címkével jelölt információt és összegyűjti egy XML fájlban,\nmelynek alapértelmezett neve 'pisi-index.xml'. Mind a forrás, mind a bináris\ncsomagokat indexeli.\n\nHa több könyvtárat ad meg a parancs akkor is működik, de minden adat\negy darab index fájlba kerül.\n"
 
 #: pisi/cli/index.py:48
 msgid "index options"
@@ -1616,12 +1480,7 @@ msgid ""
 "Usage: info <package1> <package2> ... <packagen>\n"
 "\n"
 "<packagei> is either a package name or a .pisi file,\n"
-msgstr ""
-"Csomag információ megjelenítése\n"
-"\n"
-"Használata: info <csomag1> <csomag2> ... <csomagN>\n"
-"\n"
-"<csomagX> vagy egy csomagnév, vagy egy .pisi fájl\n"
+msgstr "Csomag információ megjelenítése\n\nHasználata: info <csomag1> <csomag2> ... <csomagN>\n\n<csomagX> vagy egy csomagnév, vagy egy .pisi fájl\n"
 
 #: pisi/cli/info.py:45
 msgid "info options"
@@ -1707,16 +1566,7 @@ msgid ""
 "\n"
 "You can also specify components instead of package names, which will be\n"
 "expanded to package names.\n"
-msgstr ""
-"PiSi csomagok telepítése\n"
-"\n"
-"Használata: install <csomag1> <csomag2> ... <csomagN>\n"
-"\n"
-"Használhat fájlneveket, csomagra mutató URI-t, vagy csomagneveket.\n"
-"Ha csomagnevet adott meg, annak léteznie kell valamelyik aktív tárolóban.\n"
-"\n"
-"Csomagnevek helyett komponens nevet is megadhat, mely aztán\n"
-"csomagnevekre lesz bontva.\n"
+msgstr "PiSi csomagok telepítése\n\nHasználata: install <csomag1> <csomag2> ... <csomagN>\n\nHasználhat fájlneveket, csomagra mutató URI-t, vagy csomagneveket.\nHa csomagnevet adott meg, annak léteznie kell valamelyik aktív tárolóban.\n\nCsomagnevek helyett komponens nevet is megadhat, mely aztán\ncsomagnevekre lesz bontva.\n"
 
 #: pisi/cli/install.py:44
 msgid "install options"
@@ -1743,11 +1593,15 @@ msgid "Fetch upgrades but do not install."
 msgstr "A frissítések letöltése telepítés nélkül."
 
 #: pisi/cli/install.py:63
-msgid "When installing packages, ignore packages and components whose basenames match pattern."
+msgid ""
+"When installing packages, ignore packages and components whose basenames "
+"match pattern."
 msgstr "Csomagok telepítése során kihagyja azokat a csomagokat és komponenseket, melyek neve illeszkedik a mintára."
 
 #: pisi/cli/install.py:66
-msgid "When installing packages, ignore packages and components whose basenames match any pattern contained in file."
+msgid ""
+"When installing packages, ignore packages and components whose basenames "
+"match any pattern contained in file."
 msgstr "Csomagok telepítése során kihagyja azokat a csomagokat és komponenseket, melyek neve illeszkedik a fájlban megtalálható valamelyik mintára."
 
 #: pisi/cli/install.py:93
@@ -1764,14 +1618,7 @@ msgid ""
 "Gives a brief list of PiSi packages published in the specified\n"
 "repositories. If no repository is specified, we list packages in\n"
 "all repositories.\n"
-msgstr ""
-"A tárolókban található csomagok kilistázása\n"
-"\n"
-"Használata: list-available [ <repo1> <repo2> ... <repoN>]\n"
-"\n"
-"Összefoglaló listát jelenít meg a megadott tárolókban található\n"
-"PiSi csomagokról. Ha nincs tároló megadva, akkor az összes tároló\n"
-"csomagjai meg lesznek jelenítve.\n"
+msgstr "A tárolókban található csomagok kilistázása\n\nHasználata: list-available [ <repo1> <repo2> ... <repoN>]\n\nÖsszefoglaló listát jelenít meg a megadott tárolókban található\nPiSi csomagokról. Ha nincs tároló megadva, akkor az összes tároló\ncsomagjai meg lesznek jelenítve.\n"
 
 #: pisi/cli/listavailable.py:45
 msgid "list-available options"
@@ -1808,13 +1655,7 @@ msgid ""
 "\n"
 "Gives a brief list of PiSi components published in the\n"
 "repositories.\n"
-msgstr ""
-"Az elérhető komponensek kilistázása\n"
-"\n"
-"Használata: list-components\n"
-"\n"
-"Összefoglaló listát ad a tárolókban  elérhető\n"
-"PiSi komponensekről\n"
+msgstr "Az elérhető komponensek kilistázása\n\nHasználata: list-components\n\nÖsszefoglaló listát ad a tárolókban  elérhető\nPiSi komponensekről\n"
 
 #: pisi/cli/listcomponents.py:40
 msgid "list-components options"
@@ -1829,10 +1670,7 @@ msgid ""
 "Print the list of all installed packages\n"
 "\n"
 "Usage: list-installed\n"
-msgstr ""
-"Valamennyi telepített csomag kilistázása\n"
-"\n"
-"Használata: list-installed\n"
+msgstr "Valamennyi telepített csomag kilistázása\n\nHasználata: list-installed\n"
 
 #: pisi/cli/listinstalled.py:40
 msgid "list-installed options"
@@ -1851,7 +1689,8 @@ msgid "Show detailed install info"
 msgstr "Részletes telepítési információt ad"
 
 #: pisi/cli/listinstalled.py:78 pisi/cli/listupgrades.py:73
-msgid "Package Name          |St|        Version|  Rel.|  Distro|             Date"
+msgid ""
+"Package Name          |St|        Version|  Rel.|  Distro|             Date"
 msgstr "Csomag neve          |St|        Verzió|Kiad.|Disztró|             Dátum"
 
 #: pisi/cli/listnewest.py:25
@@ -1863,25 +1702,22 @@ msgid ""
 "Gives a list of PiSi newly published packages in the specified\n"
 "repositories. If no repository is specified, we list the new\n"
 "packages from all repositories.\n"
-msgstr ""
-"Kilistázza a tárolókban található legfrissebb csomagokat\n"
-"\n"
-"Használata: list-newest [ <repo1> <repo2> ... <repoN> ]\n"
-"\n"
-"A megadott tárolókban megtalálható legújabb csomagokat\n"
-"jeleníti meg. Ha nincs tároló megadva, akkor valamennyi tároló\n"
-"új csomagjai kilistázásra kerülnek.\n"
+msgstr "Kilistázza a tárolókban található legfrissebb csomagokat\n\nHasználata: list-newest [ <repo1> <repo2> ... <repoN> ]\n\nA megadott tárolókban megtalálható legújabb csomagokat\njeleníti meg. Ha nincs tároló megadva, akkor valamennyi tároló\núj csomagjai kilistázásra kerülnek.\n"
 
 #: pisi/cli/listnewest.py:44
 msgid "list-newest options"
 msgstr "list-newest opciói"
 
 #: pisi/cli/listnewest.py:46
-msgid "List new packages added to repository after this given date formatted as yyyy-mm-dd"
+msgid ""
+"List new packages added to repository after this given date formatted as "
+"yyyy-mm-dd"
 msgstr "A megadott dátum után a tárolóba került csomagok listája. A dátum ééé-hh-nn formátumú legyen."
 
 #: pisi/cli/listnewest.py:48
-msgid "List new packages added to repository after last nth previous repository update"
+msgid ""
+"List new packages added to repository after last nth previous repository "
+"update"
 msgstr "A legutóbbi tároló frissítés óta a tárolóhoz adott új csomagok listája"
 
 #: pisi/cli/listnewest.py:76
@@ -1899,10 +1735,7 @@ msgid ""
 "List pending packages\n"
 "\n"
 "Lists packages waiting to be configured.\n"
-msgstr ""
-"Várakozó csomagok kilistázása\n"
-"\n"
-"Megjeleníti a még beállításra váró csomagokat.\n"
+msgstr "Várakozó csomagok kilistázása\n\nMegjeleníti a még beállításra váró csomagokat.\n"
 
 #: pisi/cli/listpending.py:41
 msgid "There are no packages waiting to be configured"
@@ -1915,12 +1748,7 @@ msgid ""
 "Usage: list-repo\n"
 "\n"
 "Lists currently tracked repositories.\n"
-msgstr ""
-"Tárolók kilistázása\n"
-"\n"
-"Használata: list-repo\n"
-"\n"
-"Kilistázza a jelenleg használt tárolókat.\n"
+msgstr "Tárolók kilistázása\n\nHasználata: list-repo\n\nKilistázza a jelenleg használt tárolókat.\n"
 
 #: pisi/cli/listrepo.py:41 pisi/cli/listrepo.py:42
 msgid "active"
@@ -1942,12 +1770,7 @@ msgid ""
 "Usage: list-sources\n"
 "\n"
 "Gives a brief list of sources published in the repositories.\n"
-msgstr ""
-"Kilistázza az elérhető forrásokat\n"
-"\n"
-"Használata: list-sources\n"
-"\n"
-"Összefoglaló listát ad a tárolókban közzétett forráscsomagokról.\n"
+msgstr "Kilistázza az elérhető forrásokat\n\nHasználata: list-sources\n\nÖsszefoglaló listát ad a tárolókban közzétett forráscsomagokról.\n"
 
 #: pisi/cli/listsources.py:39
 msgid "list-sources options"
@@ -1960,12 +1783,7 @@ msgid ""
 "Usage: list-upgrades\n"
 "\n"
 "Lists the packages that will be upgraded.\n"
-msgstr ""
-"Frissíthető csomagok kilistázása\n"
-"\n"
-"Használata: list-upgrades\n"
-"\n"
-"Megjeleníti a frissíthető csomagok listáját.\n"
+msgstr "Frissíthető csomagok kilistázása\n\nHasználata: list-upgrades\n\nMegjeleníti a frissíthető csomagok listáját.\n"
 
 #: pisi/cli/listupgrades.py:42
 msgid "list-upgrades options"
@@ -2001,15 +1819,7 @@ msgid ""
 "\n"
 "If package specs are given, they should be the names of package\n"
 "dirs under /var/lib/pisi\n"
-msgstr ""
-"Adatbázisok újraépítése\n"
-"\n"
-"Használata: rebuilddb [ <csomag1> <csomag2> ... <csomagN> ]\n"
-"\n"
-"Újraépítit a PiSi adatbázisait\n"
-"\n"
-"Ha a csomag-specifikációt megadjuk, annak a /var/lib/pisi\n"
-"alatt található csomagkönyvtárnak kell lennnie\n"
+msgstr "Adatbázisok újraépítése\n\nHasználata: rebuilddb [ <csomag1> <csomag2> ... <csomagN> ]\n\nÚjraépítit a PiSi adatbázisait\n\nHa a csomag-specifikációt megadjuk, annak a /var/lib/pisi\nalatt található csomagkönyvtárnak kell lennnie\n"
 
 #: pisi/cli/rebuilddb.py:42
 msgid "rebuild-db options"
@@ -2033,15 +1843,7 @@ msgid ""
 "\n"
 "You can also specify components instead of package names, which will be\n"
 "expanded to package names.\n"
-msgstr ""
-"Csomagok eltávolítása\n"
-"\n"
-"Használata: remove <csomag1> <csomag2> ... <csomagN>\n"
-"\n"
-"Eltávolítja a megadott csomagokat. Egyszerűen adja meg a csomag nevét, melyet el akar távolítani.\n"
-"\n"
-"Megadhat komponens nevet csomag helyett, mely automatikusan\n"
-"csomagnév listává lesz alakítva.\n"
+msgstr "Csomagok eltávolítása\n\nHasználata: remove <csomag1> <csomag2> ... <csomagN>\n\nEltávolítja a megadott csomagokat. Egyszerűen adja meg a csomag nevét, melyet el akar távolítani.\n\nMegadhat komponens nevet csomag helyett, mely automatikusan\ncsomagnév listává lesz alakítva.\n"
 
 #: pisi/cli/remove.py:43
 msgid "remove options"
@@ -2062,12 +1864,7 @@ msgid ""
 "Usage: remove-repo <repo1> <repo2> ... <repon>\n"
 "\n"
 "Remove all repository information from the system.\n"
-msgstr ""
-"Tárolók eltávolítása\n"
-"\n"
-"Használata: remove-repo <repo1> <repo2> ... <repoN>\n"
-"\n"
-"A megadott tárolóhoz tartozó minden információt eltávolít a rendszerből.\n"
+msgstr "Tárolók eltávolítása\n\nHasználata: remove-repo <repo1> <repo2> ... <repoN>\n\nA megadott tárolóhoz tartozó minden információt eltávolít a rendszerből.\n"
 
 #: pisi/cli/search.py:25
 msgid ""
@@ -2080,16 +1877,7 @@ msgid ""
 "Default search is done in package database. Use\n"
 "options to search in install database or source\n"
 "database.\n"
-msgstr ""
-"Csomagok keresése\n"
-"\n"
-"Használata: search <kifejezés1> <kifejezés2> ... <kifejezésN>\n"
-"\n"
-"Megkeresi azokat a csomagokat melyek összegzése,\n"
-"leírása, vagy a csomag neve tartalmazza a megadott kifejezéseket.\n"
-"Az alapértelmezett keresés a csomagadatbázisban történik.\n"
-"Opciók megadásával a források, vagy a telepített csomagok\n"
-"között is kereshet.\n"
+msgstr "Csomagok keresése\n\nHasználata: search <kifejezés1> <kifejezés2> ... <kifejezésN>\n\nMegkeresi azokat a csomagokat melyek összegzése,\nleírása, vagy a csomag neve tartalmazza a megadott kifejezéseket.\nAz alapértelmezett keresés a csomagadatbázisban történik.\nOpciók megadásával a források, vagy a telepített csomagok\nközött is kereshet.\n"
 
 #: pisi/cli/search.py:43
 msgid "search options"
@@ -2126,12 +1914,7 @@ msgid ""
 "Usage: search-file <path1> <path2> ... <pathn>\n"
 "\n"
 "Finds the installed package which contains the specified file.\n"
-msgstr ""
-"Egy fájl keresése\n"
-"\n"
-"Használata: search-file <útvonal1> <útvonal2> ... <útvonalN>\n"
-"\n"
-"Megkeresi a telepített csomagot, amely tartalmazza a megadott fájlt.\n"
+msgstr "Egy fájl keresése\n\nHasználata: search-file <útvonal1> <útvonal2> ... <útvonalN>\n\nMegkeresi a telepített csomagot, amely tartalmazza a megadott fájlt.\n"
 
 #: pisi/cli/searchfile.py:38
 msgid "search-file options"
@@ -2166,15 +1949,7 @@ msgid ""
 "\n"
 "Synchronizes the PiSi databases with the current repository.\n"
 "If no repository is given, all repositories are updated.\n"
-msgstr ""
-"Tárolók adatainak frissítése\n"
-"\n"
-"Használata: update-repo [<repo1> <repo2> ... <repoN>]\n"
-"\n"
-"<repoX>: tároló neve\n"
-"\n"
-"A helyi PiSi adatbázis szinkronizálása az aktuális csomagtárolókkal.\n"
-"Ha nincs tároló megadva, az összes tároló frissítésre kerül.\n"
+msgstr "Tárolók adatainak frissítése\n\nHasználata: update-repo [<repo1> <repo2> ... <repoN>]\n\n<repoX>: tároló neve\n\nA helyi PiSi adatbázis szinkronizálása az aktuális csomagtárolókkal.\nHa nincs tároló megadva, az összes tároló frissítésre kerül.\n"
 
 #: pisi/cli/updaterepo.py:42
 msgid "update-repo options"
@@ -2202,22 +1977,7 @@ msgid ""
 "\n"
 "You can also specify components instead of package names, which will be\n"
 "expanded to package names.\n"
-msgstr ""
-"PiSi csomagok frissítése\n"
-"\n"
-"Használata: upgrade [<csomag1> <csomag2> ... <csomagN>]\n"
-"\n"
-"<csomagX>: csomag neve\n"
-"\n"
-"Ha nincs csomag megadva, az egész rendszert frissíti.\n"
-"\n"
-"Csakis csomagneveket használhat a frissítés művelet során,\n"
-"mert a frissítés a tárolóknak megfelelően történik. A megadott\n"
-"csomagnak léteznie kell a tárolókban. Ha csak újratelepíteni szeretne\n"
-"egy csomagot egy PiSi fájlból, használja az install parancsot.\n"
-"\n"
-"Komponens neveket is megadhat csomagok helyett, mely automatikusan\n"
-"csomagnevekre lesz bontva.\n"
+msgstr "PiSi csomagok frissítése\n\nHasználata: upgrade [<csomag1> <csomag2> ... <csomagN>]\n\n<csomagX>: csomag neve\n\nHa nincs csomag megadva, az egész rendszert frissíti.\n\nCsakis csomagneveket használhat a frissítés művelet során,\nmert a frissítés a tárolóknak megfelelően történik. A megadott\ncsomagnak léteznie kell a tárolókban. Ha csak újratelepíteni szeretne\negy csomagot egy PiSi fájlból, használja az install parancsot.\n\nKomponens neveket is megadhat csomagok helyett, mely automatikusan\ncsomagnevekre lesz bontva.\n"
 
 #: pisi/cli/upgrade.py:50
 msgid "upgrade options"
@@ -2240,11 +2000,15 @@ msgid "Name of the to be upgraded packages' repository"
 msgstr "A frissítéseket tartalmazó tároló neve."
 
 #: pisi/cli/upgrade.py:68
-msgid "When upgrading system, ignore packages and components whose basenames match pattern."
+msgid ""
+"When upgrading system, ignore packages and components whose basenames match "
+"pattern."
 msgstr "A rendszer frissítése során lépje át azokat a csomagokat és komponenseket amelyek neve illeszkedik a mintára."
 
 #: pisi/cli/upgrade.py:71
-msgid "When upgrading system, ignore packages and components whose basenames match any pattern contained in file."
+msgid ""
+"When upgrading system, ignore packages and components whose basenames match "
+"any pattern contained in file."
 msgstr "A rendszer frissítése során lépje át azokat a csomagokat és komponenseket amelyek neve illeszkedik a megadott fájlban található valamelyik mintára."
 
 #: pisi/cli/upgrade.py:85
@@ -2264,9 +2028,7 @@ msgstr "a comar-api csomag nincs teljesen telepítve"
 msgid ""
 "Cannot connect to COMAR: \n"
 "  %s\n"
-msgstr ""
-"Nem tudokkapcsolódni a COMAR-hoz:\n"
-"  %s\n"
+msgstr "Nem tudokkapcsolódni a COMAR-hoz:\n  %s\n"
 
 #: pisi/comariface.py:97
 #, python-format
@@ -2394,9 +2156,7 @@ msgstr "installed-pending"
 msgid ""
 "State: %s\n"
 "Version: %s, Release: %s\n"
-msgstr ""
-"Állapot: %s\n"
-"Verzió: %s, Kiadás: %s\n"
+msgstr "Állapot: %s\nVerzió: %s, Kiadás: %s\n"
 
 #: pisi/db/installdb.py:58
 #, python-format
@@ -2405,7 +2165,9 @@ msgstr "Disztribúció: %s, Telepítés ideje: %s\n"
 
 #: pisi/db/installdb.py:94
 #, python-format
-msgid "Installation info for package '%s' is broken. Reinstall it to fix this problem."
+msgid ""
+"Installation info for package '%s' is broken. Reinstall it to fix this "
+"problem."
 msgstr "A(z) %s csomag telepítési információi megsérültek. A hiba kijavításához telepítse újra a csomagot."
 
 #: pisi/db/installdb.py:335
@@ -2439,13 +2201,17 @@ msgid "%s repository needs to be updated"
 msgstr "A(z) %s tároló frissítésre szorul."
 
 #: pisi/db/repodb.py:174
-msgid "Error parsing repository index information. Index file does not exist or is malformed."
+msgid ""
+"Error parsing repository index information. Index file does not exist or is "
+"malformed."
 msgstr "Hiba a tároló indexének feldolgozása során. Az index-fájl nem létezik, vagy nem megfelelő formátumban van."
 
 #: pisi/db/repodb.py:264
-#, fuzzy, python-format
-msgid "Repository '%s' is not compatible with your distribution. Repository is disabled."
-msgstr "A(z) tároló nem kompatíbilis az ön által használt disztribúcióval. A tárolót kikapcsoltam."
+#, python-format
+msgid ""
+"Repository '%s' is not compatible with your distribution. Repository is "
+"disabled."
+msgstr ""
 
 #: pisi/fetcher.py:147
 msgid "Urlgrabber needs to be installed to run this command"
@@ -2471,7 +2237,9 @@ msgid "Could not fetch destination file \"%s\": %s"
 msgstr "Nem tudom letölteni a célfájlt \"%s\": %s"
 
 #: pisi/fetcher.py:174
-msgid "A problem occurred. Please check the archive address and/or permissions again."
+msgid ""
+"A problem occurred. Please check the archive address and/or permissions "
+"again."
 msgstr "Hiba történt. Kérem ellenőrizze újra az archívum címét és/vagy a jogosultságokat."
 
 #: pisi/fetcher.py:207
@@ -2485,11 +2253,15 @@ msgid "Bandwidth usage is limited to %s KB/s"
 msgstr "A sávszélesség használata korlátozva %s KB/s értékre."
 
 #: pisi/fetcher.py:227
-msgid "Remote file can not be reached. Previously downloaded part of the file will be removed."
+msgid ""
+"Remote file can not be reached. Previously downloaded part of the file will "
+"be removed."
 msgstr "A távoli fájl nem érhető el. Az eddig letöltött részleges fájl törlésre kerül."
 
 #: pisi/fetcher.py:236
-msgid "Server doesn't support partial downloads. Previously downloaded part of the file will be over-written."
+msgid ""
+"Server doesn't support partial downloads. Previously downloaded part of the "
+"file will be over-written."
 msgstr "A szerver nem támogatja a részleges letöltést. A korábban letöltött fájl-részlet felülírásra kerül."
 
 #: pisi/file.py:35
@@ -2498,9 +2270,9 @@ msgid "URL %s already downloaded as %s"
 msgstr ""
 
 #: pisi/file.py:42
-#, fuzzy, python-format
+#, python-format
 msgid "No signature found for %s"
-msgstr "Nem található konfiguráló szkript a cmake-hez."
+msgstr ""
 
 #: pisi/file.py:50
 #, python-format
@@ -2555,9 +2327,9 @@ msgid "%s repository is updated."
 msgstr "A(z) %s tároló frissítve."
 
 #: pisi/history.py:67
-#, fuzzy, python-format
+#, python-format
 msgid "%s is upgraded from %s to %s with delta."
-msgstr "%s frissítve %s különbözetével."
+msgstr ""
 
 #: pisi/history.py:69
 #, python-format
@@ -2589,9 +2361,9 @@ msgid "Unknown package operation"
 msgstr ""
 
 #: pisi/index.py:176
-#, fuzzy, python-format
+#, python-format
 msgid "Adding package to index: %s"
-msgstr "%s hozzáadása a csomaglistához"
+msgstr ""
 
 #: pisi/index.py:192
 #, python-format
@@ -2599,19 +2371,16 @@ msgid "Package %s: metadata corrupt, skipping..."
 msgstr "Csomag %s: metaadat sérült, kihagyom..."
 
 #: pisi/index.py:237
-#, fuzzy
 msgid "Adding groups.xml to index"
-msgstr "%s hozzáadása a forráslistához."
+msgstr ""
 
 #: pisi/index.py:243
-#, fuzzy
 msgid "Adding components.xml to index"
-msgstr "%s hozzáadása a csomaglistához"
+msgstr ""
 
 #: pisi/index.py:253
-#, fuzzy
 msgid "Adding distribution.xml to index"
-msgstr "%s hozzáadása a forráslistához."
+msgstr ""
 
 #: pisi/index.py:274
 #, python-format
@@ -2672,16 +2441,20 @@ msgid "IceCream detected. Make sure your daemon is up and running..."
 msgstr "IceCream észlelve. Győződjön meg róla, hogy a démon működik."
 
 #: pisi/operations/build.py:377
-#, fuzzy, python-format
+#, python-format
 msgid "Rebuilding for %s"
-msgstr "A(z) %s formátumfájl építése"
+msgstr ""
 
 #: pisi/operations/build.py:494
-msgid "Cannot find component.xml in remote directory, Source is now part of unknown component"
+msgid ""
+"Cannot find component.xml in remote directory, Source is now part of unknown"
+" component"
 msgstr "Nem található component.xml a távoli könyvtárban. A forrás mostantól ismeretlen komponens része."
 
 #: pisi/operations/build.py:502
-msgid "Cannot find component.xml in upper directory, Source is now part of unknown component"
+msgid ""
+"Cannot find component.xml in upper directory, Source is now part of unknown "
+"component"
 msgstr "Nem található component.xml a szülő könyvtárban. A forrás mostantól imseretlne komponens része."
 
 #: pisi/operations/build.py:516
@@ -2767,7 +2540,8 @@ msgid "Source package '%s' defines multiple 'Path' tags for %s"
 msgstr ""
 
 #: pisi/operations/build.py:784
-msgid "Safety switch: following extra packages in system.devel will be installed: "
+msgid ""
+"Safety switch: following extra packages in system.devel will be installed: "
 msgstr "Biztonsági kapcsoló: a következő extra csomagok telepítésre kerülnek a system.devel-ből: "
 
 #: pisi/operations/build.py:789
@@ -2805,14 +2579,14 @@ msgid "Patch file is missing: %s\n"
 msgstr "Patch fájl nincs meg: %s\n"
 
 #: pisi/operations/build.py:828
-#, fuzzy, python-format
+#, python-format
 msgid "Patch file is empty: %s"
-msgstr "Patch fájl nincs meg: %s\n"
+msgstr ""
 
 #: pisi/operations/build.py:844
-#, fuzzy, python-format
+#, python-format
 msgid "Applying patch: %s"
-msgstr "* Patch alkalmazása: %s"
+msgstr ""
 
 #: pisi/operations/build.py:963
 #, python-format
@@ -2835,9 +2609,9 @@ msgid "There are abandoned files under the install dir (%s):"
 msgstr "Gazdátlan fájlok vannak a telepítési könyvtár (%s):"
 
 #: pisi/operations/build.py:1080
-#, fuzzy, python-format
+#, python-format
 msgid "Ignoring empty package %s"
-msgstr "% üres csomag figyelmen kívül hagyása"
+msgstr ""
 
 #: pisi/operations/build.py:1084
 #, python-format
@@ -2873,18 +2647,23 @@ msgstr ""
 
 #: pisi/operations/delta.py:43
 #, python-format
-msgid "The file '%s' belongs to a different package other than '%s'. Skipping it..."
+msgid ""
+"The file '%s' belongs to a different package other than '%s'. Skipping it..."
 msgstr "A '%s' fájl nem tartozik a '%s' csomagokhoz. Kihagyjuk..."
 
 #: pisi/operations/delta.py:49
 #, python-format
-msgid "Package '%s' has the same release number with the new package. Skipping it..."
+msgid ""
+"Package '%s' has the same release number with the new package. Skipping "
+"it..."
 msgstr "'%s' csomag kiadási száma az újjal megegyezik. Kihagyjuk..."
 
 #: pisi/operations/delta.py:69
-#, fuzzy, python-format
-msgid "All files in the package '%s' are different from the files in the new package. Skipping it..."
-msgstr "'%s' csomag kiadási száma az újjal megegyezik. Kihagyjuk..."
+#, python-format
+msgid ""
+"All files in the package '%s' are different from the files in the new "
+"package. Skipping it..."
+msgstr ""
 
 #: pisi/operations/delta.py:113
 #, python-format
@@ -2899,17 +2678,13 @@ msgstr "Nincsenek beépíthető csomagok."
 msgid ""
 "The following list of packages will be installed\n"
 "from repository in the respective order to satisfy dependencies:\n"
-msgstr ""
-"Az alábbiakban kilistázott csomagok telepítésre kerülnek\n"
-"a tárolóból, a függőségek teljesítése érdekében a megfelelő sorrendben:\n"
+msgstr "Az alábbiakban kilistázott csomagok telepítésre kerülnek\na tárolóból, a függőségek teljesítése érdekében a megfelelő sorrendben:\n"
 
 #: pisi/operations/emerge.py:53
 msgid ""
 "The following list of packages will be built and\n"
 "installed in the respective order to satisfy dependencies:\n"
-msgstr ""
-"A következőkben kilistázott csomagok felépítésre és telepítésre kerülnek,\n"
-"különös tekintettel a megfelelő sorrendre, a függőségek teljesítése érdekében:\n"
+msgstr "A következőkben kilistázott csomagok felépítésre és telepítésre kerülnek,\nkülönös tekintettel a megfelelő sorrendre, a függőségek teljesítése érdekében:\n"
 
 #: pisi/operations/emerge.py:61 pisi/operations/install.py:82
 msgid "There are extra packages due to dependencies. Do you want to continue?"
@@ -2935,9 +2710,7 @@ msgstr "[%s ütközik %s csomaggal]\n"
 msgid ""
 "The following packages have conflicts:\n"
 "%s"
-msgstr ""
-"A következő csomagokban ütközések találhatók:\n"
-"%s"
+msgstr "A következő csomagokban ütközések találhatók:\n%s"
 
 #: pisi/operations/helper.py:62
 msgid "Remove the following conflicting packages?"
@@ -2981,12 +2754,12 @@ msgstr "Letöltés %d / %d"
 msgid ""
 "\n"
 "Following packages could not be found in repositories and are not cached:\n"
-msgstr ""
-"\n"
-"A következő csomagok nem találhatók a tárolókban sem a gyorsítótárban:\n"
+msgstr "\nA következő csomagok nem találhatók a tárolókban sem a gyorsítótárban:\n"
 
 #: pisi/operations/install.py:47 pisi/operations/install.py:134
-msgid "The following package(s) are already installed and are not going to be installed again:"
+msgid ""
+"The following package(s) are already installed and are not going to be "
+"installed again:"
 msgstr "A következő csomag(ok) már telepítve vannak, nem lesznek újratelepítve:"
 
 #: pisi/operations/install.py:53 pisi/operations/install.py:213
@@ -3017,9 +2790,9 @@ msgid "Package %s is not compatible with your distribution release %s %s."
 msgstr "A(z) %s csomag nem kompatíbilis az ön disztribúciójának kiadásával: %s %s."
 
 #: pisi/operations/install.py:169
-#, fuzzy, python-format
+#, python-format
 msgid "Package %s (%s) is not compatible with your %s architecture."
-msgstr "A(z) %s (%s) csomag nem kompatíbilis az ön számítógépének kiépítésével."
+msgstr ""
 
 #: pisi/operations/install.py:192
 #, python-format
@@ -3027,7 +2800,8 @@ msgid "External dependencies not satisfied: %s"
 msgstr "Egy külső függőség nincs teljesítve: %s"
 
 #: pisi/operations/install.py:197
-msgid "The following packages will be installed in order to satisfy dependencies:"
+msgid ""
+"The following packages will be installed in order to satisfy dependencies:"
 msgstr "A következő csomagok kerülnek telepítésre, a függőségeknek megfelelő sorrendben:"
 
 #: pisi/operations/install.py:201
@@ -3064,9 +2838,7 @@ msgstr "Nincsenek eltávolítandó csomagok."
 msgid ""
 "The following list of packages will be removed\n"
 "in the respective order to satisfy dependencies:\n"
-msgstr ""
-"Az al ábbiakban felsorolt csomagok eltávolításra kerülnek,\n"
-"a függőségeknek megfelelő sorrendben:\n"
+msgstr "Az al ábbiakban felsorolt csomagok eltávolításra kerülnek,\na függőségeknek megfelelő sorrendben:\n"
 
 #: pisi/operations/remove.py:73
 msgid "Package removal declined"
@@ -3090,11 +2862,15 @@ msgid "Replaced package remains"
 msgstr "Lecserélt csomagok mardnak"
 
 #: pisi/operations/upgrade.py:52
-msgid "You must restart the following service(s) manually for the updated software to take effect:"
+msgid ""
+"You must restart the following service(s) manually for the updated software "
+"to take effect:"
 msgstr "Indítsa újra a következő szolgáltatásokat, hogy a frissítések életbe lépjenek:"
 
 #: pisi/operations/upgrade.py:59
-msgid "You must restart your system for the updates in the following package(s) to take effect:"
+msgid ""
+"You must restart your system for the updates in the following package(s) to "
+"take effect:"
 msgstr "Indítsa újra a rendszert, hogy az alábbi csomagok frissítései életbe lépjenek:"
 
 #: pisi/operations/upgrade.py:81
@@ -3156,9 +2932,7 @@ msgstr "Nem támogatott csomagformátum: %s"
 msgid ""
 "There was a problem while fetching '%s'.\n"
 "The package may have been upgraded. Please try to upgrade the package."
-msgstr ""
-"Hiba történt a(z) '%s' letöltése során.\n"
-"Lehet, hogy a csomagot frissíteni kéne. Kérem, próbálja meg frissíteni a csomagot."
+msgstr "Hiba történt a(z) '%s' letöltése során.\nLehet, hogy a csomagot frissíteni kéne. Kérem, próbálja meg frissíteni a csomagot."
 
 #: pisi/pxml/autoxml.py:78
 #, python-format
@@ -3175,7 +2949,9 @@ msgid "LocalText: unable to get either current or default locale"
 msgstr "LocalText: nem állapítható meg sem az aktuális, sem az alapértelmezett területi beállítás."
 
 #: pisi/pxml/autoxml.py:119 pisi/pxml/autoxml.py:134
-msgid "Tag should have at least the current locale, or failing that an English or Turkish version"
+msgid ""
+"Tag should have at least the current locale, or failing that an English or "
+"Turkish version"
 msgstr "A címkének legalább az aktuális területi beállítást tartalmaznia kell, vagy hiba esetére egy angol, vagy török verziót"
 
 #: pisi/pxml/autoxml.py:372
@@ -3350,9 +3126,9 @@ msgid "Description: %s\n"
 msgstr "Leírás: %s\n"
 
 #: pisi/specfile.py:374 pisi/specfile.py:460
-#, fuzzy, python-format
+#, python-format
 msgid "Licenses: %s\n"
-msgstr "Használat: %s\n"
+msgstr ""
 
 #: pisi/specfile.py:375 pisi/specfile.py:461
 #, python-format
@@ -3461,117 +3237,3 @@ msgstr "Érvénytelen deltacsomagnév: %s"
 #, python-format
 msgid "Invalid version string: '%s'"
 msgstr "Érvénytelen verzió-sztring: '%s'"
-
-#~ msgid "Outputting packages in the working directory."
-#~ msgstr "Csomagok elhelyezése a munkakönyvtárban."
-
-#~ msgid "* Checking %s... "
-#~ msgstr "* %s ellenőrzése... "
-
-#~ msgid ""
-#~ "\n"
-#~ "Package %s has changed config files."
-#~ msgstr ""
-#~ "\n"
-#~ "A(z) %s csomag konfigurációs állományai megváltoztak."
-
-#~ msgid ""
-#~ "\n"
-#~ "Package %s is corrupt."
-#~ msgstr ""
-#~ "\n"
-#~ "A(z) %s csomag sérült."
-
-#~ msgid "Done."
-#~ msgstr "Kész."
-
-#~ msgid "PartOf tag not defined, looking for component"
-#~ msgstr "PartOf címke nincs definiálva, komponens keresése"
-
-#~ msgid "Source is part of %s component"
-#~ msgstr "A forrás a(z) %s komponens része."
-
-#~ msgid "Safety switch: system.devel is already installed"
-#~ msgstr "Biztonsági kapcsoló: a system.devel már telepítve van"
-
-#~ msgid "Checking /%s "
-#~ msgstr "/%s ellenőrzése "
-
-#~ msgid ""
-#~ "\n"
-#~ "Changed config file: %s"
-#~ msgstr ""
-#~ "\n"
-#~ "Megváltozott beállító fájl: %s"
-
-#~ msgid "\\languages{%s}{%s}{}{%s}{%s} is added to %s/language.%s.def"
-#~ msgstr "\\languages{%s}{%s}{}{%s}{%s} hozzáadva %s/language.%s.def-hez"
-
-#~ msgid "%s is added to %s/language.%s.dat"
-#~ msgstr "%s hozzáadva %s/language.%s.dat-hoz"
-
-#~ msgid "\\languages{%s}{%s}{}{%s}{%s} is added to %s/language.%s.def "
-#~ msgstr "\\languages{%s}{%s}{}{%s}{%s} hozzáadva %s/language.%s.def-hez "
-
-#~ msgid "%s %s is added to %s/language.%s.dat "
-#~ msgstr "%s %s hozzáadva %s/language.%s.dat-hoz "
-
-#~ msgid "Upgrading to new distribution build"
-#~ msgstr "Frissítés a disztribúció új build-változatára"
-
-#~ msgid "Downgrade to old distribution build?"
-#~ msgstr "Visszatér a disztribúció korábbi build-változatára?"
-
-#~ msgid "Do not take build no into account."
-#~ msgstr "Nem veszi figyelembe a \"build-no\" kapcsolót."
-
-#~ msgid "PiSi binary package formats: '1.0', '1.1' (default)"
-#~ msgstr "PiSi bináris csomag formátumok: 1.0', '1.1' (alapértelmezett)"
-
-#~ msgid "package_format must be one of %s "
-#~ msgstr "a csomag formátuma csak a következők egyike lehet:  %s"
-
-#~ msgid "Indexing current directory."
-#~ msgstr "Az aktuális könyvtár indexelése."
-
-#~ msgid "zip compression not supported yet"
-#~ msgstr "A zip tömörítés még nem támogatott."
-
-#~ msgid "gzip compression not supported yet"
-#~ msgstr "A gzip tömörítés még nem támogatott."
-
-#~ msgid "(found old version %s)"
-#~ msgstr "(régebbi verziójú %s-t találtam)"
-
-#~ msgid "(no previous build found, setting build no to 1.)"
-#~ msgstr "(nem találtam régebbi build-et, a sorszám 1-re lesz állítva)"
-
-#~ msgid "(old package lacks a build no, setting build no to 1.)"
-#~ msgstr "(a régi csomgnak nincs build száma, az új build szám ezért 1. lesz)"
-
-#~ msgid "There are changes, incrementing build no to %d"
-#~ msgstr "Változásokat észleltem, a build szám így növelve lesz. Az új érték: %d."
-
-#~ msgid "There is no change from previous build %d"
-#~ msgstr "Nincs változás az előző build-hez (%d) képest."
-
-#~ msgid "Generating %s,"
-#~ msgstr "%s generálása,"
-
-#~ msgid "Build number is not available. For repo builds you must enable buildno in pisi.conf."
-#~ msgstr "A build számok használata nem lehetséges. Ha tároló számára épít, engedélyezze a buildno opciót a pisi.conf-ban."
-
-#~ msgid "All of the files under the install dir (%s) has been collected by package(s)"
-#~ msgstr "A telepési könyvtárban (%s) található valamennyi fájl a csomag(ok)ba gyűjtve"
-
-#~ msgid "Cannot create delta for same package!"
-#~ msgstr "Nem hozható létre különbözet ugyanazon csomagból!"
-
-#~ msgid "Creating delta PiSi package between %s %s"
-#~ msgstr "PiSi különbözeti csomag létrehozása %s és %s között."
-
-#~ msgid "Package %s is already at the latest build %s."
-#~ msgstr "A(z) %s csomag már a legutolsó build számot viseli: %s."
-
-#~ msgid "Name: %s, version: %s, release: %s, build %s\n"
-#~ msgstr "Név: %s, verzió: %s, kiadás: %s, build: %s\n"

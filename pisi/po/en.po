@@ -3,158 +3,156 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Ivica  Kolić <ikoli@yahoo.com>, 2013
-# Ivica  Kolić <ikoli@yahoo.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-06-17 14:30+0300\n"
-"PO-Revision-Date: 2013-12-22 07:00+0000\n"
-"Last-Translator: Ivica  Kolić <ikoli@yahoo.com>\n"
-"Language-Team: Croatian (http://www.transifex.com/projects/p/PiSiLinux/language/hr/)\n"
+"PO-Revision-Date: 2013-01-04 21:08+0000\n"
+"Last-Translator: circass <erdincgultekin@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hr\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: /usr/lib/python2.7/optparse.py:140
 #, python-format
 msgid "no such option: %s"
-msgstr "nema takve opcije:  %s"
+msgstr "no such option: %s"
 
 #: /usr/lib/python2.7/optparse.py:151
 #, python-format
 msgid "ambiguous option: %s (%s?)"
-msgstr "dvosmislena opcija: %s (%s?)"
+msgstr "ambiguous option: %s (%s?)"
 
 #: /usr/lib/python2.7/optparse.py:374
 #, python-format
 msgid "Usage: %s\n"
-msgstr "Upotreba: %s\n"
+msgstr "Usage: %s\n"
 
 #: /usr/lib/python2.7/optparse.py:393
 msgid "Usage"
-msgstr "Upotreba"
+msgstr "Usage"
 
 #: /usr/lib/python2.7/optparse.py:418
 msgid "integer"
-msgstr ""
+msgstr "integer"
 
 #: /usr/lib/python2.7/optparse.py:419
 msgid "long integer"
-msgstr ""
+msgstr "long integer"
 
 #: /usr/lib/python2.7/optparse.py:420
 msgid "floating-point"
-msgstr ""
+msgstr "floating-point"
 
 #: /usr/lib/python2.7/optparse.py:421
 msgid "complex"
-msgstr ""
+msgstr "complex"
 
 #: /usr/lib/python2.7/optparse.py:429
 #, python-format
 msgid "option %s: invalid %s value: %r"
-msgstr "opcija %s: neispravna %s vrijednost: %r"
+msgstr "option %s: invalid %s value: %r"
 
 #: /usr/lib/python2.7/optparse.py:437
 #, python-format
 msgid "option %s: invalid choice: %r (choose from %s)"
-msgstr "opcija %s: inspravan izbor: %r (izaberite iz %s)"
+msgstr "option %s: invalid choice: %r (choose from %s)"
 
 #: /usr/lib/python2.7/optparse.py:1245
 msgid "show this help message and exit"
-msgstr "pokaži poruku pomoći i izađi"
+msgstr "show this help message and exit"
 
 #: /usr/lib/python2.7/optparse.py:1250
 msgid "show program's version number and exit"
-msgstr "pokaži broj verzije programa i izađi"
+msgstr "show program's version number and exit"
 
 #: /usr/lib/python2.7/optparse.py:1273
 msgid "%prog [options]"
-msgstr ""
+msgstr "%prog [options]"
 
 #: /usr/lib/python2.7/optparse.py:1493 /usr/lib/python2.7/optparse.py:1532
 #, python-format
 msgid "%s option requires an argument"
-msgstr "%s opcija zahtijeva argument"
+msgstr "%s option requires an argument"
 
 #: /usr/lib/python2.7/optparse.py:1495 /usr/lib/python2.7/optparse.py:1534
 #, python-format
 msgid "%s option requires %d arguments"
-msgstr "%s opcija zahtijeva %d argumente"
+msgstr "%s option requires %d arguments"
 
 #: /usr/lib/python2.7/optparse.py:1504
 #, python-format
 msgid "%s option does not take a value"
-msgstr "%s opcija ne uzima vrijednost"
+msgstr "%s option does not take a value"
 
 #: /usr/lib/python2.7/optparse.py:1621
 msgid "Options"
-msgstr "Opcije"
+msgstr "Options"
 
 #: pisi-cli:42
 msgid "Keyboard Interrupt: Exiting..."
-msgstr ""
+msgstr "Keyboard Interrupt: Exiting..."
 
 #: pisi-cli:45
 msgid "Program terminated."
-msgstr "Program je prekinut."
+msgstr "Program terminated."
 
 #: pisi-cli:48
 msgid ""
 "Unhandled internal exception.\n"
 "Please file a bug report to <http://bugs.pardus.org.tr>."
-msgstr ""
+msgstr "Unhandled internal exception.\nPlease file a bug report to <http://bugs.pardus.org.tr>."
 
 #: pisi-cli:57
 msgid "System error. Program terminated."
-msgstr "Greška sustava. Program je prekinut."
+msgstr "System error. Program terminated."
 
 #: pisi-cli:66
 msgid "Please use 'pisi help' for general help."
-msgstr "Molim koristite  'pisi pomoć' za osnovnu pomoć."
+msgstr "Please use 'pisi help' for general help."
 
 #: pisi-cli:69
 msgid ""
 "\n"
 "Traceback:"
-msgstr ""
+msgstr "\nTraceback:"
 
 #: pisi-cli:72
 msgid "Use --debug to see a traceback."
-msgstr ""
+msgstr "Use --debug to see a traceback."
 
 #: pisi.xml.in.h:1
 msgid "PiSi package"
-msgstr "PiSi paket"
+msgstr "PiSi package"
 
 #: pisi/actionsapi/autotools.py:36 pisi/actionsapi/cmaketools.py:36
 #, python-format
 msgid ""
 "Please attach the config.log to your bug report:\n"
 "%s/config.log"
-msgstr ""
+msgstr "Please attach the config.log to your bug report:\n%s/config.log"
 
 #: pisi/actionsapi/autotools.py:77 pisi/actionsapi/autotools.py:87
 #: pisi/actionsapi/cmaketools.py:66 pisi/actionsapi/kde.py:65
 #: pisi/actionsapi/perlmodules.py:54 pisi/actionsapi/perlmodules.py:57
 msgid "Configure failed."
-msgstr "Konfiguracija nije uspjela."
+msgstr "Configure failed."
 
 #: pisi/actionsapi/autotools.py:79 pisi/actionsapi/autotools.py:89
 #: pisi/actionsapi/kde.py:67
 msgid "No configure script found."
-msgstr "Konfiguracijska skripta nije pronađena."
+msgstr "No configure script found."
 
 #: pisi/actionsapi/autotools.py:97 pisi/actionsapi/cmaketools.py:78
 #: pisi/actionsapi/kde.py:72 pisi/actionsapi/perlmodules.py:63
 #: pisi/actionsapi/perlmodules.py:72 pisi/actionsapi/pythonmodules.py:62
 #: pisi/actionsapi/scons.py:39
 msgid "Make failed."
-msgstr ""
+msgstr "Make failed."
 
 #: pisi/actionsapi/autotools.py:126 pisi/actionsapi/autotools.py:134
 #: pisi/actionsapi/cmaketools.py:98 pisi/actionsapi/cmaketools.py:106
@@ -162,45 +160,45 @@ msgstr ""
 #: pisi/actionsapi/rubymodules.py:92 pisi/actionsapi/rubymodules.py:99
 #: pisi/actionsapi/scons.py:43
 msgid "Install failed."
-msgstr "Instalacija nije uspjela."
+msgstr "Install failed."
 
 #: pisi/actionsapi/autotools.py:141
 msgid "Running aclocal failed."
-msgstr "Pokretanje aclocal nije uspjelo."
+msgstr "Running aclocal failed."
 
 #: pisi/actionsapi/autotools.py:146
 msgid "Running autoconf failed."
-msgstr "Pokretanje autoconf nije uspjelo."
+msgstr "Running autoconf failed."
 
 #: pisi/actionsapi/autotools.py:151
 msgid "Running autoreconf failed."
-msgstr "Pokretanje autoreconf nije uspjelo."
+msgstr "Running autoreconf failed."
 
 #: pisi/actionsapi/autotools.py:156
 msgid "Running automake failed."
-msgstr "Pokretanje automake nije uspjelo."
+msgstr "Running automake failed."
 
 #: pisi/actionsapi/autotools.py:161
 msgid "Running autoheader failed."
-msgstr ""
+msgstr "Running autoheader failed."
 
 #: pisi/actionsapi/cmaketools.py:68
 msgid "No configure script found for cmake."
-msgstr "Nije pronađena konfiguracijska skripta za cmake."
+msgstr "No configure script found for cmake."
 
 #: pisi/actionsapi/cmaketools.py:110 pisi/actionsapi/kde.py:81
 msgid "No Makefile found."
-msgstr ""
+msgstr "No Makefile found."
 
 #: pisi/actionsapi/get.py:178
 #, python-format
 msgid "Util %s cannot be found"
-msgstr "Util %s ne može biti pronađen"
+msgstr "Util %s cannot be found"
 
 #: pisi/actionsapi/get.py:180
 #, python-format
 msgid "Warning: %s does not exist, using plain name %s"
-msgstr "Upozorenje: %s ne postoji, koristim obično ime %s"
+msgstr "Warning: %s does not exist, using plain name %s"
 
 #: pisi/actionsapi/kde.py:34
 #, python-format
@@ -208,620 +206,620 @@ msgid ""
 "\n"
 "!!! Please attach the config.log to your bug report:\n"
 "%s/config.log"
-msgstr "\nMolim pridodajte config.log vašoj prijavi problema:\n%s/config.log"
+msgstr "\n!!! Please attach the config.log to your bug report:\n%s/config.log"
 
 #: pisi/actionsapi/kerneltools.py:117
 #, python-format
 msgid "Can't find kernel version information file %s."
-msgstr "Ne mogu naći datoteku sa informacijama o verziji kernela %s."
+msgstr "Can't find kernel version information file %s."
 
 #: pisi/actionsapi/libtools.py:38
 msgid "Running ldconfig failed."
-msgstr "Pokretanje ldconfig nije uspjelo."
+msgstr "Running ldconfig failed."
 
 #: pisi/actionsapi/libtools.py:49
 msgid "GNU Config Update Finished."
-msgstr "GNU Config završena dopuna."
+msgstr "GNU Config Update Finished."
 
 #: pisi/actionsapi/libtools.py:53
 msgid "Running libtoolize failed."
-msgstr "Pokretanje libtoolize nije uspjelo."
+msgstr "Running libtoolize failed."
 
 #: pisi/actionsapi/perlmodules.py:66
 msgid "perl build failed."
-msgstr ""
+msgstr "perl build failed."
 
 #: pisi/actionsapi/perlmodules.py:75
 msgid "perl install failed."
-msgstr "perl instalacija nije uspjela."
+msgstr "perl install failed."
 
 #: pisi/actionsapi/pisitools.py:75 pisi/actionsapi/pisitools.py:132
 #, python-format
 msgid "No file matched pattern \"%s\""
-msgstr "Nijedna datoteka ne odgovara uzorku \"%s\""
+msgstr "No file matched pattern \"%s\""
 
 #: pisi/actionsapi/pisitools.py:142
 #, python-format
 msgid "ActionsAPI [doman]: Wrong man page file: %s"
-msgstr ""
+msgstr "ActionsAPI [doman]: Wrong man page file: %s"
 
 #: pisi/actionsapi/pisitools.py:169
 #, python-format
 msgid "No file matched pattern \"%s\". 'domove' operation failed."
-msgstr "Nijedna datoteka se ne podudara sa uzorakom \"%s\". 'domove' operacija nije uspjela."
+msgstr "No file matched pattern \"%s\". 'domove' operation failed."
 
 #: pisi/actionsapi/pisitools.py:188
 #, python-format
 msgid "ActionsAPI [rename]: %s: %s"
-msgstr "ActionsAPI [preimenuj]:%s: %s"
+msgstr "ActionsAPI [rename]: %s: %s"
 
 #: pisi/actionsapi/pisitools.py:203
 #, python-format
 msgid "No such file matching pattern: \"%s\". 'dosed' operation failed."
-msgstr ""
+msgstr "No such file matching pattern: \"%s\". 'dosed' operation failed."
 
 #: pisi/actionsapi/pisitools.py:216
 #, python-format
 msgid "dosed method has not changed file '%s'."
-msgstr ""
+msgstr "dosed method has not changed file '%s'."
 
 #: pisi/actionsapi/pisitools.py:219
 #, python-format
 msgid "File does not exist or permission denied: %s"
-msgstr "Datoteka ne postoji ili je odbijena dozvola: %s"
+msgstr "File does not exist or permission denied: %s"
 
 #: pisi/actionsapi/pisitools.py:236
 #, python-format
 msgid "ActionsAPI [dosym]: File already exists: %s"
-msgstr "ActionsAPI [dosym]: Datoteka već postoji: %s"
+msgstr "ActionsAPI [dosym]: File already exists: %s"
 
 #: pisi/actionsapi/pisitools.py:245 pisi/actionsapi/pisitoolsfunctions.py:71
 #, python-format
 msgid "No file matched pattern \"%s\"."
-msgstr "Nijedna datoteka se ne podudara sa uzorkom \"%s\". "
+msgstr "No file matched pattern \"%s\"."
 
 #: pisi/actionsapi/pisitools.py:272 pisi/actionsapi/shelltools.py:97
 #, python-format
 msgid "No file matched pattern \"%s\". Remove operation failed."
-msgstr "Nijedna datoteka se ne podudara sa uzorkom \"%s\". Operacija uklonjanja nije uspjela."
+msgstr "No file matched pattern \"%s\". Remove operation failed."
 
 #: pisi/actionsapi/pisitools.py:281
 #, python-format
 msgid "No directory matched pattern \"%s\". Remove directory operation failed."
-msgstr "Nijedan se direktorij ne podudara sa uzorkom \"%s\".Operacija uklanjanja direktorija nije uspjela."
+msgstr "No directory matched pattern \"%s\". Remove directory operation failed."
 
 #: pisi/actionsapi/pisitoolsfunctions.py:45
 #: pisi/actionsapi/pisitoolsfunctions.py:63
 #: pisi/actionsapi/pisitoolsfunctions.py:80
 msgid "Insufficient arguments."
-msgstr "Nedovoljno argumenata"
+msgstr "Insufficient arguments."
 
 #: pisi/actionsapi/pisitoolsfunctions.py:53
 #, python-format
 msgid "No executable file matched pattern \"%s\"."
-msgstr "Nijedna izvršna datoteka se ne podudara sa uzorkom \"%s\"."
+msgstr "No executable file matched pattern \"%s\"."
 
 #: pisi/actionsapi/pythonmodules.py:56
 msgid "Configuration failed."
-msgstr "Konfiguracija nije uspjela."
+msgstr "Configuration failed."
 
 #: pisi/actionsapi/pythonmodules.py:81
 #, python-format
 msgid "Running %s failed."
-msgstr "Pokretannje %s nije uspjelo."
+msgstr "Running %s failed."
 
 #: pisi/actionsapi/qt4.py:52
 #, python-format
 msgid "Project file '%s' not found."
-msgstr "Ime projekta  '%s' nije nađeno."
+msgstr "Project file '%s' not found."
 
 #: pisi/actionsapi/qt4.py:56
 #, python-format
 msgid ""
 "It seems there are more than one .pro file, you must specify one. (Possible "
 ".pro files: %s)"
-msgstr "Čini se da postoji više od jedne .pro datoteke,morate odrediti jednu. (Moguće .pro datoteke: %s)"
+msgstr "It seems there are more than one .pro file, you must specify one. (Possible .pro files: %s)"
 
 #: pisi/actionsapi/rubymodules.py:108
 #, python-format
 msgid "Running 'ruby %s' failed."
-msgstr "Pokretanje 'ruby %s' nije uspjelo."
+msgstr "Running 'ruby %s' failed."
 
 #: pisi/actionsapi/shelltools.py:49
 #, python-format
 msgid "Cannot create directory %s"
-msgstr "Ne mogu napraviti diretorij %s"
+msgstr "Cannot create directory %s"
 
 #: pisi/actionsapi/shelltools.py:57
 #, python-format
 msgid "ActionsAPI [echo]: Can't append to file %s."
-msgstr ""
+msgstr "ActionsAPI [echo]: Can't append to file %s."
 
 #: pisi/actionsapi/shelltools.py:63
 #, python-format
 msgid "ActionsAPI [chmod]: No file matched pattern \"%s\"."
-msgstr "ActionsAPI [chmod]: Nijedna datoteka ne odgovara uzorku \"%s\"."
+msgstr "ActionsAPI [chmod]: No file matched pattern \"%s\"."
 
 #: pisi/actionsapi/shelltools.py:70
 #, python-format
 msgid "ActionsAPI [chmod]: Operation not permitted: %s (mode: 0%o)"
-msgstr "ActionsAPI [chmod]: Operacija nije dopuštena: %s (mode: 0%o)"
+msgstr "ActionsAPI [chmod]: Operation not permitted: %s (mode: 0%o)"
 
 #: pisi/actionsapi/shelltools.py:73
 #, python-format
 msgid "ActionsAPI [chmod]: File %s doesn't exists."
-msgstr "ActionsAPI [chmod]: Datoteka %s ne postoji."
+msgstr "ActionsAPI [chmod]: File %s doesn't exists."
 
 #: pisi/actionsapi/shelltools.py:81
 #, python-format
 msgid "ActionsAPI [chown]: Operation not permitted: %s (uid: %s, gid: %s)"
-msgstr "ActionsAPI [chown]: Operacija nije dopuštena: %s (uid: %s, gid: %s)"
+msgstr "ActionsAPI [chown]: Operation not permitted: %s (uid: %s, gid: %s)"
 
 #: pisi/actionsapi/shelltools.py:84
 #, python-format
 msgid "ActionsAPI [chown]: File %s doesn't exists."
-msgstr "ActionsAPI [chown]: Datoteka %s ne postoji."
+msgstr "ActionsAPI [chown]: File %s doesn't exists."
 
 #: pisi/actionsapi/shelltools.py:91
 #, python-format
 msgid "ActionsAPI [sym]: Permission denied: %s to %s"
-msgstr "ActionsAPI [sym]: Dozvola odbijena: %s u %s"
+msgstr "ActionsAPI [sym]: Permission denied: %s to %s"
 
 #: pisi/actionsapi/shelltools.py:105
 #, python-format
 msgid "ActionsAPI [unlink]: Permission denied: %s."
-msgstr "ActionsAPI [unlink]: Dozvola odbijena: %s."
+msgstr "ActionsAPI [unlink]: Permission denied: %s."
 
 #: pisi/actionsapi/shelltools.py:109
 #, python-format
 msgid "ActionsAPI [unlink]: File %s doesn't exists."
-msgstr "ActionsAPI [unlink]: Datoteka %s ne postoji."
+msgstr "ActionsAPI [unlink]: File %s doesn't exists."
 
 #: pisi/actionsapi/shelltools.py:117
 #, python-format
 msgid "ActionsAPI [unlinkDir]: Operation not permitted: %s"
-msgstr "ActionsAPI [unlinkDir]: Operacija nije dozvoljena: %s"
+msgstr "ActionsAPI [unlinkDir]: Operation not permitted: %s"
 
 #: pisi/actionsapi/shelltools.py:121
 #, python-format
 msgid "ActionsAPI [unlinkDir]: Directory %s doesn't exists."
-msgstr "ActionsAPI [unlinkDir]: Direktorij %s ne postoji."
+msgstr "ActionsAPI [unlinkDir]: Directory %s doesn't exists."
 
 #: pisi/actionsapi/shelltools.py:127
 #, python-format
 msgid "ActionsAPI [move]: No file matched pattern \"%s\"."
-msgstr "ActionsAPI [Move]:  Nijedna datoteka ne odgovara uzorku \"%s\"."
+msgstr "ActionsAPI [move]: No file matched pattern \"%s\"."
 
 #: pisi/actionsapi/shelltools.py:134
 #, python-format
 msgid "ActionsAPI [move]: Permission denied: %s to %s"
-msgstr "ActionsAPI [Move]: Dozvola odbijena: %s u %s"
+msgstr "ActionsAPI [move]: Permission denied: %s to %s"
 
 #: pisi/actionsapi/shelltools.py:136
 #, python-format
 msgid "ActionsAPI [move]: File %s doesn't exists."
-msgstr "ActionsAPI [Move]: Datoteka %s ne postoji."
+msgstr "ActionsAPI [move]: File %s doesn't exists."
 
 #: pisi/actionsapi/shelltools.py:143
 #, python-format
 msgid "ActionsAPI [copy]: No file matched pattern \"%s\"."
-msgstr "ActionsAPI [primjerak]: Nijedna datoteka se ne podudara sa uzorakom \"%s\"."
+msgstr "ActionsAPI [copy]: No file matched pattern \"%s\"."
 
 #: pisi/actionsapi/shelltools.py:150
 #, python-format
 msgid "ActionsAPI [copy]: Permission denied: %s to %s"
-msgstr "ActionsAPI [primjerak]: Dozvola odbijena: %s u %s"
+msgstr "ActionsAPI [copy]: Permission denied: %s to %s"
 
 #: pisi/actionsapi/shelltools.py:166
 #, python-format
 msgid "ActionsAPI [copy]: File %s does not exist."
-msgstr "ActionsAPI [primjerak]: Datoteka %s ne postoji."
+msgstr "ActionsAPI [copy]: File %s does not exist."
 
 #: pisi/actionsapi/shelltools.py:181
 #, python-format
 msgid "ActionsAPI [copytree] %s to %s: %s"
-msgstr "ActionsAPI [copytree] %s u %s: %s"
+msgstr "ActionsAPI [copytree] %s to %s: %s"
 
 #: pisi/actionsapi/shelltools.py:183
 #, python-format
 msgid "ActionsAPI [copytree]: Directory %s doesn't exists."
-msgstr "ActionsAPI [copytree]: Direktorij %s ne postoji."
+msgstr "ActionsAPI [copytree]: Directory %s doesn't exists."
 
 #: pisi/actionsapi/shelltools.py:191
 #, python-format
 msgid "ActionsAPI [touch]: No file matched pattern \"%s\"."
-msgstr "ActionsAPI [touch]:  Nijedna datoteka se ne podudara sa uzorakom \"%s\"."
+msgstr "ActionsAPI [touch]: No file matched pattern \"%s\"."
 
 #: pisi/actionsapi/shelltools.py:200
 #, python-format
 msgid "ActionsAPI [touch]: Permission denied: %s"
-msgstr "ActionsAPI [touch]: Dozvola odbijena: %s"
+msgstr "ActionsAPI [touch]: Permission denied: %s"
 
 #: pisi/actionsapi/shelltools.py:255
 #, python-format
 msgid "Command \"%s\" failed, return value was %d."
-msgstr "Naredba \"%s\" nije uspjela, povratna vrijednost je %d."
+msgstr "Command \"%s\" failed, return value was %d."
 
 #: pisi/actionsapi/texlivemodules.py:56
 msgid "Moving source files failed"
-msgstr "Neuspjelo premještanje izvornih datoteka"
+msgstr "Moving source files failed"
 
 #: pisi/actionsapi/texlivemodules.py:59
 msgid "Generate config files failed"
-msgstr "Generiranje konfiguracijskih datoteka nije uspjelo"
+msgstr "Generate config files failed"
 
 #: pisi/actionsapi/texlivemodules.py:62
 msgid "Building format files failed"
-msgstr ""
+msgstr "Building format files failed"
 
 #: pisi/actionsapi/texlivemodules.py:69
 msgid "Creating symlinks from format to engines failed"
-msgstr ""
+msgstr "Creating symlinks from format to engines failed"
 
 #: pisi/actionsapi/texlivemodules.py:73
 msgid "Installing docs failed"
-msgstr "Instalacija dokumenata nije uspjela "
+msgstr "Installing docs failed"
 
 #: pisi/actionsapi/texlivemodules.py:77
 msgid "Installing texmf files failed"
-msgstr "Instaliranje texmf datoteke nije uspjelo"
+msgstr "Installing texmf files failed"
 
 #: pisi/actionsapi/texlivemodules.py:81
 msgid "Installing config files failed"
-msgstr "Instaliranje konfiguracijskih datoteka nije uspjelo"
+msgstr "Installing config files failed"
 
 #: pisi/actionsapi/texlivemodules.py:85
 msgid "Handle config files failed"
-msgstr ""
+msgstr "Handle config files failed"
 
 #: pisi/actionsapi/texlivemodules.py:95
 #, python-format
 msgid "Symlink %s skipped (special case)"
-msgstr "Simbolička poveznica %s preskočena (poseban slučaj)"
+msgstr "Symlink %s skipped (special case)"
 
 #: pisi/actionsapi/texlivemodules.py:97
 #, python-format
 msgid "Symlink %s -> %s skipped (texlive-core takes care of it."
-msgstr ""
+msgstr "Symlink %s -> %s skipped (texlive-core takes care of it."
 
 #: pisi/actionsapi/texlivemodules.py:100
 #, python-format
 msgid "Symlink %s -> %s skipped."
-msgstr "Simbolička poveznica  %s -> %s preskočena."
+msgstr "Symlink %s -> %s skipped."
 
 #: pisi/actionsapi/texlivemodules.py:102
 #, python-format
 msgid "Symlink %s skipped (file exists.)"
-msgstr "Simbolička poveznica  %s preskočena (datoteka postoji) "
+msgstr "Symlink %s skipped (file exists.)"
 
 #: pisi/actionsapi/texlivemodules.py:104
 #, python-format
 msgid "Making symlink from %s to %s"
-msgstr "Izrada simboličke veze sa %s u %s"
+msgstr "Making symlink from %s to %s"
 
 #: pisi/actionsapi/texlivemodules.py:153
 #, python-format
 msgid "Creating /etc/texmf/%s.d"
-msgstr "Stvaranje /etc/texmf/%s.d "
+msgstr "Creating /etc/texmf/%s.d"
 
 #: pisi/actionsapi/texlivemodules.py:155
 #, python-format
 msgid "Moving (and symlinking) /usr/share/texmf/%s to /etc/texmf/%s.d"
-msgstr "Premještanje (i simboličko povezivanje) /usr/share/texmf /%s/ u etc/ exmf/ %s.d"
+msgstr "Moving (and symlinking) /usr/share/texmf/%s to /etc/texmf/%s.d"
 
 #: pisi/actionsapi/texlivemodules.py:206
 #, python-format
 msgid "Building format file %s"
-msgstr ""
+msgstr "Building format file %s"
 
 #: pisi/actionsapi/texlivemodules.py:263
 #, python-format
 msgid "Map %s is added to %s/%s.cfg"
-msgstr "Karta %s je dodana %s/%s.cfg"
+msgstr "Map %s is added to %s/%s.cfg"
 
 #: pisi/actionsapi/texlivemodules.py:266
 #, python-format
 msgid "MixedMap %s is added to %s/%s.cfg"
-msgstr ""
+msgstr "MixedMap %s is added to %s/%s.cfg"
 
 #: pisi/actionsapi/texlivemodules.py:269
 #, python-format
 msgid "p +%s is added to %s/%s-config.ps"
-msgstr "p +%s je dodan %s/%s-config.ps"
+msgstr "p +%s is added to %s/%s-config.ps"
 
 #: pisi/actionsapi/texlivemodules.py:272
 #, python-format
 msgid "f %s is added to %s/%s-config"
-msgstr "f %s je dodan u %s/%s-config"
+msgstr "f %s is added to %s/%s-config"
 
 #: pisi/actionsapi/texlivemodules.py:279
 #, python-format
 msgid "Language file  %s  already generated."
-msgstr " Datoteka jezika %s je već generirana."
+msgstr "Language file  %s  already generated."
 
 #: pisi/actionsapi/texlivemodules.py:281
 #, python-format
 msgid "No rule to proccess %s. Please file a bug."
-msgstr ""
+msgstr "No rule to proccess %s. Please file a bug."
 
 #: pisi/api.py:58 pisi/cli/command.py:166
 msgid "You have to be root for this operation."
-msgstr "Morate biti root za ovu operaciju."
+msgstr "You have to be root for this operation."
 
 #: pisi/api.py:65
 msgid "Another instance of PiSi is running. Only one instance is allowed."
-msgstr ""
+msgstr "Another instance of PiSi is running. Only one instance is allowed."
 
 #: pisi/api.py:420
 #, python-format
 msgid "%s package found in %s repository"
-msgstr "%s paket nađen u %s repozitoriju"
+msgstr "%s package found in %s repository"
 
 #: pisi/api.py:424
 #, python-format
 msgid "%s package already fetched"
-msgstr "%s paket je već dohvaćen"
+msgstr "%s package already fetched"
 
 #: pisi/api.py:532
 #, python-format
 msgid "Cleaning package cache %s..."
-msgstr ""
+msgstr "Cleaning package cache %s..."
 
 #: pisi/api.py:534
 #, python-format
 msgid "Cleaning source archive cache %s..."
-msgstr ""
+msgstr "Cleaning source archive cache %s..."
 
 #: pisi/api.py:536
 #, python-format
 msgid "Cleaning temporary directory %s..."
-msgstr "Čistim privremeni direktorij %s..."
+msgstr "Cleaning temporary directory %s..."
 
 #: pisi/api.py:540
 #, python-format
 msgid "Removing cache file %s..."
-msgstr ""
+msgstr "Removing cache file %s..."
 
 #: pisi/api.py:571
 msgid "Taking snapshot of the system"
-msgstr "Pravim snimak sustava"
+msgstr "Taking snapshot of the system"
 
 #: pisi/api.py:732
 msgid "comar package is not fully installed"
-msgstr "comar paket nije u potpunosti instaliran"
+msgstr "comar package is not fully installed"
 
 #: pisi/api.py:744
 #, python-format
 msgid "File %s not found"
-msgstr "Datoteka %s nije nađena"
+msgstr "File %s not found"
 
 #: pisi/api.py:786
 #, python-format
 msgid "Building index of PiSi files under %s"
-msgstr "Izgradnja indeksa PiSi datoteka pod %s"
+msgstr "Building index of PiSi files under %s"
 
 #: pisi/api.py:791
 msgid "Index file written"
-msgstr "Napisana je index datoteka"
+msgstr "Index file written"
 
 #: pisi/api.py:796
 msgid "Not a valid repo name."
-msgstr "Nema valjanog imena repozitorija."
+msgstr "Not a valid repo name."
 
 #: pisi/api.py:799
 #, python-format
 msgid "Repo %s already present."
-msgstr "Repozitorij %s je već prisutan."
+msgstr "Repo %s already present."
 
 #: pisi/api.py:802
 #, python-format
 msgid "Repo already present with name %s."
-msgstr "Repozitorij je već prisutan po imenu %s."
+msgstr "Repo already present with name %s."
 
 #: pisi/api.py:807
 #, python-format
 msgid "Repo %s added to system."
-msgstr "Repozitorij %s dodan vašen sustavu."
+msgstr "Repo %s added to system."
 
 #: pisi/api.py:815
 #, python-format
 msgid "Repo %s removed from system."
-msgstr "Repozitorij %s je uklonjen iz sustava."
+msgstr "Repo %s removed from system."
 
 #: pisi/api.py:817
 #, python-format
 msgid "Repository %s does not exist. Cannot remove."
-msgstr "Repozitorij %s ne postoji.Ne mogu ukloniti."
+msgstr "Repository %s does not exist. Cannot remove."
 
 #: pisi/api.py:839
 #, python-format
 msgid "Updating repository: %s"
-msgstr "Dopunjujem repozitorij: %s"
+msgstr "Updating repository: %s"
 
 #: pisi/api.py:848
 #, python-format
 msgid "%s repository information is up-to-date."
-msgstr "%s informacije repozitorija su dopunjene."
+msgstr "%s repository information is up-to-date."
 
 #: pisi/api.py:850
 msgid "Updating database at any rate as requested"
-msgstr "Dopuna baze podataka u svakom slučaju kako je zahtjevano"
+msgstr "Updating database at any rate as requested"
 
 #: pisi/api.py:863
 msgid "Package database updated."
-msgstr "Baza podataka paketa je dopunjena."
+msgstr "Package database updated."
 
 #: pisi/api.py:865
 #, python-format
 msgid "No repository named %s found."
-msgstr "NIjedan reopzitori zvan %s nije nađen."
+msgstr "No repository named %s found."
 
 #: pisi/api.py:878
 #, python-format
 msgid "Adding '%s' to db... "
-msgstr "Dodajem '%s' u db... "
+msgstr "Adding '%s' to db... "
 
 #: pisi/api.py:881
 msgid "OK."
-msgstr "U redu"
+msgstr "OK."
 
 #: pisi/archive.py:422
 #, python-format
 msgid "Problem occured while uncompressing %s.Z file"
-msgstr ""
+msgstr "Problem occured while uncompressing %s.Z file"
 
 #: pisi/atomicoperations.py:71 pisi/operations/history.py:72
 #, python-format
 msgid "Package %s found in repository %s"
-msgstr "Paket %s je nađen u repozitoriju %s"
+msgstr "Package %s found in repository %s"
 
 #: pisi/atomicoperations.py:102
 #, python-format
 msgid "Package URI: %s"
-msgstr "URI paketa: %s"
+msgstr "Package URI: %s"
 
 #: pisi/atomicoperations.py:116
 msgid "Download Error: Package does not match the repository package."
-msgstr "Greška preuzimanja: Paket se ne podudara sa paketom repozitorija."
+msgstr "Download Error: Package does not match the repository package."
 
 #: pisi/atomicoperations.py:120
 #, python-format
 msgid "Package %s not found in any active repository."
-msgstr "Paket %s nije nađen u nijednom aktivnom repozitoriju."
+msgstr "Package %s not found in any active repository."
 
 #: pisi/atomicoperations.py:146
 #, python-format
 msgid "Installing %s, version %s, release %s"
-msgstr "Instaliram %s,verzija %s,izdanje %s"
+msgstr "Installing %s, version %s, release %s"
 
 #: pisi/atomicoperations.py:192 pisi/operations/build.py:765
 #, python-format
 msgid "%s-%s is not a valid PiSi version format"
-msgstr "%s-%s nije valjan format Pisi verzije"
+msgstr "%s-%s is not a valid PiSi version format"
 
 #: pisi/atomicoperations.py:198
 #, python-format
 msgid "%s package cannot be installed unless the dependencies are satisfied"
-msgstr "%s paket nwe može biti instaliran ako zavianosti nisu zadovoljene"
+msgstr "%s package cannot be installed unless the dependencies are satisfied"
 
 #: pisi/atomicoperations.py:222
 #, python-format
 msgid "/%s from %s package\n"
-msgstr "/%s it %s paketa\n"
+msgstr "/%s from %s package\n"
 
 #: pisi/atomicoperations.py:223
 #, python-format
 msgid ""
 "File conflicts:\n"
 "%s"
-msgstr "Sukobi datoteke:\n%s"
+msgstr "File conflicts:\n%s"
 
 #: pisi/atomicoperations.py:241
 msgid "Re-install same version package?"
-msgstr "Ponovno instalirati istu verziju paketa?"
+msgstr "Re-install same version package?"
 
 #: pisi/atomicoperations.py:242
 msgid "Package re-install declined"
-msgstr "Ponovna instalacija paketa odbijena"
+msgstr "Package re-install declined"
 
 #: pisi/atomicoperations.py:254
 msgid "Upgrading to new upstream version"
-msgstr ""
+msgstr "Upgrading to new upstream version"
 
 #: pisi/atomicoperations.py:257
 msgid "Upgrading to new distribution release"
-msgstr "Nadograđujem na novo izdanje distribucije"
+msgstr "Upgrading to new distribution release"
 
 #: pisi/atomicoperations.py:266
 msgid "Downgrade to old distribution release?"
-msgstr "Vratiti na staro izadanje distribucije?"
+msgstr "Downgrade to old distribution release?"
 
 #: pisi/atomicoperations.py:270
 msgid "Package downgrade declined"
-msgstr ""
+msgstr "Package downgrade declined"
 
 #: pisi/atomicoperations.py:309
 #, python-format
 msgid "%s configuration failed."
-msgstr "%s neuspjela konfiguracija."
+msgstr "%s configuration failed."
 
 #: pisi/atomicoperations.py:400
 msgid ""
 "Unable to relocate following files. Reinstallation of this package is "
 "strongly recommended."
-msgstr "Nije moguće premjestiti sljedeće datoteke. Preporučuje se ponovna instalacija ovog paketa."
+msgstr "Unable to relocate following files. Reinstallation of this package is strongly recommended."
 
 #: pisi/atomicoperations.py:491 pisi/atomicoperations.py:494
 #: pisi/atomicoperations.py:501
 #, python-format
 msgid "Storing %s"
-msgstr "Pohranjujem %s"
+msgstr "Storing %s"
 
 #: pisi/atomicoperations.py:568
 #, python-format
 msgid "File list could not be read for package %s, continuing removal."
-msgstr "Lista datoteke sa ne može čitati za paket %s,nastavljam uklanjanje."
+msgstr "File list could not be read for package %s, continuing removal."
 
 #: pisi/atomicoperations.py:574
 #, python-format
 msgid "Removing package %s"
-msgstr "Uklanjam paket %s"
+msgstr "Removing package %s"
 
 #: pisi/atomicoperations.py:577
 msgid "Trying to remove nonexistent package "
-msgstr "Pokušava ukloniti nepostojeći paket"
+msgstr "Trying to remove nonexistent package "
 
 #: pisi/atomicoperations.py:618
 #, python-format
 msgid "Not removing conflicted file : %s"
-msgstr "Ne uklanjanje sporne datoteke: %s"
+msgstr "Not removing conflicted file : %s"
 
 #: pisi/atomicoperations.py:646
 #, python-format
 msgid ""
 "Installed file %s does not exist on system [Probably you manually deleted]"
-msgstr "Instalirana datoteka %s ne postoji u sustavu [Vejrovatno ste je ručno obrisali]"
+msgstr "Installed file %s does not exist on system [Probably you manually deleted]"
 
 #: pisi/cli/__init__.py:117
 msgid "Warning: "
-msgstr "Upozorenje:"
+msgstr "Warning: "
 
 #: pisi/cli/__init__.py:127
 msgid "Error: "
-msgstr "Greška:"
+msgstr "Error: "
 
 #: pisi/cli/__init__.py:161
 msgid " (yes/no)"
-msgstr " (da/ne)"
+msgstr " (yes/no)"
 
 #: pisi/cli/__init__.py:185
 msgid " [complete]\n"
-msgstr " [dovršeno]\n"
+msgstr " [complete]\n"
 
 #: pisi/cli/__init__.py:195
 #, python-format
 msgid "Installed %s"
-msgstr "Instaliran %s"
+msgstr "Installed %s"
 
 #: pisi/cli/__init__.py:197
 #, python-format
 msgid "Removed %s"
-msgstr "Uklonjen %s"
+msgstr "Removed %s"
 
 #: pisi/cli/__init__.py:199
 #, python-format
 msgid "Upgraded %s"
-msgstr "Nadograđen %s"
+msgstr "Upgraded %s"
 
 #: pisi/cli/__init__.py:201
 #, python-format
 msgid "Configured %s"
-msgstr "Konfiguriran %s"
+msgstr "Configured %s"
 
 #: pisi/cli/__init__.py:203
 #, python-format
 msgid "Extracting the files of %s"
-msgstr "Raspakiran datoteke od %s"
+msgstr "Extracting the files of %s"
 
 #: pisi/cli/addrepo.py:24
 msgid ""
@@ -833,23 +831,23 @@ msgid ""
 "<indexuri>: URI of index file\n"
 "\n"
 "NB: We support only local files (e.g., /a/b/c) and http:// URIs at the moment\n"
-msgstr "Dodaj repozitorij\n\nUpotreba: add-repo <repo> <indexuri>\n\n<repo>: ime repozitorija koji će se dodati\n<indexuri>: URI indey datoteke\n\nNB: Podržavamo samo lokalne datoteke(e.g., /a/b/c) i http:// URIs trenutno\n"
+msgstr "Add a repository\n\nUsage: add-repo <repo> <indexuri>\n\n<repo>: name of repository to add\n<indexuri>: URI of index file\n\nNB: We support only local files (e.g., /a/b/c) and http:// URIs at the moment\n"
 
 #: pisi/cli/addrepo.py:43
 msgid "add-repo options"
-msgstr "add-repo opcije"
+msgstr "add-repo options"
 
 #: pisi/cli/addrepo.py:44
 msgid "Ignore repository distribution check"
-msgstr "Ignoriraj provjeru repozitorija distribucije"
+msgstr "Ignore repository distribution check"
 
 #: pisi/cli/addrepo.py:45
 msgid "Does not fetch repository index and does not check distribution match"
-msgstr "Ne dohvaća indeks repozitorija i ne provjerava podudaranje distribucije"
+msgstr "Does not fetch repository index and does not check distribution match"
 
 #: pisi/cli/addrepo.py:48
 msgid "Add repository at given position (0 is first)"
-msgstr "Dodaj repozitorij na danu poziciju (0 je prva)"
+msgstr "Add repository at given position (0 is first)"
 
 #: pisi/cli/addrepo.py:62
 #, python-format
@@ -857,12 +855,12 @@ msgid ""
 "Add %s repository without updating the database?\n"
 "By confirming this you are also adding the repository to your system without checking the distribution of the repository.\n"
 "Do you want to continue?"
-msgstr "Dodaj %s repozitorij brz dopune baze podataka?\nPotvrđujućo ovo vi također dodajete repozitorij u vaš sustav bez provjere distribucije repozitorija.\nŽelite li nastaviti?"
+msgstr "Add %s repository without updating the database?\nBy confirming this you are also adding the repository to your system without checking the distribution of the repository.\nDo you want to continue?"
 
 #: pisi/cli/addrepo.py:74
 #, python-format
 msgid "%s repository could not be reached. Removing %s from system."
-msgstr "%s repozitorij nije mogao biti dohvaćen. Uklanjanje %s iz sustava."
+msgstr "%s repository could not be reached. Removing %s from system."
 
 #: pisi/cli/blame.py:24
 msgid ""
@@ -870,39 +868,39 @@ msgid ""
 "\n"
 "Usage: blame <package> ... <package>\n"
 "\n"
-msgstr "Informacije o vlasniku paketa i izadanju\n\nUporaba: krivi <package> ... <package> \n\n"
+msgstr "Information about the package owner and release\n\nUsage: blame <package> ... <package>\n\n"
 
 #: pisi/cli/blame.py:39
 msgid "blame options"
-msgstr "opcije krivljenja"
+msgstr "blame options"
 
 #: pisi/cli/blame.py:40
 msgid "Blame for the given release"
-msgstr "Krivnja za dano izdanje"
+msgstr "Blame for the given release"
 
 #: pisi/cli/blame.py:42
 msgid "Blame for all of the releases"
-msgstr "Krivnja za sva izdanja"
+msgstr "Blame for all of the releases"
 
 #: pisi/cli/blame.py:68 pisi/specfile.py:370 pisi/specfile.py:456
 #, python-format
 msgid "Name: %s, version: %s, release: %s\n"
-msgstr "Ime:%s, verzija%s, izdanje:%s\n"
+msgstr "Name: %s, version: %s, release: %s\n"
 
 #: pisi/cli/blame.py:70
 #, python-format
 msgid "Package Maintainer: %s <%s>\n"
-msgstr "Održavatelj paketa: %s <%s>\n"
+msgstr "Package Maintainer: %s <%s>\n"
 
 #: pisi/cli/blame.py:71
 #, python-format
 msgid "Release Updater: %s <%s>\n"
-msgstr "Dopunitelj izdanja: %s <%s>\n"
+msgstr "Release Updater: %s <%s>\n"
 
 #: pisi/cli/blame.py:72
 #, python-format
 msgid "Update Date: %s\n"
-msgstr "Datum dopune: %s\n"
+msgstr "Update Date: %s\n"
 
 #: pisi/cli/build.py:25
 msgid ""
@@ -915,96 +913,96 @@ msgid ""
 "\n"
 "Alternatively, you can give the name of a source package\n"
 "to be downloaded from a repository containing sources.\n"
-msgstr ""
+msgstr "Build PiSi packages\n\nUsage: build [<pspec.xml> | <sourcename>] ...\n\nYou can give a URI of the pspec.xml file. PiSi will\nfetch all necessary files and build the package for you.\n\nAlternatively, you can give the name of a source package\nto be downloaded from a repository containing sources.\n"
 
 #: pisi/cli/build.py:50
 msgid "build options"
-msgstr ""
+msgstr "build options"
 
 #: pisi/cli/build.py:58
 msgid "Run pisi build operation without printing extra debug information"
-msgstr ""
+msgstr "Run pisi build operation without printing extra debug information"
 
 #: pisi/cli/build.py:64 pisi/cli/command.py:204
 msgid "Do not take dependency information into account"
-msgstr "Nemojte uzeti u obzir informacije o zavisnosti"
+msgstr "Do not take dependency information into account"
 
 #: pisi/cli/build.py:70
 msgid "Output directory for produced packages"
-msgstr "Izlazni direktorij za napravljene pakete"
+msgstr "Output directory for produced packages"
 
 #: pisi/cli/build.py:74
 msgid "Bypass errors from ActionsAPI"
-msgstr "Zaobiđi greške iz ActionsAPI"
+msgstr "Bypass errors from ActionsAPI"
 
 #: pisi/cli/build.py:79 pisi/cli/command.py:208
 msgid "Bypass safety switch"
-msgstr "Zaobiđi sigurnosni prekidač"
+msgstr "Bypass safety switch"
 
 #: pisi/cli/build.py:84
 msgid "Bypass testing step"
-msgstr "Zaobiđi korak testiranja"
+msgstr "Bypass testing step"
 
 #: pisi/cli/build.py:89
 msgid "Create a static package with ar files"
-msgstr "Stvorite statički paket sa ar datotekama"
+msgstr "Create a static package with ar files"
 
 #: pisi/cli/build.py:93 pisi/cli/delta.py:64
 msgid ""
 "Create the binary package using the given format. Use '-F help' to see a "
 "list of supported formats."
-msgstr "Napravite binarni paket koristeći dati format. Koristite 'F-help' da biste vidjeli popis podržanih formata."
+msgstr "Create the binary package using the given format. Use '-F help' to see a list of supported formats."
 
 #: pisi/cli/build.py:100
 msgid "Use quilt patch management system instead of GNU patch"
-msgstr ""
+msgstr "Use quilt patch management system instead of GNU patch"
 
 #: pisi/cli/build.py:106
 msgid "Do not constrain build process inside the build folder"
-msgstr ""
+msgstr "Do not constrain build process inside the build folder"
 
 #: pisi/cli/build.py:110
 msgid "build steps"
-msgstr ""
+msgstr "build steps"
 
 #: pisi/cli/build.py:116
 msgid "Break build after fetching the source archive"
-msgstr ""
+msgstr "Break build after fetching the source archive"
 
 #: pisi/cli/build.py:123
 msgid ""
 "Break build after unpacking the source archive, checking sha1sum and "
 "applying patches"
-msgstr ""
+msgstr "Break build after unpacking the source archive, checking sha1sum and applying patches"
 
 #: pisi/cli/build.py:131
 msgid "Break build after running configure step"
-msgstr ""
+msgstr "Break build after running configure step"
 
 #: pisi/cli/build.py:137
 msgid "Break build after running compile step"
-msgstr ""
+msgstr "Break build after running compile step"
 
 #: pisi/cli/build.py:143
 msgid "Break build after running check step"
-msgstr ""
+msgstr "Break build after running check step"
 
 #: pisi/cli/build.py:149
 msgid "Break build after running install step"
-msgstr ""
+msgstr "Break build after running install step"
 
 #: pisi/cli/build.py:155
 msgid "Create PiSi package"
-msgstr "Napravi Pisi paket"
+msgstr "Create PiSi package"
 
 #: pisi/cli/build.py:165 pisi/cli/delta.py:72
 msgid "Supported package formats:"
-msgstr "Podržani formati paketa:"
+msgstr "Supported package formats:"
 
 #: pisi/cli/build.py:168 pisi/cli/delta.py:75
 #, python-format
 msgid "  %s (default)"
-msgstr "  %s (zadano)"
+msgstr "  %s (default)"
 
 #: pisi/cli/check.py:26
 msgid ""
@@ -1020,71 +1018,71 @@ msgid ""
 "Just give the names of packages.\n"
 "\n"
 "If no packages are given, checks all installed packages.\n"
-msgstr ""
+msgstr "Verify installation\n\nUsage: check [<package1> <package2> ... <packagen>]\n       check -c <component>\n\n<packagei>: package name\n\nA cryptographic checksum is stored for each installed\nfile. Check command uses the checksums to verify a package.\nJust give the names of packages.\n\nIf no packages are given, checks all installed packages.\n"
 
 #: pisi/cli/check.py:54
 msgid "check options"
-msgstr "opcije provjere"
+msgstr "check options"
 
 #: pisi/cli/check.py:59
 msgid "Check installed packages under given component"
-msgstr "Provjerite instalirane pakete pod određenom komponentom"
+msgstr "Check installed packages under given component"
 
 #: pisi/cli/check.py:65
 msgid "Checks only changed config files of the packages"
-msgstr "Provjerava samo promijenjene konfiguracijske datoteke paketa"
+msgstr "Checks only changed config files of the packages"
 
 #: pisi/cli/check.py:82
 msgid "Checking all installed packages"
-msgstr "Provjeravam sve instalirane pakete"
+msgstr "Checking all installed packages"
 
 #: pisi/cli/check.py:91
 #, python-format
 msgid "Checking integrity of %s"
-msgstr "Provjera integriteta%s"
+msgstr "Checking integrity of %s"
 
 #: pisi/cli/check.py:105
 msgid "Broken"
-msgstr "Slomljen"
+msgstr "Broken"
 
 #: pisi/cli/check.py:110
 msgid "Unknown"
-msgstr "Nepoznati"
+msgstr "Unknown"
 
 #: pisi/cli/check.py:112
 msgid "OK"
-msgstr "U redu"
+msgstr "OK"
 
 #: pisi/cli/check.py:118
 #, python-format
 msgid "Missing file: /%s"
-msgstr "Nedostaje datoteka: /%s"
+msgstr "Missing file: /%s"
 
 #: pisi/cli/check.py:122
 #, python-format
 msgid "Access denied: /%s"
-msgstr "Pristup odbijen: /%s"
+msgstr "Access denied: /%s"
 
 #: pisi/cli/check.py:126
 #, python-format
 msgid "Corrupted file: /%s"
-msgstr "Oštećena datoteka: /%s"
+msgstr "Corrupted file: /%s"
 
 #: pisi/cli/check.py:130
 #, python-format
 msgid "Modified configuration file: /%s"
-msgstr "Izmjenjena konfiguracijska datoteka: /%s"
+msgstr "Modified configuration file: /%s"
 
 #: pisi/cli/check.py:135
 #, python-format
 msgid "Package %s not installed"
-msgstr "Paket %s nije instaliran"
+msgstr "Package %s not installed"
 
 #: pisi/cli/check.py:139
 msgid ""
 "Pisi was unable to check the integrity of packages which contain files that you don't have read access.\n"
 "Running the check under a privileged user may help fixing this problem."
-msgstr "Pisi nije bio u mogućnosti  provjeriti integritet paketa koji sadrže datoteke kojima nemate pristup čitanja. \nPokretanje provjere kao privilegirani korisnik može pomoći popravljanju ovog problema."
+msgstr "Pisi was unable to check the integrity of packages which contain files that you don't have read access.\nRunning the check under a privileged user may help fixing this problem."
 
 #: pisi/cli/clean.py:20
 msgid ""
@@ -1094,75 +1092,75 @@ msgid ""
 "\n"
 "PiSi uses filesystem locks for managing database access.\n"
 "This command deletes unused locks from the database directory."
-msgstr ""
+msgstr "Clean stale locks\n\nUsage: clean\n\nPiSi uses filesystem locks for managing database access.\nThis command deletes unused locks from the database directory."
 
 #: pisi/cli/command.py:30
 msgid "Command lacks name"
-msgstr "Naredba nema ime"
+msgstr "Command lacks name"
 
 #: pisi/cli/command.py:34
 #, python-format
 msgid "Duplicate command %s"
-msgstr "Udvostruči naredbu %s"
+msgstr "Duplicate command %s"
 
 #: pisi/cli/command.py:71 pisi/cli/pisicli.py:134
 #, python-format
 msgid "Unrecognized command: %s"
-msgstr "Neprepoznata naredba: %s"
+msgstr "Unrecognized command: %s"
 
 #: pisi/cli/command.py:96
 msgid "general options"
-msgstr "osnovne opcije"
+msgstr "general options"
 
 #: pisi/cli/command.py:99
 msgid "Change the system root for PiSi commands"
-msgstr "Promjena root sustava za PiSi naredbe"
+msgstr "Change the system root for PiSi commands"
 
 #: pisi/cli/command.py:101
 msgid "Assume yes in all yes/no queries"
-msgstr "Pretpostavimo da u svim da/ne pitanjima"
+msgstr "Assume yes in all yes/no queries"
 
 #: pisi/cli/command.py:105
 msgid "Keep bandwidth usage under specified KB's"
-msgstr "Držite korištenje propusne moći pod određenim KB-a"
+msgstr "Keep bandwidth usage under specified KB's"
 
 #: pisi/cli/command.py:108
 msgid "Detailed output"
-msgstr "Detaljni izlazni ispis"
+msgstr "Detailed output"
 
 #: pisi/cli/command.py:110
 msgid "Show debugging information"
-msgstr ""
+msgstr "Show debugging information"
 
 #: pisi/cli/command.py:112
 msgid "Suppresses all coloring of PiSi's output"
-msgstr ""
+msgstr "Suppresses all coloring of PiSi's output"
 
 #: pisi/cli/command.py:130
 #, python-format
 msgid "Destination directory %s does not exist. Creating directory.\n"
-msgstr "Odredišni direktorij %s ne postoji.Stvaram direktorij.\n"
+msgstr "Destination directory %s does not exist. Creating directory.\n"
 
 #: pisi/cli/command.py:152
 msgid "Password: "
-msgstr "Lozinka:"
+msgstr "Password: "
 
 #: pisi/cli/command.py:191
 msgid "Command terminated abnormally."
-msgstr "Naredba nenormalno prekinuta."
+msgstr "Command terminated abnormally."
 
 #: pisi/cli/command.py:206 pisi/cli/emerge.py:53
 msgid "Bypass comar configuration agent"
-msgstr "Zaobiđi Comar konfiguracijski agent"
+msgstr "Bypass comar configuration agent"
 
 #: pisi/cli/command.py:210
 msgid "Do not perform any action, just show what would be done"
-msgstr "Nemoj izvoditi nikakvee akcije, samo pokaži što će biti učinjeno"
+msgstr "Do not perform any action, just show what would be done"
 
 #: pisi/cli/command.py:228
 #, python-format
 msgid "usage: %s\n"
-msgstr "uporaba: %s\n"
+msgstr "usage: %s\n"
 
 #: pisi/cli/configurepending.py:23
 msgid ""
@@ -1172,11 +1170,11 @@ msgid ""
 "done at installation time, they are added to a list\n"
 "of packages waiting to be configured. This command\n"
 "configures those packages.\n"
-msgstr ""
+msgstr "Configure pending packages\n\nIf COMAR configuration of some packages were not\ndone at installation time, they are added to a list\nof packages waiting to be configured. This command\nconfigures those packages.\n"
 
 #: pisi/cli/configurepending.py:39
 msgid "configure-pending options"
-msgstr ""
+msgstr "configure-pending options"
 
 #: pisi/cli/deletecache.py:22
 msgid ""
@@ -1187,7 +1185,7 @@ msgid ""
 "Sources, packages and temporary files are stored\n"
 "under /var directory. Since these accumulate they can\n"
 "consume a lot of disk space."
-msgstr ""
+msgstr "Delete cache files\n\nUsage: delete-cache\n\nSources, packages and temporary files are stored\nunder /var directory. Since these accumulate they can\nconsume a lot of disk space."
 
 #: pisi/cli/delta.py:24
 msgid ""
@@ -1199,19 +1197,19 @@ msgid ""
 "Delta command finds the changed files between the given\n"
 "packages by comparing the sha1sum of files and creates\n"
 "a delta package with the changed files.\n"
-msgstr "Stvara delta pakete\n\nUporaba: delta staripaket1 staripaket2 ... novipaket\n delta -t novipaket staripaket1 staripaket2 ...\n\nDelta naredba nalazi promjenjene datoteke između danih\npaketa uspoređujući  sha1sum datoteka i stvara \na delta paket sa izmjenjenim datotekama.\n"
+msgstr "Creates delta packages\n\nUsages: delta oldpackage1 oldpackage2 ...  newpackage\n        delta -t newpackage oldpackage1 oldpackage2 ...\n\nDelta command finds the changed files between the given\npackages by comparing the sha1sum of files and creates\na delta package with the changed files.\n"
 
 #: pisi/cli/delta.py:46
 msgid "delta options"
-msgstr "delta opcije"
+msgstr "delta options"
 
 #: pisi/cli/delta.py:54
 msgid "Use arg as the new package and treat other arguments as old packages."
-msgstr ""
+msgstr "Use arg as the new package and treat other arguments as old packages."
 
 #: pisi/cli/delta.py:60
 msgid "Output directory for produced packages."
-msgstr "Izlazbi direktorij za napravljene pakete."
+msgstr "Output directory for produced packages."
 
 #: pisi/cli/disablerepo.py:21
 msgid ""
@@ -1222,7 +1220,7 @@ msgid ""
 "<repoi>: repository name\n"
 "\n"
 "Disabled repositories are not taken into account in operations\n"
-msgstr ""
+msgstr "Disable repository\n\nUsage: disable-repo [<repo1> <repo2> ... <repon>]\n\n<repoi>: repository name\n\nDisabled repositories are not taken into account in operations\n"
 
 #: pisi/cli/emerge.py:25
 msgid ""
@@ -1234,32 +1232,32 @@ msgid ""
 "downloaded from a repository containing sources.\n"
 "\n"
 "You can also give the name of a component.\n"
-msgstr "Gradnja i instalacija PiSi izvornih paketa iz repozitorija\n\\ nUporaba: emerge <sourcename> ... \n\nTrebate dati ime izvornog paketa za\npreuzimanje iz repozitorija koji sadrži izvorne pakete.\n\nTakođer možete dati ime komponente.\n"
+msgstr "Build and install PiSi source packages from repository\n\nUsage: emerge <sourcename> ...\n\nYou should give the name of a source package to be\ndownloaded from a repository containing sources.\n\nYou can also give the name of a component.\n"
 
 #: pisi/cli/emerge.py:44
 msgid "emerge options"
-msgstr ""
+msgstr "emerge options"
 
 #: pisi/cli/emerge.py:47
 msgid "Emerge available packages under given component"
-msgstr ""
+msgstr "Emerge available packages under given component"
 
 #: pisi/cli/emerge.py:49 pisi/cli/install.py:53 pisi/cli/upgrade.py:58
 msgid "Ignore file conflicts"
-msgstr "Zanemari sukobe datoteka"
+msgstr "Ignore file conflicts"
 
 #: pisi/cli/emerge.py:51 pisi/cli/install.py:55 pisi/cli/upgrade.py:60
 msgid "Ignore package conflicts"
-msgstr "Zanemari sukobe pakete"
+msgstr "Ignore package conflicts"
 
 #: pisi/cli/emerge.py:71
 #, python-format
 msgid "Output directory: %s"
-msgstr "Izlazni direktorij: %s"
+msgstr "Output directory: %s"
 
 #: pisi/cli/emerge.py:73
 msgid "Outputting binary packages in the package cache."
-msgstr ""
+msgstr "Outputting binary packages in the package cache."
 
 #: pisi/cli/enablerepo.py:21
 msgid ""
@@ -1270,7 +1268,7 @@ msgid ""
 "<repoi>: repository name\n"
 "\n"
 "Disabled repositories are not taken into account in operations\n"
-msgstr ""
+msgstr "Enable repository\n\nUsage: enable-repo [<repo1> <repo2> ... <repon>]\n\n<repoi>: repository name\n\nDisabled repositories are not taken into account in operations\n"
 
 #: pisi/cli/fetch.py:25
 msgid ""
@@ -1281,15 +1279,15 @@ msgid ""
 "<packagei>: package name\n"
 "\n"
 "Downloads the given pisi packages to working directory\n"
-msgstr ""
+msgstr "Fetch a package\n\nUsage: fetch [<package1> <package2> ... <packagen>]\n\n<packagei>: package name\n\nDownloads the given pisi packages to working directory\n"
 
 #: pisi/cli/fetch.py:41
 msgid "fetch options"
-msgstr ""
+msgstr "fetch options"
 
 #: pisi/cli/fetch.py:47
 msgid "Output directory for the fetched packages"
-msgstr ""
+msgstr "Output directory for the fetched packages"
 
 #: pisi/cli/graph.py:26
 msgid ""
@@ -1301,44 +1299,44 @@ msgid ""
 "conflicts relations starting from given packages. By default\n"
 "shows the package relations among repository packages, and writes\n"
 "the package in graphviz format to 'pgraph.dot'.\n"
-msgstr ""
+msgstr "Graph package relations\n\nUsage: graph [<package1> <package2> ...]\n\nWrite a graph of package relations, tracking dependency and\nconflicts relations starting from given packages. By default\nshows the package relations among repository packages, and writes\nthe package in graphviz format to 'pgraph.dot'.\n"
 
 #: pisi/cli/graph.py:43
 msgid "graph options"
-msgstr "Opcije grafikona"
+msgstr "graph options"
 
 #: pisi/cli/graph.py:47
 msgid "Specify a particular repository"
-msgstr "Odredite konkretan repozitorij"
+msgstr "Specify a particular repository"
 
 #: pisi/cli/graph.py:50
 msgid "Graph of installed packages"
-msgstr "Grafikon instaliranih paketa"
+msgstr "Graph of installed packages"
 
 #: pisi/cli/graph.py:53
 msgid "Do not show installed packages"
-msgstr "Ne pokazuj instalirane pakete"
+msgstr "Do not show installed packages"
 
 #: pisi/cli/graph.py:56
 msgid "Draw reverse dependency graph"
-msgstr ""
+msgstr "Draw reverse dependency graph"
 
 #: pisi/cli/graph.py:59
 msgid "Dot output file"
-msgstr ""
+msgstr "Dot output file"
 
 #: pisi/cli/graph.py:73
 #, python-format
 msgid "Plotting packages in repository %s"
-msgstr ""
+msgstr "Plotting packages in repository %s"
 
 #: pisi/cli/graph.py:76
 msgid "Plotting a graph of relations among all repository packages"
-msgstr ""
+msgstr "Plotting a graph of relations among all repository packages"
 
 #: pisi/cli/graph.py:90
 msgid "Plotting a graph of relations among all installed packages"
-msgstr ""
+msgstr "Plotting a graph of relations among all installed packages"
 
 #: pisi/cli/help.py:22
 msgid ""
@@ -1347,7 +1345,7 @@ msgid ""
 "Usage: help [ <command1> <command2> ... <commandn> ]\n"
 "\n"
 "If run without parameters, it prints the general help."
-msgstr ""
+msgstr "Prints help for given commands\n\nUsage: help [ <command1> <command2> ... <commandn> ]\n\nIf run without parameters, it prints the general help."
 
 #: pisi/cli/help.py:49
 msgid ""
@@ -1355,41 +1353,41 @@ msgid ""
 "\n"
 "where <command> is one of:\n"
 "\n"
-msgstr ""
+msgstr "%prog [options] <command> [arguments]\n\nwhere <command> is one of:\n\n"
 
 #: pisi/cli/help.py:55
 msgid ""
 "\n"
 "Use \"%prog help <command>\" for help on a specific command.\n"
-msgstr ""
+msgstr "\nUse \"%prog help <command>\" for help on a specific command.\n"
 
 #: pisi/cli/history.py:28
 msgid "upgrade"
-msgstr "nadogradi"
+msgstr "upgrade"
 
 #: pisi/cli/history.py:28
 msgid "remove"
-msgstr "ukloni"
+msgstr "remove"
 
 #: pisi/cli/history.py:28
 msgid "emerge"
-msgstr ""
+msgstr "emerge"
 
 #: pisi/cli/history.py:28
 msgid "install"
-msgstr "instaliraj"
+msgstr "install"
 
 #: pisi/cli/history.py:28
 msgid "snapshot"
-msgstr "snimak"
+msgstr "snapshot"
 
 #: pisi/cli/history.py:28
 msgid "takeback"
-msgstr ""
+msgstr "takeback"
 
 #: pisi/cli/history.py:28
 msgid "repository update"
-msgstr "dopuna repozitorija"
+msgstr "repository update"
 
 #: pisi/cli/history.py:31
 msgid ""
@@ -1398,38 +1396,38 @@ msgid ""
 "Usage: history\n"
 "\n"
 "Lists previous operations."
-msgstr "Povijest pisi operacija\n\nUporaba: povijest\n\nIzlistava prethodne operacije."
+msgstr "History of pisi operations\n\nUsage: history\n\nLists previous operations."
 
 #: pisi/cli/history.py:47
 msgid "history options"
-msgstr "opcije povijesti"
+msgstr "history options"
 
 #: pisi/cli/history.py:53
 msgid "Output only the last n operations"
-msgstr "Izlazni ispis samo zadnjih n operacija"
+msgstr "Output only the last n operations"
 
 #: pisi/cli/history.py:55
 msgid "Take snapshot of the current system"
-msgstr "Napravite snimak trenutnog sustava"
+msgstr "Take snapshot of the current system"
 
 #: pisi/cli/history.py:57
 msgid "Takeback to the state after the given operation finished"
-msgstr ""
+msgstr "Takeback to the state after the given operation finished"
 
 #: pisi/cli/history.py:67
 #, python-format
 msgid "Operation #%d: %s"
-msgstr "Operacija #%d: %s"
+msgstr "Operation #%d: %s"
 
 #: pisi/cli/history.py:68
 #, python-format
 msgid "Date: %s %s"
-msgstr "Datum: %s %s"
+msgstr "Date: %s %s"
 
 #: pisi/cli/history.py:72
 #, python-format
 msgid "    * There are %d packages in this snapshot."
-msgstr "* Postoje %d paketi u ovom snimku."
+msgstr "    * There are %d packages in this snapshot."
 
 #: pisi/cli/index.py:23
 msgid ""
@@ -1444,31 +1442,31 @@ msgid ""
 "\n"
 "If you give multiple directories, the command still works, but puts\n"
 "everything in a single index file.\n"
-msgstr ""
+msgstr "Index PiSi files in a given directory\n\nUsage: index <directory> ...\n\nThis command searches for all PiSi files in a directory, collects PiSi\ntags from them and accumulates the information in an output XML file,\nnamed by default 'pisi-index.xml'. In particular, it indexes both\nsource and binary packages.\n\nIf you give multiple directories, the command still works, but puts\neverything in a single index file.\n"
 
 #: pisi/cli/index.py:48
 msgid "index options"
-msgstr "opcije indeksa"
+msgstr "index options"
 
 #: pisi/cli/index.py:53
 msgid "Store absolute links for indexed files."
-msgstr "Pohrani apsolutne veze za indeksirane datoteke."
+msgstr "Store absolute links for indexed files."
 
 #: pisi/cli/index.py:58
 msgid "Index output file"
-msgstr ""
+msgstr "Index output file"
 
 #: pisi/cli/index.py:63
 msgid "Comma-separated compression types for index file"
-msgstr ""
+msgstr "Comma-separated compression types for index file"
 
 #: pisi/cli/index.py:69
 msgid "Do not index PiSi spec files."
-msgstr "Ne indeksiraj PiSi spec datoteke."
+msgstr "Do not index PiSi spec files."
 
 #: pisi/cli/index.py:74
 msgid "Do not sign index."
-msgstr ""
+msgstr "Do not sign index."
 
 #: pisi/cli/info.py:26
 msgid ""
@@ -1477,80 +1475,80 @@ msgid ""
 "Usage: info <package1> <package2> ... <packagen>\n"
 "\n"
 "<packagei> is either a package name or a .pisi file,\n"
-msgstr ""
+msgstr "Display package information\n\nUsage: info <package1> <package2> ... <packagen>\n\n<packagei> is either a package name or a .pisi file,\n"
 
 #: pisi/cli/info.py:45
 msgid "info options"
-msgstr "opcije informacija"
+msgstr "info options"
 
 #: pisi/cli/info.py:52
 msgid "Show a list of package files."
-msgstr "Pokaži listu datoteka paketa."
+msgstr "Show a list of package files."
 
 #: pisi/cli/info.py:54
 msgid "Info about the given component"
-msgstr "Informacija o danoj komponenti"
+msgstr "Info about the given component"
 
 #: pisi/cli/info.py:57
 msgid "Show only paths."
-msgstr "Pokaži samo putanje."
+msgstr "Show only paths."
 
 #: pisi/cli/info.py:59
 msgid "Do not show details"
-msgstr "Ne pokazuj detalje"
+msgstr "Do not show details"
 
 #: pisi/cli/info.py:61
 msgid "Output in xml format"
-msgstr "Izlaz u XML formatu"
+msgstr "Output in xml format"
 
 #: pisi/cli/info.py:129
 msgid "Reverse Dependencies:"
-msgstr "Obrnute zavisnosti:"
+msgstr "Reverse Dependencies:"
 
 #: pisi/cli/info.py:140
 msgid "Reverse Build Dependencies:"
-msgstr ""
+msgstr "Reverse Build Dependencies:"
 
 #: pisi/cli/info.py:145
 #, python-format
 msgid "Package file: %s"
-msgstr "Datoteka paketa: %s"
+msgstr "Package file: %s"
 
 #: pisi/cli/info.py:160
 msgid "[inst] "
-msgstr ""
+msgstr "[inst] "
 
 #: pisi/cli/info.py:162
 msgid "Installed package:"
-msgstr "Instalirani paket:"
+msgstr "Installed package:"
 
 #: pisi/cli/info.py:166
 #, python-format
 msgid "%s package is not installed"
-msgstr "%s paket nije instaliran"
+msgstr "%s package is not installed"
 
 #: pisi/cli/info.py:172
 msgid "[binary] "
-msgstr "[binarni]"
+msgstr "[binary] "
 
 #: pisi/cli/info.py:174 pisi/cli/info.py:186
 #, python-format
 msgid "Package found in %s repository:"
-msgstr "Paket je nađen u %s repozitoriju:"
+msgstr "Package found in %s repository:"
 
 #: pisi/cli/info.py:177
 #, python-format
 msgid "%s package is not found in binary repositories"
-msgstr "%s paket nije pronađen u binarnom repozitoriju"
+msgstr "%s package is not found in binary repositories"
 
 #: pisi/cli/info.py:184
 msgid "[source] "
-msgstr "[Izvor]"
+msgstr "[source] "
 
 #: pisi/cli/info.py:189
 #, python-format
 msgid "%s package is not found in source repositories"
-msgstr "%s paket nije nađen u repozitoriju izvora"
+msgstr "%s package is not found in source repositories"
 
 #: pisi/cli/install.py:25
 msgid ""
@@ -1563,48 +1561,48 @@ msgid ""
 "\n"
 "You can also specify components instead of package names, which will be\n"
 "expanded to package names.\n"
-msgstr "Instaliraj PiSi pakete\n\nUporaba: instaliraj <paket1> <paket2> ... <paketn>\n\nMožete koristiti imena datoteka, URI-je ili imena paketa za pakete. Ako ste\nodredili ime paketa,tada trewba postojati u određenom repozitoriju.\n\nTakođer možete odrediti komponente umjesto imena paketa, koje će biti\nproširene na imena paketa.\n"
+msgstr "Install PiSi packages\n\nUsage: install <package1> <package2> ... <packagen>\n\nYou may use filenames, URI's or package names for packages. If you have\nspecified a package name, it should exist in a specified repository.\n\nYou can also specify components instead of package names, which will be\nexpanded to package names.\n"
 
 #: pisi/cli/install.py:44
 msgid "install options"
-msgstr "opcije instalacije"
+msgstr "install options"
 
 #: pisi/cli/install.py:49
 msgid "Reinstall already installed packages"
-msgstr "Ponovno instaliraj već instalirane pakete"
+msgstr "Reinstall already installed packages"
 
 #: pisi/cli/install.py:51
 msgid "Skip distribution release and architecture check"
-msgstr "Preskoči provjeru izdanja distribucije i arhitekture"
+msgstr "Skip distribution release and architecture check"
 
 #: pisi/cli/install.py:57
 msgid "Install component's and recursive components' packages"
-msgstr "Instalirajte komponentu i rekurzivne pakete komponente"
+msgstr "Install component's and recursive components' packages"
 
 #: pisi/cli/install.py:59
 msgid "Name of the component's repository"
-msgstr "Naziv repozitorija komponente "
+msgstr "Name of the component's repository"
 
 #: pisi/cli/install.py:61 pisi/cli/upgrade.py:66
 msgid "Fetch upgrades but do not install."
-msgstr "Dohvati nadogradnje, ali ne instaliraj."
+msgstr "Fetch upgrades but do not install."
 
 #: pisi/cli/install.py:63
 msgid ""
 "When installing packages, ignore packages and components whose basenames "
 "match pattern."
-msgstr ""
+msgstr "When installing packages, ignore packages and components whose basenames match pattern."
 
 #: pisi/cli/install.py:66
 msgid ""
 "When installing packages, ignore packages and components whose basenames "
 "match any pattern contained in file."
-msgstr ""
+msgstr "When installing packages, ignore packages and components whose basenames match any pattern contained in file."
 
 #: pisi/cli/install.py:93
 #, python-format
 msgid "There is no component named %s"
-msgstr "Nema komponente po imenu%s"
+msgstr "There is no component named %s"
 
 #: pisi/cli/listavailable.py:26
 msgid ""
@@ -1615,34 +1613,34 @@ msgid ""
 "Gives a brief list of PiSi packages published in the specified\n"
 "repositories. If no repository is specified, we list packages in\n"
 "all repositories.\n"
-msgstr "Izlistaj dostupne pakete u repozitorijima\n\nUporaba: izlistaj-dostupne[ <repo1><repo2> ... repon]\n  nDaje kratak popis PiSi paketa objavljenih u navedenom\nrepozitorijima. Ako nijedan repozitorij nije naveden, mi listamo pakete u\nsvim repozitorijima.\n"
+msgstr "List available packages in the repositories\n\nUsage: list-available [ <repo1> <repo2> ... repon ]\n\nGives a brief list of PiSi packages published in the specified\nrepositories. If no repository is specified, we list packages in\nall repositories.\n"
 
 #: pisi/cli/listavailable.py:45
 msgid "list-available options"
-msgstr "opcije izlistaj-dostupno"
+msgstr "list-available options"
 
 #: pisi/cli/listavailable.py:47 pisi/cli/listcomponents.py:42
 #: pisi/cli/listinstalled.py:48 pisi/cli/listsources.py:41
 #: pisi/cli/listupgrades.py:44 pisi/cli/searchfile.py:40
 msgid "Show in long format"
-msgstr "Pokaži u dugom formatu"
+msgstr "Show in long format"
 
 #: pisi/cli/listavailable.py:49
 msgid "List available packages under given component"
-msgstr "Lista dostupnih paketa pod danom komponentom"
+msgstr "List available packages under given component"
 
 #: pisi/cli/listavailable.py:51
 msgid "Show uninstalled packages only"
-msgstr "Pokaži samo neinstalirane pakete"
+msgstr "Show uninstalled packages only"
 
 #: pisi/cli/listavailable.py:59
 msgid "Installed packages are shown in this color"
-msgstr "Instalirani paketi su prikazani u ovoj boji"
+msgstr "Installed packages are shown in this color"
 
 #: pisi/cli/listavailable.py:67
 #, python-format
 msgid "Repository : %s\n"
-msgstr "Repozitorij: %s\n"
+msgstr "Repository : %s\n"
 
 #: pisi/cli/listcomponents.py:24
 msgid ""
@@ -1652,43 +1650,43 @@ msgid ""
 "\n"
 "Gives a brief list of PiSi components published in the\n"
 "repositories.\n"
-msgstr ""
+msgstr "List available components\n\nUsage: list-components\n\nGives a brief list of PiSi components published in the\nrepositories.\n"
 
 #: pisi/cli/listcomponents.py:40
 msgid "list-components options"
-msgstr ""
+msgstr "list-components options"
 
 #: pisi/cli/listcomponents.py:44 pisi/cli/search.py:47
 msgid "Name of the source or package repository"
-msgstr "Ime repozitorija izvora ili paketa"
+msgstr "Name of the source or package repository"
 
 #: pisi/cli/listinstalled.py:24
 msgid ""
 "Print the list of all installed packages\n"
 "\n"
 "Usage: list-installed\n"
-msgstr "Ispiši listu svih instaliranih paketa\n\nUporaba: list-installed\n"
+msgstr "Print the list of all installed packages\n\nUsage: list-installed\n"
 
 #: pisi/cli/listinstalled.py:40
 msgid "list-installed options"
-msgstr ""
+msgstr "list-installed options"
 
 #: pisi/cli/listinstalled.py:45
 msgid "Only list the installed packages built by the given host"
-msgstr ""
+msgstr "Only list the installed packages built by the given host"
 
 #: pisi/cli/listinstalled.py:50
 msgid "List installed packages under given component"
-msgstr "Lista instaliranih paketa pod danom komponentom"
+msgstr "List installed packages under given component"
 
 #: pisi/cli/listinstalled.py:52 pisi/cli/listupgrades.py:48
 msgid "Show detailed install info"
-msgstr "Pokaži detaljnu informaciju o instalaciji"
+msgstr "Show detailed install info"
 
 #: pisi/cli/listinstalled.py:78 pisi/cli/listupgrades.py:73
 msgid ""
 "Package Name          |St|        Version|  Rel.|  Distro|             Date"
-msgstr ""
+msgstr "Package Name          |St|        Version|  Rel.|  Distro|             Date"
 
 #: pisi/cli/listnewest.py:25
 msgid ""
@@ -1699,44 +1697,44 @@ msgid ""
 "Gives a list of PiSi newly published packages in the specified\n"
 "repositories. If no repository is specified, we list the new\n"
 "packages from all repositories.\n"
-msgstr ""
+msgstr "List newest packages in the repositories\n\nUsage: list-newest [ <repo1> <repo2> ... repon ]\n\nGives a list of PiSi newly published packages in the specified\nrepositories. If no repository is specified, we list the new\npackages from all repositories.\n"
 
 #: pisi/cli/listnewest.py:44
 msgid "list-newest options"
-msgstr "opcije listaj-najnovije"
+msgstr "list-newest options"
 
 #: pisi/cli/listnewest.py:46
 msgid ""
 "List new packages added to repository after this given date formatted as "
 "yyyy-mm-dd"
-msgstr "Izlistaj nove pakete dodane u repozitorij nakon određenog datuma u formatu yyyy-mm-dd"
+msgstr "List new packages added to repository after this given date formatted as yyyy-mm-dd"
 
 #: pisi/cli/listnewest.py:48
 msgid ""
 "List new packages added to repository after last nth previous repository "
 "update"
-msgstr ""
+msgstr "List new packages added to repository after last nth previous repository update"
 
 #: pisi/cli/listnewest.py:76
 #, python-format
 msgid "Packages added to %s since %s:\n"
-msgstr "Paketi dodani u %s od %s:\n"
+msgstr "Packages added to %s since %s:\n"
 
 #: pisi/cli/listnewest.py:78
 #, python-format
 msgid "Packages added to %s:"
-msgstr "Paketi dodani u %s:"
+msgstr "Packages added to %s:"
 
 #: pisi/cli/listpending.py:22
 msgid ""
 "List pending packages\n"
 "\n"
 "Lists packages waiting to be configured.\n"
-msgstr ""
+msgstr "List pending packages\n\nLists packages waiting to be configured.\n"
 
 #: pisi/cli/listpending.py:41
 msgid "There are no packages waiting to be configured"
-msgstr "Nema paketa koji čekaju da ih se konfigurira"
+msgstr "There are no packages waiting to be configured"
 
 #: pisi/cli/listrepo.py:23
 msgid ""
@@ -1745,15 +1743,15 @@ msgid ""
 "Usage: list-repo\n"
 "\n"
 "Lists currently tracked repositories.\n"
-msgstr ""
+msgstr "List repositories\n\nUsage: list-repo\n\nLists currently tracked repositories.\n"
 
 #: pisi/cli/listrepo.py:41 pisi/cli/listrepo.py:42
 msgid "active"
-msgstr "aktivan"
+msgstr "active"
 
 #: pisi/cli/listrepo.py:41
 msgid "inactive"
-msgstr "neaktivan"
+msgstr "inactive"
 
 #: pisi/cli/listrepo.py:43 pisi/cli/listrepo.py:45
 #, python-format
@@ -1767,11 +1765,11 @@ msgid ""
 "Usage: list-sources\n"
 "\n"
 "Gives a brief list of sources published in the repositories.\n"
-msgstr ""
+msgstr "List available sources\n\nUsage: list-sources\n\nGives a brief list of sources published in the repositories.\n"
 
 #: pisi/cli/listsources.py:39
 msgid "list-sources options"
-msgstr ""
+msgstr "list-sources options"
 
 #: pisi/cli/listupgrades.py:26
 msgid ""
@@ -1780,31 +1778,31 @@ msgid ""
 "Usage: list-upgrades\n"
 "\n"
 "Lists the packages that will be upgraded.\n"
-msgstr ""
+msgstr "List packages to be upgraded\n\nUsage: list-upgrades\n\nLists the packages that will be upgraded.\n"
 
 #: pisi/cli/listupgrades.py:42
 msgid "list-upgrades options"
-msgstr ""
+msgstr "list-upgrades options"
 
 #: pisi/cli/listupgrades.py:46
 msgid "List upgradable packages under given component"
-msgstr "Popis nadogradivih paketa u datim komponentama"
+msgstr "List upgradable packages under given component"
 
 #: pisi/cli/listupgrades.py:64 pisi/operations/upgrade.py:146
 msgid "No packages to upgrade."
-msgstr "Nema paketa za nadogradnju"
+msgstr "No packages to upgrade."
 
 #: pisi/cli/pisicli.py:86
 msgid "Options must precede non-option arguments"
-msgstr ""
+msgstr "Options must precede non-option arguments"
 
 #: pisi/cli/pisicli.py:127
 msgid "No command given"
-msgstr "NIje dana nijedna naredba"
+msgstr "No command given"
 
 #: pisi/cli/pisicli.py:130
 msgid "Command line parsing error"
-msgstr ""
+msgstr "Command line parsing error"
 
 #: pisi/cli/rebuilddb.py:24
 msgid ""
@@ -1816,19 +1814,19 @@ msgid ""
 "\n"
 "If package specs are given, they should be the names of package\n"
 "dirs under /var/lib/pisi\n"
-msgstr ""
+msgstr "Rebuild Databases\n\nUsage: rebuilddb [ <package1> <package2> ... <packagen> ]\n\nRebuilds the PiSi databases\n\nIf package specs are given, they should be the names of package\ndirs under /var/lib/pisi\n"
 
 #: pisi/cli/rebuilddb.py:42
 msgid "rebuild-db options"
-msgstr ""
+msgstr "rebuild-db options"
 
 #: pisi/cli/rebuilddb.py:45
 msgid "Rebuild files database"
-msgstr "Obnovi bazu podataka datoteka"
+msgstr "Rebuild files database"
 
 #: pisi/cli/rebuilddb.py:51
 msgid "Rebuild PiSi databases?"
-msgstr "Obnovi PiSi baze podataka?"
+msgstr "Rebuild PiSi databases?"
 
 #: pisi/cli/remove.py:25
 msgid ""
@@ -1840,19 +1838,19 @@ msgid ""
 "\n"
 "You can also specify components instead of package names, which will be\n"
 "expanded to package names.\n"
-msgstr ""
+msgstr "Remove PiSi packages\n\nUsage: remove <package1> <package2> ... <packagen>\n\nRemove package(s) from your system. Just give the package names to remove.\n\nYou can also specify components instead of package names, which will be\nexpanded to package names.\n"
 
 #: pisi/cli/remove.py:43
 msgid "remove options"
-msgstr "opcije uklanjanja"
+msgstr "remove options"
 
 #: pisi/cli/remove.py:46
 msgid "Removes everything including changed config files of the package"
-msgstr "Uklanja sve, uključujući promijenjene konfiguracijske datoteke paketa"
+msgstr "Removes everything including changed config files of the package"
 
 #: pisi/cli/remove.py:48
 msgid "Remove component's and recursive components' packages"
-msgstr "Uklonite komponente i rekurzivne pakete komponenata"
+msgstr "Remove component's and recursive components' packages"
 
 #: pisi/cli/removerepo.py:21
 msgid ""
@@ -1861,7 +1859,7 @@ msgid ""
 "Usage: remove-repo <repo1> <repo2> ... <repon>\n"
 "\n"
 "Remove all repository information from the system.\n"
-msgstr ""
+msgstr "Remove repositories\n\nUsage: remove-repo <repo1> <repo2> ... <repon>\n\nRemove all repository information from the system.\n"
 
 #: pisi/cli/search.py:25
 msgid ""
@@ -1874,35 +1872,35 @@ msgid ""
 "Default search is done in package database. Use\n"
 "options to search in install database or source\n"
 "database.\n"
-msgstr ""
+msgstr "Search packages\n\nUsage: search <term1> <term2> ... <termn>\n\nFinds a package containing specified search terms\nin summary, description, and package name fields.\nDefault search is done in package database. Use\noptions to search in install database or source\ndatabase.\n"
 
 #: pisi/cli/search.py:43
 msgid "search options"
-msgstr "opcije traženja"
+msgstr "search options"
 
 #: pisi/cli/search.py:45
 msgid "Summary and description language"
-msgstr "Sažetak i jezik opisa"
+msgstr "Summary and description language"
 
 #: pisi/cli/search.py:49
 msgid "Search in installdb"
-msgstr ""
+msgstr "Search in installdb"
 
 #: pisi/cli/search.py:51
 msgid "Search in sourcedb"
-msgstr ""
+msgstr "Search in sourcedb"
 
 #: pisi/cli/search.py:53
 msgid "Search in the package name"
-msgstr "Traži u imenu paketa"
+msgstr "Search in the package name"
 
 #: pisi/cli/search.py:55
 msgid "Search in the package summary"
-msgstr "Traži u sažetku paketa"
+msgstr "Search in the package summary"
 
 #: pisi/cli/search.py:57
 msgid "Search in the package description"
-msgstr "Traži u opisu paketa"
+msgstr "Search in the package description"
 
 #: pisi/cli/searchfile.py:24
 msgid ""
@@ -1911,30 +1909,30 @@ msgid ""
 "Usage: search-file <path1> <path2> ... <pathn>\n"
 "\n"
 "Finds the installed package which contains the specified file.\n"
-msgstr ""
+msgstr "Search for a file\n\nUsage: search-file <path1> <path2> ... <pathn>\n\nFinds the installed package which contains the specified file.\n"
 
 #: pisi/cli/searchfile.py:38
 msgid "search-file options"
-msgstr ""
+msgstr "search-file options"
 
 #: pisi/cli/searchfile.py:42
 msgid "Show only package name"
-msgstr "Pokaži samo ime paketa"
+msgstr "Show only package name"
 
 #: pisi/cli/searchfile.py:49
 #, python-format
 msgid "Package %s has file /%s"
-msgstr "Paket %s ima datoteku  /%s"
+msgstr "Package %s has file /%s"
 
 #: pisi/cli/searchfile.py:52
 #, python-format
 msgid "Path '%s' does not belong to an installed package"
-msgstr "Putanja '%s' ne pripada instaliranom paketu"
+msgstr "Path '%s' does not belong to an installed package"
 
 #: pisi/cli/searchfile.py:65
 #, python-format
 msgid "Searching for %s"
-msgstr "U potrazi za %s"
+msgstr "Searching for %s"
 
 #: pisi/cli/updaterepo.py:24
 msgid ""
@@ -1946,15 +1944,15 @@ msgid ""
 "\n"
 "Synchronizes the PiSi databases with the current repository.\n"
 "If no repository is given, all repositories are updated.\n"
-msgstr ""
+msgstr "Update repository databases\n\nUsage: update-repo [<repo1> <repo2> ... <repon>]\n\n<repoi>: repository name\n\nSynchronizes the PiSi databases with the current repository.\nIf no repository is given, all repositories are updated.\n"
 
 #: pisi/cli/updaterepo.py:42
 msgid "update-repo options"
-msgstr ""
+msgstr "update-repo options"
 
 #: pisi/cli/updaterepo.py:46
 msgid "Update database in any case"
-msgstr "Dopuni  bazu podataka u svakom slučaju"
+msgstr "Update database in any case"
 
 #: pisi/cli/upgrade.py:25
 msgid ""
@@ -1974,1263 +1972,1263 @@ msgid ""
 "\n"
 "You can also specify components instead of package names, which will be\n"
 "expanded to package names.\n"
-msgstr ""
+msgstr "Upgrade PiSi packages\n\nUsage: Upgrade [<package1> <package2> ... <packagen>]\n\n<packagei>: package name\n\nUpgrades the entire system if no package names are given\n\nYou may use only package names to specify packages because\nthe package upgrade operation is defined only with respect\nto repositories. If you have specified a package name, it\nshould exist in the package repositories. If you just want to\nreinstall a package from a PiSi file, use the install command.\n\nYou can also specify components instead of package names, which will be\nexpanded to package names.\n"
 
 #: pisi/cli/upgrade.py:50
 msgid "upgrade options"
-msgstr "opcije nadogradnje"
+msgstr "upgrade options"
 
 #: pisi/cli/upgrade.py:54
 msgid "Security related package upgrades only"
-msgstr "Nadogradi samo pakete vezane za sigurnost "
+msgstr "Security related package upgrades only"
 
 #: pisi/cli/upgrade.py:56
 msgid "Do not update repositories"
-msgstr "Ne dopunjuj repozitorije"
+msgstr "Do not update repositories"
 
 #: pisi/cli/upgrade.py:62
 msgid "Upgrade component's and recursive components' packages"
-msgstr "Nadogradnja komponente i rekurzivne pakete komponente "
+msgstr "Upgrade component's and recursive components' packages"
 
 #: pisi/cli/upgrade.py:64
 msgid "Name of the to be upgraded packages' repository"
-msgstr "Ime nadograđenog repozitorija paketa"
+msgstr "Name of the to be upgraded packages' repository"
 
 #: pisi/cli/upgrade.py:68
 msgid ""
 "When upgrading system, ignore packages and components whose basenames match "
 "pattern."
-msgstr ""
+msgstr "When upgrading system, ignore packages and components whose basenames match pattern."
 
 #: pisi/cli/upgrade.py:71
 msgid ""
 "When upgrading system, ignore packages and components whose basenames match "
 "any pattern contained in file."
-msgstr ""
+msgstr "When upgrading system, ignore packages and components whose basenames match any pattern contained in file."
 
 #: pisi/cli/upgrade.py:85
 msgid "Updating repositories"
-msgstr "Dopunjujem repozitorije"
+msgstr "Updating repositories"
 
 #: pisi/cli/upgrade.py:89
 msgid "Will not update repositories"
-msgstr "Neće dopuniti repozitorije"
+msgstr "Will not update repositories"
 
 #: pisi/comariface.py:31
 msgid "comar-api package is not fully installed"
-msgstr "comar-api paket nije potpuno instaliran"
+msgstr "comar-api package is not fully installed"
 
 #: pisi/comariface.py:88
 #, python-format
 msgid ""
 "Cannot connect to COMAR: \n"
 "  %s\n"
-msgstr "Ne mogu se spojiti na COMAR: \n %s\n"
+msgstr "Cannot connect to COMAR: \n  %s\n"
 
 #: pisi/comariface.py:97
 #, python-format
 msgid "Configuring %s package"
-msgstr "Konfiguriram%s paket"
+msgstr "Configuring %s package"
 
 #: pisi/comariface.py:103
 msgid "COMAR package updated. From now on, using new COMAR daemon."
-msgstr ""
+msgstr "COMAR package updated. From now on, using new COMAR daemon."
 
 #: pisi/comariface.py:110
 #, python-format
 msgid "Registering %s comar script"
-msgstr "Registriranje %s Comar skripte"
+msgstr "Registering %s comar script"
 
 #: pisi/comariface.py:119 pisi/comariface.py:124 pisi/comariface.py:137
 #: pisi/comariface.py:153 pisi/comariface.py:172 pisi/comariface.py:183
 #: pisi/comariface.py:205 pisi/comariface.py:216 pisi/comariface.py:223
 #, python-format
 msgid "Script error: %s"
-msgstr "Greška skripte: %s"
+msgstr "Script error: %s"
 
 #: pisi/comariface.py:126
 msgid "Calling post install handlers"
-msgstr ""
+msgstr "Calling post install handlers"
 
 #: pisi/comariface.py:145
 msgid "Running package's post install script"
-msgstr ""
+msgstr "Running package's post install script"
 
 #: pisi/comariface.py:159
 #, python-format
 msgid "Running pre removal operations for %s"
-msgstr ""
+msgstr "Running pre removal operations for %s"
 
 #: pisi/comariface.py:165
 msgid "Running package's pre remove script"
-msgstr ""
+msgstr "Running package's pre remove script"
 
 #: pisi/comariface.py:174
 msgid "Calling pre remove handlers"
-msgstr ""
+msgstr "Calling pre remove handlers"
 
 #: pisi/comariface.py:189
 #, python-format
 msgid "Running post removal operations for %s"
-msgstr ""
+msgstr "Running post removal operations for %s"
 
 #: pisi/comariface.py:198
 msgid "Running package's postremove script"
-msgstr ""
+msgstr "Running package's postremove script"
 
 #: pisi/comariface.py:207
 msgid "Calling post remove handlers"
-msgstr ""
+msgstr "Calling post remove handlers"
 
 #: pisi/comariface.py:218
 msgid "Unregistering comar scripts"
-msgstr ""
+msgstr "Unregistering comar scripts"
 
 #: pisi/config.py:85
 #, python-format
 msgid "Destination directory %s does not exist. Creating it."
-msgstr "Odredišni direktorij %s ne postoji:Napravite ga."
+msgstr "Destination directory %s does not exist. Creating it."
 
 #: pisi/configfile.py:127
 #, python-format
 msgid "No section by name '%s'"
-msgstr "Nema sekcije po imenu '%s'"
+msgstr "No section by name '%s'"
 
 #: pisi/conflict.py:26 pisi/dependency.py:26 pisi/replace.py:24
 msgid " version >= "
-msgstr " verzija >= "
+msgstr " version >= "
 
 #: pisi/conflict.py:28 pisi/dependency.py:28 pisi/replace.py:26
 msgid " version <= "
-msgstr "verzija <= "
+msgstr " version <= "
 
 #: pisi/conflict.py:30 pisi/dependency.py:30 pisi/replace.py:28
 msgid " version "
-msgstr "verzija"
+msgstr " version "
 
 #: pisi/conflict.py:32 pisi/dependency.py:32 pisi/replace.py:30
 msgid " release >= "
-msgstr "izdanje >= "
+msgstr " release >= "
 
 #: pisi/conflict.py:34 pisi/dependency.py:34 pisi/replace.py:32
 msgid " release <= "
-msgstr "izdanje <="
+msgstr " release <= "
 
 #: pisi/conflict.py:36 pisi/dependency.py:36 pisi/replace.py:34
 msgid " release "
-msgstr "izdanje"
+msgstr " release "
 
 #: pisi/constants.py:30
 #, python-format
 msgid "Can't rebind constant: %s"
-msgstr ""
+msgstr "Can't rebind constant: %s"
 
 #: pisi/constants.py:36
 #, python-format
 msgid "Can't unbind constant: %s"
-msgstr ""
+msgstr "Can't unbind constant: %s"
 
 #: pisi/db/componentdb.py:87
 #, python-format
 msgid "Component %s not found"
-msgstr "Komponenta %s nije nađena"
+msgstr "Component %s not found"
 
 #: pisi/db/groupdb.py:66 pisi/db/groupdb.py:75
 #, python-format
 msgid "Group %s not found"
-msgstr "Grupa %s nije nađena"
+msgstr "Group %s not found"
 
 #: pisi/db/installdb.py:37
 msgid "installed"
-msgstr "instaliran"
+msgstr "installed"
 
 #: pisi/db/installdb.py:37
 msgid "installed-pending"
-msgstr ""
+msgstr "installed-pending"
 
 #: pisi/db/installdb.py:54
 #, python-format
 msgid ""
 "State: %s\n"
 "Version: %s, Release: %s\n"
-msgstr ""
+msgstr "State: %s\nVersion: %s, Release: %s\n"
 
 #: pisi/db/installdb.py:58
 #, python-format
 msgid "Distribution: %s, Install Time: %s\n"
-msgstr "Distribucija:%s, Vrijeme instalacije: %s\n"
+msgstr "Distribution: %s, Install Time: %s\n"
 
 #: pisi/db/installdb.py:94
 #, python-format
 msgid ""
 "Installation info for package '%s' is broken. Reinstall it to fix this "
 "problem."
-msgstr "Instalacijska informacija za paket '%s' je slomljena.Ponovno ga instalirajte da biste riješili problem."
+msgstr "Installation info for package '%s' is broken. Reinstall it to fix this problem."
 
 #: pisi/db/installdb.py:335
 #, python-format
 msgid "Package %s is not installed"
-msgstr "Paket %s nije instaliran"
+msgstr "Package %s is not installed"
 
 #: pisi/db/itembyrepo.py:40
 #, python-format
 msgid "%s not found in any repository."
-msgstr "%s nije nađen u nijednom repozitoriju."
+msgstr "%s not found in any repository."
 
 #: pisi/db/itembyrepo.py:50
 #, python-format
 msgid "Repo item %s not found"
-msgstr "Stavka repozitorija %s nije nađena"
+msgstr "Repo item %s not found"
 
 #: pisi/db/itembyrepo.py:60 pisi/db/itembyrepo.py:71 pisi/db/itembyrepo.py:81
 #, python-format
 msgid "Repository %s does not exist."
-msgstr "repozitorij %s ne postoji."
+msgstr "Repository %s does not exist."
 
 #: pisi/db/packagedb.py:144 pisi/db/packagedb.py:151
 #, python-format
 msgid "Package %s not found."
-msgstr "Paket %s nije nađen."
+msgstr "Package %s not found."
 
 #: pisi/db/repodb.py:168
 #, python-format
 msgid "%s repository needs to be updated"
-msgstr "%s repozitorij treba nadopuniti"
+msgstr "%s repository needs to be updated"
 
 #: pisi/db/repodb.py:174
 msgid ""
 "Error parsing repository index information. Index file does not exist or is "
 "malformed."
-msgstr ""
+msgstr "Error parsing repository index information. Index file does not exist or is malformed."
 
 #: pisi/db/repodb.py:264
 #, python-format
 msgid ""
 "Repository '%s' is not compatible with your distribution. Repository is "
 "disabled."
-msgstr "Repozitorij %s nije kompatibilan sa vašom distribucijom.Repozitorij je onemogućen. "
+msgstr "Repository '%s' is not compatible with your distribution. Repository is disabled."
 
 #: pisi/fetcher.py:147
 msgid "Urlgrabber needs to be installed to run this command"
-msgstr ""
+msgstr "Urlgrabber needs to be installed to run this command"
 
 #: pisi/fetcher.py:150
 msgid "Filename error"
-msgstr "Greška imena datoteke"
+msgstr "Filename error"
 
 #: pisi/fetcher.py:153
 #, python-format
 msgid "Access denied to write to destination directory: \"%s\""
-msgstr "Odbijen pristup za pisanje u odredišnom direktoriju: \"%s\""
+msgstr "Access denied to write to destination directory: \"%s\""
 
 #: pisi/fetcher.py:156
 #, python-format
 msgid "Access denied to destination file: \"%s\""
-msgstr "Odbijen pristup odedišnoj datoteci: \"%s\" "
+msgstr "Access denied to destination file: \"%s\""
 
 #: pisi/fetcher.py:170
 #, python-format
 msgid "Could not fetch destination file \"%s\": %s"
-msgstr ""
+msgstr "Could not fetch destination file \"%s\": %s"
 
 #: pisi/fetcher.py:174
 msgid ""
 "A problem occurred. Please check the archive address and/or permissions "
 "again."
-msgstr "Došlo je do greške.Provjerite adresu arhiva i/ili dozvole ponovno."
+msgstr "A problem occurred. Please check the archive address and/or permissions again."
 
 #: pisi/fetcher.py:207
 #, python-format
 msgid "Proxy configuration has been found for '%s' protocol"
-msgstr "Proxy konfiguracija je pronađena za '%s' protokol"
+msgstr "Proxy configuration has been found for '%s' protocol"
 
 #: pisi/fetcher.py:214
 #, python-format
 msgid "Bandwidth usage is limited to %s KB/s"
-msgstr "Upotreba pojasne širine ograničena je na %s KB/s"
+msgstr "Bandwidth usage is limited to %s KB/s"
 
 #: pisi/fetcher.py:227
 msgid ""
 "Remote file can not be reached. Previously downloaded part of the file will "
 "be removed."
-msgstr ""
+msgstr "Remote file can not be reached. Previously downloaded part of the file will be removed."
 
 #: pisi/fetcher.py:236
 msgid ""
 "Server doesn't support partial downloads. Previously downloaded part of the "
 "file will be over-written."
-msgstr "Poslužitelj ne podržava djelomična preuzimanja.Prethodno preuzeti dio datoteke biti će prebrisan."
+msgstr "Server doesn't support partial downloads. Previously downloaded part of the file will be over-written."
 
 #: pisi/file.py:35
 #, python-format
 msgid "URL %s already downloaded as %s"
-msgstr "URL %s već preuzet kao %s"
+msgstr "URL %s already downloaded as %s"
 
 #: pisi/file.py:42
 #, python-format
 msgid "No signature found for %s"
-msgstr "Nije pronađen potpis za %s"
+msgstr "No signature found for %s"
 
 #: pisi/file.py:50
 #, python-format
 msgid " invalid for %s"
-msgstr "neispravno za %s"
+msgstr " invalid for %s"
 
 #: pisi/file.py:72
 msgid "uri must have type either URI or string"
-msgstr ""
+msgstr "uri must have type either URI or string"
 
 #: pisi/file.py:136
 #, python-format
 msgid "Fetching %s"
-msgstr "Dohvaćam %s"
+msgstr "Fetching %s"
 
 #: pisi/file.py:140
 #, python-format
 msgid "Copying %s to transfer dir"
-msgstr "Kopiranje %s u direktorij prijenosa "
+msgstr "Copying %s to transfer dir"
 
 #: pisi/file.py:145
 #, python-format
 msgid "File '%s' not found."
-msgstr "Datoteka '%s' nije nađena."
+msgstr "File '%s' not found."
 
 #: pisi/file.py:166
 #, python-format
 msgid "File integrity of %s compromised."
-msgstr ""
+msgstr "File integrity of %s compromised."
 
 #: pisi/file.py:190
 msgid "File mode must be either File.read or File.write"
-msgstr ""
+msgstr "File mode must be either File.read or File.write"
 
 #: pisi/file.py:195
 msgid "Remote write not implemented"
-msgstr ""
+msgstr "Remote write not implemented"
 
 #: pisi/file.py:247 pisi/file.py:250
 #, python-format
 msgid "ERROR: gpg --detach-sig %s failed"
-msgstr "GREŠKA: gpg --detach-sig %s nije uspjelo"
+msgstr "ERROR: gpg --detach-sig %s failed"
 
 #: pisi/graph.py:26
 #, python-format
 msgid "Encountered cycle %s"
-msgstr ""
+msgstr "Encountered cycle %s"
 
 #: pisi/history.py:47
 #, python-format
 msgid "%s repository is updated."
-msgstr "%s repozitorij je dopunjen."
+msgstr "%s repository is updated."
 
 #: pisi/history.py:67
 #, python-format
 msgid "%s is upgraded from %s to %s with delta."
-msgstr "%s je nadograđen od %s do %s sa deltom."
+msgstr "%s is upgraded from %s to %s with delta."
 
 #: pisi/history.py:69
 #, python-format
 msgid "%s is upgraded from %s to %s."
-msgstr "%s je nadograđen od %s do %s"
+msgstr "%s is upgraded from %s to %s."
 
 #: pisi/history.py:71
 #, python-format
 msgid "%s %s is removed."
-msgstr "%s %s je uklonjen"
+msgstr "%s %s is removed."
 
 #: pisi/history.py:73
 #, python-format
 msgid "%s %s is installed."
-msgstr "%s %s je instaliran"
+msgstr "%s %s is installed."
 
 #: pisi/history.py:75
 #, python-format
 msgid "%s %s is reinstalled."
-msgstr "%s %s je ponovno instalirani"
+msgstr "%s %s is reinstalled."
 
 #: pisi/history.py:77
 #, python-format
 msgid "%s is downgraded from %s to %s."
-msgstr ""
+msgstr "%s is downgraded from %s to %s."
 
 #: pisi/history.py:104 pisi/history.py:126
 msgid "Unknown package operation"
-msgstr "Nepoznata operacija paketa"
+msgstr "Unknown package operation"
 
 #: pisi/index.py:176
 #, python-format
 msgid "Adding package to index: %s"
-msgstr "Dodajem paket u indeks: %s"
+msgstr "Adding package to index: %s"
 
 #: pisi/index.py:192
 #, python-format
 msgid "Package %s: metadata corrupt, skipping..."
-msgstr "Paket %s: metapodatak oštećen, preskačem..."
+msgstr "Package %s: metadata corrupt, skipping..."
 
 #: pisi/index.py:237
 msgid "Adding groups.xml to index"
-msgstr "Dodajem grupe .xml u indeks"
+msgstr "Adding groups.xml to index"
 
 #: pisi/index.py:243
 msgid "Adding components.xml to index"
-msgstr "Dodajem komponente .xml u indeks"
+msgstr "Adding components.xml to index"
 
 #: pisi/index.py:253
 msgid "Adding distribution.xml to index"
-msgstr "Dodajem .xml distribucije u indeks"
+msgstr "Adding distribution.xml to index"
 
 #: pisi/index.py:274
 #, python-format
 msgid "Adding %s to source index"
-msgstr ""
+msgstr "Adding %s to source index"
 
 #: pisi/metadata.py:78
 #, python-format
 msgid "Distribution: %s, Dist. Release: %s\n"
-msgstr "Distribucija: %s, Dist. izdanje: %s\n"
+msgstr "Distribution: %s, Dist. Release: %s\n"
 
 #: pisi/metadata.py:80
 #, python-format
 msgid "Architecture: %s, Installed Size: %s"
-msgstr "Arhitektura: %s, Instalirana veličina: %s"
+msgstr "Architecture: %s, Installed Size: %s"
 
 #: pisi/metadata.py:86
 #, python-format
 msgid ", Package Size: %s"
-msgstr ", Veličina paketa: %s"
+msgstr ", Package Size: %s"
 
 #: pisi/mirrors.py:46
 #, python-format
 msgid "Mirrors file %s does not exist. Could not resolve mirrors://"
-msgstr ""
+msgstr "Mirrors file %s does not exist. Could not resolve mirrors://"
 
 #: pisi/operations/build.py:114
 #, python-format
 msgid "Path %s belongs in multiple packages"
-msgstr ""
+msgstr "Path %s belongs in multiple packages"
 
 #: pisi/operations/build.py:190
 #, python-format
 msgid "Source URI: %s"
-msgstr "Izvor URI: %s"
+msgstr "Source URI: %s"
 
 #: pisi/operations/build.py:194
 #, python-format
 msgid "Source %s not found in any active repository."
-msgstr "Izvor %s nije pronađen u nijednom aktivnom repozitoriju."
+msgstr "Source %s not found in any active repository."
 
 #: pisi/operations/build.py:320
 #, python-format
 msgid "pspec.xml avoids this package from building for '%s'"
-msgstr ""
+msgstr "pspec.xml avoids this package from building for '%s'"
 
 #: pisi/operations/build.py:323
 #, python-format
 msgid "Building source package: %s"
-msgstr ""
+msgstr "Building source package: %s"
 
 #: pisi/operations/build.py:341
 msgid "ccache detected..."
-msgstr ""
+msgstr "ccache detected..."
 
 #: pisi/operations/build.py:343
 msgid "IceCream detected. Make sure your daemon is up and running..."
-msgstr ""
+msgstr "IceCream detected. Make sure your daemon is up and running..."
 
 #: pisi/operations/build.py:377
 #, python-format
 msgid "Rebuilding for %s"
-msgstr ""
+msgstr "Rebuilding for %s"
 
 #: pisi/operations/build.py:494
 msgid ""
 "Cannot find component.xml in remote directory, Source is now part of unknown"
 " component"
-msgstr "Ne mogu pronaći component.xml u udaljenom direktoriju, Izvor je sada dio nepoznate komponente"
+msgstr "Cannot find component.xml in remote directory, Source is now part of unknown component"
 
 #: pisi/operations/build.py:502
 msgid ""
 "Cannot find component.xml in upper directory, Source is now part of unknown "
 "component"
-msgstr "Ne mogu pronaći component.xml u gornjemdirektoriju, Izvor je sada dio nepoznate komponente"
+msgstr "Cannot find component.xml in upper directory, Source is now part of unknown component"
 
 #: pisi/operations/build.py:516
 msgid "Unpacking archive(s)..."
-msgstr "Raspakiravanje arhive(a)..."
+msgstr "Unpacking archive(s)..."
 
 #: pisi/operations/build.py:524
 #, python-format
 msgid " unpacked (%s)"
-msgstr "raspakiran (%s)"
+msgstr " unpacked (%s)"
 
 #: pisi/operations/build.py:529
 msgid "Setting up source..."
-msgstr "Postavljanje izvora ..."
+msgstr "Setting up source..."
 
 #: pisi/operations/build.py:534
 msgid "Building source..."
-msgstr ""
+msgstr "Building source..."
 
 #: pisi/operations/build.py:539
 msgid "Testing package..."
-msgstr "Testiram paket..."
+msgstr "Testing package..."
 
 #: pisi/operations/build.py:543
 msgid "Installing..."
-msgstr "Instaliram..."
+msgstr "Installing..."
 
 #: pisi/operations/build.py:609
 #, python-format
 msgid "Unable to read Actions Script (%s): %s"
-msgstr ""
+msgstr "Unable to read Actions Script (%s): %s"
 
 #: pisi/operations/build.py:612
 #, python-format
 msgid "SyntaxError in Actions Script (%s): %s"
-msgstr ""
+msgstr "SyntaxError in Actions Script (%s): %s"
 
 #: pisi/operations/build.py:642
 #, python-format
 msgid "Unable to read COMAR script (%s): %s"
-msgstr "Nije moguće pročitati COMAR skriptu (%s): %s"
+msgstr "Unable to read COMAR script (%s): %s"
 
 #: pisi/operations/build.py:645
 #, python-format
 msgid "SyntaxError in COMAR file (%s): %s"
-msgstr ""
+msgstr "SyntaxError in COMAR file (%s): %s"
 
 #: pisi/operations/build.py:677
 #, python-format
 msgid "Sandbox violation: %s (%s -> %s)"
-msgstr ""
+msgstr "Sandbox violation: %s (%s -> %s)"
 
 #: pisi/operations/build.py:693 pisi/util.py:517
 #, python-format
 msgid "ERROR: WorkDir (%s) does not exist\n"
-msgstr ""
+msgstr "ERROR: WorkDir (%s) does not exist\n"
 
 #: pisi/operations/build.py:702
 msgid "Sandbox enabled build..."
-msgstr ""
+msgstr "Sandbox enabled build..."
 
 #: pisi/operations/build.py:726
 msgid "Sandbox violation result:"
-msgstr ""
+msgstr "Sandbox violation result:"
 
 #: pisi/operations/build.py:731
 msgid "Sandbox violations!"
-msgstr ""
+msgstr "Sandbox violations!"
 
 #: pisi/operations/build.py:737
 #, python-format
 msgid "unable to call function from actions: %s"
-msgstr ""
+msgstr "unable to call function from actions: %s"
 
 #: pisi/operations/build.py:751
 #, python-format
 msgid "Source package '%s' defines a relative 'Path' element: %s"
-msgstr ""
+msgstr "Source package '%s' defines a relative 'Path' element: %s"
 
 #: pisi/operations/build.py:755
 #, python-format
 msgid "Source package '%s' defines multiple 'Path' tags for %s"
-msgstr ""
+msgstr "Source package '%s' defines multiple 'Path' tags for %s"
 
 #: pisi/operations/build.py:784
 msgid ""
 "Safety switch: following extra packages in system.devel will be installed: "
-msgstr ""
+msgstr "Safety switch: following extra packages in system.devel will be installed: "
 
 #: pisi/operations/build.py:789
 msgid "Safety switch: the component system.devel cannot be found"
-msgstr ""
+msgstr "Safety switch: the component system.devel cannot be found"
 
 #: pisi/operations/build.py:798
 msgid "Unsatisfied Build Dependencies:"
-msgstr ""
+msgstr "Unsatisfied Build Dependencies:"
 
 #: pisi/operations/build.py:802
 msgid "Cannot build package due to unsatisfied build dependencies"
-msgstr ""
+msgstr "Cannot build package due to unsatisfied build dependencies"
 
 #: pisi/operations/build.py:807
 #, python-format
 msgid "Build dependency %s cannot be satisfied"
-msgstr ""
+msgstr "Build dependency %s cannot be satisfied"
 
 #: pisi/operations/build.py:809
 msgid "Do you want to install the unsatisfied build dependencies"
-msgstr ""
+msgstr "Do you want to install the unsatisfied build dependencies"
 
 #: pisi/operations/build.py:810
 msgid "Installing build dependencies."
-msgstr ""
+msgstr "Installing build dependencies."
 
 #: pisi/operations/build.py:816
 msgid "Ignoring build dependencies."
-msgstr ""
+msgstr "Ignoring build dependencies."
 
 #: pisi/operations/build.py:826
 #, python-format
 msgid "Patch file is missing: %s\n"
-msgstr "Patch datoteka nedostaje: %s\n"
+msgstr "Patch file is missing: %s\n"
 
 #: pisi/operations/build.py:828
 #, python-format
 msgid "Patch file is empty: %s"
-msgstr "Patch datoteka je prazna:%s"
+msgstr "Patch file is empty: %s"
 
 #: pisi/operations/build.py:844
 #, python-format
 msgid "Applying patch: %s"
-msgstr ""
+msgstr "Applying patch: %s"
 
 #: pisi/operations/build.py:963
 #, python-format
 msgid "/%s has suid bit set"
-msgstr ""
+msgstr "/%s has suid bit set"
 
 #: pisi/operations/build.py:1039
 #, python-format
 msgid "No user named '%s' found on the system"
-msgstr "Nijedan korisnik po imenu '%s' nije nađen u sustavu"
+msgstr "No user named '%s' found on the system"
 
 #: pisi/operations/build.py:1045
 #, python-format
 msgid "No group named '%s' found on the system"
-msgstr "Nijedna grupa po imenu '%s'nije nađena u sustavu "
+msgstr "No group named '%s' found on the system"
 
 #: pisi/operations/build.py:1052
 #, python-format
 msgid "There are abandoned files under the install dir (%s):"
-msgstr ""
+msgstr "There are abandoned files under the install dir (%s):"
 
 #: pisi/operations/build.py:1080
 #, python-format
 msgid "Ignoring empty package %s"
-msgstr "Ignoriranje praznog paketa %s"
+msgstr "Ignoring empty package %s"
 
 #: pisi/operations/build.py:1084
 #, python-format
 msgid "Building package: %s"
-msgstr ""
+msgstr "Building package: %s"
 
 #: pisi/operations/build.py:1103 pisi/operations/delta.py:59
 #, python-format
 msgid "Creating %s..."
-msgstr "Stvaram  %s..."
+msgstr "Creating %s..."
 
 #: pisi/operations/build.py:1150
 msgid "Cleaning build directory..."
-msgstr ""
+msgstr "Cleaning build directory..."
 
 #: pisi/operations/build.py:1153
 msgid "Keeping build directory"
-msgstr ""
+msgstr "Keeping build directory"
 
 #: pisi/operations/build.py:1237
 msgid "Action script error caught."
-msgstr ""
+msgstr "Action script error caught."
 
 #: pisi/operations/build.py:1241
 #, python-format
 msgid "*** %d error(s), %d warning(s)"
-msgstr ""
+msgstr "*** %d error(s), %d warning(s)"
 
 #: pisi/operations/build.py:1324
 #, python-format
 msgid "Last state was '%s'"
-msgstr ""
+msgstr "Last state was '%s'"
 
 #: pisi/operations/delta.py:43
 #, python-format
 msgid ""
 "The file '%s' belongs to a different package other than '%s'. Skipping it..."
-msgstr ""
+msgstr "The file '%s' belongs to a different package other than '%s'. Skipping it..."
 
 #: pisi/operations/delta.py:49
 #, python-format
 msgid ""
 "Package '%s' has the same release number with the new package. Skipping "
 "it..."
-msgstr "Paket '%s' ima isti broj izdanja s novim paketom. Preskoči ..."
+msgstr "Package '%s' has the same release number with the new package. Skipping it..."
 
 #: pisi/operations/delta.py:69
 #, python-format
 msgid ""
 "All files in the package '%s' are different from the files in the new "
 "package. Skipping it..."
-msgstr "Svi datoteke u paketu '%s' razlikuju se od datoteka u novom paketu. Preskoči ..."
+msgstr "All files in the package '%s' are different from the files in the new package. Skipping it..."
 
 #: pisi/operations/delta.py:113
 #, python-format
 msgid "New package '%s' exists in the list of old packages. Skipping it..."
-msgstr "Novi paket '%s' postoji na popisu starih paketa. Preskoči ..."
+msgstr "New package '%s' exists in the list of old packages. Skipping it..."
 
 #: pisi/operations/emerge.py:35
 msgid "No packages to emerge."
-msgstr ""
+msgstr "No packages to emerge."
 
 #: pisi/operations/emerge.py:50
 msgid ""
 "The following list of packages will be installed\n"
 "from repository in the respective order to satisfy dependencies:\n"
-msgstr "Sljedeći popis paketa biti će instaliran\niz repozitorija redoslijedom koji će zadovoljiti zavisnosti:\n"
+msgstr "The following list of packages will be installed\nfrom repository in the respective order to satisfy dependencies:\n"
 
 #: pisi/operations/emerge.py:53
 msgid ""
 "The following list of packages will be built and\n"
 "installed in the respective order to satisfy dependencies:\n"
-msgstr ""
+msgstr "The following list of packages will be built and\ninstalled in the respective order to satisfy dependencies:\n"
 
 #: pisi/operations/emerge.py:61 pisi/operations/install.py:82
 msgid "There are extra packages due to dependencies. Do you want to continue?"
-msgstr "Postoje dodatni paketi zbog ovisnosti. Želite li nastaviti?"
+msgstr "There are extra packages due to dependencies. Do you want to continue?"
 
 #: pisi/operations/emerge.py:95
 #, python-format
 msgid "Cannot find source package: %s"
-msgstr "Ne mogu naći izvorni paket: %s"
+msgstr "Cannot find source package: %s"
 
 #: pisi/operations/helper.py:51
 #, python-format
 msgid "Selected packages [%s] are in conflict with each other."
-msgstr "Odabrani paketi [%s] su u sukobu jedni s drugima."
+msgstr "Selected packages [%s] are in conflict with each other."
 
 #: pisi/operations/helper.py:57
 #, python-format
 msgid "[%s conflicts with: %s]\n"
-msgstr "[%s u sukobu s: %s]\n"
+msgstr "[%s conflicts with: %s]\n"
 
 #: pisi/operations/helper.py:59
 #, python-format
 msgid ""
 "The following packages have conflicts:\n"
 "%s"
-msgstr "Sljedeći paketi su u sukobu:\n%s"
+msgstr "The following packages have conflicts:\n%s"
 
 #: pisi/operations/helper.py:62
 msgid "Remove the following conflicting packages?"
-msgstr "Uklonite sljedeće sukobljene pakete?"
+msgstr "Remove the following conflicting packages?"
 
 #: pisi/operations/helper.py:63
 msgid "Conflicting packages should be removed to continue"
-msgstr "Sukobljene pakete treba ukloniti da bi se nastavilo"
+msgstr "Conflicting packages should be removed to continue"
 
 #: pisi/operations/history.py:82 pisi/operations/history.py:92
 #, python-format
 msgid "%s could not be found"
-msgstr "%s nije moguće pronaći"
+msgstr "%s could not be found"
 
 #: pisi/operations/history.py:95 pisi/package.py:107 pisi/sourcearchive.py:110
 #, python-format
 msgid "%s [cached]"
-msgstr "%s [spremljeno]"
+msgstr "%s [cached]"
 
 #: pisi/operations/history.py:143
 msgid "Following packages will be installed:\n"
-msgstr "Slijedeći paketi će biti instalirani:\n"
+msgstr "Following packages will be installed:\n"
 
 #: pisi/operations/history.py:146
 msgid "Following packages will be removed:\n"
-msgstr "Slijedeći paketi će biti uklonjeni:\n"
+msgstr "Following packages will be removed:\n"
 
 #: pisi/operations/history.py:148 pisi/operations/history.py:162
 #: pisi/operations/install.py:200 pisi/operations/remove.py:72
 #: pisi/operations/upgrade.py:181
 msgid "Do you want to continue?"
-msgstr "Želite li nastaviti?"
+msgstr "Do you want to continue?"
 
 #: pisi/operations/history.py:154 pisi/operations/install.py:95
 #: pisi/operations/upgrade.py:192
 #, python-format
 msgid "Downloading %d / %d"
-msgstr "Preuzimam %d / %d"
+msgstr "Downloading %d / %d"
 
 #: pisi/operations/history.py:160
 msgid ""
 "\n"
 "Following packages could not be found in repositories and are not cached:\n"
-msgstr "\nSlijedeće pakete nije moguće pronaći u spremištima i nisu spremljene:\n"
+msgstr "\nFollowing packages could not be found in repositories and are not cached:\n"
 
 #: pisi/operations/install.py:47 pisi/operations/install.py:134
 msgid ""
 "The following package(s) are already installed and are not going to be "
 "installed again:"
-msgstr "Sljedeći paket(i) su već instalirani, i neće biti instalirani opet:"
+msgstr "The following package(s) are already installed and are not going to be installed again:"
 
 #: pisi/operations/install.py:53 pisi/operations/install.py:213
 msgid "No packages to install."
-msgstr "Nema paketa za instalaciju."
+msgstr "No packages to install."
 
 #: pisi/operations/install.py:71
 msgid "Following packages will be installed:"
-msgstr "Slijedeći paketi će biti instalirani:"
+msgstr "Following packages will be installed:"
 
 #: pisi/operations/install.py:76 pisi/operations/upgrade.py:168
 #, python-format
 msgid "Total size of package(s): %.2f %s"
-msgstr "Ukupna veličina paketa:  %.2f %s"
+msgstr "Total size of package(s): %.2f %s"
 
 #: pisi/operations/install.py:107 pisi/operations/upgrade.py:206
 #, python-format
 msgid "Installing %d / %d"
-msgstr "Instaliram  %d / %d"
+msgstr "Installing %d / %d"
 
 #: pisi/operations/install.py:121
 msgid "Mixing file names and package names not supported yet."
-msgstr "Miješanje imena datoteka i imena paketa još nije podržano."
+msgstr "Mixing file names and package names not supported yet."
 
 #: pisi/operations/install.py:165
 #, python-format
 msgid "Package %s is not compatible with your distribution release %s %s."
-msgstr "Paket %s nije kompatibilan s vašim izdanjem distribucije %s %s."
+msgstr "Package %s is not compatible with your distribution release %s %s."
 
 #: pisi/operations/install.py:169
 #, python-format
 msgid "Package %s (%s) is not compatible with your %s architecture."
-msgstr "Paket %s (%s) nije kompatibilan s vašom %s arhitekturom."
+msgstr "Package %s (%s) is not compatible with your %s architecture."
 
 #: pisi/operations/install.py:192
 #, python-format
 msgid "External dependencies not satisfied: %s"
-msgstr "Vanjske zavisnosti nisu zadovoljene: %s"
+msgstr "External dependencies not satisfied: %s"
 
 #: pisi/operations/install.py:197
 msgid ""
 "The following packages will be installed in order to satisfy dependencies:"
-msgstr "Sljedeći paketi će biti instalirani kako bi se zadovoljile zavisnosti:"
+msgstr "The following packages will be installed in order to satisfy dependencies:"
 
 #: pisi/operations/install.py:201
 msgid "External dependencies not satisfied"
-msgstr "Vanjske zavisnosti nisu zadovoljene"
+msgstr "External dependencies not satisfied"
 
 #: pisi/operations/install.py:244
 msgid "Installation order: "
-msgstr "Redoslijed instaliranja:"
+msgstr "Installation order: "
 
 #: pisi/operations/install.py:279 pisi/specfile.py:274
 #, python-format
 msgid "%s dependency of package %s is not satisfied"
-msgstr "%s zavisnost paketa %s nije zadovoljena"
+msgstr "%s dependency of package %s is not satisfied"
 
 #: pisi/operations/remove.py:43
 msgid "Safety switch prevents the removal of following packages:\n"
-msgstr ""
+msgstr "Safety switch prevents the removal of following packages:\n"
 
 #: pisi/operations/remove.py:48 pisi/operations/upgrade.py:372
 msgid "Safety switch: The component system.base cannot be found."
-msgstr ""
+msgstr "Safety switch: The component system.base cannot be found."
 
 #: pisi/operations/remove.py:55
 #, python-format
 msgid "Package %s does not exist. Cannot remove."
-msgstr "Paket %s ne postoji.Ne mogu okloniti."
+msgstr "Package %s does not exist. Cannot remove."
 
 #: pisi/operations/remove.py:59
 msgid "No packages to remove."
-msgstr "Nema paketa za uklanajnje."
+msgstr "No packages to remove."
 
 #: pisi/operations/remove.py:68
 msgid ""
 "The following list of packages will be removed\n"
 "in the respective order to satisfy dependencies:\n"
-msgstr "Sljedeći lista paketa će biti uklonjena\nkako bi zadovoljili ovisnosti:\n"
+msgstr "The following list of packages will be removed\nin the respective order to satisfy dependencies:\n"
 
 #: pisi/operations/remove.py:73
 msgid "Package removal declined"
-msgstr "Odbijeno uklanjanje paketa"
+msgstr "Package removal declined"
 
 #: pisi/operations/remove.py:85
 #, python-format
 msgid "Package %s is not installed. Cannot remove."
-msgstr "Paket %s nije instaliran. Ne mogu ukloniti."
+msgstr "Package %s is not installed. Cannot remove."
 
 #: pisi/operations/remove.py:120
 msgid "Conflicts remain"
-msgstr "Sukobi ostaju"
+msgstr "Conflicts remain"
 
 #: pisi/operations/remove.py:128
 msgid "Obsoleted packages remaining"
-msgstr ""
+msgstr "Obsoleted packages remaining"
 
 #: pisi/operations/remove.py:132
 msgid "Replaced package remains"
-msgstr "Zamijenjeni paket ostaje"
+msgstr "Replaced package remains"
 
 #: pisi/operations/upgrade.py:52
 msgid ""
 "You must restart the following service(s) manually for the updated software "
 "to take effect:"
-msgstr "Morate ponovno pokrenuti sljedeće uslugu(e) ručno za dopunjeni  software stupi na snagu:"
+msgstr "You must restart the following service(s) manually for the updated software to take effect:"
 
 #: pisi/operations/upgrade.py:59
 msgid ""
 "You must restart your system for the updates in the following package(s) to "
 "take effect:"
-msgstr "Morate ponovo pokrenuti vaš sustav da bi dopune u sljedećim paketu(a) stupile na snagu:"
+msgstr "You must restart your system for the updates in the following package(s) to take effect:"
 
 #: pisi/operations/upgrade.py:81
 msgid "Warning: package *name* ends with '.pisi'"
-msgstr "Upozorenje: *ime* paketa završava sa '.pisi'"
+msgstr "Warning: package *name* ends with '.pisi'"
 
 #: pisi/operations/upgrade.py:84
 #, python-format
 msgid "Package %s is not installed."
-msgstr "Paket %s nije instaliran."
+msgstr "Package %s is not installed."
 
 #: pisi/operations/upgrade.py:88
 #, python-format
 msgid "Package %s is not available in repositories."
-msgstr "Paket %s nije dostupan u repozitorijima."
+msgstr "Package %s is not available in repositories."
 
 #: pisi/operations/upgrade.py:105
 #, python-format
 msgid "Package %s is already at the latest release %s."
-msgstr "Paket %s je već najnovije izdanje %s."
+msgstr "Package %s is already at the latest release %s."
 
 #: pisi/operations/upgrade.py:163
 msgid "The following packages will be upgraded:"
-msgstr "Slijedeći paketi će biti nadograđeni:"
+msgstr "The following packages will be upgraded:"
 
 #: pisi/operations/upgrade.py:174
 msgid "There are extra packages due to dependencies."
-msgstr "Ima dodatnih paketa zbog zavisnosti"
+msgstr "There are extra packages due to dependencies."
 
 #: pisi/operations/upgrade.py:254
 #, python-format
 msgid "Dependency %s of %s cannot be satisfied"
-msgstr "Zavisnost %s od %s ne može biti zadovoljena"
+msgstr "Dependency %s of %s cannot be satisfied"
 
 #: pisi/operations/upgrade.py:255
 msgid "Upgrade is not possible."
-msgstr "Nadogradnja nije moguća."
+msgstr "Upgrade is not possible."
 
 #: pisi/operations/upgrade.py:349
 msgid "Safety switch forces the installation of following packages:"
-msgstr ""
+msgstr "Safety switch forces the installation of following packages:"
 
 #: pisi/operations/upgrade.py:365
 msgid "Safety switch forces the upgrade of following packages:"
-msgstr ""
+msgstr "Safety switch forces the upgrade of following packages:"
 
 #: pisi/package.py:68
 #, python-format
 msgid "Cannot open package file: %s"
-msgstr "Ne mogu otvoriti datoteku paketa: %s"
+msgstr "Cannot open package file: %s"
 
 #: pisi/package.py:89
 #, python-format
 msgid "Unsupported package format: %s"
-msgstr "Nepodržani format paketa: %s"
+msgstr "Unsupported package format: %s"
 
 #: pisi/package.py:103
 #, python-format
 msgid ""
 "There was a problem while fetching '%s'.\n"
 "The package may have been upgraded. Please try to upgrade the package."
-msgstr ""
+msgstr "There was a problem while fetching '%s'.\nThe package may have been upgraded. Please try to upgrade the package."
 
 #: pisi/pxml/autoxml.py:78
 #, python-format
 msgid "At least one '%s' tag should have local text"
-msgstr ""
+msgstr "At least one '%s' tag should have local text"
 
 #: pisi/pxml/autoxml.py:85
 #, python-format
 msgid "'%s' language of tag '%s' is empty"
-msgstr ""
+msgstr "'%s' language of tag '%s' is empty"
 
 #: pisi/pxml/autoxml.py:113
 msgid "LocalText: unable to get either current or default locale"
-msgstr ""
+msgstr "LocalText: unable to get either current or default locale"
 
 #: pisi/pxml/autoxml.py:119 pisi/pxml/autoxml.py:134
 msgid ""
 "Tag should have at least the current locale, or failing that an English or "
 "Turkish version"
-msgstr ""
+msgstr "Tag should have at least the current locale, or failing that an English or Turkish version"
 
 #: pisi/pxml/autoxml.py:372
 #, python-format
 msgid "autoxml.check: '%s' errors"
-msgstr "autoxml.check: '%s' pogreške"
+msgstr "autoxml.check: '%s' errors"
 
 #: pisi/pxml/autoxml.py:427 pisi/pxml/autoxml.py:437
 #, python-format
 msgid "autoxml.parse: String '%s' has errors"
-msgstr ""
+msgstr "autoxml.parse: String '%s' has errors"
 
 #: pisi/pxml/autoxml.py:451 pisi/pxml/autoxml.py:461
 #, python-format
 msgid "autoxml.read: File '%s' has errors"
-msgstr "autoxml.read: Datoteka '%s' sadrži pogreške"
+msgstr "autoxml.read: File '%s' has errors"
 
 #: pisi/pxml/autoxml.py:469
 msgid "autoxml.write: object validation has failed"
-msgstr ""
+msgstr "autoxml.write: object validation has failed"
 
 #: pisi/pxml/autoxml.py:477
 #, python-format
 msgid "autoxml.write: File encoding '%s' has errors"
-msgstr "autoxml.write: Datoteka kodiranja '%s' sadrži pogreške"
+msgstr "autoxml.write: File encoding '%s' has errors"
 
 #: pisi/pxml/autoxml.py:527
 #, python-format
 msgid "gen_tag: unrecognized tag type %s in spec"
-msgstr ""
+msgstr "gen_tag: unrecognized tag type %s in spec"
 
 #: pisi/pxml/autoxml.py:575 pisi/pxml/autoxml.py:586
 #, python-format
 msgid "Mandatory variable %s not available"
-msgstr ""
+msgstr "Mandatory variable %s not available"
 
 #: pisi/pxml/autoxml.py:656
 msgid "Type mismatch: read text cannot be decoded"
-msgstr ""
+msgstr "Type mismatch: read text cannot be decoded"
 
 #: pisi/pxml/autoxml.py:660 pisi/pxml/autoxml.py:669
 #, python-format
 msgid "Mandatory token %s not available"
-msgstr ""
+msgstr "Mandatory token %s not available"
 
 #: pisi/pxml/autoxml.py:674
 #, python-format
 msgid "Type mismatch. Expected %s, got %s"
-msgstr "Neslaganje tipa. Očekivani %s, dobiveni %s "
+msgstr "Type mismatch. Expected %s, got %s"
 
 #: pisi/pxml/autoxml.py:704 pisi/pxml/autoxml.py:825
 msgid "Type mismatch: DOM cannot be decoded"
-msgstr "Neslaganje tipa: DOM se ne može dekodirati"
+msgstr "Type mismatch: DOM cannot be decoded"
 
 #: pisi/pxml/autoxml.py:707 pisi/pxml/autoxml.py:723 pisi/pxml/autoxml.py:737
 #: pisi/pxml/autoxml.py:828 pisi/pxml/autoxml.py:842 pisi/pxml/autoxml.py:856
 msgid "Mandatory argument not available"
-msgstr ""
+msgstr "Mandatory argument not available"
 
 #: pisi/pxml/autoxml.py:720 pisi/pxml/autoxml.py:839
 msgid "Object cannot be encoded"
-msgstr "Objekt ne može biti kodiran"
+msgstr "Object cannot be encoded"
 
 #: pisi/pxml/autoxml.py:734 pisi/pxml/autoxml.py:853
 msgid "Object cannot be formatted"
-msgstr "Objekt ne može biti formiran"
+msgstr "Object cannot be formatted"
 
 #: pisi/pxml/autoxml.py:750
 msgid "List type must contain only one element"
-msgstr "Vrsta popisa mora sadržavati samo jedan element"
+msgstr "List type must contain only one element"
 
 #: pisi/pxml/autoxml.py:763 pisi/pxml/autoxml.py:784
 #, python-format
 msgid "Mandatory list \"%s\" under \"%s\" node is empty."
-msgstr ""
+msgstr "Mandatory list \"%s\" under \"%s\" node is empty."
 
 #: pisi/pxml/xmlext.py:79
 msgid "getNodeText: Expected text node, got something else!"
-msgstr ""
+msgstr "getNodeText: Expected text node, got something else!"
 
 #: pisi/pxml/xmlfile.py:60
 #, python-format
 msgid "String '%s' has invalid XML"
-msgstr ""
+msgstr "String '%s' has invalid XML"
 
 #: pisi/pxml/xmlfile.py:83
 #, python-format
 msgid "Unable to read file (%s): %s"
-msgstr "Nije moguće čitati datoteku  (%s): %s"
+msgstr "Unable to read file (%s): %s"
 
 #: pisi/pxml/xmlfile.py:85 pisi/specfile.py:443
 #, python-format
 msgid "File '%s' has invalid XML"
-msgstr "Datoteka '%s' ima neispravan XML"
+msgstr "File '%s' has invalid XML"
 
 #: pisi/scenarioapi/package.py:67
 #, python-format
 msgid "No pisi package: %s* found."
-msgstr "Nema pisi paketa: %s* nađen."
+msgstr "No pisi package: %s* found."
 
 #: pisi/scenarioapi/repoops.py:28
 #, python-format
 msgid "Repo already has package named %s."
-msgstr "Repozitorij  već sadrži paket po imenu %s."
+msgstr "Repo already has package named %s."
 
 #: pisi/scenarioapi/repoops.py:52 pisi/scenarioapi/repoops.py:59
 #, python-format
 msgid "Repo does not have package named %s."
-msgstr "Repo ne sadrži paket po imenu %s."
+msgstr "Repo does not have package named %s."
 
 #: pisi/sourcearchive.py:62
 #, python-format
 msgid "Fetching source from: %s"
-msgstr "Dohvaćanje izvora iz: %s"
+msgstr "Fetching source from: %s"
 
 #: pisi/sourcearchive.py:73
 #, python-format
 msgid "Source archive is stored: %s/%s"
-msgstr "Izvorna arhiva je pohranjena: %s/%s"
+msgstr "Source archive is stored: %s/%s"
 
 #: pisi/sourcearchive.py:79
 #, python-format
 msgid "Trying fallback address: %s"
-msgstr ""
+msgstr "Trying fallback address: %s"
 
 #: pisi/sourcearchive.py:90
 #, python-format
 msgid "%s mirrors are not defined."
-msgstr "%s zrcala nisu definirana."
+msgstr "%s mirrors are not defined."
 
 #: pisi/sourcearchive.py:95
 #, python-format
 msgid "Fetching source from mirror: %s"
-msgstr "Dohvaćanje izvor iz ogledala: %s"
+msgstr "Fetching source from mirror: %s"
 
 #: pisi/sourcearchive.py:101
 #, python-format
 msgid "Could not fetch source from %s mirrors."
-msgstr "Nije moguće dohvatiti izvor iz %s ogledala."
+msgstr "Could not fetch source from %s mirrors."
 
 #: pisi/sourcearchive.py:119
 msgid "unpack: check_file_hash failed"
-msgstr ""
+msgstr "unpack: check_file_hash failed"
 
 #: pisi/sourcearchive.py:124
 #, python-format
 msgid "Unknown archive type '%s' is given for '%s'."
-msgstr "Nepoznata vrsta arhive '%s' je dana za '%s'."
+msgstr "Unknown archive type '%s' is given for '%s'."
 
 #: pisi/sourcearchive.py:127
 #, python-format
 msgid "Pisi needs %s to unpack this archive but it is not installed."
-msgstr "Pisi treba %s raspakirati ovu arhivu, ali nije instalirana."
+msgstr "Pisi needs %s to unpack this archive but it is not installed."
 
 #: pisi/specfile.py:164
 #, python-format
 msgid "URI: %s, type: %s, sha1sum: %s"
-msgstr "URI: %s, tip: %s, sha1sum: %s"
+msgstr "URI: %s, type: %s, sha1sum: %s"
 
 #: pisi/specfile.py:194 pisi/specfile.py:197
 msgid " or "
-msgstr "ili"
+msgstr " or "
 
 #: pisi/specfile.py:372 pisi/specfile.py:458
 #, python-format
 msgid "Summary: %s\n"
-msgstr "Sažetak: %s\n"
+msgstr "Summary: %s\n"
 
 #: pisi/specfile.py:373 pisi/specfile.py:459
 #, python-format
 msgid "Description: %s\n"
-msgstr "Opis: %s\n"
+msgstr "Description: %s\n"
 
 #: pisi/specfile.py:374 pisi/specfile.py:460
 #, python-format
 msgid "Licenses: %s\n"
-msgstr "Licence: %s\n"
+msgstr "Licenses: %s\n"
 
 #: pisi/specfile.py:375 pisi/specfile.py:461
 #, python-format
 msgid "Component: %s\n"
-msgstr "Komponenta: %s\n"
+msgstr "Component: %s\n"
 
 #: pisi/specfile.py:376
 msgid "Provides: "
-msgstr "Pruža:"
+msgstr "Provides: "
 
 #: pisi/specfile.py:380
 msgid "Dependencies: "
-msgstr "Zavisnosti:"
+msgstr "Dependencies: "
 
 #: pisi/specfile.py:434
 msgid "translations.xml file is badly formed."
-msgstr "translations.xml datoteka je loše formirana."
+msgstr "translations.xml file is badly formed."
 
 #: pisi/specfile.py:462
 msgid "Build Dependencies: "
-msgstr ""
+msgstr "Build Dependencies: "
 
 #: pisi/uri.py:78
 msgid "setAuthInfo needs a tuple (user, pass)"
-msgstr ""
+msgstr "setAuthInfo needs a tuple (user, pass)"
 
 #: pisi/util.py:188 pisi/util.py:200
 msgid "Running "
-msgstr ""
+msgstr "Running "
 
 #: pisi/util.py:192 pisi/util.py:218
 #, python-format
 msgid "return value for \"%s\" is %s"
-msgstr ""
+msgstr "return value for \"%s\" is %s"
 
 #: pisi/util.py:392
 #, python-format
 msgid "Including external link '%s'"
-msgstr "Uključujući vanjsku poveznicu '%s'"
+msgstr "Including external link '%s'"
 
 #: pisi/util.py:394
 #, python-format
 msgid "Including directory '%s'"
-msgstr "Uključujući direktorij '%s'"
+msgstr "Including directory '%s'"
 
 #: pisi/util.py:480
 msgid "You don't have necessary read permissions"
-msgstr "Nemate potrebne dozvole za čitanje"
+msgstr "You don't have necessary read permissions"
 
 #: pisi/util.py:482
 #, python-format
 msgid "Cannot calculate SHA1 hash of %s"
-msgstr ""
+msgstr "Cannot calculate SHA1 hash of %s"
 
 #: pisi/util.py:494
 #, python-format
 msgid "Compression type is not valid: '%s'"
-msgstr "Vrsta kompresije nije valjana: '%s'"
+msgstr "Compression type is not valid: '%s'"
 
 #: pisi/util.py:500
 #, python-format
 msgid "Error while decompressing %s: %s"
-msgstr "Greška prilikom dekompresije %s: %s"
+msgstr "Error while decompressing %s: %s"
 
 #: pisi/util.py:543
 #, python-format
 msgid "ERROR: patch (%s) failed"
-msgstr ""
+msgstr "ERROR: patch (%s) failed"
 
 #: pisi/util.py:545
 #, python-format
 msgid "ERROR: patch (%s) failed: %s"
-msgstr ""
+msgstr "ERROR: patch (%s) failed: %s"
 
 #: pisi/util.py:555
 #, python-format
 msgid "strip command failed for file '%s'!"
-msgstr ""
+msgstr "strip command failed for file '%s'!"
 
 #: pisi/util.py:562
 #, python-format
 msgid "chrpath command failed for file '%s'!"
-msgstr ""
+msgstr "chrpath command failed for file '%s'!"
 
 #: pisi/util.py:569
 #, python-format
 msgid "objcopy (keep-debug) command failed for file '%s'!"
-msgstr ""
+msgstr "objcopy (keep-debug) command failed for file '%s'!"
 
 #: pisi/util.py:575
 #, python-format
 msgid "objcopy (add-debuglink) command failed for file '%s'!"
-msgstr ""
+msgstr "objcopy (add-debuglink) command failed for file '%s'!"
 
 #: pisi/util.py:665
 #, python-format
 msgid "Invalid package name: %s"
-msgstr "Neispravno ime paketa: %s"
+msgstr "Invalid package name: %s"
 
 #: pisi/util.py:705
 #, python-format
 msgid "Invalid delta package name: %s"
-msgstr "Neispravano ime delta paketa: %s"
+msgstr "Invalid delta package name: %s"
 
 #: pisi/version.py:64
 #, python-format
 msgid "Invalid version string: '%s'"
-msgstr ""
+msgstr "Invalid version string: '%s'"
