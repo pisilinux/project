@@ -2,18 +2,21 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # 
+# Translators:
+# yoyo308 <yoyofv@gmail.com>, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-12-27 11:06+0200\n"
-"PO-Revision-Date: 2010-12-29 18:40-0400\n"
-"Last-Translator: Klemens Häckel <click3d (at) linuxmail dot org>\n"
-"Language-Team: SPANISH <es@li.org>\n"
+"POT-Creation-Date: 2011-01-06 12:02+0200\n"
+"PO-Revision-Date: 2013-02-22 21:24+0000\n"
+"Last-Translator: yoyo308 <yoyofv@gmail.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/projects/p/PiSiLinux/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: panda.cpp:57
 msgid "Current Driver Information"
@@ -25,7 +28,7 @@ msgstr "Fabricante:"
 
 #: panda.cpp:89
 msgid "Renderer:"
-msgstr ""
+msgstr "Renderizador:"
 
 #: panda.cpp:97
 msgid "Version:"
@@ -37,44 +40,71 @@ msgstr "Preferencias del Controlador"
 
 #: panda.cpp:120
 msgid "Use the driver developed by the open source community"
-msgstr "Usar controlador desarrollado por la comunidad de código abierto"
+msgstr "Usar el controlador de código abierto desarrollado por la comunidad"
 
 #: panda.cpp:121
 msgid "Use the proprietary driver provided by the manufacturer"
 msgstr "Usar el controlador propietario del fabricante"
 
-#: panda.cpp:134
-msgid "Video Driver Administration"
-msgstr "Administración de controlador de video"
+#: panda.cpp:123
+msgid "Use the safe driver that provides limited features"
+msgstr "Usar el controlador seguro con funciones limitadas"
 
-#: panda.cpp:136
+#: panda.cpp:138 rc.cpp:2 rc.cpp:2
+msgid "Video Driver Administration"
+msgstr "Administración del controlador de video"
+
+#: panda.cpp:142
 msgid "(c) 2011 Fatih Arslan"
 msgstr "(c) 2011 Fatih Arslan"
 
-#: panda.cpp:138
+#: panda.cpp:148
+msgid ""
+"Please use <a "
+"href=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</a> to report "
+"bugs.\n"
+msgstr "Por favor ingrese en <a href=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</a> para reportar problemas.\n"
+
+#: panda.cpp:150
 msgid "Fatih Arslan"
 msgstr "Fatih Arslan"
 
-#: panda.cpp:138
+#: panda.cpp:150
 msgid "Original author"
 msgstr "Autor inicial"
 
-#: panda.cpp:178
+#: panda.cpp:151
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Sus nombres"
+
+#: panda.cpp:152
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Sus emails"
+
+#: panda.cpp:198
 msgid "Unable to apply settings due to missing packages"
-msgstr "No posible aplicar configuración debido a paquetes faltantes"
+msgstr "No es posible aplicar la configuración debido a paquetes faltantes"
 
-#: panda.cpp:195
+#: panda.cpp:215
 msgid "Unable to authenticate/execute the action: %1, %2"
-msgstr "No posible autenticar/ejecutar la acción: %1, %2"
+msgstr "No es posible autentificar/ejecutar la acción: %1, %2"
 
-#: panda.cpp:197
+#: panda.cpp:217
 msgid "An internal error occurred"
 msgstr "Ocurrió un error interno"
 
-#: panda.cpp:205
+#: panda.cpp:225
 msgid ""
 "You have to restart your system for the changes to take affect.\n"
 "Do you want to restart now?"
-msgstr ""
-"Debe reiniciar el sistema para que los cambios tengan efecto.\n"
-"Desea reiniciar ahora?"
+msgstr "Debe reiniciar el sistema para que los cambios tengan efecto.\nDesea reiniciar ahora?"
+
+#: rc.cpp:1 rc.cpp:1
+msgid "Video Driver"
+msgstr "Controlador de vídeo"
+
+#: rc.cpp:3 rc.cpp:3
+msgid "video,driver,graphics,display"
+msgstr "Video, Controlador, Gráficos, Monitor"
