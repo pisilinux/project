@@ -1,892 +1,868 @@
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
-# Jozsef <Kurucity@aim.com>, 2010.
+# 
+# Translators:
+# Translators:
+# Jozsef <Kurucity@aim.com>, 2010
+# Navodar <radovan.rockov@gmail.com>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-08 15:17+0200\n"
-"PO-Revision-Date: 2010-08-20 15:05+0400\n"
-"Last-Translator: Jozsef <Kurucity@aim.com>\n"
-"Language-Team: American English <pardus-translators@pardus.org.tr>\n"
-"Language: \n"
+"POT-Creation-Date: 2011-02-10 17:33+0200\n"
+"PO-Revision-Date: 2014-02-04 20:45+0000\n"
+"Last-Translator: Navodar <radovan.rockov@gmail.com>\n"
+"Language-Team: Serbian (http://www.transifex.com/projects/p/PiSiLinux/language/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: data/package-manager.desktop.in.h:1
-#: data/packagemanager-helper.desktop.in.h:1 src/pmutils.py:71
-#: src/progressdialog.py:63 ui/ui_mainwindow.py:44
-msgid "Package Manager"
-msgstr "Менаџер пакета"
-
-#: data/package-manager.desktop.in.h:2
 msgid "Add or Remove Software"
 msgstr "Додај или уклони софтвер"
 
+#: data/package-manager.desktop.in.h:2
+#: data/packagemanager-helper.desktop.in.h:2 src/progressdialog.py:62
+#: src/tray.py:129 src/tray.py:133 src/tray.py:135 ui/ui_mainwindow.py:31
+msgid "Package Manager"
+msgstr "Управљач пакетима"
+
 #: data/package-manager.desktop.in.h:3
 msgid "PiSi Package Manager Graphical User Interface"
-msgstr "Графичко окружење ПиСи менаџера пакета"
+msgstr "Графичко окружење ПиСи управљача пакета"
 
-#: data/packagemanager-helper.desktop.in.h:2
+#: data/packagemanager-helper.desktop.in.h:1
 msgid "Add/Remove/Update Packages"
 msgstr "Додај/Уклони/Надогради пакете"
 
-#: src/basketdialog.py:53 ui/ui_basketdialog.py:204
+#: src/about.py:27
+msgid "(c) 2009-2010 TUBITAK/UEKAE"
+msgstr "(c) -2010 ТУБИТАК/УЕКАЕ"
+
+#: src/about.py:36
+msgid "Gökmen Göksel"
+msgstr "Gökmen Göksel"
+
+#: src/about.py:36
+msgid "Developer"
+msgstr "Развијач"
+
+#: src/about.py:37
+msgid "Faik Uygur"
+msgstr "Faik Uygur"
+
+#: src/about.py:37
+msgid "First Author"
+msgstr "Први аутор"
+
+#: src/about.py:38
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Јожеф Куруцић / Радован Роцков"
+
+#: src/about.py:39
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Kurucity@aim.com / radovan.rockov@gmail.com"
+
+#: src/basketdialog.py:55 ui/ui_basketdialog.py:190
 msgid "Clear Basket"
-msgstr ""
+msgstr "Очисти корпу"
 
-#: src/basketdialog.py:54
-#, fuzzy
+#: src/basketdialog.py:56
 msgid "Do you want to clear all selections ?"
-msgstr "Да ли желите да наставите ?"
+msgstr "Да ли желите да очистите све означено ?"
 
-#: src/basketdialog.py:68 src/pmutils.py:83 src/pmutils.py:88
-#: src/pmutils.py:91 src/pmutils.py:94 src/pmutils.py:97
-#: src/settingsdialog.py:247 src/settingsdialog.py:252
+#: src/basketdialog.py:70 src/pmutils.py:79 src/pmutils.py:84
+#: src/pmutils.py:87 src/pmutils.py:90 src/pmutils.py:93
+#: src/settingsdialog.py:252 src/settingsdialog.py:257
 msgid "Pisi Error"
 msgstr "ПиСи грешка"
 
-#: src/basketdialog.py:170
-#, fuzzy
+#: src/basketdialog.py:173
 msgid "You must restart your system for the updates to take effect"
-msgstr "Морате <b>restartрестартовати</b> свој систем да би ажурирање следећег(их) пакета имало дејства:"
+msgstr "Морате поново покренути Ваш систем како би ажурирања ступила на снагу."
 
-#: src/basketdialog.py:172 src/basketdialog.py:181
+#: src/basketdialog.py:175 src/basketdialog.py:184
 msgid "Update Requirements"
 msgstr "Неопходно за ажурирање"
 
-#: src/basketdialog.py:173
+#: src/basketdialog.py:176
 msgid "Packages Require System Restart"
-msgstr ""
-
-#: src/basketdialog.py:179
-#, fuzzy
-msgid "You must restart related system services for the updated package(s) to take effect"
-msgstr "Морате рестартовати следеће службе система да би ажурирани пакет(и) имао(ли) дејства:"
+msgstr "Пакети захтевају поновно покретање система"
 
 #: src/basketdialog.py:182
+msgid ""
+"You must restart related system services for the updated package(s) to take "
+"effect"
+msgstr "Mорате поново покренути повезане системске сервисе како би ажурирани пакет(и) ступио на снагу."
+
+#: src/basketdialog.py:185
 msgid "Packages Require Service Restart"
-msgstr ""
+msgstr "Пакети захтевају поновно покретање сервиса"
 
-#: src/basketdialog.py:193
-msgid "Selected packages are considered critical for the system. Removing them may cause your system to be unusable."
-msgstr ""
+#: src/basketdialog.py:196
+msgid ""
+"Selected packages are considered critical for the system. Removing them may "
+"cause your system to be unusable."
+msgstr "Одабрани пакети се сматрају критичним за систем. Њихово уклањање може проузроковати нестабилност система."
 
-#: src/basketdialog.py:196 src/settingsdialog.py:169
+#: src/basketdialog.py:199 src/settingsdialog.py:174
 msgid "Warning"
 msgstr "Упозорење"
 
-#: src/basketdialog.py:197
-#, fuzzy
+#: src/basketdialog.py:200
 msgid "Critical Packages"
-msgstr "Уклањање пакета"
+msgstr "Критични пакети"
 
-#: src/basketdialog.py:208 src/pmwindow.py:135
-msgid "Selected packages are already installed.<br>If you continue, the packages will be reinstalled"
-msgstr ""
+#: src/basketdialog.py:211 src/pmwindow.py:144
+msgid ""
+"Selected packages are already installed.<br>If you continue, the packages "
+"will be reinstalled"
+msgstr "Одабрани пакети су већ инсталирани.<br>Ако наставите, пакети ће бити поново инсталирани"
 
-#: src/basketdialog.py:210 src/pmwindow.py:137
-#, fuzzy
+#: src/basketdialog.py:213 src/pmwindow.py:146
 msgid "Already Installed Packages"
-msgstr "Инсталирај пакет(е)"
+msgstr "Већ инсталирани пакети"
 
-#: src/basketdialog.py:211 src/mainwindow.py:146 src/mainwindow.py:148
-#: src/pmwindow.py:138
-#, fuzzy
+#: src/basketdialog.py:214 src/mainwindow.py:147 src/mainwindow.py:150
+#: src/pmwindow.py:147
 msgid "Installed Packages"
-msgstr "Инсталирај пакет(е)"
+msgstr "Инсталирани пакети"
 
-#: src/grouplist.py:46
+#: src/grouplist.py:49 src/tray.py:69 src/tray.py:201
 msgid "All"
 msgstr "Све"
 
-#: src/helpdialog.py:31
+#: src/helpdialog.py:33
 msgid "Package Manager Help"
-msgstr "Помоћ за менаџер пакета"
+msgstr "Помоћ за управљач пакета"
 
-#: src/mainwidget.py:134
-#, fuzzy
+#: src/main.py:90 src/main.py:91
+msgid "Show main window"
+msgstr "Прикажи главни прозор"
+
+#: src/mainwidget.py:144 src/tray.py:129 src/tray.py:135
 msgid "All packages are up to date"
-msgstr "Сви пакети су ажурирани"
+msgstr "Сви пакети су ажурни"
 
-#: src/mainwidget.py:237
+#: src/mainwidget.py:247
 msgid "Searching..."
-msgstr ""
+msgstr "Тражим..."
 
-#: src/mainwidget.py:249
+#: src/mainwidget.py:259
 msgid "No results found."
-msgstr ""
+msgstr "Нису пронађени резултати."
 
-#: src/mainwidget.py:386
-#, fuzzy
+#: src/mainwidget.py:405
 msgid "Select packages"
-msgstr "Прикажи инсталиране пакете"
+msgstr "Одаберите пакете"
 
-#: src/mainwidget.py:387
+#: src/mainwidget.py:406
 msgid "You must select at least one installed package"
-msgstr ""
+msgstr "Морате одабрати бар један инсталирани пакет"
 
-#: src/mainwidget.py:399
+#: src/mainwidget.py:417
 msgid "All Updates"
-msgstr "Све исправке"
+msgstr "Сва ажурирања"
 
-#: src/mainwidget.py:400
+#: src/mainwidget.py:418
 msgid "Security Updates"
-msgstr "Сигурносне исправке"
+msgstr "Сигурносна ажурирања"
 
-#: src/mainwidget.py:401
+#: src/mainwidget.py:419
 msgid "Critical Updates"
-msgstr "Критичне исправке"
+msgstr "Критична ажурирања"
 
-#: src/mainwindow.py:138 src/mainwindow.py:140
-#, fuzzy
+#: src/mainwindow.py:135 src/mainwindow.py:138
 msgid "All Packages"
-msgstr "Прикажи инсталиране пакете"
+msgstr "Сви пакети"
 
-#: src/mainwindow.py:142 src/mainwindow.py:144
-#, fuzzy
+#: src/mainwindow.py:141 src/mainwindow.py:144
 msgid "Installable Packages"
-msgstr "Прокажи пакете који могу да се инсталирају"
+msgstr "Пакети за инсталацију"
 
-#: src/mainwindow.py:150 src/mainwindow.py:152 src/tray.py:197
-#, fuzzy
+#: src/mainwindow.py:153 src/mainwindow.py:156
 msgid "Updates"
-msgstr "Све исправке"
+msgstr "Ажурирања"
 
-#: src/mainwindow.py:154 ui/ui_mainwidget_v3.py:176
-msgid "Settings"
-msgstr "Подешавања"
-
-#: src/mainwindow.py:157
-msgid "Help"
-msgstr "Помоћ"
-
-#: src/mainwindow.py:161 src/tray.py:193
-msgid "Quit"
-msgstr "Прекид"
-
-#: src/mainwindow.py:191
+#: src/mainwindow.py:201
 msgid "Calculating dependencies..."
-msgstr ""
+msgstr "Израчунавам зависности..."
 
-#: src/mainwindow.py:210
+#: src/mainwindow.py:205
 msgid "Currently your basket is empty."
 msgstr "Тренутно Ваша корпа је празна."
 
-#: src/operationmanager.py:38
-#, fuzzy
+#: src/operationmanager.py:40
 msgid "installing"
-msgstr "инсталирано"
+msgstr "инсталирање"
 
-#: src/operationmanager.py:39
-#, fuzzy
+#: src/operationmanager.py:41
 msgid "removing"
-msgstr "уклоњено"
+msgstr "уклањање"
 
-#: src/operationmanager.py:40 src/progressdialog.py:79
+#: src/operationmanager.py:42 src/progressdialog.py:78
 msgid "extracting"
 msgstr "отпакивање"
 
-#: src/operationmanager.py:41 src/progressdialog.py:79
+#: src/operationmanager.py:43 src/progressdialog.py:78
 msgid "configuring"
 msgstr "конфигурисање"
 
-#: src/operationmanager.py:135
+#: src/operationmanager.py:137
 msgid "downloading"
 msgstr "преузимање"
 
-#: src/packagedelegate.py:79
+#: src/packagedelegate.py:64
 msgid "critical"
 msgstr "критично"
 
-#: src/packagedelegate.py:80
+#: src/packagedelegate.py:65
 msgid "security"
 msgstr "сигурност"
 
-#: src/packagedelegate.py:96
+#: src/packagedelegate.py:81
 msgid "Description:"
 msgstr "Опис:"
 
-#: src/packagedelegate.py:97
+#: src/packagedelegate.py:82
 msgid "Website:"
 msgstr "Веб страница:"
 
-#: src/packagedelegate.py:98
+#: src/packagedelegate.py:83
 msgid "Release:"
 msgstr "Издање:"
 
-#: src/packagedelegate.py:99
+#: src/packagedelegate.py:84
 msgid "Repository:"
 msgstr "Репозиторијум:"
 
-#: src/packagedelegate.py:100
+#: src/packagedelegate.py:85
 msgid "Package Size:"
 msgstr "Величина пакета:"
 
-#: src/packagedelegate.py:101
+#: src/packagedelegate.py:86
 msgid "Installed Version:"
 msgstr "Инсталирана верзија:"
 
-#: src/packagedelegate.py:311
-msgid "Unknown"
-msgstr ""
-
-#: src/packagedelegate.py:338
+#: src/packagedelegate.py:320
 msgid "Details"
-msgstr ""
+msgstr "Детаљи"
 
-#: src/packageview.py:23
+#: src/packageview.py:24
 msgid "Select all packages in this group"
-msgstr ""
+msgstr "Одабери све пакете у овој групи"
 
-#: src/pm-install.py:47
+#: src/pm-install.py:49
 msgid "%prog packages_to_install"
 msgstr "%prog пакета да се инсталира"
 
-#: src/pmutils.py:77 src/statemanager.py:245
+#: src/pm-install.py:65
+msgid "Hide summary screen"
+msgstr "Сакриј екран резимеа"
+
+#: src/pmutils.py:73 src/statemanager.py:243
 msgid "Network Error"
 msgstr "Мрежна грешка"
 
-#: src/pmutils.py:78 src/statemanager.py:246
+#: src/pmutils.py:74 src/statemanager.py:244
 msgid "Please check your network connections and try again."
 msgstr "Молимо Вас проверите мрежну конекцију и покушајте поново."
 
-#: src/pmutils.py:80
+#: src/pmutils.py:76
 msgid "Authorization Error"
 msgstr "Грешка у вези овлашћења"
 
-#: src/pmutils.py:81
+#: src/pmutils.py:77
 msgid "You are not authorized for this operation."
 msgstr "Нисте овлашћени за ову операцију."
 
-#: src/pmutils.py:84
-#, fuzzy, python-format
-msgid "Package <b>%s</b> not found in repositories.<br>It may be upgraded or removed from the repository.<br>Please try upgrading repository informations."
-msgstr "Пакет није пронађен. Можда је ажуриран у или уклоњен из репозиторијума. Молимо покушајте да ажурирате информације о репозиротијуму."
+#: src/pmutils.py:80
+#, python-format
+msgid ""
+"Package <b>%s</b> not found in repositories.<br>It may be upgraded or "
+"removed from the repository.<br>Please try upgrading repository "
+"informations."
+msgstr "Пакет <b>%s</b> није пронађен у репозиторијумима.<br>Можда је надограђен или уклоњен из репозиторијума.<br>Покушајте надоградњу репозиторијума."
 
-#: src/pmutils.py:89
+#: src/pmutils.py:85
 msgid "Mixing file names and package names not supported yet."
-msgstr ""
+msgstr "Мешање имена датотека и имена пакета још није подржано."
 
-#: src/pmutils.py:92
+#: src/pmutils.py:88
 #, python-format
 msgid "File <b>%s</b> doesn't exists."
-msgstr ""
+msgstr "Датотека <b>%s</b> не постоји."
 
-#: src/pmutils.py:95
+#: src/pmutils.py:91
 msgid "Another instance of PiSi is running. Only one instance is allowed."
-msgstr ""
+msgstr "Још једна појава ПиСи-ја је покренута. Само једна појава је дозвољена."
 
-#: src/pmutils.py:129
+#: src/pmutils.py:125
 msgid "Do you want to continue ?"
 msgstr "Да ли желите да наставите ?"
 
-#: src/progressdialog.py:75
-#, fuzzy
+#: src/progressdialog.py:74
 msgid "<p align='right'>%1 %</p>"
-msgstr "<p align='center'>%1 / %2, %3</p>"
+msgstr "<p align='right'>%1 %</p>"
 
-#: src/progressdialog.py:76
+#: src/progressdialog.py:75
 #, python-format
 msgid "Operation - %1%"
 msgstr "Операција - %1%"
 
-#: src/progressdialog.py:83
+#: src/progressdialog.py:82
 msgid "Downloading package list of %1"
 msgstr "Преузимање листе пакета од %1"
 
-#: src/progressdialog.py:85
+#: src/progressdialog.py:84
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: src/progressdialog.py:90
+#: src/progressdialog.py:89
 msgid "[%1 / %2]"
-msgstr ""
+msgstr "[%1 / %2]"
 
-#: src/progressdialog.py:97
-#, fuzzy
+#: src/progressdialog.py:96
 msgid "%1 / %2, %3"
-msgstr "%1 / %2 пакет %3"
+msgstr "%1 / %2, %3"
 
-#: src/progressdialog.py:114
-#, fuzzy
+#: src/progressdialog.py:113
 msgid "Preparing PiSi..."
-msgstr "<h3>Припремање ПиСија...</h3>"
+msgstr "Припремам ПиСи..."
 
-#: src/progressdialog.py:125
+#: src/progressdialog.py:124
 msgid "<b>Cancelling operation...</b>"
 msgstr "<b>Поништавање операције...</b>"
 
-#: src/settingsdialog.py:160
+#: src/settingsdialog.py:165
 msgid "Open Directory"
-msgstr "Отвори директоријум"
+msgstr "Отвори фасциклу"
 
-#: src/settingsdialog.py:170
+#: src/settingsdialog.py:175
 msgid "All the cached packages will be deleted. Are you sure? "
-msgstr "Сви пакети из складишта ће бити избрисани. Да ли сте сигурни?"
-
-#: src/settingsdialog.py:248
-msgid "Not a valid repository name"
-msgstr "Не важечи назив репозиторијума"
+msgstr "Сви пакети из складишта ће бити избрисани. Да ли сте сигурни ?"
 
 #: src/settingsdialog.py:253
-#, fuzzy
-msgid "<qt>Repository address should end with xml or xml.bz2 or xz suffix.<p>Please try again.</qt>"
-msgstr "<qt>Адреса репозиторијума би требала да се заврши са xml или xml.bz2 наставком.<p>Молимо покушајте поново.</qt>"
+msgid "Not a valid repository name"
+msgstr "Неважећи назив репозиторијума"
 
-#: src/statemanager.py:86 src/statemanager.py:87
+#: src/settingsdialog.py:258
+msgid ""
+"<qt>Repository address should end with xml or xml.bz2 or xz suffix.<p>Please"
+" try again.</qt>"
+msgstr "<qt>Адреса пеозиторијума треба да се завршава са xml са xml.bz2 или са xz суфиксом.<p>Молим покушајте поново.</qt>"
+
+#: src/statemanager.py:85 src/statemanager.py:86
 msgid "Installing Package(s)"
 msgstr "Инсталирање пакета"
 
-#: src/statemanager.py:88
+#: src/statemanager.py:87
 msgid "Removing Package(s)"
 msgstr "Уклањање пакета"
 
-#: src/statemanager.py:89
+#: src/statemanager.py:88
 msgid "Upgrading Package(s)"
 msgstr "Надограђивање пакета"
 
-#: src/statemanager.py:90
+#: src/statemanager.py:89
 msgid "Applying Repository Changes"
 msgstr "Примењивање промена на репозиторијуму"
 
-#: src/statemanager.py:91
+#: src/statemanager.py:90
 msgid "Updating Repository"
 msgstr "Ажурирање репозиторијума"
 
-#: src/statemanager.py:92
+#: src/statemanager.py:91
 msgid "Updating Repository(s)"
 msgstr "Ажурирање репозиторијума"
 
-#: src/statemanager.py:95
+#: src/statemanager.py:94
 msgid "installed"
 msgstr "инсталирано"
 
-#: src/statemanager.py:96
+#: src/statemanager.py:95
 msgid "removed"
 msgstr "уклоњено"
 
-#: src/statemanager.py:97
+#: src/statemanager.py:96
 msgid "upgraded"
 msgstr "надограђено"
 
-#: src/statemanager.py:98
+#: src/statemanager.py:97
 msgid "modified"
-msgstr ""
+msgstr "измењено"
 
-#: src/statemanager.py:102 ui/ui_basketdialog.py:205
-#: ui/ui_mainwidget_v3.py:183
+#: src/statemanager.py:101 ui/ui_basketdialog.py:191
+#: ui/ui_mainwidget_v3.py:175
 msgid "Install Package(s)"
 msgstr "Инсталирај пакет(е)"
 
-#: src/statemanager.py:103
+#: src/statemanager.py:102
 msgid "Remove Package(s)"
 msgstr "Уклони пакет(е)"
 
-#: src/statemanager.py:104
+#: src/statemanager.py:103
 msgid "Upgrade Package(s)"
 msgstr "Надогради пакет(е)"
 
-#: src/statemanager.py:105
+#: src/statemanager.py:104
 msgid "Select Operation"
-msgstr ""
+msgstr "Одабери операцију"
+
+#: src/statemanager.py:114
+msgid "%1 new package(s) have been installed succesfully."
+msgstr "%1 нови(х) пакет(а) је успешно инсталиран(о)."
 
 #: src/statemanager.py:115
-msgid "%1 new package(s) have been installed succesfully."
-msgstr ""
+msgid "%1 package(s) have been removed succesfully."
+msgstr "%1 пакет(а) је успешно уклоњен(о)."
 
 #: src/statemanager.py:116
-msgid "%1 package(s) have been removed succesfully."
-msgstr ""
+msgid "%1 package(s) have been upgraded succesfully."
+msgstr "%1 пакет(а) је успешно надограђен(о)."
 
 #: src/statemanager.py:117
-msgid "%1 package(s) have been upgraded succesfully."
-msgstr ""
-
-#: src/statemanager.py:118
 msgid "%1 package(s) have been modified succesfully."
-msgstr ""
+msgstr "%1 пакет(а) је успешно измењен(о)."
+
+#: src/statemanager.py:120
+msgid "You have selected the following package(s) to install:"
+msgstr "Одабрали сте следеће пакете за инсталирање:"
 
 #: src/statemanager.py:121
-msgid "You have selected the following package(s) to install:"
-msgstr ""
+msgid "You have selected the following package(s) to removal:"
+msgstr "Одабрали сте следеће пакете за уклањање:"
 
 #: src/statemanager.py:122
-msgid "You have selected the following package(s) to removal:"
-msgstr ""
+msgid "You have selected the following package(s) to upgrade:"
+msgstr "Одабрали сте следеће пакете за надоградњу:"
 
 #: src/statemanager.py:123
-msgid "You have selected the following package(s) to upgrade:"
-msgstr ""
-
-#: src/statemanager.py:124
 msgid "You have selected the following package(s) to modify:"
-msgstr ""
+msgstr "Одабрали сте следеће пакета за измену:"
 
-#: src/statemanager.py:127 ui/ui_basketdialog.py:201
-msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
-msgstr ""
+#: src/statemanager.py:126 ui/ui_basketdialog.py:187
+msgid ""
+"Extra dependencies of the selected package(s) that are also going to be "
+"installed:"
+msgstr "Додатне зависности одабраних пакета које ће такође бити инсталиране:"
+
+#: src/statemanager.py:127
+msgid ""
+"Reverse dependencies of the selected package(s) that are also going to be "
+"removed:"
+msgstr "Обрнуте зависности одабраних пакета које ће такође бити уклоњене:"
 
 #: src/statemanager.py:128
-msgid "Reverse dependencies of the selected package(s) that are also going to be removed:"
-msgstr ""
+msgid ""
+"Extra dependencies of the selected package(s) that are also going to be "
+"upgraded:"
+msgstr "Додатне зависности одабраних пакета које ће такође бити надограђене:"
 
 #: src/statemanager.py:129
-msgid "Extra dependencies of the selected package(s) that are also going to be upgraded:"
-msgstr ""
+msgid ""
+"Extra dependencies of the selected package(s) that are also going to be "
+"modified:"
+msgstr "Додатне зависности одабраних пакета које ће такође бити измењене:"
 
-#: src/statemanager.py:130
-msgid "Extra dependencies of the selected package(s) that are also going to be modified:"
-msgstr ""
+#: src/statemanager.py:168
+msgid ""
+"Currently there are <b>%1</b> selected package(s) of total <b>%2</b> of size"
+" "
+msgstr "Тренутно је одабрано <b>%1</b> пакета укупне величине <b>%2</b>"
 
-#: src/statemanager.py:170
-msgid "Currently there are <b>%1</b> selected package(s) of total <b>%2</b> of size "
-msgstr ""
+#: src/statemanager.py:171
+msgid "with <b>%1</b> reverse dependencies of total <b>%2</b> of size "
+msgstr "са <b>%1</b> обрнутих зависности укупне величине <b>%2</b>"
 
 #: src/statemanager.py:173
-msgid "with <b>%1</b> reverse dependencies of total <b>%2</b> of size "
-msgstr ""
-
-#: src/statemanager.py:175
 msgid "with <b>%1</b> extra dependencies of total <b>%2</b> of size "
-msgstr ""
+msgstr "са <b>%1</b> додатних зависности укупне величине <b>%2</b>"
 
-#: src/statemanager.py:176
+#: src/statemanager.py:174
 msgid "in your basket."
-msgstr ""
+msgstr "у вашој корпи."
 
-#: src/statemanager.py:211
-msgid "Selected packages [%1] are in conflict with each other. These packages can not be installed together."
-msgstr ""
+#: src/statemanager.py:209
+msgid ""
+"Selected packages [%1] are in conflict with each other. These packages can "
+"not be installed together."
+msgstr "Одабрани пакети [%1] су у међусобном конфликту. Ови пакети не могу бити инсталирани заједно."
 
-#: src/statemanager.py:212 src/statemanager.py:220
+#: src/statemanager.py:210 src/statemanager.py:218
 msgid "Conflict Error"
-msgstr ""
+msgstr "Грешка конфликта"
+
+#: src/statemanager.py:214
+msgid "The following packages conflicts:\n"
+msgstr "Следећи пакети су у конфликту:\n"
 
 #: src/statemanager.py:216
-msgid "The following packages conflicts:\n"
-msgstr ""
-
-#: src/statemanager.py:218
 msgid "%1 conflicts with: [%2]\n"
-msgstr ""
+msgstr "% 1 је у конфликту са: [2%]\n"
 
-#: src/statemanager.py:219
+#: src/statemanager.py:217
 msgid ""
 "\n"
 "Remove the conflicting packages from the system?"
-msgstr ""
+msgstr "\nУклони конфликтне пакете са система ?"
 
-#: src/tray.py:183
-msgid "Update"
-msgstr ""
+#: src/tray.py:133 src/tray.py:208
+msgid "There are <b>%1</b> updates available!"
+msgstr "Доступно је <b>%1</b> ажурирања !"
 
 #: src/tray.py:189
-#, fuzzy
-msgid "Update %1 repository"
-msgstr "Ажурирање репозиторијума"
+msgid "Update"
+msgstr "Ажурирај"
 
-#: src/tray.py:190
-#, fuzzy
-msgid "Update All Repositories"
-msgstr "Ажурирање репозиторијума"
+#: src/tray.py:209
+msgid "Show Updates"
+msgstr "Прикажи ажурирања"
 
-#: src/tray.py:197
-msgid "There are %1 updates available!"
-msgstr ""
+#: src/tray.py:209
+msgid "Ignore"
+msgstr "Игнориши"
 
-#: src/webdialog.py:113 ui/ui_webdialog.py:166
-#, fuzzy
+#: src/webdialog.py:126 ui/ui_webdialog.py:158
 msgid "Package Files"
-msgstr "Величина пакета:"
+msgstr "Датотеке пакета"
 
-#: ui/ui_appitem.py:71
+#: ui/ui_appitem.py:58
 msgid "Application"
-msgstr ""
+msgstr "Програм"
 
-#: ui/ui_appitem.py:72
+#: ui/ui_appitem.py:59
 msgid "Web Tarayıcı"
-msgstr ""
+msgstr "Web Tarayıcı"
 
-#: ui/ui_appitem.py:73
+#: ui/ui_appitem.py:60
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
-#: ui/ui_basketdialog.py:199 ui/ui_webdialog.py:165
+#: ui/ui_basketdialog.py:185 ui/ui_webdialog.py:156
 msgid "Basket"
-msgstr ""
+msgstr "Корпа"
 
-#: ui/ui_basketdialog.py:200
+#: ui/ui_basketdialog.py:186
 msgid "Selected package(s) for install:"
-msgstr ""
+msgstr "Одабрани пакет(и) за инсталирање:"
 
-#: ui/ui_basketdialog.py:202
+#: ui/ui_basketdialog.py:188
 msgid "Total Size:"
-msgstr ""
+msgstr "Укупна величина:"
 
-#: ui/ui_basketdialog.py:203
+#: ui/ui_basketdialog.py:189
 msgid "<b>2.2 MB</b>"
-msgstr ""
+msgstr "<b>2.2 MB</b>"
 
-#: ui/ui_basketdialog.py:206
+#: ui/ui_basketdialog.py:192
 msgid "Download Size:"
-msgstr ""
+msgstr "Величина преузимања:"
 
-#: ui/ui_basketdialog.py:207
+#: ui/ui_basketdialog.py:193
 msgid "<b>2.0 MB</"
-msgstr ""
+msgstr "<b>2.0 MB</"
 
-#: ui/ui_mainwidget_v3.py:175 ui/ui_message.py:55
-#: ui/ui_progressdialog_v4.py:237
+#: ui/ui_mainwidget_v3.py:166 ui/ui_message.py:42
+#: ui/ui_progressdialog_v4.py:195
 msgid "Form"
-msgstr ""
+msgstr "Форма"
 
-#: ui/ui_mainwidget_v3.py:177
-msgid "Type to search..."
-msgstr ""
-
-#: ui/ui_mainwidget_v3.py:178
-msgid "Update Types"
-msgstr ""
-
-#: ui/ui_mainwidget_v3.py:179
-msgid "Category Panel"
-msgstr ""
-
-#: ui/ui_mainwidget_v3.py:180 ui/ui_pminstall.py:99
-msgid "Package List"
-msgstr ""
-
-#: ui/ui_mainwidget_v3.py:181
-msgid "Show Basket"
-msgstr ""
-
-#: ui/ui_mainwidget_v3.py:182
-#, fuzzy
-msgid "Check for Updates"
-msgstr "Сигурносне исправке"
-
-#: ui/ui_pminstall.py:97
-#, fuzzy
-msgid "Package Manager Quick Install"
+#: ui/ui_mainwidget_v3.py:167
+msgid "Settings"
 msgstr "Подешавања"
 
-#: ui/ui_pminstall.py:98
-msgid "Following packages are selected to install. Do you want to install these packages ?"
-msgstr ""
+#: ui/ui_mainwidget_v3.py:168
+msgid "Search Bar"
+msgstr "Трака за тражење"
 
-#: ui/ui_pminstall.py:100
-#, fuzzy
+#: ui/ui_mainwidget_v3.py:169
+msgid "Click to search"
+msgstr "Кликни за тражење"
+
+#: ui/ui_mainwidget_v3.py:170
+msgid "Update Types"
+msgstr "Врсте ажурирања"
+
+#: ui/ui_mainwidget_v3.py:171
+msgid "Category Panel"
+msgstr "Плоча категорија"
+
+#: ui/ui_mainwidget_v3.py:172 ui/ui_pminstall.py:85
+msgid "Package List"
+msgstr "Листа пакета"
+
+#: ui/ui_mainwidget_v3.py:173
+msgid "Show Basket"
+msgstr "Прикажи корпу"
+
+#: ui/ui_mainwidget_v3.py:174
+msgid "Check for Updates"
+msgstr "Провери ажурирања"
+
+#: ui/ui_pminstall.py:83
+msgid "Package Manager Quick Install"
+msgstr "Управник пакета брза инсталација"
+
+#: ui/ui_pminstall.py:84
+msgid ""
+"Following packages are selected to install. Do you want to install these "
+"packages ?"
+msgstr "Следећи пакети су одабрани за инсталирање. Да ли желите да инсталирате те пакете ?"
+
+#: ui/ui_pminstall.py:86
 msgid "Install"
-msgstr "инсталирано"
+msgstr "Инсталирај"
 
-#: ui/ui_pminstall.py:101
+#: ui/ui_pminstall.py:87
 msgid "Cancel"
-msgstr ""
+msgstr "Откажи"
 
-#: ui/ui_preview.py:65
+#: ui/ui_preview.py:52
 msgid "Preview"
-msgstr ""
+msgstr "Преглед"
 
-#: ui/ui_progressdialog_v4.py:238
+#: ui/ui_progressdialog_v4.py:196
 msgid "Alt+C"
-msgstr ""
+msgstr "Alt+C"
 
-#: ui/ui_repodialog.py:67
+#: ui/ui_repodialog.py:54
 msgid "Add New Repository"
-msgstr ""
+msgstr "Додај нови репозиторијум"
 
-#: ui/ui_repodialog.py:68
+#: ui/ui_repodialog.py:55
 msgid "Name of the repository, e.g <b>pardus-devel</b>"
-msgstr ""
+msgstr "Име репозиторијума, нпр. <b>pisilinux-devel</b>"
 
-#: ui/ui_repodialog.py:69 ui/ui_settingsdialog.py:440
+#: ui/ui_repodialog.py:56 ui/ui_settingsdialog.py:425
 msgid "Repository Name"
-msgstr ""
+msgstr "Име репозиторијума"
 
-#: ui/ui_repodialog.py:70 ui/ui_settingsdialog.py:442
+#: ui/ui_repodialog.py:57 ui/ui_settingsdialog.py:426
 msgid "Repository Address"
-msgstr ""
+msgstr "Адреса репозиторијума"
+
+#: ui/ui_settingsdialog.py:398
+msgid "Package Manager Settings"
+msgstr "Подешавања управника пакета"
+
+#: ui/ui_settingsdialog.py:399
+msgid "Package list"
+msgstr "Листа пакета"
+
+#: ui/ui_settingsdialog.py:400
+msgid "&Show only desktop applications"
+msgstr "&Покажи само програме радне површине"
+
+#: ui/ui_settingsdialog.py:401
+msgid "Show Component information "
+msgstr "Прикажи информације о компоненти"
+
+#: ui/ui_settingsdialog.py:402
+msgid "Show package type tags"
+msgstr "Прикажи ознаке врсте пакета"
+
+#: ui/ui_settingsdialog.py:403
+msgid "System tray icon"
+msgstr "Икона траке система"
+
+#: ui/ui_settingsdialog.py:404
+msgid "Enable system tray icon"
+msgstr "Омогући траку система"
+
+#: ui/ui_settingsdialog.py:405
+msgid "Hide system tray if there is no update."
+msgstr "Сакриј траку система уколико нема ажурирања."
+
+#: ui/ui_settingsdialog.py:406
+msgid "Enable &periodic update check"
+msgstr "Омогући &повремену проверу ажурирања"
+
+#: ui/ui_settingsdialog.py:407
+msgid "Check interval :"
+msgstr "Интервал провере:"
+
+#: ui/ui_settingsdialog.py:408
+msgid " min"
+msgstr "мин"
+
+#: ui/ui_settingsdialog.py:409
+msgid "Install updates automatically"
+msgstr "Инсталирај ажурирања аутоматски"
+
+#: ui/ui_settingsdialog.py:410
+msgid "&General Settings"
+msgstr "&Општа подешавања"
+
+#: ui/ui_settingsdialog.py:411
+msgid "Cache Limit"
+msgstr "Ограничење привремене меморије"
 
 #: ui/ui_settingsdialog.py:412
-msgid "Package Manager Settings"
-msgstr "Подешавања"
+msgid "&Use hard disk cache for downloaded software"
+msgstr "&Користи привремену меморију чврстог диска за преузети софтвер"
 
 #: ui/ui_settingsdialog.py:413
-msgid "Package list"
-msgstr ""
+msgid "Maximum cache size:"
+msgstr "Максимална величина привремене меморије:"
 
 #: ui/ui_settingsdialog.py:414
-msgid "&Show only desktop applications"
-msgstr ""
+msgid "Unlimited"
+msgstr "Неограничено"
 
 #: ui/ui_settingsdialog.py:415
-msgid "Show Component information "
-msgstr ""
+msgid " Mib"
+msgstr " Mib"
 
 #: ui/ui_settingsdialog.py:416
-msgid "Show package type tags"
-msgstr ""
+msgid "Current cache dir:"
+msgstr "Тренутна фасцикла привремене меморије:"
 
 #: ui/ui_settingsdialog.py:417
-msgid "System tray icon"
-msgstr ""
+msgid "Select..."
+msgstr "Одабери..."
 
 #: ui/ui_settingsdialog.py:418
-msgid "Enable system tray icon"
-msgstr ""
+msgid "Open"
+msgstr "Отвори"
 
 #: ui/ui_settingsdialog.py:419
-msgid "Hide system tray if there is no update."
-msgstr ""
+msgid ""
+"Clearing the disk cache will remove all downloaded software. This will not "
+"delete installed software or affect your system stability."
+msgstr "Чишћење привремене меморије ће уклонити сав преузети софтвер. То неће обрисати инсталирани софтвер или утицати на стабилност вашег система."
 
 #: ui/ui_settingsdialog.py:420
-msgid "Enable &periodic update check"
-msgstr ""
+msgid "C&lean disk cache now"
+msgstr "Оч&исти привремену меморију диска сада"
 
 #: ui/ui_settingsdialog.py:421
-msgid "Check interval :"
-msgstr ""
+msgid "Bandwidth limit"
+msgstr "Ограничење пропуста"
 
 #: ui/ui_settingsdialog.py:422
-msgid " min"
-msgstr ""
+msgid "Use bandwidth limit :"
+msgstr "Користи ограничење пропуста:"
 
 #: ui/ui_settingsdialog.py:423
-msgid "Install updates automatically"
-msgstr ""
+msgid " kB/s"
+msgstr "kB/s"
 
 #: ui/ui_settingsdialog.py:424
-msgid "&General Settings"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:425
-msgid "Cache Limit"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:426
-msgid "&Use hard disk cache for downloaded software"
-msgstr ""
+msgid "C&ache"
+msgstr "Привремена &меморија"
 
 #: ui/ui_settingsdialog.py:427
-msgid "Maximum cache size:"
-msgstr ""
+msgid "&Add New Repository"
+msgstr "&Додај нови репозиторијум"
 
 #: ui/ui_settingsdialog.py:428
-msgid "Unlimited"
-msgstr ""
+msgid "Remove Repository"
+msgstr "Уклони репозиторијум"
 
 #: ui/ui_settingsdialog.py:429
-msgid " Mib"
-msgstr ""
+msgid "Move &Up"
+msgstr "Помери &горе"
 
 #: ui/ui_settingsdialog.py:430
-msgid "Current cache dir:"
-msgstr ""
+msgid "Move &Down"
+msgstr "Помери д&оле"
 
 #: ui/ui_settingsdialog.py:431
-msgid "Select..."
-msgstr ""
+msgid "&Repositories"
+msgstr "&Репозиторијуми"
 
 #: ui/ui_settingsdialog.py:432
-msgid "Open"
-msgstr ""
+msgid "Use Proxy"
+msgstr "Користи прокси"
 
 #: ui/ui_settingsdialog.py:433
-msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
-msgstr ""
+msgid "HTTP proxy server:"
+msgstr "HTTP прокси сервер:"
 
-#: ui/ui_settingsdialog.py:434
-msgid "C&lean disk cache now"
-msgstr ""
+#: ui/ui_settingsdialog.py:434 ui/ui_settingsdialog.py:436
+#: ui/ui_settingsdialog.py:438
+msgid "Port:"
+msgstr "Порт:"
 
 #: ui/ui_settingsdialog.py:435
-msgid "Bandwidth limit"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:436
-msgid "Use bandwidth limit :"
-msgstr ""
+msgid "HTTPS proxy server:"
+msgstr "HTTPS прокси сервер:"
 
 #: ui/ui_settingsdialog.py:437
-msgid " kB/s"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:438
-msgid "C&ache"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:443
-msgid "&Add New Repository"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:444
-msgid "Remove Repository"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:445
-msgid "Move &Up"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:446
-msgid "Move &Down"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:447
-msgid "&Repositories"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:448
-msgid "Use Proxy"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:449
-msgid "HTTP proxy server:"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:450 ui/ui_settingsdialog.py:452
-#: ui/ui_settingsdialog.py:454
-msgid "Port:"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:451
-msgid "HTTPS proxy server:"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:453
 msgid "FTP proxy server:"
-msgstr ""
+msgstr "FTP прокси сервер:"
 
-#: ui/ui_settingsdialog.py:455
+#: ui/ui_settingsdialog.py:439
 msgid "Domain:"
-msgstr ""
+msgstr "Домен:"
 
-#: ui/ui_settingsdialog.py:456
+#: ui/ui_settingsdialog.py:440
 msgid "Username:"
-msgstr ""
+msgstr "Корисничко име:"
 
-#: ui/ui_settingsdialog.py:457
+#: ui/ui_settingsdialog.py:441
 msgid "Password:"
-msgstr ""
+msgstr "Лозинка:"
 
-#: ui/ui_settingsdialog.py:458
+#: ui/ui_settingsdialog.py:442
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
-msgstr ""
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Доступна су прокси подешавања у KDE-у, можете кликнути <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">овде</span></a> да бисте добили та подешавања</p></body></html>"
 
-#: ui/ui_settingsdialog.py:463
+#: ui/ui_settingsdialog.py:447
 msgid "<a href=#>Use this proxy server for all protocols</a>"
-msgstr ""
+msgstr "<a href=#>Користи овај прокси сервер за све протоколе</a>"
 
-#: ui/ui_settingsdialog.py:464
+#: ui/ui_settingsdialog.py:448
 msgid "&Proxy"
-msgstr ""
+msgstr "&Прокси"
 
-#: ui/ui_settingsdialog.py:465
+#: ui/ui_settingsdialog.py:449
 msgid "&Help"
-msgstr ""
+msgstr "П&омоћ"
 
-#: ui/ui_settingsdialog.py:466
+#: ui/ui_settingsdialog.py:450
 msgid "&OK"
-msgstr ""
+msgstr "&У реду"
 
-#: ui/ui_settingsdialog.py:467
+#: ui/ui_settingsdialog.py:451
 msgid "&Cancel"
-msgstr ""
+msgstr "О&ткажи"
 
-#: ui/ui_summarydialog.py:77
+#: ui/ui_summarydialog.py:62
 msgid "Operation Summary"
-msgstr ""
+msgstr "Резиме операције"
 
-#: ui/ui_summarydialog.py:78
-msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
-msgstr ""
+#: ui/ui_summarydialog.py:63
+msgid ""
+"You can start the new installed application by double-clicking on the list "
+"below or later from the applications menu."
+msgstr "Можете покренути новоинсталирани програм двоструким кликом на доњу листу или касније из менија апликација."
 
-#: ui/ui_summarydialog.py:79
+#: ui/ui_summarydialog.py:64
 msgid "&Ok"
-msgstr ""
+msgstr "&У реду"
 
-#: ui/ui_webdialog.py:167
-#, fuzzy
+#: ui/ui_webdialog.py:157
+msgid "Type to filter files"
+msgstr "Куцај да издвојиш датотеке"
+
+#: ui/ui_webdialog.py:159
 msgid ""
 "AppInfo Server is not reachable\n"
 "Please check your network connection"
-msgstr "Молимо Вас проверите мрежну конекцију и покушајте поново."
+msgstr "AppInfo сервер није доступан\nМолим проверите ваше мрежне везе"
 
-#: ui/ui_webdialog.py:169 ui/ui_webdialog.py:170
-#, fuzzy
+#: ui/ui_webdialog.py:161 ui/ui_webdialog.py:162
 msgid "Package Details"
-msgstr "Величина пакета:"
-
-#~ msgid "<h3>Preparing PiSi...</h3>"
-#~ msgstr "<h3>Припремање ПиСија...</h3>"
-
-#~ msgid "Time remaining:"
-#~ msgstr "Преостало време:"
-
-#~ msgid "--  / --"
-#~ msgstr "--  / --"
-
-#~ msgid "--:--:--"
-#~ msgstr "--:--:--"
-
-#~ msgid "Status:"
-#~ msgstr "Статус:"
-
-#~ msgid "Show Installed Packages"
-#~ msgstr "Прикажи инсталиране пакете"
-
-#~ msgid "File"
-#~ msgstr "Фајл"
-
-#, fuzzy
-#~ msgid "-- / --"
-#~ msgstr "--  / --"
-
-#, fuzzy
-#~ msgid ""
-#~ "Installed Packages\n"
-#~ "\n"
-#~ msgstr "Инсталирај пакет(е)"
-
-#, fuzzy
-#~ msgid "Modify Package(s)"
-#~ msgstr "Уклањање пакета"
-
-#, fuzzy
-#~ msgid "Upgradable Packages"
-#~ msgstr "Прикажи пакете који могу да се ажурирају"
-
-#~ msgid "Show main window"
-#~ msgstr "Прикажи главни прозор"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "Kurucity@aim.com"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Јожеф Куруцић"
-
-#~ msgid "First Author"
-#~ msgstr "Први аутор"
-
-#~ msgid "Faik Uygur"
-#~ msgstr "Фаик Ујгур"
-
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Гокман Гоксел"
-
-#~ msgid "Developer"
-#~ msgstr "Развијач"
-
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "(c) -2010 ТУБИТАК/УЕКАЕ"
+msgstr "Детаљи пакета"
