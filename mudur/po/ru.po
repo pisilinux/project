@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Klemens Häckel <click3d at linuxmail dot org>, 2009
 # Mustafa Ölcerman <m.oelcerman@pardus-linux.de>, 2007-2008
@@ -12,225 +12,247 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-06-22 08:50+0000\n"
+"POT-Creation-Date: 2014-02-23 11:26+0200\n"
 "PO-Revision-Date: 2013-01-04 22:00+0000\n"
 "Last-Translator: circass <erdincgultekin@gmail.com>\n"
-"Language-Team: Russian (http://www.transifex.com/projects/p/PiSiLinux/language/ru/)\n"
+"Language-Team: Russian (http://www.transifex.com/projects/p/PiSiLinux/"
+"language/ru/)\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: bin/mudur.py:307
+#: bin/mudur.py:322
 msgid "Cannot write mudur.log, read-only file system"
 msgstr "Невозможно записать mudur.log, файловой система только для чтения"
 
-#: bin/mudur.py:484
-msgid "Cannot find /etc/pardus-release"
+#: bin/mudur.py:499
+#, fuzzy
+msgid "Cannot find /etc/pisilinux-release"
 msgstr "Не могу найти /etc/pardus-release"
 
-#: bin/mudur.py:580
+#: bin/mudur.py:595
 msgid "/etc/env.d/03locale cannot be updated"
 msgstr "/etc/env.d/03locale не может быть обновлен"
 
-#: bin/mudur.py:606
+#: bin/mudur.py:621
 #, python-format
 msgid "Could not set unicode mode on tty %d"
 msgstr "Не удалось установить режим юникод на tty %d"
 
-#: bin/mudur.py:664
+#: bin/mudur.py:679
 msgid "Cannot connect to DBus, services won't be started"
 msgstr "Не удается подключиться к DBus, сервис не будет запущен"
 
-#: bin/mudur.py:680
+#: bin/mudur.py:695
 #, python-format
 msgid ""
 "Unable to start network:\n"
 "  %s"
-msgstr "Не удается запустить сеть:\n  %s"
+msgstr ""
+"Не удается запустить сеть:\n"
+"  %s"
 
-#: bin/mudur.py:685
+#: bin/mudur.py:700
 msgid "Cannot start system logger"
 msgstr "Не удается запустить службу журналирования системы"
 
-#: bin/mudur.py:691
+#: bin/mudur.py:706
 msgid "Starting services"
 msgstr "Запуск служб"
 
-#: bin/mudur.py:724
+#: bin/mudur.py:739
 msgid "Stopping services"
 msgstr "Остановка служб"
 
-#: bin/mudur.py:752 bin/service.py:161 bin/service.py:270
+#: bin/mudur.py:767 bin/service.py:161 bin/service.py:270
 #, python-format
 msgid "Starting %s"
 msgstr "Запуск %s"
 
-#: bin/mudur.py:763 bin/service.py:174 bin/service.py:282
+#: bin/mudur.py:780 bin/service.py:174 bin/service.py:282
 #, python-format
 msgid "Stopping %s"
 msgstr "Остановка %s"
 
-#: bin/mudur.py:804
+#: bin/mudur.py:821
 msgid "Can't move persistent udev rules from /dev/.udev"
 msgstr "Не могу установить правила udev из /dev/.udev"
 
-#: bin/mudur.py:816
+#: bin/mudur.py:836
 msgid "Starting udev"
 msgstr "Запуск udev"
 
-#: bin/mudur.py:830
+#: bin/mudur.py:850
 msgid "Populating /dev"
 msgstr "Запись /dev"
 
-#: bin/mudur.py:856
+#: bin/mudur.py:877
 msgid "Removing stale lock file /etc/mtab~"
 msgstr "Удаление устаревшего файла блокировки  /etc/mtab~"
 
-#: bin/mudur.py:859
+#: bin/mudur.py:880
 msgid "Failed removing stale lock file /etc/mtab~"
 msgstr "Не удалось удалить устаревший файл блокировки /etc/mtab~"
 
-#: bin/mudur.py:871
+#: bin/mudur.py:892
 msgid "/etc/fstab doesn't contain an entry for the root filesystem"
 msgstr "/etc/fstab не содержит записи для корневой файловой системы"
 
-#: bin/mudur.py:878
+#: bin/mudur.py:899
 msgid "Remounting root filesystem read-only"
 msgstr "Перемонтирование корневой файловой системы в режиме только для чтения"
 
-#: bin/mudur.py:883
+#: bin/mudur.py:904
 msgid "Checking root filesystem (full check forced)"
 msgstr "Проверка корневой файловой системы (полная проверка принудительно)"
 
-#: bin/mudur.py:889
+#: bin/mudur.py:910
 msgid "Checking root filesystem"
 msgstr "Проверка корневой файловой системы"
 
-#: bin/mudur.py:898
+#: bin/mudur.py:919
 msgid "Filesystem repaired, but reboot needed!"
 msgstr "Файловая система отремонтирована, но необходима перезагрузка!"
 
-#: bin/mudur.py:904
+#: bin/mudur.py:925
 msgid "Rebooting in 10 seconds..."
 msgstr "Перезагрузка через 10 секунд..."
 
-#: bin/mudur.py:906
+#: bin/mudur.py:927
 msgid "Rebooting..."
 msgstr "Перезагрузка..."
 
-#: bin/mudur.py:910
+#: bin/mudur.py:931
 msgid "Filesystem could not be repaired"
 msgstr "Файловая система не может быть восстановлена"
 
-#: bin/mudur.py:915
+#: bin/mudur.py:936
 msgid "Skipping root filesystem check (fstab's passno == 0)"
 msgstr "Пропуск проверки корневой файловой системы (fstab's passno == 0)"
 
-#: bin/mudur.py:923
+#: bin/mudur.py:944
 msgid "Remounting root filesystem read/write"
 msgstr "Перемонтирование корневой файловой системы для чтения/записи"
 
-#: bin/mudur.py:927
+#: bin/mudur.py:948
 msgid ""
 "Root filesystem could not be mounted read/write\n"
 "   You can either login below and manually check your filesytem(s) OR\n"
 "   restart your system, press F3 and select 'FS check' from boot menu\n"
-msgstr "Корневая файловая система не может быть смонтирована для чтения и записи\nВы можете войти ниже и вручную проверить файловую систему(ы) или\nперезагрузить систему, нажмите F3 и выберите 'FS check' из меню загрузки\n"
+msgstr ""
+"Корневая файловая система не может быть смонтирована для чтения и записи\n"
+"Вы можете войти ниже и вручную проверить файловую систему(ы) или\n"
+"перезагрузить систему, нажмите F3 и выберите 'FS check' из меню загрузки\n"
 
-#: bin/mudur.py:939
+#: bin/mudur.py:960
 msgid "Couldn't synchronize /etc/mtab from /proc/mounts"
 msgstr "Не удалось произвести синхронизацию /etc/mtab с /proc/mounts"
 
-#: bin/mudur.py:959
+#: bin/mudur.py:980
 msgid "Checking all filesystems"
 msgstr "Проверка всех файловых систем"
 
-#: bin/mudur.py:963
+#: bin/mudur.py:984
 msgid "A full fsck has been forced"
 msgstr "Полный FSCK был остановлен"
 
-#: bin/mudur.py:981
+#: bin/mudur.py:1002
 msgid "Filesystem errors corrected"
 msgstr "Ошибки файловой системы исправлены"
 
-#: bin/mudur.py:983
+#: bin/mudur.py:1004
 msgid "Fsck could not correct all errors, manual repair needed"
-msgstr "Fsck не может исправить все ошибки автоматически, нужно ручное исправление"
+msgstr ""
+"Fsck не может исправить все ошибки автоматически, нужно ручное исправление"
 
-#: bin/mudur.py:992
+#: bin/mudur.py:1013
 msgid "Mounting local filesystems"
 msgstr "Монтаж локальных файловых систем"
 
-#: bin/mudur.py:1000
+#: bin/mudur.py:1023
+msgid "Unmounting /run"
+msgstr ""
+
+#: bin/mudur.py:1034
 msgid "Mounting remote filesystems"
 msgstr "Монтирования удаленных файловых систем"
 
-#: bin/mudur.py:1046
+#: bin/mudur.py:1080
 #, python-format
 msgid "Setting up hostname as '%s'"
 msgstr "Настройка имени хоста '%s'"
 
-#: bin/mudur.py:1069
+#: bin/mudur.py:1103
 msgid "Setting disk parameters"
 msgstr "Настройка параметров диска"
 
-#: bin/mudur.py:1089
+#: bin/mudur.py:1123
 msgid "Activating swap space"
 msgstr "Активация подкачки"
 
-#: bin/mudur.py:1100
+#: bin/mudur.py:1134
 msgid "Deactivating swap space"
 msgstr "Отключение подкачки"
 
-#: bin/mudur.py:1110
-msgid "Cleaning up /var"
+#: bin/mudur.py:1144
+#, fuzzy
+msgid "Cleaning up /run"
 msgstr "Очистка /var"
 
-#: bin/mudur.py:1126
+#: bin/mudur.py:1160
 msgid "Cleaning up /tmp"
 msgstr "Очистка /tmp"
 
-#: bin/mudur.py:1163
+#: bin/mudur.py:1197
 msgid "Setting system clock to hardware clock"
 msgstr "Настройка системных часов"
 
-#: bin/mudur.py:1179
+#: bin/mudur.py:1213
 msgid "Failed to adjust systematic drift of the hardware clock"
 msgstr "Не удалось настроить систематическую отправку из аппаратных часов"
 
-#: bin/mudur.py:1184
+#: bin/mudur.py:1218
 msgid "Failed to set system clock to hardware clock"
 msgstr "Не удалось установить системные часы"
 
-#: bin/mudur.py:1195
+#: bin/mudur.py:1229
 msgid "Syncing system clock to hardware clock"
 msgstr "Синхронизация системного времени"
 
-#: bin/mudur.py:1198
+#: bin/mudur.py:1232
 msgid "Failed to synchronize clocks"
 msgstr "Ошибка синхронизации системного времени"
 
-#: bin/mudur.py:1252
+#: bin/mudur.py:1286
 msgid "Unmounting filesystems"
 msgstr "Отключение файловых систем"
 
-#: bin/mudur.py:1260
+#: bin/mudur.py:1294
 msgid "Remounting remaining filesystems read-only"
 msgstr "Перемонтирование остальных файловых систем только для чтения"
 
-#: bin/mudur.py:1276
+#: bin/mudur.py:1310
+#, fuzzy
 msgid ""
-"An internal error occured. Please report to the bugs.pardus.org.trwith "
+"An internal error occured. Please report to the bugs.pisilinux.orgwith "
 "following information:"
-msgstr "Произошла внутренняя ошибка. Пожалуйста сообщите по адресу bugs.pardus.org.tr следующую информацию:"
+msgstr ""
+"Произошла внутренняя ошибка. Пожалуйста сообщите по адресу bugs.pardus.org."
+"tr следующую информацию:"
 
-#: bin/mudur.py:1379
+#: bin/mudur.py:1406
+#, fuzzy
+msgid "Creating tmpfiles"
+msgstr "Очистка /tmp"
+
+#: bin/mudur.py:1423
 msgid "Setting up localhost"
 msgstr "Настройка localhost"
 
-#: bin/mudur.py:1392
+#: bin/mudur.py:1437
 msgid "Updating environment variables"
 msgstr "Обновление переменных среды"
 
@@ -346,7 +368,21 @@ msgid ""
 "and option is:\n"
 " -N, --no-color  Don't use color in output\n"
 " -q, --quiet     Don't print replies"
-msgstr "Использование: service [<параметры>] [<службы>] <command>\nwhere command is:\n list Display service list\n status Display service status\n info Display service status\n on Auto start the service\n off Don't auto start the service\n start Start the service\n stop Stop the service\n restart Stop the service, then start again\n reload Reload the configuration (if service supports this)\nand option is:\n -N, --no-color Don't use color in output\n -q, --quiet Don't print replies"
+msgstr ""
+"Использование: service [<параметры>] [<службы>] <command>\n"
+"where command is:\n"
+" list Display service list\n"
+" status Display service status\n"
+" info Display service status\n"
+" on Auto start the service\n"
+" off Don't auto start the service\n"
+" start Start the service\n"
+" stop Stop the service\n"
+" restart Stop the service, then start again\n"
+" reload Reload the configuration (if service supports this)\n"
+"and option is:\n"
+" -N, --no-color Don't use color in output\n"
+" -q, --quiet Don't print replies"
 
 #: bin/service.py:355
 #, python-format

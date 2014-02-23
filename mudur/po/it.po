@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Andrea Decorte <adecorte@gmail.com>, 2007
 # Davide Siciliano <edivad95@gmail.com>, 2010
@@ -10,225 +10,251 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-06-22 08:50+0000\n"
+"POT-Creation-Date: 2014-02-23 11:26+0200\n"
 "PO-Revision-Date: 2013-09-15 09:11+0000\n"
 "Last-Translator: ddave <ddave090@gmail.com>\n"
-"Language-Team: Italian (http://www.transifex.com/projects/p/PiSiLinux/language/it/)\n"
+"Language-Team: Italian (http://www.transifex.com/projects/p/PiSiLinux/"
+"language/it/)\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: bin/mudur.py:307
+#: bin/mudur.py:322
 msgid "Cannot write mudur.log, read-only file system"
 msgstr "Impossibile scrivere mudur.log, filesystem di sola lettura"
 
-#: bin/mudur.py:484
-msgid "Cannot find /etc/pardus-release"
+#: bin/mudur.py:499
+#, fuzzy
+msgid "Cannot find /etc/pisilinux-release"
 msgstr "Impossibile trovare il file /etc/pardus-release"
 
-#: bin/mudur.py:580
+#: bin/mudur.py:595
 msgid "/etc/env.d/03locale cannot be updated"
 msgstr "/etc/env.d/03locale non può essere aggiornato."
 
-#: bin/mudur.py:606
+#: bin/mudur.py:621
 #, python-format
 msgid "Could not set unicode mode on tty %d"
 msgstr "Impossibile impostare la modalità Unicode su tty %d"
 
-#: bin/mudur.py:664
+#: bin/mudur.py:679
 msgid "Cannot connect to DBus, services won't be started"
 msgstr "Impossibile collegarsi a DBUS, i servizi non verranno avviati"
 
-#: bin/mudur.py:680
+#: bin/mudur.py:695
 #, python-format
 msgid ""
 "Unable to start network:\n"
 "  %s"
-msgstr "Impossibile attivare rete:\n %s"
+msgstr ""
+"Impossibile attivare rete:\n"
+" %s"
 
-#: bin/mudur.py:685
+#: bin/mudur.py:700
 msgid "Cannot start system logger"
 msgstr "Impossibile avviare il logger di sistema"
 
-#: bin/mudur.py:691
+#: bin/mudur.py:706
 msgid "Starting services"
 msgstr "Avvio dei servizi"
 
-#: bin/mudur.py:724
+#: bin/mudur.py:739
 msgid "Stopping services"
 msgstr "Arresto dei servizi"
 
-#: bin/mudur.py:752 bin/service.py:161 bin/service.py:270
+#: bin/mudur.py:767 bin/service.py:161 bin/service.py:270
 #, python-format
 msgid "Starting %s"
 msgstr "Avvio di %s"
 
-#: bin/mudur.py:763 bin/service.py:174 bin/service.py:282
+#: bin/mudur.py:780 bin/service.py:174 bin/service.py:282
 #, python-format
 msgid "Stopping %s"
 msgstr "Arresto di %s"
 
-#: bin/mudur.py:804
+#: bin/mudur.py:821
 msgid "Can't move persistent udev rules from /dev/.udev"
 msgstr "Non è possibile spostare le regole di udev persistente da /dev/.udev"
 
-#: bin/mudur.py:816
+#: bin/mudur.py:836
 msgid "Starting udev"
 msgstr "Avvio di udev"
 
-#: bin/mudur.py:830
+#: bin/mudur.py:850
 msgid "Populating /dev"
 msgstr "Popolamento di /dev"
 
-#: bin/mudur.py:856
+#: bin/mudur.py:877
 msgid "Removing stale lock file /etc/mtab~"
 msgstr "Rimozione vecchio file di blocco /etc/mtab~"
 
-#: bin/mudur.py:859
+#: bin/mudur.py:880
 msgid "Failed removing stale lock file /etc/mtab~"
 msgstr "Impossibile eliminare file obsoleti di blocco /etc/mtab~"
 
-#: bin/mudur.py:871
+#: bin/mudur.py:892
 msgid "/etc/fstab doesn't contain an entry for the root filesystem"
 msgstr "/etc/fstab non contiene una voce riguardante il filesystem di root"
 
-#: bin/mudur.py:878
+#: bin/mudur.py:899
 msgid "Remounting root filesystem read-only"
 msgstr "Rimontaggio del filesystem di root in sola lettura"
 
-#: bin/mudur.py:883
+#: bin/mudur.py:904
 msgid "Checking root filesystem (full check forced)"
 msgstr "Controllo del filesystem di root (controllo completo forzato)"
 
-#: bin/mudur.py:889
+#: bin/mudur.py:910
 msgid "Checking root filesystem"
 msgstr "Controllo del filesystem di root"
 
-#: bin/mudur.py:898
+#: bin/mudur.py:919
 msgid "Filesystem repaired, but reboot needed!"
 msgstr "Filesystem riparato, ma è necessario riavviare!"
 
-#: bin/mudur.py:904
+#: bin/mudur.py:925
 msgid "Rebooting in 10 seconds..."
 msgstr "Riavvio in 10 secondi..."
 
-#: bin/mudur.py:906
+#: bin/mudur.py:927
 msgid "Rebooting..."
 msgstr "Riavvio in corso..."
 
-#: bin/mudur.py:910
+#: bin/mudur.py:931
 msgid "Filesystem could not be repaired"
 msgstr "Impossibile riparare il filesystem"
 
-#: bin/mudur.py:915
+#: bin/mudur.py:936
 msgid "Skipping root filesystem check (fstab's passno == 0)"
 msgstr "Controllo del filesystem di root saltato (fstab's passno == 0)"
 
-#: bin/mudur.py:923
+#: bin/mudur.py:944
 msgid "Remounting root filesystem read/write"
 msgstr "Rimontaggio del filesystem di root in lettura/scrittura"
 
-#: bin/mudur.py:927
+#: bin/mudur.py:948
 msgid ""
 "Root filesystem could not be mounted read/write\n"
 "   You can either login below and manually check your filesytem(s) OR\n"
 "   restart your system, press F3 and select 'FS check' from boot menu\n"
-msgstr "Il filesystem di root non può essere montato in lettura e scrittura\n  Puoi comunque loggarti qui sotto e controllare manualmente il filesystem,\n  oppure riavviare, premere F3 e selezionare 'Controllo Filesystem' dal menu di boot\n"
+msgstr ""
+"Il filesystem di root non può essere montato in lettura e scrittura\n"
+"  Puoi comunque loggarti qui sotto e controllare manualmente il filesystem,\n"
+"  oppure riavviare, premere F3 e selezionare 'Controllo Filesystem' dal menu "
+"di boot\n"
 
-#: bin/mudur.py:939
+#: bin/mudur.py:960
 msgid "Couldn't synchronize /etc/mtab from /proc/mounts"
 msgstr "Impossibile sincronizzare i file /etc/mtab da /proc/mounts"
 
-#: bin/mudur.py:959
+#: bin/mudur.py:980
 msgid "Checking all filesystems"
 msgstr "Controllo di tutti i filesystem"
 
-#: bin/mudur.py:963
+#: bin/mudur.py:984
 msgid "A full fsck has been forced"
 msgstr "Controllo forzato file system impostato"
 
-#: bin/mudur.py:981
+#: bin/mudur.py:1002
 msgid "Filesystem errors corrected"
 msgstr "Errori del filesystem corretti"
 
-#: bin/mudur.py:983
+#: bin/mudur.py:1004
 msgid "Fsck could not correct all errors, manual repair needed"
-msgstr "Fsck non è riuscito a correggere tutti gli errori, è necessaria una riparazione manuale"
+msgstr ""
+"Fsck non è riuscito a correggere tutti gli errori, è necessaria una "
+"riparazione manuale"
 
-#: bin/mudur.py:992
+#: bin/mudur.py:1013
 msgid "Mounting local filesystems"
 msgstr "Montaggio dei filesystem locali"
 
-#: bin/mudur.py:1000
+#: bin/mudur.py:1023
+msgid "Unmounting /run"
+msgstr ""
+
+#: bin/mudur.py:1034
 msgid "Mounting remote filesystems"
 msgstr "Montaggio dei filesystem remoti"
 
-#: bin/mudur.py:1046
+#: bin/mudur.py:1080
 #, python-format
 msgid "Setting up hostname as '%s'"
 msgstr "Impostazione del nome dell'host a '%s'"
 
-#: bin/mudur.py:1069
+#: bin/mudur.py:1103
 msgid "Setting disk parameters"
 msgstr "Impostazione dei parametri del disco"
 
-#: bin/mudur.py:1089
+#: bin/mudur.py:1123
 msgid "Activating swap space"
 msgstr "Attivazione swap"
 
-#: bin/mudur.py:1100
+#: bin/mudur.py:1134
 msgid "Deactivating swap space"
 msgstr "Disattivazione swap"
 
-#: bin/mudur.py:1110
-msgid "Cleaning up /var"
+#: bin/mudur.py:1144
+#, fuzzy
+msgid "Cleaning up /run"
 msgstr "Svuotamento di /var"
 
-#: bin/mudur.py:1126
+#: bin/mudur.py:1160
 msgid "Cleaning up /tmp"
 msgstr "Svuotamento di /tmp"
 
-#: bin/mudur.py:1163
+#: bin/mudur.py:1197
 msgid "Setting system clock to hardware clock"
 msgstr "Impostazione dell'orologio di sistema al valore dell'orologio hardware"
 
-#: bin/mudur.py:1179
+#: bin/mudur.py:1213
 msgid "Failed to adjust systematic drift of the hardware clock"
-msgstr "Correzione dello scostamento automatico  dell'orologio hardware fallita"
+msgstr ""
+"Correzione dello scostamento automatico  dell'orologio hardware fallita"
 
-#: bin/mudur.py:1184
+#: bin/mudur.py:1218
 msgid "Failed to set system clock to hardware clock"
-msgstr "Impossibile impostare l'orologio di sistema al valore dell'orologio hardware"
+msgstr ""
+"Impossibile impostare l'orologio di sistema al valore dell'orologio hardware"
 
-#: bin/mudur.py:1195
+#: bin/mudur.py:1229
 msgid "Syncing system clock to hardware clock"
-msgstr "Sincronizzazione dell'orologio di sistema al valore dell'orologio hardware"
+msgstr ""
+"Sincronizzazione dell'orologio di sistema al valore dell'orologio hardware"
 
-#: bin/mudur.py:1198
+#: bin/mudur.py:1232
 msgid "Failed to synchronize clocks"
 msgstr "Errore nella sincronizzazione degli orologi"
 
-#: bin/mudur.py:1252
+#: bin/mudur.py:1286
 msgid "Unmounting filesystems"
 msgstr "Smontaggio dei filesystem"
 
-#: bin/mudur.py:1260
+#: bin/mudur.py:1294
 msgid "Remounting remaining filesystems read-only"
 msgstr "Rimontaggio dei filesystem rimanenti in sola lettura"
 
-#: bin/mudur.py:1276
+#: bin/mudur.py:1310
+#, fuzzy
 msgid ""
-"An internal error occured. Please report to the bugs.pardus.org.trwith "
+"An internal error occured. Please report to the bugs.pisilinux.orgwith "
 "following information:"
-msgstr "C'è stato un errore interno. Segnala per piacere un bug su bugs.pardus.org.tr fornendo le seguenti informazioni:"
+msgstr ""
+"C'è stato un errore interno. Segnala per piacere un bug su bugs.pardus.org."
+"tr fornendo le seguenti informazioni:"
 
-#: bin/mudur.py:1379
+#: bin/mudur.py:1406
+#, fuzzy
+msgid "Creating tmpfiles"
+msgstr "Svuotamento di /tmp"
+
+#: bin/mudur.py:1423
 msgid "Setting up localhost"
 msgstr "Impostazione localhost"
 
-#: bin/mudur.py:1392
+#: bin/mudur.py:1437
 msgid "Updating environment variables"
 msgstr "Aggiornamento delle variabili di sistema"
 
@@ -344,7 +370,22 @@ msgid ""
 "and option is:\n"
 " -N, --no-color  Don't use color in output\n"
 " -q, --quiet     Don't print replies"
-msgstr "utilizzo: servizio [<opzioni>] [<servizio>] <comando>\ndove comando è:\n list     Mostra la lista dei servizi\n status   Mostra lo stato dei servizi\n info     Mostra lo stato dei servizi\n on       Attiva avvio automatico del servizio\n off      Disattiva avvio automatico del servizio\n start    Avvia il servizio\n stop     Ferma il servizio\n restart  Ferma il servizio, poi lo avvia nuovamente\n reload   Ricarica la configurazione (se il servizio supporta questa funzione)\ne le opzioni sono:\n -N, --no-color  Non utilizzare colori in output  -q, --quiet Non mostrare avvisi"
+msgstr ""
+"utilizzo: servizio [<opzioni>] [<servizio>] <comando>\n"
+"dove comando è:\n"
+" list     Mostra la lista dei servizi\n"
+" status   Mostra lo stato dei servizi\n"
+" info     Mostra lo stato dei servizi\n"
+" on       Attiva avvio automatico del servizio\n"
+" off      Disattiva avvio automatico del servizio\n"
+" start    Avvia il servizio\n"
+" stop     Ferma il servizio\n"
+" restart  Ferma il servizio, poi lo avvia nuovamente\n"
+" reload   Ricarica la configurazione (se il servizio supporta questa "
+"funzione)\n"
+"e le opzioni sono:\n"
+" -N, --no-color  Non utilizzare colori in output  -q, --quiet Non mostrare "
+"avvisi"
 
 #: bin/service.py:355
 #, python-format
