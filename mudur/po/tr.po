@@ -1,26 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Ayhan YALÇINSOY <ayhanyalcinsoy@gmail.com>, 2010
 # Görkem Çetin <gorkem@pardus.org.tr>, 2006
 # mozen <inactive+mozen@transifex.com>, 2013
 # Necmettin Begiter <necmettin.begiter@gmail.com>, 2009
 # Ozan Çağlayan <ozan@pardus.org.tr>, 2008
+# obsoleteman <tulliana@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-23 11:26+0200\n"
-"PO-Revision-Date: 2013-04-02 23:15+0000\n"
-"Last-Translator: mozen <inactive+mozen@transifex.com>\n"
-"Language-Team: Turkish (http://www.transifex.com/projects/p/PiSiLinux/"
-"language/tr/)\n"
-"Language: tr\n"
+"PO-Revision-Date: 2014-02-23 09:27+0000\n"
+"Last-Translator: obsoleteman <tulliana@gmail.com>\n"
+"Language-Team: Turkish (http://www.transifex.com/projects/p/PiSiLinux/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: bin/mudur.py:322
@@ -28,9 +28,8 @@ msgid "Cannot write mudur.log, read-only file system"
 msgstr "mudur.log yazılamıyor, dosya sistemi salt okunur"
 
 #: bin/mudur.py:499
-#, fuzzy
 msgid "Cannot find /etc/pisilinux-release"
-msgstr "/etc/pardus-release dosyası bulunamadı"
+msgstr "/etc/pisilinux-release bulunamadı"
 
 #: bin/mudur.py:595
 msgid "/etc/env.d/03locale cannot be updated"
@@ -50,9 +49,7 @@ msgstr "DBus'a bağlanılamadı, servisler başlatılmayacak"
 msgid ""
 "Unable to start network:\n"
 "  %s"
-msgstr ""
-"Ağ hizmeti başlatılamadı:\n"
-"  %s"
+msgstr "Ağ hizmeti başlatılamadı:\n  %s"
 
 #: bin/mudur.py:700
 msgid "Cannot start system logger"
@@ -141,12 +138,7 @@ msgid ""
 "Root filesystem could not be mounted read/write\n"
 "   You can either login below and manually check your filesytem(s) OR\n"
 "   restart your system, press F3 and select 'FS check' from boot menu\n"
-msgstr ""
-"Kök dosya sistemi yazılır/okunur olarak bağlanamadı\n"
-"   Sisteme giriş yapıp el ile dosya sistemlerinizi denetleyebilir VEYA\n"
-"   bilgisayarınızı baştan başlatıp, açılış menüsünde F3'e basıp 'Diski "
-"onar'\n"
-"   seçeneğini kullanabilirsiniz\n"
+msgstr "Kök dosya sistemi yazılır/okunur olarak bağlanamadı\n   Sisteme giriş yapıp el ile dosya sistemlerinizi denetleyebilir VEYA\n   bilgisayarınızı baştan başlatıp, açılış menüsünde F3'e basıp 'Diski onar'\n   seçeneğini kullanabilirsiniz\n"
 
 #: bin/mudur.py:960
 msgid "Couldn't synchronize /etc/mtab from /proc/mounts"
@@ -166,8 +158,7 @@ msgstr "Dosya sistemindeki hatalar düzeltildi"
 
 #: bin/mudur.py:1004
 msgid "Fsck could not correct all errors, manual repair needed"
-msgstr ""
-"Fsck tüm hataları düzeltemedi. Düzeltme işleminin elle yapılması gerekiyor"
+msgstr "Fsck tüm hataları düzeltemedi. Düzeltme işleminin elle yapılması gerekiyor"
 
 #: bin/mudur.py:1013
 msgid "Mounting local filesystems"
@@ -175,7 +166,7 @@ msgstr "Yerel dosya sistemleri bağlanıyor"
 
 #: bin/mudur.py:1023
 msgid "Unmounting /run"
-msgstr ""
+msgstr "/run dizini ayrılıyor"
 
 #: bin/mudur.py:1034
 msgid "Mounting remote filesystems"
@@ -199,9 +190,8 @@ msgid "Deactivating swap space"
 msgstr "Takas alanı kapatılıyor"
 
 #: bin/mudur.py:1144
-#, fuzzy
 msgid "Cleaning up /run"
-msgstr "/var dizini temizleniyor"
+msgstr "/run dizini temizleniyor"
 
 #: bin/mudur.py:1160
 msgid "Cleaning up /tmp"
@@ -236,18 +226,14 @@ msgid "Remounting remaining filesystems read-only"
 msgstr "Kalan dosya sistemleri salt okunur olarak yeniden bağlanıyor"
 
 #: bin/mudur.py:1310
-#, fuzzy
 msgid ""
 "An internal error occured. Please report to the bugs.pisilinux.orgwith "
 "following information:"
-msgstr ""
-"Bir iç hata oluştu. Lütfen aşağıdaki bilgileri http://bugs.pisilinux.org "
-"adresine bildirin:"
+msgstr "Bir iç hata oluştu. Lütfen  bugs.pisilinux.org adresine aşağıdaki bilgileri içeren bir hata bildirin:"
 
 #: bin/mudur.py:1406
-#, fuzzy
 msgid "Creating tmpfiles"
-msgstr "/tmp dizini temizleniyor"
+msgstr "Tmpfiles oluşturuluyor"
 
 #: bin/mudur.py:1423
 msgid "Setting up localhost"
@@ -369,21 +355,7 @@ msgid ""
 "and option is:\n"
 " -N, --no-color  Don't use color in output\n"
 " -q, --quiet     Don't print replies"
-msgstr ""
-"kullanım: service [<seçenek>] [<servis adı>] <komut>\n"
-"komut aşağıdakilerden birisi olabilir:\n"
-" list    Servis listesini göster\n"
-" status  Servis durumunu göster\n"
-" info    Servis durumunu göster\n"
-" on      Servisi açılışta otomatik başlat\n"
-" off     Servisi açılışta başlatma\n"
-" start   Servisi başlat\n"
-" stop    Servisi durdur\n"
-" restart Servisi durdur, sonra yeniden başlat\n"
-" reload  Servis yapılandırmasını yeniden yükle (eğer destekleniyorsa)\n"
-"seçenekler ise şunlardır:\n"
-" -N, --no-color  Çıktıda renk kullanma\n"
-" -q, --quiet     Çıktıları ekrana basma"
+msgstr "kullanım: service [<seçenek>] [<servis adı>] <komut>\nkomut aşağıdakilerden birisi olabilir:\n list    Servis listesini göster\n status  Servis durumunu göster\n info    Servis durumunu göster\n on      Servisi açılışta otomatik başlat\n off     Servisi açılışta başlatma\n start   Servisi başlat\n stop    Servisi durdur\n restart Servisi durdur, sonra yeniden başlat\n reload  Servis yapılandırmasını yeniden yükle (eğer destekleniyorsa)\nseçenekler ise şunlardır:\n -N, --no-color  Çıktıda renk kullanma\n -q, --quiet     Çıktıları ekrana basma"
 
 #: bin/service.py:355
 #, python-format
