@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2008-05-05 11:36+EEST\n"
+"POT-Creation-Date: 2014-02-23 11:20+EET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,23 +32,23 @@ msgid "English"
 msgstr ""
 
 #: pardus/localedata.py:62
-msgid "Afrikaans"
+msgid "English GB"
 msgstr ""
 
 #: pardus/localedata.py:68
-msgid "Arabic"
+msgid "Afrikaans"
 msgstr ""
 
 #: pardus/localedata.py:74
-msgid "Belgium"
+msgid "Arabic"
 msgstr ""
 
 #: pardus/localedata.py:80
-msgid "Bulgarian"
+msgid "Belgium"
 msgstr ""
 
 #: pardus/localedata.py:86
-msgid "Brazilian"
+msgid "Bulgarian"
 msgstr ""
 
 #: pardus/localedata.py:92
@@ -136,30 +136,34 @@ msgid "Portuguese"
 msgstr ""
 
 #: pardus/localedata.py:218
-msgid "Russian"
+msgid "Brazilian"
 msgstr ""
 
 #: pardus/localedata.py:224
-msgid "Slovak"
+msgid "Russian"
 msgstr ""
 
 #: pardus/localedata.py:230
-msgid "Slovenian"
+msgid "Slovak"
 msgstr ""
 
 #: pardus/localedata.py:236
-msgid "Serbian"
+msgid "Slovenian"
 msgstr ""
 
 #: pardus/localedata.py:242
-msgid "Swedish"
+msgid "Serbian"
 msgstr ""
 
 #: pardus/localedata.py:248
+msgid "Swedish"
+msgstr ""
+
+#: pardus/localedata.py:255
 msgid "Ukrainian"
 msgstr ""
 
-#: pardus/localedata.py:254
+#: pardus/localedata.py:261
 msgid "Vietnamese"
 msgstr ""
 

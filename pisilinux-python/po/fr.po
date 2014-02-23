@@ -10,10 +10,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-05-05 11:29+EEST\n"
+"POT-Creation-Date: 2014-02-23 11:20+EET\n"
 "PO-Revision-Date: 2007-10-19 22:35+0200\n"
 "Last-Translator: Amine Chadly <amine.chadly@gmail.com>\n"
 "Language-Team: French <pardus-translators@liste.pardus.org.tr>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,24 +37,25 @@ msgid "English"
 msgstr "Anglais"
 
 #: pardus/localedata.py:62
+#, fuzzy
+msgid "English GB"
+msgstr "Anglais"
+
+#: pardus/localedata.py:68
 msgid "Afrikaans"
 msgstr "Afrikaans"
 
-#: pardus/localedata.py:68
+#: pardus/localedata.py:74
 msgid "Arabic"
 msgstr "Arabe"
 
-#: pardus/localedata.py:74
+#: pardus/localedata.py:80
 msgid "Belgium"
 msgstr "Belge"
 
-#: pardus/localedata.py:80
+#: pardus/localedata.py:86
 msgid "Bulgarian"
 msgstr "Bulgare"
-
-#: pardus/localedata.py:86
-msgid "Brazilian"
-msgstr "Brésilien"
 
 #: pardus/localedata.py:92
 msgid "Catalan"
@@ -140,29 +142,33 @@ msgid "Portuguese"
 msgstr "Portugais"
 
 #: pardus/localedata.py:218
+msgid "Brazilian"
+msgstr "Brésilien"
+
+#: pardus/localedata.py:224
 msgid "Russian"
 msgstr "Russe"
 
-#: pardus/localedata.py:224
+#: pardus/localedata.py:230
 msgid "Slovak"
 msgstr "Slovaque"
 
-#: pardus/localedata.py:230
+#: pardus/localedata.py:236
 msgid "Slovenian"
 msgstr "Slovène"
 
-#: pardus/localedata.py:236
+#: pardus/localedata.py:242
 msgid "Serbian"
 msgstr "Serbe"
 
-#: pardus/localedata.py:242
+#: pardus/localedata.py:248
 msgid "Swedish"
 msgstr "Suédois"
 
-#: pardus/localedata.py:248
+#: pardus/localedata.py:255
 msgid "Ukrainian"
 msgstr "Ukrainien"
 
-#: pardus/localedata.py:254
+#: pardus/localedata.py:261
 msgid "Vietnamese"
 msgstr "Vietnamien"
