@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # circass <erdincgultekin@gmail.com>, 2013
 # tribunal <tribunal2000@mail.ru>, 2013
@@ -9,15 +9,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-06 12:02+0200\n"
+"POT-Creation-Date: 2014-02-23 11:04+0200\n"
 "PO-Revision-Date: 2013-10-31 09:57+0000\n"
 "Last-Translator: tribunal <tribunal2000@mail.ru>\n"
-"Language-Team: Russian (http://www.transifex.com/projects/p/PiSiLinux/language/ru/)\n"
+"Language-Team: Russian (http://www.transifex.com/projects/p/PiSiLinux/"
+"language/ru/)\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: panda.cpp:57
 msgid "Current Driver Information"
@@ -47,11 +49,13 @@ msgstr "Использовать драйвер, который разработ
 msgid "Use the proprietary driver provided by the manufacturer"
 msgstr "Использовать проприетарный драйвер, предоставляемый производителем"
 
-#: panda.cpp:123
+#: panda.cpp:122
 msgid "Use the safe driver that provides limited features"
-msgstr "Использовать безопасный драйвер, который предоставляет ограниченные возможности"
+msgstr ""
+"Использовать безопасный драйвер, который предоставляет ограниченные "
+"возможности"
 
-#: panda.cpp:138 rc.cpp:2 rc.cpp:2
+#: panda.cpp:138 rc.cpp:2
 msgid "Video Driver Administration"
 msgstr "Управление видеодрайвером"
 
@@ -61,10 +65,11 @@ msgstr "(c) 2011 Fatih Arslan"
 
 #: panda.cpp:148
 msgid ""
-"Please use <a "
-"href=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</a> to report "
-"bugs.\n"
-msgstr "Пожалуйста, используйте <a href=\"http://bugs.pisilinux.org\">http://bugs.pisilinux.org</a> чтобы сообщать об ошибках.\n"
+"Please use <a href=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</"
+"a> to report bugs.\n"
+msgstr ""
+"Пожалуйста, используйте <a href=\"http://bugs.pisilinux.org\">http://bugs."
+"pisilinux.org</a> чтобы сообщать об ошибках.\n"
 
 #: panda.cpp:150
 msgid "Fatih Arslan"
@@ -84,28 +89,30 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "Ваши письма"
 
-#: panda.cpp:198
+#: panda.cpp:226
 msgid "Unable to apply settings due to missing packages"
 msgstr "Невозможно применить настройки из-за отсутствующих пакетов"
 
-#: panda.cpp:215
+#: panda.cpp:244
 msgid "Unable to authenticate/execute the action: %1, %2"
 msgstr "Не удалось идентифицироваться/выполнить действие: %1, %2"
 
-#: panda.cpp:217
+#: panda.cpp:246
 msgid "An internal error occurred"
 msgstr "Произошла внутренняя ошибка"
 
-#: panda.cpp:225
+#: panda.cpp:254
 msgid ""
 "You have to restart your system for the changes to take affect.\n"
 "Do you want to restart now?"
-msgstr "Вы должны перезагрузить компьютер, чтобы изменения вступили в силу.\nВы хотите перезагрузить сейчас?"
+msgstr ""
+"Вы должны перезагрузить компьютер, чтобы изменения вступили в силу.\n"
+"Вы хотите перезагрузить сейчас?"
 
-#: rc.cpp:1 rc.cpp:1
+#: rc.cpp:1
 msgid "Video Driver"
 msgstr "Видеодрайвер"
 
-#: rc.cpp:3 rc.cpp:3
+#: rc.cpp:3
 msgid "video,driver,graphics,display"
 msgstr "видео,драйвер,графика,дисплей"
