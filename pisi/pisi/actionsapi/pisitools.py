@@ -224,7 +224,6 @@ def dosed(sources, findPattern, replacePattern = '', filePattern = '', deleteLin
     if len(sourceFiles) == 0:
         raise FileError(_('No such file matching pattern: "%s". \'dosed\' operation failed.') % filePattern if filePattern else sources)
 
-    print("dosed tries to change:\n  %s" % "\n  ".join(sourceFiles))
     for sourceFile in sourceFiles:
         if can_access_file(sourceFile):
             backupFile = "%s%s" % (sourceFile, backupExtension)
@@ -238,6 +237,7 @@ def dosed(sources, findPattern, replacePattern = '', filePattern = '', deleteLin
                 # shallow=False tells cmp() to look file content.
                 if filecmp.cmp(sourceFile, backupFile, shallow=False):
                     ctx.ui.warning(_('dosed method has not changed file \'%s\'.') % sourceFile)
+                else: ctx.ui.info("%s has been changed by dosed method." % sourceFile, verbose=True)
                 os.unlink(backupFile)
         else:
             raise FileError(_('File does not exist or permission denied: %s') % sourceFile)

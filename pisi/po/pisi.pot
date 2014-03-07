@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-26 18:33+0200\n"
+"POT-Creation-Date: 2011-06-17 14:30+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,34 +62,34 @@ msgstr ""
 msgid "option %s: invalid choice: %r (choose from %s)"
 msgstr ""
 
-#: /usr/lib/python2.7/optparse.py:1250
+#: /usr/lib/python2.7/optparse.py:1245
 msgid "show this help message and exit"
 msgstr ""
 
-#: /usr/lib/python2.7/optparse.py:1255
+#: /usr/lib/python2.7/optparse.py:1250
 msgid "show program's version number and exit"
 msgstr ""
 
-#: /usr/lib/python2.7/optparse.py:1278
+#: /usr/lib/python2.7/optparse.py:1273
 msgid "%prog [options]"
 msgstr ""
 
-#: /usr/lib/python2.7/optparse.py:1498 /usr/lib/python2.7/optparse.py:1537
+#: /usr/lib/python2.7/optparse.py:1493 /usr/lib/python2.7/optparse.py:1532
 #, python-format
 msgid "%s option requires an argument"
 msgstr ""
 
-#: /usr/lib/python2.7/optparse.py:1500 /usr/lib/python2.7/optparse.py:1539
+#: /usr/lib/python2.7/optparse.py:1495 /usr/lib/python2.7/optparse.py:1534
 #, python-format
 msgid "%s option requires %d arguments"
 msgstr ""
 
-#: /usr/lib/python2.7/optparse.py:1509
+#: /usr/lib/python2.7/optparse.py:1504
 #, python-format
 msgid "%s option does not take a value"
 msgstr ""
 
-#: /usr/lib/python2.7/optparse.py:1626
+#: /usr/lib/python2.7/optparse.py:1621
 msgid "Options"
 msgstr ""
 
@@ -129,32 +129,32 @@ msgstr ""
 msgid "PiSi package"
 msgstr ""
 
-#: pisi/actionsapi/autotools.py:40 pisi/actionsapi/cmaketools.py:36
+#: pisi/actionsapi/autotools.py:36 pisi/actionsapi/cmaketools.py:36
 #, python-format
 msgid ""
 "Please attach the config.log to your bug report:\n"
 "%s/config.log"
 msgstr ""
 
-#: pisi/actionsapi/autotools.py:84 pisi/actionsapi/autotools.py:94
+#: pisi/actionsapi/autotools.py:77 pisi/actionsapi/autotools.py:87
 #: pisi/actionsapi/cmaketools.py:66 pisi/actionsapi/kde.py:65
-#: pisi/actionsapi/perlmodules.py:55 pisi/actionsapi/perlmodules.py:58
+#: pisi/actionsapi/perlmodules.py:54 pisi/actionsapi/perlmodules.py:57
 msgid "Configure failed."
 msgstr ""
 
-#: pisi/actionsapi/autotools.py:86 pisi/actionsapi/autotools.py:96
+#: pisi/actionsapi/autotools.py:79 pisi/actionsapi/autotools.py:89
 #: pisi/actionsapi/kde.py:67
 msgid "No configure script found."
 msgstr ""
 
-#: pisi/actionsapi/autotools.py:104 pisi/actionsapi/cmaketools.py:78
-#: pisi/actionsapi/kde.py:72 pisi/actionsapi/perlmodules.py:64
-#: pisi/actionsapi/perlmodules.py:73 pisi/actionsapi/pythonmodules.py:62
+#: pisi/actionsapi/autotools.py:97 pisi/actionsapi/cmaketools.py:78
+#: pisi/actionsapi/kde.py:72 pisi/actionsapi/perlmodules.py:63
+#: pisi/actionsapi/perlmodules.py:72 pisi/actionsapi/pythonmodules.py:62
 #: pisi/actionsapi/scons.py:39
 msgid "Make failed."
 msgstr ""
 
-#: pisi/actionsapi/autotools.py:140 pisi/actionsapi/autotools.py:151
+#: pisi/actionsapi/autotools.py:126 pisi/actionsapi/autotools.py:134
 #: pisi/actionsapi/cmaketools.py:98 pisi/actionsapi/cmaketools.py:106
 #: pisi/actionsapi/kde.py:79 pisi/actionsapi/pythonmodules.py:67
 #: pisi/actionsapi/rubymodules.py:92 pisi/actionsapi/rubymodules.py:99
@@ -162,23 +162,23 @@ msgstr ""
 msgid "Install failed."
 msgstr ""
 
-#: pisi/actionsapi/autotools.py:162
+#: pisi/actionsapi/autotools.py:141
 msgid "Running aclocal failed."
 msgstr ""
 
-#: pisi/actionsapi/autotools.py:167
+#: pisi/actionsapi/autotools.py:146
 msgid "Running autoconf failed."
 msgstr ""
 
-#: pisi/actionsapi/autotools.py:172
+#: pisi/actionsapi/autotools.py:151
 msgid "Running autoreconf failed."
 msgstr ""
 
-#: pisi/actionsapi/autotools.py:177
+#: pisi/actionsapi/autotools.py:156
 msgid "Running automake failed."
 msgstr ""
 
-#: pisi/actionsapi/autotools.py:182
+#: pisi/actionsapi/autotools.py:161
 msgid "Running autoheader failed."
 msgstr ""
 
@@ -190,12 +190,12 @@ msgstr ""
 msgid "No Makefile found."
 msgstr ""
 
-#: pisi/actionsapi/get.py:181
+#: pisi/actionsapi/get.py:178
 #, python-format
 msgid "Util %s cannot be found"
 msgstr ""
 
-#: pisi/actionsapi/get.py:183
+#: pisi/actionsapi/get.py:180
 #, python-format
 msgid "Warning: %s does not exist, using plain name %s"
 msgstr ""
@@ -225,11 +225,11 @@ msgstr ""
 msgid "Running libtoolize failed."
 msgstr ""
 
-#: pisi/actionsapi/perlmodules.py:67
+#: pisi/actionsapi/perlmodules.py:66
 msgid "perl build failed."
 msgstr ""
 
-#: pisi/actionsapi/perlmodules.py:76
+#: pisi/actionsapi/perlmodules.py:75
 msgid "perl install failed."
 msgstr ""
 
@@ -253,37 +253,37 @@ msgstr ""
 msgid "ActionsAPI [rename]: %s: %s"
 msgstr ""
 
-#: pisi/actionsapi/pisitools.py:225
+#: pisi/actionsapi/pisitools.py:203
 #, python-format
 msgid "No such file matching pattern: \"%s\". 'dosed' operation failed."
 msgstr ""
 
-#: pisi/actionsapi/pisitools.py:240
+#: pisi/actionsapi/pisitools.py:216
 #, python-format
 msgid "dosed method has not changed file '%s'."
 msgstr ""
 
-#: pisi/actionsapi/pisitools.py:243
+#: pisi/actionsapi/pisitools.py:219
 #, python-format
 msgid "File does not exist or permission denied: %s"
 msgstr ""
 
-#: pisi/actionsapi/pisitools.py:260
+#: pisi/actionsapi/pisitools.py:236
 #, python-format
 msgid "ActionsAPI [dosym]: File already exists: %s"
 msgstr ""
 
-#: pisi/actionsapi/pisitools.py:269 pisi/actionsapi/pisitoolsfunctions.py:71
+#: pisi/actionsapi/pisitools.py:245 pisi/actionsapi/pisitoolsfunctions.py:71
 #, python-format
 msgid "No file matched pattern \"%s\"."
 msgstr ""
 
-#: pisi/actionsapi/pisitools.py:296 pisi/actionsapi/shelltools.py:97
+#: pisi/actionsapi/pisitools.py:272 pisi/actionsapi/shelltools.py:97
 #, python-format
 msgid "No file matched pattern \"%s\". Remove operation failed."
 msgstr ""
 
-#: pisi/actionsapi/pisitools.py:305
+#: pisi/actionsapi/pisitools.py:281
 #, python-format
 msgid "No directory matched pattern \"%s\". Remove directory operation failed."
 msgstr ""
@@ -663,7 +663,7 @@ msgstr ""
 msgid "OK."
 msgstr ""
 
-#: pisi/archive.py:512
+#: pisi/archive.py:422
 #, python-format
 msgid "Problem occured while uncompressing %s.Z file"
 msgstr ""
@@ -692,7 +692,7 @@ msgstr ""
 msgid "Installing %s, version %s, release %s"
 msgstr ""
 
-#: pisi/atomicoperations.py:192 pisi/operations/build.py:788
+#: pisi/atomicoperations.py:192 pisi/operations/build.py:765
 #, python-format
 msgid "%s-%s is not a valid PiSi version format"
 msgstr ""
@@ -2358,34 +2358,29 @@ msgstr ""
 msgid "Unknown package operation"
 msgstr ""
 
-#: pisi/index.py:99
-#, python-format
-msgid "Sorting: %s "
-msgstr ""
-
-#: pisi/index.py:186
+#: pisi/index.py:176
 #, python-format
 msgid "Adding package to index: %s"
 msgstr ""
 
-#: pisi/index.py:202
+#: pisi/index.py:192
 #, python-format
 msgid "Package %s: metadata corrupt, skipping..."
 msgstr ""
 
-#: pisi/index.py:247
+#: pisi/index.py:237
 msgid "Adding groups.xml to index"
 msgstr ""
 
-#: pisi/index.py:253
+#: pisi/index.py:243
 msgid "Adding components.xml to index"
 msgstr ""
 
-#: pisi/index.py:263
+#: pisi/index.py:253
 msgid "Adding distribution.xml to index"
 msgstr ""
 
-#: pisi/index.py:284
+#: pisi/index.py:274
 #, python-format
 msgid "Adding %s to source index"
 msgstr ""
@@ -2448,202 +2443,202 @@ msgstr ""
 msgid "Rebuilding for %s"
 msgstr ""
 
-#: pisi/operations/build.py:500
+#: pisi/operations/build.py:494
 msgid ""
 "Cannot find component.xml in remote directory, Source is now part of unknown "
 "component"
 msgstr ""
 
-#: pisi/operations/build.py:508
+#: pisi/operations/build.py:502
 msgid ""
 "Cannot find component.xml in upper directory, Source is now part of unknown "
 "component"
 msgstr ""
 
-#: pisi/operations/build.py:522
+#: pisi/operations/build.py:516
 msgid "Unpacking archive(s)..."
 msgstr ""
 
-#: pisi/operations/build.py:530
+#: pisi/operations/build.py:524
 #, python-format
 msgid " unpacked (%s)"
 msgstr ""
 
-#: pisi/operations/build.py:535
+#: pisi/operations/build.py:529
 msgid "Setting up source..."
 msgstr ""
 
-#: pisi/operations/build.py:540
+#: pisi/operations/build.py:534
 msgid "Building source..."
 msgstr ""
 
-#: pisi/operations/build.py:545
+#: pisi/operations/build.py:539
 msgid "Testing package..."
 msgstr ""
 
-#: pisi/operations/build.py:549
+#: pisi/operations/build.py:543
 msgid "Installing..."
 msgstr ""
 
-#: pisi/operations/build.py:628
+#: pisi/operations/build.py:609
 #, python-format
 msgid "Unable to read Actions Script (%s): %s"
 msgstr ""
 
-#: pisi/operations/build.py:631
+#: pisi/operations/build.py:612
 #, python-format
 msgid "SyntaxError in Actions Script (%s): %s"
 msgstr ""
 
-#: pisi/operations/build.py:661
+#: pisi/operations/build.py:642
 #, python-format
 msgid "Unable to read COMAR script (%s): %s"
 msgstr ""
 
-#: pisi/operations/build.py:664
+#: pisi/operations/build.py:645
 #, python-format
 msgid "SyntaxError in COMAR file (%s): %s"
 msgstr ""
 
-#: pisi/operations/build.py:699
+#: pisi/operations/build.py:677
 #, python-format
 msgid "Sandbox violation: %s (%s -> %s)"
 msgstr ""
 
-#: pisi/operations/build.py:715 pisi/util.py:518
+#: pisi/operations/build.py:693 pisi/util.py:517
 #, python-format
 msgid "ERROR: WorkDir (%s) does not exist\n"
 msgstr ""
 
-#: pisi/operations/build.py:725
+#: pisi/operations/build.py:702
 msgid "Sandbox enabled build..."
 msgstr ""
 
-#: pisi/operations/build.py:749
+#: pisi/operations/build.py:726
 msgid "Sandbox violation result:"
 msgstr ""
 
-#: pisi/operations/build.py:754
+#: pisi/operations/build.py:731
 msgid "Sandbox violations!"
 msgstr ""
 
-#: pisi/operations/build.py:760
+#: pisi/operations/build.py:737
 #, python-format
 msgid "unable to call function from actions: %s"
 msgstr ""
 
-#: pisi/operations/build.py:774
+#: pisi/operations/build.py:751
 #, python-format
 msgid "Source package '%s' defines a relative 'Path' element: %s"
 msgstr ""
 
-#: pisi/operations/build.py:778
+#: pisi/operations/build.py:755
 #, python-format
 msgid "Source package '%s' defines multiple 'Path' tags for %s"
 msgstr ""
 
-#: pisi/operations/build.py:807
+#: pisi/operations/build.py:784
 msgid ""
 "Safety switch: following extra packages in system.devel will be installed: "
 msgstr ""
 
-#: pisi/operations/build.py:812
+#: pisi/operations/build.py:789
 msgid "Safety switch: the component system.devel cannot be found"
 msgstr ""
 
-#: pisi/operations/build.py:821
+#: pisi/operations/build.py:798
 msgid "Unsatisfied Build Dependencies:"
 msgstr ""
 
-#: pisi/operations/build.py:825
+#: pisi/operations/build.py:802
 msgid "Cannot build package due to unsatisfied build dependencies"
 msgstr ""
 
-#: pisi/operations/build.py:830
+#: pisi/operations/build.py:807
 #, python-format
 msgid "Build dependency %s cannot be satisfied"
 msgstr ""
 
-#: pisi/operations/build.py:832
+#: pisi/operations/build.py:809
 msgid "Do you want to install the unsatisfied build dependencies"
 msgstr ""
 
-#: pisi/operations/build.py:833
+#: pisi/operations/build.py:810
 msgid "Installing build dependencies."
 msgstr ""
 
-#: pisi/operations/build.py:839
+#: pisi/operations/build.py:816
 msgid "Ignoring build dependencies."
 msgstr ""
 
-#: pisi/operations/build.py:849
+#: pisi/operations/build.py:826
 #, python-format
 msgid "Patch file is missing: %s\n"
 msgstr ""
 
-#: pisi/operations/build.py:851
+#: pisi/operations/build.py:828
 #, python-format
 msgid "Patch file is empty: %s"
 msgstr ""
 
-#: pisi/operations/build.py:867
+#: pisi/operations/build.py:844
 #, python-format
 msgid "Applying patch: %s"
 msgstr ""
 
-#: pisi/operations/build.py:988
+#: pisi/operations/build.py:963
 #, python-format
 msgid "/%s has suid bit set"
 msgstr ""
 
-#: pisi/operations/build.py:1067
+#: pisi/operations/build.py:1039
 #, python-format
 msgid "No user named '%s' found on the system"
 msgstr ""
 
-#: pisi/operations/build.py:1073
+#: pisi/operations/build.py:1045
 #, python-format
 msgid "No group named '%s' found on the system"
 msgstr ""
 
-#: pisi/operations/build.py:1080
+#: pisi/operations/build.py:1052
 #, python-format
 msgid "There are abandoned files under the install dir (%s):"
 msgstr ""
 
-#: pisi/operations/build.py:1116
+#: pisi/operations/build.py:1080
 #, python-format
 msgid "Ignoring empty package %s"
 msgstr ""
 
-#: pisi/operations/build.py:1120
+#: pisi/operations/build.py:1084
 #, python-format
 msgid "Building package: %s"
 msgstr ""
 
-#: pisi/operations/build.py:1139 pisi/operations/delta.py:59
+#: pisi/operations/build.py:1103 pisi/operations/delta.py:59
 #, python-format
 msgid "Creating %s..."
 msgstr ""
 
-#: pisi/operations/build.py:1186
+#: pisi/operations/build.py:1150
 msgid "Cleaning build directory..."
 msgstr ""
 
-#: pisi/operations/build.py:1189
+#: pisi/operations/build.py:1153
 msgid "Keeping build directory"
 msgstr ""
 
-#: pisi/operations/build.py:1279
+#: pisi/operations/build.py:1237
 msgid "Action script error caught."
 msgstr ""
 
-#: pisi/operations/build.py:1283
+#: pisi/operations/build.py:1241
 #, python-format
 msgid "*** %d error(s), %d warning(s)"
 msgstr ""
 
-#: pisi/operations/build.py:1366
+#: pisi/operations/build.py:1324
 #, python-format
 msgid "Last state was '%s'"
 msgstr ""
@@ -2722,37 +2717,37 @@ msgstr ""
 msgid "Conflicting packages should be removed to continue"
 msgstr ""
 
-#: pisi/operations/history.py:84 pisi/operations/history.py:94
+#: pisi/operations/history.py:82 pisi/operations/history.py:92
 #, python-format
 msgid "%s could not be found"
 msgstr ""
 
-#: pisi/operations/history.py:97 pisi/package.py:107 pisi/sourcearchive.py:110
+#: pisi/operations/history.py:95 pisi/package.py:107 pisi/sourcearchive.py:110
 #, python-format
 msgid "%s [cached]"
 msgstr ""
 
-#: pisi/operations/history.py:145
+#: pisi/operations/history.py:143
 msgid "Following packages will be installed:\n"
 msgstr ""
 
-#: pisi/operations/history.py:148
+#: pisi/operations/history.py:146
 msgid "Following packages will be removed:\n"
 msgstr ""
 
-#: pisi/operations/history.py:150 pisi/operations/history.py:164
+#: pisi/operations/history.py:148 pisi/operations/history.py:162
 #: pisi/operations/install.py:200 pisi/operations/remove.py:72
 #: pisi/operations/upgrade.py:181
 msgid "Do you want to continue?"
 msgstr ""
 
-#: pisi/operations/history.py:156 pisi/operations/install.py:95
+#: pisi/operations/history.py:154 pisi/operations/install.py:95
 #: pisi/operations/upgrade.py:192
 #, python-format
 msgid "Downloading %d / %d"
 msgstr ""
 
-#: pisi/operations/history.py:162
+#: pisi/operations/history.py:160
 msgid ""
 "\n"
 "Following packages could not be found in repositories and are not cached:\n"
@@ -3039,12 +3034,12 @@ msgstr ""
 msgid "String '%s' has invalid XML"
 msgstr ""
 
-#: pisi/pxml/xmlfile.py:87
+#: pisi/pxml/xmlfile.py:83
 #, python-format
 msgid "Unable to read file (%s): %s"
 msgstr ""
 
-#: pisi/pxml/xmlfile.py:89 pisi/specfile.py:443
+#: pisi/pxml/xmlfile.py:85 pisi/specfile.py:443
 #, python-format
 msgid "File '%s' has invalid XML"
 msgstr ""
@@ -3157,80 +3152,80 @@ msgstr ""
 msgid "setAuthInfo needs a tuple (user, pass)"
 msgstr ""
 
-#: pisi/util.py:189 pisi/util.py:201
+#: pisi/util.py:188 pisi/util.py:200
 msgid "Running "
 msgstr ""
 
-#: pisi/util.py:193 pisi/util.py:219
+#: pisi/util.py:192 pisi/util.py:218
 #, python-format
 msgid "return value for \"%s\" is %s"
 msgstr ""
 
-#: pisi/util.py:393
+#: pisi/util.py:392
 #, python-format
 msgid "Including external link '%s'"
 msgstr ""
 
-#: pisi/util.py:395
+#: pisi/util.py:394
 #, python-format
 msgid "Including directory '%s'"
 msgstr ""
 
-#: pisi/util.py:481
+#: pisi/util.py:480
 msgid "You don't have necessary read permissions"
 msgstr ""
 
-#: pisi/util.py:483
+#: pisi/util.py:482
 #, python-format
 msgid "Cannot calculate SHA1 hash of %s"
 msgstr ""
 
-#: pisi/util.py:495
+#: pisi/util.py:494
 #, python-format
 msgid "Compression type is not valid: '%s'"
 msgstr ""
 
-#: pisi/util.py:501
+#: pisi/util.py:500
 #, python-format
 msgid "Error while decompressing %s: %s"
 msgstr ""
 
-#: pisi/util.py:544
+#: pisi/util.py:543
 #, python-format
 msgid "ERROR: patch (%s) failed"
 msgstr ""
 
-#: pisi/util.py:546
+#: pisi/util.py:545
 #, python-format
 msgid "ERROR: patch (%s) failed: %s"
 msgstr ""
 
-#: pisi/util.py:556
+#: pisi/util.py:555
 #, python-format
 msgid "strip command failed for file '%s'!"
 msgstr ""
 
-#: pisi/util.py:563
+#: pisi/util.py:562
 #, python-format
 msgid "chrpath command failed for file '%s'!"
 msgstr ""
 
-#: pisi/util.py:570
+#: pisi/util.py:569
 #, python-format
 msgid "objcopy (keep-debug) command failed for file '%s'!"
 msgstr ""
 
-#: pisi/util.py:576
+#: pisi/util.py:575
 #, python-format
 msgid "objcopy (add-debuglink) command failed for file '%s'!"
 msgstr ""
 
-#: pisi/util.py:666
+#: pisi/util.py:665
 #, python-format
 msgid "Invalid package name: %s"
 msgstr ""
 
-#: pisi/util.py:711
+#: pisi/util.py:705
 #, python-format
 msgid "Invalid delta package name: %s"
 msgstr ""
