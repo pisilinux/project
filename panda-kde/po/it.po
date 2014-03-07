@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Ali Işıngör, 2011
 # ddave <ddave090@gmail.com>, 2013
@@ -12,12 +12,11 @@ msgstr ""
 "POT-Creation-Date: 2014-02-23 11:04+0200\n"
 "PO-Revision-Date: 2013-09-15 09:09+0000\n"
 "Last-Translator: ddave <ddave090@gmail.com>\n"
-"Language-Team: Italian (http://www.transifex.com/projects/p/PiSiLinux/"
-"language/it/)\n"
-"Language: it\n"
+"Language-Team: Italian (http://www.transifex.com/projects/p/PiSiLinux/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: panda.cpp:57
@@ -52,7 +51,7 @@ msgstr "Usa il driver proprietario fornito dal produttore"
 msgid "Use the safe driver that provides limited features"
 msgstr "Usa il driver sicuro che fornisce funzionalità limitate"
 
-#: panda.cpp:138 rc.cpp:2
+#: panda.cpp:138 rc.cpp:2 rc.cpp:2
 msgid "Video Driver Administration"
 msgstr "Gestione Driver Video"
 
@@ -62,11 +61,10 @@ msgstr "(c) 2011 Fatih Arslan"
 
 #: panda.cpp:148
 msgid ""
-"Please use <a href=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</"
-"a> to report bugs.\n"
-msgstr ""
-"Per favore usare <a href=\"http://bugs.pardus.org.tr\">http://bugs.pardus."
-"org.tr</a> per segnalare i bug.\n"
+"Please use <a "
+"href=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</a> to report "
+"bugs.\n"
+msgstr "Per favore usare <a href=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</a> per segnalare i bug.\n"
 
 #: panda.cpp:150
 msgid "Fatih Arslan"
@@ -102,14 +100,12 @@ msgstr "Verificato un errore interno"
 msgid ""
 "You have to restart your system for the changes to take affect.\n"
 "Do you want to restart now?"
-msgstr ""
-"Devi riavviare il sistema affinché le modifiche abbiano effetto.\n"
-" Vuoi avviarlo ora?"
+msgstr "Devi riavviare il sistema affinché le modifiche abbiano effetto.\n Vuoi avviarlo ora?"
 
-#: rc.cpp:1
+#: rc.cpp:1 rc.cpp:1
 msgid "Video Driver"
 msgstr "Video Driver"
 
-#: rc.cpp:3
+#: rc.cpp:3 rc.cpp:3
 msgid "video,driver,graphics,display"
 msgstr "video,driver,graffici,schermo"

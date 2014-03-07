@@ -3,55 +3,57 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Ivica  Kolić <ikoli@yahoo.com>, 2013
+# Ivica  Kolić <ikoli@yahoo.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-23 11:04+0200\n"
-"PO-Revision-Date: 2013-01-04 21:47+0000\n"
-"Last-Translator: circass <erdincgultekin@gmail.com>\n"
-"Language-Team: German (http://www.transifex.com/projects/p/PiSiLinux/language/de/)\n"
+"PO-Revision-Date: 2013-02-15 01:06+0000\n"
+"Last-Translator: Ivica  Kolić <ikoli@yahoo.com>\n"
+"Language-Team: Croatian (http://www.transifex.com/projects/p/PiSiLinux/language/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #: panda.cpp:57
 msgid "Current Driver Information"
-msgstr "Information über aktuellen Treiber"
+msgstr "Informacije o trenutnom upravljačkom programu"
 
 #: panda.cpp:81
 msgid "Vendor:"
-msgstr "Hersteller:"
+msgstr "Isporučitelj:"
 
 #: panda.cpp:89
 msgid "Renderer:"
-msgstr "Typ:"
+msgstr ""
 
 #: panda.cpp:97
 msgid "Version:"
-msgstr "Version:"
+msgstr "Verzija:"
 
 #: panda.cpp:114
 msgid "Driver Preference"
-msgstr "Treibereinstellungen"
+msgstr "Osobitosti upravljačkog programa"
 
 #: panda.cpp:120
 msgid "Use the driver developed by the open source community"
-msgstr "Den Treiber der OpenSource Community verwenden"
+msgstr "Koristite upravljački program koji je razvila zajednica otvorenog koda"
 
 #: panda.cpp:121
 msgid "Use the proprietary driver provided by the manufacturer"
-msgstr "Den proprietären Treiber des Herstellers verwenden"
+msgstr "Koristite vlasnički upravljački program koji je dao proizvođač"
 
 #: panda.cpp:122
 msgid "Use the safe driver that provides limited features"
-msgstr "Den sicheren Treiber mit eingeschränkten Funktionen nutzen"
+msgstr "Koristite sigurni upravljački program koji daje ograničene mogućnosti"
 
 #: panda.cpp:138 rc.cpp:2 rc.cpp:2
 msgid "Video Driver Administration"
-msgstr "Administration des Grafiktreibers"
+msgstr "Administracija video upravljačkog programa"
 
 #: panda.cpp:142
 msgid "(c) 2011 Fatih Arslan"
@@ -62,7 +64,7 @@ msgid ""
 "Please use <a "
 "href=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</a> to report "
 "bugs.\n"
-msgstr "Für Fehlermeldungen nutzen Sie bitte <a href=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</a>.\n"
+msgstr "Molim koristite <a href=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</a> za prijavu problema.\n"
 
 #: panda.cpp:150
 msgid "Fatih Arslan"
@@ -70,40 +72,40 @@ msgstr "Fatih Arslan"
 
 #: panda.cpp:150
 msgid "Original author"
-msgstr "Ursprünglicher Autor"
+msgstr "Izvorni autor"
 
 #: panda.cpp:151
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Stefan Wilhelm"
+msgstr "Ivica Kolić"
 
 #: panda.cpp:152
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "sw   a t   pardususer.de "
+msgstr "ikoli@yahoo.com"
 
 #: panda.cpp:226
 msgid "Unable to apply settings due to missing packages"
-msgstr "Wegen fehlenden Paketen können die Einstellungen nicht übernommen werden"
+msgstr "Ne mogu primjeniti postavke jer nedostaju paketi"
 
 #: panda.cpp:244
 msgid "Unable to authenticate/execute the action: %1, %2"
-msgstr "Kann die folgenden Aktionen nicht authentifizieren/ausführen: %1, %2"
+msgstr "Nije moguće provjeriti vjerodostojnost/ izvršiti akciju: %1, %2"
 
 #: panda.cpp:246
 msgid "An internal error occurred"
-msgstr "Ein interner Fehler ist aufgetreten"
+msgstr "Dogodila se interna greška"
 
 #: panda.cpp:254
 msgid ""
 "You have to restart your system for the changes to take affect.\n"
 "Do you want to restart now?"
-msgstr "Damit die Änderungen wirksam werden müssen Sie neu starten.\nWollen Sie jetzt neu starten?"
+msgstr "Morate ponovno pokrenuti vaš sistem da promjene stupe na snagu.\n Želite li ponovno pokrenuti sada?"
 
 #: rc.cpp:1 rc.cpp:1
 msgid "Video Driver"
-msgstr "Grafiktreiber"
+msgstr "Video upravljački program"
 
 #: rc.cpp:3 rc.cpp:3
 msgid "video,driver,graphics,display"
-msgstr "Video, Treiber, Grafik, Bildschirm"
+msgstr "video,upravljački program,grafika,zaslon"
