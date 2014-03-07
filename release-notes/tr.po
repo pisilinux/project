@@ -1,0 +1,82 @@
+# 
+# Translators:
+# eersoy93 <erdemersoy@live.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: PiSiLinux\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-20 00:57+0300\n"
+"PO-Revision-Date: 2014-02-23 13:12+0000\n"
+"Last-Translator: eersoy93 <erdemersoy@live.com>\n"
+"Language-Team: Turkish (http://www.transifex.com/projects/p/PiSiLinux/language/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+#: template.html+html.head.title:5
+msgid "Pisi Linux"
+msgstr "Pisi Linux"
+
+#: template.html+html.body.div.table.tr.td:9
+msgid ""
+"<b>The Anka-Team proudly presents Pisi Linux 1.0</b><br /> Pisi Linux is a "
+"'rolling-release' GNU/Linux operating system.<br />It was created as a "
+"successor to the PiSi-based Pardus Linux, after it was declared End Of Life "
+"in 2012."
+msgstr "<b>Anka Takımı, Pisi Linux 1.0'ı sunar.</b><br /> Pisi Linux, bir yuvarlanan sürümlü GNU/Linux işletim sistemidir.<br />2012'de Pisi tabanlı Pardus Linux'ün bitimi ilan edilen sonra bunun ardılı olarak oluşturulmuştur."
+
+#: template.html+html.body.div.table.tr.td:12
+msgid ""
+"<br />Pisi Linux contains several unique technologies:<br /> <b>COMAR</b> "
+"(COnfigurationMAnageR), configures and integrates installed software.<br /> "
+"<b>MUDUR</b>, designed to streamline the boot process. <br /> <b>PISI</b> "
+"(Packages Installed Successfully, as Intended), The packaging system "
+"developed for Pardus Linux.<br /> <b>YALI</b> (Yet Another Linux Installer),"
+" the custom installer. <br /> <b>KAPTAN</b>, a ‘desktop greeter’- "
+"automatically started post-install to assist with desktop preferences.<br />"
+" <b>PANDA</b>, a video-driver manager (created by the Anka-Team).<br /><br "
+"/>"
+msgstr "<br />Pisi Linux birçok özel teknoloji içerir:<br /> <b>COMAR</b> (COnfigurationMAnageR), kurulan yazılımları yapılandırır ve yerleştirir.<br /> <b>MUDUR</b>, önyükleme sürecinin hızlı ve kolay olması için tasarlanmıştır.<br /> <b>PISI</b> (Packages Installed Successfully, as Intended), Pardus Linux için geliştirilen bir paketleme sistemi.<br /> <b>YALI</b> (Yet Another Linux Installer), bir özel yükleyici.<br /> <b>KAPTAN</b>, bir 'masaüstü karşılayıcısı' - masaüstü seçenekleriyle yardım etmek için kurulum sonrası kendiliğinden başlar.<br /> <b>PANDA</b>, bir vidyo sürücüsü yöneticisi (Anka Takımı tarafından oluşturulmuştur.).<br /><br />"
+
+#: template.html+html.body.div.table.tr.td:20
+msgid ""
+"<b>Release Highlights</b><br /> Linux Kernel: 3.12.8<br /> KDE: 4.11.5<br />"
+" Mate: 1.6.2<br /> Mozilla Firefox: 26.0<br /> LibreOffice: 4.1.3.2<br /> "
+"GIMP: 2.8.10<br /> Calligra Suite: 2.7.5<br /> Clementine: 1.2.1<br /> Qt: "
+"4.8.5<br /> glibc: 2.18<br /> binutils: 2.32.2<br /> coreutils: 8.21<br "
+"/><br />"
+msgstr "<b>Sürümde Öne Çıkanlar</b><br /> Linux Çekirdeği: 3.12.8<br /> KDE: 4.11.5<br /> Mate: 1.6.2<br /> Mozilla Firefox: 26.0<br /> LibreOffice: 4.1.3.2<br /> GIMP: 2.8.10<br /> Calligra Suite: 2.7.5<br /> Clementine: 1.2.1<br /> Qt: 4.8.5<br /> glibc: 2.18<br /> binutils: 2.32.2<br /> coreutils: 8.21<br /><br />"
+
+#: template.html+html.body.div.table.tr.td:34
+msgid ""
+"<b>System Requirements</b><br /> 64-bit processor<br /> At least 2 GB memory"
+" and 12 GB disk space<br /> It is recomended to create swap space for Pisi "
+"Linux (can be done during installation)<br /><br />"
+msgstr "<b>Sistem Gereksinimleri</b><br /> 64 bitlik işlemci<br /> En az 2 GB bellek ve 12 GB disk boş alanı<br /> Pisi Linux için takas alanı oluşturma önerilir. (Kurulum sırasında yapılabilir.)<br /><br />"
+
+#: template.html+html.body.div.table.tr.td:40
+msgid ""
+"<b>Multimedia</b><br /> Pisi Linux currently exists only in 64bit form. "
+"However, 32bit packages are included for applications such as<br /> Skype "
+"and Steam. Codecs for playing audio and video files are also included.<br "
+"/><br />"
+msgstr "<b>Çokluortam</b><br /> Pisi Linux, şimdilik yalnızca 64 bitlik olarak vardır. Bununla birlikte, Skype ve Steam gibi uygulamalar için 32 bitlik paketler içerir.<br /> Ses ve vidyo dosyalarını oynatmak için kodekler de içerir.<br /><br />"
+
+#: template.html+html.body.div.table.tr.td:43
+msgid ""
+"<b>Anything else ?</b><br /> There are over 6000 packages in our "
+"repositories, with more added all the time.<br /><br /> Pisi Linux is "
+"translated to 14 languages: Turkish, English, Dutch, German, Russian, "
+"Spanish, French, Hungarian,<br />Italian, Croatian, Swedish, Ukrainian, "
+"Polish and Portuguese (Brazil). Translation to other languages is on-"
+"going.<br /><br />"
+msgstr "<b>Başka bir şey?</b><br /> There are over 6000 packages in our repositories, with more added all the time.<br /><br /> Pisi Linux, 14 dile çevirilmiştir: Türkçe, İngilizce, Flemenkçe, Almanca, Rusça, İspanyolca, Fransızca, Macarca,<br />İtalyanca, Hırvatça, isveççe, Ukraynaca, Lehçe ve Brezilya Portekizcesi. Diğer dillerin çevirilmesi sürmektedir.<br /><br />"
+
+#: template.html+html.body.div.table.tr.td:47
+msgid ""
+"Turkish/English: Anka/Phoenix - Pisi/Kitty - Kaptan/Captain<br /> We hope "
+"you enjoy using Pisi Linux. Thank you."
+msgstr "Türkçe/İngilizce: Anka/Phoenix - Pisi/Kitty - Kaptan/Captain<br /> Pisi Linux'ü zevkle kullanmanızı umarız. Teşekkür ederiz."
