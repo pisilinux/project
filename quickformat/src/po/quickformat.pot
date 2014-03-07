@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-05-26 15:33+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .tmp/ui_quickformat.py:209 .tmp/quickformat/about.py:27 .tmp/about.py:27
+msgid "Quick Format"
+msgstr ""
+
+#: .tmp/ui_quickformat.py:210
+msgid "File System"
+msgstr ""
+
+#: .tmp/ui_quickformat.py:211
+msgid "Volume Label"
+msgstr ""
+
+#: .tmp/ui_quickformat.py:212
+msgid "Volume Name"
+msgstr ""
+
+#: .tmp/ui_quickformat.py:213
+msgid "Format"
+msgstr ""
+
+#: .tmp/ui_quickformat.py:214
+msgid "Close"
+msgstr ""
+
+#: .tmp/quickformat/about.py:29 .tmp/about.py:29
+msgid "Removable Device Formatting Tool"
+msgstr ""
+
+#: .tmp/quickformat/about.py:31 .tmp/about.py:31
+msgid "(c) 2011 TUBITAK/BILGEM"
+msgstr ""
+
+#: .tmp/quickformat/about.py:39 .tmp/about.py:39
+msgid "Renan Cakirerk"
+msgstr ""
+
+#: .tmp/quickformat/about.py:39 .tmp/about.py:39
+msgid "Current Maintainer"
+msgstr ""
+
+#: .tmp/quickformat/notifier.py:100 .tmp/notifier.py:100
+msgid "OK"
+msgstr ""
+
+#: .tmp/quickformat/notifier.py:157 .tmp/notifier.py:157
+msgid "Please wait while formatting..."
+msgstr ""
+
+#: .tmp/quickformat/notifier.py:160 .tmp/notifier.py:160
+msgid "Format completed successfully."
+msgstr ""
+
+#: .tmp/quickformat/notifier.py:163 .tmp/notifier.py:163
+msgid ""
+"Cannot format this partition.\n"
+"The device might be in use.\n"
+"Please try again."
+msgstr ""
+
+#: .tmp/quickformat/notifier.py:166 .tmp/quickformat.py:310
+#: .tmp/notifier.py:166
+msgid "There aren't any removable devices."
+msgstr ""
+
+#: .tmp/quickformat/notifier.py:169 .tmp/notifier.py:169
+msgid "Loading devices..."
+msgstr ""
+
+#: .tmp/quickformat/notifier.py:172 .tmp/notifier.py:172
+msgid ""
+"The partition table seems corrupt.\n"
+"Please re-partition this device and try again."
+msgstr ""
+
+#: .tmp/quickformat.py:310
+msgid "QuickFormat"
+msgstr ""
+
+#: .tmp/ui_volumeitem.py:143
+msgid ":"
+msgstr ""
+
+#: .tmp/ui_volumeitem.py:144
+msgid "-"
+msgstr ""

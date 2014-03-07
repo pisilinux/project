@@ -1,0 +1,18 @@
+Legend:
+    + Done
+    - Not Done
+    / Partially Done
+
++ Fix label size adjustment on first load (ask Gokmen)
+? Switch between HAL / UDisk according to users system
++ Test all filesystems
++ Test ISO USB Flashdisks
++ Test with a USB Harddisk
++ Test with USB DVD writers (See if it doesnt recognize it as a formattable drive)
++ Remove pds dependency
++ Remove comar dependency
+- Test the latest version
+- Go to bed
+/ Refactor code, write more modular
+/ Add comments
+/ Add README

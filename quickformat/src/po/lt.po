@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# klaipedetis <romangalina@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: PiSiLinux\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-05-26 15:33+0300\n"
+"PO-Revision-Date: 2013-08-07 06:27+0000\n"
+"Last-Translator: klaipedetis <romangalina@gmail.com>\n"
+"Language-Team: Lithuanian (http://www.transifex.com/projects/p/PiSiLinux/language/lt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: .tmp/ui_quickformat.py:209 .tmp/quickformat/about.py:27 .tmp/about.py:27
+msgid "Quick Format"
+msgstr "Greitas formatavymas"
+
+#: .tmp/ui_quickformat.py:210
+msgid "File System"
+msgstr "Bylų sistema"
+
+#: .tmp/ui_quickformat.py:211
+msgid "Volume Label"
+msgstr "Tomo žymė "
+
+#: .tmp/ui_quickformat.py:212
+msgid "Volume Name"
+msgstr " Tomo pavadinimas "
+
+#: .tmp/ui_quickformat.py:213
+msgid "Format"
+msgstr "Formatavymas"
+
+#: .tmp/ui_quickformat.py:214
+msgid "Close"
+msgstr "uždaryti"
+
+#: .tmp/quickformat/about.py:29 .tmp/about.py:29
+msgid "Removable Device Formatting Tool"
+msgstr "laikinųjų laikmenų formtavymo įrankiai"
+
+#: .tmp/quickformat/about.py:31 .tmp/about.py:31
+msgid "(c) 2011 TUBITAK/BILGEM"
+msgstr "©2011 TUBITAK/BILGEM"
+
+#: .tmp/quickformat/about.py:39 .tmp/about.py:39
+msgid "Renan Cakirerk"
+msgstr "Renkant Cakirerk"
+
+#: .tmp/quickformat/about.py:39 .tmp/about.py:39
+msgid "Current Maintainer"
+msgstr "dabartinis prižiūrėtojas "
+
+#: .tmp/quickformat/notifier.py:100 .tmp/notifier.py:100
+msgid "OK"
+msgstr "Gerai"
+
+#: .tmp/quickformat/notifier.py:157 .tmp/notifier.py:157
+msgid "Please wait while formatting..."
+msgstr "Prašom palaukti kol vykstą formatavymas..."
+
+#: .tmp/quickformat/notifier.py:160 .tmp/notifier.py:160
+msgid "Format completed successfully."
+msgstr "Formatavymas baigęsi sekmingai"
+
+#: .tmp/quickformat/notifier.py:163 .tmp/notifier.py:163
+msgid ""
+"Cannot format this partition.\n"
+"The device might be in use.\n"
+"Please try again."
+msgstr "Šito disko skirsnio performatuoti neįmanoma. Tikriausiai jis nauduojasi. Pabandykite dar."
+
+#: .tmp/quickformat/notifier.py:166 .tmp/quickformat.py:310
+#: .tmp/notifier.py:166
+msgid "There aren't any removable devices."
+msgstr "laikinės laikmienos ne aptykti"
+
+#: .tmp/quickformat/notifier.py:169 .tmp/notifier.py:169
+msgid "Loading devices..."
+msgstr "prietasiai paleidžiami"
+
+#: .tmp/quickformat/notifier.py:172 .tmp/notifier.py:172
+msgid ""
+"The partition table seems corrupt.\n"
+"Please re-partition this device and try again."
+msgstr "Atrodo kad skirsnio būsena pažeista. Prašom iš naujo sukurti naują skirsnį ir pabandykite vėl"
+
+#: .tmp/quickformat.py:310
+msgid "QuickFormat"
+msgstr "Greitas formatavymas"
+
+#: .tmp/ui_volumeitem.py:143
+msgid ":"
+msgstr ":"
+
+#: .tmp/ui_volumeitem.py:144
+msgid "-"
+msgstr "-"

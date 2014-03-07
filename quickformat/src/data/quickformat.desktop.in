@@ -1,0 +1,8 @@
+[Desktop Entry]
+Exec=kdesu quickformat
+Icon=draw-eraser
+Type=Application
+Categories=Qt;KDE;System;
+
+_Name=Quick Format
+_GenericName=Removable Device Formatting Tool

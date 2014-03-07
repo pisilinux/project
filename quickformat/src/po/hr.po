@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: PiSiLinux\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-05-26 15:33+0300\n"
+"PO-Revision-Date: 2013-02-09 05:05+0000\n"
+"Last-Translator: Ivica  Kolić <ikoli@yahoo.com>\n"
+"Language-Team: Croatian (http://www.transifex.com/projects/p/PiSiLinux/language/hr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: .tmp/ui_quickformat.py:209 .tmp/quickformat/about.py:27 .tmp/about.py:27
+msgid "Quick Format"
+msgstr "Brzo formatiranje"
+
+#: .tmp/ui_quickformat.py:210
+msgid "File System"
+msgstr "Datotečni sustav"
+
+#: .tmp/ui_quickformat.py:211
+msgid "Volume Label"
+msgstr "Natpis particije"
+
+#: .tmp/ui_quickformat.py:212
+msgid "Volume Name"
+msgstr "Ime particije"
+
+#: .tmp/ui_quickformat.py:213
+msgid "Format"
+msgstr "Formatiraj"
+
+#: .tmp/ui_quickformat.py:214
+msgid "Close"
+msgstr "Zatvori"
+
+#: .tmp/quickformat/about.py:29 .tmp/about.py:29
+msgid "Removable Device Formatting Tool"
+msgstr "Alat za formatiranje uklonjivih uređaja"
+
+#: .tmp/quickformat/about.py:31 .tmp/about.py:31
+msgid "(c) 2011 TUBITAK/BILGEM"
+msgstr "(c) 2011 TUBITAK/BILGEM"
+
+#: .tmp/quickformat/about.py:39 .tmp/about.py:39
+msgid "Renan Cakirerk"
+msgstr "Renan Cakirerk"
+
+#: .tmp/quickformat/about.py:39 .tmp/about.py:39
+msgid "Current Maintainer"
+msgstr "Trenutni održavatelj"
+
+#: .tmp/quickformat/notifier.py:100 .tmp/notifier.py:100
+msgid "OK"
+msgstr "U redu"
+
+#: .tmp/quickformat/notifier.py:157 .tmp/notifier.py:157
+msgid "Please wait while formatting..."
+msgstr "Molim pričekajte dok formatiram..."
+
+#: .tmp/quickformat/notifier.py:160 .tmp/notifier.py:160
+msgid "Format completed successfully."
+msgstr "Formatiranje uspješno dovršeno."
+
+#: .tmp/quickformat/notifier.py:163 .tmp/notifier.py:163
+msgid ""
+"Cannot format this partition.\n"
+"The device might be in use.\n"
+"Please try again."
+msgstr "Ne mogu formatirati ovu particiju.\nUređaj je možda u uporabi,\nMolim,pokušajte ponovno."
+
+#: .tmp/quickformat/notifier.py:166 .tmp/quickformat.py:310
+#: .tmp/notifier.py:166
+msgid "There aren't any removable devices."
+msgstr "Nema uklonjivih uređaja."
+
+#: .tmp/quickformat/notifier.py:169 .tmp/notifier.py:169
+msgid "Loading devices..."
+msgstr "Učitavam uređaje..."
+
+#: .tmp/quickformat/notifier.py:172 .tmp/notifier.py:172
+msgid ""
+"The partition table seems corrupt.\n"
+"Please re-partition this device and try again."
+msgstr "Particijska tablica izgleda oštećeno.\nOlim,ponovno particionirajte ovoj uređaj i pokušajte ponovno."
+
+#: .tmp/quickformat.py:310
+msgid "QuickFormat"
+msgstr "Bzo fprmatiranje"
+
+#: .tmp/ui_volumeitem.py:143
+msgid ":"
+msgstr ":"
+
+#: .tmp/ui_volumeitem.py:144
+msgid "-"
+msgstr "-"
