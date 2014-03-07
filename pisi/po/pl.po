@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # negura_bunget <marcin.bojara@gmail.com>, 2013
 # negura_bunget <marcin.bojara@gmail.com>, 2013
@@ -10,13 +10,13 @@ msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-26 18:33+0200\n"
-"PO-Revision-Date: 2013-04-12 18:00+0000\n"
-"Last-Translator: negura_bunget <marcin.bojara@gmail.com>\n"
+"PO-Revision-Date: 2014-02-26 16:34+0000\n"
+"Last-Translator: obsoleteman <tulliana@gmail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/projects/p/PiSiLinux/language/pl/)\n"
-"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: /usr/lib/python2.7/optparse.py:140
@@ -104,13 +104,10 @@ msgid "Program terminated."
 msgstr "Program Zakończony."
 
 #: pisi-cli:48
-#, fuzzy
 msgid ""
 "Unhandled internal exception.\n"
 "Please file a bug report to <http://bugs.pisilinux.org>."
 msgstr ""
-"Nie obsługiwany wewnętrzny błąd.\n"
-" Prosimy zgłosić ten błąd. (http://bugs.pardus.org.tr)"
 
 #: pisi-cli:57
 msgid "System error. Program terminated."
@@ -124,9 +121,7 @@ msgstr "Proszę użyć 'pisi help' w celu uzyskania pomocy."
 msgid ""
 "\n"
 "Traceback:"
-msgstr ""
-"\n"
-" Prześledź ponownie:"
+msgstr "\n Prześledź ponownie:"
 
 #: pisi-cli:72
 msgid "Use --debug to see a traceback."
@@ -141,9 +136,7 @@ msgstr ""
 msgid ""
 "Please attach the config.log to your bug report:\n"
 "%s/config.log"
-msgstr ""
-"Prosimy o dołączenie do raportu o błędzie pliku config.log:\n"
-"%s/config.log"
+msgstr "Prosimy o dołączenie do raportu o błędzie pliku config.log:\n%s/config.log"
 
 #: pisi/actionsapi/autotools.py:84 pisi/actionsapi/autotools.py:94
 #: pisi/actionsapi/cmaketools.py:66 pisi/actionsapi/kde.py:65
@@ -215,10 +208,7 @@ msgid ""
 "\n"
 "!!! Please attach the config.log to your bug report:\n"
 "%s/config.log"
-msgstr ""
-"\n"
-"Prosimy o dołączenie do raportu o błędzie pliku config.log:\n"
-"%s/config.log"
+msgstr "\nProsimy o dołączenie do raportu o błędzie pliku config.log:\n%s/config.log"
 
 #: pisi/actionsapi/kerneltools.py:117
 #, python-format
@@ -327,7 +317,9 @@ msgstr "Plik projektu \"%s\" nie znaleziony."
 
 #: pisi/actionsapi/qt4.py:56
 #, python-format
-msgid "It seems there are more than one .pro file, you must specify one. (Possible .pro files: %s)"
+msgid ""
+"It seems there are more than one .pro file, you must specify one. (Possible "
+".pro files: %s)"
 msgstr "Wygląda na to, że jest więcej niż jeden plik projektu \".pro\",  należy wybrać jeden. (Możliwe pliki \".pro\" : %s)"
 
 #: pisi/actionsapi/rubymodules.py:108
@@ -722,9 +714,7 @@ msgstr "/%s z pakietu %s \n"
 msgid ""
 "File conflicts:\n"
 "%s"
-msgstr ""
-"Konflikt plików:\n"
-"%s"
+msgstr "Konflikt plików:\n%s"
 
 #: pisi/atomicoperations.py:241
 msgid "Re-install same version package?"
@@ -756,7 +746,9 @@ msgid "%s configuration failed."
 msgstr "%s konfiguracja nie powiodła się"
 
 #: pisi/atomicoperations.py:400
-msgid "Unable to relocate following files. Reinstallation of this package is strongly recommended."
+msgid ""
+"Unable to relocate following files. Reinstallation of this package is "
+"strongly recommended."
 msgstr "Nie można przenieść stępujących plików. Zalecana jest ponowna instalacja tego pakietu."
 
 #: pisi/atomicoperations.py:491 pisi/atomicoperations.py:494
@@ -786,7 +778,8 @@ msgstr "Nie usuwam kolidującego pliku : %s"
 
 #: pisi/atomicoperations.py:646
 #, python-format
-msgid "Installed file %s does not exist on system [Probably you manually deleted]"
+msgid ""
+"Installed file %s does not exist on system [Probably you manually deleted]"
 msgstr "Zainstalowany plik %s nie istnieje w systemie [Prawdopodobnie został usunięty ręcznie]"
 
 #: pisi/cli/__init__.py:117
@@ -864,10 +857,7 @@ msgid ""
 "Add %s repository without updating the database?\n"
 "By confirming this you are also adding the repository to your system without checking the distribution of the repository.\n"
 "Do you want to continue?"
-msgstr ""
-"Dodać %s repozytorium bez aktualizowania bazy danych?\n"
-"Potwierdzając  dodajesz również repozytorium do systemu bez sprawdzania dystrybucji repozytorium.\n"
-" Czy chcesz kontynuować?"
+msgstr "Dodać %s repozytorium bez aktualizowania bazy danych?\nPotwierdzając  dodajesz również repozytorium do systemu bez sprawdzania dystrybucji repozytorium.\n Czy chcesz kontynuować?"
 
 #: pisi/cli/addrepo.py:74
 #, python-format
@@ -880,11 +870,7 @@ msgid ""
 "\n"
 "Usage: blame <package> ... <package>\n"
 "\n"
-msgstr ""
-"Informacje na temat właściciela pakietu i wydania\n"
-" \n"
-"Użyj: blame <pakiet> ... <pakiet> \n"
-" \n"
+msgstr "Informacje na temat właściciela pakietu i wydania\n \nUżyj: blame <pakiet> ... <pakiet> \n \n"
 
 #: pisi/cli/blame.py:39
 msgid "blame options"
@@ -929,15 +915,7 @@ msgid ""
 "\n"
 "Alternatively, you can give the name of a source package\n"
 "to be downloaded from a repository containing sources.\n"
-msgstr ""
-"Zbuduj pakiety PiSi\n"
-"\n"
-"Użyj: build [<pspec.xml> | <nazwa źródła >] ...\n"
-"\n"
-" Możesz dać URI dla pliku pspec.xml.\n"
-" PiSi pobierze wszystkie wymagane pliki i zbuduje pakiet dla Ciebie.\n"
-"\n"
-" Można podać nazwę pakietu źródłowego do pobrania z repozytorium zwierającego źródła.\n"
+msgstr "Zbuduj pakiety PiSi\n\nUżyj: build [<pspec.xml> | <nazwa źródła >] ...\n\n Możesz dać URI dla pliku pspec.xml.\n PiSi pobierze wszystkie wymagane pliki i zbuduje pakiet dla Ciebie.\n\n Można podać nazwę pakietu źródłowego do pobrania z repozytorium zwierającego źródła.\n"
 
 #: pisi/cli/build.py:50
 msgid "build options"
@@ -972,7 +950,9 @@ msgid "Create a static package with ar files"
 msgstr ""
 
 #: pisi/cli/build.py:93 pisi/cli/delta.py:64
-msgid "Create the binary package using the given format. Use '-F help' to see a list of supported formats."
+msgid ""
+"Create the binary package using the given format. Use '-F help' to see a "
+"list of supported formats."
 msgstr ""
 
 #: pisi/cli/build.py:100
@@ -992,7 +972,9 @@ msgid "Break build after fetching the source archive"
 msgstr ""
 
 #: pisi/cli/build.py:123
-msgid "Break build after unpacking the source archive, checking sha1sum and applying patches"
+msgid ""
+"Break build after unpacking the source archive, checking sha1sum and "
+"applying patches"
 msgstr ""
 
 #: pisi/cli/build.py:131
@@ -1382,20 +1364,20 @@ msgid ""
 msgstr ""
 
 #: pisi/cli/history.py:28
-msgid "emerge"
-msgstr ""
-
-#: pisi/cli/history.py:28
-msgid "install"
-msgstr "zainstaluj"
+msgid "upgrade"
+msgstr "aktualizuj"
 
 #: pisi/cli/history.py:28
 msgid "remove"
 msgstr "usuń"
 
 #: pisi/cli/history.py:28
-msgid "repository update"
-msgstr "aktualizuj repozytorium"
+msgid "emerge"
+msgstr ""
+
+#: pisi/cli/history.py:28
+msgid "install"
+msgstr "zainstaluj"
 
 #: pisi/cli/history.py:28
 msgid "snapshot"
@@ -1406,8 +1388,8 @@ msgid "takeback"
 msgstr ""
 
 #: pisi/cli/history.py:28
-msgid "upgrade"
-msgstr "aktualizuj"
+msgid "repository update"
+msgstr "aktualizuj repozytorium"
 
 #: pisi/cli/history.py:31
 msgid ""
@@ -1608,11 +1590,15 @@ msgid "Fetch upgrades but do not install."
 msgstr ""
 
 #: pisi/cli/install.py:63
-msgid "When installing packages, ignore packages and components whose basenames match pattern."
+msgid ""
+"When installing packages, ignore packages and components whose basenames "
+"match pattern."
 msgstr ""
 
 #: pisi/cli/install.py:66
-msgid "When installing packages, ignore packages and components whose basenames match any pattern contained in file."
+msgid ""
+"When installing packages, ignore packages and components whose basenames "
+"match any pattern contained in file."
 msgstr ""
 
 #: pisi/cli/install.py:93
@@ -1700,7 +1686,8 @@ msgid "Show detailed install info"
 msgstr ""
 
 #: pisi/cli/listinstalled.py:78 pisi/cli/listupgrades.py:73
-msgid "Package Name          |St|        Version|  Rel.|  Distro|             Date"
+msgid ""
+"Package Name          |St|        Version|  Rel.|  Distro|             Date"
 msgstr ""
 
 #: pisi/cli/listnewest.py:25
@@ -1719,11 +1706,15 @@ msgid "list-newest options"
 msgstr ""
 
 #: pisi/cli/listnewest.py:46
-msgid "List new packages added to repository after this given date formatted as yyyy-mm-dd"
+msgid ""
+"List new packages added to repository after this given date formatted as "
+"yyyy-mm-dd"
 msgstr ""
 
 #: pisi/cli/listnewest.py:48
-msgid "List new packages added to repository after last nth previous repository update"
+msgid ""
+"List new packages added to repository after last nth previous repository "
+"update"
 msgstr ""
 
 #: pisi/cli/listnewest.py:76
@@ -2006,11 +1997,15 @@ msgid "Name of the to be upgraded packages' repository"
 msgstr ""
 
 #: pisi/cli/upgrade.py:68
-msgid "When upgrading system, ignore packages and components whose basenames match pattern."
+msgid ""
+"When upgrading system, ignore packages and components whose basenames match "
+"pattern."
 msgstr ""
 
 #: pisi/cli/upgrade.py:71
-msgid "When upgrading system, ignore packages and components whose basenames match any pattern contained in file."
+msgid ""
+"When upgrading system, ignore packages and components whose basenames match "
+"any pattern contained in file."
 msgstr ""
 
 #: pisi/cli/upgrade.py:85
@@ -2167,7 +2162,9 @@ msgstr ""
 
 #: pisi/db/installdb.py:94
 #, python-format
-msgid "Installation info for package '%s' is broken. Reinstall it to fix this problem."
+msgid ""
+"Installation info for package '%s' is broken. Reinstall it to fix this "
+"problem."
 msgstr ""
 
 #: pisi/db/installdb.py:335
@@ -2201,12 +2198,16 @@ msgid "%s repository needs to be updated"
 msgstr ""
 
 #: pisi/db/repodb.py:174
-msgid "Error parsing repository index information. Index file does not exist or is malformed."
+msgid ""
+"Error parsing repository index information. Index file does not exist or is "
+"malformed."
 msgstr ""
 
 #: pisi/db/repodb.py:264
 #, python-format
-msgid "Repository '%s' is not compatible with your distribution. Repository is disabled."
+msgid ""
+"Repository '%s' is not compatible with your distribution. Repository is "
+"disabled."
 msgstr ""
 
 #: pisi/fetcher.py:147
@@ -2233,7 +2234,9 @@ msgid "Could not fetch destination file \"%s\": %s"
 msgstr ""
 
 #: pisi/fetcher.py:174
-msgid "A problem occurred. Please check the archive address and/or permissions again."
+msgid ""
+"A problem occurred. Please check the archive address and/or permissions "
+"again."
 msgstr ""
 
 #: pisi/fetcher.py:207
@@ -2247,11 +2250,15 @@ msgid "Bandwidth usage is limited to %s KB/s"
 msgstr ""
 
 #: pisi/fetcher.py:227
-msgid "Remote file can not be reached. Previously downloaded part of the file will be removed."
+msgid ""
+"Remote file can not be reached. Previously downloaded part of the file will "
+"be removed."
 msgstr ""
 
 #: pisi/fetcher.py:236
-msgid "Server doesn't support partial downloads. Previously downloaded part of the file will be over-written."
+msgid ""
+"Server doesn't support partial downloads. Previously downloaded part of the "
+"file will be over-written."
 msgstr ""
 
 #: pisi/file.py:35
@@ -2441,11 +2448,15 @@ msgid "Rebuilding for %s"
 msgstr ""
 
 #: pisi/operations/build.py:500
-msgid "Cannot find component.xml in remote directory, Source is now part of unknown component"
+msgid ""
+"Cannot find component.xml in remote directory, Source is now part of unknown"
+" component"
 msgstr ""
 
 #: pisi/operations/build.py:508
-msgid "Cannot find component.xml in upper directory, Source is now part of unknown component"
+msgid ""
+"Cannot find component.xml in upper directory, Source is now part of unknown "
+"component"
 msgstr ""
 
 #: pisi/operations/build.py:522
@@ -2531,7 +2542,8 @@ msgid "Source package '%s' defines multiple 'Path' tags for %s"
 msgstr ""
 
 #: pisi/operations/build.py:807
-msgid "Safety switch: following extra packages in system.devel will be installed: "
+msgid ""
+"Safety switch: following extra packages in system.devel will be installed: "
 msgstr "Przełącznik bezpieczeństwa: zostaną zainstalowane następujące dodatkowe pakiety z system.devel: "
 
 #: pisi/operations/build.py:812
@@ -2637,17 +2649,22 @@ msgstr ""
 
 #: pisi/operations/delta.py:43
 #, python-format
-msgid "The file '%s' belongs to a different package other than '%s'. Skipping it..."
+msgid ""
+"The file '%s' belongs to a different package other than '%s'. Skipping it..."
 msgstr ""
 
 #: pisi/operations/delta.py:49
 #, python-format
-msgid "Package '%s' has the same release number with the new package. Skipping it..."
+msgid ""
+"Package '%s' has the same release number with the new package. Skipping "
+"it..."
 msgstr ""
 
 #: pisi/operations/delta.py:69
 #, python-format
-msgid "All files in the package '%s' are different from the files in the new package. Skipping it..."
+msgid ""
+"All files in the package '%s' are different from the files in the new "
+"package. Skipping it..."
 msgstr ""
 
 #: pisi/operations/delta.py:113
@@ -2742,7 +2759,9 @@ msgid ""
 msgstr ""
 
 #: pisi/operations/install.py:47 pisi/operations/install.py:134
-msgid "The following package(s) are already installed and are not going to be installed again:"
+msgid ""
+"The following package(s) are already installed and are not going to be "
+"installed again:"
 msgstr ""
 
 #: pisi/operations/install.py:53 pisi/operations/install.py:213
@@ -2783,7 +2802,8 @@ msgid "External dependencies not satisfied: %s"
 msgstr ""
 
 #: pisi/operations/install.py:197
-msgid "The following packages will be installed in order to satisfy dependencies:"
+msgid ""
+"The following packages will be installed in order to satisfy dependencies:"
 msgstr ""
 
 #: pisi/operations/install.py:201
@@ -2844,11 +2864,15 @@ msgid "Replaced package remains"
 msgstr "Pozostawianie zastąpionych pakietów"
 
 #: pisi/operations/upgrade.py:52
-msgid "You must restart the following service(s) manually for the updated software to take effect:"
+msgid ""
+"You must restart the following service(s) manually for the updated software "
+"to take effect:"
 msgstr "Następujące usługi musisz ręcznie zrestartować by uaktywnić aktualizacje:"
 
 #: pisi/operations/upgrade.py:59
-msgid "You must restart your system for the updates in the following package(s) to take effect:"
+msgid ""
+"You must restart your system for the updates in the following package(s) to "
+"take effect:"
 msgstr "Musisz ponownie uruchomić komputer by następujące aktualizacje miały efekt:"
 
 #: pisi/operations/upgrade.py:81
@@ -2927,7 +2951,9 @@ msgid "LocalText: unable to get either current or default locale"
 msgstr ""
 
 #: pisi/pxml/autoxml.py:119 pisi/pxml/autoxml.py:134
-msgid "Tag should have at least the current locale, or failing that an English or Turkish version"
+msgid ""
+"Tag should have at least the current locale, or failing that an English or "
+"Turkish version"
 msgstr ""
 
 #: pisi/pxml/autoxml.py:372
