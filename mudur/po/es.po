@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # klemens <click3d at linuxmail org>, 2007
 # Klemens Häckel <click3d at linuxmail dot com>, 2008
@@ -9,20 +9,20 @@
 # Klemens Häckel <click3d at linuxmail dot org>, 2008-2009
 # Klemens Häckel <click3d_at_linuxmail_org>, 2007-2008
 # Klemens Haeckel <click3d at linuxmail org>, 2008
+# megatotoro <jratlsv2@racsa.co.cr>, 2014
 # yoyo308 <yoyofv@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-23 11:26+0200\n"
-"PO-Revision-Date: 2013-02-22 21:20+0000\n"
-"Last-Translator: yoyo308 <yoyofv@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/PiSiLinux/"
-"language/es/)\n"
-"Language: es\n"
+"PO-Revision-Date: 2014-02-23 16:00+0000\n"
+"Last-Translator: megatotoro <jratlsv2@racsa.co.cr>\n"
+"Language-Team: Spanish (http://www.transifex.com/projects/p/PiSiLinux/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: bin/mudur.py:322
@@ -30,9 +30,8 @@ msgid "Cannot write mudur.log, read-only file system"
 msgstr "No es posible grabar mudur.log, sistema de archivos solo-lectura"
 
 #: bin/mudur.py:499
-#, fuzzy
 msgid "Cannot find /etc/pisilinux-release"
-msgstr "Archivo /etc/pardus-release no encontrado"
+msgstr "No se encontró /etc/pisilinux-release"
 
 #: bin/mudur.py:595
 msgid "/etc/env.d/03locale cannot be updated"
@@ -52,9 +51,7 @@ msgstr "No es posible conectar a DBus, los servicios no se iniciarán"
 msgid ""
 "Unable to start network:\n"
 "  %s"
-msgstr ""
-"No es posible iniciar la red:\n"
-"  %s"
+msgstr "No es posible iniciar la red:\n  %s"
 
 #: bin/mudur.py:700
 msgid "Cannot start system logger"
@@ -143,11 +140,7 @@ msgid ""
 "Root filesystem could not be mounted read/write\n"
 "   You can either login below and manually check your filesytem(s) OR\n"
 "   restart your system, press F3 and select 'FS check' from boot menu\n"
-msgstr ""
-"El sistema de archivos Root no se pudo montar en lectura/escitura Puede "
-"iniciar una sesión y chequear manualmente el sistema de archivo o reiniciar "
-"el sistema, presionar F3 y seleccionar 'Verificación de Sistema de archivos' "
-"en el menú de arranque\n"
+msgstr "El sistema de archivos Root no se pudo montar en lectura/escitura Puede iniciar una sesión y chequear manualmente el sistema de archivo o reiniciar el sistema, presionar F3 y seleccionar 'Verificación de Sistema de archivos' en el menú de arranque\n"
 
 #: bin/mudur.py:960
 msgid "Couldn't synchronize /etc/mtab from /proc/mounts"
@@ -175,7 +168,7 @@ msgstr "Montando sistema de archivos local"
 
 #: bin/mudur.py:1023
 msgid "Unmounting /run"
-msgstr ""
+msgstr "Desmontando /run"
 
 #: bin/mudur.py:1034
 msgid "Mounting remote filesystems"
@@ -199,9 +192,8 @@ msgid "Deactivating swap space"
 msgstr "Desactivando área de swap"
 
 #: bin/mudur.py:1144
-#, fuzzy
 msgid "Cleaning up /run"
-msgstr "Limpiando /var"
+msgstr "Limpiando up /run"
 
 #: bin/mudur.py:1160
 msgid "Cleaning up /tmp"
@@ -213,8 +205,7 @@ msgstr "Estableciendo hora del sistema a hora del hardware"
 
 #: bin/mudur.py:1213
 msgid "Failed to adjust systematic drift of the hardware clock"
-msgstr ""
-"No es posible corregir el desajuste sistemático de la hora del hardware"
+msgstr "No es posible corregir el desajuste sistemático de la hora del hardware"
 
 #: bin/mudur.py:1218
 msgid "Failed to set system clock to hardware clock"
@@ -237,18 +228,14 @@ msgid "Remounting remaining filesystems read-only"
 msgstr "Montando de nuevo sistema de archivos restantes solo-lectura"
 
 #: bin/mudur.py:1310
-#, fuzzy
 msgid ""
 "An internal error occured. Please report to the bugs.pisilinux.orgwith "
 "following information:"
-msgstr ""
-"Ocurrió un error interno. Por favor reporte a bugs.pardus.org.tr con la "
-"siguiente información:"
+msgstr "Ocurrió un error interno. Por favor repórtelo a bugs.pisilinux.org con la siguiente información:"
 
 #: bin/mudur.py:1406
-#, fuzzy
 msgid "Creating tmpfiles"
-msgstr "Limpiando /tmp"
+msgstr "Creando tmpfiles"
 
 #: bin/mudur.py:1423
 msgid "Setting up localhost"
@@ -370,21 +357,7 @@ msgid ""
 "and option is:\n"
 " -N, --no-color  Don't use color in output\n"
 " -q, --quiet     Don't print replies"
-msgstr ""
-"uso: service [<options>] [<service>] <command>\n"
-"command puede ser:\n"
-" list    Mostrar lista del servicio\n"
-" status   Mostrar estado del servicio\n"
-" info    Mostrar información del servicio\n"
-" on      Auto-start el servicio\n"
-" off     No aplicar auto-start al servicio\n"
-" start   Iniciar el servicio\n"
-" stop    Parar el servicio\n"
-" restart Parar el servicio, luego iniciar de nuevo\n"
-" reload  Recargar la configuración (si el servicio lo soporta)\n"
-"y option es:\n"
-" -N, --no-color  No usar color en la salida\n"
-" -q, --quiet     No imprimir mensajes"
+msgstr "uso: service [<options>] [<service>] <command>\ncommand puede ser:\n list    Mostrar lista del servicio\n status   Mostrar estado del servicio\n info    Mostrar información del servicio\n on      Auto-start el servicio\n off     No aplicar auto-start al servicio\n start   Iniciar el servicio\n stop    Parar el servicio\n restart Parar el servicio, luego iniciar de nuevo\n reload  Recargar la configuración (si el servicio lo soporta)\ny option es:\n -N, --no-color  No usar color en la salida\n -q, --quiet     No imprimir mensajes"
 
 #: bin/service.py:355
 #, python-format

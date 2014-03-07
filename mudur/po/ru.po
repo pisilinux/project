@@ -1,9 +1,10 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Klemens Häckel <click3d at linuxmail dot org>, 2009
+# tribunal <tribunal2000@mail.ru>, 2014
 # Mustafa Ölcerman <m.oelcerman@pardus-linux.de>, 2007-2008
 # Mustafa Ölcerman <m.oelcerman@pardus-linux.eu>, 2009
 # Mustafa Ölcerman <mustafa.oelcerman@fk-koeln.de>, 2007
@@ -13,25 +14,22 @@ msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-23 11:26+0200\n"
-"PO-Revision-Date: 2013-01-04 22:00+0000\n"
-"Last-Translator: circass <erdincgultekin@gmail.com>\n"
-"Language-Team: Russian (http://www.transifex.com/projects/p/PiSiLinux/"
-"language/ru/)\n"
-"Language: ru\n"
+"PO-Revision-Date: 2014-02-24 19:31+0000\n"
+"Last-Translator: tribunal <tribunal2000@mail.ru>\n"
+"Language-Team: Russian (http://www.transifex.com/projects/p/PiSiLinux/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: bin/mudur.py:322
 msgid "Cannot write mudur.log, read-only file system"
 msgstr "Невозможно записать mudur.log, файловой система только для чтения"
 
 #: bin/mudur.py:499
-#, fuzzy
 msgid "Cannot find /etc/pisilinux-release"
-msgstr "Не могу найти /etc/pardus-release"
+msgstr "Невозможно найти /etc/pisilinux-release"
 
 #: bin/mudur.py:595
 msgid "/etc/env.d/03locale cannot be updated"
@@ -51,9 +49,7 @@ msgstr "Не удается подключиться к DBus, сервис не 
 msgid ""
 "Unable to start network:\n"
 "  %s"
-msgstr ""
-"Не удается запустить сеть:\n"
-"  %s"
+msgstr "Не удается запустить сеть:\n  %s"
 
 #: bin/mudur.py:700
 msgid "Cannot start system logger"
@@ -142,10 +138,7 @@ msgid ""
 "Root filesystem could not be mounted read/write\n"
 "   You can either login below and manually check your filesytem(s) OR\n"
 "   restart your system, press F3 and select 'FS check' from boot menu\n"
-msgstr ""
-"Корневая файловая система не может быть смонтирована для чтения и записи\n"
-"Вы можете войти ниже и вручную проверить файловую систему(ы) или\n"
-"перезагрузить систему, нажмите F3 и выберите 'FS check' из меню загрузки\n"
+msgstr "Корневая файловая система не может быть смонтирована для чтения и записи\nВы можете войти ниже и вручную проверить файловую систему(ы) или\nперезагрузить систему, нажмите F3 и выберите 'FS check' из меню загрузки\n"
 
 #: bin/mudur.py:960
 msgid "Couldn't synchronize /etc/mtab from /proc/mounts"
@@ -165,8 +158,7 @@ msgstr "Ошибки файловой системы исправлены"
 
 #: bin/mudur.py:1004
 msgid "Fsck could not correct all errors, manual repair needed"
-msgstr ""
-"Fsck не может исправить все ошибки автоматически, нужно ручное исправление"
+msgstr "Fsck не может исправить все ошибки автоматически, нужно ручное исправление"
 
 #: bin/mudur.py:1013
 msgid "Mounting local filesystems"
@@ -174,7 +166,7 @@ msgstr "Монтаж локальных файловых систем"
 
 #: bin/mudur.py:1023
 msgid "Unmounting /run"
-msgstr ""
+msgstr "Размонтирование /run"
 
 #: bin/mudur.py:1034
 msgid "Mounting remote filesystems"
@@ -198,9 +190,8 @@ msgid "Deactivating swap space"
 msgstr "Отключение подкачки"
 
 #: bin/mudur.py:1144
-#, fuzzy
 msgid "Cleaning up /run"
-msgstr "Очистка /var"
+msgstr "Очистка /run"
 
 #: bin/mudur.py:1160
 msgid "Cleaning up /tmp"
@@ -235,18 +226,14 @@ msgid "Remounting remaining filesystems read-only"
 msgstr "Перемонтирование остальных файловых систем только для чтения"
 
 #: bin/mudur.py:1310
-#, fuzzy
 msgid ""
 "An internal error occured. Please report to the bugs.pisilinux.orgwith "
 "following information:"
-msgstr ""
-"Произошла внутренняя ошибка. Пожалуйста сообщите по адресу bugs.pardus.org."
-"tr следующую информацию:"
+msgstr "Обнаружена внутренняя ошибка. Пожалуйста, пошлите отчет о ней на адрес bugs.pisilinux.org со следующей информацией:"
 
 #: bin/mudur.py:1406
-#, fuzzy
 msgid "Creating tmpfiles"
-msgstr "Очистка /tmp"
+msgstr "Создание временных файлов"
 
 #: bin/mudur.py:1423
 msgid "Setting up localhost"
@@ -368,21 +355,7 @@ msgid ""
 "and option is:\n"
 " -N, --no-color  Don't use color in output\n"
 " -q, --quiet     Don't print replies"
-msgstr ""
-"Использование: service [<параметры>] [<службы>] <command>\n"
-"where command is:\n"
-" list Display service list\n"
-" status Display service status\n"
-" info Display service status\n"
-" on Auto start the service\n"
-" off Don't auto start the service\n"
-" start Start the service\n"
-" stop Stop the service\n"
-" restart Stop the service, then start again\n"
-" reload Reload the configuration (if service supports this)\n"
-"and option is:\n"
-" -N, --no-color Don't use color in output\n"
-" -q, --quiet Don't print replies"
+msgstr "Использование: service [<параметры>] [<службы>] <command>\nwhere command is:\n list Display service list\n status Display service status\n info Display service status\n on Auto start the service\n off Don't auto start the service\n start Start the service\n stop Stop the service\n restart Stop the service, then start again\n reload Reload the configuration (if service supports this)\nand option is:\n -N, --no-color Don't use color in output\n -q, --quiet Don't print replies"
 
 #: bin/service.py:355
 #, python-format

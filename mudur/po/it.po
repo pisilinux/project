@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Andrea Decorte <adecorte@gmail.com>, 2007
 # Davide Siciliano <edivad95@gmail.com>, 2010
@@ -11,14 +11,13 @@ msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-23 11:26+0200\n"
-"PO-Revision-Date: 2013-09-15 09:11+0000\n"
-"Last-Translator: ddave <ddave090@gmail.com>\n"
-"Language-Team: Italian (http://www.transifex.com/projects/p/PiSiLinux/"
-"language/it/)\n"
-"Language: it\n"
+"PO-Revision-Date: 2014-02-23 09:24+0000\n"
+"Last-Translator: obsoleteman <tulliana@gmail.com>\n"
+"Language-Team: Italian (http://www.transifex.com/projects/p/PiSiLinux/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: bin/mudur.py:322
@@ -26,9 +25,8 @@ msgid "Cannot write mudur.log, read-only file system"
 msgstr "Impossibile scrivere mudur.log, filesystem di sola lettura"
 
 #: bin/mudur.py:499
-#, fuzzy
 msgid "Cannot find /etc/pisilinux-release"
-msgstr "Impossibile trovare il file /etc/pardus-release"
+msgstr ""
 
 #: bin/mudur.py:595
 msgid "/etc/env.d/03locale cannot be updated"
@@ -48,9 +46,7 @@ msgstr "Impossibile collegarsi a DBUS, i servizi non verranno avviati"
 msgid ""
 "Unable to start network:\n"
 "  %s"
-msgstr ""
-"Impossibile attivare rete:\n"
-" %s"
+msgstr "Impossibile attivare rete:\n %s"
 
 #: bin/mudur.py:700
 msgid "Cannot start system logger"
@@ -139,11 +135,7 @@ msgid ""
 "Root filesystem could not be mounted read/write\n"
 "   You can either login below and manually check your filesytem(s) OR\n"
 "   restart your system, press F3 and select 'FS check' from boot menu\n"
-msgstr ""
-"Il filesystem di root non può essere montato in lettura e scrittura\n"
-"  Puoi comunque loggarti qui sotto e controllare manualmente il filesystem,\n"
-"  oppure riavviare, premere F3 e selezionare 'Controllo Filesystem' dal menu "
-"di boot\n"
+msgstr "Il filesystem di root non può essere montato in lettura e scrittura\n  Puoi comunque loggarti qui sotto e controllare manualmente il filesystem,\n  oppure riavviare, premere F3 e selezionare 'Controllo Filesystem' dal menu di boot\n"
 
 #: bin/mudur.py:960
 msgid "Couldn't synchronize /etc/mtab from /proc/mounts"
@@ -163,9 +155,7 @@ msgstr "Errori del filesystem corretti"
 
 #: bin/mudur.py:1004
 msgid "Fsck could not correct all errors, manual repair needed"
-msgstr ""
-"Fsck non è riuscito a correggere tutti gli errori, è necessaria una "
-"riparazione manuale"
+msgstr "Fsck non è riuscito a correggere tutti gli errori, è necessaria una riparazione manuale"
 
 #: bin/mudur.py:1013
 msgid "Mounting local filesystems"
@@ -197,9 +187,8 @@ msgid "Deactivating swap space"
 msgstr "Disattivazione swap"
 
 #: bin/mudur.py:1144
-#, fuzzy
 msgid "Cleaning up /run"
-msgstr "Svuotamento di /var"
+msgstr ""
 
 #: bin/mudur.py:1160
 msgid "Cleaning up /tmp"
@@ -211,18 +200,15 @@ msgstr "Impostazione dell'orologio di sistema al valore dell'orologio hardware"
 
 #: bin/mudur.py:1213
 msgid "Failed to adjust systematic drift of the hardware clock"
-msgstr ""
-"Correzione dello scostamento automatico  dell'orologio hardware fallita"
+msgstr "Correzione dello scostamento automatico  dell'orologio hardware fallita"
 
 #: bin/mudur.py:1218
 msgid "Failed to set system clock to hardware clock"
-msgstr ""
-"Impossibile impostare l'orologio di sistema al valore dell'orologio hardware"
+msgstr "Impossibile impostare l'orologio di sistema al valore dell'orologio hardware"
 
 #: bin/mudur.py:1229
 msgid "Syncing system clock to hardware clock"
-msgstr ""
-"Sincronizzazione dell'orologio di sistema al valore dell'orologio hardware"
+msgstr "Sincronizzazione dell'orologio di sistema al valore dell'orologio hardware"
 
 #: bin/mudur.py:1232
 msgid "Failed to synchronize clocks"
@@ -237,18 +223,14 @@ msgid "Remounting remaining filesystems read-only"
 msgstr "Rimontaggio dei filesystem rimanenti in sola lettura"
 
 #: bin/mudur.py:1310
-#, fuzzy
 msgid ""
 "An internal error occured. Please report to the bugs.pisilinux.orgwith "
 "following information:"
 msgstr ""
-"C'è stato un errore interno. Segnala per piacere un bug su bugs.pardus.org."
-"tr fornendo le seguenti informazioni:"
 
 #: bin/mudur.py:1406
-#, fuzzy
 msgid "Creating tmpfiles"
-msgstr "Svuotamento di /tmp"
+msgstr ""
 
 #: bin/mudur.py:1423
 msgid "Setting up localhost"
@@ -370,22 +352,7 @@ msgid ""
 "and option is:\n"
 " -N, --no-color  Don't use color in output\n"
 " -q, --quiet     Don't print replies"
-msgstr ""
-"utilizzo: servizio [<opzioni>] [<servizio>] <comando>\n"
-"dove comando è:\n"
-" list     Mostra la lista dei servizi\n"
-" status   Mostra lo stato dei servizi\n"
-" info     Mostra lo stato dei servizi\n"
-" on       Attiva avvio automatico del servizio\n"
-" off      Disattiva avvio automatico del servizio\n"
-" start    Avvia il servizio\n"
-" stop     Ferma il servizio\n"
-" restart  Ferma il servizio, poi lo avvia nuovamente\n"
-" reload   Ricarica la configurazione (se il servizio supporta questa "
-"funzione)\n"
-"e le opzioni sono:\n"
-" -N, --no-color  Non utilizzare colori in output  -q, --quiet Non mostrare "
-"avvisi"
+msgstr "utilizzo: servizio [<opzioni>] [<servizio>] <comando>\ndove comando è:\n list     Mostra la lista dei servizi\n status   Mostra lo stato dei servizi\n info     Mostra lo stato dei servizi\n on       Attiva avvio automatico del servizio\n off      Disattiva avvio automatico del servizio\n start    Avvia il servizio\n stop     Ferma il servizio\n restart  Ferma il servizio, poi lo avvia nuovamente\n reload   Ricarica la configurazione (se il servizio supporta questa funzione)\ne le opzioni sono:\n -N, --no-color  Non utilizzare colori in output  -q, --quiet Non mostrare avvisi"
 
 #: bin/service.py:355
 #, python-format

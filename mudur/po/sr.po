@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Navodar, 2014
 # Navodar <radovan.rockov@gmail.com>, 2014
@@ -10,25 +10,22 @@ msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-23 11:26+0200\n"
-"PO-Revision-Date: 2014-02-06 13:33+0000\n"
-"Last-Translator: Navodar <radovan.rockov@gmail.com>\n"
-"Language-Team: Serbian (http://www.transifex.com/projects/p/PiSiLinux/"
-"language/sr/)\n"
-"Language: sr\n"
+"PO-Revision-Date: 2014-02-23 09:24+0000\n"
+"Last-Translator: obsoleteman <tulliana@gmail.com>\n"
+"Language-Team: Serbian (http://www.transifex.com/projects/p/PiSiLinux/language/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: bin/mudur.py:322
 msgid "Cannot write mudur.log, read-only file system"
 msgstr "Не могу да пишем у mudur.log,  систем датотека је само за читање"
 
 #: bin/mudur.py:499
-#, fuzzy
 msgid "Cannot find /etc/pisilinux-release"
-msgstr "Не могу да пронађем /etc/pardus-release"
+msgstr ""
 
 #: bin/mudur.py:595
 msgid "/etc/env.d/03locale cannot be updated"
@@ -48,9 +45,7 @@ msgstr "Не могу да се повежем на DBus, сервиси нећ�
 msgid ""
 "Unable to start network:\n"
 "  %s"
-msgstr ""
-"Не могу да покренем мрежу:\n"
-"%s"
+msgstr "Не могу да покренем мрежу:\n%s"
 
 #: bin/mudur.py:700
 msgid "Cannot start system logger"
@@ -112,8 +107,7 @@ msgstr "Проверавам коренски систем датотека"
 
 #: bin/mudur.py:919
 msgid "Filesystem repaired, but reboot needed!"
-msgstr ""
-"Систем датотека је поправљен, али је потребно поново покренути систем !"
+msgstr "Систем датотека је поправљен, али је потребно поново покренути систем !"
 
 #: bin/mudur.py:925
 msgid "Rebooting in 10 seconds..."
@@ -140,11 +134,7 @@ msgid ""
 "Root filesystem could not be mounted read/write\n"
 "   You can either login below and manually check your filesytem(s) OR\n"
 "   restart your system, press F3 and select 'FS check' from boot menu\n"
-msgstr ""
-"Коренски систем датотека се не може монтирати за читање/писање\n"
-" Можете се пријавити испод и ручно проверити ваш систем датотека ILI\n"
-"поново покрените ваш систем, притисните F3 и одаберите 'FS check' из boot "
-"менија\n"
+msgstr "Коренски систем датотека се не може монтирати за читање/писање\n Можете се пријавити испод и ручно проверити ваш систем датотека ILI\nпоново покрените ваш систем, притисните F3 и одаберите 'FS check' из boot менија\n"
 
 #: bin/mudur.py:960
 msgid "Couldn't synchronize /etc/mtab from /proc/mounts"
@@ -196,9 +186,8 @@ msgid "Deactivating swap space"
 msgstr "Искључујем swap простор"
 
 #: bin/mudur.py:1144
-#, fuzzy
 msgid "Cleaning up /run"
-msgstr "Чистим /var"
+msgstr ""
 
 #: bin/mudur.py:1160
 msgid "Cleaning up /tmp"
@@ -233,18 +222,14 @@ msgid "Remounting remaining filesystems read-only"
 msgstr "Поново монтирам преостале система датотека само читање"
 
 #: bin/mudur.py:1310
-#, fuzzy
 msgid ""
 "An internal error occured. Please report to the bugs.pisilinux.orgwith "
 "following information:"
 msgstr ""
-"Дошло је до интерне грешке. Молим пријавите је на bugs.pardus.org.tr са "
-"следећим информацијама:"
 
 #: bin/mudur.py:1406
-#, fuzzy
 msgid "Creating tmpfiles"
-msgstr "Чистим /tmp"
+msgstr ""
 
 #: bin/mudur.py:1423
 msgid "Setting up localhost"
@@ -366,21 +351,7 @@ msgid ""
 "and option is:\n"
 " -N, --no-color  Don't use color in output\n"
 " -q, --quiet     Don't print replies"
-msgstr ""
-"употреба: service [<опције>] [<сервис>] <команда>\n"
-"где је листа команди:\n"
-" list     Приказује листу сервиса\n"
-" status   Приказује статус сервиса\n"
-" info     Приказује статус сервиса\n"
-" on       Аутоматско покрени сервис\n"
-" off      Немој аутоматски да покрећеш сервис\n"
-" start    Покрени сервис\n"
-" stop     Заустави сервис\n"
-" restart  Заустави сервис, а затим ка поново покрени\n"
-" reload   Поново учитај конфигурацију (ако то сервис подржава)\n"
-"и где су опције:\n"
-" -N, --no-color  Немој користити боје на излазу\n"
-" -q, --quiet     Не штампај одговоре"
+msgstr "употреба: service [<опције>] [<сервис>] <команда>\nгде је листа команди:\n list     Приказује листу сервиса\n status   Приказује статус сервиса\n info     Приказује статус сервиса\n on       Аутоматско покрени сервис\n off      Немој аутоматски да покрећеш сервис\n start    Покрени сервис\n stop     Заустави сервис\n restart  Заустави сервис, а затим ка поново покрени\n reload   Поново учитај конфигурацију (ако то сервис подржава)\nи где су опције:\n -N, --no-color  Немој користити боје на излазу\n -q, --quiet     Не штампај одговоре"
 
 #: bin/service.py:355
 #, python-format

@@ -1,8 +1,9 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
+# fmayaturk <fmayaturk@gmail.com>, 2014
 # Klemens Häckel <click3d at linuxmail dot org>, 2009
 # Mustafa Ölcerman <m.oelcerman@pardus-linux.de>, 2007-2008
 # Mustafa Ölcerman <m.oelcerman@pardus-linux.eu>, 2009
@@ -13,26 +14,22 @@ msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-23 11:26+0200\n"
-"PO-Revision-Date: 2013-01-04 21:48+0000\n"
-"Last-Translator: circass <erdincgultekin@gmail.com>\n"
-"Language-Team: German (http://www.transifex.com/projects/p/PiSiLinux/"
-"language/de/)\n"
-"Language: de\n"
+"PO-Revision-Date: 2014-02-28 13:13+0000\n"
+"Last-Translator: fmayaturk <fmayaturk@gmail.com>\n"
+"Language-Team: German (http://www.transifex.com/projects/p/PiSiLinux/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: bin/mudur.py:322
 msgid "Cannot write mudur.log, read-only file system"
-msgstr ""
-"Mudur.log kann nicht beschrieben werden, Nur Lesezugriff auf Dateisystem "
-"möglich"
+msgstr "Mudur.log kann nicht beschrieben werden, Nur Lesezugriff auf Dateisystem möglich"
 
 #: bin/mudur.py:499
-#, fuzzy
 msgid "Cannot find /etc/pisilinux-release"
-msgstr "/etc/pardus-release kann nicht gefunden werden"
+msgstr "/etc/pisilinux-release kann man nicht finden."
 
 #: bin/mudur.py:595
 msgid "/etc/env.d/03locale cannot be updated"
@@ -52,9 +49,7 @@ msgstr "Kann nicht zu DBus verbinden, Dienste werden nicht gestartet"
 msgid ""
 "Unable to start network:\n"
 "  %s"
-msgstr ""
-"Starten von Netzwerk fehlgeschlagen:\n"
-"  %s"
+msgstr "Starten von Netzwerk fehlgeschlagen:\n  %s"
 
 #: bin/mudur.py:700
 msgid "Cannot start system logger"
@@ -80,8 +75,7 @@ msgstr "%s wird angehalten"
 
 #: bin/mudur.py:821
 msgid "Can't move persistent udev rules from /dev/.udev"
-msgstr ""
-"Die beständigen udev-Regeln können nicht von /dev/.udev verschoben werden."
+msgstr "Die beständigen udev-Regeln können nicht von /dev/.udev verschoben werden."
 
 #: bin/mudur.py:836
 msgid "Starting udev"
@@ -144,13 +138,7 @@ msgid ""
 "Root filesystem could not be mounted read/write\n"
 "   You can either login below and manually check your filesytem(s) OR\n"
 "   restart your system, press F3 and select 'FS check' from boot menu\n"
-msgstr ""
-"Das Root Dateisystem konnte nicht für Lese/Schreibzugriff eingehängt "
-"werden.\n"
-"   Sie können sich entweder einloggen und das Dateisystem händisch "
-"überprüfen lassen, ODER\n"
-" das System neu starten. Drücken Sie dann im Startmenü die Funktionstaste F3 "
-"und wählen Sie dann 'FS check'\n"
+msgstr "Das Root Dateisystem konnte nicht für Lese/Schreibzugriff eingehängt werden.\n   Sie können sich entweder einloggen und das Dateisystem händisch überprüfen lassen, ODER\n das System neu starten. Drücken Sie dann im Startmenü die Funktionstaste F3 und wählen Sie dann 'FS check'\n"
 
 #: bin/mudur.py:960
 msgid "Couldn't synchronize /etc/mtab from /proc/mounts"
@@ -170,8 +158,7 @@ msgstr "Dateisystem Fehler korrigiert"
 
 #: bin/mudur.py:1004
 msgid "Fsck could not correct all errors, manual repair needed"
-msgstr ""
-"Fsck konnte nicht alle Fehler beheben, eine manuelle Behebung ist nötig"
+msgstr "Fsck konnte nicht alle Fehler beheben, eine manuelle Behebung ist nötig"
 
 #: bin/mudur.py:1013
 msgid "Mounting local filesystems"
@@ -179,7 +166,7 @@ msgstr "Lokale Dateisysteme werden gemountet"
 
 #: bin/mudur.py:1023
 msgid "Unmounting /run"
-msgstr ""
+msgstr "/run wird ausgehängt"
 
 #: bin/mudur.py:1034
 msgid "Mounting remote filesystems"
@@ -203,9 +190,8 @@ msgid "Deactivating swap space"
 msgstr "SWAP wird deaktiviert"
 
 #: bin/mudur.py:1144
-#, fuzzy
 msgid "Cleaning up /run"
-msgstr "/var wird gesäubert"
+msgstr "/run wird ausgeräumt"
 
 #: bin/mudur.py:1160
 msgid "Cleaning up /tmp"
@@ -217,9 +203,7 @@ msgstr "Systemuhr wird von der Hardwareuhr gesetzt"
 
 #: bin/mudur.py:1213
 msgid "Failed to adjust systematic drift of the hardware clock"
-msgstr ""
-"Abgleichung der systematischen Abweichung von der Hardware-Uhr ist "
-"fehlgeschlagen"
+msgstr "Abgleichung der systematischen Abweichung von der Hardware-Uhr ist fehlgeschlagen"
 
 #: bin/mudur.py:1218
 msgid "Failed to set system clock to hardware clock"
@@ -242,18 +226,14 @@ msgid "Remounting remaining filesystems read-only"
 msgstr "Restliche Dateisysteme werden mit Lesezugriff erneut gemountet"
 
 #: bin/mudur.py:1310
-#, fuzzy
 msgid ""
 "An internal error occured. Please report to the bugs.pisilinux.orgwith "
 "following information:"
-msgstr ""
-"Ein interner Fehler ist aufgetreten. Bitte berichten Sie den Fehler an bugs."
-"pardus.org.tr mit der folgenden Information:"
+msgstr "Ein interner Fehler ist aufgetreten. Bitte melden Sie diesen Fehler an bugs.pisi linux.org mit folgenden Informationen:"
 
 #: bin/mudur.py:1406
-#, fuzzy
 msgid "Creating tmpfiles"
-msgstr "/tmp wird gesäubert"
+msgstr "tmp-Dateien werden erstellt"
 
 #: bin/mudur.py:1423
 msgid "Setting up localhost"
@@ -375,21 +355,7 @@ msgid ""
 "and option is:\n"
 " -N, --no-color  Don't use color in output\n"
 " -q, --quiet     Don't print replies"
-msgstr ""
-"Verwendung: service [<Option>][<Dienst>] <Befehl>\n"
-"wo Befehl folgendes ist:\n"
-" list    Dienste auflisten \n"
-" status   Status des Dienstes anzeigen\n"
-" info    Status des Dienstes anzeigen\n"
-" on      Dienst automatisch starten\n"
-" off      Dienst nicht automatisch starten\n"
-" start   Dienst starten\n"
-" stop   Dienst anhalten\n"
-" restart Dienst anhalten und anschliessen erneut starten\n"
-" reload Konfiguration wird neugeladen (wenn der Dienst das unterstützt)\n"
-"und Option ist:\n"
-" -N, --no-color  keine Farben bei der Ausgabe verwenden\n"
-" -q, --quiet     Keine Antworten ausgeben"
+msgstr "Verwendung: service [<Option>][<Dienst>] <Befehl>\nwo Befehl folgendes ist:\n list    Dienste auflisten \n status   Status des Dienstes anzeigen\n info    Status des Dienstes anzeigen\n on      Dienst automatisch starten\n off      Dienst nicht automatisch starten\n start   Dienst starten\n stop   Dienst anhalten\n restart Dienst anhalten und anschliessen erneut starten\n reload Konfiguration wird neugeladen (wenn der Dienst das unterstützt)\nund Option ist:\n -N, --no-color  keine Farben bei der Ausgabe verwenden\n -q, --quiet     Keine Antworten ausgeben"
 
 #: bin/service.py:355
 #, python-format

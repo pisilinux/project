@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # negura_bunget <marcin.bojara@gmail.com>, 2013
 msgid ""
@@ -9,25 +9,22 @@ msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-23 11:26+0200\n"
-"PO-Revision-Date: 2013-01-04 22:09+0000\n"
-"Last-Translator: negura_bunget <marcin.bojara@gmail.com>\n"
-"Language-Team: Polish (http://www.transifex.com/projects/p/PiSiLinux/"
-"language/pl/)\n"
-"Language: pl\n"
+"PO-Revision-Date: 2014-02-23 09:24+0000\n"
+"Last-Translator: obsoleteman <tulliana@gmail.com>\n"
+"Language-Team: Polish (http://www.transifex.com/projects/p/PiSiLinux/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: bin/mudur.py:322
 msgid "Cannot write mudur.log, read-only file system"
 msgstr "Nie można zapisać mudur.log, system plików tylko do odczytu"
 
 #: bin/mudur.py:499
-#, fuzzy
 msgid "Cannot find /etc/pisilinux-release"
-msgstr "Nie można znaleźć /etc/pardus-release"
+msgstr ""
 
 #: bin/mudur.py:595
 msgid "/etc/env.d/03locale cannot be updated"
@@ -47,9 +44,7 @@ msgstr "Nie można połączyć z DBus, usługi nie zostaną uruchomione"
 msgid ""
 "Unable to start network:\n"
 "  %s"
-msgstr ""
-"Nie można uruchomić sieci: \n"
-" %s"
+msgstr "Nie można uruchomić sieci: \n %s"
 
 #: bin/mudur.py:700
 msgid "Cannot start system logger"
@@ -190,9 +185,8 @@ msgid "Deactivating swap space"
 msgstr "Dezaktywowanie przestrzeni wymiany (swap)"
 
 #: bin/mudur.py:1144
-#, fuzzy
 msgid "Cleaning up /run"
-msgstr "Czyszczenie /var"
+msgstr ""
 
 #: bin/mudur.py:1160
 msgid "Cleaning up /tmp"
@@ -233,9 +227,8 @@ msgid ""
 msgstr ""
 
 #: bin/mudur.py:1406
-#, fuzzy
 msgid "Creating tmpfiles"
-msgstr "Czyszczenie /tmp"
+msgstr ""
 
 #: bin/mudur.py:1423
 msgid "Setting up localhost"
@@ -357,21 +350,7 @@ msgid ""
 "and option is:\n"
 " -N, --no-color  Don't use color in output\n"
 " -q, --quiet     Don't print replies"
-msgstr ""
-"używanie: usługa [<opcje>] [<usługa>] <polecenie>\n"
-"gdzie polecenie to:\n"
-"list     Wyświetla listę usług\n"
-"status   Wyświetla status usługi\n"
-"info     Wyświetla info usługi\n"
-"on       Automatyczne uruchamianie usługi włączone\n"
-"off      Automatyczne uruchamianie usługi wyłączone\n"
-"start    Uruchamia usługę\n"
-"stop     Zatrzymuje usługę\n"
-"restart  Restartuje usługę\n"
-"reload   Przeładowuje konfigurację (jeżeli usługa to obsługuje)\n"
-"a opcje to:\n"
-" -N, --no-color  Nie koloruje wyniku\n"
-" -q, --quiet     Nie wyświetla odpowiedzi"
+msgstr "używanie: usługa [<opcje>] [<usługa>] <polecenie>\ngdzie polecenie to:\nlist     Wyświetla listę usług\nstatus   Wyświetla status usługi\ninfo     Wyświetla info usługi\non       Automatyczne uruchamianie usługi włączone\noff      Automatyczne uruchamianie usługi wyłączone\nstart    Uruchamia usługę\nstop     Zatrzymuje usługę\nrestart  Restartuje usługę\nreload   Przeładowuje konfigurację (jeżeli usługa to obsługuje)\na opcje to:\n -N, --no-color  Nie koloruje wyniku\n -q, --quiet     Nie wyświetla odpowiedzi"
 
 #: bin/service.py:355
 #, python-format

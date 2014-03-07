@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # klaipedetis <romangalina@gmail.com>, 2013
 msgid ""
@@ -9,25 +9,22 @@ msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-23 11:26+0200\n"
-"PO-Revision-Date: 2013-12-13 12:17+0000\n"
-"Last-Translator: klaipedetis <romangalina@gmail.com>\n"
-"Language-Team: Lithuanian (http://www.transifex.com/projects/p/PiSiLinux/"
-"language/lt/)\n"
-"Language: lt\n"
+"PO-Revision-Date: 2014-02-23 09:24+0000\n"
+"Last-Translator: obsoleteman <tulliana@gmail.com>\n"
+"Language-Team: Lithuanian (http://www.transifex.com/projects/p/PiSiLinux/language/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
-"%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: bin/mudur.py:322
 msgid "Cannot write mudur.log, read-only file system"
 msgstr "Negali užrašyti mudur.log. Bylų sistemos tik skaitymo režimas."
 
 #: bin/mudur.py:499
-#, fuzzy
 msgid "Cannot find /etc/pisilinux-release"
-msgstr "Neįmanoma rasti /etc/pradus-release"
+msgstr ""
 
 #: bin/mudur.py:595
 msgid "/etc/env.d/03locale cannot be updated"
@@ -47,9 +44,7 @@ msgstr "Negalima prisijungti DBus, servisas ne startuoja"
 msgid ""
 "Unable to start network:\n"
 "  %s"
-msgstr ""
-"Nepavyko paleisti tinklo\n"
-"%s"
+msgstr "Nepavyko paleisti tinklo\n%s"
 
 #: bin/mudur.py:700
 msgid "Cannot start system logger"
@@ -127,8 +122,7 @@ msgstr "Bylų sistema ne gali būti atstatyta"
 
 #: bin/mudur.py:936
 msgid "Skipping root filesystem check (fstab's passno == 0)"
-msgstr ""
-"Šakninęs bylų sistemos patikrinimas praleidžiamas  (fstab's passno == 0)"
+msgstr "Šakninęs bylų sistemos patikrinimas praleidžiamas  (fstab's passno == 0)"
 
 #: bin/mudur.py:944
 msgid "Remounting root filesystem read/write"
@@ -139,11 +133,7 @@ msgid ""
 "Root filesystem could not be mounted read/write\n"
 "   You can either login below and manually check your filesytem(s) OR\n"
 "   restart your system, press F3 and select 'FS check' from boot menu\n"
-msgstr ""
-"Šakninė bylų sistema negali būti prijungta skaitymo/rašymo\n"
-"Jūs galite įeiti ir rankinių būdų patikrinti jūsų bylų sistemą (os). Arba\n"
-"paleisti iš naujo jūsų sistemą, paspauskite F3 ir pasirinkite \"BS "
-"patikrinimas\" iš menių \n"
+msgstr "Šakninė bylų sistema negali būti prijungta skaitymo/rašymo\nJūs galite įeiti ir rankinių būdų patikrinti jūsų bylų sistemą (os). Arba\npaleisti iš naujo jūsų sistemą, paspauskite F3 ir pasirinkite \"BS patikrinimas\" iš menių \n"
 
 #: bin/mudur.py:960
 msgid "Couldn't synchronize /etc/mtab from /proc/mounts"
@@ -195,9 +185,8 @@ msgid "Deactivating swap space"
 msgstr " SWAP erdvė deaktivojasi"
 
 #: bin/mudur.py:1144
-#, fuzzy
 msgid "Cleaning up /run"
-msgstr "Valomas /var"
+msgstr ""
 
 #: bin/mudur.py:1160
 msgid "Cleaning up /tmp"
@@ -232,18 +221,14 @@ msgid "Remounting remaining filesystems read-only"
 msgstr "Iš naujo prijungiamos atjungtos bylų sistemos tik skaitimo režime "
 
 #: bin/mudur.py:1310
-#, fuzzy
 msgid ""
 "An internal error occured. Please report to the bugs.pisilinux.orgwith "
 "following information:"
 msgstr ""
-"Įvyko vidinė klaida. Prašom pranešti bugs.pardus.org.tr pridejus papildoma "
-"informaciją."
 
 #: bin/mudur.py:1406
-#, fuzzy
 msgid "Creating tmpfiles"
-msgstr "valomas /tmp"
+msgstr ""
 
 #: bin/mudur.py:1423
 msgid "Setting up localhost"
@@ -365,20 +350,7 @@ msgid ""
 "and option is:\n"
 " -N, --no-color  Don't use color in output\n"
 " -q, --quiet     Don't print replies"
-msgstr ""
-"Naudojamas: tarnyba  [<options>] [<service>] <command>\n"
-"kur komanda:\n"
-"Pateikti į Ekraną tarnybų sąrašą\n"
-"Ekrano statusas tarnybos statusas\n"
-"Automatiškai pasileidžiamos tarnybos\n"
-"Išjungtos automatiškai pasileidžiamos tarnybos\n"
-"paleisti Start tarnybą\n"
-"sustabdyti Start tarnybą\n"
-"paleisti iš naujo Start tarnybą, po to  vėl paleisti\n"
-"paleisti iš naujo Reload konfigūraciją (jei tarnyba tai leidžia)\n"
-"ir parametrai:\n"
-"N, --no-color ne naudoti spalvos išvedime\n"
-"-q, --quiet ne spausdinti atsakymų "
+msgstr "Naudojamas: tarnyba  [<options>] [<service>] <command>\nkur komanda:\nPateikti į Ekraną tarnybų sąrašą\nEkrano statusas tarnybos statusas\nAutomatiškai pasileidžiamos tarnybos\nIšjungtos automatiškai pasileidžiamos tarnybos\npaleisti Start tarnybą\nsustabdyti Start tarnybą\npaleisti iš naujo Start tarnybą, po to  vėl paleisti\npaleisti iš naujo Reload konfigūraciją (jei tarnyba tai leidžia)\nir parametrai:\nN, --no-color ne naudoti spalvos išvedime\n-q, --quiet ne spausdinti atsakymų "
 
 #: bin/service.py:355
 #, python-format
