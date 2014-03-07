@@ -16,10 +16,10 @@ from optparse import OptionParser
 
 user = {"uid": -1,
         "username": "kaplan",
-        "realname": "Pardus",
-        "home": "/home/kaplan",
+        "realname": "Pisi",
+        "home": "/home/pisi",
         "shell": "/bin/bash",
-        "password": "pardus",
+        "password": "pisi",
         "defaultgroup": "users",
         "groups": [],
         "admingroups": ["wheel"],
@@ -60,7 +60,7 @@ if __name__ == "__main__":
     usage = "usage: %prog [options] username"
     parser = OptionParser(usage=usage)
 
-    parser.add_option("-c", "--comment", dest="realname", type="string", default="Pardus",
+    parser.add_option("-c", "--comment", dest="realname", type="string", default="Pisi",
             help="comment for the user, usually used for Full Name")
 
     parser.add_option("-u", "--uid", dest="uid", type="int", default=-1,
@@ -72,7 +72,7 @@ if __name__ == "__main__":
     parser.add_option("-G", "--groups", dest="groups", type="string", default=defaultGroups,
             help="groups that user is member of")
 
-    parser.add_option("-p", "--password", dest="password", type="string", default="pardus",
+    parser.add_option("-p", "--password", dest="password", type="string", default="pisi",
             help="password")
 
     parser.add_option("-d", "--home", dest="home", type="string", default="",
