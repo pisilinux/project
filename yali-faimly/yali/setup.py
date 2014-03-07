@@ -21,7 +21,7 @@ from distutils.command.install import install
 from distutils.spawn import find_executable, spawn
 
 I18N_DOMAIN = "yali"
-I18N_LANGUAGES = ["tr", "nl", "it", "fr", "de", "pt_BR", "es", "pl", "ca", "sv", "hu", "ru"]
+I18N_LANGUAGES = ["tr", "nl", "it", "fr", "de", "pt_BR", "es", "pl", "ca", "sv", "hu", "ru", "hr"]
 
 def qt_ui_files():
     ui_files = "yali/gui/Ui/*.ui"
@@ -116,7 +116,7 @@ class I18nInstall(install):
             shutil.copy("po/%s.mo" % lang, os.path.join(destpath, "%s.mo" % I18N_DOMAIN))
 
 setup(name="yali",
-      version= "3.0.1",
+      version= "3.0.2",
       description="YALI (Yet Another Linux Installer)",
       long_description="Pisi Linux System Installer.",
       license="Latest GNU GPL version",
