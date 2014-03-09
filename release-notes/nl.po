@@ -1,20 +1,19 @@
 # 
 # Translators:
-# Ivica  Kolić <ikoli@yahoo.com>, 2014
-# obsoleteman <tulliana@gmail.com>, 2014
+# groni_g g <groni3427@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-07 21:39+0300\n"
-"PO-Revision-Date: 2014-03-07 19:29+0000\n"
-"Last-Translator: obsoleteman <tulliana@gmail.com>\n"
-"Language-Team: Croatian (http://www.transifex.com/projects/p/PiSiLinux/language/hr/)\n"
+"PO-Revision-Date: 2014-03-07 21:39+0000\n"
+"Last-Translator: groni_g g <groni3427@gmail.com>\n"
+"Language-Team: Dutch (http://www.transifex.com/projects/p/PiSiLinux/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hr\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Translate Toolkit 1.9.0\n"
 
 #: template.html+html.head.title:5
@@ -27,7 +26,7 @@ msgid ""
 "'rolling-release' GNU/Linux operating system.<br />It was created as a "
 "successor to the PiSi-based Pardus Linux, after it was declared End Of Life "
 "in 2012."
-msgstr "<b>Anka-Tim ponosno predstavlja Pisi Linux 1.0</b><br /> Pisi Linux je 'rolling-release' GNU/Linux operativni sustav.<br />Napravljen je kao nasljednik Pisi-baziranoga Pardus Linuxa, nakon što je objavljen prestanak Pardusa u 2012."
+msgstr "<b>De Anka-Team presenteert met trots Pisi Linux 1.0</b><br /> Pisi Linux is een 'rolling release' GNU / Linux besturingssysteem.<br />Het werd opgericht als een opvolger van de PiSi-gebaseerde Pardus Linux, nadat het werd in 2012 verklaard as End Of Life ."
 
 #: template.html+html.body.div.table.tr.td:12
 msgid ""
@@ -40,7 +39,7 @@ msgid ""
 "automatically started post-install to assist with desktop preferences.<br />"
 " <b>PANDA</b>, a video-driver manager (created by the Anka-Team).<br /><br "
 "/>"
-msgstr "<br />Pisi Linux sadrži nekoliko jedinstvenih tehnologija:<br /> <b>COMAR</b> (COnfigurationMAnageR), konfigurira i integrira instalirani software.<br /> <b>MUDUR</b>, je dizajniran da pojednostavni proces podizanja sustava. <br /> <b>PISI</b> (Packages Installed Successfully, as Intended), Sustav pakiranja razvijen za Pardus Linux.<br /> <b>YALI</b> (Yet Another Linux Installer), prilagođeni instalacijski program. <br /> <b>KAPTAN</b>, a ‘desktop greeter’- automatski se pokreće nakon instalacijeda pomogne sa osobitostima radne površine.<br /> <b>PANDA</b>, a video-driver upravitelj (napravio Anka-Tim).<br /><br />"
+msgstr "<br />Pisi Linux bevat een aantal unieke technologieën:<br /> <b>COMAR</b> (COnfigurationMAnageR), configureert en integreert geïnstalleerde software.<br /> <b>MUDUR</b>,ontworpen om het bootproces te stroomlijnen. <br /> <b>PISI</b> (Packages Installed Successfully, as Intended), Het verpakkingssysteem ontwikkeld voor Pardus Linux.<br /> <b>YALI</b> (Yet Another Linux Installer), de installateur. <br /> <b>KAPTAN</b>, een 'desktop greeter'-automatisch gestart na de installatie om te helpen met desktop voorkeuren.<br /> <b>PANDA</b>, een video-driver manager (gecreëerd door de Anka-Team).<br /><br />"
 
 #: template.html+html.body.div.table.tr.td:20
 msgid ""
@@ -49,14 +48,14 @@ msgid ""
 "GIMP: 2.8.10<br /> Calligra Suite: 2.7.5<br /> Clementine: 1.2.1<br /> Qt: "
 "4.8.5<br /> glibc: 2.18<br /> binutils: 2.32.2<br /> coreutils: 8.21<br "
 "/><br />"
-msgstr ""
+msgstr "<b>Vrijgeven Highlights</b><br /> Linux Kernel: 3.12.13<br /> KDE: 4.12.3<br /> Mate: 1.6.2<br /> Mozilla Firefox: 27.0<br /> LibreOffice: 4.2.1.1<br /> GIMP: 2.8.10<br /> Calligra Suite: 2.7.5<br /> Clementine: 1.2.1<br /> Qt: 4.8.5<br /> glibc: 2.18<br /> binutils: 2.32.2<br /> coreutils: 8.21<br /><br />"
 
 #: template.html+html.body.div.table.tr.td:34
 msgid ""
 "<b>System Requirements</b><br /> 64-bit processor<br /> At least 2 GB memory"
 " and 12 GB disk space<br /> It is recomended to create swap space for Pisi "
 "Linux (can be done during installation)<br /><br />"
-msgstr "<b>Zahtjevi sustava</b><br /> 64-bit procesor<br /> Najmanje 2GB memorije i 12GB prostora na disku<br /> Preporučuje se napraviti swap prostor za Pisi Linux (ože se učiniti tijekom instalacije)<br /><br />"
+msgstr "<b>Systeemvereisten</b><br /> 64-bit processor<br /> Ten minste 2 GB geheugen en 12 GB diskruimte<br /> Het wordt aanbevolen om swap ruimte voor Pisi Linux te maken ( kan worden gedaan tijdens de installatie)<br /><br />"
 
 #: template.html+html.body.div.table.tr.td:40
 msgid ""
@@ -64,7 +63,7 @@ msgid ""
 "However, 32bit packages are included for applications such as<br /> Skype "
 "and Steam. Codecs for playing audio and video files are also included.<br "
 "/><br />"
-msgstr "<b>Multimedija</b><br /> Pisi Linux trenutno postoji samo u 64bit verziji.Ipak,32bit paketi su uključeni za programe poput <br /> Skype i Steam. Kodeci za izvođenje audio i video datoteka također su uključeni.<br /><br />"
+msgstr "<b>Multimedia</b><br /> Pisi Linux bestaat momenteel alleen in 64-bits vorm. Echter 32bit pakketten worden opgenomen voor toepassingen zoals<br /> Skype en Steam. Codecs voor het afspelen van audio-en video-bestanden zijn ook inbegrepen.<br /><br />"
 
 #: template.html+html.body.div.table.tr.td:43
 msgid ""
@@ -74,10 +73,10 @@ msgid ""
 "Spanish, French, Hungarian,<br />Italian, Croatian, Swedish, Ukrainian, "
 "Polish and Portuguese (Brazil). Translation to other languages is on-"
 "going.<br /><br />"
-msgstr "<b>Još nešto ?</b><br /> U našim repozitorijima se nalazi preko 6000 paketa, i neprestano se dodaju novi.<br /><br /> Pisi Linux je preveden na 14 jezika: turski, engleski, nizozemski, njemački, ruski, španjolski, francuski, mađarski,<br />talijanski, hrvatski, švedski, ukrajinski, poljski i portugalski (Brazil).Prijevod na ostale jezike je u tijeku.<br /><br />"
+msgstr "<b>Iets anders?</b><br /> Er zijn meer dan 6000 pakketten in onze repositories, en meer worden toegevoegd de hele tijd.<br /><br /> Pisi Linux wordt vertaald naar 14 talen: Turks, Engels, Nederlands, Duits, Russisch, Spaans, Frans, Hongaars,<br />Italiaans, Kroatisch, Zweeds, Oekraïens, Pools en Portugees (Brazilië). Vertaling naar andere talen is voortdurende.<br /><br />"
 
 #: template.html+html.body.div.table.tr.td:47
 msgid ""
 "Turkish/English: Anka/Phoenix - Pisi/Kitty - Kaptan/Captain<br /> We hope "
 "you enjoy using Pisi Linux. Thank you."
-msgstr "Turski/Engleski: Anka/Phoenix - Pisi/Kitty - Kaptan/Captain<br /> Nadamo se da uživate koristeći Pisi Linux. Hvala vam,"
+msgstr "Turkish/Nederlands: Anka/Phoenix - Pisi/Poesje - Kaptan/Kapitein<br /> Wij hopen dat u veel plezier met Pisi Linux heeft. Dank u."

@@ -1,12 +1,14 @@
 # 
 # Translators:
 # tribunal <tribunal2000@mail.ru>, 2014
+# obsoleteman <tulliana@gmail.com>, 2014
+# tribunal <tribunal2000@mail.ru>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-20 00:57+0300\n"
-"PO-Revision-Date: 2014-02-26 15:09+0000\n"
+"POT-Creation-Date: 2014-03-07 21:39+0300\n"
+"PO-Revision-Date: 2014-03-07 19:43+0000\n"
 "Last-Translator: tribunal <tribunal2000@mail.ru>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/PiSiLinux/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -43,12 +45,12 @@ msgstr "<br />Pisi Linux содержит несколько уникальны�
 
 #: template.html+html.body.div.table.tr.td:20
 msgid ""
-"<b>Release Highlights</b><br /> Linux Kernel: 3.12.8<br /> KDE: 4.11.5<br />"
-" Mate: 1.6.2<br /> Mozilla Firefox: 26.0<br /> LibreOffice: 4.1.3.2<br /> "
+"<b>Release Highlights</b><br /> Linux Kernel: 3.12.13<br /> KDE: 4.12.3<br "
+"/> Mate: 1.6.2<br /> Mozilla Firefox: 27.0<br /> LibreOffice: 4.2.1.1<br /> "
 "GIMP: 2.8.10<br /> Calligra Suite: 2.7.5<br /> Clementine: 1.2.1<br /> Qt: "
 "4.8.5<br /> glibc: 2.18<br /> binutils: 2.32.2<br /> coreutils: 8.21<br "
 "/><br />"
-msgstr "<b>Версии ПО</b><br /> Linux Kernel: 3.12.8<br /> KDE: 4.11.5<br /> Mate: 1.6.2<br /> Mozilla Firefox: 26.0<br /> LibreOffice: 4.1.3.2<br /> GIMP: 2.8.10<br /> Calligra Suite: 2.7.5<br /> Clementine: 1.2.1<br /> Qt: 4.8.5<br /> glibc: 2.18<br /> binutils: 2.32.2<br /> coreutils: 8.21<br /><br />"
+msgstr "<b>Версии ПО</b><br /> Linux Kernel: 3.12.13<br /> KDE: 4.12.3<br /> Mate: 1.6.2<br /> Mozilla Firefox: 27.0<br /> LibreOffice: 4.2.1.1<br /> GIMP: 2.8.10<br /> Calligra Suite: 2.7.5<br /> Clementine: 1.2.1<br /> Qt: 4.8.5<br /> glibc: 2.18<br /> binutils: 2.32.2<br /> coreutils: 8.21<br /><br />"
 
 #: template.html+html.body.div.table.tr.td:34
 msgid ""
