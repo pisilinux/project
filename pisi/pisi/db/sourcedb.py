@@ -79,7 +79,7 @@ class SourceDB(lazydb.LazyDB):
         spec, repo = self.get_spec_repo(name, repo)
         return spec
 
-    def search_spec(self, terms, lang=None, repo=None, fields=None):
+    def search_spec(self, terms, lang=None, repo=None, fields=None, cs=False):
         """
         fields (dict) : looks for terms in the fields which are marked as True
         If the fields is equal to None this method will search in all fields
@@ -100,9 +100,9 @@ class SourceDB(lazydb.LazyDB):
             if terms == filter(lambda term: (fields['name'] and \
                     re.compile(term, re.I).search(name)) or \
                     (fields['summary'] and \
-                    re.compile(resum % (lang, term), re.I).search(xml)) or \
+                    re.compile(resum % (lang, term), 0 if cs else re.I).search(xml)) or \
                     (fields['desc'] and \
-                    re.compile(redesc % (lang, term), re.I).search(xml)), terms):
+                    re.compile(redesc % (lang, term), 0 if cs else re.I).search(xml)), terms):
                 found.append(name)
         return found
 

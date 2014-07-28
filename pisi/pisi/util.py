@@ -184,13 +184,13 @@ def search_executable(executable):
             return full_path
     return None
 
-def run_batch(cmd):
+def run_batch(cmd, ui_debug=True):
     """Run command and report return value and output."""
     ctx.ui.info(_('Running ') + cmd, verbose=True)
     p = subprocess.Popen(cmd, shell=True,
                          stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     out, err = p.communicate()
-    ctx.ui.debug(_('return value for "%s" is %s') % (cmd, p.returncode))
+    if ui_debug: ctx.ui.debug(_('return value for "%s" is %s') % (cmd, p.returncode))
     return (p.returncode, out, err)
 
 # TODO: it might be worthwhile to try to remove the
@@ -508,6 +508,13 @@ def uncompress(patchFile, compressType="gz", targetDir=""):
     extension = extensions.get(compressType, compressType)
     return filePath.split(".%s" % extension)[0]
 
+def check_patch_level(workdir, path):
+    level = 0
+    while path:
+        if os.path.isfile("%s/%s" % (workdir, path)): return level
+        if path.find("/") == -1: return None
+        level += 1
+        path = path[path.find("/")+1:]
 
 def do_patch(sourceDir, patchFile, level=0, name=None, reverse=False):
     """Apply given patch to the sourceDir."""
@@ -517,13 +524,41 @@ def do_patch(sourceDir, patchFile, level=0, name=None, reverse=False):
     else:
         raise Error(_("ERROR: WorkDir (%s) does not exist\n") % (sourceDir))
 
+    check_file(patchFile)
+
+    if level == None:
+        with open(patchFile, "r") as patchfile:
+            lines = patchfile.readlines()
+            try:
+                paths_m = [l.strip().split()[1] for l in lines if l.startswith("---") and "/" in l]
+                try:
+                    paths_p = [l.strip().split()[1] for l in lines if l.startswith("+++")]
+                except IndexError:
+                    paths_p = []
+            except IndexError:
+                pass
+            else:
+                if not paths_p:
+                    paths_p = paths_m[:]
+                    try:
+                        paths_m = [l.strip().split()[1] for l in lines if l.startswith("***") and "/" in l]
+                    except IndexError:
+                        pass
+
+                for path_p, path_m in zip(paths_p, paths_m):
+                    if "/dev/null" in path_m and not len(paths_p) -1 == paths_p.index(path_p): continue
+                    level = check_patch_level(sourceDir, path_p)
+                    if level == None and len(paths_m) -1 == paths_m.index(path_m):
+                        level = check_patch_level(sourceDir, path_m)
+                    if not level == None:
+                        ctx.ui.debug("Detected patch level=%s for %s" % (level, os.path.basename(patchFile)))
+                        break
+
     if level == None:
         level = 0
 
     if name is None:
         name = os.path.basename(patchFile)
-
-    check_file(patchFile)
 
     if ctx.get_option('use_quilt'):
         patchesDir = join_path(sourceDir, ctx.const.quilt_dir_suffix)
@@ -575,7 +610,13 @@ def strip_file(filepath, fileinfo, outpath):
         if ret:
             ctx.ui.warning(_("objcopy (add-debuglink) command failed for file '%s'!") % f)
 
-    if "current ar archive" in fileinfo:
+    if fileinfo == None:        
+        ret, out, err = run_batch("file %s" % filepath, ui_debug=False)
+        if ret:
+            ctx.ui.warning(_("file command failed with return code %s for file: %s") % (ret, filepath))
+            ctx.ui.info(_("Output:\n%s") % out, verbose=True)
+
+    elif "current ar archive" in fileinfo:
         run_strip(filepath, "--strip-debug")
         return True
 

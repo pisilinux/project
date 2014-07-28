@@ -96,6 +96,7 @@ class Constants:
         self.__c.needs_restart = "needsrestart"
         self.__c.needs_reboot = "needsreboot"
         self.__c.files_db = "files.db"
+        self.__c.files_ldb = "files.ldb"
         self.__c.repos = "repos"
         self.__c.devel_package_end = "-devel"
         self.__c.doc_package_end = "-docs?$"

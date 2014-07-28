@@ -67,9 +67,12 @@ def find_upgrades(packages, replaces):
     packagedb = pisi.db.packagedb.PackageDB()
     installdb = pisi.db.installdb.InstallDB()
 
+    debug = ctx.config.get_option("debug")
     security_only = ctx.get_option('security_only')
+    comparesha1sum = ctx.get_option('compare_sha1sum')
 
     Ap = []
+    ds = []
     for i_pkg in packages:
 
         if i_pkg in replaces.keys():
@@ -89,6 +92,7 @@ def find_upgrades(packages, replaces):
             continue
 
         pkg = packagedb.get_package(i_pkg)
+        hash = installdb.get_install_tar_hash(i_pkg)
         (version, release, build, distro, distro_release) = installdb.get_version_and_distro_release(i_pkg)
 
         if security_only and not pkg.has_update_type("security", release):
@@ -101,9 +105,18 @@ def find_upgrades(packages, replaces):
         else:
             if int(release) < int(pkg.release):
                 Ap.append(i_pkg)
+            elif comparesha1sum and \
+                int(release) == int(pkg.release) and \
+                not pkg.installTarHash == hash:
+                Ap.append(i_pkg)
+                ds.append(i_pkg)
             else:
                 ctx.ui.info(_('Package %s is already at the latest release %s.')
                             % (pkg.name, pkg.release), True)
+
+    if debug and ds:
+        ctx.ui.status(_('The following packages have different sha1sum:'))
+        ctx.ui.info(util.format_by_columns(sorted(ds)))
 
     return Ap
 
@@ -205,7 +218,7 @@ def upgrade(A=[], repo=None):
     for path in paths:
         ctx.ui.info(util.colorize(_("Installing %d / %d") % (paths.index(path)+1, len(paths)), "yellow"))
         install_op = atomicoperations.Install(path, ignore_file_conflicts = True)
-        install_op.install(True)
+        install_op.install(not ctx.get_option('compare_sha1sum'))
 
 def plan_upgrade(A, force_replaced=True, replaces=None):
     # FIXME: remove force_replaced

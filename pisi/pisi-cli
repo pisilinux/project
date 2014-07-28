@@ -79,4 +79,6 @@ if __name__ == "__main__":
     signal.signal(signal.SIGTERM, sig_handler)
 
     cli = pisicli.PisiCLI()
+    if cli.command.name[1] in "rdb sf".split():
+        ctx.filesdb = pisi.db.filesldb.FilesLDB()
     cli.run_command()

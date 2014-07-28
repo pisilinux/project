@@ -59,9 +59,9 @@ def _cleanup():
         ctx.loghandler.flush()
         ctx.log.removeHandler(ctx.loghandler)
 
-    filesdb = pisi.db.filesdb.FilesDB()
-    if filesdb.is_initialized():
-        filesdb.close()
+#    filesdb = pisi.db.filesdb.FilesDB()
+#    if filesdb.is_initialized():
+#        filesdb.close()
 
     if ctx.build_leftover and os.path.exists(ctx.build_leftover):
         os.unlink(ctx.build_leftover)

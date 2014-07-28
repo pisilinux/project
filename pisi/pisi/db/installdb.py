@@ -148,6 +148,16 @@ class InstallDB(lazydb.LazyDB):
 
         return distro, release
 
+    def __get_install_tar_hash(self, meta_doc):
+        hash = meta_doc.getTag("Package").getTagData("InstallTarHash")
+
+        return hash
+
+    def get_install_tar_hash(self, package):
+        metadata_xml = os.path.join(self.package_path(package), ctx.const.metadata_xml)
+        meta_doc = piksemel.parse(metadata_xml)
+        return self.__get_install_tar_hash(meta_doc)
+
     def get_version_and_distro_release(self, package):
         metadata_xml = os.path.join(self.package_path(package), ctx.const.metadata_xml)
         meta_doc = piksemel.parse(metadata_xml)
@@ -168,7 +178,7 @@ class InstallDB(lazydb.LazyDB):
         files = self.get_files(package)
         return filter(lambda x: x.type == 'config', files.list)
 
-    def search_package(self, terms, lang=None, fields=None):
+    def search_package(self, terms, lang=None, fields=None, cs=False):
         """
         fields (dict) : looks for terms in the fields which are marked as True
         If the fields is equal to None this method will search in all fields
@@ -190,9 +200,9 @@ class InstallDB(lazydb.LazyDB):
             if terms == filter(lambda term: (fields['name'] and \
                     re.compile(term, re.I).search(name)) or \
                     (fields['summary'] and \
-                    re.compile(resum % (lang, term), re.I).search(xml)) or \
+                    re.compile(resum % (lang, term), 0 if cs else re.I).search(xml)) or \
                     (fields['desc'] and \
-                    re.compile(redesc % (lang, term), re.I).search(xml)), terms):
+                    re.compile(redesc % (lang, term), 0 if cs else re.I).search(xml)), terms):
                 found.append(name)
         return found
 

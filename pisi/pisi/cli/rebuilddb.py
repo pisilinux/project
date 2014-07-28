@@ -49,4 +49,4 @@ dirs under /var/lib/pisi
     def run(self):
         self.init(database=True)
         if ctx.ui.confirm(_('Rebuild PiSi databases?')):
-            pisi.api.rebuild_db(ctx.get_option('files'))
+            pisi.api.rebuild_db()

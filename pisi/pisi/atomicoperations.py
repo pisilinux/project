@@ -120,6 +120,7 @@ class Install(AtomicOperation):
             raise Error(_("Package %s not found in any active repository.") % name)
 
     def __init__(self, package_fname, ignore_dep = None, ignore_file_conflicts = None):
+        if not ctx.filesdb: ctx.filesdb = pisi.db.filesldb.FilesLDB()
         "initialize from a file name"
         super(Install, self).__init__(ignore_dep)
         if not ignore_file_conflicts:
@@ -134,9 +135,9 @@ class Install(AtomicOperation):
         self.metadata = self.package.metadata
         self.files = self.package.files
         self.pkginfo = self.metadata.package
-        self.filesdb = pisi.db.filesdb.FilesDB()
         self.installdb = pisi.db.installdb.InstallDB()
         self.operation = INSTALL
+        self.store_old_paths = None
 
     def install(self, ask_reinstall = True):
 
@@ -211,8 +212,8 @@ class Install(AtomicOperation):
         # check file conflicts
         file_conflicts = []
         for f in self.files.list:
-            if self.filesdb.has_file(f.path):
-                pkg, existing_file = self.filesdb.get_file(f.path)
+            pkg, existing_file = ctx.filesdb.get_file(f.path)
+            if pkg:
                 dst = pisi.util.join_path(ctx.config.dest_dir(), f.path)
                 if pkg != self.pkginfo.name and not os.path.isdir(dst) and really_conflicts(pkg):
                     file_conflicts.append( (pkg, existing_file) )
@@ -244,6 +245,10 @@ class Install(AtomicOperation):
             else:
                 pkg_version = pisi.version.make_version(pkg.version)
                 iversion = pisi.version.make_version(iversion_s)
+                if ctx.get_option('store_lib_info') and pkg_version > iversion:
+                    self.store_old_paths = os.path.join(ctx.config.old_paths_cache_dir(), pkg.name)
+                    ctx.ui.info(_('Storing old paths info'))
+                    open(self.store_old_paths, "w").write("Version: %s\n" % iversion_s)
 
                 pkg_release = int(pkg.release)
                 irelease = int(irelease_s)
@@ -274,7 +279,7 @@ class Install(AtomicOperation):
             self.old_files = self.installdb.get_files(pkg.name)
             self.old_pkginfo = self.installdb.get_info(pkg.name)
             self.old_path = self.installdb.pkg_dir(pkg.name, iversion_s, irelease_s)
-            self.remove_old = Remove(pkg.name)
+            self.remove_old = Remove(pkg.name, store_old_paths = self.store_old_paths)
             self.remove_old.run_preremove()
             self.remove_old.run_postremove()
 
@@ -446,7 +451,7 @@ class Install(AtomicOperation):
                     if os.path.samestat(new_file_stat, old_file_stat):
                         break
                 else:
-                    Remove.remove_file(old_file, self.pkginfo.name)
+                    Remove.remove_file(old_file, self.pkginfo.name, store_old_paths=self.store_old_paths)
 
         if self.reinstall():
             # get 'config' typed file objects
@@ -523,7 +528,7 @@ class Install(AtomicOperation):
             pisi.api.add_needs_reboot(package_name)
 
         # filesdb
-        self.filesdb.add_files(self.metadata.package.name, self.files)
+        ctx.filesdb.add_files(self.metadata.package.name, self.files)
 
         # installed packages
         self.installdb.add_package(self.pkginfo)
@@ -554,12 +559,13 @@ def install_single_name(name, upgrade = False):
 
 class Remove(AtomicOperation):
 
-    def __init__(self, package_name, ignore_dep = None):
+    def __init__(self, package_name, ignore_dep = None, store_old_paths = None):
+        if not ctx.filesdb: ctx.filesdb = pisi.db.filesldb.FilesLDB()
         super(Remove, self).__init__(ignore_dep)
         self.installdb = pisi.db.installdb.InstallDB()
-        self.filesdb = pisi.db.filesdb.FilesDB()
         self.package_name = package_name
         self.package = self.installdb.get_package(self.package_name)
+        self.store_old_paths = store_old_paths
         try:
             self.files = self.installdb.get_files(self.package_name)
         except pisi.Error, e:
@@ -599,24 +605,22 @@ class Remove(AtomicOperation):
         # is there any package who depends on this package?
 
     @staticmethod
-    def remove_file(fileinfo, package_name, remove_permanent=False):
+    def remove_file(fileinfo, package_name, remove_permanent=False, store_old_paths=None):
 
         if fileinfo.permanent and not remove_permanent:
             return
-        
+
         fpath = pisi.util.join_path(ctx.config.dest_dir(), fileinfo.path)
 
         historydb = pisi.db.historydb.HistoryDB()
-        filesdb = pisi.db.filesdb.FilesDB()
         # we should check if the file belongs to another
         # package (this can legitimately occur while upgrading
         # two packages such that a file has moved from one package to
         # another as in #2911)
-        if filesdb.has_file(fileinfo.path):
-            pkg, existing_file = filesdb.get_file(fileinfo.path)
-            if pkg != package_name:
-                ctx.ui.warning(_('Not removing conflicted file : %s') % fpath)
-                return
+        pkg, existing_file = ctx.filesdb.get_file(fileinfo.path)
+        if pkg and not pkg == package_name:
+            ctx.ui.warning(_('Not removing conflicted file : %s') % fpath)
+            return
 
         if fileinfo.type == ctx.const.conf:
             # config files are precious, leave them as they are
@@ -640,6 +644,8 @@ class Remove(AtomicOperation):
         else:
             if os.path.isfile(fpath) or os.path.islink(fpath):
                 os.unlink(fpath)
+                if store_old_paths:
+                    open(store_old_paths, "a").write("%s\n" % fpath)
             elif os.path.isdir(fpath) and not os.listdir(fpath):
                 os.rmdir(fpath)
             else:
@@ -680,7 +686,7 @@ class Remove(AtomicOperation):
 
     def remove_db(self):
         self.installdb.remove_package(self.package_name)
-        self.filesdb.remove_files(self.files.list)
+        ctx.filesdb.remove_files(self.files.list)
 # FIX:DB
 #         # FIXME: something goes wrong here, if we use ctx operations ends up with segmentation fault!
 #         pisi.db.packagedb.remove_tracking_package(self.package_name)

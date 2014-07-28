@@ -53,6 +53,7 @@ class Package(specfile.Package, xmlfile.XmlFile):
     t_InstalledSize = [ autoxml.Long, autoxml.mandatory]
     t_PackageSize = [ autoxml.Long, autoxml.optional]
     t_PackageHash = [ autoxml.String, autoxml.optional, "SHA1Sum" ]
+    t_InstallTarHash = [ autoxml.String, autoxml.optional, "SHA1Sum" ]
     t_PackageURI = [ autoxml.String, autoxml.optional]
     t_DeltaPackages = [ [Delta], autoxml.optional]
     t_PackageFormat = [ autoxml.String, autoxml.optional]
@@ -84,6 +85,8 @@ class Package(specfile.Package, xmlfile.XmlFile):
             p_size = util.human_readable_size(self.packageSize)
             size = "%.2f %s" % (p_size[0], p_size[1])
             s += _(', Package Size: %s') % size
+
+        s += _(', install.tar.xz sha1sum: %s') % self.installTarHash
 
         return s
 

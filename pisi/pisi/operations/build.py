@@ -140,7 +140,10 @@ def exclude_special_files(filepath, fileinfo, ag):
         if name in keeplist:
             continue
 
-        if re.match(pattern, fileinfo):
+        if fileinfo == None:
+            ctx.ui.warning(_("Removing special file skipped for: %s") % filepath)
+            return
+        elif re.match(pattern, fileinfo):
             ctx.ui.debug("Removing special %s file: %s" % (name, filepath))
             os.unlink(filepath)
             # Remove dir if it becomes empty (Bug #11588)
@@ -1121,8 +1124,6 @@ class Builder:
 
             self.gen_metadata_xml(package)
 
-            self.metadata.write(util.join_path(self.pkg_dir(), ctx.const.metadata_xml))
-
             name = self.package_filename(self.metadata.package)
 
             outdir = ctx.get_option('output_dir')
@@ -1151,8 +1152,6 @@ class Builder:
 
             # add xmls and files
             os.chdir(self.pkg_dir())
-
-            pkg.add_metadata_xml(ctx.const.metadata_xml)
             pkg.add_files_xml(ctx.const.files_xml)
 
             # Sort the files in-place according to their path for an ordered
@@ -1165,6 +1164,10 @@ class Builder:
                 if package.debug_package:
                     orgname = util.join_path("debug", finfo.path)
                 pkg.add_to_install(orgname, finfo.path)
+
+            self.metadata.package.installTarHash = util.sha1_file("%s/install.tar.xz" % self.pkg_dir())
+            self.metadata.write(util.join_path(self.pkg_dir(), ctx.const.metadata_xml))
+            pkg.add_metadata_xml(ctx.const.metadata_xml)
 
             os.chdir(c)
 

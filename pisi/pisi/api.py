@@ -25,7 +25,7 @@ import pisi.util
 import pisi.pgraph as pgraph
 import pisi.db.packagedb
 import pisi.db.repodb
-import pisi.db.filesdb
+import pisi.db.filesldb
 import pisi.db.installdb
 import pisi.db.historydb
 import pisi.db.sourcedb
@@ -401,10 +401,9 @@ def search_file(term):
 
     >>> [("kvm", (["lib/modules/2.6.18.8-86/extra/kvm-amd.ko","lib/modules/2.6.18.8-86/extra/kvm-intel.ko"])),]
     """
-    filesdb = pisi.db.filesdb.FilesDB()
     if term.startswith("/"): # FIXME: why? why?
         term = term[1:]
-    return filesdb.search_file(term)
+    return ctx.filesdb.search_file(term)
 
 def fetch(packages=[], path=os.path.curdir):
     """
@@ -868,17 +867,7 @@ def __update_repo(repo, force=False):
 
 # FIXME: rebuild_db is only here for filesdb and it really is ugly. we should not need any rebuild.
 @locked
-def rebuild_db(files=False):
-
-    filesdb = pisi.db.filesdb.FilesDB()
-    installdb = pisi.db.installdb.InstallDB()
-
-    def rebuild_filesdb():
-        for pkg in list_installed():
-            ctx.ui.info(_('Adding \'%s\' to db... ') % pkg, noln=True)
-            files = installdb.get_files(pkg)
-            filesdb.add_files(pkg, files)
-            ctx.ui.info(_('OK.'))
+def rebuild_db():
 
     # save parameters and shutdown pisi
     options = ctx.config.options
@@ -886,17 +875,14 @@ def rebuild_db(files=False):
     comar = ctx.comar
     pisi._cleanup()
 
-    filesdb.close()
-    filesdb.destroy()
-    filesdb.init()
+    ctx.filesdb.close()
+    ctx.filesdb.destroy()
+    ctx.filesdb = pisi.db.filesldb.FilesLDB()
 
     # reinitialize everything
     set_userinterface(ui)
     set_options(options)
     set_comar(comar)
-
-    # construct new database
-    rebuild_filesdb()
 
 ############# FIXME: this was a quick fix. ##############################
 

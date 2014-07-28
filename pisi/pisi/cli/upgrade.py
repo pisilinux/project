@@ -71,6 +71,8 @@ expanded to package names.
                      help=_("When upgrading system, ignore packages "
                             "and components whose basenames match "
                             "any pattern contained in file."))
+        group.add_option("-s", "--compare-sha1sum", action="store_true",
+                     default=False, help=_("compare sha1sum repo and installed packages"))
 
         self.parser.add_option_group(group)
 
