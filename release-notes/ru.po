@@ -1,16 +1,15 @@
 #
 # Translators:
-# tribunal <tribunal2000@mail.ru>, 2014
-# obsoleteman <tulliana@gmail.com>, 2014
-# tribunal <tribunal2000@mail.ru>, 2014
+# tribunal <tribunal2000@mail.ru>, 2014.
+# obsoleteman <tulliana@gmail.com>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-30 16:17+0300\n"
-"PO-Revision-Date: 2014-03-07 19:43+0000\n"
-"Last-Translator: tribunal <tribunal2000@mail.ru>\n"
-"Language-Team: Russian (http://www.transifex.com/projects/p/PiSiLinux/"
+"PO-Revision-Date: 2014-07-30 21:59+0400\n"
+"Last-Translator: kolya\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "language/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Translate Toolkit 1.9.0\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: template.html+html.head.title:5
 msgid "Pisi Linux"
@@ -58,7 +57,6 @@ msgstr ""
 "драйверами (созданный командой Anka).<br /><br />"
 
 #: template.html+html.body.div.table.tr.td:20
-#, fuzzy
 msgid ""
 "<b>Release Highlights</b><br /> Linux Kernel: 3.15.6<br /> KDE: 4.13.2<br /> "
 "Mate: 1.8.0<br /> Mozilla Firefox: 30.0<br /> LibreOffice: 4.2.5.2<br /> "
@@ -66,10 +64,10 @@ msgid ""
 "4.8.6<br /> glibc: 2.19<br /> binutils: 2.24<br /> coreutils: 8.22<br /><br /"
 ">"
 msgstr ""
-"<b>Версии ПО</b><br /> Linux Kernel: 3.12.13<br /> KDE: 4.12.3<br /> Mate: "
-"1.6.2<br /> Mozilla Firefox: 27.0<br /> LibreOffice: 4.2.1.1<br /> GIMP: "
-"2.8.10<br /> Calligra Suite: 2.7.5<br /> Clementine: 1.2.1<br /> Qt: "
-"4.8.5<br /> glibc: 2.18<br /> binutils: 2.32.2<br /> coreutils: 8.21<br /"
+"<b>Версии ПО</b><br /> Linux Kernel: 3.15.6<br /> KDE: 4.13.2<br /> Mate: "
+"1.8.0<br /> Mozilla Firefox: 30.0<br /> LibreOffice: 4.2.5.2<br /> GIMP: "
+"2.8.10<br /> Calligra Suite: 2.8.3<br /> Clementine: 1.2.3<br /> Qt: "
+"4.8.6<br /> glibc: 2.19<br /> binutils: 2.24<br /> coreutils: 8.22<br /"
 "><br />"
 
 #: template.html+html.body.div.table.tr.td:34
@@ -117,3 +115,4 @@ msgid ""
 msgstr ""
 "Турецкий/Русский: Anka/Феникс - Pisi/Котенок - Kaptan/Капитан<br /> Мы "
 "надеемся, что вам понравится Pisi Linux. Спасибо."
+

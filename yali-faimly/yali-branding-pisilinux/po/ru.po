@@ -1,18 +1,17 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Alexey Ivanov <alexey.ivanes@gmail.com>, 2011
-# tribunal <tribunal2000@mail.ru>, 2014
+# Alexey Ivanov <alexey.ivanes@gmail.com>, 2011.
+# tribunal <tribunal2000@mail.ru>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-30 15:09+0300\n"
-"PO-Revision-Date: 2014-02-26 15:21+0000\n"
-"Last-Translator: tribunal <tribunal2000@mail.ru>\n"
-"Language-Team: Russian (http://www.transifex.com/projects/p/PiSiLinux/"
+"PO-Revision-Date: 2014-07-30 22:01+0400\n"
+"Last-Translator: kolya\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "language/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -20,6 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: ../release.xml.in.h:1
 msgid "Kahya"
@@ -541,7 +541,6 @@ msgstr ""
 "как Thunar, Pcmanfm, Mate File Manager и других."
 
 #: ../release.xml.in.h:47
-#, fuzzy
 msgid ""
 "PiSi (Packages Installed Successfully as Intended) was built from scratch to "
 "address some shortcomings of traditional package management systems. It "
@@ -562,8 +561,8 @@ msgstr ""
 "высокоуровневые и низкоуровневые операции (отдельный инструмент, такой как "
 "APT, YUM или URPMI не требуется). Комплексный консольный и графический "
 "интерфейс. Сжатие LZMA и передача delta-пакетов для обновления (для экономии "
-"времени и пространства). Используется Berkeley DB для быстрого доступа к "
-"базе данных.&lt;br&gt;Имеющий все необходимые возможности Пакетный Менеджер "
+"времени и пространства). &lt;br&gt;Имеющий все необходимые возможности "
+"Пакетный Менеджер "
 "поможет вам всегда держать свою систему обновленной, удалять ненужные "
 "компоненты и добавлять новые."
 
@@ -659,3 +658,4 @@ msgstr ""
 "#pisi-linux&lt;br&gt;&lt;br&gt;Команда Anka всегда будет рада помощи или "
 "поддержке. Если вы хотите помочь нам, мы будем рады. Контакты: "
 "admin@pisilinux.org Спасибо, что используете Pisi Linux."
+
