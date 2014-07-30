@@ -6,20 +6,21 @@
 # W.P.M.H.I.A. Gielen <w.gielen@gmail.com>, 2006, 2007, 2008.
 # Antoon Tolboom <atolboo@gmail.com>, 2009, 2010, 2011.
 # H. İbrahim Güngör <ibrahim@pardus.org.tr>, 2010.
+# Stefan Gronewold <groni3427@gmail.com>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: nl\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-28 14:36+0300\n"
-"PO-Revision-Date: 2011-06-17 15:13+0200\n"
-"Last-Translator: Antoon Tolboom <atolboo@gmail.com>\n"
+"PO-Revision-Date: 2014-07-30 18:40+0200\n"
+"Last-Translator: Stefan Gronewold <groni3427@gmail.com>\n"
 "Language-Team: Dutch <kde-i18n-doc@kde.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.5\n"
 "X-Poedit-Language: Dutch\n"
 "X-Poedit-Country: NETHERLANDS\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -109,7 +110,6 @@ msgid "Program terminated."
 msgstr "Programma beëindigd."
 
 #: pisi-cli:48
-#, fuzzy
 msgid ""
 "Unhandled internal exception.\n"
 "Please file a bug report to <http://bugs.pardus.org.tr>."
@@ -272,7 +272,8 @@ msgstr "ActionsAPI [doman]: onjuist man-pagina bestand: %s"
 #: pisi/actionsapi/pisitools.py:169
 #, python-format
 msgid "No file matched pattern \"%s\". 'domove' operation failed."
-msgstr "Geen bestand komt overeen met patroon \"%s\". 'domove' handeling mislukt."
+msgstr ""
+"Geen bestand komt overeen met patroon \"%s\". 'domove' handeling mislukt."
 
 #: pisi/actionsapi/pisitools.py:188
 #, python-format
@@ -282,7 +283,8 @@ msgstr "ActionsAPI [rename] %s: %s"
 #: pisi/actionsapi/pisitools.py:225
 #, python-format
 msgid "No such file matching pattern: \"%s\". 'dosed' operation failed."
-msgstr "Geen bestand komt overeen met patroon: \"%s\". 'dosed' handeling misluky."
+msgstr ""
+"Geen bestand komt overeen met patroon: \"%s\". 'dosed' handeling misluky."
 
 #: pisi/actionsapi/pisitools.py:239
 #, python-format
@@ -343,8 +345,11 @@ msgstr "Projectbestand '%s' niet gevonden."
 
 #: pisi/actionsapi/qt4.py:56
 #, python-format
-msgid "It seems there are more than one .pro file, you must specify one. (Possible .pro files: %s)"
-msgstr "Er is meer dan een .pro-bestand, geef er een op. (Mogelijke .pro-bestand: %s)"
+msgid ""
+"It seems there are more than one .pro file, you must specify one. (Possible "
+".pro files: %s)"
+msgstr ""
+"Er is meer dan een .pro-bestand, geef er een op. (Mogelijke .pro-bestand: %s)"
 
 #: pisi/actionsapi/rubymodules.py:108
 #, python-format
@@ -533,7 +538,9 @@ msgstr "Aanmaken /etc/texmf/%s.d"
 #: pisi/actionsapi/texlivemodules.py:155
 #, python-format
 msgid "Moving (and symlinking) /usr/share/texmf/%s to /etc/texmf/%s.d"
-msgstr "Verplaatsen ( en maken symbolische link) /usr/share/texmf/%s naar /etc/texmf/%s.d"
+msgstr ""
+"Verplaatsen ( en maken symbolische link) /usr/share/texmf/%s naar /etc/texmf/%"
+"s.d"
 
 #: pisi/actionsapi/texlivemodules.py:206
 #, python-format
@@ -699,7 +706,8 @@ msgstr "Pakket-URI: %s"
 
 #: pisi/atomicoperations.py:116
 msgid "Download Error: Package does not match the repository package."
-msgstr "Downloadfout: Pakket komt niet overeen met het pakket in de softwarebron."
+msgstr ""
+"Downloadfout: Pakket komt niet overeen met het pakket in de softwarebron."
 
 #: pisi/atomicoperations.py:120
 #, python-format
@@ -719,7 +727,9 @@ msgstr "%s-%s is niet een geldig PiSi-versie formaat"
 #: pisi/atomicoperations.py:199
 #, python-format
 msgid "%s package cannot be installed unless the dependencies are satisfied"
-msgstr "%s pakket kan niet geïnstalleerd worden als er niet aan de afhankelijkheden is voldaan"
+msgstr ""
+"%s pakket kan niet geïnstalleerd worden als er niet aan de afhankelijkheden "
+"is voldaan"
 
 #: pisi/atomicoperations.py:223
 #, python-format
@@ -745,7 +755,7 @@ msgstr "Herinstalleren van het pakket geweigerd"
 
 #: pisi/atomicoperations.py:250
 msgid "Storing old paths info"
-msgstr ""
+msgstr "Het opslaan van oude paden info"
 
 #: pisi/atomicoperations.py:259
 msgid "Upgrading to new upstream version"
@@ -770,8 +780,12 @@ msgid "%s configuration failed."
 msgstr "%s configuratie mislukt."
 
 #: pisi/atomicoperations.py:405
-msgid "Unable to relocate following files. Reinstallation of this package is strongly recommended."
-msgstr "Kan volgende bestanden niet terugvinden. Herinstallatie van dit pakket wordt sterk aangeraden."
+msgid ""
+"Unable to relocate following files. Reinstallation of this package is "
+"strongly recommended."
+msgstr ""
+"Kan volgende bestanden niet terugvinden. Herinstallatie van dit pakket wordt "
+"sterk aangeraden."
 
 #: pisi/atomicoperations.py:496 pisi/atomicoperations.py:499
 #: pisi/atomicoperations.py:506
@@ -782,7 +796,8 @@ msgstr "Opslaan %s"
 #: pisi/atomicoperations.py:574
 #, python-format
 msgid "File list could not be read for package %s, continuing removal."
-msgstr "Bestandslijst kon niet gelezen worden voor pakket %s, voortzetten verwijderen."
+msgstr ""
+"Bestandslijst kon niet gelezen worden voor pakket %s, voortzetten verwijderen."
 
 #: pisi/atomicoperations.py:580
 #, python-format
@@ -800,8 +815,11 @@ msgstr "Niet verwijderen conflicterend bestand: %s"
 
 #: pisi/atomicoperations.py:652
 #, python-format
-msgid "Installed file %s does not exist on system [Probably you manually deleted]"
-msgstr "Geïnstalleerd bestand %s bestaat niet op systeem [waarschijnlijk handmatig verwijderd]"
+msgid ""
+"Installed file %s does not exist on system [Probably you manually deleted]"
+msgstr ""
+"Geïnstalleerd bestand %s bestaat niet op systeem [waarschijnlijk handmatig "
+"verwijderd]"
 
 #: pisi/cli/__init__.py:117
 msgid "Warning: "
@@ -854,7 +872,8 @@ msgid ""
 "<repo>: name of repository to add\n"
 "<indexuri>: URI of index file\n"
 "\n"
-"NB: We support only local files (e.g., /a/b/c) and http:// URIs at the moment\n"
+"NB: We support only local files (e.g., /a/b/c) and http:// URIs at the "
+"moment\n"
 msgstr ""
 "Softwarebron toevoegen\n"
 "\n"
@@ -863,7 +882,8 @@ msgstr ""
 "<repo>: naam van de toe te voegen softwarebron\n"
 "<indexuri>: IRI van indexbestand\n"
 "\n"
-"NB: Momenteel worden alleen lokale bestanden ondersteund (bijv. /a/b/c) en http:// URI's\n"
+"NB: Momenteel worden alleen lokale bestanden ondersteund (bijv. /a/b/c) en "
+"http:// URI's\n"
 
 #: pisi/cli/addrepo.py:43
 msgid "add-repo options"
@@ -875,7 +895,9 @@ msgstr "Controle van distributiebron en architectuur overslaan"
 
 #: pisi/cli/addrepo.py:45
 msgid "Does not fetch repository index and does not check distribution match"
-msgstr "Haalt index van de bron niet op en controleert de distributie en architectuur niet"
+msgstr ""
+"Haalt index van de bron niet op en controleert de distributie en architectuur "
+"niet"
 
 #: pisi/cli/addrepo.py:48
 msgid "Add repository at given position (0 is first)"
@@ -885,11 +907,13 @@ msgstr "Softwarebron op gegeven positie (0 is eerst) toevoegen"
 #, python-format
 msgid ""
 "Add %s repository without updating the database?\n"
-"By confirming this you are also adding the repository to your system without checking the distribution of the repository.\n"
+"By confirming this you are also adding the repository to your system without "
+"checking the distribution of the repository.\n"
 "Do you want to continue?"
 msgstr ""
 "%s softwarebron toevoegen zonder bijwerken van de database?\n"
-"Door het toestemmen wordt deze bron aan het system toegevoegd zonder deze te controleren.\n"
+"Door het toestemmen wordt deze bron aan het system toegevoegd zonder deze te "
+"controleren.\n"
 "Doorgaan met toevoegen? "
 
 #: pisi/cli/addrepo.py:74
@@ -996,8 +1020,12 @@ msgid "Create a static package with ar files"
 msgstr "Maak een statisch pakket met ar-bestanden aan"
 
 #: pisi/cli/build.py:93 pisi/cli/delta.py:64
-msgid "Create the binary package using the given format. Use '-F help' to see a list of supported formats."
-msgstr "Aanmaken van binaire pakket gebruikmakend van opgegeven formaat. Gebruik '-F help' voor lijst van ondersteunde formaten."
+msgid ""
+"Create the binary package using the given format. Use '-F help' to see a list "
+"of supported formats."
+msgstr ""
+"Aanmaken van binaire pakket gebruikmakend van opgegeven formaat. Gebruik '-F "
+"help' voor lijst van ondersteunde formaten."
 
 #: pisi/cli/build.py:100
 msgid "Use quilt patch management system instead of GNU patch"
@@ -1016,8 +1044,12 @@ msgid "Break build after fetching the source archive"
 msgstr "Breek bouwen af na ophalen bron archief"
 
 #: pisi/cli/build.py:123
-msgid "Break build after unpacking the source archive, checking sha1sum and applying patches"
-msgstr "Breek bouwen af na uitpakken van het bron archief, controleert sha1sum entoepassen patches"
+msgid ""
+"Break build after unpacking the source archive, checking sha1sum and applying "
+"patches"
+msgstr ""
+"Breek bouwen af na uitpakken van het bron archief, controleert sha1sum "
+"entoepassen patches"
 
 #: pisi/cli/build.py:131
 msgid "Break build after running configure step"
@@ -1138,10 +1170,12 @@ msgstr "Pakket %s niet geïnstalleerd"
 
 #: pisi/cli/check.py:139
 msgid ""
-"Pisi was unable to check the integrity of packages which contain files that you don't have read access.\n"
+"Pisi was unable to check the integrity of packages which contain files that "
+"you don't have read access.\n"
 "Running the check under a privileged user may help fixing this problem."
 msgstr ""
-"Pisi kan de integriteit van pakketten niet controleren wanneer er geen lees-toegang tot de bestanden is.\n"
+"Pisi kan de integriteit van pakketten niet controleren wanneer er geen "
+"lees-toegang tot de bestanden is.\n"
 "Het uitvoeren van de controle met root-rechten kan het probleem oplossen."
 
 #: pisi/cli/clean.py:20
@@ -1157,7 +1191,8 @@ msgstr ""
 "\n"
 "Gebruik: clean\n"
 "\n"
-"PiSi gebruikt bestandsysteem vergrendeling bij het beheer van databasetoegang.\n"
+"PiSi gebruikt bestandsysteem vergrendeling bij het beheer van "
+"databasetoegang.\n"
 "Deze opdracht verwijdert ongebruikte vergrendelingen op de databasemap."
 
 #: pisi/cli/command.py:30
@@ -1293,7 +1328,9 @@ msgstr "delta opties"
 
 #: pisi/cli/delta.py:54
 msgid "Use arg as the new package and treat other arguments as old packages."
-msgstr "Gebruik arg als het nieuwe pakket en behandel andere argumenten als oude pakketten."
+msgstr ""
+"Gebruik arg als het nieuwe pakket en behandel andere argumenten als oude "
+"pakketten."
 
 #: pisi/cli/delta.py:60
 msgid "Output directory for produced packages."
@@ -1722,10 +1759,13 @@ msgstr ""
 "\n"
 "Gebruik: install <pakket1> <pakket2> ... <pakketn>\n"
 "\n"
-"\tU mag bestandsnamen, URI's of pakketnamen namen voor pakketten gebruiken. Als u\n"
-"een pakketnaam gespecificeerd heeft, dient het te bestaan in de softwarebron.\n"
+"\tU mag bestandsnamen, URI's of pakketnamen namen voor pakketten gebruiken. "
+"Als u\n"
+"een pakketnaam gespecificeerd heeft, dient het te bestaan in de "
+"softwarebron.\n"
 "\n"
-"\tU kunt ook onderdelen specificeren in plaats van pakketnamen, welk uitgebreid\n"
+"\tU kunt ook onderdelen specificeren in plaats van pakketnamen, welk "
+"uitgebreid\n"
 "zullen worden naar pakketnamen.\n"
 
 #: pisi/cli/install.py:44
@@ -1753,16 +1793,27 @@ msgid "Fetch upgrades but do not install."
 msgstr "Haal bijgewerkte bestanden op maar installeer ze niet."
 
 #: pisi/cli/install.py:63
-msgid "When installing packages, ignore packages and components whose basenames match pattern."
-msgstr "Bij installeren van pakketten, negeer pakketten en componenten wiens basenames overeenkomen met patroon."
+msgid ""
+"When installing packages, ignore packages and components whose basenames "
+"match pattern."
+msgstr ""
+"Bij installeren van pakketten, negeer pakketten en componenten wiens "
+"basenames overeenkomen met patroon."
 
 #: pisi/cli/install.py:66
-msgid "When installing packages, ignore packages and components whose basenames match any pattern contained in file."
-msgstr "Als pakketten geïnstalleerd worden, negeer pakketten en componenten wiens basenames overeenkomen met elk patroon in bestand."
+msgid ""
+"When installing packages, ignore packages and components whose basenames "
+"match any pattern contained in file."
+msgstr ""
+"Als pakketten geïnstalleerd worden, negeer pakketten en componenten wiens "
+"basenames overeenkomen met elk patroon in bestand."
 
 #: pisi/cli/install.py:70
-msgid "Store previous libraries info when package is updating to newer version."
+msgid ""
+"Store previous libraries info when package is updating to newer version."
 msgstr ""
+"Opslaan van vorige bibliotheken info als de verpakking is het updaten naar "
+"een nieuwere versie."
 
 #: pisi/cli/install.py:95
 #, python-format
@@ -1854,7 +1905,8 @@ msgstr "list-installed opties"
 
 #: pisi/cli/listinstalled.py:45
 msgid "Only list the installed packages built by the given host"
-msgstr "Toon alleen de door de opgegeven host gebouwde en geïnstalleerde pakketten"
+msgstr ""
+"Toon alleen de door de opgegeven host gebouwde en geïnstalleerde pakketten"
 
 #: pisi/cli/listinstalled.py:50
 msgid "List installed packages under given component"
@@ -1866,8 +1918,10 @@ msgstr "Toon gedetailleerde installatie-informatie"
 
 # pisi/cli/commands.py:542 :729
 #: pisi/cli/listinstalled.py:78 pisi/cli/listupgrades.py:73
-msgid "Package Name          |St|        Version|  Rel.|  Distro|             Date"
-msgstr "Pakketnaam          |St|        Versie|  Rel.|  Distro|             Datum"
+msgid ""
+"Package Name          |St|        Version|  Rel.|  Distro|             Date"
+msgstr ""
+"Pakketnaam          |St|        Versie|  Rel.|  Distro|             Datum"
 
 #: pisi/cli/listnewest.py:25
 msgid ""
@@ -1892,12 +1946,20 @@ msgid "list-newest options"
 msgstr "list-newest opties"
 
 #: pisi/cli/listnewest.py:46
-msgid "List new packages added to repository after this given date formatted as yyyy-mm-dd"
-msgstr "Toon nieuwe pakketten die aan de softwarebron toegevoegd zijn na de opgegeven datum in het formaat jjjj-mm-dd"
+msgid ""
+"List new packages added to repository after this given date formatted as "
+"yyyy-mm-dd"
+msgstr ""
+"Toon nieuwe pakketten die aan de softwarebron toegevoegd zijn na de opgegeven "
+"datum in het formaat jjjj-mm-dd"
 
 #: pisi/cli/listnewest.py:48
-msgid "List new packages added to repository after last nth previous repository update"
-msgstr "Toon nieuwe pakketten die aan de softwarebron toegevoegd zijn na de laatste n-de opwaardering van softwarebron"
+msgid ""
+"List new packages added to repository after last nth previous repository "
+"update"
+msgstr ""
+"Toon nieuwe pakketten die aan de softwarebron toegevoegd zijn na de laatste "
+"n-de opwaardering van softwarebron"
 
 #: pisi/cli/listnewest.py:76
 #, python-format
@@ -2052,7 +2114,8 @@ msgstr ""
 "\n"
 "Gebruik: remove <package1> <package2> ... <packagen>\n"
 "\n"
-"Verwijdert pakket(ten) van het systeem. Geef alleen de te verwijderen pakketnamen op.\n"
+"Verwijdert pakket(ten) van het systeem. Geef alleen de te verwijderen "
+"pakketnamen op.\n"
 "\n"
 "In plaats van pakketnamen kunt u ook componenten opgeven, die naar\n"
 "pakketnamen geëxpandeerd worden. \n"
@@ -2063,7 +2126,8 @@ msgstr "verwijder opties"
 
 #: pisi/cli/remove.py:46
 msgid "Removes everything including changed config files of the package"
-msgstr "Verwijdert alles inclusief gewijzigde configuratiebestanden van het pakket"
+msgstr ""
+"Verwijdert alles inclusief gewijzigde configuratiebestanden van het pakket"
 
 #: pisi/cli/remove.py:48
 msgid "Remove component's and recursive components' packages"
@@ -2122,7 +2186,7 @@ msgstr "Zoekt in bron database"
 
 #: pisi/cli/search.py:53
 msgid "Case sensitive search"
-msgstr ""
+msgstr "Hoofdlettergevoelig zoeken"
 
 #: pisi/cli/search.py:55
 msgid "Search in the package name"
@@ -2259,15 +2323,22 @@ msgid "Name of the to be upgraded packages' repository"
 msgstr "Naam van de op te waarderen pakketbron"
 
 #: pisi/cli/upgrade.py:68
-msgid "When upgrading system, ignore packages and components whose basenames match pattern."
-msgstr "Bij het opwaarderen van het systeem, pakketten en componenten negeren waarbij basenames overeenkomen met patroon."
+msgid ""
+"When upgrading system, ignore packages and components whose basenames match "
+"pattern."
+msgstr ""
+"Bij het opwaarderen van het systeem, pakketten en componenten negeren waarbij "
+"basenames overeenkomen met patroon."
 
 #: pisi/cli/upgrade.py:71
-msgid "When upgrading system, ignore packages and components whose basenames match any pattern contained in file."
-msgstr "Als het systeem opgewaardeerd wordt, pakketten en componenten negeren waarbij basenames overeenkomen met ieder patroon in bestand."
+msgid ""
+"When upgrading system, ignore packages and components whose basenames match "
+"any pattern contained in file."
+msgstr ""
+"Als het systeem opgewaardeerd wordt, pakketten en componenten negeren waarbij "
+"basenames overeenkomen met ieder patroon in bestand."
 
 #: pisi/cli/upgrade.py:75
-#, fuzzy
 msgid "compare sha1sum repo and installed packages"
 msgstr "Herïnstalleer reeds geïnstalleerde pakketten"
 
@@ -2299,7 +2370,8 @@ msgstr "Configureren %s pakket"
 
 #: pisi/comariface.py:103
 msgid "COMAR package updated. From now on, using new COMAR daemon."
-msgstr "COMAR-pakket opgewaardeerd. Van nu af aan, niewe COMAR-daemon gebruiken."
+msgstr ""
+"COMAR-pakket opgewaardeerd. Van nu af aan, niewe COMAR-daemon gebruiken."
 
 #: pisi/comariface.py:110
 #, python-format
@@ -2401,7 +2473,6 @@ msgid "Component %s not found"
 msgstr "Component %s niet gevonden"
 
 #: pisi/db/filesldb.py:37
-#, fuzzy
 msgid "Creating files database..."
 msgstr "Herbouw bestanden database"
 
@@ -2415,12 +2486,10 @@ msgid "OK."
 msgstr "OK."
 
 #: pisi/db/filesldb.py:44 pisi/db/filesldb.py:74
-#, fuzzy
 msgid "done."
 msgstr "Gereed."
 
 #: pisi/db/filesldb.py:72
-#, fuzzy
 msgid "Cleaning files database folder... "
 msgstr "Opschonen bouwmap..."
 
@@ -2453,8 +2522,12 @@ msgstr "Distributie: %s, installatietijd: %s\n"
 
 #: pisi/db/installdb.py:94
 #, python-format
-msgid "Installation info for package '%s' is broken. Reinstall it to fix this problem."
-msgstr "Installatie-informatie voor pakket '%s' is niet goed. Installeer opnieuw voor het oplossen van het probleem."
+msgid ""
+"Installation info for package '%s' is broken. Reinstall it to fix this "
+"problem."
+msgstr ""
+"Installatie-informatie voor pakket '%s' is niet goed. Installeer opnieuw voor "
+"het oplossen van het probleem."
 
 #: pisi/db/installdb.py:345
 #, python-format
@@ -2487,13 +2560,20 @@ msgid "%s repository needs to be updated"
 msgstr "%s softwarebron dient opgewaardeerd te worden."
 
 #: pisi/db/repodb.py:174
-msgid "Error parsing repository index information. Index file does not exist or is malformed."
-msgstr "Fout bij het ontleden van indexinformatie van softwarebron. Indexbestand bestaat niet of is van onjuiste formaat."
+msgid ""
+"Error parsing repository index information. Index file does not exist or is "
+"malformed."
+msgstr ""
+"Fout bij het ontleden van indexinformatie van softwarebron. Indexbestand "
+"bestaat niet of is van onjuiste formaat."
 
 #: pisi/db/repodb.py:264
 #, python-format
-msgid "Repository '%s' is not compatible with your distribution. Repository is disabled."
-msgstr "Softwarebron %s is niet compatibel met de distributie. Bron is uitgeschakeld."
+msgid ""
+"Repository '%s' is not compatible with your distribution. Repository is "
+"disabled."
+msgstr ""
+"Softwarebron %s is niet compatibel met de distributie. Bron is uitgeschakeld."
 
 #: pisi/fetcher.py:147
 msgid "Urlgrabber needs to be installed to run this command"
@@ -2519,8 +2599,11 @@ msgid "Could not fetch destination file \"%s\": %s"
 msgstr "Kan bestemmingbestand niet bereiken \"%s\": %s"
 
 #: pisi/fetcher.py:174
-msgid "A problem occurred. Please check the archive address and/or permissions again."
-msgstr "Er is een probleem opgetreden. Controleer het archief adres en/of de toegangsrechten opnieuw."
+msgid ""
+"A problem occurred. Please check the archive address and/or permissions again."
+msgstr ""
+"Er is een probleem opgetreden. Controleer het archief adres en/of de "
+"toegangsrechten opnieuw."
 
 #: pisi/fetcher.py:207
 #, python-format
@@ -2533,12 +2616,20 @@ msgid "Bandwidth usage is limited to %s KB/s"
 msgstr "Bandbreedte gebruik is beperks tot %s KB/s"
 
 #: pisi/fetcher.py:227
-msgid "Remote file can not be reached. Previously downloaded part of the file will be removed."
-msgstr "Bestand op afstand kan niet bereikt worden. Het eerder opgehaalde deel van het bestand zal verwijderd worden."
+msgid ""
+"Remote file can not be reached. Previously downloaded part of the file will "
+"be removed."
+msgstr ""
+"Bestand op afstand kan niet bereikt worden. Het eerder opgehaalde deel van "
+"het bestand zal verwijderd worden."
 
 #: pisi/fetcher.py:236
-msgid "Server doesn't support partial downloads. Previously downloaded part of the file will be over-written."
-msgstr "De server ondersteunt geen gedeeltelijke downloads. Het eerder gedownloade deel van het bestand zal overschreven worden."
+msgid ""
+"Server doesn't support partial downloads. Previously downloaded part of the "
+"file will be over-written."
+msgstr ""
+"De server ondersteunt geen gedeeltelijke downloads. Het eerder gedownloade "
+"deel van het bestand zal overschreven worden."
 
 #: pisi/file.py:35
 #, python-format
@@ -2638,7 +2729,7 @@ msgid "Unknown package operation"
 msgstr "Onbekende pakketbewerking"
 
 #: pisi/index.py:99
-#, fuzzy, python-format
+#, python-format
 msgid "Sorting: %s "
 msgstr "Aanmaken %s... "
 
@@ -2687,7 +2778,7 @@ msgstr ", Pakketgrootte: %s"
 #: pisi/metadata.py:89
 #, python-format
 msgid ", install.tar.xz sha1sum: %s"
-msgstr ""
+msgstr ", Install.tar.xz sha1sum:% s"
 
 #: pisi/mirrors.py:46
 #, python-format
@@ -2700,7 +2791,7 @@ msgid "Path %s belongs in multiple packages"
 msgstr "Pad %s behoort bij meerdere pakketten"
 
 #: pisi/operations/build.py:144
-#, fuzzy, python-format
+#, python-format
 msgid "Removing special file skipped for: %s"
 msgstr "Verwijderen cachebestand %s..."
 
@@ -2738,12 +2829,20 @@ msgid "Rebuilding for %s"
 msgstr "Opnieuw bouwen voor %s"
 
 #: pisi/operations/build.py:503
-msgid "Cannot find component.xml in remote directory, Source is now part of unknown component"
-msgstr "Kan component.xml in map op afstand niet vinden. Bron is nu onderdeel van onbekende component"
+msgid ""
+"Cannot find component.xml in remote directory, Source is now part of unknown "
+"component"
+msgstr ""
+"Kan component.xml in map op afstand niet vinden. Bron is nu onderdeel van "
+"onbekende component"
 
 #: pisi/operations/build.py:511
-msgid "Cannot find component.xml in upper directory, Source is now part of unknown component"
-msgstr "Kan component.xml in bovenliggende map niet vinden. Bron is nu onderdeel van onbekende component"
+msgid ""
+"Cannot find component.xml in upper directory, Source is now part of unknown "
+"component"
+msgstr ""
+"Kan component.xml in bovenliggende map niet vinden. Bron is nu onderdeel van "
+"onbekende component"
 
 #: pisi/operations/build.py:525
 msgid "Unpacking archive(s)..."
@@ -2828,8 +2927,11 @@ msgid "Source package '%s' defines multiple 'Path' tags for %s"
 msgstr "Bronpakket '%s' definieert meerdere 'Pad' tags voor %s"
 
 #: pisi/operations/build.py:810
-msgid "Safety switch: following extra packages in system.devel will be installed: "
-msgstr "Veiligheidsprocedure: de volgende extra pakketten in system.devel zullen geïnstalleerd worden: "
+msgid ""
+"Safety switch: following extra packages in system.devel will be installed: "
+msgstr ""
+"Veiligheidsprocedure: de volgende extra pakketten in system.devel zullen "
+"geïnstalleerd worden: "
 
 #: pisi/operations/build.py:815
 msgid "Safety switch: the component system.devel cannot be found"
@@ -2934,18 +3036,26 @@ msgstr "Laatste status was '%s'"
 
 #: pisi/operations/delta.py:43
 #, python-format
-msgid "The file '%s' belongs to a different package other than '%s'. Skipping it..."
-msgstr "Het bestand '%s' behoort toe aan een ander pakket dan '%s'. Overslaan..."
+msgid ""
+"The file '%s' belongs to a different package other than '%s'. Skipping it..."
+msgstr ""
+"Het bestand '%s' behoort toe aan een ander pakket dan '%s'. Overslaan..."
 
 #: pisi/operations/delta.py:49
 #, python-format
-msgid "Package '%s' has the same release number with the new package. Skipping it..."
-msgstr "Pakket '%s' heeft hetzelfde vrijgavenummer met het nieuwe pakket. Overslaan..."
+msgid ""
+"Package '%s' has the same release number with the new package. Skipping it..."
+msgstr ""
+"Pakket '%s' heeft hetzelfde vrijgavenummer met het nieuwe pakket. Overslaan..."
 
 #: pisi/operations/delta.py:69
 #, python-format
-msgid "All files in the package '%s' are different from the files in the new package. Skipping it..."
-msgstr "Alle bestanden in het pakket '%s' zijn ongelijk aan de bestanden in het nieuwe pakket. Overslaan..."
+msgid ""
+"All files in the package '%s' are different from the files in the new "
+"package. Skipping it..."
+msgstr ""
+"Alle bestanden in het pakket '%s' zijn ongelijk aan de bestanden in het "
+"nieuwe pakket. Overslaan..."
 
 #: pisi/operations/delta.py:113
 #, python-format
@@ -3006,7 +3116,8 @@ msgstr "De volgende pakketten met conflicten verwijderen?"
 
 #: pisi/operations/helper.py:63
 msgid "Conflicting packages should be removed to continue"
-msgstr "Conflicterende pakketten dienen verwijderd te worden om door te kunnen gaan"
+msgstr ""
+"Conflicterende pakketten dienen verwijderd te worden om door te kunnen gaan"
 
 #: pisi/operations/history.py:84 pisi/operations/history.py:94
 #, python-format
@@ -3044,11 +3155,16 @@ msgid ""
 "Following packages could not be found in repositories and are not cached:\n"
 msgstr ""
 "\n"
-"Volgende pakketten konden niet gevonden worden in de softwarebronnen en zijn niet in het buffer:\n"
+"Volgende pakketten konden niet gevonden worden in de softwarebronnen en zijn "
+"niet in het buffer:\n"
 
 #: pisi/operations/install.py:47 pisi/operations/install.py:134
-msgid "The following package(s) are already installed and are not going to be installed again:"
-msgstr "De volgende pakket(ten) zijn al geïnstalleerd en zullen niet opnieuw worden geïnstalleerd:"
+msgid ""
+"The following package(s) are already installed and are not going to be "
+"installed again:"
+msgstr ""
+"De volgende pakket(ten) zijn al geïnstalleerd en zullen niet opnieuw worden "
+"geïnstalleerd:"
 
 # pisi/api.py:168 :215
 #: pisi/operations/install.py:53 pisi/operations/install.py:213
@@ -3089,8 +3205,11 @@ msgid "External dependencies not satisfied: %s"
 msgstr "Externe afhankelijkheden zijn niet voldaan: %s"
 
 #: pisi/operations/install.py:197
-msgid "The following packages will be installed in order to satisfy dependencies:"
-msgstr "De volgende pakketten zullen in de respectievelijke volgorde geïnstalleerd worden om aan de afhankelijkheden te voldoen:"
+msgid ""
+"The following packages will be installed in order to satisfy dependencies:"
+msgstr ""
+"De volgende pakketten zullen in de respectievelijke volgorde geïnstalleerd "
+"worden om aan de afhankelijkheden te voldoen:"
 
 #: pisi/operations/install.py:201
 msgid "External dependencies not satisfied"
@@ -3107,7 +3226,8 @@ msgstr "%s afhankelijkheid van pakket %s is niet bevredigend"
 
 #: pisi/operations/remove.py:43
 msgid "Safety switch prevents the removal of following packages:\n"
-msgstr "Veiligheidsprocedure voorkomt het verwijderen van de volgende pakketten:\n"
+msgstr ""
+"Veiligheidsprocedure voorkomt het verwijderen van de volgende pakketten:\n"
 
 #: pisi/operations/remove.py:48 pisi/operations/upgrade.py:385
 msgid "Safety switch: The component system.base cannot be found."
@@ -3152,12 +3272,20 @@ msgid "Replaced package remains"
 msgstr "Vervangen pakket blijft"
 
 #: pisi/operations/upgrade.py:52
-msgid "You must restart the following service(s) manually for the updated software to take effect:"
-msgstr "Herstart de volgende dienst(en) handmatig voor het bijwerken van opgewaardeerde softwareversies:"
+msgid ""
+"You must restart the following service(s) manually for the updated software "
+"to take effect:"
+msgstr ""
+"Herstart de volgende dienst(en) handmatig voor het bijwerken van "
+"opgewaardeerde softwareversies:"
 
 #: pisi/operations/upgrade.py:59
-msgid "You must restart your system for the updates in the following package(s) to take effect:"
-msgstr "Herstart het systeem voor het actief maken van de volgende opgewaardeerde pakket(ten)versie(s):"
+msgid ""
+"You must restart your system for the updates in the following package(s) to "
+"take effect:"
+msgstr ""
+"Herstart het systeem voor het actief maken van de volgende opgewaardeerde "
+"pakket(ten)versie(s):"
 
 #: pisi/operations/upgrade.py:84
 msgid "Warning: package *name* ends with '.pisi'"
@@ -3179,7 +3307,6 @@ msgid "Package %s is already at the latest release %s."
 msgstr "Pakket %s is al de laatste uitgave %s."
 
 #: pisi/operations/upgrade.py:118
-#, fuzzy
 msgid "The following packages have different sha1sum:"
 msgstr ""
 "De volgende pakketten hebben conflicten:\n"
@@ -3204,11 +3331,13 @@ msgstr "Opwaarderen niet mogelijk."
 
 #: pisi/operations/upgrade.py:362
 msgid "Safety switch forces the installation of following packages:"
-msgstr "Veiligheidsprocedure vereist het installeren van de volgende pakketten:"
+msgstr ""
+"Veiligheidsprocedure vereist het installeren van de volgende pakketten:"
 
 #: pisi/operations/upgrade.py:378
 msgid "Safety switch forces the upgrade of following packages:"
-msgstr "Veiligheidsprocedure vereist het opwaarderen van de volgende pakketten:"
+msgstr ""
+"Veiligheidsprocedure vereist het opwaarderen van de volgende pakketten:"
 
 #: pisi/package.py:68
 #, python-format
@@ -3244,8 +3373,12 @@ msgid "LocalText: unable to get either current or default locale"
 msgstr "Localtext: huidige of standaard locale kon niet worden verkregen"
 
 #: pisi/pxml/autoxml.py:119 pisi/pxml/autoxml.py:134
-msgid "Tag should have at least the current locale, or failing that an English or Turkish version"
-msgstr "De tag dient tenminste de huidige locale bevatten, of anders een Engelse, Nederlandse of Turkse versie"
+msgid ""
+"Tag should have at least the current locale, or failing that an English or "
+"Turkish version"
+msgstr ""
+"De tag dient tenminste de huidige locale bevatten, of anders een Engelse, "
+"Nederlandse of Turkse versie"
 
 #: pisi/pxml/autoxml.py:372
 #, python-format
@@ -3402,7 +3535,9 @@ msgstr "Onbekend archieftype '%s' is opgegeven voor '%s'."
 #: pisi/sourcearchive.py:127
 #, python-format
 msgid "Pisi needs %s to unpack this archive but it is not installed."
-msgstr "Pisi heeft %s nodig voor het uitpakken van dit archief maar het is niet geïnstalleerd."
+msgstr ""
+"Pisi heeft %s nodig voor het uitpakken van dit archief maar het is niet "
+"geïnstalleerd."
 
 #: pisi/specfile.py:164
 #, python-format
@@ -3522,12 +3657,12 @@ msgid "objcopy (add-debuglink) command failed for file '%s'!"
 msgstr "Commando 'objcopy' (add-debuglink)  mislukte voor bestand '%s'!"
 
 #: pisi/util.py:616
-#, fuzzy, python-format
+#, python-format
 msgid "file command failed with return code %s for file: %s"
 msgstr "Commando 'strip' mislukte voor bestand '%s'!"
 
 #: pisi/util.py:617
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Output:\n"
 "%s"
