@@ -1,25 +1,26 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
-# atolboo <atolboo@gmail.com>, 2009-2010
-# mozen <inactive+mozen@transifex.com>, 2013
-# Willem Gielen <w.gielen@gmail.com>, 2007-2009
-# W.P.M.H.I.A. Gielen <w.gielen@gmail.com>, 2008
+# atolboo <atolboo@gmail.com>, 2009-2010.
+# mozen <inactive+mozen@transifex.com>, 2013.
+# Willem Gielen <w.gielen@gmail.com>, 2007-2009.
+# W.P.M.H.I.A. Gielen <w.gielen@gmail.com>, 2008.
+# Stefan Gronewold <groni3427@gmail.com>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-23 11:26+0200\n"
-"PO-Revision-Date: 2014-02-23 09:24+0000\n"
-"Last-Translator: obsoleteman <tulliana@gmail.com>\n"
-"Language-Team: Dutch (http://www.transifex.com/projects/p/PiSiLinux/language/nl/)\n"
+"PO-Revision-Date: 2014-07-30 18:33+0200\n"
+"Last-Translator: Stefan Gronewold <groni3427@gmail.com>\n"
+"Language-Team: Dutch <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: bin/mudur.py:322
 msgid "Cannot write mudur.log, read-only file system"
@@ -27,7 +28,7 @@ msgstr "Kan niet schrijven naar mudur.log, alleen-lezen bestandssysteem"
 
 #: bin/mudur.py:499
 msgid "Cannot find /etc/pisilinux-release"
-msgstr ""
+msgstr "kan /etc/pisilinux-release niet vinden "
 
 #: bin/mudur.py:595
 msgid "/etc/env.d/03locale cannot be updated"
@@ -136,7 +137,10 @@ msgid ""
 "Root filesystem could not be mounted read/write\n"
 "   You can either login below and manually check your filesytem(s) OR\n"
 "   restart your system, press F3 and select 'FS check' from boot menu\n"
-msgstr "Root systeembestand kan niet aangekoppeld worden voor lezen/schrijven\n   Log hieronder in en controleer handmatig het bestandsysteem(en) OF\n   herstart het systeem, druk op F3 en selecteer FS-controle in het opstartmenu\n"
+msgstr ""
+"Root systeembestand kan niet aangekoppeld worden voor lezen/schrijven\n   Log "
+"hieronder in en controleer handmatig het bestandsysteem(en) OF\n   herstart "
+"het systeem, druk op F3 en selecteer FS-controle in het opstartmenu\n"
 
 #: bin/mudur.py:960
 msgid "Couldn't synchronize /etc/mtab from /proc/mounts"
@@ -164,7 +168,7 @@ msgstr "Aankoppelen lokale bestandsystemen"
 
 #: bin/mudur.py:1023
 msgid "Unmounting /run"
-msgstr ""
+msgstr "unmount /run"
 
 #: bin/mudur.py:1034
 msgid "Mounting remote filesystems"
@@ -189,7 +193,7 @@ msgstr "Deactiveren swapruimte"
 
 #: bin/mudur.py:1144
 msgid "Cleaning up /run"
-msgstr ""
+msgstr "opruimen /run"
 
 #: bin/mudur.py:1160
 msgid "Cleaning up /tmp"
@@ -228,10 +232,12 @@ msgid ""
 "An internal error occured. Please report to the bugs.pisilinux.orgwith "
 "following information:"
 msgstr ""
+"Een interne fout is opgetreden. Meldt u zich bij  bugs.pisi linux.org met"
+"volgende informatie:"
 
 #: bin/mudur.py:1406
 msgid "Creating tmpfiles"
-msgstr ""
+msgstr "creëren van tmp bestanden"
 
 #: bin/mudur.py:1423
 msgid "Setting up localhost"
@@ -353,9 +359,17 @@ msgid ""
 "and option is:\n"
 " -N, --no-color  Don't use color in output\n"
 " -q, --quiet     Don't print replies"
-msgstr "gebruik: service [<opties>] <dienst>] <commando>\nwaarbij commando's zijn:\n list    Dienstenlijst weergeven\n status     Dienstenstatus tonen\n info    Dienstenstatus tonen\n on      Autostart dienst\n off     Dienst niet automatisch starten\n start   Start dienst\n stop    Stop dienst\n restart  Stop dienst en herstart\n reload   Herladen van de configuratie (als de dienst dit ondersteunt)\nen optie is:\n -N, --no-color  Gebruik geen kleur in uitvoer  -q, --quiet     Print geen antwoorden"
+msgstr ""
+"gebruik: service [<opties>] <dienst>] <commando>\nwaarbij commando's zijn:\n "
+"list    Dienstenlijst weergeven\n status     Dienstenstatus tonen\n info    "
+"Dienstenstatus tonen\n on      Autostart dienst\n off     Dienst niet "
+"automatisch starten\n start   Start dienst\n stop    Stop dienst\n restart  "
+"Stop dienst en herstart\n reload   Herladen van de configuratie (als de "
+"dienst dit ondersteunt)\nen optie is:\n -N, --no-color  Gebruik geen kleur in "
+"uitvoer  -q, --quiet     Print geen antwoorden"
 
 #: bin/service.py:355
 #, python-format
 msgid "No such service: %s"
 msgstr "Geen dienst: %s"
+
