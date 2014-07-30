@@ -1,25 +1,25 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# fmayaturk <fmayaturk@gmail.com>, 2014
-# groni_g g <groni3427@gmail.com>, 2014
-# Stefan Wilhelm <sw at pardususer dot de>, 2010
+# fmayaturk <fmayaturk@gmail.com>, 2014.
+# groni_g g <groni3427@gmail.com>, 2014.
+# Stefan Wilhelm <sw at pardususer dot de>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-30 15:09+0300\n"
-"PO-Revision-Date: 2014-02-18 17:47+0000\n"
-"Last-Translator: groni_g g <groni3427@gmail.com>\n"
-"Language-Team: German (http://www.transifex.com/projects/p/PiSiLinux/"
+"PO-Revision-Date: 2014-07-30 22:27+0200\n"
+"Last-Translator: Stefan Gronewold <groni3427@gmail.com>\n"
+"Language-Team: German <kde-i18n-doc@kde.org>\n"
 "language/de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: ../release.xml.in.h:1
 msgid "Kahya"
@@ -559,7 +559,6 @@ msgstr ""
 "Mate-Datei-Manager usw."
 
 #: ../release.xml.in.h:47
-#, fuzzy
 msgid ""
 "PiSi (Packages Installed Successfully as Intended) was built from scratch to "
 "address some shortcomings of traditional package management systems. It "
@@ -681,3 +680,4 @@ msgstr ""
 "beitragen zu können, technisch oder in anderer Weise, werden wir uns immer "
 "freuen, von Ihnen zu hören. Kontakt: admin@pisilinux.org. Wir danken Ihnen "
 "für die Benutzung von Pisi Linux."
+
