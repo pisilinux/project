@@ -1,22 +1,23 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
-# Stefan <sw1976de at googlemail dot com>, 2009
+# Stefan <sw1976de at googlemail dot com>, 2009.
+# Stefan Gronewold <groni3427@gmail.com>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-09-16 00:19+0300\n"
-"PO-Revision-Date: 2013-01-04 21:49+0000\n"
-"Last-Translator: circass <erdincgultekin@gmail.com>\n"
-"Language-Team: German (http://www.transifex.com/projects/p/PiSiLinux/language/de/)\n"
+"PO-Revision-Date: 2014-07-30 17:12+0200\n"
+"Last-Translator: Stefan Gronewold <groni3427@gmail.com>\n"
+"Language-Team: German <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: data/firewall-manager.desktop.in.h:1
 msgid "An application for managing firewall."
@@ -50,18 +51,21 @@ msgstr "Hauptentwickler"
 #: src/firewallmanager/about.py:36
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Stefan Wilhelm"
+msgstr "Stefan Gronewold"
 
 #: src/firewallmanager/about.py:36
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "sw@pardususer.de"
+msgstr "groni@pisilinux.org"
 
 #: src/firewallmanager/main.py:96
 msgid ""
 "There are no packages that provide backend for this application.\n"
 "Please make sure that packages are installed and configured correctly."
-msgstr "Für das Backend dieser Applikation sind keine Pakete vorhanden.\nBitte stellen Sie sicher, dass die erforderlichen Pakete installiert und korrekt konfiguriert sind."
+msgstr ""
+"Für das Backend dieser Applikation sind keine Pakete vorhanden.\nBitte "
+"stellen Sie sicher, dass die erforderlichen Pakete installiert und korrekt "
+"konfiguriert sind."
 
 #: src/firewallmanager/main.py:200
 msgid "All"
@@ -139,3 +143,4 @@ msgstr "Ok"
 #: src/firewallmanager/pagedialog.py:71
 msgid "Cancel"
 msgstr "Abbrechen"
+
