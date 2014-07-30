@@ -3,19 +3,20 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Antoon Tolboom <atolboo@gmail.com>, 2009, 2010, 2011.
+# Stefan Gronewold <groni3427@gmail.com>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: nl\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-02-10 15:44+0200\n"
-"PO-Revision-Date: 2011-01-25 11:39+0100\n"
-"Last-Translator: Antoon Tolboom <atolboo@gmail.com>\n"
+"PO-Revision-Date: 2014-07-30 18:27+0200\n"
+"Last-Translator: Stefan Gronewold <groni3427@gmail.com>\n"
 "Language-Team: Dutch <kde-i18n-doc@kde.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: data/kcm_user-manager.desktop.in.h:1 data/user-manager.desktop.in.h:1
@@ -28,9 +29,8 @@ msgid "User Manager"
 msgstr "Gebruikerbeheer"
 
 #: src/usermanager/about.py:33 src/usermanager/about.py:35
-#, fuzzy
 msgid "Disk Manager"
-msgstr "Gebruikerbeheer"
+msgstr "Disk Manager"
 
 #: src/usermanager/about.py:37
 msgid "(c) 2006-2010 TUBITAK/UEKAE"
@@ -55,15 +55,14 @@ msgstr "Eerste ontwikkelaar"
 #: src/usermanager/about.py:47
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "atolboo@gmail.com"
+msgstr "atolboo@gmail.com, groni@pisilinux.org"
 
 #: src/usermanager/about.py:47
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Antoon Tolboom"
+msgstr "Antoon Tolboom, Stefan Gronewold"
 
 #: src/usermanager/context.py:30
-#, fuzzy
 msgid "Do you want to continue ?"
 msgstr "Wilt u groep '%1' verwijderen?"
 
@@ -112,9 +111,8 @@ msgid "Keyboard settings"
 msgstr "Toetsenbordinstellingen"
 
 #: src/usermanager/edit.py:312
-#, fuzzy
 msgid "There has to be at least one group selected"
-msgstr "Ten minste één groep dient geselecteerd te zijn."
+msgstr "Ten minste een groep dient geselecteerd te zijn."
 
 #: src/usermanager/edit.py:389
 msgid "Start with typing this user's full name."
@@ -149,7 +147,6 @@ msgid "User name must not start with a number."
 msgstr "Gebruikernaam mag niet starten met een cijfer."
 
 #: src/usermanager/main.py:117
-#, fuzzy
 msgid ""
 "There are no packages that provide backend for this application.\n"
 "Please make sure that packages are installed and configured correctly"
@@ -159,7 +156,6 @@ msgstr ""
 
 #: src/usermanager/main.py:209 src/usermanager/main.py:273
 #: src/usermanager/main.py:290 src/usermanager/main.py:466
-#, fuzzy
 msgid "Access denied"
 msgstr "Toegang geweigerd."
 
@@ -189,7 +185,8 @@ msgstr "Groep toevoegen"
 
 #: src/usermanager/main.py:370
 msgid "Cannot delete <b>%1</b>. The user is currently logged in."
-msgstr "Kan <b>%1</b> niet verwijderen. De gebruiker is op dit moment aangemeld."
+msgstr ""
+"Kan <b>%1</b> niet verwijderen. De gebruiker is op dit moment aangemeld."
 
 #: src/usermanager/main.py:377
 msgid "Do you want to delete user '%1' (%2)?"
@@ -200,13 +197,12 @@ msgid "Also remove user files. (This may take long.)"
 msgstr "Ook gebruikerbestanden verwijderen. (Dit kan lang duren.)"
 
 #: src/usermanager/main.py:389
-#, fuzzy
 msgid "Do yu want to delete group '%1'?"
-msgstr "Wilt u groep '%1' verwijderen?"
+msgstr "Wilt u deze groep '%1' verwijderen?"
 
 #: src/usermanager/main.py:440
 msgid "Remove items"
-msgstr ""
+msgstr "items verwijderen"
 
 #: ui/ui_editgroup.py:90
 msgid "Group Information"
