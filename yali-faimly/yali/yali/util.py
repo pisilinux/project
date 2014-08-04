@@ -370,10 +370,6 @@ def start_dbus():
     chroot("/bin/service dbus start")
 
 def stop_dbus():
-    filesdb = pisi.db.filesdb.FilesDB()
-    if filesdb.is_initialized():
-        filesdb.close()
-
     # stop dbus
     chroot("/bin/service dbus stop")
     # kill comar in chroot if any exists
