@@ -1,15 +1,15 @@
 #
 # Translators:
-# Ivica  Kolić <ikoli@yahoo.com>, 2014
-# obsoleteman <tulliana@gmail.com>, 2014
+# Ivica  Kolić <ikoli@yahoo.com>, 2014.
+# obsoleteman <tulliana@gmail.com>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-30 16:17+0300\n"
-"PO-Revision-Date: 2014-03-07 19:29+0000\n"
-"Last-Translator: obsoleteman <tulliana@gmail.com>\n"
-"Language-Team: Croatian (http://www.transifex.com/projects/p/PiSiLinux/"
+"PO-Revision-Date: 2014-08-04 22:44+0300\n"
+"Last-Translator: Serdar Soytetir\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "language/hr/)\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Translate Toolkit 1.9.0\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: template.html+html.head.title:5
 msgid "Pisi Linux"
@@ -64,6 +64,11 @@ msgid ""
 "4.8.6<br /> glibc: 2.19<br /> binutils: 2.24<br /> coreutils: 8.22<br /><br /"
 ">"
 msgstr ""
+"<b>Release Highlights</b><br /> Linux Kernel: 3.15.6<br /> KDE: 4.13.2<br /> "
+"Mate: 1.8.0<br /> Mozilla Firefox: 30.0<br /> LibreOffice: 4.2.5.2<br /> "
+"GIMP: 2.8.10<br /> Calligra Suite: 2.8.3<br /> Clementine: 1.2.3<br /> Qt: "
+"4.8.6<br /> glibc: 2.19<br /> binutils: 2.24<br /> coreutils: 8.22<br /><br /"
+">"
 
 #: template.html+html.body.div.table.tr.td:34
 msgid ""
@@ -108,3 +113,4 @@ msgid ""
 msgstr ""
 "Turski/Engleski: Anka/Phoenix - Pisi/Kitty - Kaptan/Captain<br /> Nadamo se "
 "da uživate koristeći Pisi Linux. Hvala vam,"
+
