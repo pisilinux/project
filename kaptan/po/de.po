@@ -1,27 +1,26 @@
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# Translators:
-# circass <erdincgultekin@gmail.com>, 2013.
-# fmayaturk <fmayaturk@gmail.com>, 2013.
-# miltonjohn <miltonjohn@web.de>, 2009.
-# Klemens Häckel <click3d at linuxmail (dot) org>, 2010.
-# Klemens Häckel <click3d at linuxmail dot org>, 2009.
+# translation of de.po to German
+# Kaptan
+# Copyright (C) 2009
+# This file is distributed under the same license as the Kaptan package.
+#
 # Pınar Yanardağ <pinar@pardus.org.tr>, 2009.
-# Stefan Gronewold <groni3427@gmail.com>, 2014.
+# Klemens Häckel <click3d at linuxmail dot org>, 2009.
+# Heiko Pardus Translator <miltonjohn@web.de>, 2009.
+# Klemens Häckel <click3d at linuxmail (dot) org>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: PiSiLinux\n"
+"Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-21 07:16+0300\n"
-"PO-Revision-Date: 2014-07-29 19:04+0200\n"
-"Last-Translator: Stefan Gronewold <groni3427@gmail.com>\n"
+"PO-Revision-Date: 2010-01-11 21:59-0300\n"
+"Last-Translator: Klemens Häckel <click3d at linuxmail (dot) org>\n"
 "Language-Team: German <kde-i18n-doc@kde.org>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 0.3\n"
 
 #: .tmp/scrStyle.py:37 .tmp/ui_scrStyle.py:252
 msgid "Themes"
@@ -40,8 +39,8 @@ msgid ""
 "Choose your favorite wallpaper for Pisi Linux. Don't forget to check out "
 "<b>Desktop Settings</b> for downloading new and cool wallpapers."
 msgstr ""
-"Wählen Sie Ihr gewünschtes Hintergrundbild aus. Sie können bei den <b>Desktop "
-"Einstellungen</b> weitere coole Hintergrundbilder herunterladen."
+"Wählen Sie Ihr gewünschtes Hintergrundbild aus. Sie können bei den "
+"<b>Desktop Einstellungen</b> weitere coole Hintergrundbilder herunterladen."
 
 #: .tmp/ui_scrWallpaper.py:170
 msgid "Wallpapers"
@@ -85,8 +84,8 @@ msgstr "Form"
 
 #: .tmp/ui_scrAvatar.py:260
 msgid ""
-"This screen helps you set your <b>user picture</b>. You can either choose an"
-" image from a file or you can capture an image from your camera. Select an "
+"This screen helps you set your <b>user picture</b>. You can either choose an "
+"image from a file or you can capture an image from your camera. Select an "
 "option from the <b>options</b> menu."
 msgstr ""
 "Dieser Bildschirm hilft Ihnen, das <b>Benutzerbild</b> einzustellen. Sie "
@@ -114,6 +113,7 @@ msgid "More"
 msgstr "Mehr"
 
 #: .tmp/ui_scrGoodbye.py:367
+#, fuzzy
 msgid ""
 "<html><head/><body><p><span style=\" font-weight:600;\">Your settings have "
 "been applied.</span> Now you can start enjoying Pisi Linux or you can "
@@ -121,12 +121,10 @@ msgid ""
 "and support. Don't forget to <span style=\" font-weight:600;\">join our "
 "community!</span></p></body></html>"
 msgstr ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Ihre Einstellungen "
-"wurden durchgeführt.</span>  Nun können Sie Pisi Linux benutzen oder einen "
-"der folgenden Links für Hilfe und Support anwählen. Sie können auch eines der "
-"Werkzeuge für weitere Konfiguration des Systems nutzen. Nicht vergessen um<"
-"span style=\" font-weight:600;\"> beteiligen an unserer Comminity!</span></p>"
-"</body></html>"
+"<b>Ihre Einstellungen wurden durchgeführt.</b> Nun können Sie Pisi Linux "
+"benutzen oder einen der folgenden Links für Hilfe und Support anwählen. Sie "
+"können auch eines der Werkzeuge für weitere Konfiguration des Systems "
+"nutzen. Bitte beteiligen Sie sich auch an<b>unserer Comminity!</b>"
 
 #: .tmp/ui_scrGoodbye.py:368 .tmp/ui_scrGoodbye.py:369 .tmp/ui_scrSmolt.py:194
 msgid "My Smolt Page"
@@ -306,8 +304,8 @@ msgstr " Stunden"
 #: .tmp/ui_scrPackage.py:147
 msgid ""
 "To install and remove programs to Pisi Linux, use Package-Manager. Package-"
-"Manager also can automatically install the latest updates available. You can"
-" set the period for checking new updates."
+"Manager also can automatically install the latest updates available. You can "
+"set the period for checking new updates."
 msgstr ""
 "Mit dem Paket-Manager können Sie ganz einfach Software installieren und "
 "deinstallieren. Sofern gewollt kann der Paket-Manager Aktualisierungen "
@@ -323,16 +321,16 @@ msgid "Smolt"
 msgstr "Smolt"
 
 #: .tmp/ui_scrSmolt.py:193
+#, fuzzy
 msgid ""
 "<html><head/><body><p><span style=\" font-weight:600;\">Smolt</span> is a "
-"tool that collects the information in the following table and sends it to us"
-" for which lets us improve Pisi Linux according to the user profile "
+"tool that collects the information in the following table and sends it to us "
+"for which lets us improve Pisi Linux according to the user profile "
 "statistics.</p></body></html>"
 msgstr ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Smolt</span> ist ein "
-"Werkzeug, das die gesamelten Informationen der verwendeten Hardware zu uns "
-"sendet. Durch diese Statisitken ist es uns möglich Pisi Linux gezielt zu "
-"verbessern.</p></body></html>"
+"<b>Smolt</b> ist ein Werkzeug, das die gesamelten Informationen der "
+"verwendeten Hardware  zu uns sendet (siehe Tabelle). Durch diese Statisitken "
+"ist es uns möglich Pisi Linux gezielt zu verbessern."
 
 #: .tmp/ui_scrSmolt.py:195
 msgid "&Send my profile"
@@ -344,85 +342,89 @@ msgstr "&Datenschutzrichtlinie"
 
 #: .tmp/ui_scrSmolt.py:197
 msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
-"\"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">"
-"\n"
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-"font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Smolt will only "
-"send hardware and basic operating system information to the Pisi Linux smolt "
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">   Smolt will only send "
+"hardware and basic operating system information to the Pisi Linux smolt "
 "server (smoon).  The only tie from the database to a submitters machine is "
 "the UUID.  As long as the submitter does not give out this UUID the "
 "submission is anonymous.  If at any point in time a user wants to delete "
 "their profile from the database they need only run</p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\">    <span style=\" "
-"font-style:italic;\">smoltDeleteProfile</span></p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   The information "
-"sent to the smolt database server should be considered public in that anyone "
-"can view the statistics, data and share machine profiles.  In  many ways "
-"smolt is designed to get hardware vendors and other 3rd parties attention.  "
-"As such, not only will this information be shared with 3rd parties, we will "
-"be using smolt as leverage to gain better support for open source drivers and "
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">    <span style=\" font-"
+"style:italic;\">smoltDeleteProfile</span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">   The information sent to "
+"the smolt database server should be considered public in that anyone can "
+"view the statistics, data and share machine profiles.  In  many ways smolt "
+"is designed to get hardware vendors and other 3rd parties attention.  As "
+"such, not only will this information be shared with 3rd parties, we will be "
+"using smolt as leverage to gain better support for open source drivers and "
 "better support in general.</p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
-"text-decoration: underline;\">IP Logging:</span>  In Pisi Linux's smolt "
-"install all web traffic goes through a proxy server first.  This is the only "
-"place IP addresses are being logged and they are kept on that server for a "
-"period of 4 weeks at which time log rotation removes these logs.  The Pisi "
-"Linux Project does not aggregate ip addresses in the smolt database.  These "
-"logs are private and will not be available to the general public.</p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Users unhappy "
-"with this policy should simply not use smolt.  Users with questions about "
-"this policy should contact the Pisi Linux Infrastructure Team at admin [at] "
-"pisilinux.org  Also remember that users can delete their profiles at any time "
-"using &quot;<span style=\" font-style:italic;\">smoltDeleteProfile</span>"
-"&quot;</p></body></html>"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-"
+"decoration: underline;\">IP Logging:</span>  In Pisi Linux's smolt install "
+"all web traffic goes through a proxy server first.  This is the only place "
+"IP addresses are being logged and they are kept on that server for a period "
+"of 4 weeks at which time log rotation removes these logs.  The Pisi Linux "
+"Project does not aggregate ip addresses in the smolt database.  These logs "
+"are private and will not be available to the general public.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">   Users unhappy with this "
+"policy should simply not use smolt.  Users with questions about this policy "
+"should contact the Pisi Linux Infrastructure Team at admin [at] pisilinux."
+"org  Also remember that users can delete their profiles at any time using "
+"&quot;<span style=\" font-style:italic;\">smoltDeleteProfile</span>&quot;</"
+"p></body></html>"
 msgstr ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
-"\"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta "
-"name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { "
-"white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans "
-"Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" "
-"margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; "
-"-qt-block-indent:0; text-indent:0px;\">   Smolt sendet nur Information über "
-"die Hardware und allgemeine Informationen über das Betriebsystem an den "
-"smolt-Server bei Pisi Linux (smoon). Die einzige Identifikation des PCs des "
-"Absenders ist die UUID. Die Anonymität des Benutzers ist gewährleistet, "
-"solange er seine UUID nicht anderweitig öffentlich preisgibt. Wenn der "
-"Benutzer sein Profil aus der Datenbank löschen möchte, kann er das jederzeit "
-"machen. Er braucht nur das folgende Kommando eingeben</p>\n<p style=\" "
-"margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; "
-"-qt-block-indent:0; text-indent:0px;\">    <span style=\" "
-"font-style:italic;\">smoltDeleteProfile</span></p>\n<p style=\" "
-"margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; "
-"-qt-block-indent:0; text-indent:0px;\"> Die Information im smolt-Server "
-"sollte als öffentlich angesehen werden, weil jeder Zugriff hat auf "
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">   Smolt sendet nur "
+"Information über die Hardware und allgemeine Informationen über das "
+"Betriebsystem an den smolt-Server bei Pisi Linux (smoon). Die einzige "
+"Identifikation des PCs des Absenders ist die UUID. Die Anonymität des "
+"Benutzers ist gewährleistet, solange er seine UUID nicht anderweitig "
+"öffentlich preisgibt. Wenn der Benutzer sein Profil aus der Datenbank "
+"löschen möchte, kann er das jederzeit machen. Er braucht nur das folgende "
+"Kommando eingeben</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">    <span style=\" font-"
+"style:italic;\">smoltDeleteProfile</span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"> Die Information im smolt-"
+"Server sollte als öffentlich angesehen werden, weil jeder Zugriff hat auf "
 "Statistiken, und Daten von PC-Profilen austauschen kann. Smolt wurde "
 "entworfen um Hardware-Hersteller und andere Zubehörfabrikanten auf sich "
 "aufmerksam zu machen. Deshalb werden die Daten nicht nur allgemein "
 "veröffentlicht. Es wird erwartet, dass durch SMOLT die Unterstützung für "
-"Open-Source Gerätetreiber verbessert wird.</p>\n<p style=\" margin-top:12px; "
-"margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
-"text-indent:0px;\"><span style=\" text-decoration: underline;\">IP "
-"Speicherung:</span> In den Pisi Linux Einrichtungen geht der gesamte "
-"Web-Verkehr zu Smolt über einen Proxy-Server. Dieser Proxy Server ist der "
-"einzige Punkt, wo die IP-Adressen im Log gespeichert werden, wo sie dann nach "
-"4 Wochen durch Logrotation wieder gelöscht werden. Das Pisi Linux Projekt "
-"speichert die IP-Adresse nicht in der smolt-Datenbank. Diese Logs sind privat "
-"und werden nicht öffentlich zugänglich sein.</p>\n<p style=\" "
-"margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; "
-"-qt-block-indent:0; text-indent:0px;\"> Benutzer denen diese Politik nicht "
-"gefällt, sollten ganz einfach smolt nicht verwenden. Anwender mit Fragen "
-"können sich an das Pisi Linux Infrastructure-Team wenden: admin [at] "
-"pisilinux.org. Hier nochmals die Erinnerung, dass jederzeit das eigene Profil "
-"mit dem folgenden Befehl gelöscht werden kann: quot;<span style=\" "
+"Open-Source Gerätetreiber verbessert wird.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-"
+"decoration: underline;\">IP Speicherung:</span> In den Pisi Linux "
+"Einrichtungen geht der gesamte Web-Verkehr zu Smolt über einen Proxy-Server. "
+"Dieser Proxy Server ist der einzige Punkt, wo die IP-Adressen im Log "
+"gespeichert werden, wo sie dann nach 4 Wochen durch Logrotation wieder "
+"gelöscht werden. Das Pisi Linux Projekt speichert die IP-Adresse nicht in "
+"der smolt-Datenbank. Diese Logs sind privat und werden nicht öffentlich "
+"zugänglich sein.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"> Benutzer denen diese "
+"Politik nicht gefällt, sollten ganz einfach smolt nicht verwenden. Anwender "
+"mit Fragen können sich an das Pisi Linux Infrastructure-Team wenden: admin "
+"[at] pisilinux.org. Hier nochmals die Erinnerung, dass jederzeit das eigene "
+"Profil mit dem folgenden Befehl gelöscht werden kann: quot;<span style=\" "
 "font-style:italic;\">smoltDeleteProfile</span>&quot;</p></body></html>"
 
 #: .tmp/_scrSearch.py:29 .tmp/ui_scrSearch.py:110
@@ -430,10 +432,12 @@ msgid "Search"
 msgstr "Suche"
 
 #: .tmp/_scrSearch.py:30
+#, fuzzy
 msgid "Enable / Disable Strigi Desktop Search"
 msgstr "Aktiviere Strigi Desktop File Indexer"
 
 #: .tmp/ui_kaptan.py:27
+#, fuzzy
 msgid "kaptan"
 msgstr "Kaptan"
 
@@ -442,6 +446,7 @@ msgid "Kaptan"
 msgstr "Kaptan"
 
 #: .tmp/ui_kaptan.py:416
+#, fuzzy
 msgid "Welcome to Pisi Linux"
 msgstr "Willkommen bei Pisi Linux"
 
@@ -466,17 +471,17 @@ msgid "Apply Settings"
 msgstr "Einstellungen übernehmen"
 
 #: .tmp/ui_scrSummary.py:95
+#, fuzzy
 msgid ""
 "<html><head/><body><p>You have successfully finished all steps. Here's a "
 "summary of the settings you want to apply. Click <span style=\" font-"
 "weight:600;\">Apply Settings</span> to save them now. You are now ready to "
 "enjoy Pisi Linux!</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Sie haben alle Schritte erfolgreich ausgeführt. Hier "
-"ist eine Zusammenfassung Ihrer Einstellungen, die Sie anwenden möchten. "
-"Klicken Sie auf <span style=\" font-weight:600;\">Einstellungen übernehmen<"
-"/span>, um sie zu speichern. Jetzt können Sie Pisi Linux genießen!</p></body>"
-"</html>"
+"Sie haben alle Schritte erfolgreich ausgeführt. Hier ist eine "
+"Zusammenfassung Ihrer Konfiguration, die anschließend übernommen wird. "
+"Klicken Sie auf <b>Weiter</b>, um sie jetzt zu speichern. In Kürze können "
+"Sie Pisi Linux benutzen!"
 
 #: .tmp/ui_scrSummary.py:96
 msgid "The following settings will be applied"
@@ -496,20 +501,20 @@ msgstr ""
 
 #: .tmp/scrMenu.py:49
 msgid ""
-"Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight"
-" menu thus it is recommended for slower PC's."
+"Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight "
+"menu thus it is recommended for slower PC's."
 msgstr ""
 "Das einfache Menü ist das traditionelle Menü von KDE 3.<br><br>Es ist sehr "
 "leichtgewichtig und daher für langsamere PCs zu empfehlen."
 
 #: .tmp/scrMenu.py:55
 msgid ""
-"Lancelot is an advanced and highly customizable menu for Pisi "
-"Linux.<br><br>The program shortcuts are easy to access and well organized."
+"Lancelot is an advanced and highly customizable menu for Pisi Linux."
+"<br><br>The program shortcuts are easy to access and well organized."
 msgstr ""
-"Das Lancelot Menü ist ein fortgeschrittenes Menü mit vielen Möglichkeiten zur "
-"persönlichen Anpassung.<br><br>Die Programme sind einfach zugänglich und gut "
-"organisiert."
+"Das Lancelot Menü ist ein fortgeschrittenes Menü mit vielen Möglichkeiten "
+"zur persönlichen Anpassung.<br><br>Die Programme sind einfach zugänglich und "
+"gut organisiert."
 
 #: .tmp/kaptan.desktop.in.h:2
 msgid "Welcome Wizard"
@@ -522,8 +527,8 @@ msgid ""
 "their contents."
 msgstr ""
 "Die Strigi Desktopsuche indiziert häufig verwendeten Dateien. Dadurch werden "
-"sehr schnelle Suchergebnisse möglich. Strigi kann auch den Inhalt von Dateien "
-"durchsuchen und in das Suchergebnis einfließen lassen,"
+"sehr schnelle Suchergebnisse möglich. Strigi kann auch den Inhalt von "
+"Dateien durchsuchen und in das Suchergebnis einfließen lassen,"
 
 #: .tmp/ui_scrSearch.py:112
 msgid "Allow Strigi to index my files"
@@ -646,10 +651,12 @@ msgid "No"
 msgstr "Nein"
 
 #: .tmp/ui_scrMouse.py:115
+#, fuzzy
 msgid "singleClick"
 msgstr "einfacher Klick"
 
 #: .tmp/ui_scrMouse.py:133
+#, fuzzy
 msgid "DoubleClick"
 msgstr "Doppelklick"
 
@@ -687,6 +694,7 @@ msgstr "Rechtshänder"
 msgid "Left Hand"
 msgstr "Linkshänder"
 
+# Zweifel.. scroll.. ??
 #: .tmp/ui_scrMouse.py:228
 msgid "Reverse scrolling"
 msgstr "Entgegengesetztes scrollen"
@@ -713,25 +721,24 @@ msgid "What is Pisi Linux?"
 msgstr "Was ist Pisi Linux?"
 
 #: .tmp/ui_scrWelcome.py:89
+#, fuzzy
 msgid ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Pisi Linux</span> is"
-" a reliable, secure, fast and user friendly operating system. <br/><br/>With"
-" Pisi Linux, you can connect to the internet, read your e-mails, work with "
+"<html><head/><body><p><span style=\" font-weight:600;\">Pisi Linux</span> is "
+"a reliable, secure, fast and user friendly operating system. <br/><br/>With "
+"Pisi Linux, you can connect to the internet, read your e-mails, work with "
 "your office documents, watch movies, play music, develop applications, play "
-"games and much more! <br/><br/><span style=\" font-"
-"weight:600;\">Kaptan</span> will help you personalize your Pisi Linux "
-"workspace easily and quickly. Please click <span style=\" font-"
-"weight:600;\">next</span> in order to begin.</p></body></html>"
+"games and much more! <br/><br/><span style=\" font-weight:600;\">Kaptan</"
+"span> will help you personalize your Pisi Linux workspace easily and "
+"quickly. Please click <span style=\" font-weight:600;\">next</span> in order "
+"to begin.</p></body></html>"
 msgstr ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Pisi Linux</span> ist "
-"ein sicheres, schnelles und benutzerfreundliches Betriebssystem.<br/><br/>Mit "
-"Pisi Linux können Sie sich mit dem Internet verbinden, Ihre Emails lesen, mit "
-"Ihren Office-Dokumenten arbeiten, Filme anschauen, Musik hören, Programme "
-"entwickeln, Spiele spielen und vieles mehr!<br/><br/><span style=\" "
-"font-weight:600;\">Kaptan</span> wird Ihnen nach der Installation schnell und "
+"<b>Pisi Linux</b> ist ein sicheres, schnelles und benutzerfreundliches "
+"Betriebssystem. <br /> <br />Mit Pisi Linux können Sie sich mit dem Internet "
+"verbinden, Ihre Emails lesen, mit Ihren Office-Dokumenten arbeiten, Filme "
+"anschauen, Musik hören, Programme entwickeln, Spiele spielen und vieles "
+"mehr! <br /><br /><b>Kaptan</b> wird Ihnen nach der Installation schnell und "
 "einfach helfen das System den eigenen Wünschen anzupassen. Klicken Sie bitte "
-"auf <span style=\" font-weight:600;\">next</span> um damit zu beginnen.</p><"
-"/body></html>"
+"auf <b>weiter</b>, um damit zu beginnen."
 
 #: .tmp/scrAvatar.py:36
 msgid "User Picture"
@@ -750,8 +757,8 @@ msgid ""
 "Choose your favorite theme and desktop type. Customize Pisi Linux with "
 "colorful styles and themes."
 msgstr ""
-"Wählen Sie Ihr bevorzugtes Design und den Desktop-Stil. Konfigurieren Sie Ihr "
-"Pisi Linux mit einem der vorhandenen Stile und Designs."
+"Wählen Sie Ihr bevorzugtes Design und den Desktop-Stil. Konfigurieren Sie "
+"Ihr Pisi Linux mit einem der vorhandenen Stile und Designs."
 
 #: .tmp/ui_scrStyle.py:254
 msgid "KDE Themes"
@@ -767,15 +774,16 @@ msgstr "Oxygen - die offizielle Symbolsammlung von KDE"
 
 #: .tmp/ui_scrStyle.py:260 .tmp/ui_scrStyle.py:261
 msgid "oxygen"
-msgstr "oxygen"
+msgstr ""
 
 #: .tmp/ui_scrStyle.py:263
+#, fuzzy
 msgid "kfaenza - KDE4 icon set of Pisi Linux"
-msgstr "kfaenza - KDE4 Symbolsammlung für Pisi Linux"
+msgstr "Milky - die Symbolsammlung von Pisi Linux"
 
 #: .tmp/ui_scrStyle.py:264 .tmp/ui_scrStyle.py:265
 msgid "kfaenza"
-msgstr "kfaenza"
+msgstr ""
 
 #: .tmp/ui_scrStyle.py:267
 msgid "Desktop Type"
@@ -792,4 +800,3 @@ msgstr "Verzeichnisansicht (KDE3 Stil)"
 #: .tmp/ui_scrStyle.py:270
 msgid "Number of Desktops"
 msgstr "Anzahl der Desktops"
-

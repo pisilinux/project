@@ -18,15 +18,15 @@ from PyKDE4.kdecore import KAboutData, ki18n
 appName     = "kaptan"
 programName = ki18n("Kaptan")
 modName     = "kaptan"
-version     = "5.1.0"
+version     = "5.1.1"
 description = ki18n("Kaptan")
 license     = KAboutData.License_GPL
 copyright   = ki18n("Pisilinux Community")
 text        = ki18n(" ")
 homePage    = "https://github.com/pisilinux/project"
-bugEmail    = "erdincgultekin@gmail.com"
+bugEmail    = "admins@pisilinux.org"
 catalog     = appName
 aboutData   = KAboutData(appName, catalog, programName, version, description, license, copyright, text, homePage, bugEmail)
 
 # Author(s)
-aboutData.addAuthor(ki18n("Erdinç Gültekin\nOnur Aslan"), ki18n("Current Maintainer"))
+aboutData.addAuthor(ki18n("Pisi Linux Admins"), ki18n("Current Maintainer"))

@@ -62,7 +62,7 @@ class Widget(QtGui.QWidget, Screen):
         config = PMConfig()
         config.setSystemTray(self.ui.showTray.isChecked())
         config.setUpdateCheck(self.ui.checkUpdate.isChecked())
-        config.setUpdateCheckInterval(self.ui.updateInterval.value())
+        config.setUpdateCheckInterval(self.ui.updateInterval.value() * 60)
 
         if self.ui.showTray.isChecked():
             p = subprocess.Popen(["package-manager"], stdout=subprocess.PIPE)

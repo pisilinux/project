@@ -166,7 +166,7 @@ setup(
       version           = about.version,
       description       = unicode(about.description),
       license           = unicode(about.license),
-      author            = "",
+      author            = "Pisi Linux Admins",
       author_email      = about.bugEmail,
       url               = about.homePage,
       packages          = [''],
