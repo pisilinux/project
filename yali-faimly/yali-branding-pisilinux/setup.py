@@ -57,7 +57,7 @@ class UpdatePO(Command):
         os.chdir("..")
 
 setup(name="yali-branding-pisilinux",
-      version= "0.3",
+      version= "0.4",
       description="Pisi Linux branding files for YALI (Yet Another Linux Installer)",
       license="GNU GPL2",
       author="Pisi Linux Developers",

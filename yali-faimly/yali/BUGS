@@ -1,2 +1,0 @@
-- runner throws an exception if virtualbox-guest-utils is not installed because
-  it tries to run VBoxClient without checking if it's available or not! (FIXED)
