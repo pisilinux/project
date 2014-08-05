@@ -61,12 +61,12 @@ class Widget(QtGui.QWidget, Screen):
     def applySettings(self):
         # write selected configurations to future package-managerrc
         config = PMConfig()
-        #config.setSystemTray(QVariant(self.ui.showTray.isChecked()))
-        #config.setUpdateCheck(QVariant(self.ui.checkUpdate.isChecked()))
-        #config.setUpdateCheckInterval(QVariant(self.ui.updateInterval.value() * 60))
+        config.setSystemTray(QVariant(self.ui.showTray.isChecked()))
+        config.setUpdateCheck(QVariant(self.ui.checkUpdate.isChecked()))
+        config.setUpdateCheckInterval(QVariant(self.ui.updateInterval.value() * 60))
 
-        #if self.ui.showTray.isChecked():
-        #    p = subprocess.Popen(["spun"], stdout=subprocess.PIPE)
+        if self.ui.showTray.isChecked():
+            p = subprocess.Popen(["spun"], stdout=subprocess.PIPE)
 
     def shown(self):
         pass
