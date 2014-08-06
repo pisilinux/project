@@ -1,23 +1,588 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # emilk, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-05 22:46+0300\n"
+"POT-Creation-Date: 2014-02-12 19:43+0200\n"
 "PO-Revision-Date: 2014-03-01 10:22+0000\n"
 "Last-Translator: emilk\n"
-"Language-Team: Danish (http://www.transifex.com/projects/p/PiSiLinux/"
-"language/da/)\n"
-"Language: da\n"
+"Language-Team: Danish (http://www.transifex.com/projects/p/PiSiLinux/language/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: yali/gui/Ui/autopartquestion.py:91
+msgid ""
+"There appears to be more than one resizeable partition. You can select a "
+"partition from the list below or YALI will select one for you."
+msgstr "Der er fundet flere partitioner hvor størrelsen kan ændres. Du kan vælge en partition fra nedenstående liste eller lade YALI vælge en for dig."
+
+#: yali/gui/Ui/autopartquestion.py:92 yali/gui/Ui/connectionlist.py:85
+#: yali/gui/Ui/dialog.py:78
+msgid "X"
+msgstr "X"
+
+#: yali/gui/Ui/autopartquestion.py:93
+msgid "Automatically choose the partition to resize (recommended)"
+msgstr "Automatisk valg af partition for størrelses-ændring (anbefalet)"
+
+#: yali/gui/Ui/autopartquestion.py:94
+msgid "I will choose the target"
+msgstr "Jeg vælger destinationen"
+
+#: yali/gui/Ui/autopartquestion.py:95
+msgid "Use Selected"
+msgstr "Brug Det Valgte"
+
+#: yali/gui/Ui/autopartwidget.py:169
+msgid "Use All Disk"
+msgstr "Brug Hele Harddisken"
+
+#: yali/gui/Ui/autopartwidget.py:171
+msgid "Shrink Current System"
+msgstr "Formindsk Nuværende System"
+
+#: yali/gui/Ui/autopartwidget.py:173 yali/gui/ScrSummary.py:149
+msgid "Use Free Space"
+msgstr "Brug Fri Plads"
+
+#: yali/gui/Ui/autopartwidget.py:175
+msgid "Manual Partitioning"
+msgstr "Manuel Partitionering"
+
+#: yali/gui/Ui/bootloaderwidget.py:138
+msgid "Advanced settings"
+msgstr "Avancerede indstillinger"
+
+#: yali/gui/Ui/bootloaderwidget.py:139
+msgid "Default settings"
+msgstr "Standard Indstillinger"
+
+#: yali/gui/Ui/bootloaderwidget.py:140
+msgid "Don't install bootloader"
+msgstr "Installér ikke bootloader"
+
+#: yali/gui/Ui/bootloaderwidget.py:141 yali/gui/ScrBootloader.py:99
+msgid "The first sector of"
+msgstr "Den første sektor af"
+
+#: yali/gui/Ui/checkcdwidget.py:211
+msgid ""
+"You can validate the integrity of the installation packages. Although this "
+"is an optional step, we highly recommend to do the validation in order to "
+"avoid any possible errors during the installation process."
+msgstr "Du kan validere integriteten af installations pakkerne. Selvom dette er et valgfrit trin, anbefaler vi kraftigt at udføre validationen for at undgå eventuelle fejl under installationen."
+
+#: yali/gui/Ui/checkcdwidget.py:212
+msgid "Validation failed"
+msgstr "Validering mislykkedes"
+
+#: yali/gui/Ui/checkcdwidget.py:213
+msgid "Validation succeeded"
+msgstr "Validering lykkedes"
+
+#: yali/gui/Ui/checkcdwidget.py:214 yali/gui/ScrCheckCD.py:62
+msgid "Validate"
+msgstr "Validering"
+
+#: yali/gui/Ui/collectionitem.py:93
+msgid "Form"
+msgstr "Formular"
+
+#: yali/gui/Ui/connectionlist.py:84
+msgid ""
+"To use PiSi History support, you may need to be online. You can use a "
+"connection profile from the list below:"
+msgstr "For at bruge PiSi Historie support, er du måske nødt til at være online. Du kan bruge en forbindelses-profil fra nedenstående liste:"
+
+#: yali/gui/Ui/connectionlist.py:86
+msgid "Connect"
+msgstr "Forbind"
+
+#: yali/gui/Ui/createdevicewidget.py:143
+msgid "Standard Partition"
+msgstr "Standard Partition"
+
+#: yali/gui/Ui/createdevicewidget.py:144 yali/gui/ScrPartitionManual.py:153
+msgid "General purpose of partition creation"
+msgstr "Generelt formål med partitionsskabelse"
+
+#: yali/gui/Ui/createdevicewidget.py:145 yali/gui/ScrPartitionManual.py:158
+msgid "Volume Group"
+msgstr "Volumen Gruppe"
+
+#: yali/gui/Ui/createdevicewidget.py:146 yali/gui/ScrPartitionManual.py:159
+msgid "Requires at least 1 free LVM formatted partition"
+msgstr "Kræver mindst 1 fri LVM formatteret partition"
+
+#: yali/gui/Ui/createdevicewidget.py:147 yali/gui/ScrPartitionManual.py:161
+msgid "Logical Volume"
+msgstr ""
+
+#: yali/gui/Ui/createdevicewidget.py:148 yali/gui/ScrPartitionManual.py:162
+msgid "Create Logical Volume on selected Volume Group"
+msgstr ""
+
+#: yali/gui/Ui/createdevicewidget.py:149 yali/gui/ScrPartitionManual.py:155
+msgid "Physical Volume"
+msgstr ""
+
+#: yali/gui/Ui/createdevicewidget.py:150 yali/gui/ScrPartitionManual.py:156
+msgid "Create LVM formatted partition"
+msgstr ""
+
+#: yali/gui/Ui/createdevicewidget.py:151
+msgid "Raid Member"
+msgstr "RAID medlem"
+
+#: yali/gui/Ui/createdevicewidget.py:152 yali/gui/ScrPartitionManual.py:165
+msgid "Create Raid formatted partition"
+msgstr ""
+
+#: yali/gui/Ui/createdevicewidget.py:153
+msgid "Raid Array"
+msgstr ""
+
+#: yali/gui/Ui/createdevicewidget.py:154 yali/gui/ScrPartitionManual.py:168
+msgid "Requires at least 2 free Raid formatted partition"
+msgstr "Kræver mindst 2 ledige RAID-formatterede partitioner"
+
+#: yali/gui/Ui/datetimewidget.py:181
+msgid "Date"
+msgstr "Dato"
+
+#: yali/gui/Ui/datetimewidget.py:182
+msgid "Time"
+msgstr "Tid"
+
+#: yali/gui/Ui/datetimewidget.py:183
+msgid "Timezone"
+msgstr "Tidszone"
+
+#: yali/gui/Ui/exception.py:72
+msgid "Unhandled exception occured"
+msgstr "Der opstod en uhåndteret undtagelse"
+
+#: yali/gui/Ui/exception.py:73
+msgid ""
+"Please fill a bug report at http://bugs.pisilinux.org.tr/ attaching the "
+"following backtrace."
+msgstr "Udfyld venligst en fejlrapport hos http://bugs.pisilinux.org.tr/ og vedhæft følgende backtrace."
+
+#: yali/gui/Ui/exception.py:74 yali/gui/ScrCheckCD.py:101
+#: yali/storage/__init__.py:930
+msgid "Reboot"
+msgstr "Genstart"
+
+#: yali/gui/Ui/exception.py:75
+msgid "Show Backtrace"
+msgstr "Vis Backtrace"
+
+#: yali/gui/Ui/help.py:65
+msgid "help content"
+msgstr "indholds hjælp"
+
+#: yali/gui/Ui/info.py:98
+msgid ""
+"Welcome to YALI (Yet Another Linux Installer), where you will have the opportunity to verify the installation medium, select your keyboard layout, choose your time-zone, create user accounts and prepare your disk - followed by a summary and final review before committing to the installation of Pisi Linux.\n"
+"Further information for each page of the installer may be viewed by clicking the question-mark icon at the top of its page. \n"
+"YALI was designed with ease of use in mind and should not pose a problem to the novice Linux user. As with all such procedures though, any valuable data on your system should be backed-up before commencing."
+msgstr "Velkommen til YALI (Yet Another Linux Installer), hvor du har mulighed for at tjekke installations-mediet, vælge tastatur-layout, vælge tidszone, oprette brugerkonti og forberede din harddisk - efterfulgt af et resumé og en afsluttende gennemgang før den endelige installation af Pisu Linux.\nYderligere information for hver side i installationsprogrammer kan ses ved at klikke på spørgsmålstegns-ikonet i toppen af hver side.\nYALI er designet med brugervenlighed i tankerne og bør ikke udgøre et problem for den uerfarne Linux-bruger. Som med alle sådanne procedurer bør eventuelle værdifulde data på dit system dog bakkes op før de påbegyndes."
+
+#: yali/gui/Ui/installprogress.py:76
+msgid "Installing Package: "
+msgstr "Installerer pakke:"
+
+#: yali/gui/Ui/keyboardwidget.py:142
+msgid "Keyboard Layouts"
+msgstr "Tastatur Layouts"
+
+#: yali/gui/Ui/keyboardwidget.py:143
+msgid "Test Layout"
+msgstr "Test Layout"
+
+#: yali/gui/Ui/license.py:117
+msgid ""
+"<html><head/><body><p>Before installing Pisi Linux on your computer, please "
+"read and accept the terms of free / open source licenses of the softwares "
+"included in this installation medium. <a href=\"#\"><span style=\" text-"
+"decoration: underline; color:#56a2c0;\">License "
+"texts</span></a></p></body></html>"
+msgstr "<html><head/><body><p>Inden installation af Pisi Linus på din computer, bedes du venligst læse og acceptére vilkårene for free / open source-licenser for software, der er inkluderet i dette installations-medium. <a href=\"#\"><span style=\" text-decoration: underline; color:#56a2c0;\">Licens tekster</span></a></p></body></html>"
+
+#: yali/gui/Ui/license.py:118
+msgid "I understand and accept the terms"
+msgstr "Jeg forstår og acceptérer vilkårerne"
+
+#: yali/gui/Ui/logicalvolume.py:152
+msgid "Logical Volume:"
+msgstr ""
+
+#: yali/gui/Ui/logicalvolume.py:153 yali/gui/Ui/partedit.py:173
+#: yali/gui/Ui/partitionedit.py:153
+msgid "Use :"
+msgstr "Brug :"
+
+#: yali/gui/Ui/logicalvolume.py:154 yali/gui/Ui/partedit.py:174
+#: yali/gui/Ui/partitionedit.py:154 yali/gui/Ui/partition.py:153
+msgid "Size :"
+msgstr "Størrelse :"
+
+#: yali/gui/Ui/logicalvolume.py:155 yali/gui/Ui/logicalvolume.py:157
+#: yali/gui/Ui/partedit.py:175 yali/gui/Ui/partitionedit.py:155
+#: yali/gui/Ui/partition.py:154 yali/gui/Ui/partition.py:156
+#: yali/gui/Ui/partitionshrinkwidget.py:102 yali/gui/Ui/partresize.py:102
+msgid " MB"
+msgstr "MB"
+
+#: yali/gui/Ui/logicalvolume.py:156 yali/gui/Ui/partition.py:155
+#: yali/gui/Ui/partresize.py:104
+msgid "Resize"
+msgstr "Størrelses-ændring"
+
+#: yali/gui/Ui/logicalvolume.py:158 yali/gui/Ui/partedit.py:178
+#: yali/gui/Ui/partitionedit.py:156 yali/gui/Ui/partition.py:159
+msgid "File System :"
+msgstr "Fil-system:"
+
+#: yali/gui/Ui/logicalvolume.py:159 yali/gui/Ui/manualpartwidget.py:197
+#: yali/gui/Ui/partition.py:157 yali/gui/Ui/raid.py:117
+#: yali/gui/ScrPartitionManual.py:130 yali/storage/storageset.py:387
+msgid "Format"
+msgstr "Format"
+
+#: yali/gui/Ui/logicalvolume.py:160 yali/gui/Ui/partition.py:158
+#: yali/gui/Ui/raid.py:118
+msgid "Migrate"
+msgstr "Migrér"
+
+#: yali/gui/Ui/main.py:258
+msgid "Yali"
+msgstr "Yali"
+
+#: yali/gui/Ui/main.py:259 yali/gui/YaliWindow.py:417
+msgid "Release Notes"
+msgstr "Release Notater"
+
+#: yali/gui/Ui/main.py:260
+msgid "Previous Screen"
+msgstr "Forrige Skærm"
+
+#: yali/gui/Ui/main.py:261
+msgid "Back"
+msgstr "Tilbage"
+
+#: yali/gui/Ui/main.py:262
+msgid "Next Screen"
+msgstr "Næste Skærm"
+
+#: yali/gui/Ui/main.py:263 yali/gui/ScrSummary.py:59
+#: yali/gui/ScrSummary.py:211 yali/gui/ScrSummary.py:218
+msgid "Next"
+msgstr "Næste"
+
+#: yali/gui/Ui/manualpartwidget.py:193
+msgid "Device"
+msgstr "Enhed"
+
+#: yali/gui/Ui/manualpartwidget.py:194
+msgid "Mount Point"
+msgstr ""
+
+#: yali/gui/Ui/manualpartwidget.py:195
+msgid "Label"
+msgstr ""
+
+#: yali/gui/Ui/manualpartwidget.py:196
+msgid "Type"
+msgstr "Type"
+
+#: yali/gui/Ui/manualpartwidget.py:198 yali/gui/Ui/volumegroup.py:126
+msgid "Size"
+msgstr "Størrelse"
+
+#: yali/gui/Ui/manualpartwidget.py:199
+msgid "Create"
+msgstr "Opret"
+
+#: yali/gui/Ui/manualpartwidget.py:200 yali/gui/Ui/setupuserswidget.py:511
+#: yali/gui/Ui/volumegroup.py:128
+msgid "Edit"
+msgstr "Redigér"
+
+#: yali/gui/Ui/manualpartwidget.py:201 yali/gui/Ui/setupuserswidget.py:512
+#: yali/gui/Ui/volumegroup.py:129 yali/gui/lvm_gui.py:552
+#: yali/storage/storageBackendHelpers.py:92
+#: yali/storage/storageBackendHelpers.py:296
+msgid "Delete"
+msgstr "Slet"
+
+#: yali/gui/Ui/manualpartwidget.py:202
+msgid "Reset"
+msgstr "Reset"
+
+#: yali/gui/Ui/partedit.py:176
+msgid "Format :"
+msgstr "Format :"
+
+#: yali/gui/Ui/partedit.py:177
+msgid "Yes, format this partition"
+msgstr "Ja, formattér denne partition"
+
+#: yali/gui/Ui/partedit.py:179
+msgid "Delete Partition"
+msgstr "Slet Partition"
+
+#: yali/gui/Ui/partedit.py:180
+msgid "Resize Partition"
+msgstr "Ændre Partitions-størrelse"
+
+#: yali/gui/Ui/partedit.py:181
+msgid "Changes will be applied after Summary Screen."
+msgstr ""
+
+#: yali/gui/Ui/partedit.py:182
+msgid "Refresh Disks"
+msgstr ""
+
+#: yali/gui/Ui/partedit.py:183
+msgid "Reset All Changes"
+msgstr "Nulstil Alle Ændringer"
+
+#: yali/gui/Ui/partedit.py:184
+msgid "Apply"
+msgstr "Udfør"
+
+#: yali/gui/Ui/partitionedit.py:157
+msgid "Force to be primary partition"
+msgstr "Tving til at være primær partition"
+
+#: yali/gui/Ui/partition.py:152 yali/gui/Ui/raid.py:115
+msgid "Use:"
+msgstr "Brug:"
+
+#: yali/gui/Ui/partition.py:160
+msgid "Force to be a primary partition"
+msgstr "Tving til at være en primær partition"
+
+#: yali/gui/Ui/partitionshrink.py:73 yali/gui/Ui/partitionshrinkwidget.py:100
+msgid ""
+"Which partition would you like to shrink to make room for your installation?"
+msgstr "Hvilken partition vil du formindske for at lave plads til din installation?"
+
+#: yali/gui/Ui/partitionshrink.py:74
+msgid "Shrink partition to size (in MB)"
+msgstr "Formindsk partition til størrelse (i MB)"
+
+#: yali/gui/Ui/partitionshrinkwidget.py:101
+msgid "Shrink partition to size (in MB) :"
+msgstr "Formindsk partition til størrelse (i MB) :"
+
+#: yali/gui/Ui/partitionshrinkwidget.py:103 yali/gui/Ui/partresize.py:103
+#: yali/gui/Ui/setupuserswidget.py:513 yali/gui/lvm_gui.py:418
+#: yali/gui/lvm_gui.py:465 yali/gui/lvm_gui.py:552
+#: yali/gui/ScrPartitionManual.py:114 yali/gui/ScrPartitionManual.py:130
+#: yali/gui/ScrPartitionManual.py:140 yali/gui/YaliDialog.py:220
+#: yali/storage/__init__.py:930 yali/storage/storageBackendHelpers.py:92
+#: yali/storage/storageBackendHelpers.py:296
+msgid "Cancel"
+msgstr "Annullér"
+
+#: yali/gui/Ui/partitionshrinkwidget.py:104
+msgid "Shrink"
+msgstr "Formindsk"
+
+#: yali/gui/Ui/partresize.py:99
+msgid ""
+"Changes will be applied when you click \"Resize\". To cancel the changes, click <b>\"Cancel\".\n"
+"<br><br>\n"
+"Warning: A resizing operation may corrupt the partition, rendering the data on it unreachable. Make sure that you have backed up the data. Note that this operation cannot be undone.<b>"
+msgstr "Ændringer vil blive gennemført når du klikker \"Ændre Størrelse\". For at annullere ændringerne, klik <b>\"Annullér\".\n<br><br>\nAdvarsel: Ændring af størrelse kan beskadige partitionen og gøre data ulæselige. Sørg for at du har sikkerhedskopieret data. Bemærk at denne ændring ikke kan fortrydes.<b>"
+
+#: yali/gui/Ui/raid.py:114
+msgid "Raid Device:"
+msgstr ""
+
+#: yali/gui/Ui/raid.py:116
+msgid "Filesystem:"
+msgstr "Filsystem"
+
+#: yali/gui/Ui/raid.py:119
+msgid "Raid Level:"
+msgstr ""
+
+#: yali/gui/Ui/raid.py:120
+msgid "Raid Members:"
+msgstr ""
+
+#: yali/gui/Ui/raid.py:121
+msgid "Number of spares:"
+msgstr "Antal reserver:"
+
+#: yali/gui/Ui/rescuegrubwidget.py:118
+msgid "Select where to install the GRUB bootloader"
+msgstr "Vælg hvor du vil installere GRUB bootloaderen"
+
+#: yali/gui/Ui/rescuegrubwidget.py:119
+msgid "First bootable disk (recommended)"
+msgstr "Første bootbare disk (anbefalet)"
+
+#: yali/gui/Ui/rescuegrubwidget.py:120
+msgid "Disk partition where Pisi Linux is installed"
+msgstr "Disk partition hvor Pisi Linux er installeret"
+
+#: yali/gui/Ui/rescuegrubwidget.py:121
+msgid "Selected disk below"
+msgstr "Nedenfor valgte disk"
+
+#: yali/gui/Ui/rescuepasswordwidget.py:136
+msgid "Choose the user you want to reset the password:"
+msgstr "Vælg hvilken bruger du vil resette adgangskoden for:"
+
+#: yali/gui/Ui/rescuepasswordwidget.py:137
+msgid "Password:"
+msgstr "Adgangskode:"
+
+#: yali/gui/Ui/rescuepasswordwidget.py:138 yali/gui/Ui/setupuserswidget.py:504
+msgid "Confirm Password"
+msgstr "Bekræft Adgangskode"
+
+#: yali/gui/Ui/rescuepasswordwidget.py:139
+msgid "Reset Password"
+msgstr "Nulstil Adgangskode"
+
+#: yali/gui/Ui/rescuepisiwidget.py:84
+msgid "<b>Connection status:</b>"
+msgstr "<b>Forbindelses status:</b>"
+
+#: yali/gui/Ui/rescuepisiwidget.py:85
+msgid ""
+"To use PiSi's history feature, you may need to be online. Select connection "
+"profile."
+msgstr ""
+
+#: yali/gui/Ui/rescuepisiwidget.py:86
+msgid "Select Connection"
+msgstr "Vælg forbindelse"
+
+#: yali/gui/Ui/rescuepisiwidget.py:87
+msgid "Select the operation to undo:"
+msgstr ""
+
+#: yali/gui/Ui/rescuewidget.py:125
+msgid "Choose what do you want to do to repair your system"
+msgstr ""
+
+#: yali/gui/Ui/rescuewidget.py:126
+msgid "Reinstall bootloader"
+msgstr "Geninstallér bootloader"
+
+#: yali/gui/Ui/rescuewidget.py:127
+msgid "Reset forgotten password"
+msgstr "Nulstil glemt adgangskode"
+
+#: yali/gui/Ui/rescuewidget.py:128
+msgid "Return back to a previous system state"
+msgstr "Vend tilbage til en tidligere system tilstand"
+
+#: yali/gui/Ui/rootpasswidget.py:142
+msgid "Administrator password"
+msgstr "Administrator adgangskode"
+
+#: yali/gui/Ui/rootpasswidget.py:143
+msgid "Confirm password"
+msgstr "Bekræft adgangskode"
+
+#: yali/gui/Ui/rootpasswidget.py:144
+msgid "Computer Name"
+msgstr "Computernavn"
+
+#: yali/gui/Ui/setupuserswidget.py:501
+msgid "User Name"
+msgstr "Brugernavn"
+
+#: yali/gui/Ui/setupuserswidget.py:502
+msgid "Real Name"
+msgstr "Rigtige Navn"
+
+#: yali/gui/Ui/setupuserswidget.py:503
+msgid "Password"
+msgstr "Kodeord"
+
+#: yali/gui/Ui/setupuserswidget.py:505
+msgid "Custom User ID"
+msgstr "Brugerdefineret Bruger-ID"
+
+#: yali/gui/Ui/setupuserswidget.py:506
+msgid "Not recommended"
+msgstr "Ikke anbefalet"
+
+#: yali/gui/Ui/setupuserswidget.py:507
+msgid "Bypass authorization attempts for this user"
+msgstr ""
+
+#: yali/gui/Ui/setupuserswidget.py:508
+msgid "Add user to administrator (wheel) group"
+msgstr "Tilføj bruger til administrations-gruppen (wheel)"
+
+#: yali/gui/Ui/setupuserswidget.py:509
+msgid "Select auto login user"
+msgstr ""
+
+#: yali/gui/Ui/setupuserswidget.py:510 yali/gui/Ui/volumegroup.py:127
+#: yali/gui/ScrUsers.py:286 yali/gui/ScrUsers.py:329 yali/gui/ScrUsers.py:413
+msgid "Add"
+msgstr "Tilføj"
+
+#: yali/gui/Ui/setupuserswidget.py:514
+msgid "Advanced"
+msgstr "Avanceret"
+
+#: yali/gui/Ui/volumegroup.py:119
+msgid "Volume Group Name:"
+msgstr ""
+
+#: yali/gui/Ui/volumegroup.py:120
+msgid "Physical Extends"
+msgstr ""
+
+#: yali/gui/Ui/volumegroup.py:121
+msgid "Physical Volumes to use:"
+msgstr ""
+
+#: yali/gui/Ui/volumegroup.py:122
+msgid "Total Space:"
+msgstr ""
+
+#: yali/gui/Ui/volumegroup.py:123
+msgid "Free Space:"
+msgstr ""
+
+#: yali/gui/Ui/volumegroup.py:124
+msgid "Logical Volumes"
+msgstr ""
+
+#: yali/gui/Ui/volumegroup.py:125
+msgid "Mountpoint"
+msgstr ""
+
+#: yali/gui/Ui/volumegroup.py:130
+msgid "Used Space:"
+msgstr ""
+
+#: yali/gui/Ui/welcome.py:98
+msgid ""
+"Pisi Linux is installed and running successfully... \n"
+"\n"
+"Before you login to system, you need to create your first user and set the system wide configurations. "
+msgstr ""
 
 #: yali/gui/lvm_gui.py:48
 msgid "Not enough physical volumes"
@@ -86,14 +651,6 @@ msgid ""
 "immediately."
 msgstr ""
 
-#: yali/gui/lvm_gui.py:418 yali/gui/lvm_gui.py:465 yali/gui/lvm_gui.py:552
-#: yali/gui/ScrPartitionManual.py:114 yali/gui/ScrPartitionManual.py:130
-#: yali/gui/ScrPartitionManual.py:140 yali/gui/YaliDialog.py:220
-#: yali/storage/__init__.py:930 yali/storage/storageBackendHelpers.py:92
-#: yali/storage/storageBackendHelpers.py:296
-msgid "Cancel"
-msgstr "Annullér"
-
 #: yali/gui/lvm_gui.py:418 yali/gui/lvm_gui.py:465
 #: yali/gui/ScrPartitionManual.py:358 yali/gui/ScrRescuePassword.py:123
 #: yali/gui/ScrRescue.py:95 yali/storage/storageset.py:336
@@ -122,8 +679,8 @@ msgstr ""
 
 #: yali/gui/lvm_gui.py:459
 msgid ""
-"This change in the value of the physical extent will waste substantial space "
-"on one or more of the physical volumes in the volume group."
+"This change in the value of the physical extent will waste substantial space"
+" on one or more of the physical volumes in the volume group."
 msgstr ""
 
 #: yali/gui/lvm_gui.py:481
@@ -168,11 +725,6 @@ msgid ""
 "Are you sure you want to delete the \n"
 "logical volume \"%s\"?"
 msgstr ""
-
-#: yali/gui/lvm_gui.py:552 yali/storage/storageBackendHelpers.py:92
-#: yali/storage/storageBackendHelpers.py:296
-msgid "Delete"
-msgstr "Slet"
 
 #: yali/gui/lvm_gui.py:582
 msgid "Make Logical Volume"
@@ -262,11 +814,9 @@ msgstr ""
 
 #: yali/gui/raid_gui.py:27
 msgid ""
-"At least two unused software RAID partitions are needed to create a RAID "
-"device.\n"
+"At least two unused software RAID partitions are needed to create a RAID device.\n"
 "\n"
-"First create at least two partitions of type \"software RAID\", and then "
-"select the \"RAID\" option again."
+"First create at least two partitions of type \"software RAID\", and then select the \"RAID\" option again."
 msgstr ""
 
 #: yali/gui/raid_gui.py:37
@@ -333,14 +883,6 @@ msgstr ""
 msgid "Hostname contains invalid characters."
 msgstr ""
 
-#: yali/gui/ScrBootloader.py:99
-msgid "The first sector of"
-msgstr "Den første sektor af"
-
-#: yali/gui/ScrCheckCD.py:62
-msgid "Validate"
-msgstr "Validering"
-
 #: yali/gui/ScrCheckCD.py:68
 msgid "Starting validation..."
 msgstr ""
@@ -375,10 +917,6 @@ msgstr ""
 #: yali/gui/ScrCheckCD.py:101
 msgid "Skip Package"
 msgstr ""
-
-#: yali/gui/ScrCheckCD.py:101 yali/storage/__init__.py:930
-msgid "Reboot"
-msgstr "Genstart"
 
 #: yali/gui/ScrCheckCD.py:115
 msgid ""
@@ -543,8 +1081,9 @@ msgstr ""
 #: yali/gui/ScrPartitionManual.py:94
 #, python-format
 msgid ""
-"The partitioning scheme you requested caused the following critical errors."
-"You must correct these errors before you continue your installation of %s."
+"The partitioning scheme you requested caused the following critical "
+"errors.You must correct these errors before you continue your installation "
+"of %s."
 msgstr ""
 
 #: yali/gui/ScrPartitionManual.py:101
@@ -576,10 +1115,6 @@ msgstr ""
 msgid "Format Warnings"
 msgstr ""
 
-#: yali/gui/ScrPartitionManual.py:130 yali/storage/storageset.py:387
-msgid "Format"
-msgstr "Format"
-
 #: yali/gui/ScrPartitionManual.py:138
 msgid "All Changes that you made will be removed"
 msgstr ""
@@ -600,49 +1135,13 @@ msgstr ""
 msgid "Partition"
 msgstr ""
 
-#: yali/gui/ScrPartitionManual.py:153
-msgid "General purpose of partition creation"
-msgstr "Generelt formål med partitionsskabelse"
-
-#: yali/gui/ScrPartitionManual.py:155
-msgid "Physical Volume"
-msgstr ""
-
-#: yali/gui/ScrPartitionManual.py:156
-msgid "Create LVM formatted partition"
-msgstr ""
-
-#: yali/gui/ScrPartitionManual.py:158
-msgid "Volume Group"
-msgstr "Volumen Gruppe"
-
-#: yali/gui/ScrPartitionManual.py:159
-msgid "Requires at least 1 free LVM formatted partition"
-msgstr "Kræver mindst 1 fri LVM formatteret partition"
-
-#: yali/gui/ScrPartitionManual.py:161
-msgid "Logical Volume"
-msgstr ""
-
-#: yali/gui/ScrPartitionManual.py:162
-msgid "Create Logical Volume on selected Volume Group"
-msgstr ""
-
 #: yali/gui/ScrPartitionManual.py:164
 msgid "Member"
-msgstr ""
-
-#: yali/gui/ScrPartitionManual.py:165
-msgid "Create Raid formatted partition"
 msgstr ""
 
 #: yali/gui/ScrPartitionManual.py:167
 msgid "Array"
 msgstr ""
-
-#: yali/gui/ScrPartitionManual.py:168
-msgid "Requires at least 2 free Raid formatted partition"
-msgstr "Kræver mindst 2 ledige RAID-formatterede partitioner"
 
 #: yali/gui/ScrPartitionManual.py:231
 msgid "Volume Groups"
@@ -785,19 +1284,13 @@ msgstr ""
 #: yali/gui/ScrRescue.py:55
 #, python-format
 msgid ""
-"The following error occurred when mounting the file systems listed in /etc/"
-"fstab.  Please fix this problem and try to rescue again.\n"
+"The following error occurred when mounting the file systems listed in /etc/fstab.  Please fix this problem and try to rescue again.\n"
 "%s"
 msgstr ""
 
 #: yali/gui/ScrSummary.py:47
 msgid "<b><p>Are you sure you want to restart the computer?</p></b>"
 msgstr ""
-
-#: yali/gui/ScrSummary.py:59 yali/gui/ScrSummary.py:211
-#: yali/gui/ScrSummary.py:218
-msgid "Next"
-msgstr "Næste"
 
 #: yali/gui/ScrSummary.py:68
 #, python-format
@@ -882,13 +1375,9 @@ msgstr ""
 #, python-format
 msgid ""
 "Removes all Linux partitions on the selected%s device(s). This does not "
-"remove other partitions you may have on your storage device(s) (such as VFAT "
-"or FAT32)"
+"remove other partitions you may have on your storage device(s) (such as VFAT"
+" or FAT32)"
 msgstr ""
-
-#: yali/gui/ScrSummary.py:149
-msgid "Use Free Space"
-msgstr "Brug Fri Plads"
 
 #: yali/gui/ScrSummary.py:150
 #, python-format
@@ -950,9 +1439,9 @@ msgstr ""
 msgid ""
 "<qt>Proprietary drivers are available which may be required to utilize the "
 "full capabilities of your video card. These drivers are developed by the "
-"hardware manufacturer and not supported by Pisi Linux developers since their "
-"source code is not publicly available.<br><br><b>Do you want to install and "
-"use these proprietary drivers instead of the default drivers?</b></qt>"
+"hardware manufacturer and not supported by Pisi Linux developers since their"
+" source code is not publicly available.<br><br><b>Do you want to install and"
+" use these proprietary drivers instead of the default drivers?</b></qt>"
 msgstr ""
 
 #: yali/gui/ScrUsers.py:127 yali/gui/ScrUsers.py:359
@@ -974,10 +1463,6 @@ msgstr ""
 #: yali/gui/ScrUsers.py:281
 msgid "User ID used before, choose another one!"
 msgstr ""
-
-#: yali/gui/ScrUsers.py:286 yali/gui/ScrUsers.py:329 yali/gui/ScrUsers.py:413
-msgid "Add"
-msgstr "Tilføj"
 
 #: yali/gui/shrink_gui.py:23
 msgid "Partitions to Shrink"
@@ -1099,10 +1584,6 @@ msgstr ""
 msgid "An error occurred when attempting to load screens:%s"
 msgstr ""
 
-#: yali/gui/YaliWindow.py:417
-msgid "Release Notes"
-msgstr "Release Notater"
-
 #: yali/gui/YaliWindow.py:440
 msgid "Release notes could not be loaded."
 msgstr ""
@@ -1159,17 +1640,14 @@ msgstr ""
 #: yali/storage/__init__.py:159
 #, python-format
 msgid ""
-"The following file systems for your Linux system were not unmounted "
-"cleanly.  Please boot your Linux installation, let the file systems be "
-"checked and shut down cleanly to rescue.\n"
+"The following file systems for your Linux system were not unmounted cleanly.  Please boot your Linux installation, let the file systems be checked and shut down cleanly to rescue.\n"
 "%s"
 msgstr ""
 
 #: yali/storage/__init__.py:169
 #, python-format
 msgid ""
-"The following file systems for your Linux system were not unmounted "
-"cleanly.  Would you like to mount them anyway?\n"
+"The following file systems for your Linux system were not unmounted cleanly.  Would you like to mount them anyway?\n"
 "%s"
 msgstr ""
 
@@ -1203,30 +1681,29 @@ msgstr ""
 
 #: yali/storage/__init__.py:367
 msgid ""
-"This device is an extended partition which contains logical partitions that "
-"cannot be deleted:\n"
+"This device is an extended partition which contains logical partitions that cannot be deleted:\n"
 "\n"
 msgstr ""
 
 #: yali/storage/__init__.py:873
 #, python-format
 msgid ""
-"You have not defined a root partition (/),which is required for installation "
-"of %s to continue."
+"You have not defined a root partition (/),which is required for installation"
+" of %s to continue."
 msgstr ""
 
 #: yali/storage/__init__.py:878
 #, python-format
 msgid ""
-"Your / partition is less than %(min)s MB which is lower than recommended for "
-"a normal %(productName)s install."
+"Your / partition is less than %(min)s MB which is lower than recommended for"
+" a normal %(productName)s install."
 msgstr ""
 
 #: yali/storage/__init__.py:884
 #, python-format
 msgid ""
-"Your %(mount)s partition is less than %(size)s megabytes which is lower than "
-"recommended for a normal %(productName)s install."
+"Your %(mount)s partition is less than %(size)s megabytes which is lower than"
+" recommended for a normal %(productName)s install."
 msgstr ""
 
 #: yali/storage/__init__.py:893
@@ -1288,9 +1765,7 @@ msgstr "ikke nok plads til LVM anmodninger"
 msgid ""
 "Could not find enough free space for automatic\n"
 "partitioning, please use another partitioning method."
-msgstr ""
-"Kunne ikke finde nok ledig plads til automatisk partitionering.\n"
-"Brug venligst en anden partitionerings metode."
+msgstr "Kunne ikke finde nok ledig plads til automatisk partitionering.\nBrug venligst en anden partitionerings metode."
 
 #: yali/storage/partitioning.py:1670
 msgid "Warnings During Automatic Partitioning"
@@ -1302,20 +1777,14 @@ msgid ""
 "Following warnings occurred during automatic partitioning:\n"
 "\n"
 "%s"
-msgstr ""
-"Der opstod følgende advarsler under automatisk partitionering:\n"
-"\n"
-"%s"
+msgstr "Der opstod følgende advarsler under automatisk partitionering:\n\n%s"
 
 #: yali/storage/partitioning.py:1680 yali/storage/partitioning.py:1700
 msgid ""
 "\n"
 "\n"
 "Press 'OK' to exit the installer."
-msgstr ""
-"\n"
-"\n"
-"Tryk på 'OK' for at afslutte installationsprogrammet."
+msgstr "\n\nTryk på 'OK' for at afslutte installationsprogrammet."
 
 #: yali/storage/partitioning.py:1682
 #, python-format
@@ -1335,8 +1804,7 @@ msgid ""
 "\n"
 "%(errortxt)s\n"
 "\n"
-"This can happen if there is not enough space on your hard drive(s) for the "
-"installation. %(extra)s"
+"This can happen if there is not enough space on your hard drive(s) for the installation. %(extra)s"
 msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:18
@@ -1384,15 +1852,10 @@ msgstr "Formatér som Swap?"
 #: yali/storage/storageBackendHelpers.py:69
 #, python-format
 msgid ""
-"%s has a partition type of 0x82 (Linux swap) but does not appear to be "
-"formatted as a Linux swap partition.\n"
+"%s has a partition type of 0x82 (Linux swap) but does not appear to be formatted as a Linux swap partition.\n"
 "\n"
 "Would you like to format this partition as a swap partition?"
-msgstr ""
-"%s har en partitions-type 0x82 (Linux swap), men ser ikke ud til at være "
-"formateret som en Linux swap partition.\n"
-"\n"
-"Vil du formatere partitionen som en swap partition?"
+msgstr "%s har en partitions-type 0x82 (Linux swap), men ser ikke ud til at være formateret som en Linux swap partition.\n\nVil du formatere partitionen som en swap partition?"
 
 #: yali/storage/storageBackendHelpers.py:89
 #, python-format
@@ -1409,10 +1872,7 @@ msgid ""
 "The following partitions were not deleted because they are in use:\n"
 "\n"
 "%s"
-msgstr ""
-"De følgende partitioner blev ikke slettet fordi de er i brug:\n"
-"\n"
-"%s"
+msgstr "De følgende partitioner blev ikke slettet fordi de er i brug:\n\n%s"
 
 #: yali/storage/storageBackendHelpers.py:154
 #: yali/storage/storageBackendHelpers.py:161
@@ -1437,9 +1897,7 @@ msgstr "Fejl ved Partitionering"
 #: yali/storage/storageBackendHelpers.py:210
 #, python-format
 msgid ""
-"The following critical errors exist with your requested partitioning scheme. "
-"These errors must be corrected prior to continuing with your install of "
-"%(productName)s.\n"
+"The following critical errors exist with your requested partitioning scheme. These errors must be corrected prior to continuing with your install of %(productName)s.\n"
 "\n"
 "%(errorstr)s"
 msgstr ""
@@ -1466,8 +1924,8 @@ msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:245
 msgid ""
-"Select 'Yes' to continue and format these partitions, or 'No' to go back and "
-"change these settings."
+"Select 'Yes' to continue and format these partitions, or 'No' to go back and"
+" change these settings."
 msgstr ""
 
 #: yali/storage/storageBackendHelpers.py:251
@@ -1519,13 +1977,7 @@ msgid ""
 "However, if this partition contains files that you need to keep,\n"
 "such as home directories, then continue without formatting this\n"
 "npartition."
-msgstr ""
-"Du har valgt at installere på en eksisterende partition uden\n"
-"formatering. Vi anbefaler at du formaterer partitionen for at\n"
-"sikre at filer fra et tidligere operativsystem ikke skaber problemer\n"
-"for denne installation af Linux. Dog kan du, hvis partitionen\n"
-"indeholder filer du vil beholde, såsom hjemmemapper, vælge at\n"
-"fortsætte uden at formatere partitionen."
+msgstr "Du har valgt at installere på en eksisterende partition uden\nformatering. Vi anbefaler at du formaterer partitionen for at\nsikre at filer fra et tidligere operativsystem ikke skaber problemer\nfor denne installation af Linux. Dog kan du, hvis partitionen\nindeholder filer du vil beholde, såsom hjemmemapper, vælge at\nfortsætte uden at formatere partitionen."
 
 #: yali/storage/storageBackendHelpers.py:318
 msgid "Format?"
@@ -1552,21 +2004,15 @@ msgstr "Lagringsenheds Advarsel"
 #: yali/storage/storageBackendHelpers.py:332
 #, python-format
 msgid ""
-"The following storage device may contain recoverable data:<br><br>"
-"%(description)s (%(size)s MB)<br><br>This device may have data that will be "
-"<b>permanently lost</b> if you include it in this installation.<br><br>If "
-"you don't care about any data on this device, choose <b>Reset device</b> to "
-"include it in the installation process.<br><br>If you don't want the device "
-"to be permanently erased, select <b>Ignore device</b> and the device will "
-"not be considered as a possible installation target."
-msgstr ""
-"Følgende lagerenhed kan indeholde genoprettelige data:<br><br>"
-"%(description)s (%(size)s MB)<br><br>Denne enhed kan indeholde data der "
-"<b>mistes permanent</b> hvis du inkluderer enheden i denne installation."
-"<br><br>Hvis du er ligeglad med data på denne enhed, vælg <b>Reset enhed</b> "
-"for at inkluderer enheden i installations processen.<br><br>If du ikke vil "
-"slette enheden permanent, vælg <b>Ignorér enhed</b> og enheden vil ikke "
-"blive betragtet som et muligt installationsmål."
+"The following storage device may contain recoverable "
+"data:<br><br>%(description)s (%(size)s MB)<br><br>This device may have data "
+"that will be <b>permanently lost</b> if you include it in this "
+"installation.<br><br>If you don't care about any data on this device, choose"
+" <b>Reset device</b> to include it in the installation process.<br><br>If "
+"you don't want the device to be permanently erased, select <b>Ignore "
+"device</b> and the device will not be considered as a possible installation "
+"target."
+msgstr "Følgende lagerenhed kan indeholde genoprettelige data:<br><br>%(description)s (%(size)s MB)<br><br>Denne enhed kan indeholde data der <b>mistes permanent</b> hvis du inkluderer enheden i denne installation.<br><br>Hvis du er ligeglad med data på denne enhed, vælg <b>Reset enhed</b> for at inkluderer enheden i installations processen.<br><br>If du ikke vil slette enheden permanent, vælg <b>Ignorér enhed</b> og enheden vil ikke blive betragtet som et muligt installationsmål."
 
 #: yali/storage/storageBackendHelpers.py:343
 msgid "Reset device"
@@ -1583,11 +2029,7 @@ msgid ""
 "PVs (%(pvs)s) which will erase the LVM metadata, or ignore which will "
 "preserve thecontents.This action may also be applied to all other PVs with "
 "inconsistent metadata."
-msgstr ""
-"Der er inkonsikvente LVM date på %(msg)s. Du kan re-initialisere alle "
-"relaterede PVs (%(pvs)s) hvilket vil slette LVM metadata, eller ignorere "
-"hvilket vil bevare indholdet. Denne handling kan også bruges på alle andre "
-"PVs med inkonsekvente metadata."
+msgstr "Der er inkonsikvente LVM date på %(msg)s. Du kan re-initialisere alle relaterede PVs (%(pvs)s) hvilket vil slette LVM metadata, eller ignorere hvilket vil bevare indholdet. Denne handling kan også bruges på alle andre PVs med inkonsekvente metadata."
 
 #: yali/storage/storageBackendHelpers.py:364
 msgid "Yes, re-initialize"
@@ -1602,9 +2044,7 @@ msgstr "Nej, beskyt data"
 msgid ""
 "Disk contains %(members_count)s BIOS RAID metadata, but is not part of any "
 "recognized BIOS RAID sets. Ignoring disk %(members)s."
-msgstr ""
-"Disken indeholder %(members_count)s BIOS RAID metadata, men indgår ikke i "
-"noget anerkendt BIOS RAID set. Ignorerer disk %(members)s."
+msgstr "Disken indeholder %(members_count)s BIOS RAID metadata, men indgår ikke i noget anerkendt BIOS RAID set. Ignorerer disk %(members)s."
 
 #: yali/storage/storageset.py:298 yali/storage/storageset.py:311
 msgid "Invalid mount point"
@@ -1613,28 +2053,18 @@ msgstr "Ugyldigt monteringspunkt"
 #: yali/storage/storageset.py:299
 #, python-format
 msgid ""
-"An error occurred when trying to create %s.  Some element of this path is "
-"not a directory. This is a fatal error and the install cannot continue.\n"
+"An error occurred when trying to create %s.  Some element of this path is not a directory. This is a fatal error and the install cannot continue.\n"
 "\n"
 "Press <Enter> to exit the installer."
-msgstr ""
-"En fejl opstod ved forsøg på at oprette %s. Nogle elementer i denne sti er "
-"ikke en mappe. Dette er en fatal fejl og installationen kan ikke fortsætte.\n"
-"\n"
-"Tryk <Enter> for at afslutte installationsprogrammet."
+msgstr "En fejl opstod ved forsøg på at oprette %s. Nogle elementer i denne sti er ikke en mappe. Dette er en fatal fejl og installationen kan ikke fortsætte.\n\nTryk <Enter> for at afslutte installationsprogrammet."
 
 #: yali/storage/storageset.py:312
 #, python-format
 msgid ""
-"An error occurred when trying to create %(mountpoint)s: %(msg)s.  This is a "
-"fatal error and the install cannot continue.\n"
+"An error occurred when trying to create %(mountpoint)s: %(msg)s.  This is a fatal error and the install cannot continue.\n"
 "\n"
 "Press <Enter> to exit the installer."
-msgstr ""
-"En fejl opstod ved forsøg på at oprette %(mountpoint)s: %(msg)s. Dette er en "
-"fatal fejl og installationen kan ikke fortsætte.\n"
-"\n"
-"Tryk <Enter> for at afslutte installationsprogrammet."
+msgstr "En fejl opstod ved forsøg på at oprette %(mountpoint)s: %(msg)s. Dette er en fatal fejl og installationen kan ikke fortsætte.\n\nTryk <Enter> for at afslutte installationsprogrammet."
 
 #: yali/storage/storageset.py:329 yali/storage/storageset.py:350
 msgid "Unable to mount filesystem"
@@ -1645,22 +2075,15 @@ msgstr "Kan ikke montere filsystem"
 msgid ""
 "An error occurred mounting device %(path)s as %(mountpoint)s.  You may "
 "continue installation, but there may be problems."
-msgstr ""
-"En fejl opstod ved montering af enhed %(path)s som %(mountpoint)s. Du kan "
-"fortsætte installationen, men der vil måske være problemer."
+msgstr "En fejl opstod ved montering af enhed %(path)s som %(mountpoint)s. Du kan fortsætte installationen, men der vil måske være problemer."
 
 #: yali/storage/storageset.py:351
 #, python-format
 msgid ""
-"An error occurred mounting device %(path)s as %(mountpoint)s: %(msg)s. This "
-"is a fatal error and the install cannot continue.\n"
+"An error occurred mounting device %(path)s as %(mountpoint)s: %(msg)s. This is a fatal error and the install cannot continue.\n"
 "\n"
 "Press <Enter> to exit the installer."
-msgstr ""
-"En fejl opstod ved montering af enhed %(path)s som %(mountpoint)s: %(msg)s. "
-"Dette er en fatal fejl og installationen kan ikke fortsætte.\n"
-"\n"
-"Tryk <Enter> for at afslutte installationsprogrammet."
+msgstr "En fejl opstod ved montering af enhed %(path)s som %(mountpoint)s: %(msg)s. Dette er en fatal fejl og installationen kan ikke fortsætte.\n\nTryk <Enter> for at afslutte installationsprogrammet."
 
 #: yali/storage/storageset.py:386
 msgid "Skip"
@@ -1673,15 +2096,8 @@ msgid ""
 "\n"
 "     %s\n"
 "\n"
-"is an old-style Linux swap partition.  If you want to use this device for "
-"swap space, you must reformat as a new-style Linux swap partition."
-msgstr ""
-"Swap enhed:\n"
-"\n"
-"%s\n"
-"\n"
-"er en gammeldags Linux swap partition. Hvis du vil bruge denne enhed som "
-"swap-plads, skal den reformatteres til en moderne Linux swap partition."
+"is an old-style Linux swap partition.  If you want to use this device for swap space, you must reformat as a new-style Linux swap partition."
+msgstr "Swap enhed:\n\n%s\n\ner en gammeldags Linux swap partition. Hvis du vil bruge denne enhed som swap-plads, skal den reformatteres til en moderne Linux swap partition."
 
 #: yali/storage/storageset.py:429
 #, python-format
@@ -1690,9 +2106,7 @@ msgid ""
 "\n"
 "     %s\n"
 "\n"
-"in your /etc/fstab file is currently in use as a software suspend device, "
-"which means your system is hibernating. If you are performing a new install, "
-"make sure the installer is set to format all swap devices."
+"in your /etc/fstab file is currently in use as a software suspend device, which means your system is hibernating. If you are performing a new install, make sure the installer is set to format all swap devices."
 msgstr ""
 
 #: yali/storage/storageset.py:442
@@ -1702,8 +2116,7 @@ msgid ""
 "\n"
 "     %s\n"
 "\n"
-"does not contain a supported swap volume.  In order to continue "
-"installation, you will need to format the device or skip it."
+"does not contain a supported swap volume.  In order to continue installation, you will need to format the device or skip it."
 msgstr ""
 
 #: yali/storage/storageset.py:453
@@ -1831,12 +2244,9 @@ msgstr "%(type)s filsystem tjek fejl på %(device)s:"
 #: yali/storage/formats/filesystem.py:391
 msgid ""
 "Errors like this usually mean there is a problem with the filesystem that "
-"will require user interaction to repair. Restart installation after you have "
-"corrected the problems on the filesystem."
-msgstr ""
-"Fejl som denne betyder normalt at der er et problem med filsystemet som "
-"kræver bruger interaktion for at reparere. Genstart installationen efter du "
-"har rettet problemerne med filsystemet."
+"will require user interaction to repair. Restart installation after you have"
+" corrected the problems on the filesystem."
+msgstr "Fejl som denne betyder normalt at der er et problem med filsystemet som kræver bruger interaktion for at reparere. Genstart installationen efter du har rettet problemerne med filsystemet."
 
 #: yali/storage/formats/filesystem.py:397
 msgid "Unrecoverable Error"
@@ -1866,9 +2276,7 @@ msgstr "Delt biblioteks fejl."
 msgid ""
 "Recoverable errors have been detected or dosfsck has discovered an internal "
 "inconsistency."
-msgstr ""
-"Der er fundet korrigerbare fejl eller dosfsck har opdaget en intern "
-"inkonsekvens."
+msgstr "Der er fundet korrigerbare fejl eller dosfsck har opdaget en intern inkonsekvens."
 
 #: yali/storage/formats/filesystem.py:857
 msgid "Usage error."
@@ -2039,340 +2447,14 @@ msgstr "Serbisk"
 msgid "Preparing home directory for %s..."
 msgstr "Forbereder home-mappe for %s..."
 
-#: yali/util.py:523 yali/util.py:566
+#: yali/util.py:527 yali/util.py:570
 msgid "Release file is missing"
 msgstr "Release-fil mangler"
 
-#: yali/util.py:525 yali/util.py:568
+#: yali/util.py:529 yali/util.py:572
 msgid "Release file is inconsistent"
 msgstr "Release-fil er inkonsekvent"
 
-#: yali/util.py:528 yali/util.py:571
+#: yali/util.py:532 yali/util.py:575
 msgid "Invalid xml file"
 msgstr "Ugyldig xml-fil"
-
-#~ msgid ""
-#~ "There appears to be more than one resizeable partition. You can select a "
-#~ "partition from the list below or YALI will select one for you."
-#~ msgstr ""
-#~ "Der er fundet flere partitioner hvor størrelsen kan ændres. Du kan vælge "
-#~ "en partition fra nedenstående liste eller lade YALI vælge en for dig."
-
-#~ msgid "X"
-#~ msgstr "X"
-
-#~ msgid "Automatically choose the partition to resize (recommended)"
-#~ msgstr "Automatisk valg af partition for størrelses-ændring (anbefalet)"
-
-#~ msgid "I will choose the target"
-#~ msgstr "Jeg vælger destinationen"
-
-#~ msgid "Use Selected"
-#~ msgstr "Brug Det Valgte"
-
-#~ msgid "Use All Disk"
-#~ msgstr "Brug Hele Harddisken"
-
-#~ msgid "Shrink Current System"
-#~ msgstr "Formindsk Nuværende System"
-
-#~ msgid "Manual Partitioning"
-#~ msgstr "Manuel Partitionering"
-
-#~ msgid "Advanced settings"
-#~ msgstr "Avancerede indstillinger"
-
-#~ msgid "Default settings"
-#~ msgstr "Standard Indstillinger"
-
-#~ msgid "Don't install bootloader"
-#~ msgstr "Installér ikke bootloader"
-
-#~ msgid ""
-#~ "You can validate the integrity of the installation packages. Although "
-#~ "this is an optional step, we highly recommend to do the validation in "
-#~ "order to avoid any possible errors during the installation process."
-#~ msgstr ""
-#~ "Du kan validere integriteten af installations pakkerne. Selvom dette er "
-#~ "et valgfrit trin, anbefaler vi kraftigt at udføre validationen for at "
-#~ "undgå eventuelle fejl under installationen."
-
-#~ msgid "Validation failed"
-#~ msgstr "Validering mislykkedes"
-
-#~ msgid "Validation succeeded"
-#~ msgstr "Validering lykkedes"
-
-#~ msgid "Form"
-#~ msgstr "Formular"
-
-#~ msgid ""
-#~ "To use PiSi History support, you may need to be online. You can use a "
-#~ "connection profile from the list below:"
-#~ msgstr ""
-#~ "For at bruge PiSi Historie support, er du måske nødt til at være online. "
-#~ "Du kan bruge en forbindelses-profil fra nedenstående liste:"
-
-#~ msgid "Connect"
-#~ msgstr "Forbind"
-
-#~ msgid "Standard Partition"
-#~ msgstr "Standard Partition"
-
-#~ msgid "Raid Member"
-#~ msgstr "RAID medlem"
-
-#~ msgid "Date"
-#~ msgstr "Dato"
-
-#~ msgid "Time"
-#~ msgstr "Tid"
-
-#~ msgid "Timezone"
-#~ msgstr "Tidszone"
-
-#~ msgid "Unhandled exception occured"
-#~ msgstr "Der opstod en uhåndteret undtagelse"
-
-#~ msgid ""
-#~ "Please fill a bug report at http://bugs.pisilinux.org.tr/ attaching the "
-#~ "following backtrace."
-#~ msgstr ""
-#~ "Udfyld venligst en fejlrapport hos http://bugs.pisilinux.org.tr/ og "
-#~ "vedhæft følgende backtrace."
-
-#~ msgid "Show Backtrace"
-#~ msgstr "Vis Backtrace"
-
-#~ msgid "help content"
-#~ msgstr "indholds hjælp"
-
-#~ msgid ""
-#~ "Welcome to YALI (Yet Another Linux Installer), where you will have the "
-#~ "opportunity to verify the installation medium, select your keyboard "
-#~ "layout, choose your time-zone, create user accounts and prepare your disk "
-#~ "- followed by a summary and final review before committing to the "
-#~ "installation of Pisi Linux.\n"
-#~ "Further information for each page of the installer may be viewed by "
-#~ "clicking the question-mark icon at the top of its page. \n"
-#~ "YALI was designed with ease of use in mind and should not pose a problem "
-#~ "to the novice Linux user. As with all such procedures though, any "
-#~ "valuable data on your system should be backed-up before commencing."
-#~ msgstr ""
-#~ "Velkommen til YALI (Yet Another Linux Installer), hvor du har mulighed "
-#~ "for at tjekke installations-mediet, vælge tastatur-layout, vælge "
-#~ "tidszone, oprette brugerkonti og forberede din harddisk - efterfulgt af "
-#~ "et resumé og en afsluttende gennemgang før den endelige installation af "
-#~ "Pisu Linux.\n"
-#~ "Yderligere information for hver side i installationsprogrammer kan ses "
-#~ "ved at klikke på spørgsmålstegns-ikonet i toppen af hver side.\n"
-#~ "YALI er designet med brugervenlighed i tankerne og bør ikke udgøre et "
-#~ "problem for den uerfarne Linux-bruger. Som med alle sådanne procedurer "
-#~ "bør eventuelle værdifulde data på dit system dog bakkes op før de "
-#~ "påbegyndes."
-
-#~ msgid "Installing Package: "
-#~ msgstr "Installerer pakke:"
-
-#~ msgid "Keyboard Layouts"
-#~ msgstr "Tastatur Layouts"
-
-#~ msgid "Test Layout"
-#~ msgstr "Test Layout"
-
-#~ msgid ""
-#~ "<html><head/><body><p>Before installing Pisi Linux on your computer, "
-#~ "please read and accept the terms of free / open source licenses of the "
-#~ "softwares included in this installation medium. <a href=\"#\"><span style="
-#~ "\" text-decoration: underline; color:#56a2c0;\">License texts</span></a></"
-#~ "p></body></html>"
-#~ msgstr ""
-#~ "<html><head/><body><p>Inden installation af Pisi Linus på din computer, "
-#~ "bedes du venligst læse og acceptére vilkårene for free / open source-"
-#~ "licenser for software, der er inkluderet i dette installations-medium. <a "
-#~ "href=\"#\"><span style=\" text-decoration: underline; color:#56a2c0;"
-#~ "\">Licens tekster</span></a></p></body></html>"
-
-#~ msgid "I understand and accept the terms"
-#~ msgstr "Jeg forstår og acceptérer vilkårerne"
-
-#~ msgid "Use :"
-#~ msgstr "Brug :"
-
-#~ msgid "Size :"
-#~ msgstr "Størrelse :"
-
-#~ msgid " MB"
-#~ msgstr "MB"
-
-#~ msgid "Resize"
-#~ msgstr "Størrelses-ændring"
-
-#~ msgid "File System :"
-#~ msgstr "Fil-system:"
-
-#~ msgid "Migrate"
-#~ msgstr "Migrér"
-
-#~ msgid "Yali"
-#~ msgstr "Yali"
-
-#~ msgid "Previous Screen"
-#~ msgstr "Forrige Skærm"
-
-#~ msgid "Back"
-#~ msgstr "Tilbage"
-
-#~ msgid "Next Screen"
-#~ msgstr "Næste Skærm"
-
-#~ msgid "Device"
-#~ msgstr "Enhed"
-
-#~ msgid "Type"
-#~ msgstr "Type"
-
-#~ msgid "Size"
-#~ msgstr "Størrelse"
-
-#~ msgid "Create"
-#~ msgstr "Opret"
-
-#~ msgid "Edit"
-#~ msgstr "Redigér"
-
-#~ msgid "Reset"
-#~ msgstr "Reset"
-
-#~ msgid "Format :"
-#~ msgstr "Format :"
-
-#~ msgid "Yes, format this partition"
-#~ msgstr "Ja, formattér denne partition"
-
-#~ msgid "Delete Partition"
-#~ msgstr "Slet Partition"
-
-#~ msgid "Resize Partition"
-#~ msgstr "Ændre Partitions-størrelse"
-
-#~ msgid "Reset All Changes"
-#~ msgstr "Nulstil Alle Ændringer"
-
-#~ msgid "Apply"
-#~ msgstr "Udfør"
-
-#~ msgid "Force to be primary partition"
-#~ msgstr "Tving til at være primær partition"
-
-#~ msgid "Use:"
-#~ msgstr "Brug:"
-
-#~ msgid "Force to be a primary partition"
-#~ msgstr "Tving til at være en primær partition"
-
-#~ msgid ""
-#~ "Which partition would you like to shrink to make room for your "
-#~ "installation?"
-#~ msgstr ""
-#~ "Hvilken partition vil du formindske for at lave plads til din "
-#~ "installation?"
-
-#~ msgid "Shrink partition to size (in MB)"
-#~ msgstr "Formindsk partition til størrelse (i MB)"
-
-#~ msgid "Shrink partition to size (in MB) :"
-#~ msgstr "Formindsk partition til størrelse (i MB) :"
-
-#~ msgid "Shrink"
-#~ msgstr "Formindsk"
-
-#~ msgid ""
-#~ "Changes will be applied when you click \"Resize\". To cancel the changes, "
-#~ "click <b>\"Cancel\".\n"
-#~ "<br><br>\n"
-#~ "Warning: A resizing operation may corrupt the partition, rendering the "
-#~ "data on it unreachable. Make sure that you have backed up the data. Note "
-#~ "that this operation cannot be undone.<b>"
-#~ msgstr ""
-#~ "Ændringer vil blive gennemført når du klikker \"Ændre Størrelse\". For at "
-#~ "annullere ændringerne, klik <b>\"Annullér\".\n"
-#~ "<br><br>\n"
-#~ "Advarsel: Ændring af størrelse kan beskadige partitionen og gøre data "
-#~ "ulæselige. Sørg for at du har sikkerhedskopieret data. Bemærk at denne "
-#~ "ændring ikke kan fortrydes.<b>"
-
-#~ msgid "Filesystem:"
-#~ msgstr "Filsystem"
-
-#~ msgid "Number of spares:"
-#~ msgstr "Antal reserver:"
-
-#~ msgid "Select where to install the GRUB bootloader"
-#~ msgstr "Vælg hvor du vil installere GRUB bootloaderen"
-
-#~ msgid "First bootable disk (recommended)"
-#~ msgstr "Første bootbare disk (anbefalet)"
-
-#~ msgid "Disk partition where Pisi Linux is installed"
-#~ msgstr "Disk partition hvor Pisi Linux er installeret"
-
-#~ msgid "Selected disk below"
-#~ msgstr "Nedenfor valgte disk"
-
-#~ msgid "Choose the user you want to reset the password:"
-#~ msgstr "Vælg hvilken bruger du vil resette adgangskoden for:"
-
-#~ msgid "Password:"
-#~ msgstr "Adgangskode:"
-
-#~ msgid "Confirm Password"
-#~ msgstr "Bekræft Adgangskode"
-
-#~ msgid "Reset Password"
-#~ msgstr "Nulstil Adgangskode"
-
-#~ msgid "<b>Connection status:</b>"
-#~ msgstr "<b>Forbindelses status:</b>"
-
-#~ msgid "Select Connection"
-#~ msgstr "Vælg forbindelse"
-
-#~ msgid "Reinstall bootloader"
-#~ msgstr "Geninstallér bootloader"
-
-#~ msgid "Reset forgotten password"
-#~ msgstr "Nulstil glemt adgangskode"
-
-#~ msgid "Return back to a previous system state"
-#~ msgstr "Vend tilbage til en tidligere system tilstand"
-
-#~ msgid "Administrator password"
-#~ msgstr "Administrator adgangskode"
-
-#~ msgid "Confirm password"
-#~ msgstr "Bekræft adgangskode"
-
-#~ msgid "Computer Name"
-#~ msgstr "Computernavn"
-
-#~ msgid "User Name"
-#~ msgstr "Brugernavn"
-
-#~ msgid "Real Name"
-#~ msgstr "Rigtige Navn"
-
-#~ msgid "Password"
-#~ msgstr "Kodeord"
-
-#~ msgid "Custom User ID"
-#~ msgstr "Brugerdefineret Bruger-ID"
-
-#~ msgid "Not recommended"
-#~ msgstr "Ikke anbefalet"
-
-#~ msgid "Add user to administrator (wheel) group"
-#~ msgstr "Tilføj bruger til administrations-gruppen (wheel)"
-
-#~ msgid "Advanced"
-#~ msgstr "Avanceret"
