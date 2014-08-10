@@ -155,7 +155,7 @@
         </slideshow>
         <slideshow>
             <picture>pisi</picture>
-            <_description>PiSi (Packages Installed Successfully as Intended) was built from scratch to address some shortcomings of traditional package management systems. It features a modern, simple, compact and highly efficient design. Compared to other systems, it is easy to learn to build packages for yourself. Written in Python and uses XML for source files. Incorporates both low and high-level operations (a separate tool such as APT, YUM, URPMI, is not required). Comprehensive CLI and GUI package management. LZMA compression and delta updates (saving time, bandwidth and space). Utilizes Berkeley DB for fast database access.&lt;br&gt;The full featured Package Manager will help you to keep your system up-to-date, remove the components that you never use or add new ones.</_description>
+            <_description>PiSi (Packages Installed Successfully as Intended) was built from scratch to address some shortcomings of traditional package management systems. It features a modern, simple, compact and highly efficient design. Compared to other systems, it is easy to learn to build packages for yourself. Written in Python and uses XML for source files. Incorporates both low and high-level operations (a separate tool such as APT, YUM, URPMI, is not required). Comprehensive CLI and GUI package management. LZMA compression and delta updates (saving time, bandwidth and space). Utilizes leveldb for fast database access.&lt;br&gt;The full featured Package Manager will help you to keep your system up-to-date, remove the components that you never use or add new ones.</_description>
         </slideshow>
         <slideshow>
             <picture>kaptan</picture>

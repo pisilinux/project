@@ -1,21 +1,22 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# Serdar Soytetir, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-30 15:09+0300\n"
-"PO-Revision-Date: 2014-02-12 18:05+0000\n"
-"Last-Translator: obsoleteman <tulliana@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2014-08-10 13:11+0300\n"
+"PO-Revision-Date: 2014-08-10 13:21+0300\n"
+"Last-Translator: Serdar Soytetir\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: ../release.xml.in.h:1
 msgid "Kahya"
@@ -520,7 +521,6 @@ msgstr ""
 "other popular file-managers, like Thunar, Pcmanfm, Mate File Manager etc."
 
 #: ../release.xml.in.h:47
-#, fuzzy
 msgid ""
 "PiSi (Packages Installed Successfully as Intended) was built from scratch to "
 "address some shortcomings of traditional package management systems. It "
@@ -529,9 +529,10 @@ msgid ""
 "in Python and uses XML for source files. Incorporates both low and high-"
 "level operations (a separate tool such as APT, YUM, URPMI, is not required). "
 "Comprehensive CLI and GUI package management. LZMA compression and delta "
-"updates (saving time, bandwidth and space).&lt;br&gt;The full featured "
-"Package Manager will help you to keep your system up-to-date, remove the "
-"components that you never use or add new ones."
+"updates (saving time, bandwidth and space). Utilizes leveldb for fast "
+"database access.&lt;br&gt;The full featured Package Manager will help you to "
+"keep your system up-to-date, remove the components that you never use or add "
+"new ones."
 msgstr ""
 "PiSi (Packages Installed Successfully as Intended) was built from scratch to "
 "address some shortcomings of traditional package management systems. It "
@@ -540,7 +541,7 @@ msgstr ""
 "in Python and uses XML for source files. Incorporates both low and high-"
 "level operations (a separate tool such as APT, YUM, URPMI, is not required). "
 "Comprehensive CLI and GUI package management. LZMA compression and delta "
-"updates (saving time, bandwidth and space). Utilizes Berkeley DB for fast "
+"updates (saving time, bandwidth and space). Utilizes leveldb for fast "
 "database access.&lt;br&gt;The full featured Package Manager will help you to "
 "keep your system up-to-date, remove the components that you never use or add "
 "new ones."
@@ -636,3 +637,4 @@ msgstr ""
 "for help or support. If you feel you may be able to contribute in any way, "
 "technically or otherwise, we will always be pleased to hear from you. "
 "Contact: admin@pisilinux.org Thank you for using Pisi Linux."
+
