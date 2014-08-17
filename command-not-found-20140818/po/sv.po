@@ -1,0 +1,35 @@
+# translation of sv.po to svenska
+# translation of command-not-found.po to
+# Copyright (C) YEAR ORGANIZATION
+#
+# Patrik Karlsson <patrik@pardus.nu>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: sv\n"
+"POT-Creation-Date: 2008-04-10 19:55+EEST\n"
+"PO-Revision-Date: 2008-09-22 20:25+0200\n"
+"Last-Translator: Patrik Karlsson <patrik@pardus.nu>\n"
+"Language-Team: svenska <sv@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: src/command-not-found.py:47
+msgid "The program '%s' is not installed on your system."
+msgstr "Programmet '%s' är inte installerat på din dator."
+
+#: src/command-not-found.py:51 src/command-not-found.py:56
+msgid "You can install it using package manager or by typing:"
+msgstr "Du kan installera det med Pakethanteraren eller genom att skriva:"
+
+#: src/command-not-found.py:60
+msgid "You can install it using package manager."
+msgstr "Du kan installera det med Pakethanteraren."
+
+#: src/command-not-found.py:63
+msgid "Command not found !"
+msgstr ""

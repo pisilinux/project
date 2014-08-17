@@ -1,0 +1,35 @@
+# Croatian translation for command-not-found package.
+# Copyright (C) YEAR ORGANIZATION
+# Ivica Kolić <ikoli@yahoo.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: command-not-found\n"
+"POT-Creation-Date: 2008-04-10 19:55+EEST\n"
+"PO-Revision-Date: 2011-06-10 23:04+0100\n"
+"Last-Translator: Ivica Kolić <ikoli@yahoo.com>\n"
+"Language-Team: Croatian <ikoli@yahoo.com>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Poedit-Language: Croatian\n"
+"X-Poedit-Country: CROATIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: src/command-not-found.py:47
+msgid "The program '%s' is not installed on your system."
+msgstr "Ovaj program '%s' nije instaliran na vašem sustavu."
+
+#: src/command-not-found.py:51 src/command-not-found.py:56
+msgid "You can install it using package manager or by typing:"
+msgstr "Možete ga instalirati koristeći upravitelj paketima ili upisujući:"
+
+#: src/command-not-found.py:60
+msgid "You can install it using package manager."
+msgstr "Možete ga instalirati koristeći upravitelj paketima."
+
+#: src/command-not-found.py:63
+msgid "Command not found !"
+msgstr ""

@@ -1,0 +1,32 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2008-04-10 19:55+EEST\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: src/command-not-found.py:47
+msgid "The program '%s' is not installed on your system."
+msgstr "Программа '%s' не установлена в вашей системе."
+
+#: src/command-not-found.py:51 src/command-not-found.py:56
+msgid "You can install it using package manager or by typing:"
+msgstr "Вы можете установить ее с помощью менеджера пакетов или введите:"
+
+#: src/command-not-found.py:60
+msgid "You can install it using package manager."
+msgstr "Вы можете установить ее с помощью менеджера пакетов."
+
+#: src/command-not-found.py:63
+msgid "Command not found !"
+msgstr ""

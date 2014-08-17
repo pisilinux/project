@@ -1,0 +1,35 @@
+# translation of fr.po to
+# Copyright (C) YEAR ORGANIZATION
+#
+# Ozan Çağlayan <ozan@pardus.org.tr>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: fr\n"
+"POT-Creation-Date: 2008-04-10 19:55+EEST\n"
+"PO-Revision-Date: 2008-06-17 15:33+0300\n"
+"Last-Translator: Ozan Çağlayan <ozan@pardus.org.tr>\n"
+"Language-Team: <tr@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: src/command-not-found.py:47
+msgid "The program '%s' is not installed on your system."
+msgstr "Le logiciel '%s' n'est pas installé sur votre système."
+
+#: src/command-not-found.py:51 src/command-not-found.py:56
+msgid "You can install it using package manager or by typing:"
+msgstr ""
+"Vous pouvez l'installer en utilisant le gestionnaire de paquets ou en "
+"écrivant :"
+
+#: src/command-not-found.py:60
+msgid "You can install it using package manager."
+msgstr "Vous pouvez l'installer en utilisant le gestionnaire de paquets."
+
+#: src/command-not-found.py:63
+msgid "Command not found !"
+msgstr ""

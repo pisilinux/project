@@ -1,0 +1,35 @@
+# translation of de.po to
+# Copyright (C) YEAR ORGANIZATION
+#
+# Klemens Häckel <click3d_at_linuxmail_org>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: de\n"
+"POT-Creation-Date: 2008-04-10 19:55+EEST\n"
+"PO-Revision-Date: 2008-06-09 21:08-0400\n"
+"Last-Translator: Klemens Häckel <click3d_at_linuxmail_org>\n"
+"Language-Team: <de@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: src/command-not-found.py:47
+msgid "The program '%s' is not installed on your system."
+msgstr "Das Programm '%s' ist nicht auf dem System installiert."
+
+#: src/command-not-found.py:51 src/command-not-found.py:56
+msgid "You can install it using package manager or by typing:"
+msgstr ""
+"Sie können es entweder mit dem Paket-Manager installieren, oder mit dem "
+"folgenden Kommando:"
+
+#: src/command-not-found.py:60
+msgid "You can install it using package manager."
+msgstr "Sie können es mit dem Paket-Manager installieren."
+
+#: src/command-not-found.py:63
+msgid "Command not found !"
+msgstr ""

@@ -1,0 +1,32 @@
+# Polish translation for command-not-found.
+# Copyright (C) 2008
+# Kacper Krupa <kacper@parduslinux.pl>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pl\n"
+"POT-Creation-Date: 2008-04-10 19:55+EEST\n"
+"PO-Revision-Date: 2008-12-16 20:55+0100\n"
+"Last-Translator: Konrad Szymański <kosz85@o2.pl>\n"
+"Language-Team: pl <pl@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: src/command-not-found.py:47
+msgid "The program '%s' is not installed on your system."
+msgstr "Program '%s' nie jest zainstalowany w systemie."
+
+#: src/command-not-found.py:51 src/command-not-found.py:56
+msgid "You can install it using package manager or by typing:"
+msgstr "Możesz go zainstalować używając package-managera albo wydając komendę:"
+
+#: src/command-not-found.py:60
+msgid "You can install it using package manager."
+msgstr "Możesz go zainstalować używając package-managera."
+
+#: src/command-not-found.py:63
+msgid "Command not found !"
+msgstr ""

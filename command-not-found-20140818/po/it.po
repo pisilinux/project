@@ -1,0 +1,35 @@
+# translation of it.po to Italian
+# Copyright (C) YEAR ORGANIZATION
+#
+# Siciliano Davide <edivad95@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: it\n"
+"POT-Creation-Date: 2008-04-10 19:55+EEST\n"
+"PO-Revision-Date: 2009-06-21 13:01+0200\n"
+"Last-Translator: Siciliano Davide <edivad95@gmail.com>\n"
+"Language-Team: Italian <pardus-translators@pardus.org.tr>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: src/command-not-found.py:47
+msgid "The program '%s' is not installed on your system."
+msgstr "Il programma '%s' non è installato sul tuo sistema."
+
+#: src/command-not-found.py:51 src/command-not-found.py:56
+msgid "You can install it using package manager or by typing:"
+msgstr ""
+"Se vuoi, puoi installarlo usando il Gestore di Pacchetti o eseguendo il "
+"comando:"
+
+#: src/command-not-found.py:60
+msgid "You can install it using package manager."
+msgstr "Se vuoi, puoi installarlo usando il Gestore di Pacchetti."
+
+#: src/command-not-found.py:63
+msgid "Command not found !"
+msgstr ""

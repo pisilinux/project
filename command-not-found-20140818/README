@@ -1,0 +1,13 @@
+command-not-found
+------------------
+
+command-not-found is a python script which intercepts bash when a command
+is not found. It searches through a binary database file for finding out
+which PiSi package provides this command and informs the user.
+
+Note that bash doesn't call this script when a command is given
+with an absolute path.
+
+The binary db file is a pickled dictionary associating absolute paths
+to package names. It's installed into /var/command-not-found.
+
