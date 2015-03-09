@@ -156,7 +156,8 @@ class Install(install):
 
         # Install icons
         for size in ["16x16", "32x32", "48x48", "64x64"]:
-            mime_size_dir = "%s/%s/mimetypes/" % (mime_icons_dir, size)
+            #mime_size_dir = "%s/%s/mimetypes/" % (mime_icons_dir, size)
+            mime_size_dir = "%s/%s/" % (mime_icons_dir, size)
             makeDirs(mime_size_dir)
             shutil.copy("data/%s-%s.png" % (PROJECT, size), "%s/application-x-pisi.png" % mime_size_dir)
 

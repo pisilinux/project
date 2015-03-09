@@ -41,7 +41,7 @@ class WebDialog(PAbstractBox, Ui_WebDialog):
 
         self.registerFunction(IN, lambda: parent.statusBar().hide())
         self.registerFunction(FINISHED, lambda: parent.statusBar().setVisible(not self.isVisible()))
-        self._as = 'http://appinfo.pardus.org.tr'
+        self._as = 'http://appinfo.pisilinux.org'
         self.cancelButton.clicked.connect(self._hide)
         self.cancelButton.setIcon(KIcon("cancel"))
 

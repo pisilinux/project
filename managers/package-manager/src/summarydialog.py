@@ -80,6 +80,17 @@ class SummaryDialog(QtGui.QDialog, Ui_SummaryDialog):
         for desktopFile in desktopFiles:
             self.addApplication(desktopFile)
 
+    def checkIcon(self, iconFileName):
+        extensions = ['png', 'jpg','jpeg', 'svg']
+        pixmapsDir = '/usr/share/pixmaps/'
+        if os.path.isfile(iconFileName) == True:
+            return iconFileName
+        else:
+            for ext in extensions:
+                fname = '%s%s.%s' % (pixmapsDir, iconFileName, ext)
+                if os.path.isfile(fname):
+                    return fname
+
     def addApplication(self, desktopFile):
         parser = desktopparser.DesktopParser()
         parser.read("/%s" % str(desktopFile))
@@ -89,7 +100,7 @@ class SummaryDialog(QtGui.QDialog, Ui_SummaryDialog):
         if nodisplay == "true" or terminal == "true":
             return
 
-        icon = parser.safe_get_locale('Desktop Entry', 'Icon', None)
+        icon = self.checkIcon(parser.safe_get_locale('Desktop Entry', 'Icon', None))
         command = parser.safe_get_locale('Desktop Entry', 'Exec', None)
         if not command:
             return
