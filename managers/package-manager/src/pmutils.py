@@ -118,7 +118,7 @@ class PM:
 
 def get_real_paths(packages):
     # If packages are not from repo or remote, find their absolute paths
-    return map(lambda x: x if not x.endswith('pisi') or '://' in x else os.path.abspath(x), packages)
+    return map(lambda x: x if not x.endswith('.pisi') or '://' in x else os.path.abspath(x), packages)
 
 def isAllLocal(packages):
     return all(map(lambda x: x.endswith('.pisi') and not '://' in x, packages))
@@ -135,7 +135,7 @@ def waitCursor():
     QApplication.setOverrideCursor(QCursor(Qt.WaitCursor))
 
 def restoreCursor():
-    # According to the Qt Documentation it should be called twice to reset 
+    # According to the Qt Documentation it should be called twice to reset
     # cursor to the default if one use waitCursor twice.
     QApplication.restoreOverrideCursor()
     QApplication.restoreOverrideCursor()
@@ -156,7 +156,7 @@ def reset_proxy_settings():
     QNetworkProxy.setApplicationProxy(QNetworkProxy())
 
 def network_available():
-    return pisi.fetcher.Fetcher('http://appinfo.pardus.org.tr').test()
+    return pisi.fetcher.Fetcher('http://appinfo.pisilinux.org').test()
 
 def parse_proxy(line):
     settings = {'domain':None,'user':None,'pass':None,'host':None,'port':None}

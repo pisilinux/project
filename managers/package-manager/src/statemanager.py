@@ -158,7 +158,7 @@ class StateManager(QObject):
         if config.USE_APPINFO:
             if network_available():
                 if not AppInfoClient().checkOutDB()[0]:
-                    AppInfoClient().setServer('http://appinfo.pardus.org.tr')
+                    AppInfoClient().setServer('http://appinfo.pisilinux.org')
                     AppInfoClient().checkOutDB()
 
         return True

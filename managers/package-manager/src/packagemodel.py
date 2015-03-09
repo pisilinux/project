@@ -47,7 +47,7 @@ class PackageModel(QAbstractTableModel):
 
         if config.USE_APPINFO:
             self.appinfo = AppInfoClient()
-            self.appinfo.setServer('http://appinfo.pardus.org.tr')
+            self.appinfo.setServer('http://appinfo.pisilinux.org')
             if not self.appinfo.initializeLocalDB()[0]:
                 self.appinfo.checkOutDB()
 

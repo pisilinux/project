@@ -22,5 +22,5 @@ class RepoDialog(QtGui.QDialog, Ui_RepoDialog):
         QtGui.QDialog.__init__(self, parent)
         self.setupUi(self)
         arch = pisi.ctx.config.values.general.architecture
-        self.repoAddress.addItem("http://packages.pardus.org.tr/pardus/kurumsal2/stable/%s/pisi-index.xml.xz" % arch)
+        self.repoAddress.addItem("http://packages.pisilinux.org/repositories/%s/stable/x86_64/pisi-index.xml.xz" % arch)
 
